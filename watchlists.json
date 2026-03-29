@@ -1,0 +1,59 @@
+{
+  "_notes": {
+    "sources": [
+      "Watchlist-AIinfra.csv",
+      "Watchlist-QualitySector.csv",
+      "Portfolio-Robinhood-Holdings-2026-03-29.csv",
+      "Portfolio-Vanguard-RothIRA-Holdings-2026-03-29.csv"
+    ],
+    "excluded": [
+      "CCO.TO  (Canadian-listed, use CCO if US ADR available)",
+      "GLD     (commodity ETF)",
+      "SLV     (commodity ETF)",
+      "IBIT    (Bitcoin ETF)",
+      "ETHA    (Ethereum ETF)",
+      "VXUS    (international ETF)",
+      "NLR     (nuclear sector ETF)"
+    ],
+    "renamed": [
+      "BRK.B -> BRK-B  (yfinance format)"
+    ],
+    "sparse_data_risk": [
+      "AIPO, AXTI, CHPS, IDGT, LWLG, NBIS, OSS, POET, TSEM, VIAV",
+      "These are small-cap or recently-listed names. Skipped gracefully if yfinance returns no data."
+    ],
+    "last_updated": "2026-03-29"
+  },
+  "tradeable": [
+    "A",    "AAOI",  "AAPL",  "ABBV",  "ABT",
+    "ADI",  "AIPO",  "AKAM",  "ALAB",  "AMAT",
+    "AMD",  "AMZN",  "ANET",  "APH",   "APO",
+    "APLD", "APP",   "ARM",   "ARW",   "ASML",
+    "AVGO", "AXON",  "AXP",   "AXTI",  "BE",
+    "BRK-B","BSX",   "BX",    "C",     "CAT",
+    "CEG",  "CHPS",  "CIEN",  "COIN",  "COHR",
+    "COST", "CRH",   "CRWD",  "CSCO",  "CTVA",
+    "CVX",  "DDOG",  "DE",    "DELL",  "DOCN",
+    "DUK",  "EQIX",  "EQT",   "ETN",   "FCX",
+    "FDX",  "FIX",   "FN",    "FSLY",  "GE",
+    "GEV",  "GILD",  "GLW",   "GOOG",  "GS",
+    "HAL",  "HD",    "HOOD",  "IDGT",  "INTC",
+    "IREN", "ISRG",  "JNJ",   "JPM",   "KEYS",
+    "KKR",  "KLAC",  "LIN",   "LITE",  "LLY",
+    "LMT",  "LNG",   "LRCX",  "LWLG",  "MA",
+    "MELI", "META",  "MOD",   "MPWR",  "MRK",
+    "MRVL", "MS",    "MSFT",  "MU",    "NDAQ",
+    "NBIS", "NEE",   "NEM",   "NET",   "NFLX",
+    "NKE",  "NOC",   "NOW",   "NRG",   "NVO",
+    "NVDA", "OKTA",  "ORCL",  "OSS",   "PANW",
+    "PG",   "PLD",   "PLTR",  "PNC",   "POET",
+    "PSX",  "PWR",   "RBRK",  "REGN",  "RTX",
+    "SBUX", "SCHW",  "SHOP",  "SHW",   "SNDK",
+    "SNOW", "SNPS",  "SPOT",  "ST",    "TER",
+    "TGT",  "TJX",   "TMO",   "TMUS",  "TSEM",
+    "TSM",  "TSLA",  "UBER",  "UNH",   "V",
+    "VECO", "VIAV",  "VRT",   "VRTX",  "VST",
+    "WDC",  "WELL",  "WMT",   "XOM",   "ZS"
+  ],
+  "benchmarks": ["SPY", "QQQ", "SMH", "XLK", "SOXX"]
+}

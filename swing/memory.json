@@ -1,0 +1,40 @@
+{
+  "market_notes": "Tech correction entering second week (QQQ -3.4%, SMH -2.7% 1W) with persistent flight-to-quality: ARM +8.9%, MRVL +7.9%, TSEM +5.1%, CIEN +4.6% outperforming while mega-cap mega-growth remains weak (MSFT -6.6%, GOOG -8.4%, NVDA -3.0%, LLY -3.1%). Market is repricing growth expectations downward but maintaining confidence in structural AI capex cycle\u2014semiconductor equipment/IP licensing/networking infrastructure names remain bid despite broad selloff. Macro backdrop uncertain: Fed guidance, recession risk signals, but enterprise semiconductor orders and foundry demand remain resilient. Portfolio positioned in high-quality infrastructure beneficiaries with catalysts; no urgency to chase amid uncertainty.",
+  "watching": [
+    "ARM earnings guidance on AI/CPU IP licensing momentum\u2014key validation of infrastructure thesis",
+    "TSEM/MRVL technical breakouts ($175, $95 resistance levels)\u2014confirm continuation of relative strength",
+    "Semiconductor equipment orders data (KLAC, ASML guidance) for AI capex cycle confirmation",
+    "META short stop loss $562.52\u2014reassess on relief bounce; legal headwinds remain structural",
+    "VIX technicals and SPY support ($580-600 range)\u2014monitor for macro capitulation vs. grinding lower",
+    "Federal Reserve communications for rate guidance and recession risk signaling",
+    "NVIDIA/AI announcements as primary category catalyst for rotation acceleration"
+  ],
+  "recent_runs": [
+    {
+      "run_id": "swing-20260329-1608",
+      "timestamp": "2026-03-29T16:08:23.455620-04:00",
+      "reasoning": "Market is in a pronounced tech selloff with SPY down 2.2% WoW and QQQ down 3.4%, yet ARM has outperformed (+8.9% 1W) on quality rotation themes while META shows capitulation (-11.4% 1W, vol ratio 2.02). Risk/reward is asymmetric: ARM's thesis remains intact with strong momentum and relative strength; META's short is now deeply underwater on a panic move. Holding 91% cash with only two tiny positions suggests underdeployment\u2014looking for high-conviction entries in oversold, quality names with catalysts ahead.",
+      "actions_taken": [
+        "BUY 30 AKAM @ $114.50 ($3,435.00)"
+      ]
+    },
+    {
+      "run_id": "swing-20260329-1912",
+      "timestamp": "2026-03-29T19:12:19.106305-04:00",
+      "reasoning": "Tech selloff remains pronounced (QQQ -3.4% 1W, SMH -2.7%) with flight-to-quality intact. ARM and MRVL continue outperforming on AI infrastructure strength, while AKAM entry at $114.50 is performing well (+3.6% 1W, +14.6% 1M). META short remains a hedge but underwater\u2014no urgency to cover yet. Portfolio is appropriately defensive (87.6% cash) given macro uncertainty, but high-conviction setup emerging in oversold semiconductor equipment and cloud infrastructure names with catalysts ahead. Focus on quality businesses at attractive valuations during this correction.",
+      "actions_taken": [
+        "BUY 25 MRVL @ $94.88 ($2,372.00)",
+        "BUY 15 TSEM @ $171.92 ($2,578.80)",
+        "BUY 3 ASML @ $1302.47 ($3,907.41)"
+      ]
+    },
+    {
+      "run_id": "swing-20260329-1939",
+      "timestamp": "2026-03-29T19:39:34.906617-04:00",
+      "reasoning": "Market remains in pronounced tech correction (QQQ -3.4% 1W, SMH -2.7%) with clear flight-to-quality rotation intact. ARM +8.9%, MRVL +7.9%, TSEM +5.1% confirm institutional accumulation in AI infrastructure names. Long-term agent holds major positions in NVDA, MSFT, GOOG, AMZN (all underwater) and co-owns ARM, MRVL with me\u2014no conflicts. META short hedge is now underwater on panic capitulation move (-11.4% 1W) but thesis remains valid given legal setbacks and competitive headwinds; holding for relief bounce. Current portfolio is 21% deployed with high-conviction infrastructure plays; macro backdrop remains uncertain (Fed signals, recession risks) but semiconductor/networking orders resilient. No new catalyst-driven entries warranted; focus on monitoring breakouts and macro inflection.",
+      "actions_taken": [
+        "No trades \u2014 HOLD all positions."
+      ]
+    }
+  ]
+}

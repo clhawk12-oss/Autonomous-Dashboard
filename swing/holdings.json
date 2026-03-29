@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "agent_type": "swing",
+    "starting_cash": 100000.0,
+    "last_updated": "2026-03-29T19:39:34.906617-04:00",
+    "last_run_id": "swing-20260329-1939"
+  },
+  "cash": 78717.46242857141,
+  "margin_reserved": 11828.7,
+  "positions": {
+    "ARM": {
+      "direction": "long",
+      "shares": 35.0,
+      "avg_cost": 144.13,
+      "current_price": 144.13,
+      "market_value": 5044.55,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-03-29",
+      "thesis": "ARM's outperformance during broad semiconductor selloff indicates flight to quality in CPU/GPU IP licensing; earnings visibility and foundational position in AI chip architecture should support continued upside as market rotates back to quality growth.",
+      "stop_loss": 135.48,
+      "take_profit": 170.07
+    },
+    "META": {
+      "direction": "short",
+      "shares": 15.0,
+      "avg_cost": 525.72,
+      "current_price": 525.72,
+      "market_value": 7885.8,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-03-29",
+      "thesis": "META faces structural headwinds from AI competition, regulatory pressures, and advertising weakness in macro downturn; extreme weekly decline and volume spike suggest panic capitulation, creating oversold bounce risk; short position hedges portfolio against growth-at-any-price rotation.",
+      "stop_loss": 562.52,
+      "take_profit": 420.58,
+      "borrow_cost_accrued": 1.8775714285714287,
+      "_margin_hold": 11828.7
+    },
+    "AKAM": {
+      "direction": "long",
+      "shares": 30.0,
+      "avg_cost": 114.5,
+      "current_price": 114.5,
+      "market_value": 3435.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-03-29",
+      "thesis": "AKAM trades at attractive valuation relative to growth amid sector selloff. Positioned in mission-critical cyber/edge infrastructure with recurring SaaS revenue model; benefits from secular AI/cloud capex cycle and enterprise digital transformation. Entry captures oversold opportunity while macro remains uncertain.",
+      "stop_loss": 105.34,
+      "take_profit": 131.67
+    },
+    "MRVL": {
+      "direction": "long",
+      "shares": 25.0,
+      "avg_cost": 94.88,
+      "current_price": 94.88,
+      "market_value": 2372.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-03-29",
+      "thesis": "MRVL benefits from secular AI capex cycle and data center networking TAM expansion. Outperformance during correction signals institutional quality rotation; breaking above recent highs would confirm continuation. Catalysts: upcoming earnings guidance on AI/cloud adoption trends, semiconductor demand data.",
+      "stop_loss": 87.29,
+      "take_profit": 109.11
+    },
+    "TSEM": {
+      "direction": "long",
+      "shares": 15.0,
+      "avg_cost": 171.92,
+      "current_price": 171.92,
+      "market_value": 2578.7999999999997,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-03-29",
+      "thesis": "TSEM is a pure-play beneficiary of AI capex cycle and foundational supplier to NVIDIA/AMD. Recent 38.8% 1M gain suggests smart money accumulation ahead of next leg. Breakout above $175 would confirm resumption of uptrend. Catalysts: semiconductor equipment orders data, earnings traction on advanced node demand.",
+      "stop_loss": 158.17,
+      "take_profit": 199.43
+    },
+    "ASML": {
+      "direction": "long",
+      "shares": 3.0,
+      "avg_cost": 1302.47,
+      "current_price": 1302.47,
+      "market_value": 3907.41,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-03-29",
+      "thesis": "ASML's order book and guidance are leading indicators for semiconductor capex cycle. Outperformance during selloff suggests institutional confidence in AI capex sustainability. Near-term pullback presents accumulation opportunity before next earnings cycle confirms continued demand strength.",
+      "stop_loss": 1211.3,
+      "take_profit": 1484.82
+    }
+  },
+  "closed_positions": [],
+  "performance": {
+    "total_realized_pnl": 0,
+    "total_unrealized_pnl": 0.0,
+    "total_pnl": 0.0,
+    "total_return_pct": 0.0,
+    "long_exposure": 17337.76,
+    "short_exposure": 7885.8,
+    "net_exposure": 9451.96,
+    "gross_exposure": 25223.56,
+    "cash_pct": 0.7296,
+    "win_rate": null,
+    "trades_closed": 0
+  }
+}
