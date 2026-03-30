@@ -1,21 +1,22 @@
 {
-  "market_notes": "Portfolio fully deployed (12 positions, ~5.2% cash). All positions entered at cost on 2026-03-29. Core thesis: AI infrastructure buildout multi-year secular trend. Key macro overlay: Iran conflict driving energy premium (LNG, CVX, XOM, PSX all showing strong relative strength), Australian LNG outage tightening global supply. Tariff uncertainty remains primary overhang for semiconductors (NVDA, AVGO, ARM). META faces new legal headwinds (LA social media addiction lawsuit) AND swing trader is short \u2014 near-term caution warranted but long-term ad moat thesis intact. ARM benefiting from SoftBank/OpenAI deepening investment. CIEN added to FTSE index \u2014 institutional buying catalyst. AI hyperscaler capex intentions unchanged. Federal Reserve faces stagflation dilemma. Cash near 3% floor \u2014 cannot add new positions without either trimming winners or waiting for portfolio appreciation. DELL +41.5% 1M but not owned \u2014 missed the move. AAOI +82.9% 1M, AXTI +63.3% 1M are speculative optical names showing explosive momentum (too small/speculative for long-term mandate).",
+  "market_notes": "Portfolio fully deployed (12 positions, ~5.2% cash). All positions entered at cost on 2026-03-29. Core thesis: AI infrastructure buildout multi-year secular trend. Key macro overlay: Iran conflict driving energy premium (LNG, CVX showing continued 1W strength at +5.7% and +4.7% respectively); Australian LNG outage tightening global supply \u2014 thesis extending. Tariff uncertainty remains primary overhang for semiconductors (NVDA, AVGO, ARM). META and GOOGL both lost LA social media addiction lawsuit \u2014 legal risk elevated but advertising moat intact. Swing trader remains SHORT META \u2014 near-term momentum signal noted. ARM continuing relative outperformance (+8.9% 1W) on SoftBank/OpenAI investment deepening. CIEN added to FTSE index \u2014 institutional buying catalyst supporting position. DELL +41.5% 1M and TSEM +38.8% 1M showing missed momentum opportunities but cash constraints prevent additions. AI hyperscaler capex intentions unchanged. Federal Reserve faces stagflation dilemma. Cash near 3% floor \u2014 cannot add new positions without trimming winners.",
   "watching": [
-    "META Q1 2026 earnings \u2014 validate ad revenue growth and AI ROI; monitor LA lawsuit legal liability development; swing trader short is near-term bearish signal",
-    "LNG \u2014 Australian LNG outage tightening global supply, monitoring for thesis extension; Wells Fargo $335 PT implies 13% upside from entry",
-    "CVX oil price sensitivity \u2014 Iran conflict supporting prices above $65/bbl threshold; Warren Buffett commentary validating thesis",
-    "ARM \u2014 SoftBank taking $40B loan to deepen OpenAI and ARM AI bet; AGI CPU launch catalyst; royalty rate inflection with AI server complexity",
+    "META Q1 2026 earnings \u2014 validate ad revenue growth and AI ROI; LA social media addiction lawsuit liability (co-defendant with GOOGL); swing trader short is near-term bearish signal",
+    "GOOGL \u2014 DOJ antitrust ruling on search monopoly; LA social media lawsuit (co-defendant with META); monitor legal liability development",
+    "LNG \u2014 Australian LNG outage tightening global supply, thesis extending; Wells Fargo $335 PT implies 13% upside from entry; Iran Strait of Hormuz toll risk",
+    "CVX \u2014 Iran conflict supporting oil prices above $65/bbl threshold; Chevron CEO commentary on Iran timeline; Australian LNG indirect benefit",
+    "ARM \u2014 SoftBank taking $40B loan to deepen OpenAI and ARM AI bet; AGI CPU launch catalyst; royalty rate inflection with AI server complexity; continued 1W outperformance",
     "AVGO \u2014 Google TPU/custom silicon revenue disclosure in next earnings; Symantec CBX platform launch; US government defense deal signed",
-    "MRVL \u2014 next custom silicon win announcements; supply chain/trade risk monitoring from recent analyst note",
-    "NVDA \u2014 Blackwell B200/GB200 ramp volumes; NVIDIA-backed Reflection AI raising $2.5B signals continued AI ecosystem investment",
+    "MRVL \u2014 next custom silicon win announcements; supply chain/trade risk monitoring; 1W +7.9% strong momentum",
+    "NVDA \u2014 Blackwell B200/GB200 ramp volumes; Meta nuclear power deal (6.6 GW) signals long-term AI compute demand",
     "MSFT \u2014 Azure AI workload growth rate; UBS lowered PT but maintained Buy \u2014 watch for earnings confirmation",
-    "GOOGL \u2014 DOJ antitrust ruling on search monopoly; LA social media lawsuit (co-defendant with META); Alphabet AI advantage article signals positive sentiment",
-    "CIEN \u2014 next earnings order book trajectory; FTSE inclusion driving institutional accumulation",
+    "CIEN \u2014 next earnings order book trajectory; FTSE inclusion driving institutional accumulation; 1W +4.6%",
     "EQIX \u2014 power availability and capacity expansion; analyst revisiting valuation on AI demand signal",
     "COST \u2014 gas station expansion as inflation hedge; membership renewal rate and behavior shift monitoring",
     "Tariff policy \u2014 any semiconductor carveouts would be significantly positive for AVGO, NVDA, TSM",
-    "Federal Reserve rate path \u2014 stagflation scenario could pressure growth stock multiples further",
-    "PSX +23.5% 1M and XOM +15.1% 1M \u2014 consider adding energy exposure if cash becomes available through position trimming"
+    "Federal Reserve rate path \u2014 stagflation scenario could pressure growth stock multiples",
+    "Amazon chip division \u2014 second senior exit in months is a risk signal for in-house silicon strategy; monitor for impact on ARM/MRVL competitive positioning",
+    "PSX +23.5% 1M and HAL +13.7% 1M \u2014 consider adding energy exposure if cash becomes available through position appreciation and trimming"
   ],
   "recent_runs": [
     {
@@ -40,6 +41,14 @@
       "run_id": "long_term-20260329-1939",
       "timestamp": "2026-03-29T19:39:54.361211-04:00",
       "reasoning": "Portfolio is newly constructed with 12 positions and $5,162 cash (~5.2% of portfolio). All positions were just entered at cost so there is no P&L to manage. The macro environment remains challenging: Iran tensions are boosting energy names (LNG, CVX showing continued strength), while AI semiconductor complex consolidates on tariff uncertainty. The Swing Trader is SHORT META at the same entry price as my long \u2014 this is a meaningful near-term momentum signal worth noting. Key observations: (1) META faces new legal headwinds (social media addiction lawsuit loss in LA) and the swing trader shorting it signals bearish near-term momentum; however my long-term thesis on Meta's advertising moat and AI ROI remains intact \u2014 I'll hold but watch closely. (2) Energy sector momentum continues \u2014 PSX +23.5% 1M, XOM +15.1% 1M, EQT +13.1% 1M, HAL +13.7% 1M suggest the Iran/geopolitical premium is not yet fading. (3) With only $5,162 cash remaining (~5.2%), I'm near the 3% floor and cannot deploy meaningfully without selling something. (4) CIEN had FTSE inclusion catalyst and +17.7% 1M \u2014 thesis intact. (5) ARM showing strong relative strength at +11.5% 1M and +8.9% 1W \u2014 SoftBank deepening OpenAI/ARM bet is a positive signal. (6) I have 12 positions vs 30 max \u2014 room exists but cash is limiting. The prudent action is to hold all current positions, let the new entries develop, and wait for either cash generation (from wins) or better entry points rather than chasing names at extended valuations. Cash at ~5.2% is tight but above the 3% floor.",
+      "actions_taken": [
+        "No trades \u2014 HOLD all positions."
+      ]
+    },
+    {
+      "run_id": "long_term-20260329-2147",
+      "timestamp": "2026-03-29T21:47:32.675785-04:00",
+      "reasoning": "All 12 positions were entered at cost just yesterday (2026-03-29), so there is no P&L to manage and no thesis has been tested yet. The macro environment remains challenging with tariff uncertainty, Iran conflict premium in energy, and AI semiconductor complex under pressure. With only $5,162 cash (~5.2% of portfolio) I am near the 3% floor and cannot add meaningful new positions without trimming existing ones. Key observations: (1) META and GOOGL both lost a major social media addiction lawsuit in LA \u2014 this is a meaningful legal headwind but doesn't break the long-term advertising moat thesis; holding both. (2) The swing trader remains SHORT META \u2014 near-term bearish momentum signal noted but thesis intact. (3) DELL +41.5% 1M, TSEM +38.8% 1M are showing explosive momentum but I'm already at near-full deployment. (4) ARM showing continued relative strength at +8.9% 1W \u2014 SoftBank/OpenAI thesis playing out. (5) Energy names (LNG +5.7% 1W, CVX +4.7% 1W, HAL +10.7% 1W) continuing to outperform as Australian LNG outage and Iran tensions persist. (6) No positions are at stop-loss levels. The correct action is patient holding \u2014 all positions are day-old entries at cost with intact theses, and insufficient cash to add new positions without degrading existing high-conviction holdings.",
       "actions_taken": [
         "No trades \u2014 HOLD all positions."
       ]

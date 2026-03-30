@@ -1,5 +1,5 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-03-29 19:40 ET*
+*Last updated: 2026-03-29 21:48 ET*
 
 ## Performance
 | Metric | Value |
@@ -31,4 +31,4 @@
 | COST | LONG | 3 | $983.86 | $983.86 | $2,951.58 | $+0.00 | +0.0% | $865.80 |
 
 ## PM Narrative
-Portfolio holds 12 core positions spanning AI semiconductors (NVDA, AVGO, ARM, MRVL), AI hyperscalers (MSFT, GOOGL, AMZN), AI platform (META), networking (CIEN), data center REIT (EQIX), energy (LNG, CVX), and defensive retail (COST). All positions were entered at cost in the prior session. Cash stands at ~$5,162 (~5.2% of portfolio), just above the 3% hard floor. No new trades are warranted this session: (1) cash is too limited to open meaningful new positions, (2) all existing positions are at cost with no reason to trim, (3) the macro environment remains uncertain but core AI capex thesis is intact. The swing trader's META short is acknowledged as a near-term bearish signal — I'm holding my long META position given the 12-18 month thesis on advertising moat and AI ROI, but will monitor the legal liability development carefully. Energy names (LNG, CVX) continue to show exceptional relative strength on Iran/geopolitical premium and Australian LNG outage tightening global supply. The portfolio is well-diversified across the AI infrastructure buildout theme with appropriate defensive exposure in energy and consumer staples. Patience is the right posture — let the thesis play out over the coming quarters.
+Portfolio remains fully constructed with 12 high-conviction positions across AI infrastructure (NVDA, MSFT, GOOGL, AMZN, AVGO, ARM, MRVL, EQIX, CIEN), energy infrastructure (LNG, CVX), and consumer/defensive (META, COST). All positions were entered at cost yesterday and no thesis has deteriorated. The legal loss for META and GOOGL in the LA social media addiction case is a negative development and risk to monitor, but does not break the fundamental advertising moat thesis for either company. Energy continues to be a strong relative performer driven by Iran conflict and Australian LNG supply disruption. Cash at ~5.2% is tight and I'm operating near the floor — no new positions can be added without trimming. The appropriate action is to hold all current positions, let the theses develop over months, and maintain patience through near-term macro volatility. I will look to trim any position that appreciates significantly to fund new opportunities.
