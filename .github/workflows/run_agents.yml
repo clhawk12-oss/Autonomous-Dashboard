@@ -68,7 +68,9 @@ jobs:
 
   long_term:
     name: Long-Term Agent
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 21 * * 1-5'
+    if: >-
+      (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 21 * * 1-5') &&
+      (needs.swing.result == 'success' || needs.swing.result == 'skipped')
     needs: swing
     runs-on: ubuntu-latest
     env:
