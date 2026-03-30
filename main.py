@@ -42,6 +42,7 @@ from config import (
     LONG_TERM_SCHEDULE_ET,
     SCHEDULE_TOLERANCE_MINUTES,
     AI_INFRA_UNIVERSE,
+    TRADEABLE_UNIVERSE,
     BENCHMARK_TICKERS,
     SWING_MEMORY_RUNS,
     LONG_TERM_MEMORY_RUNS,
@@ -716,21 +717,29 @@ def run_agent(agent_type: str, force: bool = False) -> None:
     # ── Update current prices in holdings ──────────────────────────────────
     update_prices(holdings, prices)
 
-    # ── Fetch news + earnings for held positions ────────────────────────────
-    held_tickers = list(holdings["positions"].keys())
-    news: dict     = {}
-    earnings: dict = {}
-    if held_tickers:
-        print(f"[{run_id}] Fetching news and earnings for {len(held_tickers)} held positions...")
-        try:
-            news = fetch_news(held_tickers)
+    # ── Fetch news + earnings ───────────────────────────────────────────────
+    held_tickers     = list(holdings["positions"].keys())
+    watchlist_only   = [t for t in TRADEABLE_UNIVERSE if t not in held_tickers]
+    news: dict             = {}
+    earnings: dict         = {}
+    watchlist_news: dict   = {}
+    watchlist_earnings: dict = {}
+
+    print(f"[{run_id}] Fetching news and earnings for {len(held_tickers)} held + {len(watchlist_only)} watchlist tickers...")
+    try:
+        if held_tickers:
+            news     = fetch_news(held_tickers, max_headlines=5, days=7)
             earnings = fetch_earnings_dates(held_tickers)
             if earnings:
-                print(f"[{run_id}] Earnings in next 14 days: {earnings}")
+                print(f"[{run_id}] Earnings alert (held): {earnings}")
             else:
-                print(f"[{run_id}] No earnings in next 14 days.")
-        except Exception as e:
-            print(f"[{run_id}] WARN: news/earnings fetch failed: {e}")
+                print(f"[{run_id}] No earnings in next 14 days for held positions.")
+        watchlist_news     = fetch_news(watchlist_only, max_headlines=2, days=3)
+        watchlist_earnings = fetch_earnings_dates(watchlist_only)
+        print(f"[{run_id}] Watchlist: {len(watchlist_news)} tickers with news, "
+              f"{len(watchlist_earnings)} with upcoming earnings.")
+    except Exception as e:
+        print(f"[{run_id}] WARN: news/earnings fetch failed: {e}")
 
     # ── Accrue borrow costs (EOD runs only) ────────────────────────────────
     is_eod_run = agent_type == "long_term" or (
@@ -767,6 +776,8 @@ def run_agent(agent_type: str, force: bool = False) -> None:
             earnings=earnings,
             peer_holdings=peer_holdings,
             peer_agent=peer_agent,
+            watchlist_news=watchlist_news,
+            watchlist_earnings=watchlist_earnings,
         )
         decision  = call_claude(agent_type, user_msg)
     except RuntimeError as e:

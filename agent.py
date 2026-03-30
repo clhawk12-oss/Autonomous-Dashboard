@@ -384,7 +384,7 @@ def build_news_context(news: dict[str, list]) -> str:
     """Format recent headlines for held positions into a context block."""
     if not news:
         return ""
-    lines = ["## Recent News (held positions)"]
+    lines = ["## Recent News — Held Positions (last 7 days)"]
     for ticker in sorted(news.keys()):
         items = news[ticker]
         if not items:
@@ -410,6 +410,33 @@ def build_earnings_context(earnings: dict[str, str]) -> str:
     return "\n".join(lines)
 
 
+def build_watchlist_news_context(news: dict[str, list]) -> str:
+    """Format recent headlines for unowned watchlist tickers (opportunity scan)."""
+    if not news:
+        return ""
+    lines = ["## Market News — Watchlist Opportunities (last 3 days)"]
+    for ticker in sorted(news.keys()):
+        items = news[ticker]
+        if not items:
+            continue
+        lines.append(f"**{ticker}**")
+        for item in items:
+            h = item["hours_ago"]
+            age = f"{h:.0f}h ago" if h < 48 else f"{h/24:.0f}d ago"
+            lines.append(f"  - [{age}] {item['title']} ({item['publisher']})")
+    return "\n".join(lines)
+
+
+def build_watchlist_earnings_context(earnings: dict[str, str]) -> str:
+    """Format upcoming earnings for watchlist tickers not currently held."""
+    if not earnings:
+        return ""
+    lines = ["## Upcoming Earnings — Watchlist (next 14 days, not currently held)"]
+    for ticker, date_str in sorted(earnings.items()):
+        lines.append(f"  - {ticker}: reports {date_str}")
+    return "\n".join(lines)
+
+
 def build_user_message(
     holdings: dict,
     technicals: dict[str, dict],
@@ -419,14 +446,18 @@ def build_user_message(
     earnings: dict = None,
     peer_holdings: dict = None,
     peer_agent: str = None,
+    watchlist_news: dict = None,
+    watchlist_earnings: dict = None,
 ) -> str:
     """Assemble the full Layer 2 + Layer 3 user message."""
-    memory_ctx    = build_memory_context(memory or {})
-    portfolio_ctx = build_portfolio_context(holdings, market_status)
-    peer_ctx      = build_peer_context(peer_holdings, peer_agent) if peer_holdings is not None else ""
-    earnings_ctx  = build_earnings_context(earnings or {})
-    news_ctx      = build_news_context(news or {})
-    benchmark_ctx = build_benchmark_context(technicals)
+    memory_ctx              = build_memory_context(memory or {})
+    portfolio_ctx           = build_portfolio_context(holdings, market_status)
+    peer_ctx                = build_peer_context(peer_holdings, peer_agent) if peer_holdings is not None else ""
+    earnings_ctx            = build_earnings_context(earnings or {})
+    watchlist_earnings_ctx  = build_watchlist_earnings_context(watchlist_earnings or {})
+    news_ctx                = build_news_context(news or {})
+    watchlist_news_ctx      = build_watchlist_news_context(watchlist_news or {})
+    benchmark_ctx           = build_benchmark_context(technicals)
 
     # Watchlist technicals — exclude benchmark ETFs from the tradeable table
     watchlist_tech = {t: v for t, v in technicals.items()
@@ -441,7 +472,12 @@ def build_user_message(
         "No text outside the JSON."
     )
 
-    parts = [p for p in [memory_ctx, portfolio_ctx, peer_ctx, earnings_ctx, news_ctx, benchmark_ctx, technicals_ctx, task] if p]
+    parts = [p for p in [
+        memory_ctx, portfolio_ctx, peer_ctx,
+        earnings_ctx, watchlist_earnings_ctx,
+        news_ctx, watchlist_news_ctx,
+        benchmark_ctx, technicals_ctx, task,
+    ] if p]
     return "\n\n".join(parts)
 
 

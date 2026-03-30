@@ -249,17 +249,17 @@ def _fetch_ticker_news(ticker: str, max_headlines: int, cutoff_ts: float) -> tup
         return ticker.upper(), []
 
 
-def fetch_news(tickers: list[str], max_headlines: int = 5) -> dict[str, list[dict]]:
+def fetch_news(tickers: list[str], max_headlines: int = 5, days: int = 7) -> dict[str, list[dict]]:
     """
-    Fetch recent headlines for a list of tickers (typically held positions).
+    Fetch recent headlines for a list of tickers.
     Returns {ticker: [{"title", "publisher", "hours_ago"}, ...]}.
-    Only includes articles from the last 7 days. Fetches in parallel.
+    Only includes articles within `days` days. Fetches in parallel.
     """
     if not tickers:
         return {}
-    cutoff_ts = _time.time() - 7 * 86_400
+    cutoff_ts = _time.time() - days * 86_400
     results: dict[str, list] = {}
-    with ThreadPoolExecutor(max_workers=min(len(tickers), 10)) as executor:
+    with ThreadPoolExecutor(max_workers=min(len(tickers), 20)) as executor:
         futures = {
             executor.submit(_fetch_ticker_news, t, max_headlines, cutoff_ts): t
             for t in tickers
@@ -321,7 +321,7 @@ def fetch_earnings_dates(tickers: list[str], days_ahead: int = 14) -> dict[str, 
     today   = date.today()
     cutoff  = today + timedelta(days=days_ahead)
     results: dict[str, str] = {}
-    with ThreadPoolExecutor(max_workers=min(len(tickers), 10)) as executor:
+    with ThreadPoolExecutor(max_workers=min(len(tickers), 20)) as executor:
         futures = {
             executor.submit(_fetch_ticker_earnings, t, today, cutoff): t
             for t in tickers
