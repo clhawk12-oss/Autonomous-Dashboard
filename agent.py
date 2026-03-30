@@ -86,7 +86,7 @@ SHORT SELLING (paper trading simulation)
 OUTPUT FORMAT
 Return ONLY valid JSON — no prose, no markdown fences, no text outside the JSON object.
 {{
-  "reasoning": "2-3 sentences: market view, regime, and your current portfolio stance",
+  "reasoning": "**Macro:** 1-2 sentences on market regime, SPY/QQQ/SMH context, macro risks. **Sectors:** 1-2 sentences on sector rotation — which sectors are leading or lagging and why. **Positions:** 1-2 sentences on your held positions — what is working, what is at risk, what needs watching.",
   "actions": [
     {{
       "action": "BUY" | "SELL" | "SHORT" | "COVER",
@@ -170,7 +170,7 @@ Acknowledge when reasoning from potentially stale data.
 OUTPUT FORMAT
 Return ONLY valid JSON — no prose, no markdown fences, no text outside the JSON object.
 {{
-  "reasoning": "2-3 sentences: your long-term macro view and portfolio construction rationale",
+  "reasoning": "**Macro:** 1-2 sentences on long-term macro backdrop — rates, growth cycle, AI/tech capex cycle. **Sectors:** 1-2 sentences on sector themes — which areas have the strongest multi-year tailwinds or headwinds. **Positions:** 1-2 sentences on your current holdings — thesis conviction, any positions under stress, what you are watching.",
   "actions": [
     {{
       "action": "BUY" | "SELL",

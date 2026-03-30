@@ -233,6 +233,24 @@ def escape_md_dollars(text: str) -> str:
     return re.sub(r'(?<!\\)\$', r'\\$', text)
 
 
+def parse_reasoning_sections(reasoning: str) -> dict:
+    """
+    Try to split structured reasoning into Macro / Sectors / Positions sections.
+    Returns {'macro': ..., 'sectors': ..., 'positions': ...} if structure found,
+    or {'full': reasoning} for old single-paragraph format.
+    """
+    sections: dict = {}
+    for label, key in [("Macro", "macro"), ("Sectors", "sectors"), ("Positions", "positions")]:
+        m = re.search(
+            rf'\*\*{label}:\*\*\s*(.+?)(?=\*\*(?:Macro|Sectors|Positions):\*\*|$)',
+            reasoning,
+            re.DOTALL,
+        )
+        if m:
+            sections[key] = m.group(1).strip()
+    return sections if sections else {"full": reasoning}
+
+
 def format_trade_note(note: str) -> str:
     """
     Format a trade note as markdown bullet points.
@@ -258,8 +276,18 @@ def format_trade_note(note: str) -> str:
 
 
 def portfolio_value(h: dict) -> float:
+    """
+    True net equity: what we'd have if all positions closed at current prices.
+    For shorts: margin (locked collateral) is released, but we pay current market value to close.
+    Formula: cash + margin_reserved + long_exposure - short_exposure
+    """
     perf = h.get("performance", {})
-    return h.get("cash", 0.0) + h.get("margin_reserved", 0.0) + perf.get("long_exposure", 0.0)
+    return (
+        h.get("cash", 0.0)
+        + h.get("margin_reserved", 0.0)
+        + perf.get("long_exposure", 0.0)
+        - perf.get("short_exposure", 0.0)
+    )
 
 
 def get_sector(ticker: str) -> str:
@@ -506,9 +534,28 @@ def render_run_card(run: dict, agent_key: str) -> None:
         # ── Title ─────────────────────────────────────────────────────────
         st.markdown(f"**{title}**")
 
-        # ── Reasoning (dollar signs escaped to prevent LaTeX rendering) ───
+        # ── Reasoning — parsed into labeled sections if structured ────────
         if run.get("reasoning"):
-            st.markdown(escape_md_dollars(run["reasoning"]))
+            sections = parse_reasoning_sections(run["reasoning"])
+            if "full" in sections:
+                # Old single-paragraph format — display as-is
+                st.markdown(escape_md_dollars(sections["full"]))
+            else:
+                # New structured format — display each section with a label
+                section_config = [
+                    ("macro",     "📊 Macro",     "#7ec8e3"),
+                    ("sectors",   "🏭 Sectors",   "#f0883e"),
+                    ("positions", "📋 Positions", "#a8d8a8"),
+                ]
+                for key, label, color in section_config:
+                    text = sections.get(key, "")
+                    if not text:
+                        continue
+                    st.markdown(
+                        f"<span style='color:{color}; font-weight:600'>{label}</span>",
+                        unsafe_allow_html=True,
+                    )
+                    st.markdown(escape_md_dollars(text))
 
         # ── Individual trades ─────────────────────────────────────────────
         if real:

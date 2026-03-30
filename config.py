@@ -27,7 +27,7 @@ AI_INFRA_UNIVERSE:  list[str] = TRADEABLE_UNIVERSE + BENCHMARK_TICKERS  # full f
 ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
 SWING_MODEL        = "claude-haiku-4-5-20251001"   # fast + cheap for 3x/day
 LONG_TERM_MODEL    = "claude-sonnet-4-6"           # stronger reasoning for thesis depth
-MAX_TOKENS_SWING   = 1500
+MAX_TOKENS_SWING   = 3000   # increased from 1500 — structured reasoning + thesis bullets need room
 MAX_TOKENS_LONG    = 4096
 
 # ── Market hours (US/Eastern) ──────────────────────────────────────────────────
