@@ -92,3 +92,14 @@ Borrow cost META: $0.6259/day (total $3.13)
 
 ---
 
+### 2026-03-30 17:25 ET — Run ID: swing-20260330-1725
+**Market**: after-hours | 17:25 ET
+**Reasoning**: Tech correction persists with flight-to-quality intact (QQQ -5.1% 1W, SMH -7.4%); semiconductor infrastructure beneficiaries (ARM +0.1% 1W, MRVL -2.6% 1W, TSEM -7.9% 1W but +27.0% 1M) remain positioned for technical breakouts and macro stabilization. Current portfolio is 21% deployed with 79% cash—appropriately defensive given macro uncertainty (Fed signals, Iran geopolitical risk) and elevated volatility. Portfolio P&L is -1.1%, with ARM down -5.0%, MRVL -7.5%, TSEM -7.8%, AKAM -3.7% but META short hedge only -2.0% underwater (thesis structurally valid on legal/competitive headwinds). No urgent new catalysts warrant incremental deployment; focus on monitoring technical breakouts (TSEM >$175, MRVL >$95) and macro inflection (SPY support $580-600). GlobalFoundries patent suit vs TSEM adds legal risk but doesn't invalidate foundry capex thesis. Holding cash is justified—asymmetric risk/reward in quality oversold thesis already captured.
+**Benchmarks**: SPY 1W -3.6% | QQQ 1W -5.1% | SMH 1W -7.4%
+
+
+**Portfolio after run**: Cash $78,715.57 | P&L $-1,061.63 (-1.06%)
+Borrow cost META: $0.6385/day (total $3.77)
+
+---
+

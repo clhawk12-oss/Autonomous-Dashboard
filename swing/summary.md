@@ -1,27 +1,27 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-03-30 10:15 ET*
+*Last updated: 2026-03-30 17:26 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $-380.80 (-0.38%) |
+| Total P&L | $-1,061.63 (-1.06%) |
 | Realized P&L | $+0.00 |
-| Unrealized P&L | $-380.80 |
-| Cash | $78,716.21 (73.2%) |
-| Long Exposure | $17,051.31 |
-| Short Exposure | $7,980.15 |
-| Net Exposure | $9,071.16 |
+| Unrealized P&L | $-1,061.63 |
+| Cash | $78,715.57 (73.6%) |
+| Long Exposure | $16,436.03 |
+| Short Exposure | $8,045.70 |
+| Net Exposure | $8,390.33 |
 | Win Rate | n/a (0 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 35 | $144.13 | $143.00 | $5,005.00 | $-39.55 | -0.8% | $135.48 |
-| META | SHORT | 15 | $525.72 | $532.01 | $7,980.15 | $-94.35 | -1.2% | $562.52 |
-| AKAM | LONG | 30 | $114.50 | $113.73 | $3,411.90 | $-23.10 | -0.7% | $105.34 |
-| MRVL | LONG | 25 | $94.88 | $92.12 | $2,303.00 | $-69.00 | -2.9% | $87.29 |
-| TSEM | LONG | 15 | $171.92 | $164.69 | $2,470.35 | $-108.45 | -4.2% | $158.17 |
-| ASML | LONG | 3 | $1302.47 | $1287.02 | $3,861.06 | $-46.35 | -1.2% | $1211.30 |
+| ARM | LONG | 35 | $144.13 | $136.96 | $4,793.60 | $-250.95 | -5.0% | $135.48 |
+| META | SHORT | 15 | $525.72 | $536.38 | $8,045.70 | $-159.90 | -2.0% | $562.52 |
+| AKAM | LONG | 30 | $114.50 | $110.22 | $3,306.60 | $-128.40 | -3.7% | $105.34 |
+| MRVL | LONG | 25 | $94.88 | $87.81 | $2,195.25 | $-176.75 | -7.5% | $87.29 |
+| TSEM | LONG | 15 | $171.92 | $158.58 | $2,378.70 | $-200.10 | -7.8% | $158.17 |
+| ASML | LONG | 3 | $1302.47 | $1253.96 | $3,761.88 | $-145.53 | -3.7% | $1211.30 |
 
 ## PM Narrative
-Portfolio held at 6 high-conviction infrastructure plays (ARM, MRVL, TSEM, AKAM, ASML) representing 21% deployment with 79% cash reserve. Current market regime favors quality oversold names in AI infrastructure; semiconductor/networking capex cycle thesis validated by SoftBank's $40B OpenAI/ARM commitment and resilient enterprise demand signals. META short hedge remains intact at -1.2% P&L despite panic capitulation move—structural headwinds (legal verdict on youth engagement design, AI competition, macro advertising weakness) support thesis continuation; no urgency to cover on current underwater position. TSEM's +31.9% 1M gain reflects smart money accumulation ahead of foundational AI chip adoption cycle, though recent -4.3% 1W pullback suggests consolidation phase; breakout above $175 critical confirmation. MRVL's +12.8% 1M outperformance vs. sector validates AI data center networking TAM expansion thesis; momentum healthy. ARM's +4.5% 1W resilience during broad selloff signals quality rotation intact; SoftBank synergy provides structural support. AKAM and ASML positions remain well-positioned for relief bounce as macro uncertainty digests. No new entries warranted—dry powder maintained for emerging high-conviction setups at more attractive risk/reward ratios. Watching Fed communications, semiconductor equipment orders data, and technical confirmation levels (TSEM $175, MRVL $95) as catalysts for next deployment wave.
+Portfolio held in tactical posture with 6 high-conviction AI infrastructure positions (ARM, MRVL, TSEM, AKAM, ASML, META short) representing 21% deployment and 79% cash dry powder. Tech sector correction remains structural with SPY -3.6% 1W, QQQ -5.1% 1W, SMH -7.4% 1W; flight-to-quality rotation favoring semiconductor/networking IP and foundry capex cycle remains intact despite near-term pullbacks. ARM outperforming relative to broad selloff; MRVL consolidating above $87 with key resistance at $95; TSEM pulled back -7.9% 1W but +27.0% 1M signals institutional accumulation phase. AKAM performing within thesis at -3.7% 1W with RSAC security conference catalysts active. META short remains a hedge (-2.0% underwater) but thesis strengthened by fresh legal verdict on youth engagement design; position size modest (15 shares = 2% portfolio exposure). Macro backdrop remains uncertain with Fed guidance pending, Iran conflict escalating (oil >$100, VIX elevated), and recession signals mixed—enterprise capex resilience in semiconductor orders remains key validation point. No forced entries warranted; market offers asymmetric risk/reward in current oversold quality thesis that is already efficiently captured by existing positioning. Next inflection points: TSEM breakout >$175, MRVL >$95, META relief bounce $540–550, ARM earnings guidance validation, semiconductor equipment demand data (KLAC, ASML). Holding high cash ratio (79%) protects against macro capitulation while maintaining firepower for emerging opportunities.

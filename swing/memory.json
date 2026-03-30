@@ -1,27 +1,18 @@
 {
-  "market_notes": "Tech correction holding steady (QQQ -4.1% 1W, SMH -5.0%) with clear flight-to-quality rotation intact: ARM +4.5%, MRVL +2.2%, TSEM +31.9% 1M outperforming despite near-term pullback. Mega-cap growth under pressure (MSFT -5.8%, GOOG -8.6%) but institutional accumulation in quality infrastructure names validated by SoftBank $40B OpenAI/ARM commitment and resilient enterprise capex signals. META legal verdict on youth engagement design (36h ago) deepens structural headwinds; short position underwater but thesis remains valid. Market repricing growth expectations downward while maintaining confidence in AI capex cycle durability\u2014semiconductor equipment, IP licensing, foundry demand remain structurally bid. Volatility elevated (META VolRatio 0.35, TSEM 0.34, ASML 0.33) but capitulation risk low with institutional accumulation. Macro uncertainty persists (Fed guidance pending, recession signals mixed) but enterprise capex resilience supports quality oversold thesis. Portfolio appropriately defensive at 79% cash with high-conviction infrastructure plays positioned for relief bounce and technical breakout confirmation.",
+  "market_notes": "Tech correction holding steady with pronounced flight-to-quality rotation intact. SPY -3.6% 1W, QQQ -5.1% 1W, SMH -7.4% 1W confirm broad semiconductor/tech weakness. ARM +0.1% 1W outperformance validates quality rotation thesis; MRVL and TSEM both consolidating after significant 1M gains (+7.5% and +27.0% respectively), suggesting institutional accumulation phases. META legal verdict (36h ago) on youth engagement design deepens structural headwinds; short position underwater but thesis valid. Geopolitical risk elevated (Iran\u2013Gulf tensions, oil >$100, VIX +50% 1M) adding macro uncertainty. Fed guidance pending\u2014critical inflection point for growth repricing. Semiconductor equipment orders remain barometer for AI capex cycle durability; GlobalFoundries patent suit vs TSEM adds legal risk but doesn't invalidate foundry positioning. Portfolio at 79% cash is appropriately defensive given macro uncertainty and elevated volatility (META VolRatio 0.35, TSEM 0.34, ASML 0.33). Institutional confidence in AI infrastructure capex cycle persists despite near-term selloff; capitulation risk low.",
   "watching": [
-    "TSEM technical breakout above $175 resistance\u2014critical confirmation level for parabolic uptrend continuation; consolidation phase underway after +31.9% 1M run",
-    "MRVL breakout above $95 resistance\u2014continuation signal for AI data center networking TAM expansion and institutional quality rotation validation",
-    "ARM earnings guidance on AI/CPU IP licensing momentum\u2014validation of SoftBank/OpenAI synergy and foundational infrastructure thesis continuation",
-    "META relief bounce target $540-550 on legal verdict digestion\u2014potential short cover signal if technicals break or macro stabilization emerges",
-    "Semiconductor equipment orders data (KLAC, ASML guidance)\u2014validates AI capex cycle durability and equipment demand resilience in uncertain macro",
+    "TSEM technical breakout above $175 resistance\u2014parabolic uptrend continuation signal after consolidation",
+    "MRVL breakout above $95 resistance\u2014data center networking TAM expansion and quality rotation validation",
+    "ARM earnings guidance on AI/CPU IP licensing momentum\u2014SoftBank/OpenAI synergy validation for foundational infrastructure thesis",
+    "META relief bounce target $540\u2013550\u2014legal verdict digestion and potential short cover signal if technicals break",
+    "Semiconductor equipment orders data (KLAC, ASML guidance)\u2014validates AI capex cycle durability in uncertain macro",
     "Federal Reserve communications for rate guidance and recession risk signaling\u2014critical macro inflection point for growth repricing",
-    "SPY support at $580-600 range\u2014monitor for macro capitulation vs. grinding lower scenario; key level for portfolio risk assessment",
-    "NVIDIA/AI announcements as category catalyst\u2014potential trigger for rotation acceleration back to mega-cap growth vs. quality infrastructure theme continuation",
-    "GlobalFoundries patent suit vs. TSEM evolution\u2014legal/competitive risk monitor for foundry positioning in advanced node capex cycle"
+    "SPY support at $580\u2013600 range\u2014macro capitulation vs. grinding lower scenario; portfolio risk assessment level",
+    "NVIDIA/AI announcements as category catalyst\u2014potential trigger for rotation acceleration back to mega-cap growth",
+    "GlobalFoundries patent suit vs TSEM evolution\u2014legal/competitive risk monitor for foundry positioning in advanced node capex cycle",
+    "Oil price persistence >$100 and geopolitical escalation\u2014macro headwind risk for growth equities and consumer discretionary"
   ],
   "recent_runs": [
-    {
-      "run_id": "swing-20260329-1912",
-      "timestamp": "2026-03-29T19:12:19.106305-04:00",
-      "reasoning": "Tech selloff remains pronounced (QQQ -3.4% 1W, SMH -2.7%) with flight-to-quality intact. ARM and MRVL continue outperforming on AI infrastructure strength, while AKAM entry at $114.50 is performing well (+3.6% 1W, +14.6% 1M). META short remains a hedge but underwater\u2014no urgency to cover yet. Portfolio is appropriately defensive (87.6% cash) given macro uncertainty, but high-conviction setup emerging in oversold semiconductor equipment and cloud infrastructure names with catalysts ahead. Focus on quality businesses at attractive valuations during this correction.",
-      "actions_taken": [
-        "BUY 25 MRVL @ $94.88 ($2,372.00)",
-        "BUY 15 TSEM @ $171.92 ($2,578.80)",
-        "BUY 3 ASML @ $1302.47 ($3,907.41)"
-      ]
-    },
     {
       "run_id": "swing-20260329-1939",
       "timestamp": "2026-03-29T19:39:34.906617-04:00",
@@ -50,6 +41,14 @@
       "run_id": "swing-20260330-1015",
       "timestamp": "2026-03-30T10:15:12.223444-04:00",
       "reasoning": "Tech correction remains structural (QQQ -4.1% 1W, SMH -5.0%) with flight-to-quality intact favoring AI infrastructure (ARM +4.5%, MRVL +2.2%, TSEM -4.3% but +31.9% 1M). Portfolio is appropriately positioned at 21% deployed with 79% cash. Current holdings (ARM, MRVL, TSEM, AKAM, ASML) are all performing within thesis parameters. META short remains underwater (-1.2%) but thesis is structurally valid\u2014legal verdict headwinds persist, and position size is modest (hedge ratio). Macro backdrop remains uncertain with Fed signals pending, but enterprise capex resilience supports semiconductor/networking infrastructure thesis. No urgent new catalysts warrant forced deployment; monitoring TSEM breakout above $175 and MRVL above $95 as technical confirmation levels. Market offers asymmetric risk/reward but current setup captures this efficiently.",
+      "actions_taken": [
+        "No trades \u2014 HOLD all positions."
+      ]
+    },
+    {
+      "run_id": "swing-20260330-1725",
+      "timestamp": "2026-03-30T17:25:40.772176-04:00",
+      "reasoning": "Tech correction persists with flight-to-quality intact (QQQ -5.1% 1W, SMH -7.4%); semiconductor infrastructure beneficiaries (ARM +0.1% 1W, MRVL -2.6% 1W, TSEM -7.9% 1W but +27.0% 1M) remain positioned for technical breakouts and macro stabilization. Current portfolio is 21% deployed with 79% cash\u2014appropriately defensive given macro uncertainty (Fed signals, Iran geopolitical risk) and elevated volatility. Portfolio P&L is -1.1%, with ARM down -5.0%, MRVL -7.5%, TSEM -7.8%, AKAM -3.7% but META short hedge only -2.0% underwater (thesis structurally valid on legal/competitive headwinds). No urgent new catalysts warrant incremental deployment; focus on monitoring technical breakouts (TSEM >$175, MRVL >$95) and macro inflection (SPY support $580-600). GlobalFoundries patent suit vs TSEM adds legal risk but doesn't invalidate foundry capex thesis. Holding cash is justified\u2014asymmetric risk/reward in quality oversold thesis already captured.",
       "actions_taken": [
         "No trades \u2014 HOLD all positions."
       ]
