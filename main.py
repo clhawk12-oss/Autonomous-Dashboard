@@ -838,8 +838,10 @@ def run_agent(agent_type: str, force: bool = False) -> None:
                 note = execute_action(holdings, action, prices, agent_type)
                 execution_notes.append(note)
                 print(f"[{run_id}] {note}")
+                # Use thesis for BUY/SHORT (investment case) and rationale for SELL/COVER (exit reason)
+                note = action.get("thesis", "") if act in ("BUY", "SHORT") else action.get("rationale", "")
                 log_entries.append(
-                    f"| {act} | {ticker} | {shares} | ${price:.2f} | {action.get('rationale', '')} |"
+                    f"| {act} | {ticker} | {shares} | ${price:.2f} | {note} |"
                 )
             except ValueError as e:
                 err_note = f"{act} {ticker}: {e}"

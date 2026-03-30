@@ -227,6 +227,36 @@ def fetch_benchmark_history(start_date: str) -> pd.DataFrame:
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
+def escape_md_dollars(text: str) -> str:
+    """Escape bare dollar signs so Streamlit doesn't treat them as LaTeX delimiters."""
+    # Replace $ not already escaped and not part of a known markdown construct
+    return re.sub(r'(?<!\\)\$', r'\\$', text)
+
+
+def format_trade_note(note: str) -> str:
+    """
+    Format a trade note as markdown bullet points.
+    If the note already contains bullet structure (• or -), return as-is.
+    Otherwise split on semicolons and sentence boundaries.
+    """
+    if not note:
+        return ""
+    note = escape_md_dollars(note)
+    # Already structured with bullets
+    if "•" in note or "\n-" in note or "\n•" in note:
+        return note
+    # Split on semicolons first — Claude often uses these as natural separators
+    parts = [p.strip() for p in note.split(";") if p.strip()]
+    if len(parts) > 1:
+        return "\n".join(f"- {p.rstrip('.')}" for p in parts)
+    # Fall back to splitting on ". " before a capital letter
+    parts = re.split(r'\. (?=[A-Z])', note)
+    parts = [p.strip().rstrip(".") for p in parts if p.strip()]
+    if len(parts) > 1:
+        return "\n".join(f"- {p}" for p in parts)
+    return note
+
+
 def portfolio_value(h: dict) -> float:
     perf = h.get("performance", {})
     return h.get("cash", 0.0) + h.get("margin_reserved", 0.0) + perf.get("long_exposure", 0.0)
@@ -305,10 +335,10 @@ def render_positions_table(h: dict) -> None:
             "Shares":    int(pos["shares"]),
             "Avg Cost":  round(pos.get("avg_cost", 0), 2),
             "Current":   round(price, 2),
-            "Value $":   round(pos.get("market_value", 0), 0),
+            "Value":     round(pos.get("market_value", 0), 2),
             "P&L $":     round(pos.get("unrealized_pnl", 0), 2),
             "P&L %":     round(pos.get("unrealized_pct", 0) * 100, 2),
-            "Stop $":    round(stop, 2) if stop else "—",
+            "Stop":      f"${stop:.2f}" if stop else "—",
             "Stop Dist": f"{stop_dist:.1f}%" if stop_dist is not None else "—",
             "Sector":    get_sector(ticker),
         })
@@ -322,7 +352,15 @@ def render_positions_table(h: dict) -> None:
         return [""] * len(row)
 
     st.dataframe(
-        df.style.apply(color_row, axis=1),
+        df.style
+          .apply(color_row, axis=1)
+          .format({
+              "Avg Cost": "${:.2f}",
+              "Current":  "${:.2f}",
+              "Value":    "${:,.2f}",
+              "P&L $":    "${:+.2f}",
+              "P&L %":    "{:+.2f}%",
+          }),
         use_container_width=True,
         hide_index=True,
     )
@@ -370,9 +408,17 @@ def render_equity_curve(swing_eq: list, lt_eq: list) -> None:
     fig.update_layout(
         yaxis_title="Indexed to 100 at start",
         xaxis_title=None,
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom", y=1.02,
+            xanchor="right", x=1,
+            bgcolor="rgba(20, 20, 30, 0.85)",
+            bordercolor="#555",
+            borderwidth=1,
+            font=dict(color="#ffffff", size=12),
+        ),
         height=420,
-        margin=dict(l=50, r=20, t=40, b=40),
+        margin=dict(l=50, r=20, t=60, b=40),
         hovermode="x unified",
         plot_bgcolor="#0e1117",
         paper_bgcolor="#0e1117",
@@ -428,12 +474,18 @@ def render_run_card(run: dict, agent_key: str) -> None:
     pnl     = run.get("portfolio_pnl_pct")
 
     with st.container(border=True):
-        # ── Header ────────────────────────────────────────────────────────
-        h1, h2, h3 = st.columns([4, 2, 1])
+        # ── Header: agent + date + P&L + time ago ─────────────────────────
+        h1, h2, h3 = st.columns([3, 2, 1])
         with h1:
             st.markdown(
                 f"<span style='color:{cfg['color']}; font-weight:600'>"
                 f"{cfg['icon']} {cfg['label']}</span>",
+                unsafe_allow_html=True,
+            )
+            # Prominent date on its own line
+            st.markdown(
+                f"<span style='font-size:0.85em; color:#aaa'>"
+                f"📅 {run['timestamp_str']}</span>",
                 unsafe_allow_html=True,
             )
         with h2:
@@ -454,9 +506,9 @@ def render_run_card(run: dict, agent_key: str) -> None:
         # ── Title ─────────────────────────────────────────────────────────
         st.markdown(f"**{title}**")
 
-        # ── Reasoning ─────────────────────────────────────────────────────
+        # ── Reasoning (dollar signs escaped to prevent LaTeX rendering) ───
         if run.get("reasoning"):
-            st.markdown(run["reasoning"])
+            st.markdown(escape_md_dollars(run["reasoning"]))
 
         # ── Individual trades ─────────────────────────────────────────────
         if real:
@@ -464,19 +516,16 @@ def render_run_card(run: dict, agent_key: str) -> None:
             for trade in real:
                 icon  = _ACTION_ICON.get(trade["action"], "•")
                 color = _ACTION_COLOR.get(trade["action"], "#e0e0e0")
-                pv    = portfolio_value({})  # placeholder — not used here
-
                 st.markdown(
                     f"{icon} <span style='color:{color}; font-weight:700'>"
                     f"{trade['action']}</span> &nbsp;"
                     f"**{trade['ticker']}** &nbsp;·&nbsp; "
-                    f"{trade['shares']} shares @ ${trade['price']:,.2f}",
+                    f"{trade['shares']} shares @ \\${trade['price']:,.2f}",
                     unsafe_allow_html=True,
                 )
                 if trade.get("note"):
-                    # Render the note as bullet points, splitting on semicolons for readability
-                    note = trade["note"]
-                    st.caption(note)
+                    formatted = format_trade_note(trade["note"])
+                    st.markdown(formatted)
 
         # ── Skipped ───────────────────────────────────────────────────────
         if skipped:
@@ -488,7 +537,7 @@ def render_run_card(run: dict, agent_key: str) -> None:
         # ── Footer ────────────────────────────────────────────────────────
         footer_parts = []
         if run.get("portfolio_cash") is not None:
-            footer_parts.append(f"Cash ${run['portfolio_cash']:,.0f}")
+            footer_parts.append(f"Cash \\${run['portfolio_cash']:,.0f}")
         if pnl is not None:
             footer_parts.append(f"P&L {pnl:+.2f}%")
         if footer_parts:

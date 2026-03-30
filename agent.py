@@ -93,7 +93,7 @@ Return ONLY valid JSON — no prose, no markdown fences, no text outside the JSO
       "ticker": "NVDA",
       "shares": 25,
       "rationale": "REQUIRED on every action — (1) approx portfolio weight% this represents, (2) why that size and not more/less: conviction level and specific risk being taken, (3) how it fits with existing exposure: sector, direction, or theme overlap",
-      "thesis": "REQUIRED for BUY and SHORT — your edge and expected catalyst",
+      "thesis": "REQUIRED for BUY and SHORT. One-sentence edge, then bullet points:\n• Momentum: 1W/1M performance vs peers\n• Technicals: key levels, trend, distance from 52W high\n• Fundamentals: P/E, fwd P/E, revenue growth, margins\n• Volume: volume ratio and what it signals\n• Sizing: ~X% weight, conviction level and why",
       "stop_loss_pct": 0.06,
       "take_profit_pct": 0.18
     }}
@@ -177,7 +177,7 @@ Return ONLY valid JSON — no prose, no markdown fences, no text outside the JSO
       "ticker": "NVDA",
       "shares": 30,
       "rationale": "REQUIRED on every action — (1) approx portfolio weight% this represents, (2) why that size and not more/less: conviction level and time horizon confidence, (3) how it fits with existing holdings: sector, theme, or concentration impact",
-      "thesis": "REQUIRED for BUY — multi-sentence thesis covering moat, growth, valuation",
+      "thesis": "REQUIRED for BUY. One-sentence moat/growth thesis, then bullet points:\n• Moat: competitive advantage and durability\n• Growth: revenue growth rate, TAM, key catalysts\n• Valuation: trailing P/E, fwd P/E, vs historical/peers\n• Entry: technical entry rationale, distance from highs\n• Sizing: ~X% weight, conviction level and time horizon",
       "stop_loss_pct": 0.12,
       "take_profit_pct": null
     }}
