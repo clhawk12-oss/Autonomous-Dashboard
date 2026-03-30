@@ -94,7 +94,7 @@ Return ONLY valid JSON — no prose, no markdown fences, no text outside the JSO
       "action": "BUY" | "SELL" | "SHORT" | "COVER",
       "ticker": "NVDA",
       "shares": 25,
-      "rationale": "why THIS size: explain conviction level, risk taken, and how it fits the portfolio",
+      "rationale": "REQUIRED on every action — (1) approx portfolio weight% this represents, (2) why that size and not more/less: conviction level and specific risk being taken, (3) how it fits with existing exposure: sector, direction, or theme overlap",
       "thesis": "REQUIRED for BUY and SHORT — your edge and expected catalyst",
       "stop_loss_pct": 0.06,
       "take_profit_pct": 0.18
@@ -121,6 +121,8 @@ RULES
    watching should list specific catalysts, earnings dates, price levels, or events to monitor.
 10. If "## EARNINGS ALERT" appears in context, you MUST explicitly address each flagged position
     in your reasoning — state whether you are holding, trimming, or exiting into earnings and why.
+11. Every action MUST include a rationale covering all three elements: portfolio weight%, sizing
+    justification (conviction + specific risk), and fit with existing exposure.
 """
 
 _LONG_TERM_SYSTEM = f"""You are an autonomous paper trading agent managing a LONG-TERM CAPITAL APPRECIATION account.
@@ -176,7 +178,7 @@ Return ONLY valid JSON — no prose, no markdown fences, no text outside the JSO
       "action": "BUY" | "SELL",
       "ticker": "NVDA",
       "shares": 30,
-      "rationale": "why THIS size: explain conviction level, time horizon confidence, and how it fits the portfolio",
+      "rationale": "REQUIRED on every action — (1) approx portfolio weight% this represents, (2) why that size and not more/less: conviction level and time horizon confidence, (3) how it fits with existing holdings: sector, theme, or concentration impact",
       "thesis": "REQUIRED for BUY — multi-sentence thesis covering moat, growth, valuation",
       "stop_loss_pct": 0.12,
       "take_profit_pct": null
@@ -204,6 +206,8 @@ RULES
     watching should list earnings dates, catalysts, valuation targets, or macro events.
 11. If "## EARNINGS ALERT" appears in context, you MUST explicitly address each flagged position
     in your reasoning — state whether you are holding, trimming, or adding into earnings and why.
+12. Every action MUST include a rationale covering all three elements: portfolio weight%, sizing
+    justification (conviction + time horizon confidence), and fit with existing holdings.
 """
 
 SYSTEM_PROMPTS = {
@@ -402,7 +406,7 @@ def build_earnings_context(earnings: dict[str, str]) -> str:
     if not earnings:
         return ""
     lines = [
-        "## EARNINGS ALERT — held positions reporting in the next 14 days",
+        "## EARNINGS ALERT — held positions reporting in the next 7 days",
         "You MUST address each of these in your reasoning (hold / trim / exit / add — and why).",
     ]
     for ticker, date_str in sorted(earnings.items()):

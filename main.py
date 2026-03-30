@@ -729,11 +729,11 @@ def run_agent(agent_type: str, force: bool = False) -> None:
     try:
         if held_tickers:
             news     = fetch_news(held_tickers, max_headlines=5, days=7)
-            earnings = fetch_earnings_dates(held_tickers)
+            earnings = fetch_earnings_dates(held_tickers, days_ahead=7)
             if earnings:
                 print(f"[{run_id}] Earnings alert (held): {earnings}")
             else:
-                print(f"[{run_id}] No earnings in next 14 days for held positions.")
+                print(f"[{run_id}] No earnings in next 7 days for held positions.")
         watchlist_news     = fetch_news(watchlist_only, max_headlines=2, days=3)
         watchlist_earnings = fetch_earnings_dates(watchlist_only)
         print(f"[{run_id}] Watchlist: {len(watchlist_news)} tickers with news, "

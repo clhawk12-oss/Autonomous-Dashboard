@@ -82,7 +82,7 @@ Every scheduled run follows this exact sequence:
 1.  Load holdings.json
 2.  Load memory.json (prior run reasoning)
 3.  Fetch prices + technicals for all 145 tickers via yfinance
-4.  Fetch recent news headlines + upcoming earnings for held tickers only
+4.  Fetch recent news headlines + upcoming earnings for all 145 watchlist tickers
 5.  Load peer agent's holdings.json (for coordination context)
 6.  Enforce mechanical stop-losses (before Claude is called)
 7.  Accrue daily borrow cost on short positions (swing only)
@@ -139,8 +139,10 @@ Each Claude call receives three layers:
 - Last 5 closed positions with realized P&L and exit reason
 - Benchmark returns: SPY, QQQ, SMH (1W and 1M)
 - Watchlist technicals for all 145 tradeable names: price, 1W/1M return, % from 52W high, volume ratio, ATR-14
-- Recent news headlines for held tickers (last 7 days, up to 5 per ticker)
-- Upcoming earnings dates for held tickers (next 14 days)
+- Recent news headlines for held tickers (last 7 days, up to 5 per ticker) — for risk management
+- Recent news headlines for all unowned watchlist tickers (last 3 days, up to 2 per ticker) — for opportunity discovery
+- Upcoming earnings dates for held tickers (next 14 days) — flagged as ALERT, must be addressed in reasoning
+- Upcoming earnings dates for all unowned watchlist tickers (next 14 days) — for entry timing
 - Peer agent's open positions (read-only, for coordination — no conflicting directions)
 
 **Layer 3 — Task (static):** "Analyse the above and return a single JSON object."

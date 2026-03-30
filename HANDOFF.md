@@ -1,6 +1,71 @@
-# Session Handoff — March 29, 2026
+# Session Handoff — March 30, 2026
 
 This file captures the exact state of the autonomous portfolio project after each work session so the next session can pick up immediately without re-discovery. Update this file at the end of every session.
+
+---
+
+## Session 3 — March 30, 2026 — GitHub Actions Push Fix + Full-Universe News/Earnings
+
+### What Was Built / Changed This Session
+
+**GitHub Actions push rejection — permanently fixed**
+- Root cause: the commit step had no `set -e`, so if `git pull --rebase` failed silently, the script continued into `git push` which then failed with "fetch first"
+- Secondary cause: users were re-running failed jobs instead of triggering a fresh workflow run — re-runs replay the old workflow file, not the latest
+- Fix (3 iterations to get right):
+  1. Added `set -e` so any failure exits loud
+  2. Moved `git fetch origin main && git rebase origin/main` to run BEFORE `git add/commit` (not after) — eliminated the main race window
+  3. Final fix: committed first, then wrapped push in a retry loop (`for attempt in 1 2 3`) that does `git fetch; git checkout -- .; git rebase; git push` on each attempt — `git checkout -- .` discards unstaged working-tree files (`.env`, `__pycache__`, etc.) that caused `cannot rebase: You have unstaged changes`
+- Both swing and long_term commit steps updated identically
+- File: `.github/workflows/run_agents.yml`
+
+**Full-universe news and earnings feed**
+- Previously: news and earnings fetched only for currently-held tickers (risk management only)
+- Now: fetched for the entire 145-ticker tradeable universe, enabling opportunity discovery
+- `prices.py`: `fetch_news()` gains `days: int = 7` parameter (configurable cutoff); `max_workers` bumped from 10 → 20 for both `fetch_news` and `fetch_earnings_dates`
+- `agent.py`: two new context builders:
+  - `build_watchlist_news_context()` — formats news for unowned tickers under "Market News — Watchlist Opportunities (last 3 days)"
+  - `build_watchlist_earnings_context()` — lists upcoming earnings for unowned watchlist tickers
+  - `build_news_context()` label updated to "Recent News — Held Positions (last 7 days)"
+  - `build_user_message()` gains `watchlist_news` and `watchlist_earnings` params
+- `main.py`:
+  - Added `TRADEABLE_UNIVERSE` to config imports
+  - News fetch split: held tickers get 5 headlines / 7-day window; watchlist-only tickers get 2 headlines / 3-day window
+  - Earnings fetch split: held → ALERT section; watchlist-only → "Upcoming Earnings" section
+  - Log line added: `Watchlist: X tickers with news, Y with upcoming earnings`
+- Context order in prompt: held earnings alert → watchlist earnings → held news → watchlist news → benchmark → technicals
+
+---
+
+### Bugs Fixed This Session
+
+**GitHub Actions push rejection (finally resolved)**
+- Three separate errors encountered and fixed in sequence:
+  1. `! [rejected] main -> main (fetch first)` — old workflow re-run; fixed by triggering fresh runs and restructuring commit step
+  2. `! [rejected] main -> main (fetch first)` again — race condition between rebase and push; fixed with retry loop
+  3. `cannot rebase: You have unstaged changes` — `.env` and `__pycache__` left in working tree; fixed with `git checkout -- .` before each rebase attempt
+
+**Key lesson**: Always use "Run workflow" (fresh run) not "Re-run jobs" when testing workflow changes — re-runs replay the old cached workflow file.
+
+---
+
+### Open Issues / Deferred
+
+- **Dashboard not hosted** — `dashboard.py` runs locally only. Natural next step: deploy to Streamlit Community Cloud (free), pointed at the GitHub repo, for persistent live access without `git pull`.
+- **No holiday awareness** — `is_market_open()` checks weekday + hours but not US public holidays. Agents will trigger but gracefully find no data and skip.
+- **Windows Task Scheduler** — `setup_scheduler.ps1` still configured but redundant now that GitHub Actions handles cloud runs.
+
+---
+
+### Critical File Locations (new/changed this session)
+
+| What | File | Key location |
+|---|---|---|
+| GitHub Actions workflow (fixed) | `.github/workflows/run_agents.yml` | Both `Commit updated state` steps |
+| Watchlist news fetch | `prices.py` | `fetch_news(days=)` param, `max_workers=20` |
+| Watchlist news context builder | `agent.py` | `build_watchlist_news_context()` |
+| Watchlist earnings context builder | `agent.py` | `build_watchlist_earnings_context()` |
+| Updated `build_user_message` signature | `agent.py` | `watchlist_news`, `watchlist_earnings` params |
+| Expanded news/earnings fetch | `main.py` | lines ~719–745, `watchlist_only` split |
 
 ---
 
