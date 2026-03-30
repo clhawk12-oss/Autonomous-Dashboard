@@ -333,6 +333,52 @@ def fetch_earnings_dates(tickers: list[str], days_ahead: int = 14) -> dict[str, 
     return results
 
 
+def _fetch_ticker_fundamentals(ticker: str) -> tuple[str, dict]:
+    """Fetch fundamental metrics for one ticker via yfinance .info."""
+    try:
+        info = yf.Ticker(ticker).info
+
+        def _safe(key):
+            v = info.get(key)
+            if v is None or v == "N/A":
+                return None
+            try:
+                f = float(v)
+                return None if (f != f or abs(f) == float("inf")) else f  # guard NaN/inf
+            except (TypeError, ValueError):
+                return None
+
+        return ticker.upper(), {
+            "market_cap":       _safe("marketCap"),
+            "trailing_pe":      _safe("trailingPE"),
+            "forward_pe":       _safe("forwardPE"),
+            "revenue_growth":   _safe("revenueGrowth"),
+            "profit_margins":   _safe("profitMargins"),
+            "debt_to_equity":   _safe("debtToEquity"),
+            "return_on_equity": _safe("returnOnEquity"),
+        }
+    except Exception:
+        return ticker.upper(), {}
+
+
+def fetch_fundamentals(tickers: list[str]) -> dict[str, dict]:
+    """
+    Fetch fundamental metrics for a list of tickers in parallel.
+    Returns {ticker: {market_cap, trailing_pe, forward_pe, revenue_growth,
+                       profit_margins, debt_to_equity, return_on_equity}}.
+    Values are floats or None where unavailable (e.g. unprofitable companies).
+    """
+    if not tickers:
+        return {}
+    results: dict[str, dict] = {}
+    with ThreadPoolExecutor(max_workers=min(len(tickers), 20)) as executor:
+        futures = {executor.submit(_fetch_ticker_fundamentals, t): t for t in tickers}
+        for future in as_completed(futures):
+            ticker, data = future.result()
+            results[ticker] = data
+    return results
+
+
 def is_market_open() -> bool:
     """
     True if current US/Eastern time is within regular market hours (9:30–16:00)

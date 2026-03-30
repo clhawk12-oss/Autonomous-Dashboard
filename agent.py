@@ -439,6 +439,47 @@ def build_watchlist_earnings_context(earnings: dict[str, str]) -> str:
     return "\n".join(lines)
 
 
+def build_fundamentals_context(fundamentals: dict[str, dict]) -> str:
+    """Format fundamental metrics into a compact table for all tradeable tickers."""
+    if not fundamentals:
+        return ""
+
+    def _fmt_cap(v: Optional[float]) -> str:
+        if v is None: return "n/a"
+        if v >= 1e12: return f"${v/1e12:.1f}T"
+        if v >= 1e9:  return f"${v/1e9:.0f}B"
+        return f"${v/1e6:.0f}M"
+
+    def _fmt_pe(v: Optional[float]) -> str:
+        return "n/a" if v is None else f"{v:.1f}x"
+
+    def _fmt_pct_f(v: Optional[float]) -> str:
+        return "n/a" if v is None else f"{v*100:+.0f}%"
+
+    def _fmt_ratio(v: Optional[float]) -> str:
+        return "n/a" if v is None else f"{v:.2f}"
+
+    lines = [
+        "## Fundamentals",
+        "Ticker | MktCap  | Tr.P/E | Fwd P/E | RevGrw | Margin | D/E  | ROE",
+        "-------|---------|--------|---------|--------|--------|------|----",
+    ]
+    for t in sorted(fundamentals.keys()):
+        f = fundamentals[t]
+        if not f:
+            continue
+        lines.append(
+            f"{t:6s} | {_fmt_cap(f.get('market_cap')):7s} | "
+            f"{_fmt_pe(f.get('trailing_pe')):6s} | "
+            f"{_fmt_pe(f.get('forward_pe')):7s} | "
+            f"{_fmt_pct_f(f.get('revenue_growth')):6s} | "
+            f"{_fmt_pct_f(f.get('profit_margins')):6s} | "
+            f"{_fmt_ratio(f.get('debt_to_equity')):4s} | "
+            f"{_fmt_pct_f(f.get('return_on_equity'))}"
+        )
+    return "\n".join(lines)
+
+
 def build_user_message(
     holdings: dict,
     technicals: dict[str, dict],
@@ -450,6 +491,7 @@ def build_user_message(
     peer_agent: str = None,
     watchlist_news: dict = None,
     watchlist_earnings: dict = None,
+    fundamentals: dict = None,
 ) -> str:
     """Assemble the full Layer 2 + Layer 3 user message."""
     memory_ctx              = build_memory_context(memory or {})
@@ -460,6 +502,7 @@ def build_user_message(
     news_ctx                = build_news_context(news or {})
     watchlist_news_ctx      = build_watchlist_news_context(watchlist_news or {})
     benchmark_ctx           = build_benchmark_context(technicals)
+    fundamentals_ctx        = build_fundamentals_context(fundamentals or {})
 
     # Watchlist technicals — exclude benchmark ETFs from the tradeable table
     watchlist_tech = {t: v for t, v in technicals.items()
@@ -478,7 +521,7 @@ def build_user_message(
         memory_ctx, portfolio_ctx, peer_ctx,
         earnings_ctx, watchlist_earnings_ctx,
         news_ctx, watchlist_news_ctx,
-        benchmark_ctx, technicals_ctx, task,
+        benchmark_ctx, technicals_ctx, fundamentals_ctx, task,
     ] if p]
     return "\n\n".join(parts)
 

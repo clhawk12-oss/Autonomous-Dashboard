@@ -52,6 +52,7 @@ from prices import (
     fetch_watchlist_technicals,
     fetch_news,
     fetch_earnings_dates,
+    fetch_fundamentals,
     get_market_status,
     is_market_open,
 )
@@ -741,6 +742,15 @@ def run_agent(agent_type: str, force: bool = False) -> None:
     except Exception as e:
         print(f"[{run_id}] WARN: news/earnings fetch failed: {e}")
 
+    # ── Fetch fundamentals ─────────────────────────────────────────────────
+    fundamentals: dict = {}
+    print(f"[{run_id}] Fetching fundamentals for {len(TRADEABLE_UNIVERSE)} tickers...")
+    try:
+        fundamentals = fetch_fundamentals(TRADEABLE_UNIVERSE)
+        print(f"[{run_id}] Fundamentals fetched for {len(fundamentals)} tickers.")
+    except Exception as e:
+        print(f"[{run_id}] WARN: fundamentals fetch failed: {e}")
+
     # ── Accrue borrow costs (EOD runs only) ────────────────────────────────
     is_eod_run = agent_type == "long_term" or (
         agent_type == "swing" and now_et.hour >= 15
@@ -778,6 +788,7 @@ def run_agent(agent_type: str, force: bool = False) -> None:
             peer_agent=peer_agent,
             watchlist_news=watchlist_news,
             watchlist_earnings=watchlist_earnings,
+            fundamentals=fundamentals,
         )
         decision  = call_claude(agent_type, user_msg)
     except RuntimeError as e:
