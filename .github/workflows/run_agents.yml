@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: portfolio-agents
+  cancel-in-progress: true
+
 jobs:
   swing:
     name: Swing Agent
