@@ -4,6 +4,89 @@ This file captures the exact state of the autonomous portfolio project after eac
 
 ---
 
+## Session 5 — March 30, 2026 — GitHub Actions Fix + Fundamentals + Stop Loss Autonomy + Dashboard Redesign
+
+### What Was Built / Changed This Session
+
+**GitHub Actions scheduling — fixed two bugs**
+- **Bug 1 (long_term never ran on schedule):** `needs: swing` + `if: github.event_name != 'schedule'` meant when the 4:15pm cron fired with no swing job result, long_term was skipped. Fixed: long_term `if` now reads `always() && (needs.swing.result == 'success' || needs.swing.result == 'skipped')` so it fires whether swing ran or was skipped.
+- **Bug 2 (EDT vs EST offset):** Crons were written for EST (UTC−5); during EDT (UTC−4) they fired 1 hour late. Fixed: consolidated to a single DST-proof cron `0 21 * * 1-5` (5 PM EDT / 4 PM EST). Both agents trigger off this one cron.
+- File: `.github/workflows/run_agents.yml`
+
+**Stop loss constraints — removed hard caps, gave Claude full autonomy**
+- Removed `SWING_MAX_STOP_LOSS_PCT = 0.10` and `LONG_TERM_MAX_STOP_LOSS_PCT = 0.20` from `config.py`
+- Removed stop loss validation in `agent.py` (was raising `ValueError` if `stop_loss_pct` absent on BUY/SHORT)
+- Updated both system prompts: stop losses are now fully optional — Claude sets them at its discretion per position
+- `main.py`: `action.get("stop_loss_pct", 0.05)` → `action.get("stop_loss_pct") or None`; stop price only computed when stop_pct is truthy
+- Files: `config.py`, `agent.py`, `main.py`
+
+**Fundamental data added to agent context**
+- `prices.py`: new `_fetch_ticker_fundamentals(ticker)` using `yf.Ticker(ticker).info`; a `_safe()` helper guards NaN/inf/None; `fetch_fundamentals(tickers)` runs with `ThreadPoolExecutor(max_workers=20)` in parallel
+- Returns per ticker: `market_cap`, `trailing_pe`, `forward_pe`, `revenue_growth`, `profit_margins`, `debt_to_equity`, `return_on_equity`
+- `agent.py`: new `build_fundamentals_context()` renders a markdown table: `Ticker | MktCap | Tr.P/E | Fwd P/E | RevGrw | Margin | D/E | ROE`; `build_user_message()` gains `fundamentals` param; fundamentals context inserted after technicals context
+- `main.py`: fetches `fundamentals = fetch_fundamentals(TRADEABLE_UNIVERSE)` after news/earnings; passes to `build_user_message()`
+- Files: `prices.py`, `agent.py`, `main.py`
+
+**Structured reasoning format in Claude's response**
+- Both system prompts updated: `reasoning` field now has labeled sections `**Macro:** ... **Sectors:** ... **Positions:** ...`
+- `thesis` field restructured for swing: one-sentence edge + bullet points (Momentum / Technicals / Fundamentals / Volume / Sizing)
+- `thesis` field restructured for long-term: one-sentence moat/growth thesis + bullet points (Moat / Growth / Valuation / Entry / Sizing)
+- `MAX_TOKENS_SWING` raised from 1500 → 3000 to accommodate the structured output
+- Trade log note column: BUY/SHORT actions now log `thesis` field instead of `rationale`
+- Files: `agent.py`, `config.py`, `main.py`
+
+**Dashboard — complete redesign**
+- Three-tab layout: `📈 Overview`, `💼 Positions`, `📋 Trade Log`
+- **Overview:** equity curve with fixed legend (explicit `bgcolor`/`bordercolor`/`font` on legend dict for visibility), metric cards
+- **Positions:** positions table with `.format()` styler (all numeric columns rounded to 2 dp, currency-formatted); Stop and Stop Dist pre-formatted as strings to avoid None type conflicts; sector exposure chart
+- **Trade Log:** card-based layout using `st.container(border=True)`; sub-tabs (All/Swing/Long-Term) + "Show runs with trades only" toggle; structured reasoning parser splits on `**Macro:**`/`**Sectors:**`/`**Positions:**` labels with color-coded display; backward-compatible (old single-paragraph runs fall back to plain display); trade badges colored by action type; thesis formatted as bullet list
+- Key functions added: `escape_md_dollars()`, `parse_reasoning_sections()`, `format_trade_note()`, `time_ago()`, `run_title()`, `load_trade_log_parsed()`, `render_run_card()`, `render_trade_log_tab()`
+- **Portfolio value formula fixed:** was `cash + margin_reserved + long_exposure` (overcounted by ~$8k); corrected to `cash + margin_reserved + long_exposure - short_exposure` (net equity after closing all shorts at current price)
+- Dollar sign LaTeX rendering fixed: `escape_md_dollars()` using `re.sub(r'(?<!\\)\$', r'\$', text)` prevents Streamlit treating `$100` as math delimiter
+- File: `dashboard.py`
+
+---
+
+### Bugs Fixed This Session
+
+| Bug | Root cause | Fix |
+|---|---|---|
+| Long-term agent never ran on schedule | `needs: swing` + wrong `if` skipped it when swing job had no result | Changed long_term `if` to `always() && (needs.swing.result == 'success' \|\| needs.swing.result == 'skipped')` |
+| Agents ran 1 hour late during EDT | Crons were written for EST (UTC−5); during EDT clocks are UTC−4 | Consolidated to single DST-proof cron `0 21 * * 1-5` |
+| Default 5% stop applied when Claude omitted stop_loss_pct | `action.get("stop_loss_pct", 0.05)` always returned 0.05 | Changed to `action.get("stop_loss_pct") or None` with conditional stop price calculation |
+| Portfolio value $8k too high for swing | `cash + margin_reserved + long_exposure` double-counted shorts | Fixed to subtract `short_exposure` (current market cost to close shorts) |
+| Dollar signs rendered as LaTeX math | Streamlit treats `$` as math delimiter in markdown | `escape_md_dollars()` function escapes all bare `$` signs |
+| Chart legend invisible | Default legend text color invisible in some browser themes | Explicit `bgcolor`, `bordercolor`, white `font` on Plotly legend dict |
+| Positions table inconsistent decimal places | Pandas default rendering | `.format()` dict in styler; Stop/Stop Dist pre-formatted as strings |
+
+---
+
+### Open Issues / Deferred
+
+- **No holiday awareness** — `is_market_open()` checks weekday + hours but not US public holidays.
+- **Windows Task Scheduler** — `setup_scheduler.ps1` still configured but redundant now that GitHub Actions handles cloud runs.
+- **Fundamentals may be slow** — fetching `.info` for 145 tickers adds ~15–30s to each run. Could cache fundamentals for a TTL or reduce the fetch frequency to every N runs.
+
+---
+
+### Critical File Locations (new/changed this session)
+
+| What | File | Key location |
+|---|---|---|
+| GitHub Actions workflow (fixed) | `.github/workflows/run_agents.yml` | Single cron `0 21 * * 1-5`; long_term `if: always() && ...` |
+| Stop loss constants removed | `config.py` | `SWING_MAX_STOP_LOSS_PCT` and `LONG_TERM_MAX_STOP_LOSS_PCT` deleted |
+| `MAX_TOKENS_SWING` raised to 3000 | `config.py` | Line ~31 |
+| Fundamental data fetch | `prices.py` | `_fetch_ticker_fundamentals()`, `fetch_fundamentals()` |
+| Fundamentals context builder | `agent.py` | `build_fundamentals_context()` |
+| Updated `build_user_message` signature | `agent.py` | `fundamentals` param |
+| Stop loss optional logic | `main.py` | `execute_action()` BUY and SHORT branches |
+| Portfolio value formula fix | `dashboard.py` | `portfolio_value()` function |
+| Structured reasoning parser | `dashboard.py` | `parse_reasoning_sections()` |
+| Trade log card renderer | `dashboard.py` | `render_run_card()`, `render_trade_log_tab()` |
+| Dollar sign escape | `dashboard.py` | `escape_md_dollars()` |
+
+---
+
 ## Session 4 — March 30, 2026 — Position Sizing Rationale + 7-Day Earnings Alert + Streamlit Cloud
 
 ### What Was Built / Changed This Session
