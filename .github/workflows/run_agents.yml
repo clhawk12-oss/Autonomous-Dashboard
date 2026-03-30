@@ -50,10 +50,14 @@ jobs:
         run: python main.py --agent swing --force
 
       - name: Commit updated state
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: swing agent run ${{ github.run_id }}"
-          file_pattern: "swing/holdings.json swing/memory.json swing/trade_log.md swing/summary.md swing/equity_log.jsonl"
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add swing/holdings.json swing/memory.json swing/trade_log.md swing/summary.md swing/equity_log.jsonl
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: swing agent run ${{ github.run_id }}"
+          git pull --rebase origin main
+          git push origin main
 
   long_term:
     name: Long-Term Agent
@@ -92,7 +96,11 @@ jobs:
         run: python main.py --agent long_term --force
 
       - name: Commit updated state
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: long-term agent run ${{ github.run_id }}"
-          file_pattern: "long_term/holdings.json long_term/memory.json long_term/trade_log.md long_term/summary.md long_term/equity_log.jsonl"
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add long_term/holdings.json long_term/memory.json long_term/trade_log.md long_term/summary.md long_term/equity_log.jsonl
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: long-term agent run ${{ github.run_id }}"
+          git pull --rebase origin main
+          git push origin main
