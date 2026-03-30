@@ -59,6 +59,7 @@ jobs:
           git commit -m "chore: swing agent run ${{ github.run_id }}"
           for attempt in 1 2 3; do
             git fetch origin main
+            git checkout -- .
             git rebase origin/main
             git push origin main && break
             echo "Push attempt $attempt failed, retrying..."
@@ -111,6 +112,7 @@ jobs:
           git commit -m "chore: long-term agent run ${{ github.run_id }}"
           for attempt in 1 2 3; do
             git fetch origin main
+            git checkout -- .
             git rebase origin/main
             git push origin main && break
             echo "Push attempt $attempt failed, retrying..."
