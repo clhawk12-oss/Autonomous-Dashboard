@@ -1,24 +1,21 @@
 {
-  "market_notes": "Portfolio fully deployed (12 positions, ~5.2% cash). All positions entered 2026-03-29, now 2-3 days old. Core thesis: AI infrastructure buildout multi-year secular trend. Iran conflict driving sustained energy premium \u2014 LNG +4.0% 1W, CVX +4.2% 1W, HAL +7.9% 1W, XOM +8.4% 1W; energy thesis extending strongly. ARM +4.5% 1W showing continued relative strength on SoftBank/OpenAI deepening. Morgan Stanley named META new top pick post-selloff \u2014 validating long thesis despite swing trader short. CIEN -6.8% 1W and -5.4% unrealized P&L \u2014 approaching watch zone but stop at $341 provides adequate buffer. Market environment: SPY -2.9% 1W, QQQ -4.2% 1W, SMH -5.2% 1W \u2014 risk-off broadly. AMZN, GOOGL, MSFT, NVDA, META flagged as 'Magnificent 7 stunning plunges' in headlines \u2014 macro/tariff pressure continues. Federal Reserve stagflation dilemma persists. Cash near 3% floor \u2014 cannot add new positions without trimming winners. AVGO -7.9% 1W and MRVL +1.8% 1W diverging \u2014 watching for custom silicon win announcements from MRVL. COHR added to S&P 500 \u2014 optical networking sector institutional accumulation ongoing (supports CIEN thesis).",
+  "market_notes": "SEVERE RISK-OFF ENVIRONMENT: Oil >$100/bbl on Iran war (5th week), VIX +50% in 1 month, Nasdaq -5.1% 1W, SMH -7.4% 1W. Iran conflict driving energy outperformance \u2014 XOM +6.4% 1W, CVX +2.7% 1W, LNG +2.2% 1W, HAL +4.7% 1W. AI semiconductor complex under extreme pressure \u2014 MRVL -2.6% 1W (-7.5% unrealized), ARM flat 1W (-5.0% unrealized), AVBO -9.0% 1W (-2.4% unrealized), CIEN -10.5% 1W (-9.1% unrealized). Macro: Powell comments (Dow up but Nasdaq fell), Trump comments, Micron diving \u2014 stagflation/tariff fears dominating. Defensives outperforming: COST +3.2% 1W, EQIX -0.3% 1W, AMZN -4.4% 1W (holding). ARM: Needham Buy, Barron's 'bold moves' with in-house chips \u2014 thesis intact but price action weak. META: Morgan Stanley new top pick, still outperforming peers at +2.0% unrealized; swing trader still SHORT. CIEN stop at $341.37 provides ~6.6% buffer from current $365. MRVL stop at $83.49 provides ~5.2% buffer from current $87.81 \u2014 CRITICAL WATCH. No positions have triggered stops. Cash near 3% floor \u2014 cannot add without trimming. All 12 positions intact, theses fundamentally sound despite near-term pressure.",
   "watching": [
-    "META Q1 2026 earnings \u2014 validate ad revenue growth and AI ROI; Morgan Stanley top pick post-selloff is bullish signal; swing trader still SHORT \u2014 near-term tension but long-term thesis intact",
-    "CIEN \u2014 -5.4% unrealized P&L, stop at $341.37; FTSE inclusion institutional buying should provide support; optical demand thesis intact; watch for order book trajectory in next earnings",
-    "LNG \u2014 Australian LNG outage + Iran Strait of Hormuz toll driving multi-year demand; Wells Fargo $335 PT implies ~12% upside; thesis extending strongly",
-    "CVX \u2014 Iran conflict supporting oil; 2 Oil Giants article suggests crude toward $100 scenario; Iranian nuclear timeline key variable",
-    "ARM \u2014 SoftBank $40B loan to deepen OpenAI/ARM bet; AGI CPU launch catalyst; royalty rate inflection with AI server complexity; analyst lifted to Buy; +4.5% 1W outperformance",
-    "AVGO \u2014 -7.9% 1W underperformance vs peers; watch for Google TPU/custom silicon revenue disclosure; Symantec CBX platform launch a positive; stop at $255.58 still has ample buffer",
-    "MRVL \u2014 trade/supply chain risks noted by analysts; +1.8% 1W holding up better than AVGO; next custom silicon win announcements key catalyst",
-    "NVDA \u2014 Blackwell B200/GB200 ramp volumes; new AI startup data center customer announced; -4.4% 1W but stop at $142.39 intact; AI infrastructure demand signals remain positive",
-    "MSFT \u2014 Azure AI workload growth rate; one analyst sees 90% upside; UBS lowered PT but maintained Buy; -5.7% 1W pressure",
-    "GOOGL \u2014 DOJ antitrust ruling on search monopoly ongoing; LA social media lawsuit co-defendant; -8.8% 1W significant weakness; thesis intact but monitoring",
-    "EQIX \u2014 analyst revisiting valuation on AI demand; +0.2% 1W holding up as defensive play; power availability expansion key",
-    "COST \u2014 gas station expansion as inflation hedge; +2.8% 1W outperforming; membership renewal data",
-    "Tariff policy \u2014 semiconductor carveouts would be significantly positive for AVGO, NVDA, ARM, MRVL, TSM",
-    "Federal Reserve rate path \u2014 stagflation scenario could pressure growth stock multiples",
-    "CIEN stop loss level \u2014 $341.37; currently at $380, need ~10% further decline to trigger; monitoring closely",
-    "PSX +7.0% 1W, HAL +7.9% 1W, XOM +8.4% 1W \u2014 energy momentum accelerating; consider adding HAL or XOM if cash becomes available through position appreciation and trimming",
-    "PANW \u2014 CEO purchased $10M of shares personally; insider buying bullish signal; consider as addition when cash allows",
-    "COHR \u2014 S&P 500 inclusion + AI photonics products; optical networking thesis complementary to CIEN"
+    "MRVL \u2014 CRITICAL: $87.81 current, stop $83.49 (5.2% buffer); semiconductor sector pressure acute; SMH -7.4% 1W; if breaks $85 support zone, stop likely triggered; custom silicon win announcement would be major positive catalyst",
+    "CIEN \u2014 -9.1% unrealized, stop $341.37 (~6.6% buffer from $365); CIEN -10.5% 1W significant weakness; optical sector selling per GuruFocus headline; watch order book trajectory",
+    "ARM \u2014 Needham BUY rating, Barron's 'bold moves' on in-house chips; AGI CPU launch catalyst; -5.0% unrealized but relatively flat 1W (+0.1%); SoftBank thesis intact",
+    "AVGO \u2014 -9.0% 1W is concerning; stop $255.58 still has large buffer; Google TPU/custom silicon revenue disclosure key catalyst; Barron's article 'tech stocks rarely look this cheap' bullish signal",
+    "META Q1 2026 earnings \u2014 Morgan Stanley top pick; swing trader still SHORT (near-term tension); ad revenue growth and AI ROI validation needed; +2.0% unrealized P&L holding up",
+    "LNG/CVX/XOM \u2014 Iran war in 5th week per headlines; oil >$100; energy thesis strongly playing out; LNG +24.6% 1M at all-time highs; CVX +12.8% 1M; consider trimming if extended",
+    "NVDA \u2014 stop $142.39 intact; -6.0% 1W pressure; Blackwell ramp and new data center customer; IBD article 'most important stock chart in world'; tariff semiconductor carveout key variable",
+    "COST \u2014 +3.2% 1W outperforming; IBD Stock of the Day; inflation hedge thesis playing out; +1.3% unrealized",
+    "EQIX \u2014 defensive AI infrastructure; -0.3% 1W holding up well; analyst revisiting valuation on AI demand; +0.1% unrealized",
+    "PANW \u2014 CEO bought $10M shares personally; -5.9% 1W; cybersecurity stocks underperforming despite rising cyber threats (Barron's 'upside down world'); consider adding if cash becomes available",
+    "Iran conflict escalation \u2014 oil >$100, Dow testing 45,000; if conflict escalates further, energy positions benefit but broader market/consumer headwinds increase",
+    "Semiconductor tariff carveouts \u2014 positive catalyst for AVGO, NVDA, ARM, MRVL, TSM if announced",
+    "Federal Reserve \u2014 Powell comments today were less hawkish (Dow up); stagflation scenario still biggest risk to growth stock multiples",
+    "GOOGL \u2014 DOJ antitrust ruling + social media addiction lawsuit loss; -8.6% 1W significant; thesis intact but legal headwinds mounting; -0.0% unrealized at cost",
+    "MSFT \u2014 Azure AI growth; -6.3% 1W; +0.6% unrealized small positive; one analyst sees 90% upside; UBS maintained Buy"
   ],
   "recent_runs": [
     {
@@ -59,6 +56,14 @@
       "run_id": "long_term-20260330-1016",
       "timestamp": "2026-03-30T10:16:20.027654-04:00",
       "reasoning": "The portfolio is fully deployed with 12 positions and only ~$5,162 cash (~5.2%). The market remains in a risk-off environment with SPY -2.9% 1W and QQQ -4.2% 1W. My positions are largely flat to slightly negative since entry (0-5 days ago), with notable underperformance in CIEN (-5.4%), MRVL (-3.2%), and AVGO (-1.2%). The AI infrastructure thesis remains intact with hyperscaler capex unchanged, Iran conflict supporting energy names, and ARM/LNG/CVX showing relative strength. No positions have violated stop losses. Two headlines call out 'Magnificent 7 stunning plunges' \u2014 AMZN, GOOGL, META, MSFT, NVDA appear to be referenced \u2014 suggesting continued near-term pressure but not thesis-breaking. CIEN is approaching its stop zone (-15% from entry requires another -10% decline) but the FTSE inclusion and optical demand thesis remain intact. Morgan Stanley named META their new top pick following selloff \u2014 validating my long thesis despite swing trader's short position. With only $5,162 cash available and all positions still young (2-3 days), patience is the correct posture. No stop losses triggered, all theses intact, and insufficient cash to add meaningfully without degrading existing positions.",
+      "actions_taken": [
+        "No trades \u2014 HOLD all positions."
+      ]
+    },
+    {
+      "run_id": "long_term-20260330-1726",
+      "timestamp": "2026-03-30T17:26:37.107369-04:00",
+      "reasoning": "The market environment has materially deteriorated since portfolio construction \u2014 SPY -3.6% 1W, QQQ -5.1% 1W, SMH -7.4% 1W, with oil surging above $100 on Iran conflict escalation and the VIX up 50% in a month per headlines. Several key positions are showing significant unrealized losses: MRVL -7.5% (approaching stop at $83.49), CIEN -9.1% (stop at $341.37 still ~6.6% away), ARM -5.0%, AVGO -2.4%. The core AI semiconductor thesis faces multiple headwinds: tariff uncertainty on chips, Trump/Powell comments roiling Nasdaq, Micron diving. Meanwhile energy (CVX +2.7% 1W, LNG +2.2% 1W, XOM +6.4% 1W) and defensives (COST +3.2% 1W, EQIX -0.3% 1W) are providing relative strength. With only $5,162 cash (~5.2%) and 12 positions, the primary decisions are whether any stop losses should be proactively managed and whether MRVL's continued weakness warrants preemptive action. MRVL at $87.81 is now just 5.2% above its stop ($83.49) \u2014 with the stock down -7.5% from cost and the semiconductor sector under acute pressure (MRVL -2.6% 1W), I need to weigh whether to hold through volatility or protect capital. The stop exists for this reason \u2014 I will maintain it but not act prematurely. No earnings alerts for held positions this session. The correct posture remains patient holding with stops intact.",
       "actions_taken": [
         "No trades \u2014 HOLD all positions."
       ]
