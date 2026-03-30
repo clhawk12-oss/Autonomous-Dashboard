@@ -28,9 +28,10 @@ jobs:
       - name: Install dependencies
         run: pip install anthropic yfinance pandas numpy pytz python-dotenv
 
+      - name: Create .env
+        run: echo "ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}" > .env
+
       - name: Run swing agent
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python main.py --agent swing --force
 
       - name: Commit updated state
@@ -60,9 +61,10 @@ jobs:
       - name: Install dependencies
         run: pip install anthropic yfinance pandas numpy pytz python-dotenv
 
+      - name: Create .env
+        run: echo "ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}" > .env
+
       - name: Run long-term agent
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python main.py --agent long_term --force
 
       - name: Commit updated state
