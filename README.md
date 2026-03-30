@@ -141,7 +141,7 @@ Each Claude call receives three layers:
 - Watchlist technicals for all 145 tradeable names: price, 1W/1M return, % from 52W high, volume ratio, ATR-14
 - Recent news headlines for held tickers (last 7 days, up to 5 per ticker) — for risk management
 - Recent news headlines for all unowned watchlist tickers (last 3 days, up to 2 per ticker) — for opportunity discovery
-- Upcoming earnings dates for held tickers (next 14 days) — flagged as ALERT, must be addressed in reasoning
+- Upcoming earnings dates for held tickers (next 7 days) — flagged as ALERT, must be addressed in reasoning
 - Upcoming earnings dates for all unowned watchlist tickers (next 14 days) — for entry timing
 - Peer agent's open positions (read-only, for coordination — no conflicting directions)
 
@@ -159,7 +159,7 @@ Each Claude call receives three layers:
       "action": "BUY | SELL | SHORT | COVER",
       "ticker": "NVDA",
       "shares": 30,
-      "rationale": "why THIS size: conviction level, risk taken, portfolio fit",
+      "rationale": "(1) approx portfolio weight%, (2) conviction level and why that size not more/less, (3) fit with existing exposure",
       "thesis": "full investment thesis (required for BUY and SHORT)",
       "stop_loss_pct": 0.06,
       "take_profit_pct": 0.18
@@ -179,7 +179,10 @@ Empty `actions` array is valid — agents hold when no compelling setup exists.
 
 ## Position Sizing
 
-No minimum position size. Agents size freely from 1 share up to the maximum weight cap. The `rationale` field on every action must explain the sizing logic (why this specific number of shares, what conviction level it reflects, how it fits the portfolio) — not just repeat the thesis.
+No minimum position size. Agents size freely from 1 share up to the maximum weight cap. The `rationale` field is **required on every action** and must cover three specific elements:
+1. Approximate portfolio weight% the position represents
+2. Why that size — conviction level and specific risk being taken (not more, not less)
+3. How it fits with existing exposure — sector, direction, or theme overlap
 
 ---
 
@@ -318,6 +321,9 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ## Dashboard
 
+The dashboard is deployed live on Streamlit Community Cloud — accessible from any browser without running anything locally. It reads directly from this repo and auto-refreshes every 60 seconds after each GitHub Actions run commits new data.
+
+To run locally instead:
 ```bash
 python -m streamlit run dashboard.py
 ```
@@ -329,7 +335,7 @@ Shows:
 - **Sector exposure** — bar chart per agent (shorts shown as negative)
 - **Trade log** — expandable run-by-run entries, newest first
 
-Data refreshes every 60 seconds automatically. No database required — reads directly from `holdings.json`, `equity_log.jsonl`, and `trade_log.md`.
+No database required — reads directly from `holdings.json`, `equity_log.jsonl`, and `trade_log.md`. No API key needed.
 
 ---
 

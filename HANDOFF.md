@@ -56,7 +56,7 @@ This file captures the exact state of the autonomous portfolio project after eac
 | Position sizing rationale requirement | `agent.py` | `rationale` field in both schemas; rules 11/12 |
 | 7-day earnings alert | `agent.py` | `build_earnings_context()` header |
 | 7-day earnings fetch | `main.py` | `fetch_earnings_dates(held_tickers, days_ahead=7)` |
-| Streamlit dependency | `requirements.txt` | `streamlit>=1.35.0` |
+| Streamlit + plotly dependencies | `requirements.txt` | `streamlit>=1.35.0`, `plotly>=5.18.0` |
 | Gitignore | `.gitignore` | new file — `.env`, `__pycache__/`, `*.pyc` |
 
 ---
