@@ -4,6 +4,63 @@ This file captures the exact state of the autonomous portfolio project after eac
 
 ---
 
+## Session 4 — March 30, 2026 — Position Sizing Rationale + 7-Day Earnings Alert + Streamlit Cloud
+
+### What Was Built / Changed This Session
+
+**Position sizing justification in every trade action**
+- Both system prompts (`_SWING_SYSTEM`, `_LONG_TERM_SYSTEM`) in `agent.py`: `rationale` field in JSON schema now explicitly requires three elements: (1) approx portfolio weight%, (2) conviction level and why that size not more/less, (3) fit with existing exposure
+- Added rule 11 (swing) and rule 12 (long-term) in RULES sections reinforcing the three-element rationale requirement
+- File: `agent.py`
+
+**7-day earnings alert for held positions**
+- `fetch_earnings_dates(held_tickers)` → `fetch_earnings_dates(held_tickers, days_ahead=7)` in `main.py`
+- `build_earnings_context()` header updated from "next 14 days" to "next 7 days" in `agent.py`
+- Watchlist earnings fetch stays at 14 days (opportunity scouting, not a risk alert)
+- Log message updated to match
+- Files: `agent.py`, `main.py`
+
+**Streamlit Community Cloud deployment**
+- Added `streamlit>=1.35.0` to `requirements.txt`
+- Dashboard now live at a public streamlit.app URL — reads directly from the GitHub repo, auto-refreshes every 60 seconds
+- No secrets needed — dashboard only reads holdings.json, equity_log.jsonl, trade_log.md
+
+**Security fix — .env exposure**
+- `.env` was committed in the initial commit and became public when repo was made public for Streamlit
+- Anthropic auto-revoked the exposed key via secret scanning
+- Created `.gitignore` (was missing entirely) with `.env`, `__pycache__/`, `*.pyc`
+- Removed `.env` from git tracking via `git rm --cached .env`
+- New API key generated, updated in local `.env` and GitHub Actions secret
+
+---
+
+### Bugs Fixed This Session
+
+**Missing .gitignore** — repo had no .gitignore; `__pycache__/` files were being committed. Fixed by creating one.
+
+**Exposed API key** — `.env` committed in initial commit. Key was auto-revoked by Anthropic. Removed from tracking, new key rotated in.
+
+---
+
+### Open Issues / Deferred
+
+- **No holiday awareness** — `is_market_open()` checks weekday + hours but not US public holidays.
+- **Windows Task Scheduler** — `setup_scheduler.ps1` still configured but redundant now that GitHub Actions handles cloud runs.
+
+---
+
+### Critical File Locations (new/changed this session)
+
+| What | File | Key location |
+|---|---|---|
+| Position sizing rationale requirement | `agent.py` | `rationale` field in both schemas; rules 11/12 |
+| 7-day earnings alert | `agent.py` | `build_earnings_context()` header |
+| 7-day earnings fetch | `main.py` | `fetch_earnings_dates(held_tickers, days_ahead=7)` |
+| Streamlit dependency | `requirements.txt` | `streamlit>=1.35.0` |
+| Gitignore | `.gitignore` | new file — `.env`, `__pycache__/`, `*.pyc` |
+
+---
+
 ## Session 3 — March 30, 2026 — GitHub Actions Push Fix + Full-Universe News/Earnings
 
 ### What Was Built / Changed This Session
