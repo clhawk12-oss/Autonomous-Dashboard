@@ -370,7 +370,7 @@ def execute_action(
             pos["avg_cost"] = (pos["avg_cost"] * pos["shares"] + cost) / total_shares
             pos["shares"]   = total_shares
         else:
-            stop_pct = action.get("stop_loss_pct", 0.05)
+            stop_pct = action.get("stop_loss_pct") or None
             tp_pct   = action.get("take_profit_pct")
             positions[ticker] = {
                 "direction":     "long",
@@ -382,7 +382,7 @@ def execute_action(
                 "unrealized_pct": 0.0,
                 "date_opened":   datetime.now(ET_TZ).strftime("%Y-%m-%d"),
                 "thesis":        action.get("thesis", ""),
-                "stop_loss":     round(price * (1 - stop_pct), 2),
+                "stop_loss":     round(price * (1 - stop_pct), 2) if stop_pct else None,
                 "take_profit":   round(price * (1 + tp_pct), 2) if tp_pct else None,
             }
 
@@ -434,7 +434,7 @@ def execute_action(
                 f"net after proceeds ${cash + net_cash_chg:,.2f}"
             )
 
-        stop_pct = action.get("stop_loss_pct", 0.05)
+        stop_pct = action.get("stop_loss_pct") or None
         tp_pct   = action.get("take_profit_pct")
 
         positions[ticker] = {
@@ -447,7 +447,7 @@ def execute_action(
             "unrealized_pct":     0.0,
             "date_opened":        datetime.now(ET_TZ).strftime("%Y-%m-%d"),
             "thesis":             action.get("thesis", ""),
-            "stop_loss":          round(price * (1 + stop_pct), 2),
+            "stop_loss":          round(price * (1 + stop_pct), 2) if stop_pct else None,
             "take_profit":        round(price * (1 - tp_pct), 2) if tp_pct else None,
             "borrow_cost_accrued": 0.0,
             "_margin_hold":       margin_hold,

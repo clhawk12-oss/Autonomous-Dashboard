@@ -37,15 +37,13 @@ MARKET_CLOSE_ET = (16, 0)
 # ── Portfolio constraints ──────────────────────────────────────────────────────
 STARTING_CASH = 100_000.0
 
-SWING_MAX_POSITIONS     = 20
-SWING_MIN_WEIGHT        = 0.0    # no minimum — Claude sizes positions freely
-SWING_MAX_WEIGHT        = 0.20   # 20% maximum per position
-SWING_MAX_STOP_LOSS_PCT = 0.10   # 10% hard cap on stop distance
+SWING_MAX_POSITIONS = 20
+SWING_MIN_WEIGHT    = 0.0    # no minimum — Claude sizes positions freely
+SWING_MAX_WEIGHT    = 0.20   # 20% maximum per position
 
-LONG_TERM_MAX_POSITIONS     = 30
-LONG_TERM_MIN_WEIGHT        = 0.0    # no minimum — Claude sizes positions freely
-LONG_TERM_MAX_WEIGHT        = 0.15
-LONG_TERM_MAX_STOP_LOSS_PCT = 0.20   # 20% hard cap (long-term can ride more volatility)
+LONG_TERM_MAX_POSITIONS = 30
+LONG_TERM_MIN_WEIGHT    = 0.0    # no minimum — Claude sizes positions freely
+LONG_TERM_MAX_WEIGHT    = 0.15
 
 # Hard cash floor — absolute minimum, code-enforced.
 # Claude is instructed to treat cash as a strategic position (can hold 0-90%+)

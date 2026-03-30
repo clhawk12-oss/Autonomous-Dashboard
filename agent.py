@@ -25,11 +25,9 @@ from config import (
     SWING_MAX_POSITIONS,
     SWING_MIN_WEIGHT,
     SWING_MAX_WEIGHT,
-    SWING_MAX_STOP_LOSS_PCT,
     LONG_TERM_MAX_POSITIONS,
     LONG_TERM_MIN_WEIGHT,
     LONG_TERM_MAX_WEIGHT,
-    LONG_TERM_MAX_STOP_LOSS_PCT,
     MIN_CASH_BUFFER,
     TRADEABLE_UNIVERSE,
 )
@@ -60,7 +58,7 @@ MANDATE
 - Target holding period: several days to ~2 months; exit when thesis breaks or target is hit
 - Max {SWING_MAX_POSITIONS} concurrent positions
 - Position sizing: up to {int(SWING_MAX_WEIGHT*100)}% of total portfolio value per position; no minimum — small positions (1–3%) are fine when conviction is moderate
-- Stop losses required on every new position; hard cap {int(SWING_MAX_STOP_LOSS_PCT*100)}% from entry
+- Stop losses optional — set one on any position where you want downside protection
 - Starting capital: ${STARTING_CASH:,.0f}
 
 CASH AS A STRATEGIC POSITION
@@ -111,7 +109,7 @@ RULES
 1. Empty actions array is valid — HOLD the portfolio when no compelling setup exists.
 2. Cannot SHORT a long position or BUY a short position without closing first.
 3. shares must be a positive integer.
-4. stop_loss_pct required for BUY and SHORT (decimal, e.g. 0.06 = 6%). Max {SWING_MAX_STOP_LOSS_PCT}.
+4. stop_loss_pct is optional for BUY and SHORT (decimal, e.g. 0.06 = 6%). Omit or set to null if you do not want a stop on this position.
 5. Do not exceed {SWING_MAX_POSITIONS} total positions after all actions.
 6. Position size cap is {int(SWING_MAX_WEIGHT*100)}% of portfolio value. No minimum — size freely based on conviction.
 7. Cash must not drop below {int(MIN_CASH_BUFFER*100)}% after all trades (system enforced).
@@ -140,7 +138,7 @@ MANDATE
 - Target holding period: months to years; sell only when thesis is broken or valuation becomes extreme
 - Max {LONG_TERM_MAX_POSITIONS} concurrent positions
 - Position sizing: up to {int(LONG_TERM_MAX_WEIGHT*100)}% of total portfolio value per position; no minimum — small starter positions (1–3%) are fine when building conviction
-- Stop losses required on every new position; hard cap {int(LONG_TERM_MAX_STOP_LOSS_PCT*100)}% from entry
+- Stop losses optional — set one on any position where you want downside protection
 - Starting capital: ${STARTING_CASH:,.0f}
 
 CASH AS A STRATEGIC POSITION
@@ -195,7 +193,7 @@ RULES
 1. Empty actions array is valid — do NOT trade just to appear active. Patience is a virtue.
 2. Only BUY, SELL, and COVER are permitted. SHORT will be rejected. COVER is only valid to close an existing short position — no new shorts may be opened.
 3. shares must be a positive integer.
-4. stop_loss_pct required for BUY (decimal). Max {LONG_TERM_MAX_STOP_LOSS_PCT}.
+4. stop_loss_pct is optional for BUY (decimal, e.g. 0.12 = 12%). Omit or set to null if you do not want a stop on this position.
 5. Do not exceed {LONG_TERM_MAX_POSITIONS} total positions after all actions.
 6. Position size cap is {int(LONG_TERM_MAX_WEIGHT*100)}% of portfolio value. No minimum — size freely based on conviction.
 7. Cash must not drop below {int(MIN_CASH_BUFFER*100)}% after all trades (system enforced).
@@ -528,8 +526,6 @@ def _validate_decision(decision: dict) -> None:
                 raise ValueError(f"Action[{i}] missing field '{field}'")
         if action["action"] not in valid_actions:
             raise ValueError(f"Action[{i}] has invalid action type: {action['action']}")
-        if action["action"] in ("BUY", "SHORT") and "stop_loss_pct" not in action:
-            raise ValueError(f"Action[{i}] BUY/SHORT requires 'stop_loss_pct'")
 
 
 def call_claude(
