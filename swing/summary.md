@@ -1,5 +1,5 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-03-29 19:39 ET*
+*Last updated: 2026-03-29 20:55 ET*
 
 ## Performance
 | Metric | Value |
@@ -7,7 +7,7 @@
 | Total P&L | $+0.00 (+0.00%) |
 | Realized P&L | $+0.00 |
 | Unrealized P&L | $+0.00 |
-| Cash | $78,717.46 (73.0%) |
+| Cash | $78,716.84 (73.0%) |
 | Long Exposure | $17,337.76 |
 | Short Exposure | $7,885.80 |
 | Net Exposure | $9,451.96 |
@@ -24,4 +24,4 @@
 | ASML | LONG | 3 | $1302.47 | $1302.47 | $3,907.41 | $+0.00 | +0.0% | $1211.30 |
 
 ## PM Narrative
-Holding all positions. ARM, MRVL, TSEM, ASML thesis remains intact—these are structural AI capex infrastructure winners holding up during growth correction. AKAM (cyber/edge SaaS) also performing well (+3.6% 1W) with attractive valuation. META short is a macro hedge; recent lawsuit verdicts reinforce structural headwinds, though capitulation move means relief bounce risk is real—watching for technical confirmation before reassessing. Portfolio at 21% deployed, 79% cash; macro uncertainty (Fed, recession signals) argues for selective deployment rather than aggressive entry. Monitoring: ARM earnings guidance for IP licensing traction, TSEM/MRVL breakouts above recent highs ($175, $95 respectively), semiconductor equipment order data (KLAC, ASML), VIX technicals for capitulation confirmation. No changes unless conviction thesis breaks or high-quality setup emerges at better technicals.
+No trades executed. Portfolio remains defensively positioned with 6 high-conviction long positions (ARM, MRVL, TSEM, AKAM, ASML, all beneficiaries of AI capex cycle structural demand) and 1 short hedge (META, whose legal headwinds are deepening). Recent news confirms thesis validation: ARM gains backing from SoftBank's $40B OpenAI/AI bet, META faces mounting legal risks from youth engagement design patterns, TSEM experiences patent challenge from GlobalFoundries (temporary noise, not thesis-breaking). Technicals support holding: ARM +8.9% 1W outperformance, MRVL +7.9%, TSEM +5.1% suggest institutional quality rotation intact. TSEM's Jim Cramer callout to 'take a little off' on parabolic move noted but position sizing (15 shares, 2.6% of portfolio) already reflects moderate conviction; no action warranted. Maintaining 79% cash as active position—macro backdrop remains uncertain with Fed guidance, recession signals, and VIX elevated. When clearer catalysts emerge (ARM earnings, TSEM/MRVL guidance, semiconductor equipment orders data), will deploy selectively. Risk/reward asymmetry favors waiting for breakout confirmation (TSEM >$175, MRVL >$95) rather than forcing new entries into uncertain tape.

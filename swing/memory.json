@@ -1,13 +1,14 @@
 {
-  "market_notes": "Tech correction entering second week (QQQ -3.4%, SMH -2.7% 1W) with persistent flight-to-quality: ARM +8.9%, MRVL +7.9%, TSEM +5.1%, CIEN +4.6% outperforming while mega-cap mega-growth remains weak (MSFT -6.6%, GOOG -8.4%, NVDA -3.0%, LLY -3.1%). Market is repricing growth expectations downward but maintaining confidence in structural AI capex cycle\u2014semiconductor equipment/IP licensing/networking infrastructure names remain bid despite broad selloff. Macro backdrop uncertain: Fed guidance, recession risk signals, but enterprise semiconductor orders and foundry demand remain resilient. Portfolio positioned in high-quality infrastructure beneficiaries with catalysts; no urgency to chase amid uncertainty.",
+  "market_notes": "Tech correction holding steady (QQQ -3.4% 1W, SMH -2.7%) with clear flight-to-quality intact: ARM +8.9%, MRVL +7.9%, TSEM +5.1% outperforming while mega-cap growth (MSFT -6.6%, GOOG -8.4%) remains pressured. Semiconductor/networking infrastructure thesis validated by sustained institutional accumulation despite broad selloff. Macro uncertainty elevated (Fed guidance pending, recession risk signals, but enterprise capex resilient). META legal verdict on youth engagement design adds structural headwind to short thesis. Market repricing growth expectations downward but maintaining confidence in AI capex cycle durability\u2014semiconductor equipment, IP licensing, and foundry demand remain structurally bid. Volatility elevated (VIX signal implied) with VolRatio spikes on META (2.02), GOOG (1.27), broader capitulation risk low. No urgency to chase; quality rotation thesis intact, positioning appropriate for uncertain macro environment.",
   "watching": [
-    "ARM earnings guidance on AI/CPU IP licensing momentum\u2014key validation of infrastructure thesis",
-    "TSEM/MRVL technical breakouts ($175, $95 resistance levels)\u2014confirm continuation of relative strength",
-    "Semiconductor equipment orders data (KLAC, ASML guidance) for AI capex cycle confirmation",
-    "META short stop loss $562.52\u2014reassess on relief bounce; legal headwinds remain structural",
-    "VIX technicals and SPY support ($580-600 range)\u2014monitor for macro capitulation vs. grinding lower",
-    "Federal Reserve communications for rate guidance and recession risk signaling",
-    "NVIDIA/AI announcements as primary category catalyst for rotation acceleration"
+    "ARM earnings guidance on AI/CPU IP licensing momentum\u2014critical validation of infrastructure thesis and SoftBank/OpenAI synergy",
+    "TSEM technical breakout above $175 resistance\u2014confirmation of continuation above recent parabolic move; also monitor GlobalFoundries patent suit evolution",
+    "MRVL technical breakout above $95 resistance\u2014continuation signal for AI data center networking TAM expansion",
+    "META relief bounce target $540-550 on legal verdict digestion\u2014potential short cover signal if thesis breaks",
+    "Semiconductor equipment orders data (KLAC, ASML guidance)\u2014validates AI capex cycle durability and equipment demand",
+    "Federal Reserve communications for rate guidance and recession risk signaling\u2014macro inflection point",
+    "VIX technicals and SPY support $580-600 range\u2014monitor for macro capitulation vs. grinding lower scenario",
+    "NVIDIA/AI announcements as category catalyst\u2014potential trigger for rotation acceleration back to mega-cap growth"
   ],
   "recent_runs": [
     {
@@ -32,6 +33,14 @@
       "run_id": "swing-20260329-1939",
       "timestamp": "2026-03-29T19:39:34.906617-04:00",
       "reasoning": "Market remains in pronounced tech correction (QQQ -3.4% 1W, SMH -2.7%) with clear flight-to-quality rotation intact. ARM +8.9%, MRVL +7.9%, TSEM +5.1% confirm institutional accumulation in AI infrastructure names. Long-term agent holds major positions in NVDA, MSFT, GOOG, AMZN (all underwater) and co-owns ARM, MRVL with me\u2014no conflicts. META short hedge is now underwater on panic capitulation move (-11.4% 1W) but thesis remains valid given legal setbacks and competitive headwinds; holding for relief bounce. Current portfolio is 21% deployed with high-conviction infrastructure plays; macro backdrop remains uncertain (Fed signals, recession risks) but semiconductor/networking orders resilient. No new catalyst-driven entries warranted; focus on monitoring breakouts and macro inflection.",
+      "actions_taken": [
+        "No trades \u2014 HOLD all positions."
+      ]
+    },
+    {
+      "run_id": "swing-20260329-2055",
+      "timestamp": "2026-03-29T20:55:15.871004-04:00",
+      "reasoning": "Portfolio is appropriately positioned in high-conviction AI infrastructure beneficiaries (ARM, MRVL, TSEM, AKAM, ASML) with META short hedge intact. Tech correction remains structural with flight-to-quality favoring semiconductor/networking names. No urgent catalysts require new entries; TSEM breakout above $175 and MRVL above $95 remain key technical confirmation levels. META short thesis strengthened by fresh legal verdict on youth engagement design. Holding 79% cash is justified given macro uncertainty (Fed guidance pending, recession signals mixed) and elevated volatility. Current setup captures asymmetric risk/reward in quality oversold names without forced deployment.",
       "actions_taken": [
         "No trades \u2014 HOLD all positions."
       ]

@@ -2,10 +2,10 @@
   "meta": {
     "agent_type": "swing",
     "starting_cash": 100000.0,
-    "last_updated": "2026-03-29T19:39:34.906617-04:00",
-    "last_run_id": "swing-20260329-1939"
+    "last_updated": "2026-03-29T20:55:15.871004-04:00",
+    "last_run_id": "swing-20260329-2055"
   },
-  "cash": 78717.46242857141,
+  "cash": 78716.83657142855,
   "margin_reserved": 11828.7,
   "positions": {
     "ARM": {
@@ -33,7 +33,7 @@
       "thesis": "META faces structural headwinds from AI competition, regulatory pressures, and advertising weakness in macro downturn; extreme weekly decline and volume spike suggest panic capitulation, creating oversold bounce risk; short position hedges portfolio against growth-at-any-price rotation.",
       "stop_loss": 562.52,
       "take_profit": 420.58,
-      "borrow_cost_accrued": 1.8775714285714287,
+      "borrow_cost_accrued": 2.5034285714285716,
       "_margin_hold": 11828.7
     },
     "AKAM": {
