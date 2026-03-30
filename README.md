@@ -10,7 +10,7 @@ An autonomous paper trading system powered by the Anthropic Claude API. Two inde
 |---|---|---|
 | **Model** | claude-haiku-4-5-20251001 (fast) | claude-sonnet-4-6 (deeper reasoning) |
 | **Directory** | `swing/` | `long_term/` |
-| **Runs** | 3× daily: 10am, 1pm, 3:30pm ET | 1× daily: 4:15pm ET (after close) |
+| **Runs** | 1× daily: 3:30pm ET (near close) | 1× daily: 4:15pm ET (after close) |
 | **Max positions** | 20 | 30 |
 | **Position size** | Up to 20% per position (no minimum) | Up to 15% per position (no minimum) |
 | **Max stop loss** | 10% from entry | 20% from entry |
@@ -45,22 +45,29 @@ autonomous portfolio/
 ├── config.py              ← All constants — single source of truth
 ├── agent.py               ← Prompt architecture + Claude API calls
 ├── main.py                ← Orchestrator (stops, execution, memory, logging)
-├── prices.py              ← yfinance data layer (prices + technicals)
+├── prices.py              ← yfinance data layer (prices, technicals, news, earnings)
+├── dashboard.py           ← Streamlit dashboard (run: python -m streamlit run dashboard.py)
 ├── watchlists.json        ← Tradeable universe (edit to add/remove tickers)
-├── setup_scheduler.ps1    ← One-time Windows Task Scheduler registration
+├── setup_scheduler.ps1    ← One-time Windows Task Scheduler registration (optional if using Actions)
 ├── requirements.txt
 ├── .env                   ← ANTHROPIC_API_KEY (never commit)
 ├── .env.example
 │
+├── .github/
+│   └── workflows/
+│       └── run_agents.yml ← GitHub Actions: runs both agents daily in the cloud
+│
 ├── swing/
 │   ├── holdings.json      ← Live portfolio state
 │   ├── memory.json        ← Rolling run history (last 5 runs)
+│   ├── equity_log.jsonl   ← Per-run portfolio value history (for equity curve)
 │   ├── trade_log.md       ← Append-only trade journal
 │   └── summary.md         ← Current snapshot (overwritten each run)
 │
 └── long_term/
     ├── holdings.json
     ├── memory.json        ← Rolling run history (last 10 runs)
+    ├── equity_log.jsonl
     ├── trade_log.md
     └── summary.md
 ```
@@ -75,15 +82,18 @@ Every scheduled run follows this exact sequence:
 1.  Load holdings.json
 2.  Load memory.json (prior run reasoning)
 3.  Fetch prices + technicals for all 145 tickers via yfinance
-4.  Enforce mechanical stop-losses (before Claude is called)
-5.  Accrue daily borrow cost on short positions (swing only)
-6.  Call Claude API with: memory context + portfolio state + technicals
-7.  Execute Claude's trade decisions (with hard constraint checks)
-8.  Recompute performance metrics
-9.  Update memory.json with this run's reasoning + memory_update
-10. Save holdings.json (atomic write)
-11. Append to trade_log.md
-12. Overwrite summary.md
+4.  Fetch recent news headlines + upcoming earnings for held tickers only
+5.  Load peer agent's holdings.json (for coordination context)
+6.  Enforce mechanical stop-losses (before Claude is called)
+7.  Accrue daily borrow cost on short positions (swing only)
+8.  Call Claude API with: memory + portfolio state + technicals + news + earnings + peer holdings
+9.  Execute Claude's trade decisions (with hard constraint checks)
+10. Recompute performance metrics
+11. Update memory.json with this run's reasoning + memory_update
+12. Save holdings.json (atomic write)
+13. Append to equity_log.jsonl (one line: timestamp + portfolio value)
+14. Append to trade_log.md
+15. Overwrite summary.md
 ```
 
 Steps 4 and 7 are enforced in Python — Claude cannot override hard constraints.
@@ -129,6 +139,9 @@ Each Claude call receives three layers:
 - Last 5 closed positions with realized P&L and exit reason
 - Benchmark returns: SPY, QQQ, SMH (1W and 1M)
 - Watchlist technicals for all 145 tradeable names: price, 1W/1M return, % from 52W high, volume ratio, ATR-14
+- Recent news headlines for held tickers (last 7 days, up to 5 per ticker)
+- Upcoming earnings dates for held tickers (next 14 days)
+- Peer agent's open positions (read-only, for coordination — no conflicting directions)
 
 **Layer 3 — Task (static):** "Analyse the above and return a single JSON object."
 
@@ -223,10 +236,26 @@ Overwritten every run. Clean current-state snapshot with performance table, open
 
 ## Scheduling
 
-Managed by Windows Task Scheduler via `setup_scheduler.ps1`.
+### GitHub Actions (primary — runs in the cloud, no local machine needed)
 
-- **SwingAgent task:** fires every 30 minutes, 9:45am–4:00pm ET, Mon–Fri. `main.py` internally checks if the current time is within 15 minutes of a scheduled window (10am, 1pm, 3:30pm) — Claude is only called ~3 times per day.
-- **LongTermAgent task:** fires once at 4:15pm ET, Mon–Fri.
+`.github/workflows/run_agents.yml` triggers both agents daily:
+
+- **Swing job:** 3:30pm ET Mon–Fri (`30 20 * * 1-5` UTC)
+- **Long-term job:** 4:15pm ET Mon–Fri (`15 21 * * 1-5` UTC), runs after swing completes
+
+Both jobs run sequentially (not in parallel) to avoid git push conflicts. The workflow commits agent output files back to the repo automatically.
+
+To trigger a manual run: go to the GitHub repo → Actions → Run Portfolio Agents → Run workflow.
+
+**Required GitHub setup:**
+1. Add `ANTHROPIC_API_KEY` as a repository secret (Settings → Secrets → Actions)
+2. Ensure the repo has write permissions for Actions (Settings → Actions → General → Workflow permissions → Read and write)
+
+### Windows Task Scheduler (optional — local fallback)
+
+`setup_scheduler.ps1` registers local tasks if you want agents to run on your machine:
+- **SwingAgent:** once daily at 3:30pm ET, Mon–Fri
+- **LongTermAgent:** once daily at 4:15pm ET, Mon–Fri
 
 ---
 
@@ -285,8 +314,25 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ---
 
+## Dashboard
+
+```bash
+python -m streamlit run dashboard.py
+```
+
+Shows:
+- **Equity curves** — both agents vs SPY/QQQ/SMH, indexed to 100 at start
+- **Portfolio metrics** — value, total P&L, cash%, open positions, win rate
+- **Positions table** — color-coded by P&L, with sector, stop distance, current price
+- **Sector exposure** — bar chart per agent (shorts shown as negative)
+- **Trade log** — expandable run-by-run entries, newest first
+
+Data refreshes every 60 seconds automatically. No database required — reads directly from `holdings.json`, `equity_log.jsonl`, and `trade_log.md`.
+
+---
+
 ## Cost Estimate
 
-~$0.03–0.05/day at current Anthropic pricing:
-- Haiku: swing agent, 3 calls/day × 145-ticker context
-- Sonnet: long-term agent, 1 call/day × 145-ticker context
+~$0.01–0.02/day at current Anthropic pricing:
+- Haiku: swing agent, 1 call/day × 145-ticker context (+ news/earnings)
+- Sonnet: long-term agent, 1 call/day × 145-ticker context (+ news/earnings)
