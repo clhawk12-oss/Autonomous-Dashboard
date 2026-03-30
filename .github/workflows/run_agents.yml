@@ -1,0 +1,75 @@
+name: Run Portfolio Agents
+
+on:
+  schedule:
+    # Swing agent: 3:30 PM ET = 20:30 UTC (EST) / 19:30 UTC (EDT)
+    # Using 20:30 UTC — works precisely during EST (Nov–Mar); ~1hr early during EDT (Mar–Nov)
+    - cron: '30 20 * * 1-5'
+    # Long-term agent: 4:15 PM ET = 21:15 UTC (EST)
+    - cron: '15 21 * * 1-5'
+  workflow_dispatch:  # allows manual trigger from GitHub UI
+
+jobs:
+  swing:
+    name: Swing Agent
+    # Only run on the 20:30 cron OR manual trigger
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 20 * * 1-5'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic yfinance pandas numpy pytz python-dotenv
+
+      - name: Run swing agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python main.py --agent swing --force
+
+      - name: Commit updated state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add swing/holdings.json swing/memory.json swing/trade_log.md swing/summary.md
+          git add swing/equity_log.jsonl || true
+          git diff --cached --quiet || git commit -m "chore: swing agent run $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+  long_term:
+    name: Long-Term Agent
+    # Only run on the 21:15 cron OR manual trigger
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 21 * * 1-5'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic yfinance pandas numpy pytz python-dotenv
+
+      - name: Run long-term agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python main.py --agent long_term --force
+
+      - name: Commit updated state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add long_term/holdings.json long_term/memory.json long_term/trade_log.md long_term/summary.md
+          git add long_term/equity_log.jsonl || true
+          git diff --cached --quiet || git commit -m "chore: long-term agent run $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
