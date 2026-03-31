@@ -1,27 +1,29 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-03-30 17:26 ET*
+*Last updated: 2026-03-31 18:54 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $-1,061.63 (-1.06%) |
-| Realized P&L | $+0.00 |
-| Unrealized P&L | $-1,061.63 |
-| Cash | $78,715.57 (73.6%) |
-| Long Exposure | $16,436.03 |
-| Short Exposure | $8,045.70 |
-| Net Exposure | $8,390.33 |
-| Win Rate | n/a (0 closed) |
+| Total P&L | $-222.67 (-0.22%) |
+| Realized P&L | $-696.15 |
+| Unrealized P&L | $+473.48 |
+| Cash | $68,100.25 (71.2%) |
+| Long Exposure | $27,545.22 |
+| Short Exposure | $0.00 |
+| Net Exposure | $27,545.22 |
+| Win Rate | n/a (1 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 35 | $144.13 | $136.96 | $4,793.60 | $-250.95 | -5.0% | $135.48 |
-| META | SHORT | 15 | $525.72 | $536.38 | $8,045.70 | $-159.90 | -2.0% | $562.52 |
-| AKAM | LONG | 30 | $114.50 | $110.22 | $3,306.60 | $-128.40 | -3.7% | $105.34 |
-| MRVL | LONG | 25 | $94.88 | $87.81 | $2,195.25 | $-176.75 | -7.5% | $87.29 |
-| TSEM | LONG | 15 | $171.92 | $158.58 | $2,378.70 | $-200.10 | -7.8% | $158.17 |
-| ASML | LONG | 3 | $1302.47 | $1253.96 | $3,761.88 | $-145.53 | -3.7% | $1211.30 |
+| ARM | LONG | 35 | $144.13 | $151.28 | $5,294.80 | $+250.25 | +5.0% | $135.48 |
+| AKAM | LONG | 30 | $114.50 | $114.85 | $3,445.50 | $+10.50 | +0.3% | $105.34 |
+| MRVL | LONG | 40 | $96.44 | $99.05 | $2,476.25 | $+104.25 | +4.4% | $87.29 |
+| TSEM | LONG | 15 | $171.92 | $175.48 | $2,632.20 | $+53.40 | +2.1% | $158.17 |
+| ASML | LONG | 5 | $1309.81 | $1320.83 | $3,962.49 | $+55.08 | +1.4% | $1211.30 |
+| NVDA | LONG | 20 | $174.40 | $174.40 | $3,488.00 | $+0.00 | +0.0% | $165.68 |
+| AMAT | LONG | 12 | $341.79 | $341.79 | $4,101.48 | $+0.00 | +0.0% | $314.45 |
+| DOCN | LONG | 25 | $85.78 | $85.78 | $2,144.50 | $+0.00 | +0.0% | $78.06 |
 
 ## PM Narrative
-Portfolio held in tactical posture with 6 high-conviction AI infrastructure positions (ARM, MRVL, TSEM, AKAM, ASML, META short) representing 21% deployment and 79% cash dry powder. Tech sector correction remains structural with SPY -3.6% 1W, QQQ -5.1% 1W, SMH -7.4% 1W; flight-to-quality rotation favoring semiconductor/networking IP and foundry capex cycle remains intact despite near-term pullbacks. ARM outperforming relative to broad selloff; MRVL consolidating above $87 with key resistance at $95; TSEM pulled back -7.9% 1W but +27.0% 1M signals institutional accumulation phase. AKAM performing within thesis at -3.7% 1W with RSAC security conference catalysts active. META short remains a hedge (-2.0% underwater) but thesis strengthened by fresh legal verdict on youth engagement design; position size modest (15 shares = 2% portfolio exposure). Macro backdrop remains uncertain with Fed guidance pending, Iran conflict escalating (oil >$100, VIX elevated), and recession signals mixed—enterprise capex resilience in semiconductor orders remains key validation point. No forced entries warranted; market offers asymmetric risk/reward in current oversold quality thesis that is already efficiently captured by existing positioning. Next inflection points: TSEM breakout >$175, MRVL >$95, META relief bounce $540–550, ARM earnings guidance validation, semiconductor equipment demand data (KLAC, ASML). Holding high cash ratio (79%) protects against macro capitulation while maintaining firepower for emerging opportunities.
+Iran war de-escalation signal (Trump 2-3 week resolution claim) triggered broad rally, especially in beaten-down quality mega-caps and semiconductor infrastructure. ARM +12.1% 1W, MRVL +7.2% (NVIDIA $2B partnership validation), ASML rebounding on EU AI backing all confirm flight-to-quality thesis intact. Portfolio at 82% cash is appropriately defensive but current macro inflection (lower geopolitical risk, Fed guidance pending, AI capex cycle validated by NVIDIA-Marvell deal) warrants incremental offensive deployment. Added 5 positions targeting AI infrastructure (NVDA, MRVL, AMAT), semiconductor equipment cycle (ASML), and distributed compute (DOCN). All entries sized modestly (1.6–4.1% per position) to preserve flexibility; total deployment now ~20% with 78% cash still available for capitulation or further breakout confirmation. Stop losses set 5–9% below entry to protect news risk; take-profits target 10–16% upside into relief bounce and technical resistance zones. Existing positions (ARM, MRVL, TSEM, AKAM, ASML) all tracking thesis—monitoring TSEM breakout above $175 and MRVL breakout above $100 as next technical confirmation levels. META short closure (realized -8.8%) freed capital but thesis on structural headwinds remains valid for potential re-entry on relief bounce into $540–550 range. Macro uncertainty (Fed, oil price persistence >$100, geopolitical escalation risk) remains real, but near-term setup favors quality rotation into AI infrastructure durability.

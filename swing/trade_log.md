@@ -103,3 +103,22 @@ Borrow cost META: $0.6385/day (total $3.77)
 
 ---
 
+### 2026-03-31 18:54 ET — Run ID: swing-20260331-1854
+**Market**: after-hours | 18:54 ET
+**STOP_LOSS** COVER 15 META @ $572.13 → P&L $-696.15
+**Reasoning**: **Macro:** Markets rallied strongly on Iran war de-escalation signal (Trump claims resolution in 2-3 weeks); oil retreated from >$100, risk-on tone returned. SPY flat 1W but Q1 close positive; QQQ and SMH rebounding after corrections. Flight-to-quality thesis intact but immediate macro tailwind reducing defensive urgency. Fed signals still pending—key inflection point. **Sectors:** Tech rotation accelerating into quality mega-caps (NVDA, ARM surging on AI optimism); semiconductor/infrastructure beneficiaries outperforming broader correction. Geopolitical relief lift broadening beyond quality into cyclicals (energy, financials). **Positions:** Portfolio is 82% cash, heavily underdeployed given rally + technical breakouts. ARM +12.1% 1W, MRVL +7.2% 1W, TSEM consolidating near $175 resistance are all tracking thesis. AKAM flat but thesis intact. ASML down -5.6% 1W but order book strength remains secular tailwind. No urgent exits; market inflection suggests incremental deployment opportunity into validated names + new entry setup in beaten-down AI infrastructure. Recent META short closure realized 8.8% loss but freed capital for offensive positioning.
+**Benchmarks**: SPY 1W -0.4% | QQQ 1W -1.2% | SMH 1W -2.8%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| BUY | NVDA | 20 | $174.40 | NVIDIA benefits from AI capex cycle durability (SoftBank/OpenAI $852B valuation validates infrastructure spending) and geopolitical de-escalation reducing macro uncertainty. |
+| BUY | MRVL | 15 | $99.05 | NVIDIA $2B strategic investment in Marvell validates networking architecture moat in AI data center buildout; breakout above $100 confirms institutional accumulation phase. |
+| BUY | ASML | 2 | $1320.83 | ASML's EUV order book and European government backing (AI infrastructure investment) confirm AI capex cycle visibility; recent pullback presents accumulation opportunity. |
+| BUY | AMAT | 12 | $341.79 | Applied Materials' AI-centric product strategy and semiconductor equipment order visibility provide leverage to foundry capex cycle; near-term pullback is setup for entry. |
+| BUY | DOCN | 25 | $85.78 | DigitalOcean benefits from distributed cloud compute demand and AI developer adoption; recent consolidation after strong run presents entry into secular growth backdrop. |
+
+**Portfolio after run**: Cash $68,100.25 | P&L $-222.67 (-0.22%)
+Borrow cost META: $0.6811/day (total $4.45)
+
+---
+
