@@ -18,6 +18,7 @@ import traceback
 from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 import pytz
 from dotenv import load_dotenv
