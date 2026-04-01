@@ -544,6 +544,23 @@ def accrue_borrow_costs(holdings: dict) -> list[str]:
 # Equity log (one JSONL line per run — powers the dashboard equity curve)
 # ---------------------------------------------------------------------------
 
+def read_last_equity(agent_dir: Path) -> Optional[dict]:
+    """Return the last record in equity_log.jsonl, or None if it doesn't exist yet."""
+    path = agent_dir / "equity_log.jsonl"
+    if not path.exists():
+        return None
+    last = None
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                try:
+                    last = json.loads(line)
+                except json.JSONDecodeError:
+                    pass
+    return last
+
+
 def append_equity_log(agent_dir: Path, holdings: dict, run_id: str) -> None:
     """Append a portfolio value snapshot to equity_log.jsonl."""
     perf  = holdings["performance"]
@@ -812,9 +829,9 @@ def run_agent(agent_type: str, force: bool = False) -> None:
     execution_notes = []
     skipped_notes   = []   # track skipped actions separately for summary correction
     bench_line = " | ".join(
-        f"{t} 1W {(technicals.get(t) or {}).get('return_1w', 0)*100:+.1f}%"
+        f"{t} 1D {(technicals.get(t) or {}).get('return_1d', 0)*100:+.1f}%"
         for t in ["SPY", "QQQ", "SMH"]
-        if technicals.get(t) and technicals[t].get("return_1w") is not None
+        if technicals.get(t) and technicals[t].get("return_1d") is not None
     )
     log_entries.append(f"**Benchmarks**: {bench_line}")
     log_entries.append("")
@@ -837,11 +854,23 @@ def run_agent(agent_type: str, force: bool = False) -> None:
                 continue
 
             try:
-                note = execute_action(holdings, action, prices, agent_type)
-                execution_notes.append(note)
-                print(f"[{run_id}] {note}")
-                # Use thesis for BUY/SHORT (investment case) and rationale for SELL/COVER (exit reason)
-                note = action.get("thesis", "") if act in ("BUY", "SHORT") else action.get("rationale", "")
+                exec_result = execute_action(holdings, action, prices, agent_type)
+                execution_notes.append(exec_result)
+                print(f"[{run_id}] {exec_result}")
+                # Strip newlines and pipes so the table row stays on one line;
+                # use ⬛ as a delimiter the dashboard can split on
+                def _clean(s: str) -> str:
+                    return (s or "").replace("\n", " ").replace("|", "/")
+                if act in ("BUY", "SHORT"):
+                    rationale = _clean(action.get("rationale", ""))
+                    thesis    = _clean(action.get("thesis", ""))
+                    note = f"{rationale} ⬛ {thesis}" if rationale and thesis else (rationale or thesis)
+                else:
+                    # For SELL/COVER: include rationale + realized P&L from exec result
+                    rationale = _clean(action.get("rationale", ""))
+                    pnl_m = re.search(r"P&L \$([+\-][\d,.]+)", exec_result)
+                    pnl_note = f"P&L ${pnl_m.group(1)}" if pnl_m else ""
+                    note = f"{rationale} ⬛ {pnl_note}" if pnl_note else rationale
                 log_entries.append(
                     f"| {act} | {ticker} | {shares} | ${price:.2f} | {note} |"
                 )
@@ -862,6 +891,7 @@ def run_agent(agent_type: str, force: bool = False) -> None:
     holdings["meta"]["last_run_id"]  = run_id
 
     # ── Append equity snapshot ─────────────────────────────────────────────
+    prev_equity = read_last_equity(agent_dir)
     append_equity_log(agent_dir, holdings, run_id)
 
     # ── Update and save memory ─────────────────────────────────────────────
@@ -890,10 +920,21 @@ def run_agent(agent_type: str, force: bool = False) -> None:
 
     # ── Append trade log ───────────────────────────────────────────────────
     perf = holdings["performance"]
+    cur_value = (
+        holdings["cash"]
+        + holdings.get("margin_reserved", 0.0)
+        + perf["long_exposure"]
+        - perf["short_exposure"]
+    )
+    daily_str = ""
+    if prev_equity and prev_equity.get("portfolio_value"):
+        daily_pct = (cur_value / prev_equity["portfolio_value"] - 1) * 100
+        daily_str = f" | Daily {daily_pct:+.2f}%"
     log_entries.append("")
     log_entries.append(
         f"**Portfolio after run**: Cash ${holdings['cash']:,.2f} | "
         f"P&L ${perf['total_pnl']:+,.2f} ({perf['total_return_pct']*100:+.2f}%)"
+        f"{daily_str}"
     )
     if borrow_notes:
         log_entries.extend(borrow_notes)

@@ -8,7 +8,7 @@ An autonomous paper trading system powered by the Anthropic Claude API. Two inde
 
 | | Swing Trader | Long-Term Investor |
 |---|---|---|
-| **Model** | claude-haiku-4-5-20251001 (fast) | claude-sonnet-4-6 (deeper reasoning) |
+| **Model** | claude-sonnet-4-6 | claude-sonnet-4-6 |
 | **Directory** | `swing/` | `long_term/` |
 | **Runs** | 1× daily: 3:30pm ET (near close) | 1× daily: 4:15pm ET (after close) |
 | **Max positions** | 20 | 30 |
@@ -316,7 +316,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 | `SHORT_BORROW_RATE_ANNUAL` | 2% | Annual borrow cost on shorts |
 | `MAX_TOKENS_SWING` | 3000 | Output budget for swing agent (structured reasoning + thesis) |
 | `MAX_TOKENS_LONG` | 4096 | Output budget for long-term agent |
-| `SWING_MODEL` | claude-haiku-4-5-20251001 | Claude model for swing decisions |
+| `SWING_MODEL` | claude-sonnet-4-6 | Claude model for swing decisions |
 | `LONG_TERM_MODEL` | claude-sonnet-4-6 | Claude model for long-term decisions |
 
 ---
@@ -354,5 +354,4 @@ No database required — reads directly from `holdings.json`, `equity_log.jsonl`
 ## Cost Estimate
 
 ~$0.01–0.02/day at current Anthropic pricing:
-- Haiku: swing agent, 1 call/day × 145-ticker context (+ news/earnings)
-- Sonnet: long-term agent, 1 call/day × 145-ticker context (+ news/earnings)
+- Sonnet: both agents, 1 call/day × 145-ticker context (+ news/earnings)

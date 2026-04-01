@@ -131,11 +131,13 @@ def fetch_technical_summary(ticker: str) -> dict:
         return {"ticker": t, "price": None, "error": "insufficient data"}
 
     price      = float(close.iloc[-1])
+    price_1d   = float(close.iloc[-2])  if len(close) >= 2  else None
     price_1w   = float(close.iloc[-6])  if len(close) >= 6  else None
     price_1m   = float(close.iloc[-22]) if len(close) >= 22 else None
     high_52w   = float(high.max())
     low_52w    = float(low.min())
 
+    ret_1d = round((price / price_1d - 1), 4) if price_1d else None
     ret_1w = round((price / price_1w - 1), 4) if price_1w else None
     ret_1m = round((price / price_1m - 1), 4) if price_1m else None
     pct_from_high = round((price / high_52w - 1), 4) if high_52w else None
@@ -149,6 +151,7 @@ def fetch_technical_summary(ticker: str) -> dict:
     return {
         "ticker":            t,
         "price":             round(price, 2),
+        "return_1d":         ret_1d,
         "price_1w_ago":      round(price_1w, 2)   if price_1w   else None,
         "price_1m_ago":      round(price_1m, 2)   if price_1m   else None,
         "return_1w":         ret_1w,
@@ -188,6 +191,7 @@ def fetch_watchlist_technicals(tickers: list[str]) -> dict[str, dict]:
             continue
 
         price    = float(close.iloc[-1])
+        price_1d = float(close.iloc[-2])  if len(close) >= 2  else None
         price_1w = float(close.iloc[-6])  if len(close) >= 6  else None
         price_1m = float(close.iloc[-22]) if len(close) >= 22 else None
         high_52w = float(high.max())
@@ -196,6 +200,7 @@ def fetch_watchlist_technicals(tickers: list[str]) -> dict[str, dict]:
         results[t] = {
             "ticker":            t,
             "price":             round(price, 2),
+            "return_1d":         round(price / price_1d - 1, 4)       if price_1d   else None,
             "price_1w_ago":      round(price_1w, 2)                   if price_1w   else None,
             "price_1m_ago":      round(price_1m, 2)                   if price_1m   else None,
             "return_1w":         round(price / price_1w - 1, 4)       if price_1w   else None,

@@ -25,9 +25,9 @@ AI_INFRA_UNIVERSE:  list[str] = TRADEABLE_UNIVERSE + BENCHMARK_TICKERS  # full f
 
 # ── Anthropic API ──────────────────────────────────────────────────────────────
 ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
-SWING_MODEL        = "claude-haiku-4-5-20251001"   # fast + cheap for 3x/day
+SWING_MODEL        = "claude-sonnet-4-6"           # sonnet — runs once/day, richer context warrants stronger reasoning
 LONG_TERM_MODEL    = "claude-sonnet-4-6"           # stronger reasoning for thesis depth
-MAX_TOKENS_SWING   = 3000   # increased from 1500 — structured reasoning + thesis bullets need room
+MAX_TOKENS_SWING   = 4096   # match long-term — sonnet needs room for structured reasoning + thesis bullets
 MAX_TOKENS_LONG    = 4096
 
 # ── Market hours (US/Eastern) ──────────────────────────────────────────────────
@@ -51,7 +51,7 @@ LONG_TERM_MAX_WEIGHT    = 0.15
 MIN_CASH_BUFFER = 0.03   # 3%
 
 # ── Memory window (how many past runs to keep in memory.json) ─────────────────
-SWING_MEMORY_RUNS     = 5    # ~1.7 days of history at 3 runs/day
+SWING_MEMORY_RUNS     = 10   # ~2 weeks of history at 1 run/day
 LONG_TERM_MEMORY_RUNS = 10   # ~2 weeks of history at 1 run/day
 
 # ── Short selling simulation (swing only — long_term is long-only) ─────────────

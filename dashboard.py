@@ -186,18 +186,20 @@ def load_trade_log_parsed(agent_dir: str) -> list:
 
         port_m = re.search(
             r"\*\*Portfolio after run\*\*: Cash \$([\d,]+\.?\d*) \| P&L "
-            r"\$([\+\-][\d,]+\.?\d*) \(([\+\-][\d.]+)%\)",
+            r"\$([\+\-][\d,]+\.?\d*) \(([\+\-][\d.]+)%\)"
+            r"(?:\s*\|\s*Daily\s*([\+\-][\d.]+)%)?",
             block,
         )
         runs.append({
-            "timestamp_str":     timestamp_str,
-            "run_id":            run_id,
-            "market":            market,
-            "reasoning":         reasoning,
-            "benchmarks":        benchmarks,
-            "trades":            trades,
-            "portfolio_cash":    float(port_m.group(1).replace(",", "")) if port_m else None,
-            "portfolio_pnl_pct": float(port_m.group(3)) if port_m else None,
+            "timestamp_str":      timestamp_str,
+            "run_id":             run_id,
+            "market":             market,
+            "reasoning":          reasoning,
+            "benchmarks":         benchmarks,
+            "trades":             trades,
+            "portfolio_cash":     float(port_m.group(1).replace(",", "")) if port_m else None,
+            "portfolio_pnl_pct":  float(port_m.group(3)) if port_m else None,
+            "portfolio_daily_pct": float(port_m.group(4)) if port_m and port_m.group(4) else None,
         })
 
     return list(reversed(runs))
@@ -348,47 +350,129 @@ def render_agent_metrics(h: dict, label: str) -> None:
 
 
 def render_positions_table(h: dict) -> None:
+    st.markdown("**Open Positions**")
     positions = h.get("positions", {})
     if not positions:
         st.info("No open positions — fully in cash.")
         return
+
     rows = []
+    total_value = total_pnl = total_cost = 0.0
+
     for ticker, pos in positions.items():
         price     = pos.get("current_price") or pos.get("avg_cost", 0)
         stop      = pos.get("stop_loss")
         stop_dist = (abs(price - stop) / price * 100) if (price and stop) else None
+        mv        = pos.get("market_value", 0)
+        upnl      = pos.get("unrealized_pnl", 0)
+        upct      = pos.get("unrealized_pct", 0) * 100
+        total_value += mv
+        total_pnl   += upnl
+        total_cost  += pos.get("avg_cost", 0) * pos.get("shares", 0)
         rows.append({
             "Ticker":    ticker,
             "Dir":       pos["direction"].upper(),
             "Shares":    int(pos["shares"]),
-            "Avg Cost":  round(pos.get("avg_cost", 0), 2),
-            "Current":   round(price, 2),
-            "Value":     round(pos.get("market_value", 0), 2),
-            "P&L $":     round(pos.get("unrealized_pnl", 0), 2),
-            "P&L %":     round(pos.get("unrealized_pct", 0) * 100, 2),
+            "Avg Cost":  f"${pos.get('avg_cost', 0):,.2f}",
+            "Current":   f"${price:,.2f}",
+            "Value":     f"${mv:,.2f}",
+            "P&L $":     f"${upnl:+,.2f}",
+            "P&L %":     f"{upct:+.2f}%",
             "Stop":      f"${stop:.2f}" if stop else "—",
             "Stop Dist": f"{stop_dist:.1f}%" if stop_dist is not None else "—",
             "Sector":    get_sector(ticker),
+            "_pnl":      upnl,
         })
-    df = pd.DataFrame(rows)
+
+    total_pct = (total_pnl / total_cost * 100) if total_cost else 0.0
+    rows.append({
+        "Ticker":    "TOTAL",
+        "Dir":       "", "Shares": "", "Avg Cost": "", "Current": "",
+        "Value":     f"${total_value:,.2f}",
+        "P&L $":     f"${total_pnl:+,.2f}",
+        "P&L %":     f"{total_pct:+.2f}%",
+        "Stop":      "", "Stop Dist": "", "Sector": "",
+        "_pnl":      total_pnl,
+    })
+
+    df        = pd.DataFrame(rows)
+    pnl_vals  = df["_pnl"].tolist()
+    df        = df.drop(columns=["_pnl"])
+    total_idx = len(df) - 1
 
     def color_row(row):
-        if row["P&L %"] > 0:
-            return ["color: #00c853"] * len(row)
-        elif row["P&L %"] < 0:
-            return ["color: #ff5252"] * len(row)
+        i = row.name
+        if i == total_idx:
+            return ["font-weight:bold"] * len(row)
+        v = pnl_vals[i]
+        if v > 0:
+            return ["color:#00c853"] * len(row)
+        if v < 0:
+            return ["color:#ff5252"] * len(row)
         return [""] * len(row)
 
     st.dataframe(
-        df.style
-          .apply(color_row, axis=1)
-          .format({
-              "Avg Cost": "${:.2f}",
-              "Current":  "${:.2f}",
-              "Value":    "${:,.2f}",
-              "P&L $":    "${:+.2f}",
-              "P&L %":    "{:+.2f}%",
-          }),
+        df.style.apply(color_row, axis=1),
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
+def render_closed_positions_table(h: dict) -> None:
+    st.markdown("**Closed Positions**")
+    closed = h.get("closed_positions", [])
+    if not closed:
+        st.caption("No closed positions yet.")
+        return
+
+    rows = []
+    total_pnl = 0.0
+    for pos in closed:
+        exit_px = pos.get("close_price") or pos.get("exit_price", 0)
+        rpnl    = pos.get("realized_pnl", 0)
+        rpct    = pos.get("realized_pct", 0) * 100
+        total_pnl += rpnl
+        rows.append({
+            "Ticker":      pos.get("ticker", ""),
+            "Dir":         pos.get("direction", "").upper(),
+            "Shares":      int(pos.get("shares", 0)),
+            "Avg Cost":    f"${pos.get('avg_cost', 0):,.2f}",
+            "Exit Price":  f"${exit_px:,.2f}",
+            "Realized P&L": f"${rpnl:+,.2f}",
+            "P&L %":       f"{rpct:+.2f}%",
+            "Opened":      pos.get("date_opened", ""),
+            "Closed":      pos.get("date_closed", ""),
+            "Exit Reason": pos.get("exit_reason", ""),
+            "_pnl":        rpnl,
+        })
+
+    rows.append({
+        "Ticker":      "TOTAL",
+        "Dir":         "", "Shares": "", "Avg Cost": "", "Exit Price": "",
+        "Realized P&L": f"${total_pnl:+,.2f}",
+        "P&L %":       "",
+        "Opened":      "", "Closed": "", "Exit Reason": "",
+        "_pnl":        total_pnl,
+    })
+
+    df       = pd.DataFrame(rows)
+    pnl_vals = df["_pnl"].tolist()
+    df       = df.drop(columns=["_pnl"])
+    total_idx = len(df) - 1
+
+    def color_row(row):
+        i = row.name
+        if i == total_idx:
+            return ["font-weight:bold"] * len(row)
+        v = pnl_vals[i]
+        if v > 0:
+            return ["color:#00c853"] * len(row)
+        if v < 0:
+            return ["color:#ff5252"] * len(row)
+        return [""] * len(row)
+
+    st.dataframe(
+        df.style.apply(color_row, axis=1),
         use_container_width=True,
         hide_index=True,
     )
@@ -495,78 +579,163 @@ def render_sector_bar(h: dict, title: str) -> None:
     st.plotly_chart(fig, use_container_width=True)
 
 
+def render_trade_table(runs: list, label: str) -> None:
+    """Flat table of every executed trade across all runs for one agent."""
+    rows = []
+    for run in reversed(runs):   # oldest first so table reads chronologically
+        date = run["timestamp_str"][:10]
+        for trade in run.get("trades", []):
+            if trade["action"] == "SKIPPED":
+                continue
+            act    = trade["action"]
+            shares = trade["shares"]
+            price  = trade["price"]
+            total  = shares * price
+
+            # P&L: present for SELL/COVER if ⬛ delimiter found in note
+            pnl_str = "—"
+            if act in ("SELL", "COVER") and "⬛" in (trade.get("note") or ""):
+                _, pnl_part = trade["note"].split("⬛", 1)
+                pnl_m = re.search(r"P&L \$([+\-][\d,.]+)", pnl_part)
+                if pnl_m:
+                    pnl_str = f"${pnl_m.group(1)}"
+
+            rows.append({
+                "Date":       date,
+                "Action":     act,
+                "Ticker":     trade["ticker"],
+                "Shares":     shares,
+                "Price":      f"${price:,.2f}",
+                "Total":      f"${total:,.2f}",
+                "P&L":        pnl_str,
+                "_pnl_num":   None,  # used for coloring
+            })
+            # try to parse numeric P&L for row coloring
+            if pnl_str != "—":
+                try:
+                    rows[-1]["_pnl_num"] = float(pnl_str.replace("$", "").replace(",", ""))
+                except ValueError:
+                    pass
+
+    if not rows:
+        st.info(f"No trades recorded yet for {label}.")
+        return
+
+    df       = pd.DataFrame(rows)
+    pnl_nums = df["_pnl_num"].tolist()
+    df       = df.drop(columns=["_pnl_num"])
+
+    def color_row(row):
+        v = pnl_nums[row.name]
+        act = row["Action"]
+        if act == "BUY":
+            return ["color:#1565c0"] * len(row)
+        if act == "SHORT":
+            return ["color:#e65100"] * len(row)
+        if v is not None and v > 0:
+            return ["color:#2e7d32; font-weight:600"] * len(row)
+        if v is not None and v < 0:
+            return ["color:#c62828; font-weight:600"] * len(row)
+        return [""] * len(row)
+
+    st.dataframe(
+        df.style.apply(color_row, axis=1),
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
 def render_run_card(run: dict, agent_key: str) -> None:
     """Render a single agent run as a styled card."""
-    cfg     = AGENT_CONFIG.get(agent_key, AGENT_CONFIG["swing"])
-    trades  = run.get("trades", [])
-    real    = [t for t in trades if t["action"] != "SKIPPED"]
-    skipped = [t for t in trades if t["action"] == "SKIPPED"]
-    title   = run_title(trades)
-    ago     = time_ago(run["timestamp_str"])
-    pnl     = run.get("portfolio_pnl_pct")
+    cfg       = AGENT_CONFIG.get(agent_key, AGENT_CONFIG["swing"])
+    trades    = run.get("trades", [])
+    real      = [t for t in trades if t["action"] != "SKIPPED"]
+    skipped   = [t for t in trades if t["action"] == "SKIPPED"]
+    title     = run_title(trades)
+    ago       = time_ago(run["timestamp_str"])
+    pnl       = run.get("portfolio_pnl_pct")
+    daily_pnl = run.get("portfolio_daily_pct")
 
     with st.container(border=True):
-        # ── Header: agent + date + P&L + time ago ─────────────────────────
-        h1, h2, h3 = st.columns([3, 2, 1])
+        # ── Agent badge + time ago ─────────────────────────────────────────
+        h1, h2 = st.columns([5, 1])
         with h1:
             st.markdown(
-                f"<span style='color:{cfg['color']}; font-weight:600'>"
+                f"<span style='color:{cfg['color']}; font-weight:600; font-size:0.9em'>"
                 f"{cfg['icon']} {cfg['label']}</span>",
                 unsafe_allow_html=True,
             )
-            # Prominent date on its own line
-            st.markdown(
-                f"<span style='font-size:0.85em; color:#aaa'>"
-                f"📅 {run['timestamp_str']}</span>",
-                unsafe_allow_html=True,
-            )
         with h2:
-            if pnl is not None:
-                color = "#00c853" if pnl >= 0 else "#ff5252"
-                arrow = "▲" if pnl >= 0 else "▼"
-                st.markdown(
-                    f"<span style='color:{color}'>{arrow} {pnl:+.2f}%</span>",
-                    unsafe_allow_html=True,
-                )
-        with h3:
             st.caption(ago)
 
-        # ── Benchmarks ────────────────────────────────────────────────────
-        if run.get("benchmarks"):
-            st.caption("📊 " + run["benchmarks"].replace(" | ", "  ·  "))
+        # ── Date/time — bold and prominent ────────────────────────────────
+        st.markdown(
+            f"<span style='font-size:1.05em; font-weight:700; color:#111'>"
+            f"📅 {run['timestamp_str']}</span>",
+            unsafe_allow_html=True,
+        )
 
-        # ── Title ─────────────────────────────────────────────────────────
+        # ── Portfolio performance + benchmarks on one line ─────────────────
+        perf_parts = []
+        if pnl is not None:
+            arrow = "▲" if pnl >= 0 else "▼"
+            color = "#00a040" if pnl >= 0 else "#cc2222"
+            perf_parts.append(
+                f"<span style='color:{color}; font-weight:700'>"
+                f"{arrow} Total {pnl:+.2f}%</span>"
+            )
+        if daily_pnl is not None:
+            arrow = "▲" if daily_pnl >= 0 else "▼"
+            color = "#00a040" if daily_pnl >= 0 else "#cc2222"
+            perf_parts.append(
+                f"<span style='color:{color}; font-weight:700'>"
+                f"{arrow} Today {daily_pnl:+.2f}%</span>"
+            )
+        if run.get("benchmarks"):
+            bench_str = run["benchmarks"].replace(" | ", " &nbsp;·&nbsp; ")
+            perf_parts.append(
+                f"<span style='color:#555; font-size:0.9em'>{bench_str}</span>"
+            )
+        if perf_parts:
+            st.markdown(
+                " &nbsp;&nbsp;|&nbsp;&nbsp; ".join(perf_parts),
+                unsafe_allow_html=True,
+            )
+
+        # ── Run title ─────────────────────────────────────────────────────
         st.markdown(f"**{title}**")
 
-        # ── Reasoning — parsed into labeled sections if structured ────────
+        # ── Reasoning — Macro / Sectors / Positions ───────────────────────
         if run.get("reasoning"):
             sections = parse_reasoning_sections(run["reasoning"])
             if "full" in sections:
-                # Old single-paragraph format — display as-is
                 st.markdown(escape_md_dollars(sections["full"]))
             else:
-                # New structured format — display each section with a label
                 section_config = [
-                    ("macro",     "📊 Macro",     "#7ec8e3"),
-                    ("sectors",   "🏭 Sectors",   "#f0883e"),
-                    ("positions", "📋 Positions", "#a8d8a8"),
+                    ("macro",     "📊 Macro",     "#1a6ea8"),
+                    ("sectors",   "🏭 Sectors",   "#b05a00"),
+                    ("positions", "📋 Positions", "#2e7d32"),
                 ]
                 for key, label, color in section_config:
                     text = sections.get(key, "")
                     if not text:
                         continue
                     st.markdown(
-                        f"<span style='color:{color}; font-weight:600'>{label}</span>",
+                        f"<span style='color:{color}; font-weight:700'>{label}</span>",
                         unsafe_allow_html=True,
                     )
                     st.markdown(escape_md_dollars(text))
 
-        # ── Individual trades ─────────────────────────────────────────────
+        # ── Actions ───────────────────────────────────────────────────────
         if real:
             st.markdown("---")
+            st.markdown(
+                "<span style='font-weight:700; font-size:1em'>Actions</span>",
+                unsafe_allow_html=True,
+            )
             for trade in real:
                 icon  = _ACTION_ICON.get(trade["action"], "•")
-                color = _ACTION_COLOR.get(trade["action"], "#e0e0e0")
+                color = _ACTION_COLOR.get(trade["action"], "#333")
                 st.markdown(
                     f"{icon} <span style='color:{color}; font-weight:700'>"
                     f"{trade['action']}</span> &nbsp;"
@@ -575,8 +744,21 @@ def render_run_card(run: dict, agent_key: str) -> None:
                     unsafe_allow_html=True,
                 )
                 if trade.get("note"):
-                    formatted = format_trade_note(trade["note"])
-                    st.markdown(formatted)
+                    note = trade["note"]
+                    if "⬛" in note:
+                        rationale, thesis = note.split("⬛", 1)
+                        rationale = rationale.strip()
+                        thesis    = thesis.strip()
+                        if rationale:
+                            st.markdown(
+                                f"<span style='color:#555; font-size:0.9em'>"
+                                f"**Rationale:** {escape_md_dollars(rationale)}</span>",
+                                unsafe_allow_html=True,
+                            )
+                        if thesis:
+                            st.markdown(format_trade_note(thesis))
+                    else:
+                        st.markdown(format_trade_note(note))
 
         # ── Skipped ───────────────────────────────────────────────────────
         if skipped:
@@ -585,18 +767,9 @@ def render_run_card(run: dict, agent_key: str) -> None:
                 for t in skipped:
                     st.caption(f"**{t['ticker']}** — {t['note']}")
 
-        # ── Footer ────────────────────────────────────────────────────────
-        footer_parts = []
-        if run.get("portfolio_cash") is not None:
-            footer_parts.append(f"Cash \\${run['portfolio_cash']:,.0f}")
-        if pnl is not None:
-            footer_parts.append(f"P&L {pnl:+.2f}%")
-        if footer_parts:
-            st.caption("After run: " + "  |  ".join(footer_parts))
-
 
 def render_trade_log_tab(swing_runs: list, lt_runs: list) -> None:
-    """Render the Trade Log tab — card feed with All / Swing / Long-Term sub-tabs."""
+    """Render the Activity Log tab — card feed with All / Swing / Long-Term sub-tabs."""
     # Tag each run with its agent
     for r in swing_runs:
         r["_agent"] = "swing"
@@ -679,8 +852,8 @@ def main() -> None:
     )
 
     # ── Top-level tabs ─────────────────────────────────────────────────────
-    tab_overview, tab_positions, tab_log = st.tabs(
-        ["📈 Overview", "💼 Positions", "📋 Trade Log"]
+    tab_overview, tab_positions, tab_trades, tab_log = st.tabs(
+        ["📈 Overview", "💼 Positions", "📒 Trade Log", "📋 Activity Log"]
     )
 
     # ── Overview ───────────────────────────────────────────────────────────
@@ -702,9 +875,13 @@ def main() -> None:
         with col_s:
             st.markdown("### ⚡ Swing Trader")
             render_positions_table(swing_h)
+            st.divider()
+            render_closed_positions_table(swing_h)
         with col_l:
             st.markdown("### 🌱 Long-Term Investor")
             render_positions_table(lt_h)
+            st.divider()
+            render_closed_positions_table(lt_h)
         st.divider()
         st.subheader("Sector Exposure")
         col_s2, col_l2 = st.columns(2)
@@ -714,6 +891,16 @@ def main() -> None:
             render_sector_bar(lt_h, "Long-Term Investor")
 
     # ── Trade Log ──────────────────────────────────────────────────────────
+    with tab_trades:
+        col_s, col_l = st.columns(2)
+        with col_s:
+            st.markdown("### ⚡ Swing Trader")
+            render_trade_table(swing_runs, "Swing Trader")
+        with col_l:
+            st.markdown("### 🌱 Long-Term Investor")
+            render_trade_table(lt_runs, "Long-Term Investor")
+
+    # ── Activity Log ───────────────────────────────────────────────────────
     with tab_log:
         render_trade_log_tab(swing_runs, lt_runs)
 
