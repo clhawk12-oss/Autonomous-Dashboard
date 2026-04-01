@@ -19,7 +19,7 @@ An autonomous paper trading system powered by the Anthropic Claude API. Two inde
 | **Direction** | Long + Short | Long only |
 | **Style** | Tactical, momentum + technical | Thesis-driven, moat + valuation |
 
-Both agents start with $100,000 cash. Cash is treated as a strategic position — agents can hold anywhere from 3% to 90%+ depending on conviction.
+Both agents start with $100,000 cash. Both mandate explicit outperformance of SPY, QQQ, and SMH — benchmark returns are included in context every run. Cash is treated as a strategic position — swing agent targets 20–50% cash when conviction is moderate, >60% only in severe macro conditions; long-term agent holds 30–70%+ when conviction is low.
 
 ---
 
@@ -311,10 +311,10 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 | `LONG_TERM_MAX_POSITIONS` | 30 | Max long-term holdings |
 | `LONG_TERM_MAX_WEIGHT` | 15% | Max long-term position size (no minimum) |
 | `MIN_CASH_BUFFER` | 3% | Hard floor — code-enforced |
-| `SWING_MEMORY_RUNS` | 5 | Prior runs kept in swing/memory.json |
-| `LONG_TERM_MEMORY_RUNS` | 10 | Prior runs kept in long_term/memory.json |
+| `SWING_MEMORY_RUNS` | 10 | Prior runs kept in swing/memory.json (~2 weeks at 1 run/day) |
+| `LONG_TERM_MEMORY_RUNS` | 10 | Prior runs kept in long_term/memory.json (~2 weeks at 1 run/day) |
 | `SHORT_BORROW_RATE_ANNUAL` | 2% | Annual borrow cost on shorts |
-| `MAX_TOKENS_SWING` | 3000 | Output budget for swing agent (structured reasoning + thesis) |
+| `MAX_TOKENS_SWING` | 4096 | Output budget for swing agent |
 | `MAX_TOKENS_LONG` | 4096 | Output budget for long-term agent |
 | `SWING_MODEL` | claude-sonnet-4-6 | Claude model for swing decisions |
 | `LONG_TERM_MODEL` | claude-sonnet-4-6 | Claude model for long-term decisions |
@@ -330,21 +330,27 @@ To run locally instead:
 python -m streamlit run dashboard.py
 ```
 
-Three tabs:
+Four tabs:
 
 **📈 Overview**
 - Equity curves — both agents vs SPY/QQQ/SMH, indexed to 100 at start
 - Portfolio metric cards — value, total P&L, cash%, open positions, win rate
 
 **💼 Positions**
-- Open positions table — color-coded P&L, rounded to 2 decimal places, sector, stop distance
+- Open positions table per agent — color-coded P&L, totals row, sector, stop distance
+- Closed positions table per agent — exit price, realized P&L, exit reason
 - Sector exposure bar chart per agent (shorts shown as negative)
 
-**📋 Trade Log**
+**📒 Trade Log**
+- Flat chronological trade table per agent: Date, Action, Ticker, Shares, Price, Total, P&L
+- P&L shown for closing trades (SELL/COVER); opening trades show `—`
+- Color-coded by action type and outcome
+
+**📋 Activity Log**
 - Card-based run-by-run journal, newest first
-- Each card shows: timestamp, agent badge, P&L, benchmark returns, trade title
+- Each card: bold date/time, portfolio total % + daily % change next to 1D benchmark returns
 - Reasoning split into color-coded sections: **Macro** / **Sectors** / **Positions**
-- Trade lines with colored action badges (BUY/SELL/SHORT/COVER); thesis shown as bullet points
+- Actions section: rationale (sizing justification) + thesis bullet points per trade
 - Sub-tabs: All / Swing / Long-Term + toggle to show only runs with trades
 
 No database required — reads directly from `holdings.json`, `equity_log.jsonl`, and `trade_log.md`. No API key needed.
@@ -353,5 +359,5 @@ No database required — reads directly from `holdings.json`, `equity_log.jsonl`
 
 ## Cost Estimate
 
-~$0.01–0.02/day at current Anthropic pricing:
-- Sonnet: both agents, 1 call/day × 145-ticker context (+ news/earnings)
+~$0.02–0.05/day at current Anthropic pricing:
+- Sonnet: both agents, 1 call/day × 145-ticker context (+ fundamentals + news/earnings)

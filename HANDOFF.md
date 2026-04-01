@@ -1,6 +1,102 @@
-# Session Handoff — March 30, 2026
+# Session Handoff — March 31, 2026
 
 This file captures the exact state of the autonomous portfolio project after each work session so the next session can pick up immediately without re-discovery. Update this file at the end of every session.
+
+---
+
+## Session 6 — March 31, 2026 — Sonnet Upgrade + Prompt Tuning + Dashboard Trade Log + Activity Log Redesign
+
+### What Was Built / Changed This Session
+
+**Both agents upgraded to claude-sonnet-4-6**
+- Swing agent was on Haiku (chosen for 3×/day speed); now runs once/day so Sonnet is appropriate
+- `config.py`: `SWING_MODEL = "claude-sonnet-4-6"`
+- `MAX_TOKENS_SWING` raised 3000 → 4096 to match long-term
+- `SWING_MEMORY_RUNS` raised 5 → 10 (~2 weeks of history at 1 run/day)
+- README updated to remove all Haiku references
+
+**Agent strategy tuning — swing agent passivity fixes**
+- Root causes identified: "50-90%+ cash" language too permissive; coordination rule blocked all shorts on LT holdings; no passivity accountability
+- `agent.py` swing prompt changes:
+  - Coordination rule: removed soft prohibition on shorting LT holdings — now just requires noting the conflict in reasoning
+  - Cash posture: replaced "hold 50-90%+ cash" with tiered framework (20-50% when conviction moderate, lean on shorts for bearish expression; >60% only when macro risk severe AND no short setups exist — explicitly rare)
+  - Added Rule 12: if 3+ consecutive no-trade runs with cash >60%, must state specific price level or catalyst that would trigger next move
+- `agent.py` long-term prompt: added thesis-break and extreme valuation as explicit valid reasons to sell and raise cash
+
+**Benchmark outperformance as explicit mandate**
+- Both system prompts updated: objective is now "outperform SPY, QQQ, and SMH" not just "maximize returns"
+- Benchmark returns in context are explicitly called out as something to evaluate positioning against each run
+
+**Thesis bullet quality improvement**
+- Swing `thesis` field now requires 6 bullets: Momentum (1D/1W/1M vs benchmarks + peers), Technicals (levels + ATR), Fundamentals (specific P/E vs sector avg), Catalyst (specific event driving the trade), Volume (ratio + signal), Sizing (exact weight%, max $ loss, why not larger/smaller)
+- Long-term `thesis` field updated similarly: Moat (specific type + durability), Growth (exact rate + TAM), Valuation (P/E vs sector + historical range), Catalyst (entry point rationale), Entry (technical + % from 52W), Sizing (weight%, max $ loss, conviction justification)
+
+**1D benchmark data added**
+- `prices.py`: added `return_1d` field to both `fetch_technical_summary` and `fetch_watchlist_technicals`
+- `main.py`: benchmark log line now writes `1D` performance instead of `1W`
+
+**Daily portfolio performance in logs**
+- `main.py`: new `read_last_equity(agent_dir)` helper reads previous equity_log entry
+- Previous portfolio value captured before `append_equity_log()`; daily % delta computed and written to the log as `Daily +X.XX%`
+
+**Trade log format: rationale + P&L captured**
+- `main.py`: BUY/SHORT log note now stores `{rationale} ⬛ {thesis}` (both sizing justification and investment case)
+- SELL/COVER log note now stores `{rationale} ⬛ P&L $+/-X.XX` (exit reason + realized P&L)
+- `⬛` used as delimiter throughout; dashboard splits on it to render sections separately
+
+**Dashboard — new Trade Log tab (📒)**
+- Flat chronological table per agent: Date, Action, Ticker, Shares, Price, Total, P&L
+- P&L populated for SELL/COVER from log; `—` for opening trades
+- Color-coded: BUY=blue, SHORT=orange, profitable close=bold green, losing close=bold red
+
+**Dashboard — Activity Log redesign (renamed from Trade Log)**
+- Tab renamed from "📋 Trade Log" to "📋 Activity Log"
+- Run cards: bold dark date/time at top, portfolio total % + daily % change shown prominently next to 1D benchmark returns on one line
+- Actions section now renders rationale (sizing justification) and thesis bullets separately, clearly labeled
+- Old log entries without `⬛` delimiter fall back gracefully
+
+**Dashboard — Positions tab improvements**
+- Open positions tables labeled "Open Positions" with bold totals row (Value, P&L $, P&L %)
+- Closed positions tables added below each agent's open table
+- All numeric columns pre-formatted as strings; `_pnl` hidden column used for color logic
+
+---
+
+### Bugs Fixed This Session
+
+| Bug | Root cause | Fix |
+|---|---|---|
+| Swing agent sitting 80%+ cash across multiple runs | "50-90%+ cash" language + coordination rule blocked shorts on LT holdings | Tightened cash posture language; loosened coordination rule |
+| Benchmark data only available as 1W in logs | `return_1d` never fetched | Added `return_1d` to both prices.py fetch functions |
+| P&L not captured for closing trades in log | `execute_action` return value was overwritten before logging | Renamed to `exec_result`, parsed P&L via regex, stored in note field |
+
+---
+
+### Open Issues / Deferred
+
+- **No holiday awareness** — `is_market_open()` checks weekday + hours but not US public holidays.
+- **Fundamentals fetch adds ~15-30s per run** — fetching `.info` for 145 tickers via yfinance is slow. Could cache with TTL or reduce fetch frequency.
+- **Trade Log P&L only for new entries** — old log entries pre-`⬛` delimiter will show `—` for P&L in the Trade Log tab. Resolves naturally as new runs accumulate.
+
+---
+
+### Critical File Locations (new/changed this session)
+
+| What | File | Key location |
+|---|---|---|
+| Model upgrade (both Sonnet) | `config.py` | `SWING_MODEL`, `MAX_TOKENS_SWING`, `SWING_MEMORY_RUNS` |
+| Swing cash posture + passivity rule | `agent.py` | `_SWING_SYSTEM` — CASH AS A STRATEGIC POSITION + Rule 12 |
+| Swing coordination rule (loosened) | `agent.py` | `_SWING_SYSTEM` — COORDINATION section |
+| Benchmark outperformance mandate | `agent.py` | First line of both `_SWING_SYSTEM` and `_LONG_TERM_SYSTEM` |
+| Thesis bullets (6 required, with specifics) | `agent.py` | `thesis` field in both system prompts |
+| `return_1d` field | `prices.py` | `fetch_technical_summary()`, `fetch_watchlist_technicals()` |
+| 1D benchmark in log | `main.py` | `bench_line` (replaces `return_1w`) |
+| `read_last_equity()` helper | `main.py` | Above `append_equity_log()` |
+| Daily portfolio delta in log | `main.py` | `daily_str` + `**Portfolio after run**` line |
+| `⬛` delimiter in trade notes | `main.py` | `execute_action` loop — BUY/SHORT and SELL/COVER branches |
+| New Trade Log tab | `dashboard.py` | `render_trade_table()`, `tab_trades` |
+| Activity Log card redesign | `dashboard.py` | `render_run_card()` |
+| Positions totals row + closed table | `dashboard.py` | `render_positions_table()`, `render_closed_positions_table()` |
 
 ---
 
