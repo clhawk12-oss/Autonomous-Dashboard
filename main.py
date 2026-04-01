@@ -368,8 +368,10 @@ def execute_action(
         if ticker in positions:
             pos = positions[ticker]
             total_shares = pos["shares"] + shares
-            pos["avg_cost"] = (pos["avg_cost"] * pos["shares"] + cost) / total_shares
-            pos["shares"]   = total_shares
+            pos["avg_cost"]      = (pos["avg_cost"] * pos["shares"] + cost) / total_shares
+            pos["shares"]        = total_shares
+            pos["current_price"] = price
+            pos["market_value"]  = total_shares * price
         else:
             stop_pct = action.get("stop_loss_pct") or None
             tp_pct   = action.get("take_profit_pct")
