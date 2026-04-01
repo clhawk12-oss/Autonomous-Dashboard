@@ -546,7 +546,7 @@ def append_equity_log(agent_dir: Path, holdings: dict, run_id: str) -> None:
     """Append a portfolio value snapshot to equity_log.jsonl."""
     perf  = holdings["performance"]
     cash  = holdings["cash"]
-    value = cash + holdings.get("margin_reserved", 0.0) + perf["long_exposure"]
+    value = cash + holdings.get("margin_reserved", 0.0) + perf["long_exposure"] - perf["short_exposure"]
     record = {
         "run_id":           run_id,
         "timestamp":        datetime.now(ET_TZ).isoformat(),

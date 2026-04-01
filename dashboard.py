@@ -411,9 +411,10 @@ def render_equity_curve(swing_eq: list, lt_eq: list) -> None:
     ]:
         if not records:
             continue
-        xs   = [r["timestamp"][:16].replace("T", " ") for r in records]
-        base = records[0]["portfolio_value"] or STARTING_CASH
-        ys   = [r["portfolio_value"] / base * 100 for r in records]
+        xs = [r["timestamp"][:16].replace("T", " ") for r in records]
+        # Correct net equity: subtract short_exposure (fixes historical entries written before the formula fix)
+        values = [r["portfolio_value"] - r.get("short_exposure", 0.0) for r in records]
+        ys = [v / STARTING_CASH * 100 for v in values]
         fig.add_trace(go.Scatter(
             x=xs, y=ys, mode="lines+markers", name=name,
             line=dict(color=color, width=2),
@@ -424,12 +425,15 @@ def render_equity_curve(swing_eq: list, lt_eq: list) -> None:
     bench_df = fetch_benchmark_history(start_date)
     bench_colors = {"SPY": "#57a55a", "QQQ": "#b07fd4", "SMH": "#d4a843"}
     for col in bench_df.columns:
+        # Convert daily dates to "YYYY-MM-DD 16:00" (market close ET) so dots align with portfolio run timestamps
+        xs_bench = [f"{d} 16:00" for d in bench_df.index.astype(str)]
         fig.add_trace(go.Scatter(
-            x=bench_df.index.astype(str),
+            x=xs_bench,
             y=bench_df[col],
-            mode="lines",
+            mode="lines+markers",
             name=col,
             line=dict(color=bench_colors.get(col, "#888"), width=1.5, dash="dot"),
+            marker=dict(size=5, symbol="circle-open"),
             opacity=0.8,
         ))
 
