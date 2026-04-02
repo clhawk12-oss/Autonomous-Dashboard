@@ -1,18 +1,18 @@
 {
-  "market_notes": "Q2 2026 opening with strong risk-on tone driven by Iran war de-escalation (Trump speech imminent), oil retreating, and earnings season starting. SPY/QQQ/SMH rebounding after Q1 weakness. Semiconductor AI infrastructure thesis confirmed by MRVL/NVIDIA NVLink partnership ($2B opportunity, BofA PT raise), MU earnings massive beat (+196% revenue, HBM supercycle confirmed). Gold surging on rate-cut bets (+12.1% for NEM in 1W). Banks reporting April 13-16 (GS, JPM, C, MS) are major macro catalysts \u2014 capital markets reactivation thesis. TSM reporting April 16 is foundry bellwether for AI capex cycle. Portfolio now 12 positions, ~50% deployed. Key risk: Iran speech tonight could reverse de-escalation narrative; tariff news on drugmakers (JNJ, MRK) from Reuters \u2014 pharmaceutical sector headwind.",
+  "market_notes": "Q2 2026 macro regime has shifted from 'Iran de-escalation risk-on' to 'Iran war escalation risk-off' in a single session. Trump issued Iran war warnings reversing prior de-escalation narrative; oil spiking. Simultaneously, US lawmakers pushing China chip tool export crackdowns (headwind for AMAT, LRCX, KLAC, ASML). Trump also announced 100% tariffs on some drug imports (headwind for pharma: JNJ, MRK, ABBV, REGN). Dense earnings calendar ahead: GS April 13, JPM/C/JNJ April 14, MS/PNC/ASML April 15, TSM/NFLX/ABT/SCHW April 16. Optical networking (CIEN +15.4% 1W, LITE +20.1% 1W) is the strongest sector momentum. Gold (NEM +14.8% 1W) remains strong on dual tailwinds (rate-cut bets + Iran war safe haven). Portfolio is 9 positions, ~36% deployed, ~64% cash \u2014 strategic dry powder for post-earnings deployment. SPY +1.7% 1W, QQQ +1.9% 1W, SMH +3.0% 1W \u2014 still positive week but Iran shift is fresh headwind.",
   "watching": [
-    "Trump Iran speech tonight \u2014 full resolution is risk-on accelerant; failure/escalation tests all growth positions",
-    "TSM earnings April 16 \u2014 foundry AI demand commentary is AI capex cycle bellwether; holding 8 shares pre-earnings",
-    "GS earnings April 13 \u2014 capital markets reactivation thesis; M&A/IPO pipeline commentary critical",
-    "JPM/C/MS earnings April 14-15 \u2014 macro banking health check; recession risk indicator",
-    "MU post-earnings trajectory \u2014 HBM supercycle reacceleration; watching for institutional add vs profit-take",
-    "MRVL $115 resistance \u2014 next technical target after BofA PT raise; NVLink revenue confirmation in next earnings",
-    "TSEM GlobalFoundries patent suit development \u2014 legal risk monitor; position +8.8%",
-    "NVDA $180 zone retest \u2014 mega-cap quality rotation signal; AI capex cycle durability indicator",
-    "ASML April 15 earnings/guidance \u2014 leading indicator for semiconductor capex cycle confidence",
-    "NEM gold momentum \u2014 rate-cut bets and Iran risk interaction; stop at 8% from entry",
-    "Pharmaceutical tariff risk \u2014 Trump admin readying drugmaker tariffs (Reuters); could impact JNJ, MRK sector broadly",
-    "COHR/LITE optical networking surge \u2014 potential entry into AI photonics theme if pullback occurs"
+    "GS earnings April 13 \u2014 holding 4 shares; capital markets reactivation thesis validation; M&A/IPO commentary critical",
+    "TSM earnings April 16 \u2014 holding 8 shares; AI capex demand commentary from TSMC is foundry bellwether; expecting beat",
+    "ASML earnings April 15 \u2014 holding 5 shares; guidance on China restriction impact is critical; may exit if guidance cut",
+    "Iran war escalation vs diplomacy \u2014 primary macro swing factor; RTX/LNG positions sensitive; watch Trump/Khamenei statements",
+    "China chip tool export crackdown legislation \u2014 specific risk to ASML (still held), monitoring for vote/implementation timeline",
+    "Trump 100% drug import tariffs \u2014 pharma headwind; not holding JNJ/MRK but watching sector for short opportunities",
+    "CIEN/LITE optical networking pullback \u2014 looking for entry opportunity on any pullback; +15-20% 1W makes immediate entry risky",
+    "MRVL $115 resistance \u2014 NVIDIA $2B partnership thesis intact; next earnings confirmation needed",
+    "NEM gold momentum \u2014 holding 15 shares, +14.8% 1W; Iran war premium + rate-cut bets = dual tailwind; stop at $104.69",
+    "TSEM patent suit (GlobalFoundries) \u2014 holding 7 remaining shares; legal risk on parabolic move; watching for settlement/escalation",
+    "JPM/C/MS earnings April 14-15 \u2014 macro banking health check; recession probability signal from guidance",
+    "MU post-earnings trajectory \u2014 Mizuho says selloff overdone; watching for institutional accumulation signal"
   ],
   "recent_runs": [
     {
@@ -70,6 +70,18 @@
         "BUY 8 TSM @ $341.49 ($2,731.92)",
         "BUY 15 NEM @ $113.79 ($1,706.85)",
         "BUY 4 GS @ $860.21 ($3,440.84)"
+      ]
+    },
+    {
+      "run_id": "swing-20260402-1853",
+      "timestamp": "2026-04-02T18:53:44.188399-04:00",
+      "reasoning": "**Macro:** Market tone has shifted decisively bearish on the Iran variable \u2014 Trump has issued warnings of hitting Iran 'hard' rather than de-escalation, reversing the risk-on narrative from last week. Oil has spiked sharply, and chip stocks are falling (headline: 'Chip Stocks Fall After Trump Iran Warning'). This is a significant macro headwind that changes my positioning calculus. SPY +1.7% 1W, QQQ +1.9% 1W, SMH +3.0% 1W show the week is still positive, but the Iran escalation news is fresh and creating volatility. US lawmakers proposing crackdown on chip tool sales to China is another semiconductor headwind affecting AMAT, LRCX, ASML specifically. Trump also just slapped 100% tariffs on some drug imports per WSJ/Barrons \u2014 major pharma headwind. **Sectors:** Semiconductors facing dual headwinds (Iran risk + China export crackdown news). Energy re-surging on Iran war fears \u2014 oil spiking. Optical networking (CIEN +15.4% 1W, LITE +20.1% 1W) remains explosive. Gold continuing to perform well (NEM +14.8% 1W). Banks (GS, JPM, C) still intact ahead of earnings April 13-16 but BofA warns retail brokers face lower engagement from Middle East conflict. Defense names mixed but RTX/NOC getting attention. **Positions:** Portfolio has 10 positions, ~42% deployed with ~$58.6K cash. Key concerns: (1) AMAT is directly in crosshairs of China chip tool export crackdown \u2014 this is a material risk to my thesis; AMAT -2% revenue growth and fwd P/E 25x doesn't justify holding through regulatory headwinds. (2) ASML similarly exposed to China restriction headlines; however ASML earnings April 15 provides a catalyst to hold for. (3) TSEM has had a parabolic move (+15.1% unrealized, +60.2% 1M) and Jim Cramer specifically called for taking profits; GlobalFoundries patent suit is a lingering risk. With Iran escalation reversing the de-escalation thesis that supported risk-on deployment, I need to be more selective. (4) ARM is down -3.7% 1W now, having given back some gains; still +20.1% 1M. (5) MRVL is the strongest position at +7.3% with NVIDIA $2B endorsement intact \u2014 hold. (6) MU flat but thesis intact on HBM supercycle; Mizuho says selloff overdone. (7) TSM reporting April 16 \u2014 hold pre-earnings as expected beat. (8) NEM +14.8% 1W \u2014 gold is the best performer, hold with stop. (9) GS reporting April 13 \u2014 hold into earnings. (10) DOCN +4.9% but 51.6x fwd P/E with no near-term catalyst \u2014 weakest fundamental case. Actions: (a) SELL DOCN \u2014 weakest fundamental thesis (51.6x fwd P/E, limited near-term catalyst, Iran/macro uncertainty reduces risk appetite for speculative names); (b) SELL AMAT \u2014 China chip tool export crackdown is a direct fundamental headwind; -2% revenue growth already weak; (c) TRIM TSEM \u2014 take partial profits on 15.1% gain, parabolic move flagged by Cramer, patent litigation risk, keep 7 shares to maintain exposure; (d) ADD to CIEN or LITE \u2014 optical networking exploding with +15.4%/+20.1% 1W; CIEN at -1.2% from 52W high, earnings not near-term, AI infrastructure buildout thesis compelling; however LITE already up 20.1% in a week and 108% YTD \u2014 too extended. CIEN at fwd P/E 54.2x with +33% revenue growth and near 52W highs is interesting but expensive and already moved a lot; I'll pass for now and watch for pullback. (e) Consider adding defense exposure given Iran war escalation \u2014 RTX or NOC. RTX +1.7% 1W, fwd P/E 26.1x with 12% revenue growth and Iran war directly fueling defense contracts. Analysts are divided but Barrons notes 'Iran War Fuels Defense Contracts.' I'll add a small RTX position. (f) Consider energy play \u2014 oil spiking on Iran war; LNG gets Wall Street upgrade 'as Iran War Reshapes Global LNG Demand'; LNG -3.5% 1W but +12.9% 1M with fwd P/E 15.7x and strong LNG demand thesis. The long-term agent holds LNG at -7.1% \u2014 my thesis diverges (short-term Iran oil spike catalyst). I'll add a small LNG position. Net result: Reduce 3 positions (close DOCN, close AMAT, trim TSEM), add 2 new positions (RTX small, LNG small). Portfolio goes from 10 to 9 positions post-actions, with ~$58K+ cash base plus proceeds from sales. Cash management: After selling DOCN (~$2,250), AMAT (~$4,182), trimming TSEM sells 8 shares (~$1,582), total proceeds ~$8,014. After buying RTX 5 shares (~$981) and LNG 5 shares (~$1,406), net cash increases by ~$5,627. Final cash ~$64,243 / portfolio value ~$100,599, cash ~63.9%. This is elevated but justified given: Iran escalation reversal of risk-on thesis, China chip export headwinds hitting key holdings, bank earnings about to drop as major binary events. Cash is strategic dry powder for post-earnings deployment.",
+      "actions_taken": [
+        "SELL 25 DOCN @ $90.01 \u2192 P&L $+105.75",
+        "SELL 12 AMAT @ $348.47 \u2192 P&L $+80.16",
+        "SELL 8 TSEM @ $197.80 \u2192 P&L $+207.04",
+        "BUY 5 RTX @ $196.21 ($981.05)",
+        "BUY 5 LNG @ $281.16 ($1,405.80)"
       ]
     }
   ]
