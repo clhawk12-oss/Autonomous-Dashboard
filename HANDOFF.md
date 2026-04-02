@@ -1,6 +1,59 @@
-# Session Handoff — March 31, 2026
+# Session Handoff — April 1, 2026
 
 This file captures the exact state of the autonomous portfolio project after each work session so the next session can pick up immediately without re-discovery. Update this file at the end of every session.
+
+---
+
+## Session 7 — April 1, 2026 — Bug fixes: missing imports + silent failure
+
+### What Was Built / Changed This Session
+
+**Three bugs fixed in `main.py` — all introduced in session 6**
+
+**Bug 1: `from typing import Optional` missing**
+- `read_last_equity(agent_dir: Path) -> Optional[dict]` used `Optional` in its return type annotation but `Optional` was never imported
+- Caused `NameError: name 'Optional' is not defined` at module load — both agents crashed immediately with exit code 1
+- Fix: added `from typing import Optional` to imports
+
+**Bug 2: `import re` missing**
+- `execute_action()` P&L parsing added in session 6 used `re.search(r"P&L \$([+\-][\d,.]+)", exec_result)` but `re` was never imported
+- Swing agent ran fully (prices, news, fundamentals, Claude called, DOCN SELL decision made) then crashed in the logging step — after Claude's decision, before any files were written
+- Fix: added `import re` to imports
+
+**Bug 3: Silent failure — top-level exception handler exited 0**
+- Both `run_agent("swing")` and `run_agent("long_term")` were wrapped in try/except blocks that printed the traceback but then fell through, causing Python to exit with code 0
+- GitHub Actions saw exit 0 → marked job ✅ → "Commit updated state" step found nothing staged → no files committed → long-term ran normally
+- Result: swing looked like it succeeded but wrote nothing; the missing data was invisible until noticed on the dashboard
+- Fix: added `sys.exit(1)` to both exception handlers so Actions correctly marks the job ❌
+
+---
+
+### Bugs Fixed This Session
+
+| Bug | Root cause | Fix |
+|---|---|---|
+| Both agents crash at startup (exit 1) | `Optional` used in return annotation without `from typing import Optional` | Added `from typing import Optional` to `main.py` imports |
+| Swing crashes after Claude call, writes no files (exit 0) | `re.search()` used in P&L logging without `import re` | Added `import re` to `main.py` imports |
+| Agent failure appears as success in GitHub Actions | Top-level `except` printed traceback then fell through → exit 0 | Added `sys.exit(1)` to both exception handlers |
+
+---
+
+### Open Issues / Deferred
+
+- **No holiday awareness** — `is_market_open()` checks weekday + hours but not US public holidays.
+- **Fundamentals fetch adds ~15-30s per run** — fetching `.info` for 145 tickers via yfinance is slow. Could cache with TTL or reduce fetch frequency.
+- **Trade Log P&L only for new entries** — old log entries pre-`⬛` delimiter will show `—` for P&L in the Trade Log tab. Resolves naturally as new runs accumulate.
+- **Swing April 1 data gap** — swing has no equity_log entry or activity log card for April 1 because it crashed before writing files on two consecutive runs. The gap will remain permanently; next run's data point connects to March 31.
+
+---
+
+### Critical File Locations (changed this session)
+
+| What | File | Key location |
+|---|---|---|
+| `import re` | `main.py` | Import block (line ~15) |
+| `from typing import Optional` | `main.py` | Import block (line ~20) |
+| `sys.exit(1)` on agent failure | `main.py` | `main()` — both swing and long_term exception handlers |
 
 ---
 
