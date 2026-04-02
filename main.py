@@ -13,6 +13,7 @@ Usage:
 import argparse
 import json
 import os
+import re
 import sys
 import traceback
 from copy import deepcopy
@@ -972,6 +973,7 @@ def main() -> None:
         except Exception:
             print("[swing] Unhandled exception:")
             traceback.print_exc()
+            sys.exit(1)
 
     if args.agent in ("long_term", "both"):
         try:
@@ -979,6 +981,7 @@ def main() -> None:
         except Exception:
             print("[long_term] Unhandled exception:")
             traceback.print_exc()
+            sys.exit(1)
 
 
 if __name__ == "__main__":
