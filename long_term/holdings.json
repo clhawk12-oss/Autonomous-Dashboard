@@ -2,10 +2,10 @@
   "meta": {
     "agent_type": "long_term",
     "starting_cash": 100000.0,
-    "last_updated": "2026-04-01T19:26:10.870969-04:00",
-    "last_run_id": "long_term-20260401-1926"
+    "last_updated": "2026-04-01T20:11:18.615502-04:00",
+    "last_run_id": "long_term-20260401-2011"
   },
-  "cash": 5162.404495238092,
+  "cash": 4756.744495238092,
   "margin_reserved": 0,
   "positions": {
     "NVDA": {
@@ -88,7 +88,7 @@
     },
     "MRVL": {
       "direction": "long",
-      "shares": 105.0,
+      "shares": 80.0,
       "avg_cost": 94.88,
       "current_price": 106.71,
       "market_value": 11204.55,
@@ -176,6 +176,19 @@
       "thesis": "Costco Wholesale is one of the finest retail businesses ever built, with a membership-based model that creates extraordinary loyalty (renewal rates >90%), predictable recurring revenue, and a reputation for value that attracts members in good times and bad. The business is gaining market share in the current inflationary environment as consumers trade down to bulk purchasing. International expansion \u2014 particularly in Asia \u2014 provides a multi-year growth runway that is entirely self-funded by the business. The private label Kirkland brand continues to take shelf space and margin. Costco's -0.3% performance in a month when SPY fell 7.8% validates its defensive quality. While the valuation is not cheap at ~50x forward PE, Costco has consistently justified premium multiples through consistent high-single-digit revenue growth and member loyalty. This position provides crucial portfolio ballast when AI/tech faces macro headwinds.",
       "stop_loss": 865.8,
       "take_profit": null
+    },
+    "TSM": {
+      "direction": "long",
+      "shares": 9.0,
+      "avg_cost": 341.49,
+      "current_price": 341.49,
+      "market_value": 3073.41,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-04-01",
+      "thesis": "Taiwan Semiconductor is the world's only manufacturer of leading-edge chips below 5nm, making it structurally irreplaceable for every AI semiconductor company in the portfolio and the global tech economy. \u2022 Moat: Technologically insurmountable manufacturing moat \u2014 3nm/2nm process leadership is 2-3 years ahead of nearest competitor (Intel); switching costs are effectively infinite as no hyperscaler can abandon TSM's process without forfeiting AI chip competitiveness; scale advantages from $30B+ annual capex maintain the compounding lead. \u2022 Growth: Revenue growing 20% YoY, AI/HPC segment growing 50%+ and now represents >25% of revenue; CoWoS advanced packaging is sold out through 2025-26; TAM expanding as AI training/inference chips require increasingly advanced nodes; Arizona fab expansion (with $100B US commitment) reduces geopolitical risk premium over time. \u2022 Valuation: Trailing P/E 33x, fwd P/E 19x \u2014 historically cheap for TSM given growth rate; 45% net margins, 35% ROE, -12.2% from 52W high; sector avg fwd P/E for AI semis is 25-30x, so TSM is genuinely undervalued vs peers; geopolitical Taiwan risk discount is real but overstated given customer/US government dependency. \u2022 Catalyst: April 16 earnings report \u2014 Q1 revenue guidance was strong; AI/HPC demand commentary from CEO will be a key read-through for entire semiconductor complex; recent analyst upgrades (Nomura Taiwan fund +164%) signal institutional accumulation. \u2022 Entry: -12.2% from 52W high, consolidating around $341; entering ahead of earnings at historically reasonable valuation; swing trader long at same price confirms entry timing. \u2022 Sizing: 2.9% weight \u2014 starter position appropriate given earnings risk and cash constraints; will add on pullback or post-earnings confirmation.",
+      "stop_loss": 300.51,
+      "take_profit": null
     }
   },
   "closed_positions": [
@@ -197,11 +210,11 @@
     "total_unrealized_pnl": 4303.44,
     "total_pnl": 4302.65,
     "total_return_pct": 0.043026,
-    "long_exposure": 99139.45,
+    "long_exposure": 102212.86,
     "short_exposure": 0,
-    "net_exposure": 99139.45,
-    "gross_exposure": 99139.45,
-    "cash_pct": 0.0495,
+    "net_exposure": 102212.86,
+    "gross_exposure": 102212.86,
+    "cash_pct": 0.0445,
     "win_rate": 0.0,
     "trades_closed": 1
   }
