@@ -1,18 +1,18 @@
 {
-  "market_notes": "Iran war de-escalation inflection (Trump signals 2-3 week resolution) triggered broad equity rally and oil retreat from >$100; risk-on tone accelerating flight-to-quality rotation into mega-cap growth and semiconductor infrastructure. SPY consolidating after Q1 weakness, QQQ/SMH rebounding. NVIDIA $2B Marvell partnership announced 1h ago validates AI data center networking TAM expansion and enterprise capex cycle durability. ASML endorsed by European government AI infrastructure backing (announced 3h ago). Semiconductor equipment cycle remains barometer for AI capex cycle health; capitulation risk low but near-term volatility elevated. Fed guidance pending\u2014critical inflection point for growth repricing. Geopolitical risk elevated but de-escalation narrative reducing macro tail risk. Portfolio redeployed from 82% to ~78% cash with 5 new positions targeting AI infrastructure, equipment cycle, and distributed cloud compute beneficiaries.",
+  "market_notes": "Q2 2026 opening with strong risk-on tone driven by Iran war de-escalation (Trump speech imminent), oil retreating, and earnings season starting. SPY/QQQ/SMH rebounding after Q1 weakness. Semiconductor AI infrastructure thesis confirmed by MRVL/NVIDIA NVLink partnership ($2B opportunity, BofA PT raise), MU earnings massive beat (+196% revenue, HBM supercycle confirmed). Gold surging on rate-cut bets (+12.1% for NEM in 1W). Banks reporting April 13-16 (GS, JPM, C, MS) are major macro catalysts \u2014 capital markets reactivation thesis. TSM reporting April 16 is foundry bellwether for AI capex cycle. Portfolio now 12 positions, ~50% deployed. Key risk: Iran speech tonight could reverse de-escalation narrative; tariff news on drugmakers (JNJ, MRK) from Reuters \u2014 pharmaceutical sector headwind.",
   "watching": [
-    "TSEM breakout above $175 resistance\u2014confirms resumption of parabolic uptrend and foundry capex cycle acceleration",
-    "MRVL breakout above $100 resistance\u2014validates NVIDIA partnership execution and data center networking TAM expansion",
-    "NVDA technical retest of $180 zone\u2014mega-cap quality rotation continuation signal and potential relief bounce target",
-    "AMAT semiconductor equipment order guidance (quarterly commentary)\u2014validates AI capex cycle durability and foundry capacity utilization",
-    "Federal Reserve communications and rate guidance\u2014macro inflection point for growth repricing and recession risk assessment",
-    "ASML order book and earnings guidance (April guidance cycle)\u2014leading indicator for semiconductor capex cycle confidence",
-    "Oil price persistence >$100 and Iran escalation risk\u2014macro headwind for growth equities if de-escalation narrative breaks",
-    "META relief bounce target $540\u2013550\u2014potential short re-entry signal if technicals confirm legal verdict digestion",
-    "ARM earnings guidance on AI/CPU IP licensing momentum\u2014validates SoftBank/OpenAI synergy and foundational infrastructure thesis",
-    "Semiconductor equipment orders data (KLAC earnings, ASML guidance)\u2014validates AI capex cycle durability and institutional confidence",
-    "SPY support at $580\u2013600 range\u2014macro capitulation vs. grinding lower scenario; portfolio risk assessment level",
-    "GlobalFoundries patent suit vs TSEM evolution\u2014legal/competitive risk monitor for foundry positioning in advanced node capex cycle"
+    "Trump Iran speech tonight \u2014 full resolution is risk-on accelerant; failure/escalation tests all growth positions",
+    "TSM earnings April 16 \u2014 foundry AI demand commentary is AI capex cycle bellwether; holding 8 shares pre-earnings",
+    "GS earnings April 13 \u2014 capital markets reactivation thesis; M&A/IPO pipeline commentary critical",
+    "JPM/C/MS earnings April 14-15 \u2014 macro banking health check; recession risk indicator",
+    "MU post-earnings trajectory \u2014 HBM supercycle reacceleration; watching for institutional add vs profit-take",
+    "MRVL $115 resistance \u2014 next technical target after BofA PT raise; NVLink revenue confirmation in next earnings",
+    "TSEM GlobalFoundries patent suit development \u2014 legal risk monitor; position +8.8%",
+    "NVDA $180 zone retest \u2014 mega-cap quality rotation signal; AI capex cycle durability indicator",
+    "ASML April 15 earnings/guidance \u2014 leading indicator for semiconductor capex cycle confidence",
+    "NEM gold momentum \u2014 rate-cut bets and Iran risk interaction; stop at 8% from entry",
+    "Pharmaceutical tariff risk \u2014 Trump admin readying drugmaker tariffs (Reuters); could impact JNJ, MRK sector broadly",
+    "COHR/LITE optical networking surge \u2014 potential entry into AI photonics theme if pullback occurs"
   ],
   "recent_runs": [
     {
@@ -57,6 +57,19 @@
         "BUY 2 ASML @ $1320.83 ($2,641.66)",
         "BUY 12 AMAT @ $341.79 ($4,101.48)",
         "BUY 25 DOCN @ $85.78 ($2,144.50)"
+      ]
+    },
+    {
+      "run_id": "swing-20260401-2009",
+      "timestamp": "2026-04-01T20:09:13.023380-04:00",
+      "reasoning": "**Macro:** Risk-on tone is accelerating as Iran de-escalation narrative strengthens (Trump speech imminent), oil retreating from highs, and broad equity rally continuing into Q2. SPY/QQQ/SMH all showing positive near-term momentum off Q1 lows. Earnings season begins with major banks (JPM, GS, C, MS) reporting April 13-16 and TSM April 16 \u2014 these will be critical macro catalysts for repricing. Semiconductor equipment and AI infrastructure thesis remains intact with MRVL/NVDA partnership news driving institutional confidence. **Sectors:** Semiconductor/AI infrastructure leading (MRVL +8.4% 1W, ARM +27.4% 1M, TSEM +49% 1M outperforming SMH). Financials showing relative strength ahead of earnings cycle; energy pulling back on Iran de-escalation (CVX -3.8% 1W, oil retreat). Optical/photonics catching a bid (COHR, LITE surging today on datacom demand). Defense names mixed. **Positions:** Portfolio is +0.8% overall with all 8 positions profitable \u2014 ARM +7.6%, MRVL +10.6%, TSEM +8.8%, ASML +3.8%, AMAT +3.5%, DOCN +2.2%, NVDA +0.8%, AKAM +1.1%. The portfolio is approximately 32% deployed ($32.7K long) with $68K cash (~66% cash). This is too conservative given: (1) all positions working, (2) risk-on environment accelerating, (3) earnings season creating actionable catalysts. Need to deploy capital into high-conviction setups. Key opportunities: MRVL has strong institutional momentum from NVIDIA partnership (BofA price target raise just now) \u2014 can add; MU just reported massive beat (+9% today) validating memory supercycle; TSM reporting April 16 with strong setup; COHR optical networking surge is directly tied to AI infrastructure buildout. AKAM negative coverage ('3 reasons to avoid') and weakest thesis in portfolio \u2014 consider trimming to redeploy capital. DOCN at 50% fwd P/E with limited near-term catalyst relative to alternatives. Upcoming earnings watchlist: TSM April 16 is a must-watch foundry bellwether. APLD reports April 8 \u2014 negative earnings expected, not holding. Banks reporting mid-April could lift financials. Need to add 3-4 positions to reach ~50% deployment while maintaining quality and avoiding overconcentration in semiconductor theme.",
+      "actions_taken": [
+        "SELL 30 AKAM @ $115.75 \u2192 P&L $+37.50",
+        "BUY 20 MRVL @ $106.71 ($2,134.20)",
+        "BUY 8 MU @ $367.85 ($2,942.80)",
+        "BUY 8 TSM @ $341.49 ($2,731.92)",
+        "BUY 15 NEM @ $113.79 ($1,706.85)",
+        "BUY 4 GS @ $860.21 ($3,440.84)"
       ]
     }
   ]
