@@ -1,18 +1,18 @@
 {
-  "market_notes": "Q2 2026 macro regime has shifted from 'Iran de-escalation risk-on' to 'Iran war escalation risk-off' in a single session. Trump issued Iran war warnings reversing prior de-escalation narrative; oil spiking. Simultaneously, US lawmakers pushing China chip tool export crackdowns (headwind for AMAT, LRCX, KLAC, ASML). Trump also announced 100% tariffs on some drug imports (headwind for pharma: JNJ, MRK, ABBV, REGN). Dense earnings calendar ahead: GS April 13, JPM/C/JNJ April 14, MS/PNC/ASML April 15, TSM/NFLX/ABT/SCHW April 16. Optical networking (CIEN +15.4% 1W, LITE +20.1% 1W) is the strongest sector momentum. Gold (NEM +14.8% 1W) remains strong on dual tailwinds (rate-cut bets + Iran war safe haven). Portfolio is 9 positions, ~36% deployed, ~64% cash \u2014 strategic dry powder for post-earnings deployment. SPY +1.7% 1W, QQQ +1.9% 1W, SMH +3.0% 1W \u2014 still positive week but Iran shift is fresh headwind.",
+  "market_notes": "Q2 2026 macro: Iran war escalation continues as primary swing factor (oil elevated, defense benefiting). Strong March jobs data pushes back Fed cut timeline (bond yields rising). China chip tool export ban legislation (House bill) specifically targets ASML \u2014 material risk. Trump 100% drug import tariffs headwind for pharma. Dense earnings week: GS April 13, JPM/C/JNJ April 14, ASML/MS/PNC April 15, TSM/NFLX/ABT/SCHW April 16. Memory storage (SNDK +16.3% 1W, WDC +7.9%) gaining momentum on AI storage supercycle. Optical networking (CIEN +15.4%, LITE +20.1%) still at highs \u2014 no pullback entry yet. Portfolio ~60% cash \u2014 strategic positioning for post-earnings deployment. SPY +1.7% 1W, QQQ +1.9% 1W, SMH +3.0% 1W.",
   "watching": [
-    "GS earnings April 13 \u2014 holding 4 shares; capital markets reactivation thesis validation; M&A/IPO commentary critical",
-    "TSM earnings April 16 \u2014 holding 8 shares; AI capex demand commentary from TSMC is foundry bellwether; expecting beat",
-    "ASML earnings April 15 \u2014 holding 5 shares; guidance on China restriction impact is critical; may exit if guidance cut",
-    "Iran war escalation vs diplomacy \u2014 primary macro swing factor; RTX/LNG positions sensitive; watch Trump/Khamenei statements",
-    "China chip tool export crackdown legislation \u2014 specific risk to ASML (still held), monitoring for vote/implementation timeline",
-    "Trump 100% drug import tariffs \u2014 pharma headwind; not holding JNJ/MRK but watching sector for short opportunities",
-    "CIEN/LITE optical networking pullback \u2014 looking for entry opportunity on any pullback; +15-20% 1W makes immediate entry risky",
-    "MRVL $115 resistance \u2014 NVIDIA $2B partnership thesis intact; next earnings confirmation needed",
-    "NEM gold momentum \u2014 holding 15 shares, +14.8% 1W; Iran war premium + rate-cut bets = dual tailwind; stop at $104.69",
-    "TSEM patent suit (GlobalFoundries) \u2014 holding 7 remaining shares; legal risk on parabolic move; watching for settlement/escalation",
-    "JPM/C/MS earnings April 14-15 \u2014 macro banking health check; recession probability signal from guidance",
-    "MU post-earnings trajectory \u2014 Mizuho says selloff overdone; watching for institutional accumulation signal"
+    "GS earnings April 13 \u2014 holding 4 shares; capital markets reactivation thesis; M&A/IPO commentary critical",
+    "TSM earnings April 16 \u2014 holding 8 shares; AI capex demand commentary; expecting beat on AI chip demand",
+    "ASML earnings April 15 \u2014 holding 5 shares; China restriction House bill is specific headwind; Cohen buying bullish; may exit if guidance cut",
+    "JPM/C earnings April 14 \u2014 macro health check; recession probability signal from guidance",
+    "SNDK \u2014 new position; monitoring AI storage narrative momentum; WDC earnings date TBD",
+    "Iran war escalation \u2014 primary macro swing factor; RTX/LNG positions sensitive",
+    "NEM gold momentum \u2014 holding 15 shares, strong dual tailwind (Iran + rate-cut bets); stop $104.69",
+    "MRVL $115 resistance \u2014 NVIDIA $2B partnership thesis intact; +9.7% 1W strong",
+    "CIEN/LITE optical networking \u2014 waiting for pullback entry; still near 52W highs after +15-20% 1W",
+    "China chip export bill vote timeline \u2014 ASML most exposed per Barron's",
+    "TSEM +15.1% unrealized \u2014 parabolic move; GlobalFoundries patent suit ongoing; small 7-share position, monitoring",
+    "Post-earnings deployment opportunity \u2014 60% cash ready to deploy if TSM/GS/banks give bullish guidance signals"
   ],
   "recent_runs": [
     {
@@ -82,6 +82,15 @@
         "SELL 8 TSEM @ $197.80 \u2192 P&L $+207.04",
         "BUY 5 RTX @ $196.21 ($981.05)",
         "BUY 5 LNG @ $281.16 ($1,405.80)"
+      ]
+    },
+    {
+      "run_id": "swing-20260403-1803",
+      "timestamp": "2026-04-03T18:03:08.809620-04:00",
+      "reasoning": "**Macro:** The macro regime is volatile with Iran war escalation as the primary swing factor \u2014 oil spiking, defense benefiting, but chip stocks under pressure from both Iran uncertainty and China export crackdown legislation. Benchmarks show SPY +1.7% 1W, QQQ +1.9% 1W, SMH +3.0% 1W \u2014 the week was positive but the Iran escalation is fresh. Strong jobs data out today is pushing back Fed cut expectations (bonds falling), which is a headwind for rate-sensitive growth names. Bank earnings begin Monday (GS April 13, JPM/C/JNJ April 14) \u2014 these are major binary events. **Sectors:** Optical networking (CIEN +15.4% 1W, LITE +20.1% 1W) remains explosive \u2014 both near 52W highs, AI infrastructure buildout thesis intact. Gold (NEM +14.8% 1W) is the strongest defense play. Semis are mixed: MRVL +9.7% 1W leading, TSM +4.0% 1W recovering, NVDA +3.6% 1W solid, but ARM -3.7% 1W giving back. Memory (SNDK +16.3% 1W, WDC +7.9% 1W) is surprisingly strong \u2014 AI storage supercycle narrative. Defense (RTX flat) not getting much bid yet despite Iran headlines. Energy (LNG -3.5% 1W) lagging despite oil spike \u2014 thesis not playing out quickly. INTC +14.2% 1W is an outlier \u2014 Apollo $14.2B deal catalyst. **Positions:** 9 open positions, ~36% deployed, ~64% cash. Working: MRVL +7.3% (NVIDIA $2B deal thesis intact, +9.7% 1W showing institutional accumulation), NEM +0.2% unrealized but +14.8% 1W strong (gold dual tailwind intact), ARM +3.5% (IBM deal confirms AI chip pivot thesis), TSEM +15.1% (parabolic but still near 52W high -0.6%). At risk: LNG flat (+0.0%) but -3.5% 1W \u2014 Iran war not translating to stock price; thesis slow; RTX flat \u2014 defense thesis not paying off yet, stock just matching SPY. TSM -0.7% reporting April 16 \u2014 hold. MU -0.4% slight lag. GS +0.3% into earnings Monday. ASML +0.6% with earnings April 15 and China restriction headwinds ongoing \u2014 Barron's specifically calls ASML most at risk from new House bill. Key decision points: (1) GS earnings Monday \u2014 hold small 4-share position; risk/reward reasonable. (2) ASML earnings April 15 \u2014 the new House bill specifically targeting ASML is a material risk; Billionaire Steve Cohen buying is bullish but legislative headwind is real. (3) TSM April 16 \u2014 strong setup, Cohen also buying. (4) LNG underperforming despite oil spike \u2014 reconsider. (5) Optical networking pullback opportunity \u2014 CIEN still near highs, not yet a pullback to add. New opportunities: INTC +14.2% 1W on Apollo deal is interesting but fwd P/E 50.8x with -4% revenue growth is not compelling fundamentally. SNDK +16.3% 1W, fwd P/E 8.0x, WDC +7.9% \u2014 memory storage thesis gaining momentum; SNDK at fwd P/E 8x with +61% revenue growth is compelling. GLW +9.3% 1W on Meta $6B AI fiber deal \u2014 optical networking adjacency, fwd P/E 37.9x not cheap but catalyst is fresh. NKE -15.1% 1W, -24.6% 1M \u2014 potential short? fwd P/E 22.6x, 0% revenue growth, -43.9% from 52W high, vol ratio 2.67x (unusual volume on selloff). AXON -8.4% 1W. Actions: (a) TRIM LNG \u2014 flat despite Iran thesis, -3.5% 1W, oil spike not translating; sell 3 shares to reduce risk while keeping small exposure for further escalation. (b) Add SNDK \u2014 memory storage AI supercycle, fwd P/E 8x on +61% rev growth, +16.3% 1W momentum, WDC AI storage narrative; small position 5 shares. (c) Consider SHORT NKE \u2014 -15.1% 1W, -24.6% 1M, -43.9% from 52W high, 0% revenue growth, vol ratio 2.67x (institutional distribution), fwd P/E 22.6x overvalued for zero-growth brand. However, bounces happen and I already have some shorts in recent history. NKE is at ~$44, very beaten up \u2014 the risk/reward on shorting something already -44% from highs is asymmetric vs mean reversion. Pass on short. (d) Hold ASML into earnings April 15 \u2014 Cohen buying is bullish signal, but China bill is specific headwind. Will hold 5 shares (small position, ~6.6% weight) and reassess post-earnings. (e) Hold GS into Monday earnings \u2014 small 4-share position, thesis intact on capital markets reactivation. Cash management: After selling 3 LNG (~$843) and buying 5 SNDK (~$3,508), net cash decreases by ~$2,665. Cash goes from $64,244 to ~$61,579. Still ~60% cash, justified as: major binary earnings events this week (GS Monday, ASML/MS/PNC Tuesday, TSM/NFLX/ABT/SCHW Wednesday), Iran macro uncertainty, and positioning for post-earnings deployment.",
+      "actions_taken": [
+        "SELL 3 LNG @ $281.16 \u2192 P&L $+0.00",
+        "BUY 5 SNDK @ $701.59 ($3,507.95)"
       ]
     }
   ]

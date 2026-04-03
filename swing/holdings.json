@@ -2,10 +2,10 @@
   "meta": {
     "agent_type": "swing",
     "starting_cash": 100000.0,
-    "last_updated": "2026-04-02T18:53:44.188399-04:00",
-    "last_run_id": "swing-20260402-1853"
+    "last_updated": "2026-04-03T18:03:08.809620-04:00",
+    "last_run_id": "swing-20260403-1803"
   },
-  "cash": 64243.58105952377,
+  "cash": 61579.11105952378,
   "margin_reserved": 0.0,
   "positions": {
     "ARM": {
@@ -39,8 +39,8 @@
       "shares": 7.0,
       "avg_cost": 171.92,
       "current_price": 197.8,
-      "market_value": 2967.0,
-      "unrealized_pnl": 388.2000000000004,
+      "market_value": 1384.6000000000001,
+      "unrealized_pnl": 181.16000000000017,
       "unrealized_pct": 0.15053513261982335,
       "date_opened": "2026-03-29",
       "thesis": "TSEM is a pure-play beneficiary of AI capex cycle and foundational supplier to NVIDIA/AMD. Recent 38.8% 1M gain suggests smart money accumulation ahead of next leg. Breakout above $175 would confirm resumption of uptrend. Catalysts: semiconductor equipment orders data, earnings traction on advanced node demand.",
@@ -140,7 +140,7 @@
     },
     "LNG": {
       "direction": "long",
-      "shares": 5.0,
+      "shares": 2.0,
       "avg_cost": 281.16,
       "current_price": 281.16,
       "market_value": 1405.8000000000002,
@@ -150,6 +150,19 @@
       "thesis": "LNG benefits from Iran war escalation driving oil/gas price spike and global LNG demand rerouting.\n\u2022 Momentum: -3.5% 1W (lagging despite oil spike \u2014 catching-up opportunity); +12.9% 1M showing prior strength\n\u2022 Technicals: -6.6% from 52W high; consolidating; ATR 12.43 manageable for a 5-share position\n\u2022 Fundamentals: Fwd P/E 15.7x on 12% revenue growth, 27% margins, P/E 11.6x trailing \u2014 genuinely cheap for an LNG infrastructure operator\n\u2022 Catalyst: Wall Street upgrading Cheniere explicitly citing Iran War reshaping global LNG demand; oil spiking above $100 per headline flow; Iran disruption fears boosting global energy prices\n\u2022 Volume: VolRatio 0.69 \u2014 below average, suggesting institutional buying hasn't arrived yet, favorable entry\n\u2022 Sizing: 1.4% weight is appropriate given this is a tactical Iran trade; limited because Iran resolution would immediately reverse the thesis; note conflict with long-term agent's LNG position (different time horizon)",
       "stop_loss": 258.67,
       "take_profit": 323.33
+    },
+    "SNDK": {
+      "direction": "long",
+      "shares": 5.0,
+      "avg_cost": 701.59,
+      "current_price": 701.59,
+      "market_value": 3507.9500000000003,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-04-03",
+      "thesis": "SNDK is the pure-play AI storage beneficiary from Western Digital's spin-off, trading at a deep discount to memory peers on a forward P/E basis while participating in the AI data center storage supercycle.\n\u2022 Momentum: +16.3% 1W vs SMH +3.0% \u2014 massive relative outperformance; +17.1% 1M showing sustained institutional accumulation\n\u2022 Technicals: -9.8% from 52W high \u2014 meaningful room to recover; ATR 62, high volatility but strong uptrend; vol ratio 0.91x (not overbought on volume)\n\u2022 Fundamentals: Fwd P/E 8.0x on +61% revenue growth \u2014 one of the cheapest growth profiles in the universe; 36% margins; D/E 7.96 manageable\n\u2022 Catalyst: Jim Cramer called memory rivals a 'Gold Mine' amid AI storage crunch; WDC valuation piece noting AI storage optimism; MU's earnings beat validating memory supercycle which reads across to SNDK\n\u2022 Volume: 0.91x 20d avg \u2014 steady accumulation, not speculative spike; confirms institutional rather than retail-driven move\n\u2022 Sizing: 3.5% portfolio weight, max ~$1,050 loss if 6% stop hit, appropriate for moderate-high conviction speculative position in high-beta memory name",
+      "stop_loss": 645.46,
+      "take_profit": 841.91
     }
   },
   "closed_positions": [
@@ -204,14 +217,14 @@
   ],
   "performance": {
     "total_realized_pnl": -472.74,
-    "total_unrealized_pnl": 1076.77,
-    "total_pnl": 604.03,
-    "total_return_pct": 0.00604,
-    "long_exposure": 37938.4,
+    "total_unrealized_pnl": 869.73,
+    "total_pnl": 396.99,
+    "total_return_pct": 0.00397,
+    "long_exposure": 39863.95,
     "short_exposure": 0,
-    "net_exposure": 37938.4,
-    "gross_exposure": 37938.4,
-    "cash_pct": 0.6287,
+    "net_exposure": 39863.95,
+    "gross_exposure": 39863.95,
+    "cash_pct": 0.607,
     "win_rate": 0.75,
     "trades_closed": 4
   }
