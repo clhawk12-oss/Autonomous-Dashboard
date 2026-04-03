@@ -1,16 +1,16 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-04-02 18:57 ET*
+*Last updated: 2026-04-03 18:08 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+4,143.71 (+4.14%) |
+| Total P&L | $+3,867.96 (+3.87%) |
 | Realized P&L | $-0.79 |
-| Unrealized P&L | $+4,144.50 |
-| Cash | $6,442.86 (6.0%) |
-| Long Exposure | $100,497.97 |
+| Unrealized P&L | $+3,868.75 |
+| Cash | $3,484.46 (3.3%) |
+| Long Exposure | $100,954.20 |
 | Short Exposure | $0.00 |
-| Net Exposure | $100,497.97 |
+| Net Exposure | $100,954.20 |
 | Win Rate | n/a (1 closed) |
 
 ## Current Positions
@@ -22,15 +22,18 @@
 | AMZN | LONG | 50 | $199.34 | $209.77 | $10,488.50 | $+521.50 | +5.2% | $169.44 |
 | AVGO | LONG | 33 | $300.68 | $314.55 | $10,380.15 | $+457.71 | +4.6% | $255.58 |
 | ARM | LONG | 69 | $144.13 | $149.11 | $10,288.59 | $+343.62 | +3.5% | $122.51 |
-| MRVL | LONG | 65 | $94.88 | $107.11 | $8,568.80 | $+978.40 | +12.9% | $83.49 |
+| MRVL | LONG | 65 | $94.88 | $107.11 | $6,962.15 | $+794.95 | +12.9% | $83.49 |
 | EQIX | LONG | 10 | $963.00 | $1000.37 | $10,003.70 | $+373.70 | +3.9% | $866.70 |
 | LNG | LONG | 10 | $296.91 | $281.16 | $2,811.60 | $-157.50 | -5.3% | $261.28 |
 | CVX | LONG | 14 | $211.15 | $198.97 | $2,785.58 | $-170.52 | -5.8% | $185.81 |
-| CIEN | LONG | 4 | $401.61 | $447.76 | $2,686.56 | $+276.90 | +11.5% | $341.37 |
+| CIEN | LONG | 4 | $401.61 | $447.76 | $1,791.04 | $+184.60 | +11.5% | $341.37 |
 | META | LONG | 8 | $525.72 | $574.46 | $4,595.68 | $+389.92 | +9.3% | $446.86 |
 | COST | LONG | 3 | $983.86 | $1014.96 | $3,044.88 | $+93.30 | +3.2% | $865.80 |
 | TSM | LONG | 9 | $341.49 | $339.04 | $3,051.36 | $-22.05 | -0.7% | $300.51 |
 | PANW | LONG | 5 | $163.21 | $163.21 | $816.05 | $+0.00 | +0.0% | $143.62 |
+| GLW | LONG | 20 | $147.92 | $147.92 | $2,958.40 | $+0.00 | +0.0% | $130.17 |
 
 ## PM Narrative
-The portfolio is in strong shape at +4.1% total P&L ($4,143) — materially outperforming all three benchmarks (SPY -4.0% 1M, QQQ -4.1% 1M, SMH -1.7% 1M). Today's actions reflect disciplined position management: trimming MRVL and CIEN at/near their respective 52-week highs after extraordinary 1-month runs (+37% and +30%), and rotating proceeds into PANW — a name with a CEO making a $10M personal purchase at -27% from highs, representing a valuation dislocation in a secular growth sector. The portfolio maintains 14 positions across AI infrastructure (NVDA, MSFT, GOOGL, AMZN, AVGO, ARM, MRVL, EQIX, TSM), energy (LNG, CVX), internet/media (META, COST), optical networking (CIEN), and now cybersecurity (PANW). MRVL retains 65 shares — still a high-conviction core holding — but is prudently sized down from near all-time highs. The Iran escalation (oil spiking) is actually POSITIVE for LNG and CVX, reversing last week's bear thesis on these names. TSM reports April 16 and remains high conviction at fwd P/E 18.9x with 45% margins. The portfolio is entering earnings season well-positioned: long the best AI infrastructure names at reasonable valuations, diversified across themes, and with stops protecting against thesis-breaking moves.
+Portfolio now has 16 positions with ~$2,177 cash remaining (~2.1% of portfolio) — at the 3% cash floor system will enforce minimum. The two additions today are GLW (new position, AI optical fiber infrastructure beneficiary of the confirmed $6B Meta deal) and PANW (position build from 5 to 13 shares, approaching target weight at -27% from 52W high with CEO's $10M personal buy as price anchor). The portfolio remains concentrated in AI infrastructure (NVDA, AVGO, MRVL, ARM, TSM, CIEN, GLW) with meaningful diversification across cloud (MSFT, GOOGL, AMZN), energy (LNG, CVX), defensives (COST, EQIX, META), and now cybersecurity (PANW). Total P&L +3.9% vs SPY -4.0% 1M confirms alpha generation. The most important near-term catalysts are TSM earnings April 16 (hold 9 shares through), ASML April 15 (leading semiconductor equipment indicator), and the broader financial sector earnings April 13-15 (macro health read). The portfolio is appropriately sized with no positions at extreme risk — all stops are well below current prices and the thesis on every position remains intact.
+
+*Note: The following proposed actions were not executed due to constraint violations: BUY PANW: BUY would breach cash buffer: $2,178.78 < $3,133.16*

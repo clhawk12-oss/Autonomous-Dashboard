@@ -2,10 +2,10 @@
   "meta": {
     "agent_type": "long_term",
     "starting_cash": 100000.0,
-    "last_updated": "2026-04-02T18:55:59.367739-04:00",
-    "last_run_id": "long_term-20260402-1855"
+    "last_updated": "2026-04-03T18:05:12.283480-04:00",
+    "last_run_id": "long_term-20260403-1805"
   },
-  "cash": 6442.864495238092,
+  "cash": 3484.4644952380922,
   "margin_reserved": 0,
   "positions": {
     "NVDA": {
@@ -91,8 +91,8 @@
       "shares": 65.0,
       "avg_cost": 94.88,
       "current_price": 107.11,
-      "market_value": 8568.8,
-      "unrealized_pnl": 978.4000000000003,
+      "market_value": 6962.15,
+      "unrealized_pnl": 794.9500000000003,
       "unrealized_pct": 0.1288996627318719,
       "date_opened": "2026-03-29",
       "thesis": "Marvell Technology is emerging as a top-tier custom silicon provider for AI data centers, competing directly for hyperscaler ASIC business alongside Broadcom. The electro-optics and interconnect portfolio is critical for high-bandwidth AI cluster networking. The +19.7% 1M return in a brutal tape signals fundamental outperformance. At -7.6% from 52wk highs, this is one of the strongest risk/reward setups in the AI infrastructure space.",
@@ -143,9 +143,9 @@
       "shares": 4.0,
       "avg_cost": 401.61,
       "current_price": 447.76,
-      "market_value": 2686.56,
-      "unrealized_pnl": 276.89999999999986,
-      "unrealized_pct": 0.11491247727895217,
+      "market_value": 1791.04,
+      "unrealized_pnl": 184.5999999999999,
+      "unrealized_pct": 0.11491247727895215,
       "date_opened": "2026-03-29",
       "thesis": "Ciena is the leading provider of intelligent networking systems, software, and services and is a direct picks-and-shovels beneficiary of the AI data center buildout. Hyperscalers are spending aggressively on high-bandwidth optical networking to connect GPU clusters within and between data centers, and Ciena is a primary supplier to many of these customers. The +17.7% 1M outperformance in a brutal tape reflects genuine order book strength and consensus estimate revisions higher. The company has returned to double-digit revenue growth as its Waveserver product cycle gains traction. At -10% from its 52-week high compared to AI semis down 20-30%, the market is correctly identifying Ciena as a higher-quality, lower-volatility AI infrastructure beneficiary. The networking layer of AI infrastructure is often overlooked but is mission-critical.",
       "stop_loss": 341.37,
@@ -202,6 +202,19 @@
       "thesis": "Palo Alto Networks is the leading AI-native security platform uniquely positioned for the platformization era \u2014 consolidating enterprise security spend from 30+ point solutions into a single architecture with superior economics. \u2022 Moat: Platform switching costs are extraordinarily high once PANW's Cortex/Prisma suite is integrated across SOC, cloud, and network security; AI-powered Precision AI creates a data moat that improves with scale. \u2022 Growth: Revenue growing +15% YoY, transitioning to ARR/subscription model \u2014 Remaining Performance Obligations (RPO) growing >20%; cybersecurity TAM expanding to $250B+ as AI increases both threat surface and security spend. \u2022 Valuation: Trailing P/E 90.7x on GAAP basis looks elevated, but fwd P/E 41.1x reflects the transition away from product revenue; FCF margins are ~25%+ and the platformization strategy is driving NDR >115%; CEO just bought $10M personally \u2014 rare conviction signal. \u2022 Catalyst: CEO's $10M personal purchase at ~$155-163 range signals strong insider conviction; cybersecurity sector in secular demand with AI expanding attack surface; earnings approaching where platformization metrics will be key. \u2022 Entry: Stock is at $163.21, -27% from 52W high (~$225), technically recovering from correction lows with volume support; insider buy at this level provides price support signal. \u2022 Sizing: ~0.8% portfolio weight \u2014 intentionally small starter position given cash constraints; max loss if stopped at 12% down is ~$98; sizing small because: (1) portfolio already has significant tech/AI concentration, (2) limited cash available after MRVL/CIEN trims cover this purchase",
       "stop_loss": 143.62,
       "take_profit": null
+    },
+    "GLW": {
+      "direction": "long",
+      "shares": 20.0,
+      "avg_cost": 147.92,
+      "current_price": 147.92,
+      "market_value": 2958.3999999999996,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-04-03",
+      "thesis": "Corning is the dominant supplier of optical fiber, display glass, and specialty materials \u2014 a critical infrastructure layer for AI data center interconnects, with the $6B Meta AI fiber deal this week validating the multi-year demand surge. Moat: Corning's optical fiber manufacturing is a vertically integrated oligopoly with 50+ years of process IP, scale advantages that competitors cannot replicate, and long-term supply agreements that create high switching costs \u2014 the Meta deal is a 5-year commitment worth $6B. Growth: Revenue growing +20% with AI data center optical fiber demand accelerating; TAM for AI interconnects is massive as every hyperscaler is building out fiber infrastructure to connect GPU clusters; GLW's Optical Communications segment is growing fastest. Valuation: Fwd P/E 37.9x is elevated but reasonable for a company with accelerating 20% revenue growth and improving margins; -8.6% from 52W high suggests the market has not yet fully priced the AI optical thesis. Catalyst: The $6B Meta fiber supply agreement announced this week is the definitive proof point that AI infrastructure buildout is driving sustained multi-year demand for GLW's core product. Entry: +9.3% 1W on the news but still -8.6% from 52W high \u2014 momentum positive, not extended at the highs; ATR14 of $9.68 suggests moderate daily volatility. Sizing: 20 shares at ~$148 = ~$2,960, ~2.9% weight \u2014 starter position appropriate for a new thesis; not larger given the recent 1W move and position count already at 14.",
+      "stop_loss": 130.17,
+      "take_profit": null
     }
   },
   "closed_positions": [
@@ -220,14 +233,14 @@
   ],
   "performance": {
     "total_realized_pnl": -0.79,
-    "total_unrealized_pnl": 4144.5,
-    "total_pnl": 4143.71,
-    "total_return_pct": 0.041437,
-    "long_exposure": 100497.97,
+    "total_unrealized_pnl": 3868.75,
+    "total_pnl": 3867.96,
+    "total_return_pct": 0.03868,
+    "long_exposure": 100954.2,
     "short_exposure": 0,
-    "net_exposure": 100497.97,
-    "gross_exposure": 100497.97,
-    "cash_pct": 0.0602,
+    "net_exposure": 100954.2,
+    "gross_exposure": 100954.2,
+    "cash_pct": 0.0334,
     "win_rate": 0.0,
     "trades_closed": 1
   }
