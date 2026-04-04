@@ -257,6 +257,7 @@ To trigger a manual run: go to the GitHub repo → Actions → Run Portfolio Age
 **Required GitHub setup:**
 1. Add `ANTHROPIC_API_KEY` as a repository secret (Settings → Secrets → Actions)
 2. Ensure the repo has write permissions for Actions (Settings → Actions → General → Workflow permissions → Read and write)
+3. For email digests (optional): add `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`, and `NOTIFY_TO_EMAIL` secrets — see Email Digest section below
 
 ### Windows Task Scheduler (optional — local fallback)
 
@@ -310,7 +311,8 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 | `SWING_MAX_WEIGHT` | 20% | Max position size (no minimum) |
 | `LONG_TERM_MAX_POSITIONS` | 30 | Max long-term holdings |
 | `LONG_TERM_MAX_WEIGHT` | 15% | Max long-term position size (no minimum) |
-| `MIN_CASH_BUFFER` | 3% | Hard floor — code-enforced |
+| `MIN_CASH_BUFFER` | 3% | Hard cash floor for swing agent — code-enforced |
+| `LONG_TERM_MIN_CASH_BUFFER` | 1% | Hard cash floor for long-term agent — code-enforced |
 | `SWING_MEMORY_RUNS` | 10 | Prior runs kept in swing/memory.json (~2 weeks at 1 run/day) |
 | `LONG_TERM_MEMORY_RUNS` | 10 | Prior runs kept in long_term/memory.json (~2 weeks at 1 run/day) |
 | `SHORT_BORROW_RATE_ANNUAL` | 2% | Annual borrow cost on shorts |
@@ -334,10 +336,10 @@ Four tabs:
 
 **📈 Overview**
 - Equity curves — both agents vs SPY/QQQ/SMH, indexed to 100 at start
-- Portfolio metric cards — value, total P&L, cash%, open positions, win rate
+- Portfolio metric cards — value, total P&L, cash%, open positions
 
 **💼 Positions**
-- Open positions table per agent — color-coded P&L, totals row, sector, stop distance
+- Open positions table per agent — color-coded P&L, numerically sortable, pinned totals row, sector, stop distance
 - Closed positions table per agent — exit price, realized P&L, exit reason
 - Sector exposure bar chart per agent (shorts shown as negative)
 
@@ -349,11 +351,28 @@ Four tabs:
 **📋 Activity Log**
 - Card-based run-by-run journal, newest first
 - Each card: bold date/time, portfolio total % + daily % change next to 1D benchmark returns
-- Reasoning split into color-coded sections: **Macro** / **Sectors** / **Positions**
+- Reasoning split into color-coded sections: **Macro** / **Sectors** / **Positions** / **Cash**
+- Macro and Sectors rendered as bullet points; tickers bolded in Positions section
 - Actions section: rationale (sizing justification) + thesis bullet points per trade
 - Sub-tabs: All / Swing / Long-Term + toggle to show only runs with trades
 
 No database required — reads directly from `holdings.json`, `equity_log.jsonl`, and `trade_log.md`. No API key needed.
+
+---
+
+## Email Digest
+
+`notify.py` sends a daily plain-text email after both agents complete. Content: each agent's portfolio value, total return, and their full PM narrative + positions table from `summary.md`.
+
+**Setup (one time):**
+1. Enable 2-Step Verification on your Google account
+2. Go to myaccount.google.com → Security → App Passwords → create one named "Portfolio Agents"
+3. Add three GitHub secrets (Settings → Secrets → Actions):
+   - `GMAIL_ADDRESS` — Gmail address to send from
+   - `GMAIL_APP_PASSWORD` — the 16-character app password
+   - `NOTIFY_TO_EMAIL` — address to deliver to (can be same Gmail or any other)
+
+The `notify` job in the workflow runs automatically after `long_term` completes. No extra cost — uses Gmail SMTP.
 
 ---
 

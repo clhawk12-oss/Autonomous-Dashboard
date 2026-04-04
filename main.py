@@ -38,6 +38,7 @@ from config import (
     LONG_TERM_MIN_WEIGHT,
     LONG_TERM_MAX_WEIGHT,
     MIN_CASH_BUFFER,
+    LONG_TERM_MIN_CASH_BUFFER,
     SHORT_MARGIN_REQUIREMENT,
     SHORT_BORROW_RATE_ANNUAL,
     SWING_SCHEDULE_ET,
@@ -56,6 +57,7 @@ from prices import (
     fetch_earnings_dates,
     fetch_fundamentals,
     get_market_status,
+    is_market_holiday,
     is_market_open,
 )
 from agent import build_user_message, call_claude
@@ -338,7 +340,8 @@ def execute_action(
             raise ValueError(f"Insufficient cash: need ${cost:,.2f}, have ${cash:,.2f}")
 
         new_cash = cash - cost
-        min_cash_needed = portfolio_value * MIN_CASH_BUFFER
+        cash_floor = LONG_TERM_MIN_CASH_BUFFER if agent_type == "long_term" else MIN_CASH_BUFFER
+        min_cash_needed = portfolio_value * cash_floor
         if new_cash < min_cash_needed:
             raise ValueError(
                 f"BUY would breach cash buffer: ${new_cash:,.2f} < ${min_cash_needed:,.2f}"
@@ -429,7 +432,7 @@ def execute_action(
         margin_hold  = proceeds * SHORT_MARGIN_REQUIREMENT
         net_cash_chg = proceeds - margin_hold   # negative: costs 0.5× position value
 
-        if cash + net_cash_chg < portfolio_value * MIN_CASH_BUFFER:
+        if cash + net_cash_chg < portfolio_value * (LONG_TERM_MIN_CASH_BUFFER if agent_type == "long_term" else MIN_CASH_BUFFER):
             raise ValueError(
                 f"SHORT would breach cash buffer after margin requirement of ${margin_hold:,.2f}"
             )
@@ -691,6 +694,11 @@ def run_agent(agent_type: str, force: bool = False) -> None:
 
     print(f"\n{'='*60}")
     print(f"[{run_id}] Starting run — market: {mkt['session']} ({mkt['current_et']})")
+
+    # ── Holiday gate (all agents, even --force) ────────────────────────────
+    if is_market_holiday():
+        print(f"[{run_id}] US market holiday — skipping.")
+        return
 
     # ── Market hours gate (swing only) ─────────────────────────────────────
     if agent_type == "swing" and not force:

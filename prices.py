@@ -22,6 +22,32 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 ET_TZ = pytz.timezone("America/New_York")
 
+# US market holidays — update annually. Source: NYSE holiday schedule.
+# fmt: off
+US_MARKET_HOLIDAYS: set[date] = {
+    # 2026
+    date(2026,  1,  1),   # New Year's Day
+    date(2026,  1, 19),   # MLK Day
+    date(2026,  2, 16),   # Presidents' Day
+    date(2026,  4,  3),   # Good Friday
+    date(2026,  5, 25),   # Memorial Day
+    date(2026,  7,  3),   # Independence Day (observed; July 4 is Saturday)
+    date(2026,  9,  7),   # Labor Day
+    date(2026, 11, 26),   # Thanksgiving
+    date(2026, 12, 25),   # Christmas
+    # 2027
+    date(2027,  1,  1),   # New Year's Day
+    date(2027,  1, 18),   # MLK Day
+    date(2027,  2, 15),   # Presidents' Day
+    date(2027,  3, 26),   # Good Friday
+    date(2027,  5, 31),   # Memorial Day
+    date(2027,  7,  5),   # Independence Day (observed; July 4 is Sunday)
+    date(2027,  9,  6),   # Labor Day
+    date(2027, 11, 25),   # Thanksgiving
+    date(2027, 12, 24),   # Christmas (observed; Dec 25 is Saturday)
+}
+# fmt: on
+
 # ---------------------------------------------------------------------------
 # Internal helpers
 # ---------------------------------------------------------------------------
@@ -384,13 +410,22 @@ def fetch_fundamentals(tickers: list[str]) -> dict[str, dict]:
     return results
 
 
+def is_market_holiday(today: date | None = None) -> bool:
+    """True if *today* is a US market holiday (NYSE schedule)."""
+    if today is None:
+        today = datetime.now(ET_TZ).date()
+    return today in US_MARKET_HOLIDAYS
+
+
 def is_market_open() -> bool:
     """
     True if current US/Eastern time is within regular market hours (9:30–16:00)
-    on a weekday.  Does not check for public holidays — acceptable for paper trading.
+    on a weekday that is not a US market holiday.
     """
     now_et = datetime.now(ET_TZ)
     if now_et.weekday() >= 5:   # Saturday = 5, Sunday = 6
+        return False
+    if is_market_holiday(now_et.date()):
         return False
     t = now_et.time()
     return time(9, 30) <= t < time(16, 0)

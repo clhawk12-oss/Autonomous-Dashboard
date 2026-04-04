@@ -1,6 +1,66 @@
-# Session Handoff — April 1, 2026
+# Session Handoff — April 4, 2026
 
 This file captures the exact state of the autonomous portfolio project after each work session so the next session can pick up immediately without re-discovery. Update this file at the end of every session.
+
+---
+
+## Session 8 — April 4, 2026 — Holiday fix, cash buffer split, email digest, dashboard improvements
+
+### What Was Built / Changed This Session
+
+**Bug fixed: agents ran on Good Friday (April 3), corrupting equity curves**
+- Root cause: GitHub Actions cron fires on all weekdays; `--force` bypassed `is_market_open()`; `is_market_open()` didn't check holidays anyway
+- Fix: added `US_MARKET_HOLIDAYS` set + `is_market_holiday()` to `prices.py`; holiday gate in `main.py` fires before `--force` bypass — agents skip and write nothing on holidays
+- The April 3 equity_log dip is permanent (small, resolves visually as new data accumulates)
+
+**Long-term cash buffer lowered to 1%**
+- `config.py`: `LONG_TERM_MIN_CASH_BUFFER = 0.01` alongside `MIN_CASH_BUFFER = 0.03` (swing stays 3%)
+- `agent.py`: LT prompt uses `LONG_TERM_MIN_CASH_BUFFER` in cash instruction and Rule 7
+- `main.py`: `execute_action()` picks the right floor based on `agent_type`
+
+**Agent prompts: `**Cash:**` reasoning field added**
+- Both system prompts now require a `**Cash:**` sentence in every run's reasoning explaining whether cash is macro-driven, tactical dry powder, or lack of conviction
+- `parse_reasoning_sections()` in `dashboard.py` extracts and renders it with a purple label
+
+**Daily email digest via Gmail SMTP**
+- New `notify.py`: reads `swing/summary.md` + `long_term/summary.md`, sends formatted plain-text email
+- New `notify` job in `run_agents.yml`: runs after `long_term` completes, needs 3 secrets (`GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`, `NOTIFY_TO_EMAIL`)
+
+**Dashboard — Overview tab**
+- Removed Win Rate metric card
+- Renamed "Positions" → "Open Positions"
+- Portfolio Value column wider (ratio 1.4) to prevent truncation
+
+**Dashboard — Positions tab sorting fix**
+- Price/value/P&L columns now stored as floats in the DataFrame; `column_config.NumberColumn` handles `$`/`%` display — sorting is now numeric not lexicographic
+- TOTAL row removed from the DataFrame; rendered as pinned `st.markdown` below the table so it never moves when sorting
+
+**Dashboard — Activity Log formatting**
+- Added `bulletize()`: splits Macro and Sectors prose into `- ` bullet points on sentence boundaries
+- Added `bold_tickers()`: bolds 2–5 char uppercase words (tickers/acronyms) in Positions section
+- Cash section rendered with purple label
+
+### Open Issues / Deferred
+
+- **Trade Log P&L only for new entries** — old log entries pre-`⬛` delimiter show `—` for P&L. Resolves naturally.
+- **Swing April 1 data gap** — permanent; gap connects March 31 to April 2.
+- **April 3 equity dip (both agents)** — permanent but small.
+- **`US_MARKET_HOLIDAYS` requires annual update** — hardcoded through 2027; update `prices.py` each year.
+- **Fundamentals fetch adds ~15-30s per run** — yfinance `.info` for 145 tickers is slow; could cache.
+
+### Critical File Locations (changed this session)
+
+| What | File | Key location |
+|---|---|---|
+| `US_MARKET_HOLIDAYS`, `is_market_holiday()` | `prices.py` | After `ET_TZ` definition |
+| Holiday gate | `main.py` | Top of `run_agent()`, before market hours gate |
+| `LONG_TERM_MIN_CASH_BUFFER = 0.01` | `config.py` | Portfolio constraints block |
+| Cash floor per agent_type | `main.py` | `execute_action()` — BUY and SHORT checks |
+| `**Cash:**` reasoning field | `agent.py` | Both system prompt OUTPUT FORMAT sections |
+| Email digest | `notify.py` | Root of project |
+| Notify job | `.github/workflows/run_agents.yml` | After long_term job |
+| Positions sort fix + pinned TOTAL | `dashboard.py` | `render_positions_table()` |
+| `bulletize()`, `bold_tickers()` | `dashboard.py` | Above `parse_reasoning_sections()` |
 
 ---
 
@@ -40,7 +100,6 @@ This file captures the exact state of the autonomous portfolio project after eac
 
 ### Open Issues / Deferred
 
-- **No holiday awareness** — `is_market_open()` checks weekday + hours but not US public holidays.
 - **Fundamentals fetch adds ~15-30s per run** — fetching `.info` for 145 tickers via yfinance is slow. Could cache with TTL or reduce fetch frequency.
 - **Trade Log P&L only for new entries** — old log entries pre-`⬛` delimiter will show `—` for P&L in the Trade Log tab. Resolves naturally as new runs accumulate.
 - **Swing April 1 data gap** — swing has no equity_log entry or activity log card for April 1 because it crashed before writing files on two consecutive runs. The gap will remain permanently; next run's data point connects to March 31.

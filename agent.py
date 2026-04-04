@@ -29,6 +29,7 @@ from config import (
     LONG_TERM_MIN_WEIGHT,
     LONG_TERM_MAX_WEIGHT,
     MIN_CASH_BUFFER,
+    LONG_TERM_MIN_CASH_BUFFER,
     TRADEABLE_UNIVERSE,
 )
 
@@ -86,7 +87,7 @@ SHORT SELLING (paper trading simulation)
 OUTPUT FORMAT
 Return ONLY valid JSON — no prose, no markdown fences, no text outside the JSON object.
 {{
-  "reasoning": "**Macro:** 1-2 sentences on market regime, SPY/QQQ/SMH context, macro risks. **Sectors:** 1-2 sentences on sector rotation — which sectors are leading or lagging and why. **Positions:** 1-2 sentences on your held positions — what is working, what is at risk, what needs watching.",
+  "reasoning": "**Macro:** 1-2 sentences on market regime, SPY/QQQ/SMH context, macro risks. **Sectors:** 1-2 sentences on sector rotation — which sectors are leading or lagging and why. **Positions:** 1-2 sentences on your held positions — what is working, what is at risk, what needs watching. **Cash:** 1 sentence on why you are holding your current cash level — is it macro-driven, tactical dry powder for a specific catalyst, or lack of conviction in available setups?",
   "actions": [
     {{
       "action": "BUY" | "SELL" | "SHORT" | "COVER",
@@ -146,10 +147,10 @@ MANDATE
 
 CASH AS A STRATEGIC POSITION
 Cash is not a default — it is an active decision.
-- When you have high conviction across multiple names: deploy aggressively, as low as {int(MIN_CASH_BUFFER*100)}% cash.
+- When you have high conviction across multiple names: deploy aggressively, as low as {int(LONG_TERM_MIN_CASH_BUFFER*100)}% cash.
 - When valuations are stretched, macro risks are elevated, or your conviction is low: hold 30–70%+ cash patiently.
 - Never sell a good position just to raise cash. Raise cash by not buying, trimming extended winners, or selling positions where the thesis has broken or valuation has become extreme.
-The only hard floor is {int(MIN_CASH_BUFFER*100)}% cash — enforced by the system.
+The only hard floor is {int(LONG_TERM_MIN_CASH_BUFFER*100)}% cash — enforced by the system.
 
 INVESTMENT PHILOSOPHY
 You are a long-term fundamental investor. Prioritise:
@@ -173,7 +174,7 @@ Acknowledge when reasoning from potentially stale data.
 OUTPUT FORMAT
 Return ONLY valid JSON — no prose, no markdown fences, no text outside the JSON object.
 {{
-  "reasoning": "**Macro:** 1-2 sentences on long-term macro backdrop — rates, growth cycle, AI/tech capex cycle. **Sectors:** 1-2 sentences on sector themes — which areas have the strongest multi-year tailwinds or headwinds. **Positions:** 1-2 sentences on your current holdings — thesis conviction, any positions under stress, what you are watching.",
+  "reasoning": "**Macro:** 1-2 sentences on long-term macro backdrop — rates, growth cycle, AI/tech capex cycle. **Sectors:** 1-2 sentences on sector themes — which areas have the strongest multi-year tailwinds or headwinds. **Positions:** 1-2 sentences on your current holdings — thesis conviction, any positions under stress, what you are watching. **Cash:** 1 sentence on why you are holding your current cash level — is it macro-driven caution, waiting for better entry points on specific names, or fully deployed by conviction?",
   "actions": [
     {{
       "action": "BUY" | "SELL",
@@ -199,7 +200,7 @@ RULES
 4. stop_loss_pct is optional for BUY (decimal, e.g. 0.12 = 12%). Omit or set to null if you do not want a stop on this position.
 5. Do not exceed {LONG_TERM_MAX_POSITIONS} total positions after all actions.
 6. Position size cap is {int(LONG_TERM_MAX_WEIGHT*100)}% of portfolio value. No minimum — size freely based on conviction.
-7. Cash must not drop below {int(MIN_CASH_BUFFER*100)}% after all trades (system enforced).
+7. Cash must not drop below {int(LONG_TERM_MIN_CASH_BUFFER*100)}% after all trades (system enforced).
 8. Only trade tickers in the approved universe above.
 9. Thesis quality matters more than activity. A well-reasoned HOLD beats a poorly-reasoned trade.
 10. Always populate memory_update — this is your continuity across sessions.

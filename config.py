@@ -48,7 +48,8 @@ LONG_TERM_MAX_WEIGHT    = 0.15
 # Hard cash floor — absolute minimum, code-enforced.
 # Claude is instructed to treat cash as a strategic position (can hold 0-90%+)
 # but this floor prevents margin calls / going truly negative on a bad day.
-MIN_CASH_BUFFER = 0.03   # 3%
+MIN_CASH_BUFFER           = 0.03   # 3%  — swing agent
+LONG_TERM_MIN_CASH_BUFFER = 0.01   # 1%  — long-term agent (fewer trades, less need for buffer)
 
 # ── Memory window (how many past runs to keep in memory.json) ─────────────────
 SWING_MEMORY_RUNS     = 10   # ~2 weeks of history at 1 run/day

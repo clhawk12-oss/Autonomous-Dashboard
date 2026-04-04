@@ -116,3 +116,30 @@ jobs:
             echo "Push attempt $attempt failed, retrying..."
             sleep 3
           done
+
+  notify:
+    name: Send Digest Email
+    needs: long_term
+    if: always() && (needs.long_term.result == 'success' || needs.long_term.result == 'skipped')
+    runs-on: ubuntu-latest
+    env:
+      GMAIL_ADDRESS:      ${{ secrets.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      NOTIFY_TO_EMAIL:    ${{ secrets.NOTIFY_TO_EMAIL }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pytz
+
+      - name: Send digest email
+        run: python notify.py

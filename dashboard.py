@@ -235,6 +235,25 @@ def escape_md_dollars(text: str) -> str:
     return re.sub(r'(?<!\\)\$', r'\\$', text)
 
 
+def bulletize(text: str) -> str:
+    """Split a prose block into markdown bullet points on sentence boundaries."""
+    text = text.strip()
+    # Already has bullets — leave it
+    if text.startswith("- ") or text.startswith("• "):
+        return text
+    # Split on ". " before a capital letter, or on ";" or " — " used as separators
+    parts = re.split(r'(?<=\.)\s+(?=[A-Z])|;\s*', text)
+    parts = [p.strip().rstrip(".;") for p in parts if p.strip()]
+    if len(parts) <= 1:
+        return text
+    return "\n".join(f"- {p}" for p in parts)
+
+
+def bold_tickers(text: str) -> str:
+    """Bold uppercase words of 2–5 chars (tickers and key acronyms) in a text block."""
+    return re.sub(r'\b([A-Z]{2,5})\b', r'**\1**', text)
+
+
 def parse_reasoning_sections(reasoning: str) -> dict:
     """
     Try to split structured reasoning into Macro / Sectors / Positions sections.
@@ -242,9 +261,9 @@ def parse_reasoning_sections(reasoning: str) -> dict:
     or {'full': reasoning} for old single-paragraph format.
     """
     sections: dict = {}
-    for label, key in [("Macro", "macro"), ("Sectors", "sectors"), ("Positions", "positions")]:
+    for label, key in [("Macro", "macro"), ("Sectors", "sectors"), ("Positions", "positions"), ("Cash", "cash")]:
         m = re.search(
-            rf'\*\*{label}:\*\*\s*(.+?)(?=\*\*(?:Macro|Sectors|Positions):\*\*|$)',
+            rf'\*\*{label}:\*\*\s*(.+?)(?=\*\*(?:Macro|Sectors|Positions|Cash):\*\*|$)',
             reasoning,
             re.DOTALL,
         )
@@ -339,14 +358,11 @@ def render_agent_metrics(h: dict, label: str) -> None:
     perf = h.get("performance", {})
     pv   = portfolio_value(h)
     ret  = perf.get("total_return_pct", 0.0) * 100
-    c1, c2, c3, c4, c5 = st.columns(5)
+    c1, c2, c3, c4 = st.columns([1.4, 1, 1, 1])
     c1.metric("Portfolio Value", f"${pv:,.0f}",   delta=fmt_delta(ret))
     c2.metric("Total P&L",       f"${perf.get('total_pnl', 0):+,.0f}")
     c3.metric("Cash",            f"{perf.get('cash_pct', 1)*100:.1f}%")
-    c4.metric("Positions",       len(h.get("positions", {})))
-    win = perf.get("win_rate")
-    c5.metric("Win Rate",        f"{win*100:.0f}%" if win is not None else "n/a",
-              help=f"{perf.get('trades_closed', 0)} closed trades")
+    c4.metric("Open Positions",  len(h.get("positions", {})))
 
 
 def render_positions_table(h: dict) -> None:
@@ -373,38 +389,23 @@ def render_positions_table(h: dict) -> None:
             "Ticker":    ticker,
             "Dir":       pos["direction"].upper(),
             "Shares":    int(pos["shares"]),
-            "Avg Cost":  f"${pos.get('avg_cost', 0):,.2f}",
-            "Current":   f"${price:,.2f}",
-            "Value":     f"${mv:,.2f}",
-            "P&L $":     f"${upnl:+,.2f}",
-            "P&L %":     f"{upct:+.2f}%",
+            "Avg Cost":  pos.get("avg_cost", 0),
+            "Current":   price,
+            "Value":     mv,
+            "P&L $":     upnl,
+            "P&L %":     upct,
             "Stop":      f"${stop:.2f}" if stop else "—",
             "Stop Dist": f"{stop_dist:.1f}%" if stop_dist is not None else "—",
             "Sector":    get_sector(ticker),
             "_pnl":      upnl,
         })
 
-    total_pct = (total_pnl / total_cost * 100) if total_cost else 0.0
-    rows.append({
-        "Ticker":    "TOTAL",
-        "Dir":       "", "Shares": "", "Avg Cost": "", "Current": "",
-        "Value":     f"${total_value:,.2f}",
-        "P&L $":     f"${total_pnl:+,.2f}",
-        "P&L %":     f"{total_pct:+.2f}%",
-        "Stop":      "", "Stop Dist": "", "Sector": "",
-        "_pnl":      total_pnl,
-    })
-
-    df        = pd.DataFrame(rows)
-    pnl_vals  = df["_pnl"].tolist()
-    df        = df.drop(columns=["_pnl"])
-    total_idx = len(df) - 1
+    df       = pd.DataFrame(rows)
+    pnl_vals = df["_pnl"].tolist()
+    df       = df.drop(columns=["_pnl"])
 
     def color_row(row):
-        i = row.name
-        if i == total_idx:
-            return ["font-weight:bold"] * len(row)
-        v = pnl_vals[i]
+        v = pnl_vals[row.name]
         if v > 0:
             return ["color:#00c853"] * len(row)
         if v < 0:
@@ -415,6 +416,25 @@ def render_positions_table(h: dict) -> None:
         df.style.apply(color_row, axis=1),
         use_container_width=True,
         hide_index=True,
+        column_config={
+            "Avg Cost": st.column_config.NumberColumn(format="$%.2f"),
+            "Current":  st.column_config.NumberColumn(format="$%.2f"),
+            "Value":    st.column_config.NumberColumn(format="$%.2f"),
+            "P&L $":    st.column_config.NumberColumn(format="$%.2f"),
+            "P&L %":    st.column_config.NumberColumn(format="%.2f%%"),
+        },
+    )
+
+    # Totals row — pinned below the sortable table, never moves
+    total_pct  = (total_pnl / total_cost * 100) if total_cost else 0.0
+    pnl_color  = "#00c853" if total_pnl > 0 else "#ff5252" if total_pnl < 0 else "inherit"
+    st.markdown(
+        f"<div style='padding:4px 8px; font-weight:bold;'>"
+        f"TOTAL &nbsp;|&nbsp; "
+        f"Value: ${total_value:,.2f} &nbsp;|&nbsp; "
+        f"P&amp;L: <span style='color:{pnl_color}'>${total_pnl:+,.2f} ({total_pct:+.2f}%)</span>"
+        f"</div>",
+        unsafe_allow_html=True,
     )
 
 
@@ -715,6 +735,7 @@ def render_run_card(run: dict, agent_key: str) -> None:
                     ("macro",     "📊 Macro",     "#1a6ea8"),
                     ("sectors",   "🏭 Sectors",   "#b05a00"),
                     ("positions", "📋 Positions", "#2e7d32"),
+                    ("cash",      "💵 Cash",      "#6a1b9a"),
                 ]
                 for key, label, color in section_config:
                     text = sections.get(key, "")
@@ -724,7 +745,12 @@ def render_run_card(run: dict, agent_key: str) -> None:
                         f"<span style='color:{color}; font-weight:700'>{label}</span>",
                         unsafe_allow_html=True,
                     )
-                    st.markdown(escape_md_dollars(text))
+                    if key in ("macro", "sectors"):
+                        st.markdown(escape_md_dollars(bulletize(text)))
+                    elif key == "positions":
+                        st.markdown(escape_md_dollars(bold_tickers(bulletize(text))))
+                    else:
+                        st.markdown(escape_md_dollars(text))
 
         # ── Actions ───────────────────────────────────────────────────────
         if real:
