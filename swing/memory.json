@@ -1,18 +1,16 @@
 {
-  "market_notes": "Q2 2026 macro: Iran cease-fire diplomacy (Trump olive branch April 6) creating risk-on rally \u2014 SPY +3.9% 1W, QQQ +4.6% 1W, SMH +5.8% 1W. Oil at $110 with Strait of Hormuz fears but diplomatic breakthrough hopes dominating. Strong March jobs data pushes back Fed cuts (bonds weak). AI infrastructure rally accelerating: MRVL +15.4%, INTC +17.7%, AMD +9%, NVDA +6%, SNDK +17.7%, WDC +10.5% all leading. Energy thesis broken by Iran de-escalation (CVX -5.8%, XOM -4.5%, LNG closed). Dense earnings week: GS April 13, JPM/C/JNJ April 14, ASML/MS/PNC April 15, TSM/NFLX/ABT/SCHW April 16. Portfolio ~57% cash \u2014 strategic dry powder for post-earnings deployment. China chip tool export ban (House bill) specifically targets ASML \u2014 material risk into April 15 earnings.",
+  "market_notes": "Q2 2026: Iran cease-fire CONFIRMED April 8 \u2014 oil plunging, Dow +1,300, risk-on surge. AI infrastructure mega-rally: SMH +10.3% 1W, MU +20.4%, SNDK +22.9%, WDC +25.2%, MRVL +15.6%, ANET +18.1%. BofA raises 2026 chip forecast to $1.3T naming NVDA/AVGO/MRVL/AMD as top drivers. Defense premium evaporating (cease-fire removes Iran war catalyst). Energy destroyed (XOM -7.9%, CVX -6.8%). Banks strong into earnings week. Portfolio ~48% deployed after deploying into cease-fire beneficiaries. Key earnings this week: GS April 13, JPM/C/JNJ April 14, ASML/MS/PNC April 15, TSM/NFLX/ABT April 16.",
   "watching": [
-    "GS earnings April 13 \u2014 holding 4 shares; capital markets reactivation thesis; M&A/IPO commentary critical; BofA says banks in-line to better",
-    "ASML earnings April 15 \u2014 holding 5 shares; China restriction House bill specific headwind; will exit if guidance cut; Cohen buying bullish",
-    "TSM earnings April 16 \u2014 holding 8 shares; AI capex demand commentary; expecting beat; foundry backbone thesis",
-    "JPM/C earnings April 14 \u2014 macro health check; recession probability signal; C +9.3% 1W strong into print",
-    "AMD \u2014 new position; Citi 30-day catalyst watch; hyperscaler AI chip diversification thesis; stop $202",
-    "WDC \u2014 new position; AI storage supercycle; monitoring enterprise HDD/flash demand commentary",
-    "SNDK +17.7% 1W \u2014 AI storage narrative accelerating; monitoring for continuation vs mean reversion",
-    "MRVL +15.4% 1W \u2014 extraordinary outperformance; fwd P/E 20.3x still reasonable; NVIDIA $2B partnership intact",
-    "NEM \u2014 holding 15 shares; +10.5% 1W; Iran cease-fire could reduce safe-haven bid but rate-cut thesis still supports gold",
-    "Iran war cease-fire progress \u2014 primary macro swing factor; if confirmed, reduces energy/defense premium but supports broad risk-on",
-    "Post-earnings deployment opportunity \u2014 ~57% cash ready for TSM/GS/banks guidance signals",
-    "INTC +17.7% 1W on Apollo $14.2B deal \u2014 watching for follow-through; not owning at 51.2x fwd P/E with -4% revenue growth"
+    "GS earnings April 13 \u2014 holding 4 shares at +5.3%; capital markets reactivation thesis; Schaeffer's bullish on post-earnings pop potential",
+    "ASML earnings April 15 \u2014 holding 5 shares at +8.5%; MATCH Act China exposure headwind; cease-fire removes one risk; monitoring guidance commentary",
+    "TSM earnings April 16 \u2014 holding 8 shares at +7.1%; foundry backbone for AI chips; expecting beat on AI capex demand; Citi remains bullish; plan to add if guidance strong",
+    "NFLX earnings April 16 \u2014 not held; subscriber growth and AI content commentary will be market signal; fwd P/E 25.8x on 18% growth reasonable",
+    "ARM Morgan Stanley downgrade \u2014 holding 35 shares at +3.3%; chipmaking pivot concerns at 69.6x fwd P/E; watching for follow-through selling",
+    "MRVL insider sales (18K shares by David Casper) \u2014 monitoring for continued insider distribution vs institutional accumulation signal",
+    "WDC Q3 2026 earnings upcoming \u2014 holding 5 shares at +11.4%; 'Move Over Western Digital \u2014 Seagate is new top pick' bearish signal to watch",
+    "ANET new position \u2014 watching for continued AI networking demand signals and vol ratio confirmation above 1.5x",
+    "AVGO new position \u2014 watching for any BofA price target update and AI custom silicon design win announcements",
+    "Iran cease-fire durability \u2014 JPM bond rally fading as 'Iranian official says ceasefire violated' \u2014 monitoring for re-escalation signal"
   ],
   "recent_runs": [
     {
@@ -102,6 +100,18 @@
         "SELL 4 TSEM @ $190.19 \u2192 P&L $+73.08",
         "BUY 15 AMD @ $220.18 ($3,302.70)",
         "BUY 5 WDC @ $304.15 ($1,520.75)"
+      ]
+    },
+    {
+      "run_id": "swing-20260408-1910",
+      "timestamp": "2026-04-08T19:10:26.805632-04:00",
+      "reasoning": "**Macro:** Iran cease-fire confirmed today (oil plunging, Dow +1,300 pts) \u2014 this is the most significant macro catalyst of the month, strongly risk-on. SPY +4.0% 1W, QQQ +5.0% 1W, SMH +10.3% 1W \u2014 semiconductors leading massively. The cease-fire removes the geopolitical premium from energy/defense and accelerates AI infrastructure rotation. **Sectors:** Semiconductors in full breakout (SMH +10.3% 1W) \u2014 MU +20.4% 1W, SNDK +22.9% 1W, WDC +25.2% 1W, MRVL +15.6% 1W all explosive. Optical networking (CIEN +27.3% 1W, LITE +27.5% 1W) parabolic. Defense mixed on cease-fire (LMT, NOC losing war premium). Energy getting crushed (XOM -7.9% 1W, CVX -6.8% 1W). Banks strong into earnings (C +8.9% 1W, JPM +5.2% 1W). **Earnings Alerts \u2014 REQUIRED:** GS reports April 13 (tomorrow): holding 4 shares at +5.3% unrealized. Schaeffer's asks 'Can Goldman deliver another post-earnings pop?' \u2014 capital markets reactivation thesis intact, BofA bullish on banks in-line/better quarter. GS +7.1% 1W into print, fwd P/E 13.9x on 15% revenue growth is reasonable. HOLD into earnings \u2014 small 4-share position (~3.6% weight) limits binary risk, and if capital markets beat, upside is meaningful. ASML reports April 15: holding 5 shares at +8.5% unrealized. Stock +7.6% 1W, MATCH Act spotlight on China revenue is a headwind but Iran cease-fire removes geopolitical risk premium discount. GuruFocus article 'ASML Set To Report Q1 Earnings: Here's What to Expect' suggests analyst expectations baked in. HOLD \u2014 Cohen buying bullish, cease-fire removes one headwind, but will monitor closely for guidance cut signals. **Positions:** Portfolio working well \u2014 MU +10.6%, SNDK +11.3%, WDC +11.4%, MRVL +14.6%, TSEM +18.5% are stars. ARM got Morgan Stanley downgrade (-1.6% 1W, stock 'sinks') \u2014 thesis weakening with 69.6x fwd P/E and chipmaking pivot concerns. RTX is losing defense premium as cease-fire removes Iran war catalyst; defense stocks mixed post cease-fire per Barrons. TSEM at +18.5% unrealized and 42.5x fwd P/E with 14% revenue growth \u2014 extremely stretched, taking profits. New opportunities: COHR +18.3% 1W, IBD 'New Buy' list includes GOOG/NVDA/VRT/AMAT post cease-fire. ANET +18.1% 1W with 29% revenue growth, fwd P/E 33.9x \u2014 AI networking backbone, vol ratio 1.87x showing institutional demand. ADI +8.8% 1W, Citi bullish into earnings. AVGO named top AI chip driver by BofA alongside NVDA/MRVL/AMD. Actions: (1) SELL RTX \u2014 cease-fire directly removes Iran war defense contract catalyst; defense stocks mixed post-announcement; lock in +3.7% gain. (2) SELL TSEM \u2014 take profits on +18.5% gain; 42.5x fwd P/E on 14% revenue growth extremely stretched; parabolic move needs digestion. (3) BUY ANET \u2014 AI networking infrastructure, +18.1% 1W, 1.87x vol ratio showing institutional accumulation, fwd P/E 33.9x on 29% revenue growth reasonable, 52W high -12% recovery potential. (4) BUY AVGO \u2014 BofA names as top AI chip driver, +13.3% 1W, fwd P/E 19.7x on 30% revenue growth, near 52W highs; strong conviction add. (5) ADD to NVDA \u2014 Iran cease-fire + BofA $1.3T chips forecast + IBD new buy list = triple catalyst; currently only 20 shares at modest weight. **Cash:** Reducing from 56% toward ~45% by deploying into high-conviction cease-fire beneficiaries and AI infrastructure names; maintaining dry powder for post-earnings TSM (April 16) and NFLX deployment opportunities.",
+      "actions_taken": [
+        "SELL 5 RTX @ $203.48 \u2192 P&L $+36.35",
+        "SELL 3 TSEM @ $203.68 \u2192 P&L $+95.28",
+        "BUY 20 ANET @ $145.07 ($2,901.40)",
+        "BUY 8 AVGO @ $350.63 ($2,805.04)",
+        "BUY 10 NVDA @ $182.08 ($1,820.80)"
       ]
     }
   ]

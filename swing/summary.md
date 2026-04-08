@@ -1,34 +1,34 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-04-06 19:05 ET*
+*Last updated: 2026-04-08 19:13 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+654.36 (+0.65%) |
-| Realized P&L | $-466.96 |
-| Unrealized P&L | $+1,121.32 |
-| Cash | $58,084.52 (57.2%) |
-| Long Exposure | $43,533.19 |
+| Total P&L | $+2,914.98 (+2.92%) |
+| Realized P&L | $-335.33 |
+| Unrealized P&L | $+3,250.31 |
+| Cash | $52,185.72 (50.6%) |
+| Long Exposure | $51,004.93 |
 | Short Exposure | $0.00 |
-| Net Exposure | $43,533.19 |
-| Win Rate | 0.8 (5 closed) |
+| Net Exposure | $51,004.93 |
+| Win Rate | 0.857 (7 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 35 | $144.13 | $148.77 | $5,206.95 | $+162.40 | +3.2% | $135.48 |
-| MRVL | LONG | 60 | $99.87 | $109.51 | $6,570.60 | $+578.65 | +9.7% | $87.29 |
-| TSEM | LONG | 3 | $171.92 | $190.19 | $1,331.33 | $+127.89 | +10.6% | $158.17 |
-| ASML | LONG | 5 | $1309.81 | $1304.01 | $6,520.05 | $-29.02 | -0.4% | $1211.30 |
-| NVDA | LONG | 20 | $174.40 | $177.64 | $3,552.80 | $+64.80 | +1.9% | $165.68 |
-| MU | LONG | 8 | $367.85 | $377.76 | $3,022.08 | $+79.28 | +2.7% | $331.07 |
-| TSM | LONG | 8 | $341.49 | $341.76 | $2,734.08 | $+2.16 | +0.1% | $314.17 |
-| NEM | LONG | 15 | $113.79 | $112.83 | $1,692.45 | $-14.40 | -0.8% | $104.69 |
-| GS | LONG | 4 | $860.21 | $866.05 | $3,464.20 | $+23.36 | +0.7% | $800.00 |
-| RTX | LONG | 5 | $196.21 | $198.41 | $992.05 | $+11.00 | +1.1% | $180.51 |
-| SNDK | LONG | 5 | $701.59 | $724.63 | $3,623.15 | $+115.20 | +3.3% | $645.46 |
-| AMD | LONG | 15 | $220.18 | $220.18 | $3,302.70 | $+0.00 | +0.0% | $202.57 |
-| WDC | LONG | 5 | $304.15 | $304.15 | $1,520.75 | $+0.00 | +0.0% | $282.86 |
+| ARM | LONG | 35 | $144.13 | $148.91 | $5,211.85 | $+167.30 | +3.3% | $135.48 |
+| MRVL | LONG | 60 | $99.87 | $114.45 | $6,867.00 | $+875.05 | +14.6% | $87.29 |
+| ASML | LONG | 5 | $1309.81 | $1421.05 | $7,105.25 | $+556.18 | +8.5% | $1211.30 |
+| NVDA | LONG | 30 | $176.96 | $182.08 | $5,462.40 | $+153.60 | +4.4% | $165.68 |
+| MU | LONG | 8 | $367.85 | $406.73 | $3,253.84 | $+311.04 | +10.6% | $331.07 |
+| TSM | LONG | 8 | $341.49 | $365.90 | $2,927.20 | $+195.28 | +7.1% | $314.17 |
+| NEM | LONG | 15 | $113.79 | $118.15 | $1,772.25 | $+65.40 | +3.8% | $104.69 |
+| GS | LONG | 4 | $860.21 | $905.75 | $3,623.00 | $+182.16 | +5.3% | $800.00 |
+| SNDK | LONG | 5 | $701.59 | $780.90 | $3,904.50 | $+396.55 | +11.3% | $645.46 |
+| AMD | LONG | 15 | $220.18 | $231.82 | $3,477.30 | $+174.60 | +5.3% | $202.57 |
+| WDC | LONG | 5 | $304.15 | $338.78 | $1,693.90 | $+173.15 | +11.4% | $282.86 |
+| ANET | LONG | 20 | $145.07 | $145.07 | $2,901.40 | $+0.00 | +0.0% | $133.46 |
+| AVGO | LONG | 8 | $350.63 | $350.63 | $2,805.04 | $+0.00 | +0.0% | $326.09 |
 
 ## PM Narrative
-Key decisions this run: (1) CLOSED LNG — Iran cease-fire diplomacy (Trump olive branch signal) directly breaks the war-premium LNG thesis; stock -4.3% 1W vs benchmarks +4-6%; taking +1% gain before it deteriorates. (2) TRIMMED TSEM from 7 to 3 shares — taking partial profits at +10.6% unrealized on a parabolic +57.8% 1M move; 39.7x fwd P/E on 14% revenue growth is stretched, patent suit overhang; keeping 3 shares to maintain foundry thesis. (3) BOUGHT AMD — Citi 30-day positive catalyst watch is a fresh institutional signal; +9% 1W momentum, fwd P/E 20.4x on 34% growth is attractive in this environment; adds semi exposure via CPU/GPU angle complementing NVDA. (4) BOUGHT WDC — AI storage supercycle companion to SNDK position; +10.5% 1W momentum, 36% margins, fwd P/E 22.3x reasonable. GS EARNINGS ALERT addressed: holding 4 shares into Monday earnings — small position limits binary risk, thesis intact on capital markets reactivation, BofA positive on bank quarter, GS upgrading Netflix showing dealmaking activity. ASML addressed: holding 5 shares into April 15 earnings — small position, China export bill headwind acknowledged but Cohen buying and order book strength provide upside; will exit if guidance cut. Post-actions: 12 positions, ~$58K cash (~57%), well-positioned for the dense earnings week ahead (JPM/C/JNJ April 14, ASML/MS/PNC April 15, TSM/NFLX April 16). Watching for post-earnings deployment opportunity if guidance is bullish.
+Iran cease-fire confirmed today (Dow +1,300, oil plunging) is the dominant macro catalyst — removing geopolitical risk premium from defense/energy and accelerating AI infrastructure rotation. I made five moves: (1) Sold RTX — defense war premium evaporating on cease-fire, thesis broken, locked in +3.7%; (2) Sold remaining TSEM — 42.5x fwd P/E on 14% revenue growth after +18.5% gain is unsustainable, freeing capital for better opportunities; (3) Bought ANET — AI networking infrastructure backbone, 1.87x institutional vol ratio, 29% revenue growth at 33.9x fwd P/E, -12% from 52W high with recovery potential; (4) Bought AVGO — BofA names as top AI chip driver in $1.3T forecast, fwd P/E 19.7x on 30% revenue growth is best large-cap semi value; (5) Added to NVDA on triple catalyst (BofA forecast + cease-fire + IBD buy signal). On earnings alerts: HOLDING GS into tomorrow's print (capital markets thesis intact, fwd P/E 13.9x, small position limits binary risk); HOLDING ASML into April 15 (cease-fire removes one headwind, Cohen buying bullish, monitoring for guidance commentary on MATCH Act China exposure). Portfolio is now ~13 positions with approximately 48% deployed, with remaining cash as dry powder for TSM April 16 earnings which I expect to be a major positive catalyst for the foundry backbone thesis.
