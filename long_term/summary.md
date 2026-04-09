@@ -1,37 +1,37 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-04-08 19:17 ET*
+*Last updated: 2026-04-09 19:30 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+7,299.64 (+7.30%) |
+| Total P&L | $+8,439.51 (+8.44%) |
 | Realized P&L | $-0.79 |
-| Unrealized P&L | $+7,300.43 |
-| Cash | $8,467.66 (7.6%) |
-| Long Exposure | $103,431.00 |
+| Unrealized P&L | $+8,440.30 |
+| Cash | $12,628.35 (11.1%) |
+| Long Exposure | $100,916.55 |
 | Short Exposure | $0.00 |
-| Net Exposure | $103,431.00 |
+| Net Exposure | $100,916.55 |
 | Win Rate | n/a (1 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $182.08 | $10,924.80 | $+873.60 | +8.7% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $374.33 | $10,481.24 | $+491.68 | +4.9% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $183.91 | $11,034.60 | $+983.40 | +9.8% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $373.07 | $10,445.96 | $+456.40 | +4.6% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 50 | $199.34 | $221.25 | $11,062.50 | $+1,095.50 | +11.0% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $350.63 | $12,973.31 | $+1,793.15 | +16.0% | $255.58 |
-| ARM | LONG | 49 | $144.13 | $148.91 | $7,296.59 | $+234.22 | +3.3% | $122.51 |
-| MRVL | LONG | 45 | $94.88 | $114.45 | $5,150.25 | $+880.65 | +20.6% | $83.49 |
-| EQIX | LONG | 10 | $963.00 | $1017.66 | $10,176.60 | $+546.60 | +5.7% | $866.70 |
-| LNG | LONG | 10 | $296.91 | $275.21 | $2,752.10 | $-217.00 | -7.3% | $261.28 |
-| CVX | LONG | 4 | $211.15 | $192.89 | $2,700.46 | $-255.64 | -8.6% | $185.81 |
-| CIEN | LONG | 2 | $401.61 | $494.01 | $1,976.04 | $+369.60 | +23.0% | $341.37 |
-| META | LONG | 8 | $525.72 | $612.42 | $4,899.36 | $+693.60 | +16.5% | $446.86 |
-| COST | LONG | 3 | $983.86 | $1030.27 | $3,090.81 | $+139.23 | +4.7% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $365.90 | $3,293.10 | $+219.69 | +7.1% | $300.51 |
-| PANW | LONG | 20 | $169.18 | $173.78 | $3,475.60 | $+91.95 | +3.7% | $143.62 |
-| GLW | LONG | 15 | $147.92 | $165.10 | $3,302.00 | $+343.60 | +11.6% | $130.17 |
+| AMZN | LONG | 50 | $199.34 | $233.65 | $11,682.50 | $+1,715.50 | +17.2% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $354.91 | $13,131.67 | $+1,951.51 | +17.5% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $149.79 | $7,339.71 | $+277.34 | +3.9% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $119.93 | $5,396.85 | $+1,127.25 | +26.4% | $83.49 |
+| EQIX | LONG | 8 | $963.00 | $1031.57 | $10,315.70 | $+685.70 | +7.1% | $866.70 |
+| LNG | LONG | 10 | $296.91 | $265.77 | $2,657.70 | $-311.40 | -10.5% | $261.28 |
+| CVX | LONG | 4 | $211.15 | $190.36 | $761.44 | $-83.16 | -9.8% | $185.81 |
+| CIEN | LONG | 2 | $401.61 | $487.38 | $974.76 | $+171.54 | +21.4% | $341.37 |
+| META | LONG | 8 | $525.72 | $628.39 | $5,027.12 | $+821.36 | +19.5% | $446.86 |
+| COST | LONG | 3 | $983.86 | $1032.03 | $3,096.09 | $+144.51 | +4.9% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $365.49 | $3,289.41 | $+216.00 | +7.0% | $300.51 |
+| PANW | LONG | 20 | $169.18 | $166.99 | $3,339.80 | $-43.85 | -1.3% | $143.62 |
+| GLW | LONG | 15 | $147.92 | $169.80 | $2,547.00 | $+328.20 | +14.8% | $130.17 |
 
 ## PM Narrative
-The portfolio is performing strongly at +7.3% total P&L ($7,299) against flat benchmarks (SPY -0.1% 1M, QQQ -0.1% 1M), with semiconductors and AI infrastructure driving most of the alpha. Today's Iran ceasefire is the key macro event — it triggers a risk-on rally that benefits our core AI holdings but actively removes the risk premium supporting CVX and LNG. I'm taking three defensive actions: trimming CVX (energy thesis weakened by ceasefire), CIEN (23% gain at near-52W high at 59.8x fwd P/E), and GLW (11.6% gain at 52W high with 'overvalued' signals). Proceeds fund continued PANW accumulation toward the 3-4% target weight following the Anthropic Project Glasswing catalyst. The core portfolio remains highly concentrated in AI infrastructure — NVDA (8.7% gain, largest position), AVGO (16% gain on Google/Anthropic deals), MRVL (20.6% gain), AMZN (11% gain), META (16.5% gain) — all generating strong alpha. TSM earnings are the most critical near-term event (reporting April 16); holding 9 shares through earnings with the AI chip demand thesis intact and Citi maintaining bullish conviction. Post-trades the portfolio has ~17 positions with cash near $7-8K (~7%), providing capacity to act on earnings-driven opportunities next week.
+Portfolio is generating strong alpha at +8.4% total P&L vs SPY +0.7% 1M, QQQ +0.5% 1M, and approaching parity with SMH +8.3% 1M. The primary actions today are defensive trims — reducing MRVL (partial profit-lock at +26.4% after +28.5% 1M run near 52W high), EQIX (institutional sellers emerging, 59x fwd P/E at near-52W high), and ARM (Morgan Stanley downgrade, SiFive competitive threat, 70x fwd P/E). These trims raise cash to ~12-13% which is appropriate given: (1) Goldman Sachs dropping 'blunt warning on tech stocks' with chip stocks at record highs, (2) Barron's noting chip stocks feel 'a wee bit much,' (3) earnings season starting with TSM reporting April 16 (held, HOLD decision confirmed — irreplaceable AI chip manufacturer at attractive 20.2x fwd P/E), and (4) Iran Hormuz threats creating new energy uncertainty that could reverse the ceasefire trade. The core AI infrastructure thesis remains intact with NVDA (+9.8%), AVGO (+17.5%), AMZN (+17.2%), META (+19.5%), MRVL (+26.4%), and GLW (+14.8%) all generating strong unrealized gains. CVX stop at $185.81 remains the key downside protection in the energy exposure, which is now +4.55 above current price ($190.36) — monitoring closely. No new positions warranted at current stretched valuations — patience is the right posture heading into earnings season.
