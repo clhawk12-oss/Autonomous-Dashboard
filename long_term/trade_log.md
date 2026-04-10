@@ -216,3 +216,7 @@ Borrow cost META: $0.7928/day (total $0.79)
 
 ---
 
+### 2026-04-10 17:44 ET — Run ID: long_term-20260410-1744
+**Market**: after-hours | 17:44 ET
+**ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZvpfmyEUSM3bkmhxdyzZ'}
+
