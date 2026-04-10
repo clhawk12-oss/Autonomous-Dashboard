@@ -2,11 +2,11 @@
   "meta": {
     "agent_type": "swing",
     "starting_cash": 100000.0,
-    "last_updated": "2026-04-09T19:25:53.703685-04:00",
-    "last_run_id": "swing-20260409-1925"
+    "last_updated": "2026-04-10T18:32:21.416070-04:00",
+    "last_run_id": "swing-20260410-1832"
   },
-  "cash": 41012.60931349202,
-  "margin_reserved": 48944.4,
+  "cash": 35791.04756746027,
+  "margin_reserved": 63477.6,
   "positions": {
     "ARM": {
       "direction": "long",
@@ -36,7 +36,7 @@
     },
     "ASML": {
       "direction": "long",
-      "shares": 3.0,
+      "shares": 2.0,
       "avg_cost": 1309.8139999999999,
       "current_price": 1478.28,
       "market_value": 4434.84,
@@ -75,10 +75,10 @@
     },
     "TSM": {
       "direction": "long",
-      "shares": 8.0,
-      "avg_cost": 341.49,
+      "shares": 13.0,
+      "avg_cost": 352.68615384615384,
       "current_price": 370.6,
-      "market_value": 2964.8,
+      "market_value": 4817.8,
       "unrealized_pnl": 232.8800000000001,
       "unrealized_pct": 0.0852440774254005,
       "date_opened": "2026-04-01",
@@ -189,7 +189,7 @@
       "thesis": "ServiceNow faces existential AI agent disruption threat \u2014 Anthropic's Claude agents can replace workflow automation. Stock -13.7% 1W, -23.0% 1M, -57.5% from 52W high on massive institutional selling.\n\u2022 Momentum: -13.7% 1W vs SPY +3.8% \u2014 catastrophic relative underperformance; selling accelerating\n\u2022 Technicals: -57.5% from 52W high at $89.81; massive breakdown pattern; vol ratio 2.42x confirms institutional distribution at scale; ATR 5.25 with high downside momentum\n\u2022 Fundamentals: Fwd P/E 17.9x on 21% revenue growth \u2014 sounds reasonable but -2% margins and AI disruption to core workflow automation product changes the growth trajectory; multiple should compress further\n\u2022 Catalyst: Anthropic AI agent capabilities specifically threatening ServiceNow's enterprise workflow moat; Burry 'Anthropic eating Palantir's lunch' narrative spreading to all workflow/automation software; Goldman tech froth warning\n\u2022 Volume: 2.42x vol ratio \u2014 institutional selling at 2.4x average volume confirms conviction in short thesis\n\u2022 Sizing: ~10% weight, stop loss at 8% above entry (~$97), take profit at 20% below entry (~$71.85); earnings April 22 is a binary risk that limits going larger",
       "stop_loss": 96.99,
       "take_profit": 71.85,
-      "borrow_cost_accrued": 1.3174603174603174,
+      "borrow_cost_accrued": 2.634920634920635,
       "_margin_hold": 26943.0
     },
     "ZS": {
@@ -204,8 +204,23 @@
       "thesis": "Zscaler faces dual headwinds: AI-native security solutions disrupting legacy cybersecurity moat AND continued multiple compression from software sector rotation. -63.7% from 52W high with continued selling pressure.\n\u2022 Momentum: -10.6% 1W, -21.9% 1M \u2014 dramatically underperforming all benchmarks; accelerating to the downside\n\u2022 Technicals: -63.7% from 52W high at $122.23; no support levels visible; vol ratio 2.71x confirms institutional distribution; ATR 8.47 with downside momentum\n\u2022 Fundamentals: Fwd P/E 26.6x on 26% revenue growth but -2% margins and -4% ROE \u2014 zero profitability in the face of AI competition is dangerous; no earnings buffer\n\u2022 Catalyst: Anthropic AI narrative spreading from workflow (NOW) to security (ZS); CrowdStrike and cybersecurity stocks getting crushed per Barrons 'Why Anthropic Bump Didn't Last'; CRWD -9.6% 1M, ZS -21.9% 1M confirms sector rotation out of legacy security\n\u2022 Volume: 2.71x vol ratio \u2014 one of highest distribution signals in entire watchlist\n\u2022 Sizing: ~5.5% weight, stop loss at 8% above entry (~$132), take profit at 20% below entry (~$97.78); sector confirms distribution so not going smaller",
       "stop_loss": 132.01,
       "take_profit": 97.78,
-      "borrow_cost_accrued": 1.1242857142857143,
+      "borrow_cost_accrued": 2.2485714285714287,
       "_margin_hold": 22001.4
+    },
+    "SNOW": {
+      "direction": "short",
+      "shares": 80.0,
+      "avg_cost": 121.11,
+      "current_price": 121.11,
+      "market_value": 9688.8,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0,
+      "date_opened": "2026-04-10",
+      "thesis": "Snowflake faces existential AI disruption \u2014 Anthropic and OpenAI enterprise push is directly threatening data analytics/warehouse software moats. \u2022 Momentum: -20.2% 1W vs SPY +3.6% \u2014 catastrophic underperformance; -32.5% 1M confirming sustained institutional exit \u2022 Technicals: -56.9% from 52W high at $121; breakdown accelerating with no support levels; ATR 9.6 means daily moves are large \u2022 Fundamentals: Fwd P/E 49.9x with -28% margins and -54% ROE \u2014 deeply loss-making at expensive valuation; AI agents eliminate need for complex data orchestration workflows \u2022 Catalyst: Anthropic enterprise AI agent push directly competing with Snowflake's core analytics use case; Software stocks tank on Anthropic fears per GuruFocus \u2022 Volume: 3.57x vol ratio \u2014 highest of any ticker in the universe; extreme institutional distribution confirming the thesis \u2022 Sizing: 80 shares = ~8.7% short exposure; not more because we already have two software shorts (NOW, ZS) and want balanced risk; not less because vol ratio and momentum signals are exceptionally strong",
+      "stop_loss": 133.22,
+      "take_profit": 90.83,
+      "borrow_cost_accrued": 0.0,
+      "_margin_hold": 14533.199999999999
     }
   },
   "closed_positions": [
@@ -299,11 +314,11 @@
     "total_unrealized_pnl": 7017.52,
     "total_pnl": 6682.19,
     "total_return_pct": 0.066822,
-    "long_exposure": 48126.96,
-    "short_exposure": 30766.0,
-    "net_exposure": 17360.96,
-    "gross_exposure": 78892.96,
-    "cash_pct": 0.297,
+    "long_exposure": 49979.96,
+    "short_exposure": 40454.8,
+    "net_exposure": 9525.16,
+    "gross_exposure": 90434.76,
+    "cash_pct": 0.2398,
     "win_rate": 0.857,
     "trades_closed": 7
   }

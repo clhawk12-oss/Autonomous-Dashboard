@@ -1,26 +1,18 @@
 {
-  "market_notes": "Q2 2026 mid-April: AI infrastructure mega-rally continues but froth signals emerging \u2014 Goldman warns on tech stocks, Barron's notes chip stocks at 'record highs feeling wee bit much.' Software sector in full meltdown on AI agent disruption fears (Anthropic eating workflow/security moat): NOW -13.7% 1W, SNOW -13.6% 1W, ZS -10.6% 1W, OKTA -14.4% 1W. SMH +9.8% 1W still leading but pace unsustainable. Memory storage supercycle intact (SNDK +22.9% 1W, WDC +13.5% 1W, MU +14.6% 1W). Optical networking (CIEN +17.3%, VIAV +21.1%, GLW +19.3%) extending. Iran Hormuz threat re-emerging \u2014 monitoring for re-escalation. Goldman/MS positive on WDC/ASML. Earnings week critical: GS April 13, ASML April 15, TSM/NFLX April 16. Shorts initiated in software disruption theme (NOW, ZS). Portfolio ~50% deployed long + short exposure added.",
+  "market_notes": "Mid-April 2026: AI infrastructure mega-rally continues with SMH +11.4% 1W leading. TSMC pre-announced Q1 +35% revenue \u2014 AI capex supercycle confirmed. Software sector in full meltdown on Anthropic AI agent disruption: NOW -18.6% 1W, SNOW -20.2% 1W, OKTA -21.5% 1W, NET -21.1% 1W, AKAM -22.6% 1W. Memory storage supercycle intact (SNDK +21.4% 1W, MU +14.8% 1W, WDC +16.4% 1W). Optical networking extending (COHR +19.1% 1W, LRCX +20.7% 1W). Iran cease-fire holding but fragile \u2014 peace talks ongoing. Goldman/MS reporting this week. Portfolio +6.7% total P&L with software shorts NOW and ZS both working well. Added SNOW short as highest-conviction new short (3.57x vol ratio). Three shorts total: NOW, ZS, SNOW.",
   "watching": [
-    "GS earnings April 13 \u2014 holding 4 shares at +5.1%; capital markets reactivation; small position limits binary risk; HOLD",
-    "ASML earnings April 15 \u2014 trimmed to 3 shares at +10.6%; MATCH Act China revenue headwind is specific risk; watching guidance commentary for China exposure update",
-    "TSM earnings April 16 \u2014 holding 8 shares at +7.0%; plan to ADD on beat; AI foundry backbone thesis; Citi bullish; watching revenue guidance and AI capex commentary",
-    "NOW short \u2014 entered at ~$89.81; stop at $97; Anthropic AI agent disruption thesis; earnings April 22 is binary risk; watching for continued software sector selling and any AI agent news",
-    "ZS short \u2014 entered at ~$122.23; stop at $132; cybersecurity AI disruption; vol ratio 2.71x institutional distribution; watching CRWD as sector barometer",
-    "Iran Hormuz threat \u2014 Trump issuing new threats before Iran talks; monitoring for re-escalation that would hurt energy shorts and risk-on positioning",
-    "Goldman tech froth warning \u2014 monitoring for broader market pullback signal; chip stocks at highs create mean reversion risk",
-    "MRVL upgrade from Barron's \u2014 'Forget AI Chips, Focus on This' angle; monitoring for continued institutional accumulation and any insider distribution follow-through",
-    "SNDK near 52W high (-0.4%) \u2014 watching for breakout to new highs or reversal signal at resistance",
-    "NFLX earnings April 16 \u2014 subscriber growth and AI content commentary will be market signal; not held but monitoring"
+    "GS earnings April 13 \u2014 holding 4 shares at +5.5%; capital markets reactivation thesis; HOLD into print",
+    "ASML earnings April 15 \u2014 trimmed to 2 shares at +12.9%; MATCH Act China revenue headwind; watching guidance commentary",
+    "TSM formal earnings April 16 \u2014 added to 13 shares; Q1 pre-announced +35%; watching Q2 guidance and AI capex commentary for additional add signal",
+    "SNOW short \u2014 entered ~$121.11; stop 10% above; 3.57x vol ratio extreme distribution; AI agent disruption thesis; watching for continuation of software sector selling",
+    "NOW short \u2014 entered ~$89.81 at $83.00 current (+7.6%); earnings April 22 is binary risk; consider covering before earnings or holding if momentum continues",
+    "ZS short \u2014 entered ~$122.23 at $118.05 current (+3.4%); BTIG downgrade fresh; watching for continued cybersecurity sector selling",
+    "Iran cease-fire fragility \u2014 peace talks ongoing; re-escalation would hurt risk-on positioning and could reverse semiconductor rally",
+    "NFLX earnings April 16 \u2014 subscriber growth and AI content commentary as market signal; not held but monitoring for software/streaming read-through",
+    "MRVL \u2014 +28.7% unrealized; considering where to take profits; next earnings TBD; Barclays revised price target",
+    "SNDK \u2014 +21.4% unrealized; near 52W high (-2.5%); earnings April 30; watching for breakout to new highs or reversal signal"
   ],
   "recent_runs": [
-    {
-      "run_id": "swing-20260329-2146",
-      "timestamp": "2026-03-29T21:46:22.522284-04:00",
-      "reasoning": "Market remains in pronounced tech correction (QQQ -3.4% 1W, SMH -2.7%) with intact flight-to-quality rotation favoring AI infrastructure names (ARM +8.9%, MRVL +7.9%, TSEM +5.1%). META short thesis strengthened by fresh legal verdict on youth engagement design (13h ago), though position is underwater on panic capitulation move. Portfolio is appropriately positioned with 6 high-conviction holdings (ARM, MRVL, TSEM, ASML, AKAM) representing 21% deployment; 79% cash provides dry powder for emerging breakouts. TSEM breakout above $175 and MRVL above $95 remain key technical confirmation levels. No urgent new catalysts warrant entries; monitoring ARM earnings guidance, SoftBank/OpenAI synergy validation, and META relief bounce target $540-550 for potential short cover signal.",
-      "actions_taken": [
-        "No trades \u2014 HOLD all positions."
-      ]
-    },
     {
       "run_id": "swing-20260330-1015",
       "timestamp": "2026-03-30T10:15:12.223444-04:00",
@@ -115,6 +107,16 @@
         "SELL 15 ARM @ $149.79 \u2192 P&L $+84.90",
         "SHORT 200 NOW @ $89.81 (proceeds $17,962.00, margin $26,943.00)",
         "SHORT 120 ZS @ $122.23 (proceeds $14,667.60, margin $22,001.40)"
+      ]
+    },
+    {
+      "run_id": "swing-20260410-1832",
+      "timestamp": "2026-04-10T18:32:21.416070-04:00",
+      "reasoning": "**Macro:** Market is in a risk-on regime with SMH +11.4% 1W leading benchmarks strongly, Iran cease-fire holding (fragile, peace talks underway), and AI infrastructure mega-rally continuing. S&P 500 snapped a 7-day winning streak Friday but weekly gains are intact. TSM reported Q1 revenue +35% YoY beating estimates, validating the AI capex thesis. Key macro risk remains Anthropic AI agent disruption accelerating software sector meltdown and a fragile Iran cease-fire that could reverse. **Sectors:** Semiconductors and AI infrastructure dominating \u2014 MRVL +20% 1W, SNDK +21.4% 1W, AVGO +18.1% 1W, AMD +12.7% 1W, LRCX +20.7% 1W all outperforming. Software continues to implode: NOW -18.6% 1W (our short working beautifully), SNOW -20.2% 1W, OKTA -21.5% 1W, NET -21.1% 1W, AKAM -22.6% 1W. Anthropic specifically cited as the catalyst. Optical networking (CIEN +10.8% 1W, COHR +19.1% 1W) continuing to extend. Banks solid into earnings (GS +5.2% 1W). **Positions:** Portfolio is +6.7% total P&L. Stars: MRVL +28.7%, SNDK +21.4%, MU +14.3%, WDC +12.9%, ASML +12.9%, AMD +11.3%, TSM +8.5%, GS +5.5%. Shorts working: NOW +7.6% P&L, ZS +3.4% P&L. ANET +1.6% modest. ARM +3.3% still lagging. EARNINGS ALERT REQUIRED RESPONSES: (1) GS reports April 13 (Monday): Holding 4 shares at +5.5% unrealized. Capital markets reactivation thesis intact, GS +5.2% 1W into print. Wall Street banks trying Anthropic's Mythos suggests active AI adoption. BofA says banks set for in-line/better quarter. HOLD \u2014 small 4-share position limits binary risk, fwd P/E 13.9x on 15% growth is reasonable, upside on beat. (2) ASML reports April 15 (Tuesday): Holding 3 shares at +12.9% unrealized. Ken Fisher names ASML top AI stock pick, stock +12.2% 1W. At +12.9% unrealized with earnings Tuesday and MATCH Act China headwind still a risk \u2014 will TRIM to 2 shares to lock in partial profit, reduce binary risk. The stock has moved significantly and Ken Fisher coverage is broadly known. (3) TSM reports April 16 (Wednesday): Holding 8 shares at +8.5% unrealized. TSMC Q1 revenue +35% on strong AI demand just pre-reported, beating estimates. IBD confirms 'TSMC Tops Q1 Sales Target.' This is a massive positive catalyst \u2014 I will ADD to TSM ahead of the formal earnings call as the pre-announcement is already strongly bullish. ADD 5 shares. **New opportunities:** NOW short has been exceptional (-18.6% 1W from entry area). ZS short also working (-14.8% 1W). SNOW is down -20.2% 1W and -32.5% 1M with 3.57x vol ratio \u2014 this is an even stronger distribution signal than ZS was. SNOW at fwd P/E 49.9x with -28% margins and -54% ROE on AI disruption fears: excellent short candidate. NET at -21.1% 1W, 3.11x vol ratio, fwd P/E 115.8x with negative margins \u2014 Anthropic directly threatening Cloudflare's business model (Project Glasswing concerns though Oppenheimer says overblown). AKAM at -22.6% 1W, vol ratio 2.6x, Anthropic launch directly sent AKAM down. These are all software/CDN names getting destroyed on AI agent disruption. Adding SNOW short as the highest conviction new short given 3.57x vol ratio and deepest decline. **Cash rationale:** Currently $41K cash (~29% of equity). After trimming ASML (sell 1 share, ~$1,478 proceeds) and adding TSM (buy 5 shares at ~$370.60, ~$1,853 cost) and adding SNOW short (margin impact), cash will be ~29-30%. This is appropriate \u2014 portfolio is well positioned with 13 open positions and major earnings events this week creating binary risks. Maintaining ~30% cash as buffer for post-earnings deployment and Iran re-escalation tail risk.",
+      "actions_taken": [
+        "SELL 1 ASML @ $1478.28 \u2192 P&L $+168.47",
+        "BUY 5 TSM @ $370.60 ($1,853.00)",
+        "SHORT 80 SNOW @ $121.11 (proceeds $9,688.80, margin $14,533.20)"
       ]
     }
   ]
