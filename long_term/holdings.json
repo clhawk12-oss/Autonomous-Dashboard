@@ -2,10 +2,10 @@
   "meta": {
     "agent_type": "long_term",
     "starting_cash": 100000.0,
-    "last_updated": "2026-04-09T19:29:31.194876-04:00",
-    "last_run_id": "long_term-20260409-1929"
+    "last_updated": "2026-04-10T18:35:52.960768-04:00",
+    "last_run_id": "long_term-20260410-1835"
   },
-  "cash": 12628.354495238093,
+  "cash": 13382.554495238093,
   "margin_reserved": 0,
   "positions": {
     "NVDA": {
@@ -125,19 +125,6 @@
       "stop_loss": 261.28,
       "take_profit": null
     },
-    "CVX": {
-      "direction": "long",
-      "shares": 4.0,
-      "avg_cost": 211.15,
-      "current_price": 188.55,
-      "market_value": 754.2,
-      "unrealized_pnl": -90.39999999999998,
-      "unrealized_pct": -0.10703291498934404,
-      "date_opened": "2026-03-29",
-      "thesis": "Chevron is one of the world's highest-quality integrated energy majors with a fortress balance sheet and industry-leading capital return program. The company generates substantial FCF even at $70/bbl oil, and current oil prices support excellent economics. The stock is showing notable relative strength against a broadly weak market, suggesting institutional positioning in defensive energy as a tariff/recession hedge. Chevron's downstream operations and chemicals business provide diversification. The ~4% dividend yield provides income while we wait for the thesis to compound. The energy sector is a natural inflation hedge and diversifier against the portfolio's heavy AI technology concentration.",
-      "stop_loss": 185.81,
-      "take_profit": null
-    },
     "CIEN": {
       "direction": "long",
       "shares": 2.0,
@@ -229,19 +216,31 @@
       "date_opened": "2026-03-29",
       "date_closed": "2026-03-29",
       "exit_reason": "Mandate change: long-only \u2014 legacy short closed at cost"
+    },
+    {
+      "ticker": "CVX",
+      "direction": "long",
+      "shares": 4.0,
+      "avg_cost": 211.15,
+      "close_price": 188.55,
+      "realized_pnl": -90.4,
+      "realized_pct": -0.107,
+      "date_opened": "2026-03-29",
+      "date_closed": "2026-04-10",
+      "exit_reason": "(1) CVX represents ~0.7% portfolio weight (4 shares \u00d7 $188.55 = ~$754); (2) The position is -10.7% unrealized and the stop at $185.81 is only $2.74 below current price \u2014 with the stock down -5.2% 1W and Iran ceasefire talks accelerating the energy risk premium deflation, the stop will almost certainly be triggered; proactive exit captures ~$2.74 more per share versus waiting for stop execution, and avoids slippage risk; (3) Energy is the weakest sector in the portfolio and holding 2 distressed energy positions (CVX and LNG both near stops, both -10%+ unrealized) while AI infrastructure is generating strong alpha represents poor capital allocation; exiting CVX concentrates remaining energy exposure in LNG which has stronger structural take-or-pay fundamentals and a Goldman Sachs PT raise."
     }
   ],
   "performance": {
-    "total_realized_pnl": -0.79,
-    "total_unrealized_pnl": 9254.52,
+    "total_realized_pnl": -91.19,
+    "total_unrealized_pnl": 9344.92,
     "total_pnl": 9253.73,
     "total_return_pct": 0.092537,
-    "long_exposure": 97889.07,
+    "long_exposure": 97134.87,
     "short_exposure": 0,
-    "net_exposure": 97889.07,
-    "gross_exposure": 97889.07,
-    "cash_pct": 0.1143,
+    "net_exposure": 97134.87,
+    "gross_exposure": 97134.87,
+    "cash_pct": 0.1211,
     "win_rate": 0.0,
-    "trades_closed": 1
+    "trades_closed": 2
   }
 }

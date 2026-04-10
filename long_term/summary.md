@@ -1,37 +1,36 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-04-09 19:30 ET*
+*Last updated: 2026-04-10 18:37 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+8,439.51 (+8.44%) |
-| Realized P&L | $-0.79 |
-| Unrealized P&L | $+8,440.30 |
-| Cash | $12,628.35 (11.1%) |
-| Long Exposure | $100,916.55 |
+| Total P&L | $+9,253.73 (+9.25%) |
+| Realized P&L | $-91.19 |
+| Unrealized P&L | $+9,344.92 |
+| Cash | $13,382.55 (12.1%) |
+| Long Exposure | $97,134.87 |
 | Short Exposure | $0.00 |
-| Net Exposure | $100,916.55 |
-| Win Rate | n/a (1 closed) |
+| Net Exposure | $97,134.87 |
+| Win Rate | n/a (2 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $183.91 | $11,034.60 | $+983.40 | +9.8% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $373.07 | $10,445.96 | $+456.40 | +4.6% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $188.63 | $11,317.80 | $+1,266.60 | +12.6% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $370.87 | $10,384.36 | $+394.80 | +4.0% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 50 | $199.34 | $233.65 | $11,682.50 | $+1,715.50 | +17.2% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $354.91 | $13,131.67 | $+1,951.51 | +17.5% | $255.58 |
-| ARM | LONG | 39 | $144.13 | $149.79 | $7,339.71 | $+277.34 | +3.9% | $122.51 |
-| MRVL | LONG | 40 | $94.88 | $119.93 | $5,396.85 | $+1,127.25 | +26.4% | $83.49 |
-| EQIX | LONG | 8 | $963.00 | $1031.57 | $10,315.70 | $+685.70 | +7.1% | $866.70 |
-| LNG | LONG | 10 | $296.91 | $265.77 | $2,657.70 | $-311.40 | -10.5% | $261.28 |
-| CVX | LONG | 4 | $211.15 | $190.36 | $761.44 | $-83.16 | -9.8% | $185.81 |
-| CIEN | LONG | 2 | $401.61 | $487.38 | $974.76 | $+171.54 | +21.4% | $341.37 |
-| META | LONG | 8 | $525.72 | $628.39 | $5,027.12 | $+821.36 | +19.5% | $446.86 |
-| COST | LONG | 3 | $983.86 | $1032.03 | $3,096.09 | $+144.51 | +4.9% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $365.49 | $3,289.41 | $+216.00 | +7.0% | $300.51 |
-| PANW | LONG | 20 | $169.18 | $166.99 | $3,339.80 | $-43.85 | -1.3% | $143.62 |
-| GLW | LONG | 15 | $147.92 | $169.80 | $2,547.00 | $+328.20 | +14.8% | $130.17 |
+| AMZN | LONG | 50 | $199.34 | $238.38 | $11,919.00 | $+1,952.00 | +19.6% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $371.55 | $13,747.35 | $+2,567.19 | +23.0% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $148.93 | $5,808.27 | $+187.20 | +3.3% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $128.49 | $5,139.60 | $+1,344.40 | +35.4% | $83.49 |
+| EQIX | LONG | 8 | $963.00 | $1030.24 | $8,241.92 | $+537.92 | +7.0% | $866.70 |
+| LNG | LONG | 10 | $296.91 | $265.54 | $2,655.40 | $-313.70 | -10.6% | $261.28 |
+| CIEN | LONG | 2 | $401.61 | $496.02 | $992.04 | $+188.82 | +23.5% | $341.37 |
+| META | LONG | 8 | $525.72 | $629.86 | $5,038.88 | $+833.12 | +19.8% | $446.86 |
+| COST | LONG | 3 | $983.86 | $998.47 | $2,995.41 | $+43.83 | +1.5% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $370.60 | $3,335.40 | $+261.99 | +8.5% | $300.51 |
+| PANW | LONG | 20 | $169.18 | $155.73 | $3,114.60 | $-269.05 | -8.0% | $143.62 |
+| GLW | LONG | 15 | $147.92 | $171.24 | $2,568.60 | $+349.80 | +15.8% | $130.17 |
 
 ## PM Narrative
-Portfolio is generating strong alpha at +8.4% total P&L vs SPY +0.7% 1M, QQQ +0.5% 1M, and approaching parity with SMH +8.3% 1M. The primary actions today are defensive trims — reducing MRVL (partial profit-lock at +26.4% after +28.5% 1M run near 52W high), EQIX (institutional sellers emerging, 59x fwd P/E at near-52W high), and ARM (Morgan Stanley downgrade, SiFive competitive threat, 70x fwd P/E). These trims raise cash to ~12-13% which is appropriate given: (1) Goldman Sachs dropping 'blunt warning on tech stocks' with chip stocks at record highs, (2) Barron's noting chip stocks feel 'a wee bit much,' (3) earnings season starting with TSM reporting April 16 (held, HOLD decision confirmed — irreplaceable AI chip manufacturer at attractive 20.2x fwd P/E), and (4) Iran Hormuz threats creating new energy uncertainty that could reverse the ceasefire trade. The core AI infrastructure thesis remains intact with NVDA (+9.8%), AVGO (+17.5%), AMZN (+17.2%), META (+19.5%), MRVL (+26.4%), and GLW (+14.8%) all generating strong unrealized gains. CVX stop at $185.81 remains the key downside protection in the energy exposure, which is now +4.55 above current price ($190.36) — monitoring closely. No new positions warranted at current stretched valuations — patience is the right posture heading into earnings season.
+Portfolio is performing strongly at +9.3% total P&L ($9,254) vs SPY +0.7% 1M, generating solid alpha. The dominant thesis — AI infrastructure supercycle led by NVDA, AVGO, MRVL, TSM, MSFT, AMZN, GOOGL, and META — is being confirmed at every turn. TSM's Q1 preliminary revenue of +35% YoY is the most important data point this session, unambiguously confirming the AI chip demand thesis ahead of the formal earnings call on April 16. I hold 9 TSM shares and am holding all through earnings, potentially adding on weakness if guidance is constructive. The portfolio's key risk today is concentrated in energy: CVX is -10.7% unrealized with stop only $2.74 away amid accelerating Iran ceasefire dynamics; I'm proactively exiting CVX to avoid stop-triggered execution and slippage. LNG remains near its stop (-10.6% unrealized, stop $261.28 vs current $265.54) and will be monitored closely — the Goldman PT raise and take-or-pay structural thesis provide some support but the near-term price action is concerning. PANW continues to underperform despite Anthropic cybersecurity tailwinds, now -8% unrealized; I'll hold at current 20-share position as the long-term platform consolidation thesis remains intact and Barron's is now explicitly calling cybersecurity a buy on the Anthropic AI model development. EQIX received a Strong Buy upgrade from Zacks today which supports the small 8-share position. Cash raised to ~$13.3K post-CVX sale (~12%) represents strategic optionality for post-earnings additions in TSM, ASML (reporting April 15), and potentially adding to laggards like PANW or GOOGL if the market provides attractive re-entry levels during earnings season.
