@@ -1,37 +1,35 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-04-10 18:35 ET*
+*Last updated: 2026-04-13 17:56 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+6,682.19 (+6.68%) |
-| Realized P&L | $-335.33 |
-| Unrealized P&L | $+7,017.52 |
-| Cash | $35,791.05 (24.0%) |
-| Long Exposure | $49,979.96 |
-| Short Exposure | $40,454.80 |
-| Net Exposure | $9,525.16 |
-| Win Rate | 0.857 (7 closed) |
+| Total P&L | $+4,732.24 (+4.73%) |
+| Realized P&L | $-1,235.73 |
+| Unrealized P&L | $+5,967.97 |
+| Cash | $48,307.81 (39.7%) |
+| Long Exposure | $51,436.00 |
+| Short Exposure | $14,714.40 |
+| Net Exposure | $36,721.60 |
+| Win Rate | 0.778 (9 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 20 | $144.13 | $148.93 | $2,978.60 | $+96.00 | +3.3% | $135.48 |
-| MRVL | LONG | 60 | $99.87 | $128.49 | $7,709.40 | $+1,717.45 | +28.7% | $87.29 |
-| ASML | LONG | 2 | $1309.81 | $1478.28 | $4,434.84 | $+505.40 | +12.9% | $1211.30 |
-| NVDA | LONG | 30 | $176.96 | $188.63 | $5,658.90 | $+350.10 | +6.6% | $165.68 |
-| MU | LONG | 8 | $367.85 | $420.59 | $3,364.72 | $+421.92 | +14.3% | $331.07 |
-| TSM | LONG | 13 | $352.69 | $370.60 | $4,817.80 | $+232.88 | +8.5% | $314.17 |
-| NEM | LONG | 15 | $113.79 | $120.90 | $1,813.50 | $+106.65 | +6.2% | $104.69 |
-| GS | LONG | 4 | $860.21 | $907.80 | $3,631.20 | $+190.36 | +5.5% | $800.00 |
-| SNDK | LONG | 5 | $701.59 | $851.77 | $4,258.85 | $+750.90 | +21.4% | $645.46 |
-| AMD | LONG | 15 | $220.18 | $245.04 | $3,675.60 | $+372.90 | +11.3% | $202.57 |
-| WDC | LONG | 5 | $304.15 | $343.43 | $1,717.15 | $+196.40 | +12.9% | $282.86 |
-| ANET | LONG | 20 | $145.07 | $147.35 | $2,947.00 | $+45.60 | +1.6% | $133.46 |
-| AVGO | LONG | 8 | $350.63 | $371.55 | $2,972.40 | $+167.36 | +6.0% | $326.09 |
-| NOW | SHORT | 200 | $89.81 | $83.00 | $16,600.00 | $+1,362.00 | +7.6% | $96.99 |
-| ZS | SHORT | 120 | $122.23 | $118.05 | $14,166.00 | $+501.60 | +3.4% | $132.01 |
-| SNOW | SHORT | 80 | $121.11 | $121.11 | $9,688.80 | $+0.00 | +0.0% | $133.22 |
+| ARM | LONG | 20 | $144.13 | $157.58 | $3,151.60 | $+269.00 | +9.3% | $135.48 |
+| MRVL | LONG | 60 | $99.87 | $131.30 | $7,878.00 | $+1,886.05 | +31.5% | $87.29 |
+| ASML | LONG | 1 | $1309.81 | $1500.20 | $3,000.40 | $+380.77 | +14.5% | $1211.30 |
+| NVDA | LONG | 30 | $176.96 | $189.31 | $5,679.30 | $+370.50 | +7.0% | $165.68 |
+| MU | LONG | 8 | $367.85 | $426.56 | $3,412.48 | $+469.68 | +16.0% | $331.07 |
+| TSM | LONG | 13 | $352.69 | $369.57 | $4,804.41 | $+219.49 | +4.8% | $314.17 |
+| NEM | LONG | 15 | $113.79 | $116.50 | $1,747.50 | $+40.65 | +2.4% | $104.69 |
+| GS | LONG | 4 | $860.21 | $890.79 | $3,563.16 | $+122.32 | +3.6% | $800.00 |
+| SNDK | LONG | 7 | $773.28 | $952.50 | $6,667.50 | $+1,254.55 | +35.8% | $645.46 |
+| AMD | LONG | 15 | $220.18 | $246.83 | $3,702.45 | $+399.75 | +12.1% | $202.57 |
+| WDC | LONG | 5 | $304.15 | $350.16 | $1,750.80 | $+230.05 | +15.1% | $282.86 |
+| ANET | LONG | 20 | $145.07 | $152.02 | $3,040.40 | $+139.00 | +4.8% | $133.46 |
+| AVGO | LONG | 8 | $350.63 | $379.75 | $3,038.00 | $+232.96 | +8.3% | $326.09 |
+| ZS | SHORT | 120 | $122.23 | $122.62 | $14,714.40 | $-46.80 | -0.3% | $132.01 |
 
 ## PM Narrative
-This run addresses three earnings alerts and adds one new short. For GS (reports Monday): HOLD all 4 shares — capital markets reactivation thesis intact, small position limits binary risk, fwd P/E 13.9x reasonable. For ASML (reports Tuesday): TRIM 1 share from 3 to 2 to lock in partial profit on +12.9% gain ahead of binary earnings event with China MATCH Act headwind. For TSM (reports Wednesday): ADD 5 shares as TSMC pre-announced Q1 revenue +35% YoY beating estimates — this is a direct positive catalyst that validates the AI foundry thesis and reduces formal earnings binary risk. New short: SNOW at 3.57x vol ratio (highest in universe) and -20.2% 1W — this is the most concentrated distribution signal I've seen, fitting squarely with our AI agent disruption short thesis (alongside NOW +7.6% P&L and ZS +3.4% P&L). Portfolio is now 14 positions with ~29% cash, appropriately positioned for the heavy earnings week ahead with GS Monday, ASML/MS/PNC Tuesday, TSM/NFLX Wednesday. Watching Iran peace talks as the key macro wildcard — cease-fire fragility could reverse risk-on positioning. Software sector meltdown continues to validate our short book.
+Key decisions this run: (1) TRIMMED ASML from 2 to 1 share — earnings tomorrow with MATCH Act China headwind risk; locked in partial profit on a +14.5% unrealized gain before binary event. (2) COVERED NOW short entirely — position was only +0.8% profitable despite strong thesis; earnings in ONE WEEK (April 22) creates unacceptable binary risk, and the software sector is bouncing today with Morgan Stanley reframing AI agents as bullish for software. The risk/reward of holding a barely-profitable short into earnings in a 9-day Nasdaq rally is poor. ZS short remains as our software/cybersecurity short expression (no near-term earnings, -63.6% from 52W high, AI disruption thesis intact). (3) ADDED 2 SNDK shares — Nasdaq-100 inclusion confirmed per Barrons, which triggers forced mechanical buying from passive index funds; this is one of the strongest near-term catalysts in equity markets and directly extends our existing highly profitable position. Portfolio stars continue performing: MRVL +31.5% (Amazon driving new highs), SNDK +35.8% (Nasdaq-100 inclusion catalyst fresh), MU +16%, WDC +15.1%, AMD +12.1%. Watching TSM earnings Wednesday (Q2 guidance critical), ASML tomorrow (binary but trimmed), and the Iran Hormuz blockade escalation for macro impact. Software bounce today is real and monitored — ZS stop at $132 protects against squeeze. Post-covering NOW, cash increases to ~$57K (~40%), appropriate given three major earnings events this week and Hormuz macro uncertainty.
