@@ -495,3 +495,7 @@ Borrow cost ZS: $1.2793/day (total $7.11)
 
 ---
 
+### 2026-05-01 17:57 ET — Run ID: swing-20260501-1757
+**Market**: after-hours | 17:57 ET
+**ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 31 column 6 (char 10420)
+
