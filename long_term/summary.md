@@ -1,38 +1,39 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-05-04 18:09 ET*
+*Last updated: 2026-05-05 18:09 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+20,403.20 (+20.40%) |
+| Total P&L | $+21,808.79 (+21.81%) |
 | Realized P&L | $-303.24 |
-| Unrealized P&L | $+20,706.44 |
-| Cash | $4,690.46 (3.8%) |
-| Long Exposure | $117,342.52 |
+| Unrealized P&L | $+22,112.03 |
+| Cash | $1,493.12 (1.2%) |
+| Long Exposure | $121,945.45 |
 | Short Exposure | $0.00 |
-| Net Exposure | $117,342.52 |
+| Net Exposure | $121,945.45 |
 | Win Rate | 0.25 (4 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $198.48 | $11,908.80 | $+1,857.60 | +18.5% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $413.62 | $11,581.36 | $+1,591.80 | +15.9% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $196.50 | $11,790.00 | $+1,738.80 | +17.3% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $411.38 | $11,518.64 | $+1,529.08 | +15.3% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 60 | $207.50 | $272.05 | $16,323.00 | $+3,873.20 | +31.1% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $416.50 | $15,410.50 | $+4,230.34 | +37.8% | $255.58 |
-| ARM | LONG | 39 | $144.13 | $203.26 | $7,927.14 | $+2,306.07 | +41.0% | $122.51 |
-| MRVL | LONG | 40 | $94.88 | $163.66 | $6,546.40 | $+2,751.20 | +72.5% | $83.49 |
-| EQIX | LONG | 5 | $963.00 | $1083.20 | $5,416.00 | $+601.00 | +12.5% | $866.70 |
-| CIEN | LONG | 2 | $401.61 | $538.51 | $1,077.02 | $+273.80 | +34.1% | $341.37 |
-| META | LONG | 8 | $525.72 | $610.41 | $4,883.28 | $+677.52 | +16.1% | $446.86 |
-| COST | LONG | 3 | $983.86 | $1012.79 | $3,038.37 | $+86.79 | +2.9% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $401.61 | $3,614.49 | $+541.08 | +17.6% | $300.51 |
-| PANW | LONG | 20 | $169.18 | $184.56 | $3,691.20 | $+307.55 | +9.1% | $143.62 |
-| GLW | LONG | 15 | $147.92 | $159.96 | $2,399.40 | $+180.60 | +8.1% | $130.17 |
-| MU | LONG | 10 | $465.66 | $576.45 | $5,764.50 | $+1,107.90 | +23.8% | $395.81 |
-| ANET | LONG | 15 | $177.73 | $172.62 | $2,589.30 | $-76.65 | -2.9% | $156.40 |
-| VRT | LONG | 16 | $306.18 | $330.97 | $5,295.52 | $+396.64 | +8.1% | $260.25 |
+| AMZN | LONG | 60 | $207.50 | $273.55 | $16,413.00 | $+3,963.20 | +31.8% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $427.36 | $15,812.32 | $+4,632.16 | +41.4% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $208.84 | $8,144.76 | $+2,523.69 | +44.9% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $168.75 | $6,750.00 | $+2,954.80 | +77.9% | $83.49 |
+| EQIX | LONG | 5 | $963.00 | $1078.46 | $5,392.30 | $+577.30 | +12.0% | $866.70 |
+| CIEN | LONG | 2 | $401.61 | $544.75 | $1,089.50 | $+286.28 | +35.6% | $341.37 |
+| META | LONG | 8 | $525.72 | $604.96 | $4,839.68 | $+633.92 | +15.1% | $446.86 |
+| COST | LONG | 3 | $983.86 | $1016.42 | $3,049.26 | $+97.68 | +3.3% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $394.41 | $3,549.69 | $+476.28 | +15.5% | $300.51 |
+| PANW | LONG | 20 | $169.18 | $183.98 | $3,679.60 | $+295.95 | +8.7% | $143.62 |
+| GLW | LONG | 15 | $147.92 | $162.10 | $2,431.50 | $+212.70 | +9.6% | $130.17 |
+| MU | LONG | 10 | $465.66 | $640.20 | $6,402.00 | $+1,745.40 | +37.5% | $395.81 |
+| ANET | LONG | 15 | $177.73 | $170.22 | $2,553.30 | $-112.65 | -4.2% | $156.40 |
+| VRT | LONG | 16 | $306.18 | $341.02 | $5,456.32 | $+557.44 | +11.4% | $260.25 |
+| AMD | LONG | 9 | $355.26 | $355.26 | $3,197.34 | $+0.00 | +0.0% | $301.97 |
 
 ## PM Narrative
-Portfolio at +20.4% total P&L continues to generate strong alpha vs SPY (+9.5% 1M) and QQQ (+15.0% 1M), though SMH (+29.2% 1M) remains ahead of us due to the extraordinary semi run. Today is a critical earnings day — AMD, ALAB, ANET, and several other watchlist names report. The portfolio strategy is HOLD all positions with stops intact and preserve $4,690 cash for post-earnings AMD initiation if the print confirms data center GPU strength. The AI infrastructure thesis continues to play out: VRT at fresh highs, CIEN rejoining the S&P 500, SNDK +79% 1M, MU at extraordinary 5.7x fwd P/E for 196% growth. ANET and ARM are the two mandatory earnings positions — both held with stops, thesis intact. The portfolio is well-constructed with 17 high-conviction names across AI semis (NVDA, AVGO, MRVL, ARM, TSM, MU), cloud/hyperscaler (AMZN, GOOGL, MSFT, META), networking (ANET, CIEN), data center infrastructure (EQIX, VRT), cybersecurity (PANW), optical fiber (GLW), and defensive retail (COST). The Iran spike and rising bond yields create short-term headwinds but do not change the multi-year AI capex supercycle thesis. Patience is the discipline today — wait for AMD post-earnings before deploying the remaining cash.
+The portfolio is generating strong alpha (+21.8% total P&L) against benchmarks, with the AI capex supercycle delivering confirmed results across all thesis pillars tonight. The key action is initiating AMD post-earnings — this has been the planned highest-priority deployment for cash since early May, and the beat-and-raise print with strong data center GPU commentary is the exact trigger I was waiting for. 9 shares at ~2.6% portfolio weight is constrained by the $4,690 available cash but establishes the position ahead of what should be continued momentum. The portfolio remains concentrated in AI infrastructure (NVDA, AVGO, MRVL, ARM, TSM, AMD now, ANET) with diversification through hyperscaler cloud (AMZN, GOOGL, META, MSFT), power/cooling (VRT), memory (MU), optical networking (CIEN, GLW), data center REIT (EQIX), defensive consumer (COST), and cybersecurity (PANW). ANET's post-print selloff on underwhelming guidance is a concern — the stop at $156.40 manages downside, and I am holding given the underlying beat. ARM reports tomorrow May 6 and I am holding all 39 shares with high conviction — the royalty model is structurally intact and UBS commentary on agentic AI server CPU expansion is directly constructive. ALAB's beat-and-raise is noted but cash constraints prevent initiation this session. The portfolio is 18 positions with $1,493 cash remaining — well-constructed and nearly fully deployed by high conviction.
