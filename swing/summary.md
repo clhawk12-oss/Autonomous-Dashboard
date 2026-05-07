@@ -1,39 +1,39 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-05-06 18:03 ET*
+*Last updated: 2026-05-07 18:06 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+14,889.76 (+14.89%) |
-| Realized P&L | $-2,369.62 |
-| Unrealized P&L | $+17,259.38 |
-| Cash | $46,659.59 (39.5%) |
-| Long Exposure | $71,436.29 |
+| Total P&L | $+13,657.87 (+13.66%) |
+| Realized P&L | $-2,730.34 |
+| Unrealized P&L | $+16,388.21 |
+| Cash | $46,555.33 (39.3%) |
+| Long Exposure | $71,818.50 |
 | Short Exposure | $0.00 |
-| Net Exposure | $71,436.29 |
-| Win Rate | 0.769 (13 closed) |
+| Net Exposure | $71,818.50 |
+| Win Rate | 0.714 (14 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 15 | $144.13 | $237.30 | $3,559.50 | $+1,397.55 | +64.6% | $135.48 |
-| MRVL | LONG | 60 | $99.87 | $172.15 | $10,329.00 | $+4,337.05 | +72.4% | $87.29 |
-| NVDA | LONG | 30 | $176.96 | $207.83 | $6,234.90 | $+926.10 | +17.4% | $165.68 |
-| MU | LONG | 8 | $367.85 | $666.59 | $5,332.72 | $+2,389.92 | +81.2% | $331.07 |
-| TSM | LONG | 18 | $355.65 | $419.50 | $7,551.00 | $+1,149.33 | +18.0% | $314.17 |
-| GS | LONG | 2 | $860.21 | $937.35 | $1,874.70 | $+154.28 | +9.0% | $800.00 |
-| SNDK | LONG | 4 | $773.28 | $1409.98 | $5,639.92 | $+2,546.81 | +82.3% | $645.46 |
-| AMD | LONG | 9 | $220.18 | $421.39 | $3,792.51 | $+1,810.89 | +91.4% | $202.57 |
-| WDC | LONG | 2 | $304.15 | $483.15 | $966.30 | $+358.00 | +58.9% | $282.86 |
-| AVGO | LONG | 13 | $362.23 | $425.44 | $5,530.72 | $+821.78 | +17.5% | $326.09 |
-| ORCL | LONG | 10 | $163.00 | $194.03 | $1,940.30 | $+310.30 | +19.0% | $149.96 |
-| SNPS | LONG | 5 | $460.95 | $504.42 | $2,522.10 | $+217.35 | +9.4% | $424.07 |
-| DDOG | LONG | 23 | $129.29 | $143.71 | $3,305.33 | $+331.66 | +11.2% | $120.24 |
-| DELL | LONG | 10 | $214.65 | $238.80 | $2,388.00 | $+241.50 | +11.3% | $201.77 |
-| AMZN | LONG | 5 | $263.04 | $274.99 | $1,374.95 | $+59.75 | +4.5% | $244.63 |
-| GOOG | LONG | 5 | $347.31 | $395.14 | $1,975.70 | $+239.15 | +13.8% | $323.00 |
-| ALAB | LONG | 18 | $215.69 | $213.91 | $3,850.38 | $-32.04 | -0.8% | $198.43 |
-| GLW | LONG | 18 | $181.57 | $181.57 | $3,268.26 | $+0.00 | +0.0% | $168.86 |
+| ARM | LONG | 15 | $144.13 | $213.31 | $3,199.65 | $+1,037.70 | +48.0% | $135.48 |
+| MRVL | LONG | 60 | $99.87 | $160.01 | $9,600.60 | $+3,608.65 | +60.2% | $87.29 |
+| NVDA | LONG | 30 | $176.96 | $211.50 | $6,345.00 | $+1,036.20 | +19.5% | $165.68 |
+| MU | LONG | 8 | $367.85 | $646.63 | $5,173.04 | $+2,230.24 | +75.8% | $331.07 |
+| TSM | LONG | 18 | $355.65 | $414.15 | $7,454.70 | $+1,053.03 | +16.4% | $314.17 |
+| GS | LONG | 2 | $860.21 | $925.87 | $1,851.74 | $+131.32 | +7.6% | $800.00 |
+| SNDK | LONG | 4 | $773.28 | $1339.96 | $5,359.84 | $+2,266.73 | +73.3% | $645.46 |
+| AMD | LONG | 9 | $220.18 | $408.46 | $3,676.14 | $+1,694.52 | +85.5% | $202.57 |
+| WDC | LONG | 2 | $304.15 | $463.91 | $927.82 | $+319.52 | +52.5% | $282.86 |
+| AVGO | LONG | 13 | $362.23 | $412.56 | $5,363.28 | $+654.34 | +13.9% | $326.09 |
+| ORCL | LONG | 10 | $163.00 | $194.59 | $1,945.90 | $+315.90 | +19.4% | $149.96 |
+| SNPS | LONG | 5 | $460.95 | $505.19 | $2,525.95 | $+221.20 | +9.6% | $424.07 |
+| DDOG | LONG | 15 | $129.29 | $188.73 | $4,340.79 | $+1,367.12 | +46.0% | $120.24 |
+| DELL | LONG | 10 | $214.65 | $230.27 | $2,302.70 | $+156.20 | +7.3% | $201.77 |
+| AMZN | LONG | 5 | $263.04 | $271.17 | $1,355.85 | $+40.65 | +3.1% | $244.63 |
+| GOOG | LONG | 5 | $347.31 | $395.30 | $1,976.50 | $+239.95 | +13.8% | $323.00 |
+| GLW | LONG | 18 | $181.57 | $182.40 | $3,283.20 | $+14.94 | +0.5% | $168.86 |
+| NET | LONG | 20 | $256.79 | $256.79 | $5,135.80 | $+0.00 | +0.0% | $225.98 |
 
 ## PM Narrative
-ARM beat earnings with record quarterly revenue — a full vindication of the AI chip architecture thesis. Holding all 15 shares with +64.6% unrealized gain as the print confirms the royalty rate expansion story. DDOG reports tomorrow — holding all 23 shares with improved 1.54x vol ratio showing institutional accumulation ahead of the print. Portfolio is performing exceptionally at +14.9% total P&L, significantly outperforming SPY (+3.1% 1W), QQQ (+5.2% 1W), and even the red-hot SMH (+10.0% 1W). Key positions: MU and SNDK both at new ATHs, AMD +91.4% after blowout earnings, MRVL +72.4% steady. Adding GLW as a new position on the direct Nvidia $500M AI infrastructure partnership catalyst — the 2.75x vol ratio and +19.5% 1W move confirm institutional response to this specific catalyst. Maintaining ~39% cash as tactical buffer for DDOG earnings reaction tomorrow and any broader market volatility — the Iran peace deal is progressing but not yet finalized, and Barrons' 'Semiconductor Rally Getting Silly' warning is a real froth risk to monitor. The only concern is that we're now running 18 positions with heavy semiconductor concentration, but each position has a distinct thesis and the AI capex supercycle is broadly confirmed.
+Today's key action is trimming DDOG (8 shares sold, 15 retained) to lock in partial profits after an extraordinary +42.8% single-week move following a confirmed earnings beat, while initiating a new position in NET (Cloudflare, 20 shares) which just beat earnings and is confirmed as a big earnings mover by IBD at -1.2% from 52W high. The macro backdrop has re-escalated negatively — Iran and the US are now 'exchanging fire' per multiple headlines, oil is rising, and the market is pulling back from ATH. This warrants maintaining elevated cash (~41% after trades). The DDOG trim is pure risk management — a 42.8% weekly gain on a stock with 71.4x fwd P/E deserves partial profit-taking regardless of the beat quality. NET represents the clearest post-earnings momentum setup available today outside our existing holdings, adding diversification into AI security infrastructure. Key watches: ARM sinking today (post-earnings profit-taking?) — stop at $135.48 is very deep but monitoring; AVGO on OpenAI chip deal financing trouble; Iran military escalation as the primary macro risk that could pressure our entire AI/semiconductor book.
