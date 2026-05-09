@@ -23,14 +23,15 @@ Both agents start with $100,000 cash. Both mandate explicit outperformance of SP
 
 ---
 
-## Universe — 145 Tradeable Tickers
+## Universe — 192 Tradeable Tickers
 
 Loaded dynamically from `watchlists.json` — edit that file to add or remove tickers. Sources:
 
 - AI infrastructure watchlist
 - Quality / sector watchlist
-- Robinhood holdings
-- Vanguard Roth IRA holdings
+- Moonshots watchlist
+- Robinhood holdings (individual + IRA)
+- Vanguard Brokerage + Roth IRA holdings
 
 **Benchmarks** (context only, not traded): SPY, QQQ, SMH, XLK, SOXX
 
@@ -155,7 +156,7 @@ Each Claude call receives three layers:
 
 ```json
 {
-  "reasoning": "**Macro:** market regime + SPY/QQQ/SMH context. **Sectors:** leading/lagging sectors and why. **Positions:** what is working, what is at risk, what to watch.",
+  "reasoning": "**Macro:** bullet points — risk regime, Fed/rates, CPI/PCE/jobs, systemic catalysts only (no company items). **Sectors:** one bullet per sector ETF with notable movement (SMH, IGV, XLK, XLE, XLF, XLY/XLP, etc.). **Positions:** one bullet per held position with a material update only — skip unchanged positions. **Cash:** one sentence on current level and trigger for change.",
   "actions": [
     {
       "action": "BUY | SELL | SHORT | COVER",
@@ -339,9 +340,10 @@ Four tabs:
 - Portfolio metric cards — value, total P&L, cash%, open positions
 
 **💼 Positions**
-- Open positions table per agent — color-coded P&L, numerically sortable, pinned totals row, sector, stop distance
+- Open positions table per agent — color-coded P&L, numerically sortable, sector, stop distance
+- Pinned totals row: Equity value / Cash / Total portfolio value / P&L% on full starting capital
 - Closed positions table per agent — exit price, realized P&L, exit reason
-- Sector exposure bar chart per agent (shorts shown as negative)
+- Sector exposure bar chart per agent (shorts shown as negative) — covers 20+ sectors including Quantum Computing, eVTOL, Space/Satellite, Utilities, Crypto/Mining
 
 **📒 Trade Log**
 - Flat chronological trade table per agent: Date, Action, Ticker, Shares, Price, Total, P&L
@@ -352,8 +354,10 @@ Four tabs:
 - Card-based run-by-run journal, newest first
 - Each card: bold date/time, portfolio total % + daily % change next to 1D benchmark returns
 - Reasoning split into color-coded sections: **Macro** / **Sectors** / **Positions** / **Cash**
-- Macro and Sectors rendered as bullet points; tickers bolded in Positions section
-- Actions section: rationale (sizing justification) + thesis bullet points per trade
+  - Macro: risk regime, Fed/rates, CPI/PCE/jobs, systemic catalysts only
+  - Sectors: one bullet per moving sector ETF (SMH, IGV, XLK, XLY/XLP, etc.)
+  - Positions: one bullet per position with a material update — unchanged positions omitted
+- Actions section: rationale (sizing justification) + thesis rendered as structured bullet points (Momentum / Technicals / Fundamentals / Catalyst / Volume / Sizing)
 - Sub-tabs: All / Swing / Long-Term + toggle to show only runs with trades
 
 No database required — reads directly from `holdings.json`, `equity_log.jsonl`, and `trade_log.md`. No API key needed.
@@ -362,7 +366,7 @@ No database required — reads directly from `holdings.json`, `equity_log.jsonl`
 
 ## Email Digest
 
-`notify.py` sends a daily plain-text email after both agents complete. Content: each agent's portfolio value, total return, and their full PM narrative + positions table from `summary.md`.
+`notify.py` sends a daily plain-text email after both agents complete. Structure per agent: **Performance → Actions Taken → Current Positions → PM Narrative**. The actions section lists today's executed trades (BUY/SELL/SHORT/COVER) injected between the performance metrics and positions table.
 
 **Setup (one time):**
 1. Enable 2-Step Verification on your Google account

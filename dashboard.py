@@ -35,21 +35,32 @@ SECTOR_MAP: dict[str, str] = {
     # Semiconductors
     "NVDA": "Semiconductors", "AMD": "Semiconductors", "AVGO": "Semiconductors",
     "MRVL": "Semiconductors", "ARM": "Semiconductors", "QCOM": "Semiconductors",
-    "TXN": "Semiconductors",  "MU": "Semiconductors",  "SMCI": "Semiconductors",
-    "INTC": "Semiconductors", "MCHP": "Semiconductors", "SWKS": "Semiconductors",
-    "ADI": "Semiconductors",  "NXPI": "Semiconductors",
+    "TXN": "Semiconductors",  "SMCI": "Semiconductors", "INTC": "Semiconductors",
+    "MCHP": "Semiconductors", "SWKS": "Semiconductors", "ADI": "Semiconductors",
+    "NXPI": "Semiconductors", "CRDO": "Semiconductors", "GFS": "Semiconductors",
+    "NVTS": "Semiconductors", "POWI": "Semiconductors", "VICR": "Semiconductors",
+    "TSEM": "Semiconductors",
     # Semiconductor Equipment
     "AMAT": "Semi Equipment", "LRCX": "Semi Equipment", "KLAC": "Semi Equipment",
     "ASML": "Semi Equipment", "ONTO": "Semi Equipment", "ACLS": "Semi Equipment",
     "ENTG": "Semi Equipment", "MKSI": "Semi Equipment", "COHU": "Semi Equipment",
+    "AEHR": "Semi Equipment",
+    # Memory / Storage
+    "MU":   "Memory/Storage", "SNDK": "Memory/Storage", "WDC": "Memory/Storage",
+    "STX":  "Memory/Storage", "MRAM": "Memory/Storage",
     # Cloud / Software
     "MSFT": "Cloud/Software", "GOOGL": "Cloud/Software", "GOOG": "Cloud/Software",
     "ORCL": "Cloud/Software", "CRM":  "Cloud/Software", "NOW":  "Cloud/Software",
     "SNOW": "Cloud/Software", "DDOG": "Cloud/Software", "MDB":  "Cloud/Software",
     "GTLB": "Cloud/Software", "ZS":   "Cloud/Software", "CRWD": "Cloud/Software",
-    "NET":  "Cloud/Software",
-    # Data / AI Software
+    "NET":  "Cloud/Software", "DOCN": "Cloud/Software", "FSLY": "Cloud/Software",
+    "SNPS": "Cloud/Software", "DUOL": "Cloud/Software", "HUBS": "Cloud/Software",
+    "PENG": "Cloud/Software",
+    # Data / AI
     "PLTR": "Data/AI", "AI": "Data/AI", "BBAI": "Data/AI",
+    "PL":   "Data/AI", "SDGR": "Data/AI", "TEM": "Data/AI", "ZETA": "Data/AI",
+    # Quantum Computing
+    "IONQ": "Quantum Computing", "QBTS": "Quantum Computing",
     # Hyperscalers / E-commerce
     "AMZN": "Cloud/E-commerce",
     # Social Media
@@ -61,25 +72,44 @@ SECTOR_MAP: dict[str, str] = {
     "JNPR": "Networking",
     # Data Center REITs
     "EQIX": "Data Center REIT", "DLR": "Data Center REIT", "IRM": "Data Center REIT",
-    # Energy
-    "VST": "Energy", "CEG": "Energy", "NRG": "Energy", "POWL": "Energy",
+    # Utilities (power — nuclear, renewables, nat gas gen)
+    "VST": "Utilities", "CEG": "Utilities", "NEE": "Utilities", "TLN": "Utilities",
+    "DUK": "Utilities", "NRG": "Utilities",
+    # Energy (oil, gas, uranium)
     "LNG": "Energy", "CVX": "Energy", "XOM": "Energy", "COP": "Energy",
-    "PSX": "Energy", "VLO": "Energy",
+    "PSX": "Energy", "VLO": "Energy", "POWL": "Energy",
+    "OKLO": "Energy", "UEC": "Energy", "XE": "Energy",
+    # Industrials
+    "GE":   "Industrials", "GEV": "Industrials", "ETN": "Industrials",
+    "CAT":  "Industrials", "DE":  "Industrials", "FDX": "Industrials",
+    "RTX":  "Industrials", "LMT": "Industrials", "NOC": "Industrials",
+    "BE":   "Industrials", "VRT": "Industrials", "PWR": "Industrials",
+    "FIX":  "Industrials", "MOD": "Industrials", "AAON": "Industrials",
+    "DAL":  "Industrials", "DUOT": "Industrials", "FLY": "Industrials",
+    "ONDS": "Industrials", "URI": "Industrials",  "SEI": "Industrials",
+    # eVTOL / Air Mobility
+    "JOBY": "eVTOL", "ACHR": "eVTOL",
+    # EV / Auto
+    "TSLA": "EV/Auto", "RIVN": "EV/Auto",
+    # Space / Satellite
+    "ASTS": "Space/Satellite", "RKLB": "Space/Satellite",
+    # Crypto / Mining
+    "CIFR": "Crypto/Mining", "GLXY": "Crypto/Mining", "WULF": "Crypto/Mining",
+    "BMNR": "Crypto/Mining", "IREN": "Crypto/Mining",
     # Consumer / Retail
     "COST": "Consumer/Retail", "WMT": "Consumer/Retail", "TGT": "Consumer/Retail",
+    "DKNG": "Consumer/Retail", "ELF": "Consumer/Retail", "GRAB": "Consumer/Retail",
     # Financials
     "V":    "Financials", "MA":   "Financials", "JPM":  "Financials",
     "BAC":  "Financials", "GS":   "Financials", "BRK-B": "Financials",
     "PYPL": "Fintech",    "SQ":   "Fintech",    "AFRM": "Fintech",
+    "CRCL": "Fintech",    "SOFI": "Fintech",
     # Healthcare
     "UNH":  "Healthcare", "LLY":  "Healthcare", "ABBV": "Healthcare",
     "JNJ":  "Healthcare", "PFE":  "Healthcare", "MRNA": "Healthcare",
-    # EV / Auto
-    "TSLA": "EV/Auto", "RIVN": "EV/Auto",
-    # Memory / Storage
-    "WDC":  "Memory/Storage", "STX": "Memory/Storage",
-    # Telecom / Satellite
-    "TSEM": "Semiconductors",
+    "BEAM": "Healthcare", "CVS":  "Healthcare", "ELV":  "Healthcare",
+    "HIMS": "Healthcare", "OSCR": "Healthcare", "TWST": "Healthcare",
+    "VKTX": "Healthcare",
 }
 
 AGENT_CONFIG = {
@@ -238,9 +268,10 @@ def escape_md_dollars(text: str) -> str:
 def bulletize(text: str) -> str:
     """Split a prose block into markdown bullet points on sentence boundaries."""
     text = text.strip()
-    # Already has bullets — leave it
-    if text.startswith("- ") or text.startswith("• "):
-        return text
+    # Already has bullets (native format from new-style prompts) — leave it
+    if text.startswith("- ") or text.startswith("• ") or "\n•" in text or "\n-" in text:
+        # Normalise • to - so Streamlit renders them as proper markdown list items
+        return text.replace("• ", "- ").replace("•", "-")
     # Split on ". " before a capital letter, or on ";" or " — " used as separators
     parts = re.split(r'(?<=\.)\s+(?=[A-Z])|;\s*', text)
     parts = [p.strip().rstrip(".;") for p in parts if p.strip()]
@@ -275,24 +306,50 @@ def parse_reasoning_sections(reasoning: str) -> dict:
 def format_trade_note(note: str) -> str:
     """
     Format a trade note as markdown bullet points.
-    If the note already contains bullet structure (• or -), return as-is.
-    Otherwise split on semicolons and sentence boundaries.
+
+    Handles three note formats in order of preference:
+    1. New-style: newlines preserved as ⏎ by main.py — restore and render as bullets
+    2. Old-style with native bullets (• or -) — normalise and return
+    3. Prose with known section headers (Momentum:, Technicals:, etc.) — split on headers
+    4. Prose — split on semicolons then sentence boundaries as last resort
     """
     if not note:
         return ""
     note = escape_md_dollars(note)
-    # Already structured with bullets
-    if "•" in note or "\n-" in note or "\n•" in note:
-        return note
-    # Split on semicolons first — Claude often uses these as natural separators
+
+    # 1. Restore newlines that main.py encoded as ⏎ for markdown table cell safety
+    if " ⏎ " in note:
+        note = note.replace(" ⏎ ", "\n")
+
+    # 2. Already has bullet structure — normalise • → - and return
+    if "•" in note or "\n•" in note or "\n-" in note:
+        return note.replace("• ", "- ").replace("•", "-")
+
+    # 3. Detect known thesis section headers and split on them (handles old prose entries)
+    _THESIS_HEADERS = (
+        "Momentum:", "Technicals:", "Fundamentals:", "Catalyst:",
+        "Volume:", "Sizing:", "Moat:", "Growth:", "Valuation:", "Entry:",
+    )
+    if any(h in note for h in _THESIS_HEADERS):
+        parts = re.split(
+            r"(?<!\w)(?=" + "|".join(re.escape(h) for h in _THESIS_HEADERS) + r")",
+            note,
+        )
+        parts = [p.strip().rstrip(".") for p in parts if p.strip()]
+        if len(parts) > 1:
+            return "\n".join(f"- {p}" for p in parts)
+
+    # 4. Split on semicolons — Claude often uses these as natural separators
     parts = [p.strip() for p in note.split(";") if p.strip()]
     if len(parts) > 1:
         return "\n".join(f"- {p.rstrip('.')}" for p in parts)
-    # Fall back to splitting on ". " before a capital letter
-    parts = re.split(r'\. (?=[A-Z])', note)
+
+    # 5. Split on ". " before a capital letter
+    parts = re.split(r"\. (?=[A-Z])", note)
     parts = [p.strip().rstrip(".") for p in parts if p.strip()]
     if len(parts) > 1:
         return "\n".join(f"- {p}" for p in parts)
+
     return note
 
 
@@ -373,7 +430,7 @@ def render_positions_table(h: dict) -> None:
         return
 
     rows = []
-    total_value = total_pnl = total_cost = 0.0
+    equity_value = total_pnl = 0.0
 
     for ticker, pos in positions.items():
         price     = pos.get("current_price") or pos.get("avg_cost", 0)
@@ -382,9 +439,8 @@ def render_positions_table(h: dict) -> None:
         mv        = pos.get("market_value", 0)
         upnl      = pos.get("unrealized_pnl", 0)
         upct      = pos.get("unrealized_pct", 0) * 100
-        total_value += mv
-        total_pnl   += upnl
-        total_cost  += pos.get("avg_cost", 0) * pos.get("shares", 0)
+        equity_value += mv
+        total_pnl    += upnl
         rows.append({
             "Ticker":    ticker,
             "Dir":       pos["direction"].upper(),
@@ -425,13 +481,16 @@ def render_positions_table(h: dict) -> None:
         },
     )
 
-    # Totals row — pinned below the sortable table, never moves
-    total_pct  = (total_pnl / total_cost * 100) if total_cost else 0.0
-    pnl_color  = "#00c853" if total_pnl > 0 else "#ff5252" if total_pnl < 0 else "inherit"
+    # Totals row — equity value + cash + total portfolio value, P&L% on total
+    cash_value  = h.get("cash", 0.0)
+    total_value = equity_value + cash_value
+    total_pct   = (total_pnl / STARTING_CASH * 100) if STARTING_CASH else 0.0
+    pnl_color   = "#00c853" if total_pnl > 0 else "#ff5252" if total_pnl < 0 else "inherit"
     st.markdown(
         f"<div style='padding:4px 8px; font-weight:bold;'>"
-        f"TOTAL &nbsp;|&nbsp; "
-        f"Value: ${total_value:,.2f} &nbsp;|&nbsp; "
+        f"Equity: ${equity_value:,.2f} &nbsp;|&nbsp; "
+        f"Cash: ${cash_value:,.2f} &nbsp;|&nbsp; "
+        f"Total: ${total_value:,.2f} &nbsp;|&nbsp; "
         f"P&amp;L: <span style='color:{pnl_color}'>${total_pnl:+,.2f} ({total_pct:+.2f}%)</span>"
         f"</div>",
         unsafe_allow_html=True,

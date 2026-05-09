@@ -1,10 +1,12 @@
 {
   "_notes": {
     "sources": [
-      "Watchlist-AIinfra.csv",
-      "Watchlist-QualitySector.csv",
-      "Portfolio-Robinhood-Holdings-2026-03-29.csv",
-      "Portfolio-Vanguard-RothIRA-Holdings-2026-03-29.csv"
+      "Watchlist-AIinfra (2).csv",
+      "Watchlist-QualitySector (1).csv",
+      "Watchlist-Moonshots.csv",
+      "Portfolio-Robinhood-Investments-RobinhoodIndividual-Holdings-2026-05-09.csv",
+      "Portfolio-VanguardBrokerage-Holdings-2026-05-09.csv",
+      "Portfolio-Vanguard-Investments-ChristopherHawkins-RothIRABrok1-Holdings-2026-05-09.csv"
     ],
     "excluded": [
       "CCO.TO  (Canadian-listed, use CCO if US ADR available)",
@@ -13,47 +15,61 @@
       "IBIT    (Bitcoin ETF)",
       "ETHA    (Ethereum ETF)",
       "VXUS    (international ETF)",
-      "NLR     (nuclear sector ETF)"
+      "NLR     (nuclear sector ETF)",
+      "XME     (SPDR S&P Metals & Mining ETF — sector ETF, not individual stock)",
+      "AMBQ    (ticker not verified as US-listed)",
+      "XNDU    (ticker not verified as US-listed)"
     ],
     "renamed": [
       "BRK.B -> BRK-B  (yfinance format)"
     ],
     "sparse_data_risk": [
       "AIPO, AXTI, CHPS, IDGT, LWLG, NBIS, OSS, POET, TSEM, VIAV",
-      "These are small-cap or recently-listed names. Skipped gracefully if yfinance returns no data."
+      "ACHR, BMNR, DUOT, FLY, MRAM, ONDS, QBTS, XE",
+      "These are small-cap, micro-cap, or recently-listed names. Skipped gracefully if yfinance returns no data."
     ],
-    "last_updated": "2026-03-29"
+    "last_updated": "2026-05-09"
   },
   "tradeable": [
-    "A",    "AAOI",  "AAPL",  "ABBV",  "ABT",
-    "ADI",  "AIPO",  "AKAM",  "ALAB",  "AMAT",
-    "AMD",  "AMZN",  "ANET",  "APH",   "APO",
-    "APLD", "APP",   "ARM",   "ARW",   "ASML",
-    "AVGO", "AXON",  "AXP",   "AXTI",  "BE",
+    "A",    "AAOI",  "AAON",  "AAPL",  "ABBV",
+    "ABT",  "ACHR",  "ADI",   "AEHR",  "AIPO",  "AKAM",
+    "ALAB", "AMAT",  "AMD",   "AMZN",  "ANET",
+    "APH",  "APO",   "APLD",  "APP",   "ARM",
+    "ARW",  "ASML",  "ASTS",  "AVGO",  "AXON",
+    "AXP",  "AXTI",  "BE",    "BEAM",  "BMNR",
     "BRK-B","BSX",   "BX",    "C",     "CAT",
-    "CEG",  "CHPS",  "CIEN",  "COIN",  "COHR",
-    "COST", "CRH",   "CRWD",  "CSCO",  "CTVA",
-    "CVX",  "DDOG",  "DE",    "DELL",  "DOCN",
-    "DUK",  "EQIX",  "EQT",   "ETN",   "FCX",
-    "FDX",  "FIX",   "FN",    "FSLY",  "GE",
-    "GEV",  "GILD",  "GLW",   "GOOG",  "GS",
-    "HAL",  "HD",    "HOOD",  "IDGT",  "INTC",
-    "IREN", "ISRG",  "JNJ",   "JPM",   "KEYS",
-    "KKR",  "KLAC",  "LIN",   "LITE",  "LLY",
-    "LMT",  "LNG",   "LRCX",  "LWLG",  "MA",
-    "MELI", "META",  "MOD",   "MPWR",  "MRK",
-    "MRVL", "MS",    "MSFT",  "MU",    "NDAQ",
-    "NBIS", "NEE",   "NEM",   "NET",   "NFLX",
-    "NKE",  "NOC",   "NOW",   "NRG",   "NVO",
-    "NVDA", "OKTA",  "ORCL",  "OSS",   "PANW",
-    "PG",   "PLD",   "PLTR",  "PNC",   "POET",
-    "PSX",  "PWR",   "RBRK",  "REGN",  "RTX",
-    "SBUX", "SCHW",  "SHOP",  "SHW",   "SNDK",
-    "SNOW", "SNPS",  "SPOT",  "ST",    "TER",
-    "TGT",  "TJX",   "TMO",   "TMUS",  "TSEM",
-    "TSM",  "TSLA",  "UBER",  "UNH",   "V",
-    "VECO", "VIAV",  "VRT",   "VRTX",  "VST",
-    "WDC",  "WELL",  "WMT",   "XOM",   "ZS"
+    "CEG",  "CHPS",  "CIEN",  "CIFR",  "COIN",
+    "COHR", "COST",  "CRCL",  "CRDO",  "CRH",
+    "CRWD", "CSCO",  "CTVA",  "CVS",   "CVX",
+    "DAL",  "DDOG",  "DE",    "DELL",  "DKNG",
+    "DOCN", "DUOL",  "DUOT",  "DUK",   "ELF",
+    "ELV",  "EQIX",  "EQT",   "ETN",   "FCX",
+    "FDX",  "FIX",   "FLY",   "FN",    "FSLY",
+    "GE",   "GEV",   "GFS",   "GILD",  "GLW",
+    "GLXY", "GOOG",  "GRAB",  "GS",    "HAL",
+    "HD",   "HIMS",  "HOOD",  "HUBS",  "IDGT",
+    "INTC", "IONQ",  "IREN",  "ISRG",  "JNJ",
+    "JOBY", "JPM",   "KEYS",  "KKR",   "KLAC",
+    "LIN",  "LITE",  "LLY",   "LMT",   "LNG",
+    "LRCX", "LWLG",  "MA",    "MELI",  "META",
+    "MOD",  "MPWR",  "MRAM",  "MRK",   "MRVL",
+    "MS",   "MSFT",  "MU",    "NDAQ",  "NBIS",
+    "NEE",  "NEM",   "NET",   "NFLX",  "NKE",
+    "NOC",  "NOW",   "NRG",   "NVO",   "NVDA",
+    "NVTS", "OKLO",  "OKTA",  "ONDS",  "ORCL",
+    "OSCR", "OSS",   "PANW",  "PENG",  "PG",
+    "PL",   "PLD",   "PLTR",  "PNC",   "POET",
+    "POWI", "PSX",   "PWR",   "QBTS",  "RBRK",
+    "REGN", "RKLB",  "RTX",   "SBUX",  "SCHW",
+    "SDGR", "SEI",
+    "SHOP", "SHW",   "SNDK",  "SNOW",  "SNPS",
+    "SOFI", "SPOT",  "ST",    "TEM",   "TER",
+    "TGT",  "TJX",   "TLN",   "TMO",   "TMUS",
+    "TSEM", "TSM",   "TSLA",  "TWST",  "UBER",
+    "UEC",  "UNH",   "URI",   "V",     "VECO",
+    "VIAV", "VICR",  "VRT",   "VKTX",  "VRTX",
+    "VST",  "WDC",   "WELL",  "WMT",   "WULF",
+    "XE",   "XOM",   "ZETA",  "ZS"
   ],
   "benchmarks": ["SPY", "QQQ", "SMH", "XLK", "SOXX"]
 }

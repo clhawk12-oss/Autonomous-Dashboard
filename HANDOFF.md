@@ -1,6 +1,101 @@
-# Session Handoff — April 4, 2026
+# Session Handoff — May 9, 2026
 
 This file captures the exact state of the autonomous portfolio project after each work session so the next session can pick up immediately without re-discovery. Update this file at the end of every session.
+
+---
+
+## Session 9 — May 9, 2026 — Dashboard fixes, prompt restructure, email actions, universe expansion
+
+### What Was Built / Changed This Session
+
+**Dashboard — Positions tab total row fix**
+- Bug: total row P&L% was `pnl / equity_cost` — too high because it excluded cash
+- Fix: total row now shows four columns: Equity / Cash / Total / P&L
+- P&L% is now `unrealized_pnl / STARTING_CASH` — correct return on full $100K capital
+- File: `dashboard.py` → `render_positions_table()`
+
+**Agent prompts — reasoning sections fully restructured**
+- Both system prompts (`_SWING_SYSTEM`, `_LONG_TERM_SYSTEM`) had their `reasoning` format rewritten
+- **Macro**: explicitly restricted to macro-level factors only — risk regime (risk-on/off), Fed/rates, CPI/PCE/jobs, systemic catalysts. Company-specific items banned here.
+- **Sectors**: one bullet per sector with a reference to its ETF (SMH, IGV, XLK, XLE, XLF, XLC, XLU, XLI, XLY, XLP). XLY vs XLP called out as risk-on/risk-off read-through. SMH vs IGV as semis vs software. Sectors with no notable movement are to be omitted.
+- **Positions**: one bullet per held position with a material update only — skip positions with no news/earnings/price action. Not a list of all positions.
+- **Cash**: one sentence unchanged
+- File: `agent.py` → `_SWING_SYSTEM`, `_LONG_TERM_SYSTEM` OUTPUT FORMAT sections
+
+**Dashboard — Activity Log action detail formatting**
+- Bug: `_clean()` in `main.py` replaced `\n` with space, collapsing all bullet points in thesis to prose
+- Fix: `_clean()` now uses ` ⏎ ` as newline substitute (safe in markdown table cells)
+- Dashboard `format_trade_note()` rewritten with four-tier fallback:
+  1. Restore ` ⏎ ` → `\n` (new entries)
+  2. Pass through native `•`/`-` bullets unchanged
+  3. Split on known thesis section headers (`Momentum:`, `Technicals:`, `Fundamentals:`, `Catalyst:`, `Volume:`, `Sizing:`, `Moat:`, `Growth:`, `Valuation:`, `Entry:`) — fixes old prose entries
+  4. Semicolon/sentence-boundary fallback (legacy)
+- Also fixed `bulletize()` to detect mid-string bullets (`\n•`, `\n-`), not just start-of-string
+- Files: `main.py` → `_clean()` inside `run_agent()`; `dashboard.py` → `format_trade_note()`, `bulletize()`
+
+**Email digest — actions section injected**
+- Previously: email read `summary.md` verbatim (Performance → Positions → Narrative)
+- Now: `notify.py` fully rewritten to parse `summary.md` by `##` section and inject today's trades between performance and positions
+- New structure per agent: **Performance → Actions Taken → Current Positions → PM Narrative**
+- `read_summary_sections()`: parses summary.md into keyed dict by `##` heading
+- `read_last_run_actions()`: finds last `---` block in `trade_log.md`, extracts executed trades (BUY/SELL/SHORT/COVER only, no SKIPPED)
+- `fmt_actions_section()`: formats as clean plain-text block
+- File: `notify.py` — full rewrite
+
+**Universe expansion: 145 → 192 tickers**
+- Added 47 new tickers across 14 new/existing sectors
+- New sectors added to `SECTOR_MAP`: Quantum Computing, eVTOL, Space/Satellite, Utilities (split from Energy), Crypto/Mining, Industrials (expanded)
+- Key sector corrections:
+  - MU, SNDK → Memory/Storage (were Semiconductors)
+  - CEG, VST, NEE, TLN, DUK, NRG → Utilities (were Energy or unmapped)
+  - BE, VRT, GEV → Industrials (were unmapped)
+  - FSLY, DOCN, SNPS → Cloud/Software (were unmapped)
+  - IONQ → Quantum Computing (was Data/AI)
+  - SEI → Industrials (Solaris Energy; was incorrectly Financials)
+  - JOBY, ACHR → eVTOL (new sector)
+  - RKLB, ASTS → Space/Satellite (new sector)
+- Files: `watchlists.json` (tradeable array + notes); `dashboard.py` (SECTOR_MAP)
+
+### Bugs Fixed This Session
+
+- Positions tab P&L% denominator was equity-only (too high) — fixed to use STARTING_CASH
+- `_clean()` was destroying thesis bullet structure by collapsing `\n` to space — fixed with ` ⏎ ` encoding
+- Email only had performance + positions — missing today's trades — fixed with section injection
+- Multiple sector misclassifications in SECTOR_MAP (MU, CEG, VST, BE, VRT, GEV, SEI, etc.)
+
+### Open Issues / Deferred
+
+- **Thesis bullet fix only applies to new runs** — old trade log entries pre-`⏎` encoding show as prose. Resolves naturally as new runs accumulate.
+- **`US_MARKET_HOLIDAYS` requires annual update** — hardcoded through 2027; update `prices.py` each year.
+- **Fundamentals fetch adds ~15-30s per run** — yfinance `.info` for 190+ tickers; could cache.
+- **Dashboard not hosted** — runs locally. Could deploy to Streamlit Community Cloud.
+
+### Current Portfolio State (as of May 8, 2026)
+
+**Swing Trader: +15.7% total P&L** ($119K portfolio value)
+- 17 open positions, ~42% cash
+- Big winners: AMD +107%, MU +103%, SNDK +102%, MRVL +70%, DDOG +55%
+- Stopped out of NET -23.6% (Cloudflare cut 20% headcount)
+- Watching: MU at 7th straight record high (distribution risk), AMAT/CSCO earnings
+
+**Long-Term Investor: +25.8% total P&L** ($126K portfolio value)
+- 18 open positions, ~$1.3K cash (at floor)
+- Leaders: MRVL +79%, MU +60%, ARM +48%, AVGO +42%, NVDA +28%
+- Only stress: ALAB -6.6%
+- Watching: PANW trim candidate (52x fwd P/E), MU stop raise needed ($395 stop vs $747 price)
+
+### Critical File Locations (changed this session)
+
+| What | File | Key location |
+|---|---|---|
+| Positions total row (equity/cash/total/P&L) | `dashboard.py` | `render_positions_table()` |
+| Reasoning format (Macro/Sectors/Positions) | `agent.py` | `_SWING_SYSTEM`, `_LONG_TERM_SYSTEM` OUTPUT FORMAT |
+| `_clean()` newline encoding (⏎) | `main.py` | `_clean()` inside `run_agent()` |
+| `format_trade_note()` four-tier fallback | `dashboard.py` | `format_trade_note()` |
+| `bulletize()` mid-string bullet detection | `dashboard.py` | `bulletize()` |
+| Email with injected actions section | `notify.py` | `read_summary_sections()`, `read_last_run_actions()`, `fmt_actions_section()`, `build_agent_block()` |
+| Tradeable universe (192 tickers) | `watchlists.json` | `tradeable` array |
+| Sector map (full restructure) | `dashboard.py` | `SECTOR_MAP` |
 
 ---
 

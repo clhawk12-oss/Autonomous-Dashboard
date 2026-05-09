@@ -867,10 +867,10 @@ def run_agent(agent_type: str, force: bool = False) -> None:
                 exec_result = execute_action(holdings, action, prices, agent_type)
                 execution_notes.append(exec_result)
                 print(f"[{run_id}] {exec_result}")
-                # Strip newlines and pipes so the table row stays on one line;
-                # use ⬛ as a delimiter the dashboard can split on
+                # Collapse pipes (breaks markdown table) but preserve newlines
+                # using ⏎ so the dashboard can restore bullet-point structure.
                 def _clean(s: str) -> str:
-                    return (s or "").replace("\n", " ").replace("|", "/")
+                    return (s or "").replace("|", "/").replace("\n", " ⏎ ")
                 if act in ("BUY", "SHORT"):
                     rationale = _clean(action.get("rationale", ""))
                     thesis    = _clean(action.get("thesis", ""))
