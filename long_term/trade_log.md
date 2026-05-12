@@ -496,3 +496,52 @@ Borrow cost META: $0.7928/day (total $0.79)
 
 ---
 
+### 2026-05-12 18:21 ET — Run ID: long_term-20260512-1821
+**Market**: after-hours | 18:21 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF pullback today — Nasdaq and S&P 500 retreating from record highs with tech sector under broad pressure; IBD headlines 'Nasdaq, S&P 500 Retreat From Record Highs Amid Losses in Tech Sector'; oil surging on Iran/inflation accelerating per Barchart headlines; VIX likely elevated intraday but structural bull market intact
+• Fed/rates: Treasuries falling as rising oil prices 'herald sticky inflation' per Bloomberg; higher-for-longer thesis reinforced; Goldman/BofA delayed cut calls still valid; PPI data upcoming as key near-term catalyst
+• Growth cycle: Corporate profits 'smoking hot' remains valid; AI capex supercycle intact with Anthropic targeting $900B valuation in new funding round; hyperscaler commitments continue but today's pullback reflects profit-taking after record highs
+• Macro catalyst: Anthropic $900B valuation round (Bloomberg just now) is the biggest AI confirmation signal — validates the entire AI infrastructure ecosystem; NVDA described as 'investing $3.2B in Corning to access glass fiber for chips' (new article, up from $500M) — GLW thesis expanding massively; AMD roadmap described as 'very competitive with Nvidia's' (Yahoo Finance) confirms multi-GPU ecosystem thesis
+
+**Sectors:**
+• SMH (semis): +7.4% 1W / +26.6% 1M — still strong leadership but today pulling back; MU +19.7% 1W continuing memory supercycle; AMD +26.2% 1W extraordinary post-earnings follow-through; 'AI Stocks Nvidia, AMD, Broadcom Nab Price-Target Hikes' (IBD) — semis still broadly constructive
+• IGV (software): PANW +17.2% 1W / +32.7% 1M — reports imminently; CRWD +14.6% 1W / +35.8% 1M — cybersecurity accelerating; DDOG +37.2% 1W extraordinary
+• XLK (broad tech): GLW +22.3% 1W / +13.2% 1M — NVDA now investing $3.2B (not just $500M) into GLW per new Insider Monkey article; RKLB +49.3% 1W; POET +49.1% 1W; AAON +42.7% 1W; multiple names exploding higher
+• XLY vs XLP: Risk-off signal today — retail stocks broadly weak; but COST resilient; structural consumer thesis intact
+• XLE: Oil prices surging on Iran/inflation acceleration — no energy exposure remains correct tactical call given geopolitical noise
+• XLF: Mixed — financials not contributing; appropriate underweight
+
+**Positions:**
+• GLW (long, +34.0% unreal at $198.24): CRITICAL UPDATE — Insider Monkey headline 'NVIDIA Corporation (NVDA) Investing $3.2B in Corning to Access Glass Fiber for Chips' — this upgrades the thesis from $500M deal to $3.2B investment. Zacks: 'Corning Surges 137.4% Year to Date: How to Play the Stock.' Stock is +22.3% 1W / +13.2% 1M, at -5.1% from 52W high. Stop at $130.17 is absurdly wide (34% below current). MUST raise stop significantly to protect +34% unrealized gain. Raising to $165 (protecting against >16% drawdown from current)
+• MU (long, +64.6% unreal at $766.58): IBD headline 'Dow Jones Futures: AI Stocks Pare Big Losses; How To Handle Sandisk, Micron, Intel' — stock is giving back some gains today but memory supercycle intact; +19.7% 1W. Stop at $395.81 remains dangerously wide (48% below current). Per prior decision, should already be at $620. MUST update stop to $620 immediately
+• AMD (long, +26.2% unreal at $448.29): Extraordinary post-earnings follow-through — +26.2% 1W / +81.6% 1M at 9 shares. 'AMD roadmap very competitive with Nvidia's' (Yahoo Finance). At 34.7x fwd P/E for 38% growth, remains well-valued. Thesis fully confirmed. HOLD
+• PANW (long, +27.4% unreal): Reports imminently (mid-May). +17.2% 1W / +32.7% 1M. CEO insider buying confirmed. At 54.3x fwd P/E for 15% growth, stretched but momentum intact. HOLD into earnings
+• MRVL (long, +73.4% unreal): Acquiring Polariton Technologies — photonic compute thesis expanding. -2.5% 1W but +25.3% 1M. Thesis fully intact. HOLD
+• ARM (long, +44.3% unreal): PT raised to $300 by analyst 'on AI and Data Center Momentum' (Insider Monkey). -0.4% 1W. At 68.8x fwd P/E for 20% revenue growth — stretched but royalty model leverage justifies premium. '24/7 Wall St.: Arm's 117% Rally Has Run Too Far' is a concern but not thesis-breaking. HOLD
+• ALAB (long, -4.4% unreal): Simply Wall St. 'Top Growth Companies With Strong Insider Ownership In May 2026' includes ALAB. -5.2% 1W — the weakest name in the portfolio. 93% revenue growth at 48.9x fwd P/E remains exceptional. Stop $171.13 intact. HOLD
+• AVGO (long, +38.8% unreal): Citi says 'could beat April quarter estimates on AI strength'; 'biggest holding in Elon Musk's Grok AI chatbot portfolio.' -1.9% 1W but thesis intact. At 23.1x fwd P/E for 30% growth — the most attractively valued Mag-7-adjacent name. HOLD
+• VRT (long, +19.9% unreal): 'Among Best Liquid Cooling Stocks For AI Data Centers' (Insider Monkey). Citi raises PT to $141 (note: current price $367 so this PT seems like a different share class or error — ignoring). +7.7% 1W. New CPO hired to support AI data center supply chain. HOLD
+• CIEN (long, +43.7% unreal): Optics trade still very hot — COHR +11.4% 1W, still near 52W high (-2.7%). Zacks article about Corning 137.4% YTD surge confirms optical infrastructure thesis. 2 shares at 66.7x fwd P/E for 33% growth — stretched but small position. HOLD
+• EQIX (long, +12.2% unreal): Expanding in Malaysia ($190M investment per Reuters). 'Golden Cross Signal' (Zacks). +0.2% 1W. At 57.4x fwd P/E for 12% growth — most stretched remaining position. Small position, thesis intact. HOLD
+
+**Earnings watchlist (MANDATORY EARNINGS ALERT context):**
+• CSCO reports MAY 13 (TODAY/TOMORROW): Stock at +5.3% 1W, at 52W high (-0.6%), 22.0x fwd P/E for 10% growth. Not held. Post-print assessment needed — if AI networking revenue inflects, could initiate. BUT cash at $1,346 (1.0% floor) — no capacity to buy without a sell
+• AMAT reports MAY 14: Not held. RBC says 'Applied Materials Poised for Slight Quarterly Beat, Strong Outlook.' 'EPIC AI Chip R&D Alliance' (Simply Wall St.). At 29.8x fwd P/E for -2% revenue growth (recovery expected). Strong pre-earnings signal
+• PANW reports mid-May: HELD — monitoring, CEO buying constructive, holding through
+
+**Cash:** At $1,346 (~1.0% of ~$127.2K portfolio) — at the hard minimum floor. No new buys possible without trimming. The two critical actions this session are stop loss updates on MU and GLW to protect substantial unrealized gains. No position sales warranted as all theses intact.
+
+**Key decisions:**
+1. RAISE MU STOP from $395.81 to $620 — protects +64.6% unrealized gain; stock at $766.58 with stop 48% below is absurd risk management failure; $620 still allows 19% drawdown room
+2. RAISE GLW STOP from $130.17 to $165 — NVDA deal now $3.2B (not $500M); protecting +34% unrealized gain; stop currently 34% below current price; raising to protect gains while allowing normal volatility
+**Benchmarks**: SPY 1D -0.1% | QQQ 1D -0.9% | SMH 1D -2.6%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SKIPPED | MU | 0 | $766.58 | shares must be positive, got 0.0 |
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+25,540.33 (+25.54%) | Daily -1.20%
+
+---
+
