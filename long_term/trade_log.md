@@ -545,3 +545,53 @@ Borrow cost META: $0.7928/day (total $0.79)
 
 ---
 
+### 2026-05-13 18:23 ET — Run ID: long_term-20260513-1823
+**Market**: after-hours | 18:23 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON — Nasdaq and S&P 500 hitting fresh record highs today per multiple headlines; 'Dow Jones Futures Rise, Cisco Soars On AI Orders After Google, Nvidia, Tesla Lead S&P 500, Nasdaq To Highs' (IBD); broad tech leadership with semis bouncing back; VIX implied calm despite hot PPI data today
+• Fed/rates: PPI data came in hot today — 'Intel and AMD Edge Higher After Tuesday's Slump. Hot Inflation Brings Caution' (Barrons); 'Hot Producer Prices' creating mild headwind for rate-cut expectations; higher-for-longer thesis reinforced; manageable for AI infrastructure growth thesis given fundamental demand overwhelms macro noise
+• Growth cycle: Corporate AI capex supercycle accelerating — CSCO soaring on AI orders (per IBD headline), NVIDIA CEO Jensen Huang joining Trump's China trip alongside Musk/Cook signals geopolitical normalization for chip exports; Anthropic debuting Claude for Small Business confirms AI monetization broadening
+• Macro catalyst: CSCO +11% on 'broad-based demand' and AI orders — this is a major positive read-through for all AI networking infrastructure; Cerebras IPO pricing tonight is a significant AI infrastructure market signal; Jensen Huang China trip suggests potential easing of chip export restrictions which would be massively bullish for NVDA
+
+**Sectors:**
+• SMH (semis): +4.1% 1W / +26.7% 1M — MU now at $900B market cap (Barrons), AMD +5.7% 1W, NVDA +8.7% 1W leading market to records; Bernstein says NVDA still 'cheap'; semi equipment (AMAT reports May 14) constructive ahead of print; AI chip rally broadly intact
+• IGV (software): DDOG +42.9% 1W / +85.7% 1M extraordinary — confirms AI observability demand; CSCO soaring on AI orders; cybersecurity (CRWD +20.2% 1W near 52W high, PANW +24% 1W near 52W high) — both approaching ATH territory; software broadly outperforming today
+• XLK (broad tech): Markets at record highs with NVDA, GOOG, TSLA leading; GLW +13.7% 1W continuing its run; TSEM +24.9% 1W extraordinary on AI infrastructure business
+• XLY vs XLP: Risk-on signal — markets at records, consumer optimism intact despite hot PPI; COST +3.8% 1W steady
+• XLE: Iran main oil terminal 'gone dark' per 24/7 Wall St. — oil spike risk; correct to maintain zero energy exposure
+• XLF: Mixed — financials slightly negative today; not a concern for portfolio
+
+**Positions:**
+• NVDA (long, +34.8% unreal) — **MANDATORY EARNINGS ALERT: Reports May 20.** NVDA is the portfolio's largest position at 60 shares. Key developments: CEO Jensen Huang joining Trump China trip (Yahoo Finance/IBD) is a major positive catalyst — suggests potential easing of export restrictions; Bernstein says 'still cheap' at current levels; Nebius revenue +684% on booming data center demand is a direct read-through; MU topping $900B validates the AI infrastructure capex cycle. HOLDING ALL 60 SHARES into earnings. Conviction: maximum. The China trip timing with an earnings report in 7 days is extraordinary — export restriction relief would be a massive earnings beat catalyst. Stop at $142.39 is very wide (37% below current $225.83) — should consider raising stop to protect +34.8% gain. Will raise stop to $185 (protecting against ~18% drawdown from current, well above the 200-day moving average area). Thesis: fully intact and accelerating.
+• MU (long, +72.6% unreal): Topping $900B market cap (Barrons); 'Samsung Strike Could Help' chip maker further; +20.6% 1W extraordinary. Stop still at $395.81 — this is ABSURDLY wide at 51% below current $803.63. MUST raise to $620 as previously decided. Memory supercycle deepening.
+• GLW (long, +39.6% unreal): +13.7% 1W continuing the NVDA $3.2B investment thesis. At $206.51, -2.5% from 52W high. Stop at $130.17 still dangerously wide (37% below current). Must raise to $165 as previously targeted.
+• PANW (long, +34.6% unreal): +24% 1W — near 52W high at -0.5%! Reports imminently. HOLDING through earnings. CEO buying remains constructive. At 57.4x fwd P/E for 15% growth — stretched but momentum and insider buying support the hold.
+• AMD (long, +25.4% unreal): +5.7% 1W, shareholders back board, Lisa Su touting AI growth. Thesis intact. HOLD.
+• ARM (long, +53.5% unreal): -6.8% 1W on Cerebras IPO narrative (Arm/SoftBank tried to buy Cerebras per Bloomberg). PT raised to $300. The Cerebras failed acquisition attempt is actually confirming ARM's interest in AI inference market. HOLD with stop $122.51.
+• ALAB (long, +4.8% unreal): +4.8% 1W, Simply Wall St. confirms high-quality earnings. 'Nasdaq Ends Strong As AI Leads; Cybersecurity Stock Attempts Breakout' — ALAB recovering. HOLD.
+• AVGO (long, +37.9% unreal): -2% 1W but Chris Rokos buying (Insider Monkey). StockStory '3 High-Flying Stocks on Our Buy List' includes AVGO. At 23x fwd P/E for 30% growth — most attractive valuation in AI semi space. HOLD.
+• MRVL (long, +87.6% unreal): +3.4% 1W. Photonic compute thesis intact. HOLD.
+• CIEN (long, +43.9% unreal): +0.2% 1W, near 52W high (-3.5%). 'Coherent and Lumentum Stocks Rise as the AI Networking Trade Stays Hot' (Barrons) confirms optical thesis. HOLD both shares.
+• COST (long, +5.0% unreal): +3.8% 1W. Steady compounder. HOLD.
+• EQIX (long, +11.9% unreal): -1% 1W. Mizuho raises PT. $190M Malaysia data center investment. HOLD.
+• META (long, +17.3% unreal): +0.6% 1W. Zacks 'Top Analyst Reports' constructive. Investopedia says big tech stocks are 'value plays.' At 17x fwd P/E for 33% growth — still most attractive Mag-7 valuation. HOLD.
+• MSFT (long, +13.6% unreal): -2.1% 1W. Eyeing startup deals post-OpenAI. Azure thesis intact. HOLD.
+• TSM (long, +17.1% unreal): -4.7% 1W. Billionaire David Tepper top AI stock pick (Insider Monkey). AI chip demand driving revenue. HOLD.
+• VRT (long, +20.8% unreal): +3.1% 1W. Zacks 'Incredible Growth Stock: 3 Reasons Why.' Insider Monkey: 'Grid-to-Chip Power Chain for AI Infrastructure.' At 42.3x fwd P/E for 30% growth. HOLD.
+
+**Critical stop-loss updates needed:**
+1. NVDA stop: Raising from $142.39 to $185 (protects +18% minimum gain, allows room ahead of earnings catalyst)
+2. MU stop: Raising from $395.81 to $620 (protects +33% minimum gain on extraordinary +72.6% position)
+3. GLW stop: Raising from $130.17 to $165 (protects against >20% drawdown from current, as previously targeted)
+
+**Cash:** At $1,346 (~1.0% floor) — no new positions possible without trimming. All theses intact. The three stop-loss updates are the only critical actions this session.
+**Benchmarks**: SPY 1D +0.6% | QQQ 1D +1.1% | SMH 1D +2.0%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SKIPPED | NVDA | 1 | $225.83 | BUY would breach cash buffer: $1,120.18 < $1,297.49 |
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+28,119.13 (+28.12%) | Daily +2.03%
+
+---
+
