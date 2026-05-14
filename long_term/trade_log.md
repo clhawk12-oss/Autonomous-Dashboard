@@ -595,3 +595,53 @@ Borrow cost META: $0.7928/day (total $0.79)
 
 ---
 
+### 2026-05-14 18:19 ET — Run ID: long_term-20260514-1819
+**Market**: after-hours | 18:19 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON — Nasdaq and S&P 500 hitting fresh record highs today; Dow reclaims 50,000; Cerebras IPO soared 68%+ on debut validating AI infrastructure demand; Trump-Xi summit ongoing with Xi telling CEOs 'China's door will only open wider' — geopolitical risk premium deflating rapidly
+• Fed/rates: Hot PPI confirmed higher-for-longer path; no imminent rate cuts; but AI fundamental demand overwhelms macro noise; Treasury yields stable despite hot data
+• Growth cycle: Corporate AI capex supercycle accelerating — AMAT delivered record quarter with stronger-than-expected outlook; CSCO surged on AI demand; hyperscalers confirmed as 'falling behind' if not spending per strategist; Cerebras IPO blockbuster debut validates AI chip ecosystem broadly
+• Macro catalyst: Trump-Xi summit in China is the most important near-term catalyst for NVDA — 'What the Trump-Xi summit could mean for Nvidia' (Yahoo Finance Video); Jensen Huang is in China alongside Musk/Cook; export restriction relief would be transformative ahead of May 20 NVDA earnings; AMAT record quarter confirms WFE cycle is in full AI-driven upcycle
+
+**Sectors:**
+• SMH (semis): +7.1% 1W / +27.7% 1M — NVDA near 52W high (-0.3%), MU +20% 1W / +70.1% 1M extraordinary, AMAT record quarter and raised outlook, CRDO +202% revenue growth, semi equipment cycle fully confirmed; NVDA at $235.74 near all-time highs pre-earnings
+• IGV (software): PANW +21.2% 1W / +45.1% 1M — near 52W high, reporting TODAY; CRWD +14.7% 1W near 52W high; cybersecurity sector on fire; ALAB +16.9% 1W strongly recovering
+• XLK (broad tech): GLW +14.2% 1W continuing NVDA $3.2B investment thesis; CSCO soaring +25.4% 1W on AI demand; VRT +10.7% 1W; market at record highs broadly
+• XLY vs XLP: Risk-on signal — markets at records, consumer spending strong; COST +2.9% 1W steady
+• XLF: Mixed but Cerebras IPO and record market highs create positive wealth effect
+
+**Positions:**
+• NVDA (long +40.7%, MANDATORY EARNINGS ALERT): Reports May 20 — holding all 60 shares. Trump-Xi summit directly catalytic for NVDA export restriction narrative. Jensen Huang is in China now. AMAT record quarter confirms AI chip demand cycle is accelerating into NVDA's print. Stock is at $235.74, -0.3% from 52W high — essentially at all-time highs. The stop at $142.39 remains egregiously wide (39.5% below current) — MUST raise to $185 immediately to protect +18% minimum gain while allowing pre-earnings volatility. Thesis: fully intact and accelerating. HOLD all 60 shares.
+• MU (long +66.6%): $776.01, stop at $395.81 still 49% below current — CRITICAL stop must be raised to $620 immediately. Jim Cramer constructive, Motley Fool says '$1T market cap this year,' 24/7 Wall St. with year-end price prediction. Memory supercycle intact. MUST update stop.
+• PANW (long +40.8%): Reports TODAY May 14 — IBD 'Cybersecurity Giant Unlocks New Buy Zone'; Jefferies hikes PT to $265 on AI compressing attack timelines; Proactive: launched Idira AI identity strategy. At 60.0x fwd P/E for 15% growth this is stretched but CEO buying + platformization + AI security = HOLD through earnings. Near 52W high (-0.4%). Stop at $143.62.
+• GLW (long +40.8%): $208.28, stop at $130.17 is 37.5% below current — CRITICAL. Jim Cramer discusses GLW constructively; NVDA CEO calls AI infrastructure buildout 'largest in human history'; GLW is the glass fiber backbone. Stop at $130.17 must be raised to $165 immediately.
+• ALAB (long +6.9%): +16.9% 1W recovering strongly; Susquehanna and Morgan Stanley raised PTs post strong Q1; UALink growth thesis confirmed by Zacks. At 54.7x fwd P/E for 93% growth — compelling. HOLD with stop $171.13.
+• AMD (long +26.6%): +10.1% 1W; AMD and ARM extending server share gains at Intel's expense (multiple sources); at 34.8x fwd P/E for 38% growth. HOLD.
+• ARM (long +58.5%): +7.1% 1W; Cerebras bid by Arm/SoftBank 'sheds light on AI chip expansion plans'; AMD/ARM server share gains confirmed. HOLD stop $122.51.
+• MRVL (long +92.4%): +14.1% 1W; Zacks constructive; Benzinga 'What's going on' constructive; photonic compute thesis expanding. HOLD stop $83.49.
+• AVGO (long +45.5%): +6.6% 1W; Jim Cramer discusses CEO; Motley Fool 'Broadcom vs TSM — which AI chip giant is better buy'; at 24.2x fwd P/E for 30% growth — most attractively valued Mag-7 adjacent. HOLD.
+• AMZN (long +28.8%): Hyperscalers 'falling behind' if not spending per strategist; AWS thesis intact. HOLD.
+• VRT (long +22.9%): +10.7% 1W near 52W high; new CPO hire; Cramer 'Buy half then wait for decline' — already hold 16 shares. HOLD.
+• GOOGL (long, display artifact +0.0% but actual ~+44.7% based on GOOG $397.17 vs cost $274.34): GOOG +0.5% 1W; AI hyperscalers commentary constructive. HOLD.
+• TSM (long +22.3%): AMAT record quarter is highly constructive for TSM; 'Broadcom vs TSM' Motley Fool constructive; Xi Warns Taiwan conflict risk (Barrons) is the key risk. HOLD stop $300.51.
+• META (long +17.6%): 'Meta Platforms Looks Like a Bargain Right Now' (Motley Fool); at 17.1x fwd P/E for 33% growth — extraordinary value. HOLD.
+• MSFT (long +14.8%): Copilot/Azure thesis intact; -2.7% 1W modest weakness; Workday Microsoft 365 Copilot integration confirms enterprise AI moat. HOLD.
+• COST (long +5.8%): 90%+ renewal rates; +2.9% 1W; massive retail real estate deal in Florida; inflation at 3.8% actually helps Costco's value proposition. HOLD.
+• EQIX (long +12.1%): 57.4x fwd P/E for 12% revenue growth — most stretched valuation remaining; Simply Wall St. valuation check after strong Q1 and new KL data center constructive; Mizuho raised PT. HOLD 5 shares.
+• CIEN (long +47.3%): +9.8% 1W, now +47.3% unrealized at $591.57; Zacks 'Ciena up 90% in 3 months: should investors still buy?' — at 68.4x fwd P/E for 33% growth this is very stretched; Barchart analyst predictions mixed. Consider trimming 1 share to raise small amount of cash but the position is only 2 shares at ~$1,183 total so trimming 1 share raises ~$592 — minimal impact. HOLD both for now.
+
+**Critical stops to update this session:**
+1. NVDA: Must raise from $142.39 to $185 — this has been flagged for 3 consecutive sessions and not executed. At $235.74, $142.39 is 39.6% below current. The $185 stop protects +10.4% minimum gain from current entry cost of $167.52, and preserves the position for earnings upside. This is a stop update only, not a sell.
+2. MU: Must raise from $395.81 to $620 — at $776.01 current price, $395.81 is 49% below current. $620 still allows 20% drawdown room while protecting +33% minimum gain from $465.66 cost basis.
+3. GLW: Must raise from $130.17 to $165 — at $208.28 current, $130.17 is 37.5% below. $165 still allows 21% drawdown room while protecting +11.5% minimum gain from $147.92 cost.
+
+Note: The system requires actual BUY/SELL actions for stop updates — I cannot update stops via action. I will hold and continue to flag in memory. No new positions warranted as cash at $1,346 is at minimum floor.
+
+**Cash:** At $1,346 (~1.0% floor) — no new positions possible; all 18 positions have intact theses; the three critical stop updates on NVDA/MU/GLW remain flagged but require system support to execute as stop modifications rather than trades. Portfolio generating strong alpha at +30.4% total P&L.
+**Benchmarks**: SPY 1D +0.8% | QQQ 1D +0.7% | SMH 1D +1.0%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+30,363.77 (+30.36%) | Daily +1.73%
+
+---
+
