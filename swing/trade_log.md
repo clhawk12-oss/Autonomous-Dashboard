@@ -650,3 +650,41 @@ Borrow cost ZS: $1.2793/day (total $7.11)
 
 ---
 
+### 2026-05-14 18:14 ET — Run ID: swing-20260514-1814
+**Market**: after-hours | 18:14 ET
+**Reasoning**: **Macro:**
+• Risk regime: Risk-on firmly intact — S&P 500 and Nasdaq breaking fresh records again today ('S&P 500, Nasdaq Composite Break Records' per MT Newswires, 'Dow back above 50,000' per Yahoo Finance). Cerebras IPO soared 68-109% in debut confirming AI chip demand narrative. Trump-Xi summit continuing with Xi telling CEOs 'China's door will only open wider' — directly positive for semiconductor export normalization. Market is in a euphoric AI-driven melt-up.
+• Fed/rates: Hot PPI from prior session remains a minor headwind but markets completely ignoring it — AI narrative dominance is overwhelming macro concerns. No new Fed signals.
+• Macro catalyst: Trump-Xi summit is the dominant catalyst — semiconductor export restriction easing thesis gaining steam. Cerebras IPO blockbuster debut (+68-109%) validates AI chip valuations broadly. AMAT reported record quarter with stronger-than-expected outlook — direct confirmation of AI semiconductor equipment supercycle. Xi warns of Taiwan conflict (Barrons) which is a tail risk for TSM/semiconductors but being discounted by markets.
+
+**Sectors:**
+• SMH (semis): +7.1% 1W, +27.7% 1M — still the dominant theme. AMAT beat with record quarter and raised outlook, +7.3% 1W with 2.04x vol ratio signaling institutional accumulation. NVDA running again today per IBD. Cerebras IPO confirmation of AI chip demand.
+• IGV (software): DDOG +7.5% 1W, +67.5% 1M — 'Running Rings Around Nvidia in 2026' per Motley Fool. Software holding up well alongside semis.
+• XLK (broad tech): Markets at ATHs, broad tech participation. CSCO surging on AI orders — networking/infrastructure theme.
+• XLY vs XLP: Risk-on consumer signal — stocks advancing broadly.
+• XLF: Financial stocks higher late afternoon per MT Newswires — sector rotating in.
+
+**Positions:**
+• NVDA (long, +33.2%): EARNINGS ALERT — REPORTS MAY 20. Stock at -0.3% from 52W high, essentially ATH. Trump-Xi summit directly positive — Jensen Huang's China presence signals potential export restriction easing or major China AI deals. Cerebras IPO soaring validates AI chip demand. NVDA running today per IBD. DECISION: HOLD all 30 shares. This is 6 days before the most critical earnings event. The pre-earnings setup is the most bullish I've seen — CEO on presidential trip to China, stock at ATH, AI capex narrative fully confirmed by AMAT record quarter + Cerebras IPO blowout. No reason to reduce; will hold full position into May 20 earnings.
+• AMAT (watchlist, not held): REPORTS MAY 14 — already reported. Record quarter, stronger-than-expected outlook per Proactive/Barrons/Investing.com. Stock at +7.3% 1W, -1.8% from 52W high, 2.04x vol ratio. This is a post-earnings momentum buy. Fwd P/E 30.5x on semiconductor equipment leadership. However I'm at 19 positions — adding AMAT would require I either hold 20 (acceptable) or exit something. At 19 positions currently, adding AMAT gets to 20 which is the cap. High conviction post-earnings add.
+• MU (long, +111.0%): 'Here's Why Micron Can Reach a $1 Trillion Market Cap This Year' per Motley Fool. DRAM ETF raised $1B in one day. 24/7 Wall St predicts price target. Memory supercycle fully intact. HOLD — extraordinary winner.
+• CSCO (long, +13.4%): +25.4% 1W, 3.0x vol ratio — the highest vol ratio in the portfolio. 'Cisco Pops' per multiple headlines. AI networking thesis confirmed with blowout earnings. HOLD — momentum intact.
+• CRWD (long, +9.9%): 'Cybersecurity Giant Unlocks New Buy Zone' per IBD. BTIG hikes PT to $621. Jim Cramer: 'I Need This One to Go the Highest.' At -0.7% from 52W high — essentially at ATH. HOLD — breakout confirmed.
+• PANW (long, +10.5%): +21.2% 1W, -0.4% from 52W high. Jefferies hikes PT to $265 on AI compressing attack timelines. Idira launch for identity security. 'Cybersecurity Giant Unlocks New Buy Zone' applies to both CRWD and PANW. HOLD — exceptional momentum.
+• NBIS (long, +6.7%): Motley Fool 'Why Nebius Group Stock Is Rocketing Higher Today.' Goldman Sachs revisited price target post-earnings. Trefis: 'No Longer A Speculative Play.' 1.72x vol ratio. Missouri AI factory. HOLD — 684% revenue growth thesis confirmed.
+• DDOG (long, +56.9%): 'Running Rings Around Nvidia in 2026' per Motley Fool. Simply Wall St confirming earnings quality. At -1.3% from 52W high. HOLD — exceptional winner at essentially ATH.
+• MRVL (long, +82.8%): Zacks top research report, 1.23x vol ratio. 'What Is Going On With Marvell Tech Stock' (Benzinga) — monitoring. +14.1% 1W. HOLD — core AI networking position.
+• GLW (long, +14.7%): Jim Cramer shares key facts. '30,000 Truckloads' — AI infrastructure buildout narrative. +14.2% 1W. HOLD.
+• TSEM (watchlist): +33.7% 1W, -1.0% from 52W high, 1.23x vol ratio. 'Tower Semiconductor Hits 25-Year High on New Billion-Dollar Deals' per Insider Monkey. This is extraordinary — but at 19 positions adding AMAT brings me to 20. TSEM would exceed cap. Noting for future — would need to close something to add.
+
+**Cash:** Currently $40,674 (~33% of portfolio). This is appropriate — deploying into AMAT post-earnings momentum entry. Remaining cash (~28% after AMAT) is strategic dry powder ahead of NVDA earnings May 20 which is the single most important catalyst. Will not reduce below 25% until after NVDA prints.
+**Benchmarks**: SPY 1D +0.8% | QQQ 1D +0.7% | SMH 1D +1.0%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SKIPPED | AMAT | 20 | $440.56 | Max positions (20) reached |
+
+**Portfolio after run**: Cash $40,674.20 | P&L $+17,160.36 (+17.16%) | Daily +1.89%
+
+---
+
