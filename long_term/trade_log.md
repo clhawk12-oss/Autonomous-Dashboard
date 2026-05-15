@@ -645,3 +645,51 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-05-15 18:05 ET — Run ID: long_term-20260515-1805
+**Market**: after-hours | 18:05 ET
+**Reasoning**: **Macro:**
+• Risk regime: MILD RISK-OFF pullback this week — Dow -500 points intraday on rising oil/bond yields; S&P 500 and Nasdaq holding near record highs but losing momentum as inflation concerns resurface; stocks sliding on 'inflation jitters' per Barchart; VIX likely elevated intraday but structural bull market intact
+• Fed/rates: Rising oil prices and bond yields stoking inflation concerns; dollar notching best week since early March on Fed hike view; higher-for-longer thesis reinforced; no near-term rate cuts expected; NVDA earnings May 20 as major catalyst
+• Growth cycle: Corporate AI capex supercycle intact and accelerating — Jensen Huang calls AI infrastructure buildout 'largest in human history'; TSMC predicts semiconductor market reaches $1.5T by 2030; Constellation Energy +64% revenue jump; memory shortage deepening
+• Macro catalyst: NVDA earnings May 20 is THE pivotal event — Trump-Xi summit export restriction narrative remains key; Jim Cramer says 'Buy NVDA for valuation, not China bet — stock trades cheaper than Intel and AMD'; TSMC BofA reiterates buy as 'recent concerns overdone'
+
+**Sectors:**
+• SMH (semis): -1.8% 1W but +22.3% 1M — NVDA -4.7% from 52W high, MU pulling back -3.0% 1W after extraordinary run; ALAB +16.5% 1W outperforming; memory ETF 'off the charts' per Barrons; Sandisk up 482% on AI memory boom; TSEM +29.8% 1W extraordinary
+• IGV (software): PANW +16.8% 1W / +45.4% 1M near 52W high (-1.2%); CRWD +12.6% 1W near 52W high; Oppenheimer hikes PANW PT to $275 on AI identity security; cybersecurity sector remains on fire
+• XLK (broad tech): GLW +2.6% 1W, Jim Cramer shares 'key facts' constructively; VRT +9.1% 1W / +26.1% 1M near highs; COHR +14.1% 1W strong; Barrons asks if recent highs signal 2000-style crash — not a base case
+• XLY vs XLP: Risk-off signal this week — COST +4.0% 1W but broader retail weak; WMT earnings loom as consumer sentiment gauge
+• XLE: Energy stocks gaining late Friday (+9.2% XOM 1W) on oil spike from inflation/geopolitical tensions; no energy exposure remains correct
+• XLF: Financials lower — dollar strength and rate concerns weighing; not a portfolio concern
+
+**Positions:**
+• NVDA (long, +34.5% unreal) — **MANDATORY EARNINGS ALERT: Reports May 20.** HOLDING ALL 60 SHARES. Jim Cramer says 'Buy NVDA for valuation, not China bet — cheaper than Intel and AMD'; NVDA at $225.32, -4.7% from 52W high. The earnings print is the critical near-term catalyst. Trump-Xi summit export restriction narrative is a potential upside surprise. AI infrastructure buildout is 'largest in human history' per Jensen Huang. AMAT record quarter confirms AI chip demand accelerating. Thesis fully intact. CRITICAL: Stop at $142.39 is 36.8% below current — egregiously wide. Must note for update.
+• PANW (long, +43.5% unreal): Reports May 14 — IBD 'Cybersecurity Giant Unlocks New Buy Zone'; Oppenheimer hikes PT to $275 on AI identity security; Idira AI identity strategy. At 61.2x fwd P/E for 15% growth this is stretched but CEO buying + AI security = HOLD. Very near 52W high (-1.2%). Stop $143.62 intact.
+• MU (long, +55.6% unreal): -3.0% 1W pullback after extraordinary run; DRAM ETF 'off the charts'; Sandisk +482% confirms memory supercycle; stop at $395.81 still 45% below $724.66 — CRITICAL and ongoing flagged issue.
+• ALAB (long, +8.8% unreal): +16.5% 1W outperforming; Simply Wall St. high insider ownership and growth confirmation; UALink growth thesis confirmed; at 55.7x fwd P/E for 93% growth — exceptional. HOLD with stop $171.13.
+• GLW (long, +29.7% unreal): +2.6% 1W; Jim Cramer discusses constructively; Barrons 'Cisco, Intel, Corning hitting new highs' confirms AI infrastructure buildout thesis; Jensen Huang '30,000 truckloads' AI buildout is largest in human history = GLW glass fiber thesis massive. Stop at $130.17 still 32% below $191.81 — CRITICAL ongoing issue.
+• TSM (long, +18.4% unreal): -1.8% 1W; TSMC predicts $1.5T semiconductor market by 2030; BofA says 'buy as recent concerns overdone'; TSEM +29.8% 1W extraordinary (separate company but validates foundry thesis). Stop $300.51 intact.
+• MRVL (long, +86.4% unreal): +4.0% 1W; Simply Wall St. 'Marvell's AI partnerships with AMD, Google, Amazon test lofty valuation' — constructive framing; 24/7 Wall St. 'tiny AI stock getting massive attention' likely MRVL-adjacent. Photonic compute thesis expanding. HOLD stop $83.49.
+• ARM (long, +45.1% unreal): -1.9% 1W; Motley Fool 'Arm Holdings CEO has big warning for Intel and AMD'; Zacks 'ARM's powerful ecosystem advantage drives market leadership'; -12.7% from 52W high creates potential entry for others. HOLD stop $122.51.
+• AVGO (long, +40.7% unreal): -1.1% 1W; IBD 'AI data center play Broadcom named top pick'; 24/7 Wall St. 'Broadcom vs Microsoft — both winning AI race, only one priced like it' (Broadcom = the underpriced one at 23.2x fwd P/E for 30% growth). HOLD stop $255.58.
+• VRT (long, +21.2% unreal): +9.1% 1W; Loop Capital sees AI infrastructure boom driving growth; institutional investors boosted holdings Q1; at 42.4x fwd P/E for 30% growth. HOLD.
+• META (long, +16.8% unreal): +0.8% 1W; MT Newswires 'AI revenue may jump fivefold to $200B this year'; at 17.0x fwd P/E for 33% growth — extraordinary value. HOLD stop $446.86.
+• MSFT (long, +18.3% unreal): +1.6% 1W; Copilot/Azure thesis intact; at 21.8x fwd P/E for 18% growth — reasonable. HOLD stop $303.25.
+• AMZN (long, +27.3% unreal): -3.1% 1W; Reuters 'NVDA and retailer reports to shed light on AI boom, consumer spending' — AWS thesis intact. HOLD stop $169.44.
+• COST (long, +6.6% unreal): +4.0% 1W; quietly warns shoppers about prices — inflation concern but Costco thrives in inflation; near 52W high (-1.1%). HOLD stop $865.80.
+• EQIX (long, +10.0% unreal): -1.2% 1W; expanding Fabric Geo Zones for sovereign data control; Blackstone BXDC IPO creates competitive concern but EQIX's interconnection moat is distinct; at 56.3x fwd P/E for 12% growth. Small position. HOLD.
+• CIEN (long, +38.1% unreal): +1.2% 1W; IBD 'Stock market winners tend to have the New'; Zacks 'Ciena up 90% in 3 months' — at 64.1x fwd P/E for 33% growth this is very stretched; 2 shares = ~$1,109 total, trimming 1 share would raise ~$554 but is minimal impact. HOLD both.
+• GOOGL (long, display artifact +0.0% but GOOG at $393.32 vs cost $274.34 = approx +43.4% actual unrealized): GOOG -0.9% 1W; AI hyperscaler commentary constructive; at 27.2x fwd P/E for 22% growth — reasonable. HOLD stop $233.19.
+
+**Critical ongoing stop issues (system limitation prevents direct update — flagging for 6th consecutive session):**
+1. NVDA stop at $142.39 = 36.8% below $225.32 — target $185 (still protecting +10.4% from $167.52 cost)
+2. MU stop at $395.81 = 45.4% below $724.66 — target $580 (allowing 20% drawdown, protecting +24.6% from $465.66 cost)
+3. GLW stop at $130.17 = 32.1% below $191.81 — target $155 (allowing 19% drawdown, protecting +4.8% from $147.92 cost)
+
+**Cash:** At $1,346 (~1.0% floor) — fully deployed with high conviction; NVDA earnings May 20 is the primary catalyst; no new positions possible; patience is correct discipline while waiting for earnings clarity
+**Benchmarks**: SPY 1D -1.2% | QQQ 1D -1.5% | SMH 1D -3.8%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+27,136.43 (+27.14%) | Daily -2.45%
+
+---
+
