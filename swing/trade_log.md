@@ -688,3 +688,45 @@ Borrow cost ZS: $1.2793/day (total $7.11)
 
 ---
 
+### 2026-05-15 18:02 ET — Run ID: swing-20260515-1802
+**Market**: after-hours | 18:02 ET
+**Reasoning**: **Macro:**
+• Risk regime: Mixed-to-cautious — markets pulled back this week with Dow losing 500 points on rising oil and bond yields per IBD live coverage. S&P 500 eked out a 7th consecutive weekly gain but barely (SPY +0.2% 1W). QQQ -0.3% 1W, SMH -1.8% 1W — semiconductors led the weakness this week. Rising oil and bond yields stoking inflation concerns (Barchart headline repeated multiple times) suggest the market is pricing in a higher-for-longer Fed scenario that creates multiple compression risk for high-PE growth names.
+• Fed/rates: Oil and bond yields both surging per multiple headlines — 'Rising Oil, Bond Yields Stoke Inflation Concerns' across Barchart and Reuters. Dollar notching best week since early March on Fed hike view per Bloomberg. This is a meaningful headwind for our high-multiple AI positions. No new FOMC data but market repricing Fed cut timeline.
+• Macro catalyst: NVDA earnings May 20 is the single most important event for our portfolio and the broader AI trade. Jim Cramer says 'Buy Nvidia for Valuation, Not China Bet' — validating the fundamental case. ADI also reports May 20. WMT reports May 21 — key macro barometer. Inflation concerns (oil/yields) are the dominant systemic risk this week, partially offsetting the Trump-Xi summit positives from prior week.
+
+**Sectors:**
+• SMH (semis): -1.8% 1W vs QQQ -0.3% — semis underperforming. Semiconductor stocks broadly weaker on inflation/rate fears. SNDK -9.9% 1W despite the AI memory thesis being intact — '494% This Year' per Barrons but insiders cashing in. AMD -6.8% 1W, ASML -5.7% 1W. The semiconductor rally is taking a breath ahead of NVDA earnings.
+• IGV (software): DDOG +3.9% 1W holding up better than semis — software outperforming this week. CRWD +12.6% 1W and PANW +16.8% 1W are the standout leaders, cybersecurity is the strongest sector.
+• XLK (broad tech): CSCO +22.4% 1W extraordinary — still surging post-earnings. NVDA +4.7% 1W building into earnings.
+• XLY vs XLP: WMT +0.8% 1W, TJX -3.5% 1W, TGT -2.1% 1W — retail is mixed; consumer is not the risk-on signal it was.
+• XLE: XOM +9.2% 1W, energy surging on oil price spike — direct negative for AI power costs and tech multiples.
+• XLF: Financial stocks lower per MT Newswires — sector lagging.
+
+**Positions:**
+• NVDA (long, +27.3%): EARNINGS ALERT — REPORTS MAY 20. Stock at +4.7% 1W, -4.7% from 52W high. Jim Cramer: 'Buy NVDA for Valuation, Not China Bet' — fwd P/E 19.7x on 73% revenue growth is genuinely cheap. DECISION: HOLD all 30 shares. Pre-earnings setup remains maximally bullish. Jensen Huang on China trip, Cerebras IPO validates AI chip demand, AMAT record quarter confirms equipment supercycle. I will not trim into what should be a blowout quarter.
+• CRWD (long, +12.6%): 'Cybersecurity Giant Unlocks New Buy Zone' per IBD — CrowdStrike leads group to new highs per IBD. BTIG and Oppenheimer both hiking PTs. At -0.7% from 52W high, essentially ATH. +12.6% 1W — THE strongest performer in the portfolio this week. HOLD — consider adding.
+• PANW (long, +12.6%): +16.8% 1W — even stronger than CRWD. Oppenheimer hikes PT to $275. 'Palo Alto May Have Found Its Next Big AI Security Bet' per GuruFocus. Identity security (Idira launch) is a major new product catalyst. At -1.2% from 52W high. HOLD.
+• CSCO (long, +16.0%): +22.4% 1W — extraordinary post-earnings momentum continues. Morgan Stanley adjusts price target. '24/7 Wall St. predicts CSCO's stock price next year.' Near ATH. HOLD — the AI networking thesis is fully confirmed.
+• NBIS (long, +6.1%): Morgan Stanley resets price target, GuruFocus 'Massive New Price Target' from top analyst, Zacks 'Buy, Hold or Sell' analysis. +24.2% 1W — extraordinary momentum. 'Record Revenue Surge' in Q1 earnings call highlights. HOLD — 684% revenue growth thesis intact and gaining institutional recognition.
+• SNDK (long, +82.0%): -9.9% 1W — biggest weekly loser in portfolio. Barrons 'SanDisk Stock Is Up 494% This Year. Insiders Are Cashing In.' This is a meaningful warning signal — insider selling at the top after a parabolic 494% YTD run. Only 2 shares, so the absolute dollar impact is modest. The AI memory thesis remains intact but the insider selling + -9.9% 1W warrants attention.
+• MU (long, +97.0%): -3.0% 1W — slight pullback. Memory chip ETF 'Off the Charts' per Barrons but '73% in Just Three Companies' concentration concern noted. The memory supercycle thesis remains intact. HOLD.
+• AMD (long, +92.6%): -6.8% 1W — weakness. ARM CEO warning for Intel and AMD per Motley Fool is a notable competitive signal. Fwd P/E 32.7x on 38% growth remains reasonable. HOLD.
+• TSM (long, +13.7%): 'TSMC Shares Plunge After Surprise Stake Sale Plan Revealed' per GuruFocus — this is concerning. TSMC predicts semiconductor market $1.5T by 2030. BofA says 'Buy TSMC, recent concerns overdone.' The stake sale plan is likely reference to a prior stake sale (TSMC sold ARM stake per prior memory). -1.8% 1W. HOLD — BofA confirming thesis is intact.
+• GLW (long, +5.6%): 'Cisco, Intel, and Corning Are Hitting New Highs. Is a 2000-Style Crash Next?' per Barrons — this cautionary headline is notable. Jim Cramer shares key facts about GLW. '30,000 Truckloads' AI infrastructure theme. +2.6% 1W solid. HOLD.
+• DELL (long, +12.7%): JPMorgan hikes PT to $280, memory concerns fade, AI server story powers on. -7.1% 1W is the concern — stock giving back some gains. Still +12.7% unrealized, above stop. HOLD.
+• DDOG (long, +60.9%): 'Is It Too Late to Consider Datadog After Its Recent Share Price Surge?' per Simply Wall St. +3.9% 1W, at -1.6% from 52W high. 'Running Rings Around Nvidia in 2026' narrative intact. HOLD.
+• ORCL (long, +18.4%): Oracle expands defense AI push, Wedbush resets PT, institutional investors boosted holdings of AI infrastructure plays. -1.5% 1W modest weakness. HOLD.
+• MRVL (long, +77.1%): 'AI Partnerships With AMD Google And Amazon Test Lofty Valuation' per Simply Wall St. +4.0% 1W solid. The custom silicon thesis for hyperscalers remains the core holding. HOLD.
+
+**Cash:** Holding $40,674 (~33% of portfolio) ahead of NVDA earnings May 20. This is the correct level — I need dry powder for potential NVDA post-earnings adds or to manage any position that gaps down. Cybersecurity is the standout sector this week; considering adding to CRWD given IBD 'leads group to new highs' signal. However, with NVDA earnings in 6 days and oil/yields creating macro uncertainty, I will add only a small amount and maintain meaningful cash reserve.
+**Benchmarks**: SPY 1D -1.2% | QQQ 1D -1.5% | SMH 1D -3.8%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| BUY | CRWD | 3 | $594.08 | 1. ~1.5% portfolio weight at ~$594/share × 3 = ~$1,782. 2. Small add given NVDA earnings risk in 6 days — moderate conviction on CRWD specifically but preserving dry powder for post-NVDA deployment. CRWD is the single strongest performer in the portfolio this week (+12.6% 1W) and is hitting new ATHs while the broader market pulls back — exceptional relative strength. 3. Adds to existing 4-share CRWD position (now 7 shares total, ~3.5% of portfolio) — increases cybersecurity exposure which is the clear sector leader. No directional conflict with other positions. ⬛ CRWD is leading the cybersecurity sector to new all-time highs at a time when the broader semiconductor/AI complex is pulling back — this is exceptional relative strength signaling institutional accumulation into a high-conviction sector. ⏎ • Momentum: +12.6% 1W vs SPY +0.2%, QQQ -0.3%, SMH -1.8% — dramatically outperforming all benchmarks; +42.1% 1M confirming sustained institutional trend ⏎ • Technicals: -0.7% from 52W high — essentially breaking to new ATH territory. IBD 'CrowdStrike Leads This Group of Four Stocks to New Highs.' Cybersecurity outperforming in a down week is a flight-to-quality institutional signal. ⏎ • Fundamentals: Fwd P/E 96.3x on 23% revenue growth — expensive but CRWD commands a premium for its platform leadership and AI-native security architecture. 1.36x vol ratio confirms institutional accumulation. ⏎ • Catalyst: BTIG hikes PT to $621, Oppenheimer hikes PANW PT to $275 (rising tide for cybersecurity sector), North Korea crypto theft up 51% per CrowdStrike's own research confirming threat landscape, IBD 'New Buy Zone' signal ⏎ • Volume: 1.36x vol ratio — above average institutional buying ⏎ • Sizing: ~1.5% add brings total CRWD to ~3.5% of portfolio. Not larger because (1) NVDA earnings in 6 days requires cash reserve, (2) rising oil/yields are a macro headwind for all growth names, (3) CRWD fwd P/E 96x is stretched. Not smaller because the relative strength in a down week is a high-conviction technical signal. |
+
+**Portfolio after run**: Cash $38,891.96 | P&L $+15,128.78 (+15.13%) | Daily -1.66%
+
+---
+
