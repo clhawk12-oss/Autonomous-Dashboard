@@ -693,3 +693,45 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-05-18 18:10 ET — Run ID: long_term-20260518-1810
+**Market**: after-hours | 18:10 ET
+**Reasoning**: **Macro:**
+• Risk regime: MILD RISK-OFF — Nasdaq pulling back (QQQ -1.0% 1W, SMH -5.2% 1W); markets cautious ahead of NVDA earnings May 20; oil/Iran tensions resurfacing (Trump postponed Iran attack per IBD), rising crude and bond yields pressuring growth multiples; structural bull market intact with PANW +15.9% 1W, CRWD +14.1% 1W, CSCO +20.4% 1W confirming AI infrastructure demand
+• Fed/rates: Rising oil and bond yields stoking higher-for-longer expectations; no near-term rate cuts; AI fundamental demand overwhelms macro noise; Fed minutes awaited this week
+• Growth cycle: AI capex supercycle intact — NVDA earnings May 20 is the pivotal event for the entire AI investment thesis; CSCO +20.4% 1W confirming AI networking demand; Alphabet hitting $5T milestone; corporate AI spending not decelerating
+• Macro catalyst: NVDA Q1 earnings May 20 is the single most important catalyst in the AI infrastructure theme; Barrons headline 'How Nvidia Stock Can Hit $300 After Earnings' sets high expectations; chip selloff this week (-5.2% SMH) likely represents positioning/pre-earnings nervousness rather than fundamental deterioration
+
+**Sectors:**
+• SMH (semis): -5.2% 1W / +17.7% 1M — broad chip selloff this week ahead of NVDA earnings; MU -14.3% 1W pulling back sharply from highs (Samsung strike fears per Barrons); AMAT -6.8% 1W; CRDO -25.7% 1W dramatic pullback; Morgan Stanley raises WFE outlook; AI chip demand intact structurally
+• IGV (software): PANW +15.9% 1W near 52W high (-0.5%) strongest performer — Rosenblatt hikes PT, 'longest winning streak in 3 years' per Barrons; ZS +17.3% 1W on cybersecurity demand; CRWD +14.1% 1W near 52W high; cybersecurity on fire
+• XLK (broad tech): CSCO +20.4% 1W extraordinary — HSBC major PT increase, AI demand and networking modernization confirmed; GLW -13.9% 1W pulling back from highs; VRT -7.7% 1W; broad tech mixed
+• XLY vs XLP: Mixed signals — COST +7.7% 1W near 52W high (-0.3%) as defensive consumer; WMT +4.5% 1W reports May 21; consumer spending 'not materially impacted yet' per Yahoo Finance
+• XLF: Berkshire exits UNH position (negative for healthcare); Alphabet hitting $5T; financials mixed but not concerning
+
+**Positions:**
+• NVDA (long, +32.7% unreal) — **MANDATORY EARNINGS ALERT: Reports May 20.** HOLDING ALL 60 SHARES. Stock at $222.32, -6.0% from 52W high. Barrons asks 'How Nvidia Stock Can Hit $300 After Earnings' — sets expectation for strong print. Mark Cuban highlights AI literacy importance around NVDA. AI datacenter growth thesis from Zacks confirms revenue driver. The pre-earnings chip selloff is normal positioning noise. Thesis: fully intact. CRITICAL: Stop at $142.39 is 36% below current — this continues to be flagged. Cannot update via JSON stop field alone. HOLD ALL 60 SHARES INTO EARNINGS.
+• MU (long, +46.4% unreal): -14.3% 1W at $681.54 — Barrons 'Samsung Strike Spikes Fears Over Memory-Chip Shortage'; this is actually CONSTRUCTIVE for MU as a memory shortage deepens the HBM supercycle thesis; stock pulling back on Samsung strike fears but that reduces supply competition; MU at 6.6x fwd P/E for 196% growth remains the most extraordinary value/growth ratio in portfolio. Stop at $395.81 remains critically wide (42% below current). HOLD.
+• PANW (long, +46.3% unreal): +15.9% 1W near 52W high at -0.5% — 'longest winning streak in 3 years'; Rosenblatt PT hike; Jim Cramer 'having the last laugh'; cybersecurity platform thesis fully vindicated. At 62.4x fwd P/E for 15% growth this is extremely stretched but momentum and platform consolidation thesis intact. HOLD. Stop $143.62.
+• GLW (long, +20.7% unreal): -13.9% 1W at $178.55; Mizuho raises PT; Motley Fool 'AI Supercharged This Flatlining US Manufacturing Stock — Now Scored Massive New Nvidia Partnership' — constructive despite pullback; at 42.3x fwd P/E for 20% growth, reasonable given NVDA partnership. -15.7% from 52W high. HOLD. Stop $130.17 is 27% below current — still wide but the NVDA partnership means thesis has expanded.
+• ALAB (long, +0.8% unreal): +4.0% 1W at $215.58; Motley Fool 'If I Could Only Buy 1 Artificial Intelligence Stock for the Rest of 2026, This Would Be It'; Simply Wall St. 'insiders betting on it'; Zacks 'ALAB vs AVGO — which AI infrastructure stock is better buy now.' At 51.6x fwd P/E for 93% growth — exceptional. -18.0% from 52W high. HOLD with stop $171.13.
+• AMD (long, +18.5% unreal): -8.2% 1W at $420.99; Evercore ISI maintains Outperform; chip selloff broad; AMD is -10.3% from 52W high but +51.2% 1M confirms the extraordinary post-earnings breakout. At 32.5x fwd P/E for 38% growth (PEG <1x). HOLD stop $301.97.
+• ARM (long, +49.3% unreal): +1.2% 1W at $215.12; Cerebras IPO euphoria constructive for ARM ecosystem; -10.2% from 52W high. HOLD stop $122.51.
+• MRVL (long, +78.0% unreal): -1.1% 1W; AMD delivered $6.5M Marvell bet already soaring (Benzinga); 'AMD delivered fantastic news to Marvell stock investors' (Motley Fool); optical networking thesis expanding; at 31.1x fwd P/E for 22% growth — reasonable. HOLD stop $83.49.
+• AVGO (long, +39.2% unreal): -1.8% 1W; TD Cowen raises PT; Zacks 'Top Analyst Reports' constructive; at 23.0x fwd P/E for 30% growth — most attractively valued major AI infrastructure name. HOLD stop $255.58.
+• TSM (long, +15.9% unreal): -2.1% 1W at $395.95; 'Buy TSM Below $400' from 24/7 Wall St. — we are right at that threshold; 'Among best stocks according to billionaires'; at 20.3x fwd P/E for 35% growth — exceptional value. HOLD stop $300.51.
+• META (long, +16.3% unreal): +2.1% 1W at $611.21; -23.1% from 52W high; '24/7 Wall St.: Meta down 11% in a month while Alphabet up 16%' — some rotation out of META; Mark Cuban still bullish on META AI; at 16.9x fwd P/E for 33% growth — extraordinary value. HOLD stop $446.86.
+• MSFT (long, +18.7% unreal): +2.6% 1W; Musk loses OpenAI suit — constructive for MSFT/OpenAI partnership; Copilot/Azure thesis intact; at 21.9x fwd P/E for 18% growth. HOLD stop $303.25.
+• AMZN (long, +27.6% unreal): -1.5% 1W; Mark Cuban remains bullish; AWS AI thesis intact; at 27.0x fwd P/E for 17% growth. HOLD stop $169.44.
+• COST (long, +9.4% unreal): +7.7% 1W near 52W high (-0.3%); 'stage set for breakout' per 24/7 Wall St.; April sales reinforce defensive case; at 47.8x fwd P/E justified by membership loyalty. HOLD stop $865.80.
+• VRT (long, +11.0% unreal): -7.7% 1W; new CPO hiring for AI supply chain resilience; Wedbush NextEra/Dominion merger reinforces power infrastructure supercycle; at 38.6x fwd P/E for 30% growth. HOLD.
+• EQIX (long, +10.3% unreal): -2.2% 1W; Bernstein 'top-tier data center market'; Fabric Geo Zones expansion; at 55.3x fwd P/E for 12% growth — stretched but interconnection moat intact. HOLD 5 shares.
+• CIEN (long, +30.6% unreal): -9.8% 1W at $524.53; optical stocks booming per MarketWatch; at 60.0x fwd P/E for 33% growth — stretched but 2 shares is a tiny position. HOLD.
+
+**Cash:** At $1,346 (~1.0% floor) — fully deployed; NVDA earnings May 20 is the sole focus; no new positions possible; patience is correct ahead of the most important earnings print of the AI cycle
+**Benchmarks**: SPY 1D -0.1% | QQQ 1D -0.4% | SMH 1D -1.8%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+25,480.96 (+25.48%) | Daily -1.29%
+
+---
+
