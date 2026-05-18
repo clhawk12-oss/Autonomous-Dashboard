@@ -730,3 +730,49 @@ Borrow cost ZS: $1.2793/day (total $7.11)
 
 ---
 
+### 2026-05-18 18:07 ET — Run ID: swing-20260518-1807
+**Market**: after-hours | 18:07 ET
+**Reasoning**: **Macro:**
+• Risk regime: Mixed-to-cautious — Nasdaq -1.0% 1W, SPY -0.1% 1W, SMH -5.2% 1W. Chip stocks selling off materially ahead of NVDA earnings May 20. Headlines confirm 'Chip Stock Selloff Gathers Steam' per Barrons. Trump postponed Iran attack (positive) but oil rebounding on Iran impasse. Markets cautious with NVDA earnings as the pivotal event tonight.
+• Fed/rates: Oil rebounding + bond yields rising per Barchart 'Stocks Pressured by a Rebound in Crude Prices and Bond Yields' — same macro headwind as last week persisting. Fed minutes awaited. Higher-for-longer remains the base case.
+• Macro catalyst: NVDA reports tonight May 20 — THE single most important event for the entire portfolio and broader AI trade. WMT reports May 21 as consumer/macro barometer. Iran situation: Trump postponed attack but impasse continues — tail risk remains.
+
+**Sectors:**
+• SMH (semis): -5.2% 1W — significant underperformance vs QQQ -1.0%. MU -14.3% 1W, SNDK -13.9% 1W, AMD -8.2% 1W — memory names leading the selloff. INTC -16.4% 1W after bubble risk warning. The semiconductor complex is taking a meaningful pause.
+• IGV (software): CRWD +14.1% 1W, PANW +15.9% 1W — cybersecurity is THE standout sector continuing to outperform dramatically. ZS +17.3% 1W with 2.09x vol ratio ahead of May 26 earnings. CSCO +20.4% 1W continuing its post-earnings surge. Software > semis this week.
+• XLK (broad tech): NVDA +1.3% 1W holding relatively well given the semi weakness — the street expects a big beat tonight.
+• XLY vs XLP: WMT +4.5% 1W at essentially ATH — consumer holding. Retailer divergence with TGT +5.2% while HD -3.7% 1W.
+• XLE: XOM +8.0% 1W, CVX +6.2% 1W — energy surging on oil rebound, creating inflation/rate headwind for growth names.
+
+**Positions:**
+• NVDA (long, +25.6%): EARNINGS ALERT — REPORTS MAY 20 TONIGHT. Stock +1.3% 1W showing relative strength vs SMH -5.2%. 'Buy the Dip in Nvidia Stock off of Record Highs' per Zacks. 'Why Nvidia earnings must deliver massively' per Yahoo Finance. Fwd P/E 19.5x on 73% revenue growth. DECISION: HOLD ALL 30 SHARES. The setup remains maximally bullish — stock near ATH at -6.0% from 52W high, cheap valuation, AI capex confirmed by every hyperscaler, Jensen Huang's China trip catalysts. Full conviction hold.
+• MU (long, +85.3%): -14.3% 1W — Samsung strike fears per Barrons headline 'Micron Stock Drops as Samsung Strike Spikes Fears Over Memory-Chip Shortage.' Counterintuitively, Samsung strike should be BULLISH for Micron (less supply competition). The memory selloff may be overdone. HOLD — thesis intact at fwd P/E 6.6x on 196% revenue growth.
+• SNDK (long, +72.4%): -13.9% 1W. IBD: 'Sandisk, Bloom Energy, AI Leaders Sell Off.' 'Why Did Sandisk Stock Drop Today?' per Motley Fool. After the insider selling warning from last week and now another -13.9% 1W, this is concerning. However only 2 shares — minimal impact. HOLD given tiny size.
+• CRWD (long, +11.3%): +14.1% 1W — extraordinary continued strength. KeyBanc hikes PT to $700 per 24/7 Wall St. Rosenblatt hikes PT per IBD. 'Why CrowdStrike Stock Is Trading Up Today' per StockStory. At -0.4% from 52W high essentially ATH. STRONG HOLD — cybersecurity leadership is intact and accelerating.
+• PANW (long, +14.8%): +15.9% 1W — exceptional. Barrons: 'Palo Alto Stock Staring at Its Longest Winning Streak in 3 Years.' Rosenblatt hikes PT. Jim Cramer says PANW 'Having The Last Laugh.' At -0.5% from 52W high essentially ATH. STRONG HOLD.
+• CSCO (long, +16.7%): +20.4% 1W continuing. HSBC major PT increase. Zacks 'Buy Cisco as New Leader of AI Networking.' STRONG HOLD.
+• NBIS (long, -3.6%): D.A. Davidson neutral rating, 'upside limited' per analysts. WSJ: 'Move Over CoreWeave, Here Comes Nebius' — but the same article notes valuation concerns. Fwd P/E 553x is extremely stretched. The stock is -3.6% unrealized and slipping. This is a weak position with elevated valuation and analyst headwinds. CONSIDERING TRIM but will hold small for now given the 684% revenue growth thesis.
+• GLW (long, -1.7%): -13.9% 1W — significant weakness. Mizuho raises PT but the stock is selling off. Motley Fool: 'AI Supercharged This Flatlining US Manufacturing Stock... Scored Massive New Nvidia Partnership.' The GLW narrative remains intact but the -13.9% 1W in a volatile semi environment is a concern. HOLD — stop at $168.86 provides protection.
+• AMD (long, +91.2%): -8.2% 1W. Evercore ISI maintains Outperform. 'AMD Just Delivered Fantastic News to Marvell Stock Investors' per Motley Fool — AMD made a $6.5M MRVL bet. The AMD thesis is sound but the -8.2% 1W is semi weakness dragging it.
+
+**Earnings Alert — NVDA reports May 20 tonight:**
+DECISION: HOLD ALL 30 SHARES. As analyzed in positions section — fwd P/E 19.5x on 73% growth, pre-earnings setup maximally bullish, stock at -6.0% from 52W high showing relative strength. No reason to trim a blowout setup. Post-earnings will reassess.
+
+**New opportunities evaluated:**
+• ZS: +17.3% 1W, 2.09x vol ratio, reports May 26. Zscaler upgraded per The Fly. KeyBanc bumps Okta PT — security spending strong. But at fwd P/E 38.1x on 26% growth and -48.2% from 52W high, it's recovering but reports in 8 days creating binary risk. PASS — too close to earnings.
+• TSEM: +8.4% 1W, Tower Semiconductor signs $1.3B silicon photonics contracts for 2027 per Insider Monkey. 1.19x vol ratio, -12.5% from 52W high. Fwd P/E 43.2x on 16% growth — somewhat expensive. The $1.3B contract catalyst is interesting but growth rate is modest. PASS — not compelling enough given current portfolio.
+• NOW (ServiceNow): +13.0% 1W, 1.69x vol ratio, BofA resumes coverage, SpaceX filing boost. At -51.1% from 52W high — massive recovery runway. Fwd P/E 20.6x on 22% growth — reasonable. This is compelling but would bring us to 19 positions. Will note for post-NVDA reallocation.
+• COST: +7.7% 1W, at essentially ATH (-0.3%), 1.23x vol ratio, reports May 28. Strong consumer resilience signal. Fwd P/E 47.8x is expensive but the quality is undeniable. PASS — too expensive for swing trade.
+
+**Portfolio assessment:** Currently 18 positions. Cash at $38,892 (~33% of portfolio). The portfolio is heavily concentrated in AI semis and cybersecurity which is correct positioning. The key risk tonight is NVDA earnings — if it disappoints, the entire portfolio will gap down. Cash at 33% provides some buffer. Post-NVDA, will consider rebalancing.
+
+**Action decision:** No trades today. The portfolio is well-positioned heading into NVDA earnings tonight. Adding new positions the day of NVDA earnings would be poor risk management. The cybersecurity pair (CRWD+PANW) is performing exceptionally. The memory names are weak but thesis-intact. Cash at 33% is the right level — enough dry powder to add post-earnings without being excessive.
+
+**Cash:** Holding $38,892 (~33%) ahead of NVDA earnings tonight. This is appropriate dry powder — post-earnings blowout would trigger deployment into NVDA adds or new AI positions. Post-earnings disappointment would trigger defensive action on the semi-heavy positions.
+**Benchmarks**: SPY 1D -0.1% | QQQ 1D -0.4% | SMH 1D -1.8%
+
+
+**Portfolio after run**: Cash $38,891.96 | P&L $+13,271.58 (+13.27%) | Daily -1.54%
+
+---
+
