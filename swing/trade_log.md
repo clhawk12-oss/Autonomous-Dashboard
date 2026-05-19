@@ -776,3 +776,42 @@ DECISION: HOLD ALL 30 SHARES. As analyzed in positions section — fwd P/E 19.5x
 
 ---
 
+### 2026-05-19 18:19 ET — Run ID: swing-20260519-1819
+**Market**: after-hours | 18:19 ET
+**Reasoning**: **Macro:**
+• Risk regime: Risk-off signal intensifying — SPY -0.6% 1W, QQQ -0.8% 1W, SMH -3.1% 1W. Soaring Treasury yields are the dominant macro headwind ('Soaring Treasury Yields Pressure Markets' per Motley Fool, MT Newswires). US stocks falling as yields jump per GuruFocus. Iran situation unresolved (Trump warnings). The market is in a risk-off posture heading into NVDA earnings tonight — the single most important event for our portfolio.
+• Fed/rates: Treasury yields surging sharply — this is the key macro headwind. Morgan Stanley resets Fed rate cut path for 2027 (pushing cuts out further). Higher-for-longer is being repriced again. This creates multiple compression risk for high-PE growth names.
+• Macro catalyst: NVDA earnings tonight May 20 is THE pivotal event — the entire portfolio is positioned around this. ARM antitrust probe (GuruFocus 'Arm Falls on Reported US Antitrust Probe') is a new negative catalyst for ARM. ADI announced acquisition of Empower Semiconductor for $1.5B to boost AI power portfolio — M&A activity bullish for analog semis. Iran standoff unresolved with Trump warnings sending yields sharply higher.
+
+**Sectors:**
+• SMH (semis): -3.1% 1W — chip selloff continuing ahead of NVDA earnings. AMD -7.6% 1W, MU -8.8% 1W ('white-hot semiconductor stocks like Sandisk and Micron are now in meltdown mode' per Yahoo Finance). IBD: 'Micron, Sandisk, Astera Rise With Nvidia Earnings Due' — selective green shoots in memory names today. ALAB +19.5% 1W outstanding.
+• IGV (software): CRWD +12.9% 1W, PANW +11.4% 1W — cybersecurity maintaining leadership. ZS +19.9% 1W is a breakout ahead of May 26 earnings. NOW +14.4% 1W with 1.75x vol ratio per Barrons 'Software Rally May Still Have Legs.' SNOW +11.6% 1W. Software clearly outperforming semis.
+• XLK (broad tech): CSCO +16.2% 1W continuing; GOOG +0.3% 1W — mixed. Google Gemini 3.5 model launch is a catalyst.
+• XLY vs XLP: WMT +2.9% 1W near ATH — consumer resilient. HD beat estimates (small DIY projects strong). Risk-on consumer signal intact at the macro level.
+• XLE: XOM +8.6% 1W, CVX +6.1% 1W — energy surging on Iran/oil. This is the inflation/rate headwind for growth.
+
+**Positions:**
+• NVDA (long, +24.7%): EARNINGS ALERT — REPORTS TONIGHT MAY 20. Stock -0.1% 1W showing extraordinary relative strength vs SMH -3.1%. IBD notes 'Stocks Fall As Yields Jump; Micron, Sandisk, Astera Rise With Nvidia Earnings Due.' NVDA fwd P/E 19.0x on 73% revenue growth. Oracle plans massive NVDA Vera CPU 2026 rollout (GuruFocus). DECISION: HOLD ALL 30 SHARES. The setup remains maximally bullish — stock near ATH at -6.7% from 52W high, cheapest large-cap growth stock by PEG ratio, AI capex confirmed by every hyperscaler. Full conviction hold into the print.
+• ARM (long, +54.8%): NEW NEGATIVE CATALYST — GuruFocus 'Arm Falls on Reported US Antitrust Probe.' This is a material development. The stock is up +7.3% 1W suggesting the market is partially discounting this, but an antitrust probe creates overhang and potential multiple compression. 24/7 Wall St notes ARM 'Has Doubled in 2026.' At 73.0x fwd P/E with an antitrust probe, I will trim 3 shares to lock in partial profits while maintaining core position. The probe is a new risk that wasn't in my thesis.
+• MU (long, +90.0%): -8.8% 1W — memory meltdown. Yahoo Finance 'white-hot semiconductor stocks like Sandisk and Micron are now in meltdown mode.' But IBD headline shows MU rising today with NVDA earnings catalyst. Memory supply shortage won't hurt suppliers per Yahoo Finance. Citi revamps SNDK PT upward. HOLD — thesis intact at 6.8x fwd P/E on 196% growth. The pre-NVDA rally in MU today is encouraging.
+• CRWD (long, +10.9%): +12.9% 1W — exceptional. Barrons: 'CrowdStrike Stock Isn't Done Gaining, Analyst Says. AI Threats Offer Upside.' Motley Fool: 'CrowdStrike's Falcon Has Its Shares Flying High at Over 100 Times Free Cash Flow.' Zacks top research report. STRONG HOLD — cybersecurity leadership intact.
+• PANW (long, +11.4%): +11.4% 1W. Oppenheimer lifts PT to $275. Insiders buying per Simply Wall St. Barrons 'Software Rally May Still Have Legs — ServiceNow and Adobe.' STRONG HOLD.
+• CSCO (long, +13.3%): +16.2% 1W — HSBC nearly doubles PT. However Bloomberg: 'Cisco Shares Dip After Company Discusses Margin Headwind.' The margin headwind is a new concern. Still holding — HSBC major PT increase outweighs the margin concern at this stage.
+• GLW (long, -3.2%): -11.3% 1W — significant weakness. Barchart: 'Corning Stock Rallies to All-Time Highs as AI Optical Boom Builds' — this contradicts the -11.3% 1W? Let me check — GLW at $175.83 vs cost $181.57 = -3.2% unrealized. Barchart headline suggests recent rally. Simply Wall St noting valuation risks. The position is at -3.2% and stop is at $168.86. HOLD — the stop provides protection, and the fiber optics/AI infrastructure thesis is being validated by Zacks 'Can Rising Demand for Fiber Optics Solutions Drive Corning's Growth?'
+• NBIS (long, -4.6%): 24/7 Wall St: 'What Nebius CEO Just Said Shows How Quickly the Fed Can Kill the AI Boom' — this is a concerning headline directly naming our position. Simply Wall St assessing 'Valuation After Sharp Multi Period Share Price Surge.' The stock is -4.6% unrealized and at $197.73 approaching the $186.54 stop. The risk here is the Fed/rate headwind combining with lofty valuation. HOLD for now — stop at $186.54 provides protection. Will not add.
+• SNDK (long, +78.9%): -4.7% 1W but Citi revamps PT (Barrons: 'Sandisk Rallies On AI NAND Demand And Capital Light Downside Shield'), Citi says can rise another 52%. Memory supply shortage thesis intact. HOLD.
+• AMD (long, +88.1%): -7.6% 1W but Insider Monkey 'How AMD Is Bringing AI Acceleration Into Existing Data Center Racks.' Evercore ISI maintains Outperform. HOLD.
+• ZS (watchlist — NOT HELD): +19.9% 1W, 1.43x vol ratio, -48.0% from 52W high. Zscaler upgraded (The Fly), Trefis 'Why Zscaler's Recent Rally Could Just Be Getting Started,' PANW favorable comparison, Zscaler 'Targets Enterprise AI Security With Project AI Guardian And Google Cloud.' Reports May 26 — 6 days away. This is still too close to earnings but the momentum is extraordinary. I want this position after NVDA earnings clarity.
+• NOW (watchlist — NOT HELD): +14.4% 1W, 1.75x vol ratio, fwd P/E 20.3x on 22% growth. Barrons: 'Software Rally May Still Have Legs — Buy ServiceNow and Adobe.' Yahoo Finance video 'ServiceNow stock gains as investors push further into software.' This is a compelling setup I've been watching. At 18 positions, I have room for 2 more. Post-NVDA earnings, this is my top new add candidate.
+
+**Cash:** Holding $38,892 (~33%) which is appropriate given NVDA earnings tonight. The ARM antitrust probe is the one new development warranting a small trim — selling 3 ARM shares at ~$223 (~$670) adds modestly to cash. Post-NVDA (assuming blowout), will deploy into ZS and NOW as my top two new names. Will not deploy further into semis ahead of the binary event tonight.
+**Benchmarks**: SPY 1D -0.7% | QQQ 1D -0.6% | SMH 1D -0.4%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | ARM | 3 | $223.15 | 1) Represents ~0.6% of portfolio at ~$223/share (~$669 proceeds). 2) Trimming from 10 to 7 shares on new antitrust probe catalyst (GuruFocus 'Arm Falls on Reported US Antitrust Probe') — this is a material new thesis risk that justifies partial profit-taking on a +54.8% winner. Not a full exit because ARM's core licensing model remains intact and the probe may not materialize, but reducing exposure on unexpected regulatory risk is prudent risk management. 3) ARM is already a meaningful long position; this trim keeps AI chip architecture exposure while reducing regulatory overhang. No sector concentration change — still long ARM, MRVL, NVDA, AMD in semis. ⬛ P&L $+237.06 |
+
+**Portfolio after run**: Cash $39,561.41 | P&L $+13,247.62 (+13.25%) | Daily +0.54%
+
+---
+
