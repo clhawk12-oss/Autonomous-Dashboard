@@ -735,3 +735,37 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-05-19 18:21 ET — Run ID: long_term-20260519-1821
+**Market**: after-hours | 18:21 ET
+**Reasoning**: **Macro:**
+• Risk regime: MILD RISK-OFF today — Dow/S&P/Nasdaq down as Treasury yields surge on Iran tensions (Trump issued new deadline); VIX elevated intraday; SPY -0.6% 1W, QQQ -0.8% 1W — markets digesting record highs and positioning ahead of NVDA earnings tonight (May 20 after close); structural bull market intact
+• Fed/rates: Treasury yields spiking sharply today on Iran standoff risk — 'soaring yields crush tech rally' per multiple headlines; higher-for-longer thesis reinforced; no rate cuts imminent; this is the key macro headwind compressing growth multiples short-term
+• Growth cycle: AI capex supercycle fully intact and accelerating — ADI acquires Empower Semiconductor for $1.5B to boost AI power portfolio (Reuters), CSCO +31.6% 1M confirms AI networking demand, ALAB +38.9% 1M confirms AI connectivity boom; Google Gemini 3.5 debut at I/O conference signals AI model competition accelerating
+• Macro catalyst: **NVDA reports TONIGHT (May 20 after close)** — this is THE single most important earnings print of the entire AI cycle; Barrons 'How NVDA Can Hit $300' sets high bar; IBD: 'Stocks Fall As Yields Jump; Micron, Sandisk, Astera Rise With Nvidia Earnings Due' — the market is already pricing in a strong print by showing MU/ALAB/SNDK rising today ahead of NVDA; ARM faces US antitrust probe (GuruFocus) which is a new risk to flag
+
+**Sectors:**
+• SMH (semis): -3.1% 1W / +17.2% 1M — broad chip selloff this week ahead of NVDA earnings; MU -8.8% 1W pulling back from highs but still +55.8% 1M; AMD -7.6% 1W; AVGO -2.0% 1W — pre-NVDA earnings positioning noise; MU/ALAB/SNDK rising today per IBD suggesting smart money positioning for NVDA beat
+• IGV (software): PANW +11.4% 1W / +41.6% 1M near 52W high at -3.5% — Oppenheimer lifts PT to $275; cybersecurity sector leading; ServiceNow +14.4% 1W rallying; ZS +19.9% 1W extraordinary post-upgrade; software rebounding and 'may still have legs' per Barrons
+• XLK (broad tech): GLW -11.3% 1W but +6.3% 1M — 'Corning Rallies to All-Time Highs as AI Optical Boom Builds' per Barchart; ALAB +19.5% 1W — extraordinary outperformer this week on AI connectivity demand thesis confirmed
+• XLY vs XLP: Defensive signal — COST +7.1% 1W near 52W high (-0.2%), WMT +2.9% 1W reports tomorrow as consumer sentiment gauge; risk-off tone today with yields spiking
+• XLE: Oil spiking on Iran tensions (Trump new deadline) — XOM +8.6% 1W; zero energy exposure remains correct given geopolitical noise around Iran
+• XLF: Financials under pressure as yields surge — JPM -3.0% 1W; Berkshire opens $2.6B stake in DAL (airlines contrarian bet)
+
+**Positions:**
+• NVDA (long, +31.7% unreal) — **MANDATORY EARNINGS ALERT: Reports TONIGHT May 20.** HOLDING ALL 60 SHARES. IBD headline confirms 'Micron, Sandisk, Astera Rise With Nvidia Earnings Due' — the ecosystem is pricing in a strong print. NVDA at $220.61, -6.7% from 52W high. The thesis is: Jensen Huang AI infrastructure buildout is largest in human history; H200/Blackwell demand is overwhelming supply; hyperscalers cannot slow capex without losing competitive position. NVDA at 19.0x fwd P/E for 73% revenue growth and 56% margins is the single best risk/reward in the portfolio. Stop at $142.39 remains critically wide (35.5% below current) — this is an ongoing flagged issue. HOLDING ALL 60 SHARES — trimming before NVDA earnings would be a severe mistake.
+• ARM (long, +54.8% unreal): +7.3% 1W / +27.4% 1M — NEW RISK: US antitrust probe reported (GuruFocus). This is a new development that needs monitoring. ARM at 73.0x fwd P/E for 20% revenue growth is stretched. The antitrust probe is not a thesis-breaker today (it's a long process and ARM's licensing model is fundamentally different from anti-competitive monopoly behavior) but it's a tail risk to flag. At +54.8% unrealized with stop at $122.51, thesis still intact but the antitrust news increases risk. HOLD — no action needed today but watching closely.
+• ALAB (long, +14.2% unreal): +19.5% 1W — extraordinary outperformer; 'Why Astera Labs Shares Are Up So Much Today' per Motley Fool; AI connectivity boom thesis confirmed; 'Scorpio, Optics Fuel Growth Outlook' per MarketBeat. At 58.1x fwd P/E for 93% growth — remains exceptional. Stop $171.13 intact. HOLD — this is the portfolio's best performer this week and confirms the thesis.
+• MU (long, +50.1% unreal): -8.8% 1W pullback from highs but IBD notes MU rising today ahead of NVDA print; 'memory chip supply shortage won't hurt suppliers' per Yahoo Finance Video — constructive; at 6.8x fwd P/E for 196% growth remains the most extraordinary value in portfolio. Stop at $395.81 still critically wide (43% below $698.74). HOLD.
+• PANW (long, +41.9% unreal): +11.4% 1W near 52W high (-3.5%); Oppenheimer lifts PT to $275 (maintains Outperform); 'Insiders Getting Good Value On US$10m Investment' per Simply Wall St. — insider buying very constructive; at 60.3x fwd P/E for 15% growth this is stretched but platform thesis + insider buying = HOLD. Stop $143.62 intact.
+• GLW (long, +18.9% unreal): -11.3% 1W pullback to $175.83 from $208 highs; Barchart: 'Corning Stock Rallies to All-Time Highs as AI Optical Boom Builds'; Zacks: 'Can Rising Demand for Fiber Optics Solutions Drive Corning's Growth?' — both constructive; Simply Wall St. flags valuation risks; at 41.6x fwd P/E for 20% growth, stretched but NVDA $3.2B partnership thesis intact. Stop at $130.17 still 26% below current — flagged for 8+ consecutive sessions. HOLD.
+• COST (long, +11.2% unreal): +7.1% 1W near 52W high (-0.2%); Oppenheimer says COST may miss quarterly earnings but membership moat thesis intact; at 48.5x fwd P/E the valuation is stretched but justified by 90%+ renewal rates. HOLD.
+• VRT (long, +5.4% unreal): -12.1% 1W — meaningful pullback; 24/7 Wall St. says 'Forget Vistra, GE Vernova is the AI power trade worth owning' which is slightly negative read-through; Insider Monkey confirms VRT expanding role in AI data center power; at 36.6x fwd P/E for 30% growth — reasonable. Stop $260.25 intact. HOLD.
+
+**Cash:** $1,346 (~1.0% floor) — fully deployed with high conviction; NVDA earnings tonight is the sole focus; no new positions possible at minimum cash floor; patience is correct discipline on the eve of the most important earnings print of the AI cycle.
+**Benchmarks**: SPY 1D -0.7% | QQQ 1D -0.6% | SMH 1D -0.4%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+25,006.63 (+25.01%) | Daily -0.37%
+
+---
+
