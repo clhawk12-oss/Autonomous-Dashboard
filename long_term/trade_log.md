@@ -769,3 +769,38 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-05-20 18:31 ET — Run ID: long_term-20260520-1831
+**Market**: after-hours | 18:31 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON post-NVDA earnings beat — Nasdaq +1.5% today per Motley Fool; chip stocks rallying broadly ahead of NVDA conference call; Dow closed above 50,000; VIX declining; bond yields slumping per Barchart which is a tailwind for growth multiples
+• Fed/rates: Bond yields slumping today (Barchart: 'Stocks Rally as Crude Oil and Bond Yields Slump') — this is a meaningful relief from the past week's yield spike; higher-for-longer still base case but yield retreat gives growth multiples room to breathe
+• Growth cycle: AI capex supercycle fully confirmed — NVDA Q1 beat with strong outlook; Data center revenue soaring; NVDA says $20B in CPU sales this year; ADI beat and raised outlook (record revenue); ALAB at record high +28% 1W confirming AI connectivity thesis
+• Macro catalyst: NVDA BEAT IS THE PIVOTAL EVENT — 'Nvidia exceeds Q1 estimates alongside strong revenue outlook'; 'AI infrastructure outlook remains intact'; SpaceX files for IPO at $2T+ valuation — another mega AI/tech confirmation signal; MRVL reports May 27 next critical event
+
+**Sectors:**
+• SMH (semis): -1.4% 1W but +21.5% 1M — NVDA beat post-close is the most important signal; ALAB +28.3% 1W at record highs; AMD +0.5% 1W steady; ARM +16.1% 1W at all-time high (Motley Fool: 'Why Arm Holdings Stock Surged to an All-Time High Today'); MU -8.9% 1W pullback from highs but still +62.9% 1M; semi equipment (AMAT -2.2% 1W) digesting
+• IGV (software): PANW +8.3% 1W ahead of earnings; ZS +14.4% 1W post strong results and AI zero-trust push; CRWD +15.6% 1W near 52W high; cybersecurity on fire broadly
+• XLK (broad tech): MSFT +3.9% 1W; GOOGL -3.5% 1W digesting; ARM at all-time highs is most notable development
+• XLY vs XLP: COST +4.0% 1W approaching record highs; WMT reports tomorrow as consumer sentiment gauge; TJX +8.6% 1W strong — consumer resilience intact
+• XLF: GSS +2.8% 1W; financials modestly positive; not a concern
+
+**Positions:**
+• NVDA (long, +33.4% unreal): **MANDATORY EARNINGS ALERT — NVDA BEAT.** 'Nvidia exceeds Q1 estimates alongside strong revenue outlook'; 'AI infrastructure outlook remains intact'; '$20B in CPU sales this year' is a new revenue stream; Data center revenue soars. Stock at $223.47, -5.5% from 52W high. The beat is confirmed. Conference call ongoing. HOLDING ALL 60 SHARES — this is the strongest conviction hold in the portfolio. The thesis is: Jensen Huang's AI infrastructure supercycle is intact and accelerating. NVDA at 19.3x fwd P/E for 73% revenue growth remains the best risk/reward in the portfolio even after the run. Per my prior plan: stock moved up modestly today (not 10%+ gap), so no trim warranted yet. Will reassess post-conference call. STOP MUST BE RAISED: current stop $142.39 is 36% below $223.47 — raising to $190 via this action note (system limitation — cannot update stop via JSON but flagging for 10th consecutive session).
+• MRVL (long, +96.9% unreal): **MANDATORY EARNINGS ALERT — Reports May 27.** MRVL at $186.80, +5.0% 1W, -3.4% from 52W high. IBD: 'Marvell Stock: How To Take Advantage Of High Earnings Volatility.' Photonic compute/custom silicon thesis is the strongest in the portfolio at +96.9% unrealized. At 34.4x fwd P/E for 22% revenue growth this is reasonable for the custom silicon ASIC opportunity. HOLD ALL 40 SHARES into earnings — the hyperscaler ASIC pipeline (Google, Amazon) is the fastest-growing revenue line in the company. The NVDA beat confirms AI capex acceleration which is directly positive for MRVL's hyperscaler custom chip business. No trim warranted — the thesis is at its strongest point.
+• ALAB (long, +34.4% unreal): EXTRAORDINARY outperformance — +28.3% 1W, at record high (-0.1% from 52W high). Barclays raises PT; 93% revenue growth confirmed. At 68.3x fwd P/E for 93% growth the PEG is <1x. Stop at $171.13 is now 40% below current $287.48 — this is a critical stop update needed. HOLD — this is the portfolio's best performer this week.
+• ARM (long, +78.1% unreal): All-time high per Motley Fool today. TD Cowen remains bullish. At 84.0x fwd P/E for 20% revenue growth this is stretched but the royalty model leverage on AI chip complexity is the thesis. The antitrust probe risk remains but today's all-time high suggests market is not pricing it as material. HOLD all 39 shares.
+• MU (long, +57.2% unreal): -8.9% 1W pullback but Samsung strike talks breaking down per Barrons — this is CONSTRUCTIVE for MU's HBM pricing power. At 7.1x fwd P/E for 196% revenue growth still the most extraordinary value/growth in portfolio. Stop at $395.81 = 46% below $731.99 — critically wide and flagged for 10+ sessions. HOLD.
+• PANW (long, +45.8% unreal): +8.3% 1W near 52W high; reports Q3 earnings imminently; Morgan Stanley says 'Solid Q3 as firewall refresh continues'; Truist raises PT. At 62.0x fwd P/E for 15% growth this is very stretched but the platform thesis and insider buying support HOLD. Watching closely for the print.
+• GLW (long, +22.2% unreal): -12.5% 1W pullback to $180.69; '24/7 Wall St.: Nvidia Might Have Just Revealed the AI Sleeper Stock Investors Missed' — likely references GLW given NVDA's optical thesis; at 42.8x fwd P/E for 20% growth. The -14.7% from 52W high represents a meaningful correction from the $208 high. Stop at $130.17 remains 28% below current — critically wide. HOLD — thesis intact.
+• VRT (long, +3.1% unreal): -14.7% 1W — meaningful pullback to $315.67; Jim Cramer 'Highlights Vertiv's Huge Run'; Zacks 'Checking in on Red Hot AI Infrastructure Stocks' still constructive. At 35.7x fwd P/E for 30% growth. The pullback from highs is painful but the data center power/cooling thesis remains intact as NVDA's AI buildout confirmation validates the demand. Stop at $260.25 provides buffer. HOLD.
+• COST (long, +9.2% unreal): +4.0% 1W near 52W high; UBS expects strong Q3 results; Jim Cramer prefers COST over BJ's. WMT reports tomorrow as consumer gauge. HOLD.
+• GOOGL (long, display artifact): GOOG at $384.90 (actual -3.5% 1W) vs cost $274.34 = approximately +40.3% actual unrealized. Anthropic revenue doubling signals AI model competition accelerating — GOOG is building competitive moat. HOLD.
+
+**Cash:** At $1,346 (~1.0% floor) — NVDA beat post-close creates the opportunity to trim a small amount tomorrow if the stock gaps up 10%+ to fund CRDO initiation (202% revenue growth, $182.98, reports June 1); monitoring closely for morning price action.
+**Benchmarks**: SPY 1D +1.0% | QQQ 1D +1.7% | SMH 1D +3.8%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+28,949.12 (+28.95%) | Daily +3.11%
+
+---
+
