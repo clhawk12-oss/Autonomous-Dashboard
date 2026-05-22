@@ -862,3 +862,49 @@ DECISION: HOLD ALL 30 SHARES. As analyzed in positions section — fwd P/E 19.5x
 
 ---
 
+### 2026-05-22 18:11 ET — Run ID: swing-20260522-1811
+**Market**: after-hours | 18:11 ET
+**Reasoning**: **Macro:**
+• Risk regime: Risk-on intact — S&P 500 posts 8th consecutive weekly gain, Dow hits record high. SPY +0.9% 1W, QQQ +1.2% 1W, SMH +3.6% 1W. US-Iran peace hopes driving chipmaker strength per Barchart. Portfolio at +16.6% total P&L continues to significantly outperform benchmarks.
+• Fed/rates: 30Y Treasury yield at 5% remains the dominant headwind. PCE data due next week per WSJ — key inflation gauge. Morgan Stanley still sees cuts pushed to 2027. Higher-for-longer persists but markets shrugging it off on AI narrative.
+• Macro catalyst: US-Iran peace deal optimism is the positive catalyst this week. SpaceX IPO filing creating space/adjacent stock momentum (RKLB +8.8%, ASTS +26.5%). Quantum theme accelerating — QBTS +44.5% 1W on $2B government funding. Memorial Day weekend approaching — light trading next week.
+
+**Sectors:**
+• SMH (semis): +3.6% 1W — DELL +22% 1W extraordinary ahead of earnings. AMD +10.2% 1W strong. ALAB +31.9% 1W breakout. ARM +46.5% 1W — parabolic on SoftBank/NVDA boost. Memory names holding: MU +3.6%, SNDK +5.1%.
+• IGV (software): CRWD +11.7% 1W and PANW +7.3% 1W both hitting records per Yahoo Finance 'cyber stocks outrun chips.' DDOG +6.9% 1W. ZS +13.2% 1W ahead of Monday earnings. NOW +7.4% 1W on recovery thesis.
+• XLK (broad tech): CSCO +1.9% 1W steady post-earnings. NVDA -4.4% 1W sell-the-news continues but Motley Fool '1 AI stock to buy after post-earnings sell-off' suggesting value.
+• XLY vs XLP: WMT -8.5% 1W continues — consumer stress signal. Yahoo Finance 'Walmart canary in the coal mine.' This is a persistent warning.
+• XLF: Financial stocks rising late afternoon per MT Newswires — sector participating in rally.
+• Quantum theme: QBTS +44.5% 1W, 3.74x vol ratio — extraordinary momentum on $2B US govt investment.
+
+**Positions:**
+• MRVL (long, +96.6%): EARNINGS ALERT — reports May 27. Stifel hikes PT on AI demand outlook per GuruFocus. IBD 'Stock Market Week Ahead: Marvell, Dell And The Fed's Inflation Gauge' — institutional attention high. At -1.0% from 52W high, essentially ATH. DECISION: TRIM 10 shares (to 30) ahead of earnings. At 40 shares × $196.33 = ~$7,853 (~6.4% of portfolio), this is a large position heading into binary event. Taking profits on 10 shares at +96.6% unrealized is prudent risk management. Keeping 30 shares for continued upside if earnings beat.
+• SNPS (long, +13.8%): EARNINGS ALERT — reports May 27. Zacks 'Synopsys to Report Q2 Earnings: What's in Store.' Barchart 'Is Wall Street Bullish or Bearish?' Stock at +4.4% 1W with 1.19x vol ratio suggesting some institutional interest ahead of print. DECISION: HOLD all 3 shares. Position is tiny (3 shares × $524.74 = ~$1,574, ~1.3% of portfolio). The EDA thesis is intact, fwd P/E 30.8x on 66% growth is reasonable. Too small to bother trimming further.
+• DELL (long, +37.5%): EARNINGS ALERT — reports May 28. Stock +22% 1W — extraordinary pre-earnings momentum with 2.43x vol ratio. IBD 'Dell Stock Cruises To New Highs; Earnings In Focus As AI Servers Reignite Growth.' At -1.1% from 52W high essentially ATH. DECISION: TRIM 4 shares (to 6) ahead of earnings. At 10 shares × $295.19 = ~$2,952 the position is modest but the +37.5% unrealized gain after a +22% 1W move creates favorable trim conditions. Want to lock in partial profits after this extraordinary pre-earnings run while keeping core exposure for the print.
+• ARM (long, +112.7%): +46.5% 1W — truly extraordinary. Arm/Red Hat expand collaboration for agentic AI stack per Insider Monkey. Jim Cramer likes ARM but calls post-NVDA surge 'a little silly.' At fwd P/E 100.3x, the valuation is stretched. At 7 shares this is a small position. HOLD — let winner run with existing stop at $135.48.
+• CRWD (long, +19.3%): +11.7% 1W, hitting records. Morgan Stanley massively revamps PT per TheStreet. IBD 'CrowdStrike Stock Earns Its Place Back On Elite List.' STRONG HOLD.
+• PANW (long, +20.9%): +7.3% 1W, hitting records. PANW beating PLTR by 60% per 24/7 Wall St. HOLD — cybersecurity leadership.
+• NVDA (long, +21.7%): -4.4% 1W — sell-the-news continues. Motley Fool '1 AI Stock to Buy After Its Post-Earnings Sell-Off.' Barrons 'Nvidia Stock Gets Even Cheaper With Each Earnings Beat' — fwd P/E 17.0x now. HOLD — thesis intact.
+• MU (long, +104.2%): +3.6% 1W. Micron CEO sees memory chip shortage lasting beyond 2026 per Bloomberg — extremely bullish for thesis. Motley Fool 'Once-in-a-Generation Opportunity' names MU. STRONG HOLD.
+• DDOG (long, +72.0%): +6.9% 1W. Wedbush adds to AI 30 List. Golden Cross signal per Zacks. HOLD — momentum intact at -1.1% from 52W high.
+• CSCO (long, +18.2%): +1.9% 1W steady. Zacks 'Cisco Rises 33% in a Month.' HOLD.
+• GLW (long, +6.9%): +1.2% 1W modest. Motley Fool 'Nvidia's Latest AI Partner Was a Bargain Hiding in Plain Sight.' HOLD.
+• NBIS (long, +3.6%): -2.4% 1W slight weakness. MT Newswires 'Rising US Borrowing Costs Won't Slow Massive AI Data-Center Buildout' — positive macro read for NBIS thesis. CoreWeave vs NBIS comparison per Motley Fool. HOLD — above stop at $186.54.
+
+**New Opportunity — ZS:** ZS reports Monday May 26 — too close to earnings for new entry. Will monitor post-earnings.
+
+**New Opportunity — CRDO:** +26.9% 1W, -0.2% from 52W high, 1.37x vol ratio. IBD 'Amazon, Credo Lead AI Stocks In Buy Areas.' Zacks highlights Credo. 202% revenue growth, fwd P/E 39.6x. Reports June 1 — gives 10 days of runway. Credo is an AI connectivity chip company (high-speed SerDes chips for data centers) — direct AI infrastructure play. This is a compelling new add with near-ATH momentum and extraordinary revenue growth. Adding small position.
+
+**Cash:** Holding ~$44K (~36% of portfolio). Trimming MRVL and DELL ahead of earnings reduces binary risk and adds ~$3.5K to cash. Adding CRDO as high-conviction AI connectivity play. Cash remains elevated at ~33% post-trades — appropriate given earnings binary events next week (MRVL, SNPS, DELL all reporting) and Memorial Day week seasonality.
+**Benchmarks**: SPY 1D +0.4% | QQQ 1D +0.4% | SMH 1D +1.5%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | MRVL | 10 | $196.33 | Represents reducing from ~6.4% to ~4.9% of portfolio. Trimming 10 of 40 shares (25% of position) ahead of May 27 earnings to reduce binary event risk on a +96.6% winner. At essentially ATH (-1.0% from 52W high) after +11% 1W, this is an ideal trim point. Fits with portfolio risk management — MRVL is the largest semi position and earnings binary risk is high. Keeping 30 shares maintains core exposure to the custom silicon/hyperscaler thesis. ⬛ P&L $+964.64 |
+| SELL | DELL | 4 | $295.19 | Represents reducing from ~2.4% to ~1.5% of portfolio. Trimming 4 of 10 shares ahead of May 28 earnings to lock in partial profits on a +37.5% winner after an extraordinary +22% 1W pre-earnings run with 2.43x vol ratio. The stock is at -1.1% from 52W high — ideal profit-taking level before binary event. Morgan Stanley warned on IT hardware macro risks. Keeping 6 shares maintains AI server thesis exposure through the print. ⬛ P&L $+322.16 |
+| SKIPPED | CRDO | 15 | $218.41 | Max positions (20) reached |
+
+**Portfolio after run**: Cash $47,527.23 | P&L $+16,596.66 (+16.60%) | Daily -0.66%
+
+---
+

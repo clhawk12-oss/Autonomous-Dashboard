@@ -1,43 +1,43 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-05-21 18:28 ET*
+*Last updated: 2026-05-22 18:16 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+17,668.73 (+17.67%) |
+| Total P&L | $+16,596.66 (+16.60%) |
 | Realized P&L | $-3,791.00 |
-| Unrealized P&L | $+21,459.73 |
-| Cash | $44,383.17 (34.6%) |
-| Long Exposure | $83,702.46 |
+| Unrealized P&L | $+20,387.66 |
+| Cash | $47,527.23 (37.4%) |
+| Long Exposure | $79,711.17 |
 | Short Exposure | $0.00 |
-| Net Exposure | $83,702.46 |
+| Net Exposure | $79,711.17 |
 | Win Rate | 0.688 (16 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 7 | $144.13 | $298.23 | $2,087.61 | $+1,078.70 | +106.9% | $135.48 |
-| MRVL | LONG | 40 | $99.87 | $190.69 | $11,441.40 | $+5,449.45 | +90.9% | $87.29 |
-| NVDA | LONG | 30 | $176.96 | $219.51 | $6,585.30 | $+1,276.50 | +24.0% | $165.68 |
-| MU | LONG | 8 | $367.85 | $762.10 | $6,096.80 | $+3,154.00 | +107.2% | $331.07 |
-| TSM | LONG | 18 | $355.65 | $407.15 | $7,328.70 | $+927.03 | +14.5% | $314.17 |
-| SNDK | LONG | 2 | $773.28 | $1542.24 | $3,084.48 | $+1,537.92 | +99.4% | $645.46 |
-| AMD | LONG | 9 | $220.18 | $449.59 | $4,046.31 | $+2,064.69 | +104.2% | $202.57 |
-| WDC | LONG | 2 | $304.15 | $486.46 | $972.92 | $+364.62 | +59.9% | $282.86 |
-| AVGO | LONG | 13 | $362.23 | $414.57 | $5,389.41 | $+680.47 | +14.5% | $326.09 |
-| ORCL | LONG | 10 | $163.00 | $189.77 | $1,897.70 | $+267.70 | +16.4% | $149.96 |
-| SNPS | LONG | 3 | $460.95 | $503.98 | $2,519.90 | $+215.15 | +9.3% | $424.07 |
-| DDOG | LONG | 15 | $129.29 | $218.04 | $3,270.60 | $+1,331.25 | +68.6% | $120.24 |
-| DELL | LONG | 10 | $214.65 | $252.80 | $2,528.00 | $+381.50 | +17.8% | $201.77 |
-| AMZN | LONG | 5 | $263.04 | $268.46 | $1,342.30 | $+27.10 | +2.1% | $244.63 |
-| GOOG | LONG | 5 | $347.31 | $383.47 | $1,917.35 | $+180.80 | +10.4% | $323.00 |
-| GLW | LONG | 18 | $181.57 | $191.89 | $3,454.02 | $+185.76 | +5.7% | $168.86 |
-| CRWD | LONG | 7 | $556.19 | $648.23 | $4,537.61 | $+644.29 | +16.5% | $485.55 |
-| PANW | LONG | 15 | $215.60 | $252.92 | $3,793.80 | $+559.80 | +17.3% | $198.35 |
-| CSCO | LONG | 50 | $101.87 | $118.20 | $5,910.00 | $+816.50 | +16.0% | $94.74 |
-| NBIS | LONG | 25 | $207.27 | $219.93 | $5,498.25 | $+316.50 | +6.1% | $186.54 |
+| ARM | LONG | 7 | $144.13 | $306.51 | $2,145.57 | $+1,136.66 | +112.7% | $135.48 |
+| MRVL | LONG | 30 | $99.87 | $196.33 | $7,853.20 | $+3,858.57 | +96.6% | $87.29 |
+| NVDA | LONG | 30 | $176.96 | $215.33 | $6,459.90 | $+1,151.10 | +21.7% | $165.68 |
+| MU | LONG | 8 | $367.85 | $751.00 | $6,008.00 | $+3,065.20 | +104.2% | $331.07 |
+| TSM | LONG | 18 | $355.65 | $404.52 | $7,281.36 | $+879.69 | +13.7% | $314.17 |
+| SNDK | LONG | 2 | $773.28 | $1478.69 | $2,957.38 | $+1,410.82 | +91.2% | $645.46 |
+| AMD | LONG | 9 | $220.18 | $467.51 | $4,207.59 | $+2,225.97 | +112.3% | $202.57 |
+| WDC | LONG | 2 | $304.15 | $484.28 | $968.56 | $+360.26 | +59.2% | $282.86 |
+| AVGO | LONG | 13 | $362.23 | $414.14 | $5,383.82 | $+674.88 | +14.3% | $326.09 |
+| ORCL | LONG | 10 | $163.00 | $192.08 | $1,920.80 | $+290.80 | +17.8% | $149.96 |
+| SNPS | LONG | 3 | $460.95 | $524.74 | $1,574.22 | $+191.37 | +13.8% | $424.07 |
+| DDOG | LONG | 15 | $129.29 | $222.32 | $3,334.80 | $+1,395.45 | +72.0% | $120.24 |
+| DELL | LONG | 6 | $214.65 | $295.19 | $2,951.90 | $+805.40 | +37.5% | $201.77 |
+| AMZN | LONG | 5 | $263.04 | $266.32 | $1,331.60 | $+16.40 | +1.2% | $244.63 |
+| GOOG | LONG | 5 | $347.31 | $379.38 | $1,896.90 | $+160.35 | +9.2% | $323.00 |
+| GLW | LONG | 18 | $181.57 | $194.05 | $3,492.90 | $+224.64 | +6.9% | $168.86 |
+| CRWD | LONG | 7 | $556.19 | $663.46 | $4,644.22 | $+750.90 | +19.3% | $485.55 |
+| PANW | LONG | 15 | $215.60 | $260.58 | $3,908.70 | $+674.70 | +20.9% | $198.35 |
+| CSCO | LONG | 50 | $101.87 | $120.41 | $6,020.50 | $+927.00 | +18.2% | $94.74 |
+| NBIS | LONG | 25 | $207.27 | $214.77 | $5,369.25 | $+187.50 | +3.6% | $186.54 |
 
 ## PM Narrative
-Post-NVDA sell-the-news reaction (-6.9% 1W) is the dominant development — the earnings were strong but market expectations were even higher. WMT -8.4% 1W on earnings is a genuine consumer stress signal worth watching. ARM is surging +30.5% 1W on SoftBank/NVDA boost — our trimmed position is working well. The key actions today: (1) Trim MRVL 20 shares ahead of May 27 earnings — taking partial profits on a 90.9% winner before a binary event at near-ATH levels; (2) Trim SNPS 2 shares ahead of May 27 earnings — small position management before the print; (3) Initiate NOW (ServiceNow) at ~1.2% weight — software recovery play with no near-term earnings binary, compelling fwd P/E 19.8x on 22% growth, and strong AI workflow tailwinds. NBIS is dramatically improved by the Bloom Energy power partnership. ZS is too close to earnings (May 26) to add with conviction this week. The portfolio remains 18 positions (including the new NOW add) with ~35% cash — appropriate given multiple earnings events next week (MRVL, SNPS, DELL, SNOW, ZS all reporting May 26-28).
+This week's key actions are defensive trimming ahead of three earnings reports (MRVL May 27, SNPS May 27, DELL May 28) and adding a new high-conviction AI connectivity position in CRDO. MRVL is trimmed from 40 to 30 shares — still a core holding at +96.6% unrealized but reducing binary risk before the print. DELL is trimmed from 10 to 6 shares after an extraordinary +22% 1W pre-earnings run; taking partial profits at ATH is prudent. The new CRDO position captures the AI data center connectivity theme with 202% revenue growth, near-ATH momentum, and IBD institutional endorsement — with 10 days before its June 1 earnings. The broader portfolio remains well-positioned: cybersecurity pair (CRWD +19.3%, PANW +20.9%) hitting records, memory thesis intact (MU CEO says shortage lasts beyond 2026), and NVDA sell-the-news appears to be bottoming as analysts call it 'even cheaper with each earnings beat.' Watching ZS earnings Monday and MRVL/DELL prints next week as the key near-term catalysts.
 
-*Note: The following proposed actions were not executed due to constraint violations: BUY NOW: Max positions (20) reached*
+*Note: The following proposed actions were not executed due to constraint violations: BUY CRDO: Max positions (20) reached*
