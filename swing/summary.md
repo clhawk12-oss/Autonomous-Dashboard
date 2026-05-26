@@ -1,43 +1,41 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-05-22 18:16 ET*
+*Last updated: 2026-05-26 18:28 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+16,596.66 (+16.60%) |
-| Realized P&L | $-3,791.00 |
-| Unrealized P&L | $+20,387.66 |
-| Cash | $47,527.23 (37.4%) |
-| Long Exposure | $79,711.17 |
+| Total P&L | $+17,694.55 (+17.69%) |
+| Realized P&L | $-3,570.17 |
+| Unrealized P&L | $+21,264.72 |
+| Cash | $45,981.86 (36.0%) |
+| Long Exposure | $81,780.92 |
 | Short Exposure | $0.00 |
-| Net Exposure | $79,711.17 |
-| Win Rate | 0.688 (16 closed) |
+| Net Exposure | $81,780.92 |
+| Win Rate | 0.706 (17 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 7 | $144.13 | $306.51 | $2,145.57 | $+1,136.66 | +112.7% | $135.48 |
-| MRVL | LONG | 30 | $99.87 | $196.33 | $7,853.20 | $+3,858.57 | +96.6% | $87.29 |
-| NVDA | LONG | 30 | $176.96 | $215.33 | $6,459.90 | $+1,151.10 | +21.7% | $165.68 |
-| MU | LONG | 8 | $367.85 | $751.00 | $6,008.00 | $+3,065.20 | +104.2% | $331.07 |
-| TSM | LONG | 18 | $355.65 | $404.52 | $7,281.36 | $+879.69 | +13.7% | $314.17 |
-| SNDK | LONG | 2 | $773.28 | $1478.69 | $2,957.38 | $+1,410.82 | +91.2% | $645.46 |
-| AMD | LONG | 9 | $220.18 | $467.51 | $4,207.59 | $+2,225.97 | +112.3% | $202.57 |
-| WDC | LONG | 2 | $304.15 | $484.28 | $968.56 | $+360.26 | +59.2% | $282.86 |
-| AVGO | LONG | 13 | $362.23 | $414.14 | $5,383.82 | $+674.88 | +14.3% | $326.09 |
-| ORCL | LONG | 10 | $163.00 | $192.08 | $1,920.80 | $+290.80 | +17.8% | $149.96 |
-| SNPS | LONG | 3 | $460.95 | $524.74 | $1,574.22 | $+191.37 | +13.8% | $424.07 |
-| DDOG | LONG | 15 | $129.29 | $222.32 | $3,334.80 | $+1,395.45 | +72.0% | $120.24 |
-| DELL | LONG | 6 | $214.65 | $295.19 | $2,951.90 | $+805.40 | +37.5% | $201.77 |
-| AMZN | LONG | 5 | $263.04 | $266.32 | $1,331.60 | $+16.40 | +1.2% | $244.63 |
-| GOOG | LONG | 5 | $347.31 | $379.38 | $1,896.90 | $+160.35 | +9.2% | $323.00 |
-| GLW | LONG | 18 | $181.57 | $194.05 | $3,492.90 | $+224.64 | +6.9% | $168.86 |
-| CRWD | LONG | 7 | $556.19 | $663.46 | $4,644.22 | $+750.90 | +19.3% | $485.55 |
-| PANW | LONG | 15 | $215.60 | $260.58 | $3,908.70 | $+674.70 | +20.9% | $198.35 |
-| CSCO | LONG | 50 | $101.87 | $120.41 | $6,020.50 | $+927.00 | +18.2% | $94.74 |
-| NBIS | LONG | 25 | $207.27 | $214.77 | $5,369.25 | $+187.50 | +3.6% | $186.54 |
+| ARM | LONG | 7 | $144.13 | $321.22 | $2,248.54 | $+1,239.63 | +122.9% | $135.48 |
+| MRVL | LONG | 30 | $99.87 | $208.26 | $6,247.80 | $+3,251.82 | +108.5% | $87.29 |
+| NVDA | LONG | 30 | $176.96 | $214.86 | $6,445.80 | $+1,137.00 | +21.4% | $165.68 |
+| MU | LONG | 8 | $367.85 | $895.88 | $7,167.04 | $+4,224.24 | +143.5% | $331.07 |
+| TSM | LONG | 18 | $355.65 | $412.32 | $7,421.76 | $+1,020.09 | +15.9% | $314.17 |
+| SNDK | LONG | 2 | $773.28 | $1589.55 | $3,179.10 | $+1,632.54 | +105.6% | $645.46 |
+| AMD | LONG | 9 | $220.18 | $503.89 | $4,535.01 | $+2,553.39 | +128.9% | $202.57 |
+| WDC | LONG | 2 | $304.15 | $524.65 | $1,049.30 | $+441.00 | +72.5% | $282.86 |
+| AVGO | LONG | 13 | $362.23 | $422.01 | $5,486.13 | $+777.19 | +16.5% | $326.09 |
+| ORCL | LONG | 10 | $163.00 | $193.06 | $1,930.60 | $+300.60 | +18.4% | $149.96 |
+| DDOG | LONG | 15 | $129.29 | $223.65 | $3,354.75 | $+1,415.40 | +73.0% | $120.24 |
+| DELL | LONG | 6 | $214.65 | $305.08 | $1,830.48 | $+542.58 | +42.1% | $201.77 |
+| AMZN | LONG | 5 | $263.04 | $265.29 | $1,326.45 | $+11.25 | +0.9% | $244.63 |
+| GOOG | LONG | 5 | $347.31 | $384.84 | $1,924.20 | $+187.65 | +10.8% | $323.00 |
+| GLW | LONG | 18 | $181.57 | $196.17 | $3,531.06 | $+262.80 | +8.0% | $168.86 |
+| CRWD | LONG | 7 | $556.19 | $671.55 | $4,700.85 | $+807.53 | +20.7% | $485.55 |
+| PANW | LONG | 10 | $215.60 | $256.75 | $3,851.25 | $+617.25 | +19.1% | $198.35 |
+| CSCO | LONG | 50 | $101.87 | $118.33 | $5,916.50 | $+823.00 | +16.2% | $94.74 |
+| NBIS | LONG | 25 | $207.27 | $208.06 | $5,201.50 | $+19.75 | +0.4% | $186.54 |
+| CRDO | LONG | 20 | $221.64 | $221.64 | $4,432.80 | $+0.00 | +0.0% | $199.48 |
 
 ## PM Narrative
-This week's key actions are defensive trimming ahead of three earnings reports (MRVL May 27, SNPS May 27, DELL May 28) and adding a new high-conviction AI connectivity position in CRDO. MRVL is trimmed from 40 to 30 shares — still a core holding at +96.6% unrealized but reducing binary risk before the print. DELL is trimmed from 10 to 6 shares after an extraordinary +22% 1W pre-earnings run; taking partial profits at ATH is prudent. The new CRDO position captures the AI data center connectivity theme with 202% revenue growth, near-ATH momentum, and IBD institutional endorsement — with 10 days before its June 1 earnings. The broader portfolio remains well-positioned: cybersecurity pair (CRWD +19.3%, PANW +20.9%) hitting records, memory thesis intact (MU CEO says shortage lasts beyond 2026), and NVDA sell-the-news appears to be bottoming as analysts call it 'even cheaper with each earnings beat.' Watching ZS earnings Monday and MRVL/DELL prints next week as the key near-term catalysts.
-
-*Note: The following proposed actions were not executed due to constraint violations: BUY CRDO: Max positions (20) reached*
+Key action this run: (1) Exiting SNPS entirely ahead of tomorrow's earnings — the '24/7 Wall St Growth Trap' headline combined with the tiny 3-share position makes holding through the binary event poor risk management. (2) Trimming PANW from 15 to 10 shares — ZS just reported downbeat Q4 guidance with Reuters noting 'competition heats up in cybersecurity market,' which is a direct negative read-through for PANW reporting June 2. The cybersecurity thesis has softened as federal tailwind assumptions prove overstated; we maintain meaningful exposure through CRWD + reduced PANW. (3) Initiating CRDO (20 shares, ~3.6%) as the AI connectivity play — 202% revenue growth, near ATH, reports June 1 giving ~6 days of runway, and the hyperscaler capex narrative directly benefits SerDes chip demand. The broader portfolio remains well-positioned: MU hitting $1T market cap confirms the memory supercycle, AMD at -0.6% from 52W high is breaking out, and MRVL/DELL report tomorrow/Wednesday respectively. Holding MRVL (30 shares) and DELL (6 shares) through earnings — both have been de-risked by prior trims and setup looks favorable. Cash at ~37% post-trades is appropriate given three earnings binaries in next 48 hours.
