@@ -877,3 +877,39 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-05-26 18:28 ET — Run ID: long_term-20260526-1828
+**Market**: after-hours | 18:28 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON — S&P 500 and Nasdaq hitting new highs today per Motley Fool headline; Micron joins $1 trillion club (UBS raises PT to $1,625); US-Iran peace optimism lifting risk assets; VIX contained; structural bull market intact with SMH +10.2% 1M
+• Fed/rates: PCE data upcoming this week as the key inflation gauge; higher-for-longer base case intact but US-Iran progress reducing energy risk premium which marginally compresses inflation expectations; bond yields stable to modestly lower
+• Growth cycle: AI capex supercycle accelerating — MU joins $1T club validating the entire memory/AI infrastructure thesis; Micron valuation nearly tied with Eli Lilly and Berkshire per Yahoo Finance; NVDA CEO message on AI layoffs suggests continued capex deployment; Google $15B Missouri AI data hub strategy announced
+• Macro catalyst: MRVL reports TOMORROW (May 27), COST and DELL report May 28, CRDO reports June 1, CRWD June 3; ZS just reported Q3 beating estimates but seeing 'downbeat quarterly revenue' outlook per Reuters — mixed cybersecurity signal for PANW thesis
+
+**Sectors:**
+• SMH (semis): +10.2% 1M leading all benchmarks — MU +31.4% 1W at $895.88 joining $1T club is the headline event; AMD +19.7% 1W / +44.9% 1M near 52W high at -0.6%; ARM +49.3% 1W / +36.8% 1M near ATH; ALAB +47.8% 1W / +49.8% 1M extraordinary; CRDO +41.8% 1W ahead of June 1 earnings — semi complex broadly at or near all-time highs confirming AI supercycle
+• IGV (software): ZS beat on Q3 but guided below on Q4 revenue (Reuters: 'downbeat quarterly revenue as competition heats up') — this is a modest negative read-through for PANW; CRWD +49.9% 1M near ATH; cybersecurity broadly strong but ZS guidance miss creates slight caution heading into PANW's June 2 report
+• XLK (broad tech): NVDA -3.4% 1W / +3.2% 1M digesting post-beat; ARM +49.3% 1W extraordinary; ALAB +47.8% 1W near ATH; GLW +9.9% 1W continuing NVDA partnership thesis
+• XLY vs XLP: COST -6.8% 1W into earnings tomorrow (May 28) — the pullback is the market pricing in uncertainty; WMT -11.1% 1W remains the negative consumer read-through signal; consumer discretionary showing pressure
+• XLF: GS +5.1% 1W near ATH; JPM +2.0% 1W; financials broadly positive
+
+**Positions:**
+• MRVL (long, +119.5% unreal at $208.26): **MANDATORY EARNINGS ALERT — Reports May 27 (TOMORROW).** At +119.5% unrealized on 40 shares, this is now the portfolio's #1 unrealized winner in both % and dollar terms. MRVL +23.3% 1W into the print — the pre-earnings momentum is exceptionally strong. Zacks: 'Will Marvell Technology Stock Keep Soaring as Q1 Results Approach?' — constructive framing. The hyperscaler custom ASIC thesis (Google TPUs, Amazon Trainium) is at its strongest point with NVDA's AI capex beat providing direct read-through. Stifel PT raise pre-print is bullish. HOLD ALL 40 SHARES — the custom silicon ASIC pipeline is the most structurally important AI infrastructure revenue line in the company; the setup is the best it's been. No trim warranted.
+• COST (long, +1.9% unreal at $1,002.93): **MANDATORY EARNINGS ALERT — Reports May 28.** Stock is -6.8% 1W into earnings, reflecting WMT -11.1% 1W consumer pressure read-through. Investopedia: 'Here's How Much Costco Stock Is Expected to Move After Earnings.' The stock is -8.5% from 52W high. The position is only 3 shares (~$3,009 = ~2.2% of portfolio) so even a bad print creates minimal damage. HOLD 3 SHARES — membership moat (90%+ renewal rates) is durable regardless of near-term consumer pressure; this is a long-term compounder thesis not a momentum trade. The -6.8% 1W pullback into earnings is actually reducing the entry risk.
+• PANW (long, +51.8% unreal at $256.75): **MANDATORY EARNINGS ALERT — Reports June 2 (within 7 days).** ZS just reported Q3 beating estimates BUT guided below on Q4 revenue (Reuters: 'competition heats up') — this is a cautious read-through for the cybersecurity sector broadly. However, PANW's platformization thesis and AI security demand are distinct from ZS's network security exposure. PANW +3.7% 1W, near ATH (-1.8%). Top Cybersecurity Stocks to Buy per Zacks. IBD: 'Is Trending Stock Palo Alto Networks a Buy Now?' HOLD ALL 20 SHARES into the June 2 print — the platformization thesis and AI security spending are intact; ZS guidance miss is specific to ZS competitive dynamics, not PANW's platform consolidation story.
+• MU (long, +92.4% unreal at $895.88): EXTRAORDINARY — joins $1T club today. UBS raises PT to $1,625. IBD: 'Micron Tops $1 Trillion; 5 AI Stocks In Buy Areas.' At +92.4% unrealized on 10 shares, the thesis is completely vindicated. Stop at $395.81 remains CRITICALLY WIDE at 56% below current — this remains my most flagged ongoing issue. HOLD all shares.
+• ALAB (long, +49.0% unreal at $318.72): Extraordinary +47.8% 1W — near ATH. However, Northland cuts ALAB on valuation and datacenter spending concerns (Investing.com, 5 hours ago). This is a new negative catalyst worth noting. Simply Wall St. still features strong insider stakes. At 75.8x fwd P/E for 93% growth (PEG ~0.8x) the valuation is stretched but the growth rate justifies a premium. HOLD — the Northland cut is on valuation concerns not fundamental deterioration; thesis intact.
+• ARM (long, +122.9% unreal at $321.22): At +122.9% unrealized — the portfolio's largest % gain. +49.3% 1W / +36.8% 1M extraordinary. Simply Wall St.: 'Arm's AGI CPUs Put AI Data Center Growth Story In Focus.' At 105.1x fwd P/E for 20% growth this is extremely stretched but the royalty model leverage on AI chip complexity means every new AI chip directly benefits ARM royalty streams. HOLD — trimming at ATH with thesis intact would be leaving massive gains on table.
+• AMD (long, +41.8% unreal at $503.89): +19.7% 1W / +44.9% 1M near 52W high (-0.6%). OneQode deal highlights AMD AI expansion beyond hyperscaler data centers per Simply Wall St. QUALCOMM/AMD semiconductor rally per GuruFocus. Thesis fully intact. HOLD.
+• NVDA (long, +28.3% unreal at $214.86): -3.4% 1W — continuing post-earnings digestion. NVDA -9.2% from 52W high. Benzinga: 'NVDA Down Almost 10% In 2 Weeks Despite Record Revenue: What Is Going On?' — the question answers itself (sell the news). At 17x fwd P/E for 85% revenue growth with 63% margins, this remains the best value/growth in the portfolio. Can Huawei's new chip challenge? (Yahoo Finance) — not a real threat to NVDA's architectural moat. HOLD all 60 shares. Stop at $142.39 remains critically wide — flagged for 20th+ consecutive session.
+• GLW (long, +32.6% unreal at $196.17): +9.9% 1W. Simply Wall St.: 'How Nvidia's US$3.2 Billion AI Optics Pact At Corning Has Changed Its Investment Story.' Zacks: 'GLW Rides on Solid Traction in the Solar Vertical.' Thesis intact. HOLD. Stop at $130.17 remains critically wide.
+• VRT (long, +5.8% unreal at $323.91): -4.7% 1W. Zacks: 'VRT Benefits From Strong International Expansion: More Upside Ahead?' Dell and Diebold Nixdorf stocks trading up per StockStory suggests data center infrastructure theme intact. At 36.7x fwd P/E for 30% growth — reasonable. HOLD.
+• META (long, +16.5% unreal at $612.34): +0.2% 1W. Google, Meta, Amazon powering stock market profit excitement per Yahoo Finance. Supreme Court rejects Vermont Instagram lawsuit challenge — minor negative but not thesis-breaking. At 17.0x fwd P/E for 33% growth — still extraordinary value. HOLD.
+
+**Cash:** At $1,346 (~1.0% floor) — fully deployed; MRVL May 27 is the most critical near-term event; watching ZS guidance miss as cautious read for PANW June 2; no new positions possible without trimming a winner.
+**Benchmarks**: SPY 1D +0.7% | QQQ 1D +1.8% | SMH 1D +4.5%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+34,993.82 (+34.99%) | Daily +2.26%
+
+---
+
