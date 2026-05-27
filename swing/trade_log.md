@@ -949,3 +949,48 @@ DECISION: HOLD ALL 30 SHARES. As analyzed in positions section — fwd P/E 19.5x
 
 ---
 
+### 2026-05-27 18:44 ET — Run ID: swing-20260527-1844
+**Market**: after-hours | 18:44 ET
+**Reasoning**: **Macro:**
+• Risk regime: Risk-on intact — S&P 500 and Nasdaq hitting new highs per IBD/Motley Fool. SPY +2.3% 1W, QQQ +4.0% 1W, SMH +9.5% 1W. Markets broadly positive with SNOW surging on earnings/AWS deal. Portfolio at +17.1% total P&L continues outperforming all benchmarks.
+• Fed/rates: PCE inflation data due imminently (referenced in IBD headlines). 30Y Treasury remains elevated but markets shrugging it off. Goldman raises S&P 500 target with 17% upside. Higher-for-longer persists but AI narrative dominant.
+• Macro catalyst: MRVL just reported Q1 earnings BEAT with strong outlook per Barrons/Zacks — 'MRVL Stock Rises After-Hours On Q1 Earnings Beat.' ZS -27.9% 1W is the defining negative event — cybersecurity complex under severe pressure from Google AI security platform launch plus ZS downbeat guidance. SNOW surged on earnings + $6B AWS deal. Amazon $6B Snowflake deal for agentic computing chips is major cloud/AI catalyst.
+
+**Sectors:**
+• SMH (semis): +9.5% 1W extraordinary strength. MU +32.9% 1W joins $1T club (Goldman names MU/NVDA biggest AI winners). AMD +19.7% 1W. ARM +35.6% 1W on Nvidia Vera CPU demand. SK Hynix joins trillion-dollar club. Memory supercycle broadening globally.
+• IGV (software/cyber): CRWD and PANW both down today on ZS fallout + Google AI security platform launch. Barrons says 'Zscaler Shares Tumbled 32%. These 2 Rival Cybersecurity Stocks Look Like Bargains' — trying to be positive but the sector is under heavy pressure. SNOW +strong on earnings. Salesforce reporting imminently with mixed signals.
+• XLK (broad tech): NVDA -3.6% 1W continuing sell-the-news despite being named biggest AI winner by Goldman. CSCO +3.7% 1W steady. MSFT -0.9% 1W slight drag.
+• XLY vs XLP: WMT -11.7% 1W accelerating consumer stress — Benzinga notes 'K-Shaped Economy' with Walmart/Ralph Lauren divergence. Consumer stress signal persisting and intensifying.
+• XLF: GS +7.3% 1W strong. Goldman raises S&P target, moves into buy range per IBD.
+
+**Positions (earnings alerts addressed):**
+• MRVL (long, +99.0%): EARNINGS ALERT — JUST REPORTED Q1 BEAT. 'MRVL Stock Rises After-Hours On Q1 Earnings Beat And Strong Outlook' per Stocktwits. Barrons: 'Marvell Technology Is Powering the AI Revolution.' 1.98x vol ratio confirms institutional buying. DECISION: HOLD all 30 shares. The beat with strong guidance validates the custom silicon hyperscaler thesis completely. Stock rising after-hours — this is an outstanding result.
+• DELL (long, +42.2%): EARNINGS ALERT — reports May 28 (tomorrow). HP Inc knocked earnings out of the park per Barrons — positive read-through for DELL. IREN finalizes $1.6B NVDA Blackwell hardware deal with DELL — direct positive catalyst. At +29.8% 1W and +42.2% unrealized. DECISION: HOLD 6 shares (already trimmed from 10). The HP beat plus IREN deal are very positive read-throughs. Small position at ~$1,830 minimizes binary risk.
+• AVGO (long, +16.5%): EARNINGS ALERT — reports June 3. AMAT partners with Broadcom on advanced chip packaging for AI per Insider Monkey. At fwd P/E 23.1x on 30% revenue growth — reasonable. Goldman names as AI winner. DECISION: HOLD all 13 shares. Strong thesis, no reason to trim ahead of what should be a good print given AI infrastructure spending confirmation.
+• CRDO (long, -0.2%): EARNINGS ALERT — reports June 1. 'Watch as Credo Flies on Institutional Inflows' per FX Empire. +30.9% 1W extraordinary. Simply Wall St notes 'Credo ZeroFlap Deal With Rebellions Tests Lofty AI Valuation Expectations' — valuation concern but AI connectivity thesis intact. DECISION: HOLD 20 shares with stop at $199.48. The institutional inflow signal is very positive. AI connectivity thesis confirmed by MRVL beat.
+• CRWD (long, +16.0%): EARNINGS ALERT — reports June 3. HEAVY PRESSURE TODAY from ZS fallout + Google AI security platform launch. StockStory: 'Why CrowdStrike Shares Are Trading Lower Today.' Barrons says CRWD/PANW are 'bargains' after ZS collapse. DECISION: HOLD 7 shares. The ZS weakness is at least partially idiosyncratic — ZS had federal revenue miss + competition from Google. CRWD is the platform consolidation leader and Barrons calling it a bargain is validating. Stop at $485.55 provides protection (25% below current).
+• PANW (long, +15.2%): EARNINGS ALERT — reports June 2. Under pressure from same ZS/Google catalyst. 'Okta and Palo Alto Networks Shares Plummet' per StockStory. Already trimmed to 10 shares last run. DECISION: TRIM 3 more shares to 7 shares. Google AI security platform launch is a more serious competitive threat than ZS's idiosyncratic federal miss. With PANW reporting June 2 in 6 days, reducing exposure further into this headwind is prudent. The platformization thesis is still intact but Google entering the space is a real risk.
+• CRWD and PANW both showing concerning patterns with Google AI security platform as a new competitive entrant. This is not just ZS-specific — it's a structural threat to the entire cybersecurity complex.
+• ARM (long, +110.0%): +35.6% 1W continuing surge on NVDA Vera CPU demand. Barchart: 'Arm Surges as Nvidia's Vera Drives CPU Demand.' The AGI CPU thesis is more confirmed than ever. Stop at $135.48 is very far below — the stock is at $302.71. HOLD — extraordinary winner, let it run.
+• MU (long, +152.4%): +32.9% 1W, joined $1T club, Goldman names biggest AI winner. 'The Insatiable Logic Behind Micron's Extreme Gains' per Barrons. Cathie Wood selling AMD and TSMC but NOT MU. Extraordinary strength. STRONG HOLD.
+• SNDK (long, +105.6%): +14.9% 1W. Barrons: 'Sandisk Stock 4,000% Rise Is Happening Too Fast to Keep Up With' — a cautionary headline about pace. But Barclays raises as 'most attractive vertical' in memory/storage. Only 2 shares — minimal risk. HOLD.
+• AMZN (long, +3.3%): Amazon strikes $6B deal with Snowflake for agentic computing chips per WSJ — this is a massive positive catalyst confirming AWS AI infrastructure leadership. +4.8% 1W. HOLD — AWS momentum confirmed.
+• GOOG (long, +10.8%): Google Employee charged with insider trading on Polymarket per WSJ/Bloomberg — this is an idiosyncratic legal issue, not a business fundamental. Google AI security platform launch is actually POSITIVE for GOOG but negative for cybersecurity stocks. HOLD.
+• NBIS (long, +0.5%): +5.4% 1W. Motley Fool 'Nebius Stock Is Up 444% in 12 Months — and Wall Street Says the Rally Isn't Over.' Multiple Barchart/Motley Fool features this week. Groundbreaking for AI campus. HOLD — AI infrastructure thesis intact.
+
+**New Opportunities:**
+• SNOW: Surging after-hours on earnings beat + $6B AWS deal. Already in watchlist. However, buying post-surge AH creates gap risk. Will monitor open for potential entry.
+• GFS: +21.6% 1W, 3.22x vol ratio — extraordinary. GlobalFoundries gaining on AI chip manufacturing. At fwd P/E 32.3x on 3% revenue growth — growth is too modest for the valuation. PASS.
+• ALAB: +33.2% 1W, -0.5% from 52W high at essentially ATH. Astera Labs targets $10B AI connectivity opportunity with Scorpio X-Series ramping per MarketBeat. 93% revenue growth, fwd P/E 77.3x. Strong AI connectivity thesis. POTENTIAL ADD — but at 19 positions after trimming PANW, I'd have room for one more.
+
+**Cash:** Currently $45,981 (~36% of portfolio). Trimming 3 PANW shares (~$745) adds modestly. Cash remains elevated due to ZS-driven cybersecurity uncertainty, multiple earnings events this week (MRVL just beat, DELL tomorrow, AVGO/CRWD/PANW June 2-3), and Google AI security platform as a new structural risk for cyber complex. Cash at ~37% post-PANW trim is appropriate — waiting for post-earnings clarity on DELL/AVBO/CRWD/PANW before deploying further.
+**Benchmarks**: SPY 1D -0.0% | QQQ 1D -0.1% | SMH 1D -1.1%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | PANW | 3 | $248.47 | Trimming from 10 to 7 shares (~1.7% portfolio weight remaining). Google AI security platform launch is a more serious competitive threat than ZS's federal revenue miss — this is structural, not idiosyncratic. PANW reports June 2 in 6 days creating binary risk with a new competitive entrant in the market. Locking in partial profits on +15.2% winner. Size reduction from 10 to 7 shares is moderate — keeping 7 shares because Barrons argues PANW is a 'bargain' post-ZS selloff and platformization thesis still has merit. Not exiting fully because PANW's enterprise consolidation moat is real and ZS weakness may be partially idiosyncratic. ⬛ P&L $+98.61 |
+
+**Portfolio after run**: Cash $46,727.27 | P&L $+17,078.80 (+17.08%) | Daily -0.74%
+
+---
+
