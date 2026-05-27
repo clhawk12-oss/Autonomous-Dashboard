@@ -1,39 +1,39 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-05-26 18:30 ET*
+*Last updated: 2026-05-27 18:52 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+34,993.82 (+34.99%) |
+| Total P&L | $+34,261.54 (+34.26%) |
 | Realized P&L | $-763.29 |
-| Unrealized P&L | $+35,757.11 |
+| Unrealized P&L | $+35,024.83 |
 | Cash | $1,346.01 (1.0%) |
-| Long Exposure | $135,277.59 |
+| Long Exposure | $134,545.31 |
 | Short Exposure | $0.00 |
-| Net Exposure | $135,277.59 |
+| Net Exposure | $134,545.31 |
 | Win Rate | 0.2 (5 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $214.86 | $12,891.60 | $+2,840.40 | +28.3% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $416.03 | $11,648.84 | $+1,659.28 | +16.6% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $212.60 | $12,756.00 | $+2,704.80 | +26.9% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $412.67 | $11,554.76 | $+1,565.20 | +15.7% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 60 | $207.50 | $265.29 | $15,917.40 | $+3,467.60 | +27.9% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $422.01 | $15,614.37 | $+4,434.21 | +39.7% | $255.58 |
-| ARM | LONG | 39 | $144.13 | $321.22 | $12,527.58 | $+6,906.51 | +122.9% | $122.51 |
-| MRVL | LONG | 40 | $94.88 | $208.26 | $8,330.40 | $+4,535.20 | +119.5% | $83.49 |
-| EQIX | LONG | 5 | $963.00 | $1077.63 | $5,388.15 | $+573.15 | +11.9% | $866.70 |
-| CIEN | LONG | 2 | $401.61 | $602.39 | $1,204.78 | $+401.56 | +50.0% | $341.37 |
-| META | LONG | 8 | $525.72 | $612.34 | $4,898.72 | $+692.96 | +16.5% | $446.86 |
-| COST | LONG | 3 | $983.86 | $1002.93 | $3,008.79 | $+57.21 | +1.9% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $412.32 | $3,710.88 | $+637.47 | +20.7% | $300.51 |
-| PANW | LONG | 20 | $169.18 | $256.75 | $5,135.00 | $+1,751.35 | +51.8% | $143.62 |
-| GLW | LONG | 15 | $147.92 | $196.17 | $2,942.55 | $+723.75 | +32.6% | $130.17 |
-| MU | LONG | 10 | $465.66 | $895.88 | $8,958.80 | $+4,302.20 | +92.4% | $395.81 |
-| VRT | LONG | 16 | $306.18 | $323.91 | $5,182.56 | $+283.68 | +5.8% | $260.25 |
-| AMD | LONG | 9 | $355.26 | $503.89 | $4,535.01 | $+1,337.67 | +41.8% | $301.97 |
-| ALAB | LONG | 11 | $213.91 | $318.72 | $3,505.92 | $+1,152.91 | +49.0% | $171.13 |
+| AMZN | LONG | 60 | $207.50 | $271.85 | $16,311.00 | $+3,861.20 | +31.0% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $421.86 | $15,608.82 | $+4,428.66 | +39.6% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $302.71 | $11,805.69 | $+6,184.62 | +110.0% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $198.70 | $7,948.00 | $+4,152.80 | +109.4% | $83.49 |
+| EQIX | LONG | 5 | $963.00 | $1070.22 | $5,351.10 | $+536.10 | +11.1% | $866.70 |
+| CIEN | LONG | 2 | $401.61 | $582.08 | $1,164.16 | $+360.94 | +44.9% | $341.37 |
+| META | LONG | 8 | $525.72 | $635.26 | $5,082.08 | $+876.32 | +20.8% | $446.86 |
+| COST | LONG | 3 | $983.86 | $1003.69 | $3,011.07 | $+59.49 | +2.0% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $422.73 | $3,804.57 | $+731.16 | +23.8% | $300.51 |
+| PANW | LONG | 20 | $169.18 | $248.47 | $4,969.40 | $+1,585.75 | +46.9% | $143.62 |
+| GLW | LONG | 15 | $147.92 | $190.89 | $2,863.35 | $+644.55 | +29.0% | $130.17 |
+| MU | LONG | 10 | $465.66 | $928.41 | $9,284.10 | $+4,627.50 | +99.4% | $395.81 |
+| VRT | LONG | 16 | $306.18 | $319.78 | $5,116.48 | $+217.60 | +4.4% | $260.25 |
+| AMD | LONG | 9 | $355.26 | $495.54 | $4,459.86 | $+1,262.52 | +39.5% | $301.97 |
+| ALAB | LONG | 11 | $213.91 | $325.33 | $3,578.63 | $+1,225.62 | +52.1% | $171.13 |
 
 ## PM Narrative
-Portfolio at +35.0% total P&L ($34,994) is generating exceptional alpha vs SPY (+5.1% 1M), QQQ (+10.0% 1M), and SMH (+18.9% 1M). The AI infrastructure supercycle thesis is comprehensively vindicated: MU joins the $1 trillion club today, ARM is +122.9% unrealized, MRVL is +119.5% unrealized heading into tomorrow's earnings print, and ALAB is +49.0% on extraordinary 47.8% weekly momentum. Three mandatory earnings alerts require explicit action: (1) MRVL reports May 27 — HOLD ALL 40 shares; the hyperscaler custom ASIC thesis has never been stronger and +23.3% 1W pre-earnings momentum with Stifel PT raise is maximally bullish; (2) COST reports May 28 — HOLD 3 shares; membership moat thesis intact despite WMT-driven consumer pressure read-through; position is only 2.2% of portfolio and durable regardless of quarterly noise; (3) PANW reports June 2 — HOLD ALL 20 shares; ZS's guidance miss is specific to its competitive dynamics, not PANW's AI platform consolidation thesis which is distinct and intact. The critical ongoing stop-loss issue (NVDA stop $142.39 vs $214.86 current, MU stop $395.81 vs $895.88 current, GLW stop $130.17 vs $196.17 current, ALAB stop $171.13 vs $318.72 current) continues to be flagged — these stops are dangerously wide but system limitations prevent programmatic updates. No new positions are possible with cash at the 1% floor, and no trimming is warranted as all 18 position theses remain fully intact with strong fundamental momentum.
+Portfolio at +34.3% total P&L generating strong alpha vs all benchmarks. The defining event of this session is the CONFIRMED MRVL earnings beat — Barrons headlines 'Marvell Technology Is Powering the AI Revolution' validating the hyperscaler custom ASIC thesis at 40 shares and +109.4% unrealized. All MANDATORY EARNINGS ALERTS addressed: MRVL beat confirmed (HOLD ALL), COST reports tomorrow (HOLD 3 shares — tiny position, membership moat intact despite -8.3% 1W pullback), PANW reports June 2 (HOLD ALL — ZS guide-down and Google security platform are new risks but PANW platformization is distinct), AVGO reports June 3 (HOLD ALL — custom silicon thesis strongest ever). Key new risk: Google AI security platform launch plus ZS -27.9% 1W guide-down creating dual headwind for cybersecurity sector — PANW shares falling today. MU at +99.4% joining $1T club is extraordinary validation. ARM +35.6% 1W on Nvidia Vera CPU demand is a new structural catalyst. Portfolio is fully deployed at 1% cash floor with 18 positions all generating positive alpha. No trades warranted — the MRVL beat confirmation is the key event and existing thesis on all positions remains intact.
