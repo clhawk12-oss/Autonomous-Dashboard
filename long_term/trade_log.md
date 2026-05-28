@@ -947,3 +947,42 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-05-28 18:48 ET — Run ID: long_term-20260528-1848
+**Market**: after-hours | 18:48 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON — US-Iran deal reportedly reached (awaiting Trump signature), S&P 500/Nasdaq hitting new highs per IBD ('Stock Market Hits Highs On U.S.-Iran Deal'), Dow surging, VIX contained; structural bull market intact with AI capex supercycle accelerating
+• Fed/rates: Core PCE eased unexpectedly per MT Newswires ('Core Inflation Eases Unexpectedly') — this is a meaningful relief for growth multiples; higher-for-longer but the unexpected PCE ease is a mild positive for rate-cut expectations; bond yields modestly lower on Iran deal + softer PCE
+• Growth cycle: MRVL lifted FY2027 outlook as revenue growth nears 40% (GuruFocus) — confirmed beat; DELL soars on $9.69B DoD deal + raised AI server outlook ($60B per Bloomberg); MU crosses $1T valuation at $923; Wiwynn warns AI supply crunch lasts until 2027-2028 confirming multi-year infrastructure supercycle; Snowflake +43.3% 1W on AWS $6B deal validates AI cloud spending
+• Macro catalyst: US-Iran deal is the most important macro catalyst today — geopolitical risk premium deflating rapidly; oil declining which compresses inflation and benefits growth multiples; AI supply crunch until 2027-2028 (Wiwynn) is the structural investing thesis confirmation
+
+**Sectors:**
+• SMH (semis): +6.2% 1W / +22.1% 1M leading all benchmarks — MU +26.2% 1W at $923.52 crossing $1T is the headline; ARM +30.6% 1W at $335.27 extraordinary on Nvidia Vera CPU demand; MRVL +9.7% 1W post-confirmed beat with 40% revenue growth FY2027 guide-up; ALAB +21.5% 1W near ATH; AMD +15.8% 1W; semi complex broadly at or near ATHs; GuruFocus: 'Nvidia's Next AI Wave Sparks Big Calls on Micron, Dell, Arm Stocks'
+• IGV (software): PANW +4.5% 1W near ATH (-1.4%) ahead of June 2 print; CRWD +3.2% 1W; OKTA beat Q1 estimates (Zacks) — constructive read for cybersecurity; SentinelOne tepid guide + 8% job cuts (Reuters) is a negative read-through for smaller cyber players but PANW platform thesis distinct; SNOW +43.3% 1W extraordinary validates enterprise AI software spending
+• XLK (broad tech): DELL +30.5% 1W surging on $9.69B DoD deal and $60B AI server raise — confirms AI server demand cycle; NVDA -4.1% 1W continuing post-beat digestion at -9.4% from 52W high; MSFT +1.6% 1W steady
+• XLY vs XLP: COST -7.3% 1W into today's print — MIXED result per headlines ('Costco rides consumer spending surge to stellar Q3' vs 'Misses Earnings Estimates' per Barrons); US-Iran deal reducing oil/energy pressures is net positive for consumer
+• XLF: GS +2.7% 1W near ATH; JPM -1.7% 1W; financials mixed; not a concern
+• XLI: DELL +30.5% 1W on Pentagon deal is AI infrastructure theme bleeding into industrials; ETN +5.9% 1W
+
+**Positions:**
+• AVGO (long, +41.2% unreal at $426.58): **MANDATORY EARNINGS ALERT — Reports June 3.** Apollo/Blackstone shopping $36B debt deal to buy Google chips for Anthropic (Bloomberg/Reuters) — this directly validates AVGO's custom ASIC business with hyperscalers. Zacks: 'Broadcom BCM68850 Boosts Edge AI Push.' AVGO at 23.2x fwd P/E for 30% growth remains the most attractively valued major AI infrastructure name. The Anthropic $36B compute deal is a massive AVGO thesis validator. HOLD ALL 37 SHARES — do not trim before the print; the custom silicon ASIC story has never been stronger.
+• CIEN (long, +42.0% unreal at $570.18): **MANDATORY EARNINGS ALERT — Reports June 4.** Zacks: 'Ciena Earnings Expected to Grow: Should You Buy?' — constructive framing. CIEN at 65.2x fwd P/E for 33% growth is stretched but AI optical networking demand is accelerating. Position is only 2 shares (~$1,140 = <1% of portfolio). HOLD both shares into print — the optical networking thesis is intact and the tiny position means minimal risk.
+• COST (long, +1.2% unreal at $995.20): **MANDATORY EARNINGS ALERT — REPORTED TODAY.** Mixed result — 'Costco rides consumer spending surge to stellar Q3 earnings' (Investing.com) vs 'Misses Earnings Estimates' per Barrons and 'Tops Sales Views But Earnings, Membership Numbers Fall Short' (IBD). Record-breaking gas sales. Stock -7.3% 1W into the print. The miss on earnings/membership numbers is modestly negative but membership moat (90%+ renewal) is intact. Position is only 3 shares (~$2,986 = ~2.2% portfolio weight). HOLD — the membership thesis is intact; miss appears driven by gas margin compression not structural deterioration.
+• PANW (long, +52.4% unreal at $257.77): **MANDATORY EARNINGS ALERT — Reports June 2 (5 days).** OKTA beat estimates this quarter (Zacks) — constructive read for cybersecurity sector broadly. SentinelOne guide-down is negative for smaller players. PANW near ATH at -1.4%. The dual headwind from Google AI security platform and ZS guide-down remains. However, OKTA beat is a positive signal. HOLD ALL 20 SHARES — the platformization thesis (50+ security vendors into one) is distinct; OKTA beat reduces ZS-specific read-through risk; PANW's AI security spending story remains intact heading into June 2.
+• MRVL (long, +115.9% unreal at $204.83): GuruFocus: 'Marvell Lifts FY2027 Outlook As Revenue Growth Nears 40%' — CONFIRMED MASSIVE BEAT. Revenue growth guidance raised to ~40% for FY2027 — this exceeds all prior estimates. The hyperscaler custom ASIC thesis is at its absolute strongest point. +9.7% 1W post-earnings. HOLD ALL 40 SHARES — trimming at this exact moment of maximum thesis validation would be a strategic error.
+• MU (long, +98.3% unreal at $923.52): Crosses $1T valuation per GuruFocus. DA Davidson raises PT. 'Memory chip stocks just starting to show climactic top moves' (Yahoo Finance) is a cautionary note — monitor for potential climactic top signals. However, Wiwynn AI supply crunch until 2027-2028 = multi-year HBM demand confirmed. Stop at $395.81 remains CRITICALLY WIDE at 57% below current. HOLD all 10 shares — Wiwynn warning confirms the duration of the cycle.
+• ARM (long, +132.6% unreal at $335.27): +30.6% 1W extraordinary. GuruFocus: 'Nvidia's Next AI Wave Sparks Big Calls on Micron, Dell, Arm Stocks' — ARM directly named as a beneficiary of NVDA's Vera CPU buildout. At 109.7x fwd P/E this is extremely stretched but the royalty model leverage on every AI chip is the thesis. HOLD — thesis at maximum strength.
+• NVDA (long, +27.9% unreal at $214.25): -4.1% 1W continuing digestion. Motley Fool: 'Nvidia Already is the GPU Giant. Now It's Aiming to Dominate in a New $200 Billion Market' — server CPU market. Wiwynn supply crunch 2027-2028 = NVDA demand runway confirmed. At 16.9x fwd P/E for 85% growth — remains the best value/growth in portfolio. Stop at $142.39 CRITICALLY WIDE (flagged 20+ sessions — system limitation prevents update). HOLD 60 shares.
+• GLW (long, +23.7% unreal at $182.97): +1.3% 1W. Zacks: 'Why Is Corning Up 25.7% Since Last Earnings?' — constructive. The NVDA $3.2B optics partnership thesis intact. Stop at $130.17 remains critically wide (29% below current). HOLD.
+• AMD (long, +45.8% unreal at $518.09): +15.8% 1W extraordinary — near 52W high at -1.7%. 24/7 Wall St.: 'Is AMD About to Pop Like Micron?' — very constructive framing. At 40.0x fwd P/E for 38% growth. HOLD.
+• ALAB (long, +63.2% unreal at $349.17): +21.5% 1W near ATH at -1.5%. Simply Wall St. high insider ownership confirmed again. At 83.0x fwd P/E for 93% growth — exceptional PEG. HOLD.
+• VRT (long, +2.6% unreal at $314.18): -0.5% 1W. Oppenheimer raises PT after investor conference (Insider Monkey). At 35.6x fwd P/E for 30% growth — reasonable. HOLD.
+• META (long, +20.8% unreal at $635.29): +5.0% 1W. Anthropic nearing $1T valuation confirms AI model competition = META's open-source LLaMA strategy is directionally correct. At 17.6x fwd P/E for 33% growth — still one of the best value/growth ratios in portfolio. HOLD.
+
+**Cash:** At $1,346 (~1.0% floor) — fully deployed with maximum conviction; COST print is in (mixed but manageable); PANW June 2, AVGO June 3, and CIEN June 4 are the next critical events; no new positions possible at cash floor.
+**Benchmarks**: SPY 1D +0.5% | QQQ 1D +0.8% | SMH 1D +0.7%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+36,940.31 (+36.94%) | Daily +1.97%
+
+---
+
