@@ -1,39 +1,39 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-05-28 18:49 ET*
+*Last updated: 2026-05-29 18:45 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+36,940.31 (+36.94%) |
+| Total P&L | $+39,339.35 (+39.34%) |
 | Realized P&L | $-763.29 |
-| Unrealized P&L | $+37,703.60 |
-| Cash | $1,346.01 (1.0%) |
-| Long Exposure | $137,224.08 |
+| Unrealized P&L | $+40,102.64 |
+| Cash | $1,346.01 (0.9%) |
+| Long Exposure | $139,623.12 |
 | Short Exposure | $0.00 |
-| Net Exposure | $137,224.08 |
+| Net Exposure | $139,623.12 |
 | Win Rate | 0.2 (5 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $214.25 | $12,855.00 | $+2,803.80 | +27.9% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $426.99 | $11,955.72 | $+1,966.16 | +19.7% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $211.14 | $12,668.40 | $+2,617.20 | +26.0% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $450.24 | $12,606.72 | $+2,617.16 | +26.2% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 60 | $207.50 | $274.00 | $16,440.00 | $+3,990.20 | +32.1% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $426.58 | $15,783.46 | $+4,603.30 | +41.2% | $255.58 |
-| ARM | LONG | 39 | $144.13 | $335.27 | $13,075.53 | $+7,454.46 | +132.6% | $122.51 |
-| MRVL | LONG | 40 | $94.88 | $204.83 | $8,193.20 | $+4,398.00 | +115.9% | $83.49 |
-| EQIX | LONG | 5 | $963.00 | $1069.44 | $5,347.20 | $+532.20 | +11.1% | $866.70 |
-| CIEN | LONG | 2 | $401.61 | $570.18 | $1,140.36 | $+337.14 | +42.0% | $341.37 |
-| META | LONG | 8 | $525.72 | $635.29 | $5,082.32 | $+876.56 | +20.8% | $446.86 |
-| COST | LONG | 3 | $983.86 | $995.20 | $2,985.60 | $+34.02 | +1.2% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $424.86 | $3,823.74 | $+750.33 | +24.4% | $300.51 |
-| PANW | LONG | 20 | $169.18 | $257.77 | $5,155.40 | $+1,771.75 | +52.4% | $143.62 |
-| GLW | LONG | 15 | $147.92 | $182.97 | $2,744.55 | $+525.75 | +23.7% | $130.17 |
-| MU | LONG | 10 | $465.66 | $923.52 | $9,235.20 | $+4,578.60 | +98.3% | $395.81 |
-| VRT | LONG | 16 | $306.18 | $314.18 | $5,026.88 | $+128.00 | +2.6% | $260.25 |
-| AMD | LONG | 9 | $355.26 | $518.09 | $4,662.81 | $+1,465.47 | +45.8% | $301.97 |
-| ALAB | LONG | 11 | $213.91 | $349.17 | $3,840.87 | $+1,487.86 | +63.2% | $171.13 |
+| AMZN | LONG | 60 | $207.50 | $270.64 | $16,238.40 | $+3,788.60 | +30.4% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $446.77 | $16,530.49 | $+5,350.33 | +47.9% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $353.29 | $13,778.31 | $+8,157.24 | +145.1% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $205.00 | $8,200.00 | $+4,404.80 | +116.1% | $83.49 |
+| EQIX | LONG | 5 | $963.00 | $1068.04 | $5,340.20 | $+525.20 | +10.9% | $866.70 |
+| CIEN | LONG | 2 | $401.61 | $580.23 | $1,160.46 | $+357.24 | +44.5% | $341.37 |
+| META | LONG | 8 | $525.72 | $632.51 | $5,060.08 | $+854.32 | +20.3% | $446.86 |
+| COST | LONG | 3 | $983.86 | $956.32 | $2,868.96 | $-82.62 | -2.8% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $418.45 | $3,766.05 | $+692.64 | +22.5% | $300.51 |
+| PANW | LONG | 20 | $169.18 | $281.69 | $5,633.80 | $+2,250.15 | +66.5% | $143.62 |
+| GLW | LONG | 15 | $147.92 | $181.16 | $2,717.40 | $+498.60 | +22.5% | $130.17 |
+| MU | LONG | 10 | $465.66 | $971.00 | $9,710.00 | $+5,053.40 | +108.5% | $395.81 |
+| VRT | LONG | 16 | $306.18 | $315.71 | $5,051.36 | $+152.48 | +3.1% | $260.25 |
+| AMD | LONG | 9 | $355.26 | $516.10 | $4,644.90 | $+1,447.56 | +45.3% | $301.97 |
+| ALAB | LONG | 11 | $213.91 | $342.85 | $3,771.35 | $+1,418.34 | +60.3% | $171.13 |
 
 ## PM Narrative
-Portfolio is generating exceptional alpha at +36.9% total P&L vs SPY +6.0% 1M / QQQ +11.9% 1M / SMH +22.1% 1M — the AI infrastructure thesis is fully vindicated and accelerating. Today's key developments: (1) US-Iran deal reportedly reached, deflating geopolitical risk premium and compressing energy costs; (2) Core PCE eased unexpectedly — mild positive for growth multiples; (3) MRVL confirmed massive beat with FY2027 revenue growth guidance raised to ~40%; (4) MU crosses $1T at $923; (5) DELL +30.5% 1W on $9.69B Pentagon deal + $60B AI server raise; (6) Wiwynn warning AI supply crunch until 2027-2028 confirms multi-year investment thesis duration. All four earnings-alert positions addressed: COST (mixed print, hold 3 shares — membership moat intact), PANW (hold 20 shares into June 2 — OKTA beat reduces ZS read-through concern), AVGO (hold 37 shares into June 3 — Anthropic $36B compute deal is direct ASIC thesis validator), CIEN (hold 2 shares into June 4 — tiny position, optical networking thesis intact). Portfolio is fully deployed at cash floor with 18 high-conviction positions across AI infrastructure hardware (NVDA, AVGO, MRVL, ALAB, ARM, AMD, MU, TSM), AI software/platform (META, MSFT, GOOGL, AMZN, PANW), and AI physical infrastructure (VRT, GLW, EQIX, CIEN, COST). No trades warranted — all theses intact and strengthening.
+Portfolio at +39.3% total P&L generating extraordinary alpha vs SPY (+6.3% 1M), QQQ (+11.6% 1M), and SMH (+19.9% 1M). The portfolio is fully deployed at maximum conviction with three critical earnings events in the next 72 hours: PANW (June 2), AVGO (June 3), CIEN (June 4). The bull case has never been stronger: OKTA's +37.8% 1W earnings beat is the most constructive possible read-through for PANW's June 2 platformization story; Anthropic's $36B Apollo/Blackstone compute deal directly validates AVGO's custom ASIC thesis; and IBD explicitly named CIEN as an AI earnings play for June 4. The AI infrastructure supercycle is confirmed at every layer — DELL's $9.69B DoD deal + $60B AI server guidance raise, MU at $971 with Barrons 'Memory Shortage Is Just Beginning,' ARM near ATH at +145.1% unrealized, and the S&P 500 at record highs for the ninth consecutive week. The portfolio is positioned exactly where it should be: fully invested in the best businesses at the center of the AI compute supercycle. Patience is the correct discipline ahead of three critical prints.
