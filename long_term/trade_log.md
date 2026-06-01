@@ -1025,3 +1025,46 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-06-01 19:06 ET — Run ID: long_term-20260601-1906
+**Market**: after-hours | 19:06 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON — S&P 500 continuing weekly gains, Nasdaq tech stocks lifting on Computex AI announcements; Anthropic IPO filing at ~$1T valuation signals AI investment cycle at maximum intensity; Berkshire investing $10B in Alphabet $80B equity raise is watershed moment; VIX contained; structural AI-driven bull market intact
+• Fed/rates: No material Fed developments; higher-for-longer base case intact; oil rising slightly on Middle East tensions but no material yield spike; bond markets stable
+• Growth cycle: NVDA Computex announcements massive — new AI chip for personal computers (RTX Spark), Vera Rubin NVL72 deployment at CoreWeave, ARM joining NVDA PC effort; MU hits new ATH +37.9% 1W at $1,035 — first $1T+ memory stock; Alphabet $80B equity raise for AI infrastructure with Berkshire buying $10B stake is the single most significant macro event of the session; CRDO beat estimates but stock plunges on guidance/valuation reset — watch for AVGO read-through
+• Macro catalyst: Alphabet $80B AI infrastructure equity raise + Berkshire $10B investment = institutional confirmation of multi-year AI capex cycle; NVDA Computex product cycle accelerating into PCs = new TAM expansion; Anthropic confidential IPO filing = AI investment cycle at maximum intensity
+
+**Sectors:**
+• SMH (semis): +5.5% 1W / +20.0% 1M leading all benchmarks — MU +37.9% 1W at new ATH $1,035; ARM +33.4% 1W at record high on NVDA PC chip announcement; AVGO +11.1% 1W heading into June 3 print; MRVL +11.8% 1W at new ATH; ALAB +4.3% 1W continuing strength — semi complex broadly at ATHs validating AI supercycle
+• IGV (software): PANW +15.3% 1W at -0.8% from ATH heading into tonight's print (June 2); CRWD +17.9% 1W near ATH ahead of June 3; ORCL +29.2% 1W ahead of June 10; software broadly surging on AI demand theme
+• XLK (broad tech): NVDA +4.2% 1W on Computex; MSFT +10.0% 1W (RTX Spark partnership with NVDA, Morgan Stanley AI revenue discussion); DELL +57.9% 1W extraordinary on AI server demand — AI infrastructure supercycle at maximum acceleration
+• XLY vs XLP: COST -8.0% 1W post-mixed print — downward pressure on consumer-facing; broader risk-on with AI infrastructure names overwhelming consumer softness
+• XLF: GS +5.2% 1W near ATH; Alphabet $80B raise with Berkshire validates AI financing supercycle
+
+**Positions:**
+• PANW (long, +77.6% unreal at $300.48): **MANDATORY EARNINGS ALERT — Reports TONIGHT June 2.** Jim Cramer: 'This Stock Tends to Run Into the Quarter' — constructive signal. PANW +15.3% 1W near ATH at -0.8%. OKTA +51.5% 1W on beat = most constructive possible cybersecurity read-through. Platformization thesis distinct from OKTA. HOLD ALL 20 SHARES into tonight's print — thesis at maximum strength, stock near ATH, sector momentum exceptional.
+• AVGO (long, +52.2% unreal at $459.97): **MANDATORY EARNINGS ALERT — Reports June 3 (TOMORROW).** IBD names Broadcom with NVDA on curated watchlist; Anthropic IPO filing validates ASIC custom chip thesis; at 24.8x fwd P/E for 30% growth remains the most attractively valued major AI infrastructure name. HOLD ALL 37 SHARES — the setup has never been stronger.
+• CIEN (long, +41.8% unreal at $569.61): **MANDATORY EARNINGS ALERT — Reports June 4.** Jim Cramer: 'There's More Than Enough Room for It to Grow for This One' — directly bullish. Zacks: 'What Should Investors Do With Ciena Stock Ahead of Q2 Earnings?' Still holds constructive framing. At 64.9x fwd P/E for 33% growth tiny 2-share position. HOLD both shares into print — Jim Cramer bullish read is the most constructive signal yet.
+• NVDA (long, +33.9% unreal at $224.36): Computex massive — new RTX Spark AI chip for personal computers, Vera Rubin NVL72 at CoreWeave deployment; ARM joining NVDA PC effort; Jensen Huang 'perfectly explained the AI stock boom' per Yahoo Finance. At 17.7x fwd P/E for 85% growth this remains the single best value/growth in portfolio. HOLD all 60 shares. Stop at $142.39 CRITICALLY WIDE — flagged for 30+ consecutive sessions (system limitation).
+• MU (long, +122.4% unreal at $1,035.50): New ATH at $1,035 — Motley Fool 'Why Micron Stock Hit a New All-Time High Today'; Barrons 'Micron and 6 Other Stocks Set to Win Big From the AI Bottleneck'; MU +37.9% 1W extraordinary. Thesis completely vindicated. Stop at $395.81 is CRITICALLY WIDE at 62% below current — flagged 30+ sessions.
+• ARM (long, +183.7% unreal at $408.85): New record high on NVDA announcement — 'Why Arm Stock Hit A Record High on Nvidia's Chip Announcement' (Barrons); IBD: 'Arm Stock Jumps As Chip Designer Joins Nvidia PC Effort'; Simply Wall St.: 'Arm's Role Widens In AI PCs And Data Centers With Nvidia.' +33.4% 1W. At 133.6x fwd P/E extremely stretched but the NVDA PC chip announcement is a step-change expansion of ARM's royalty opportunity into personal computing. HOLD — thesis at absolute maximum strength.
+• MRVL (long, +131.3% unreal at $219.43): New ATH per Motley Fool — 'Marvell Technology Stock Hits a New All-Time High. Is It Still a Buy?' +11.8% 1W. Custom ASIC thesis vindicated. Zacks blog highlights NVDA and MRVL together. HOLD 40 shares.
+• GOOGL (long, +0.0% display at $274.34 but GOOG at $372.58 = approx +35.8% actual): Alphabet $80B equity raise for AI infrastructure with Berkshire buying $10B — this is the most significant fundamental development for GOOGL. 'Alphabet to Issue $80 Billion of Equity for AI Buildout. Berkshire to Buy $10 Billion' (Barrons). At 25.7x fwd P/E for 22% growth with Berkshire validation — HOLD.
+• COST (long, -3.8% unreal at $946.11): Barrons: 'Costco Stock Slumps—and It Looks Like a Buying Opportunity'; Jefferies: 'membership growth support outlook after strong quarter'; -8.0% 1W post-mixed print. Thesis intact — membership moat durable. HOLD 3 shares.
+• META (long, +14.2% unreal at $600.47): -1.6% 1W slight pullback. Motley Fool: '3 Trillion-Dollar AI Stocks to Buy Now' includes META. At 16.6x fwd P/E for 33% growth remains extraordinary value. HOLD.
+• MSFT (long, +29.1% unreal at $460.52): +10.0% 1W — NVDA RTX Spark partnership on Windows PCs, Morgan Stanley discusses AI revenue outlook constructively. At 23.8x fwd P/E for 18% growth. HOLD.
+• GLW (long, +19.5% unreal at $176.70): TipRanks: 'Nvidia Bets $6.5B on Photonics to Solve AI's Next Big Bottleneck' — directly constructive for GLW's NVDA photonics partnership. -8.8% 1W pullback. Insider buying confirmed (Leopold Aschenbrenner new holding). Stop at $130.17 critically wide. HOLD.
+• AMD (long, +43.6% unreal at $510.13): +9.1% 1W; DriveNets secures $410M funding with AMD as investor; NVDA PC chip announcement benefits AMD PC competition read-through; near ATH at -3.2%. HOLD.
+• TSM (long, +27.6% unreal at $435.63): TSMC hits new peak as NVDA fuels new AI infrastructure wave (GuruFocus); +7.7% 1W near ATH at -3.1%. Manufacturing moat thesis intact. HOLD.
+• ALAB (long, +49.6% unreal at $320.09): Simply Wall St. 'June 2026 Leading Growth Stocks With Insider Influence' — positive insider signal. +4.3% 1W. HOLD.
+• VRT (long, +5.6% unreal at $323.39): Simply Wall St. 'Vertiv's AI-Focused Bolt-On Acquisition Push' constructive; Zacks 'Vertiv Rides on Strong Operating Margin Expansion.' -1.2% 1W flat. HOLD.
+• EQIX (long, +9.1% unreal at $1,050.77): -2.7% 1W slight pullback. Data center interconnection moat intact. HOLD 5 shares.
+• AMZN (long, +25.9% unreal at $261.26): -1.9% 1W. AMZN ranks among stocks most bought by hedge funds in Q1 2026 (Insider Monkey). Meta, Alphabet, Amazon getting hooked on debt to fuel AI boom — this is AWS demand confirmation. HOLD.
+
+**Cash:** At $1,346 (~0.9% floor) — fully deployed at maximum conviction; PANW reports tonight, AVGO tomorrow, CIEN June 4; all three earnings alerts addressed with HOLD decisions; no new positions possible at cash floor; key Computex and Alphabet developments all reinforce existing portfolio thesis at maximum strength.
+**Benchmarks**: SPY 1D +0.3% | QQQ 1D +0.6% | SMH 1D +1.5%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+43,622.80 (+43.62%) | Daily +3.04%
+
+---
+
