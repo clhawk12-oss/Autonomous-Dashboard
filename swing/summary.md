@@ -1,41 +1,41 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-05-29 18:42 ET*
+*Last updated: 2026-06-01 19:05 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+21,398.47 (+21.40%) |
-| Realized P&L | $-3,570.17 |
-| Unrealized P&L | $+24,968.64 |
-| Cash | $47,990.00 (36.4%) |
-| Long Exposure | $83,760.04 |
+| Total P&L | $+24,940.74 (+24.94%) |
+| Realized P&L | $-3,480.97 |
+| Unrealized P&L | $+28,421.71 |
+| Cash | $49,115.50 (36.5%) |
+| Long Exposure | $85,532.86 |
 | Short Exposure | $0.00 |
-| Net Exposure | $83,760.04 |
-| Win Rate | 0.706 (17 closed) |
+| Net Exposure | $85,532.86 |
+| Win Rate | 0.722 (18 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 7 | $144.13 | $353.29 | $2,473.03 | $+1,464.12 | +145.1% | $135.48 |
-| MRVL | LONG | 30 | $99.87 | $205.00 | $6,150.00 | $+3,154.03 | +105.3% | $87.29 |
-| NVDA | LONG | 30 | $176.96 | $211.14 | $6,334.20 | $+1,025.40 | +19.3% | $165.68 |
-| MU | LONG | 8 | $367.85 | $971.00 | $7,768.00 | $+4,825.20 | +164.0% | $331.07 |
-| TSM | LONG | 18 | $355.65 | $418.45 | $7,532.10 | $+1,130.43 | +17.7% | $314.17 |
-| SNDK | LONG | 2 | $773.28 | $1694.98 | $3,389.96 | $+1,843.40 | +119.2% | $645.46 |
-| AMD | LONG | 9 | $220.18 | $516.10 | $4,644.90 | $+2,663.28 | +134.4% | $202.57 |
-| WDC | LONG | 2 | $304.15 | $531.21 | $1,062.42 | $+454.12 | +74.7% | $282.86 |
-| AVGO | LONG | 13 | $362.23 | $446.77 | $5,808.01 | $+1,099.07 | +23.3% | $326.09 |
-| ORCL | LONG | 10 | $163.00 | $225.78 | $2,257.80 | $+627.80 | +38.5% | $149.96 |
-| DDOG | LONG | 15 | $129.29 | $247.35 | $3,710.25 | $+1,770.90 | +91.3% | $120.24 |
-| DELL | LONG | 3 | $214.65 | $420.91 | $2,525.46 | $+1,237.56 | +96.1% | $201.77 |
-| AMZN | LONG | 5 | $263.04 | $270.64 | $1,353.20 | $+38.00 | +2.9% | $244.63 |
-| GOOG | LONG | 5 | $347.31 | $376.43 | $1,882.15 | $+145.60 | +8.4% | $323.00 |
-| GLW | LONG | 18 | $181.57 | $181.16 | $3,260.88 | $-7.38 | -0.2% | $168.86 |
-| CRWD | LONG | 7 | $556.19 | $731.00 | $5,117.00 | $+1,223.68 | +31.4% | $485.55 |
-| PANW | LONG | 7 | $215.60 | $281.69 | $1,971.83 | $+462.63 | +30.7% | $198.35 |
-| CSCO | LONG | 50 | $101.87 | $120.42 | $6,021.00 | $+927.50 | +18.2% | $94.74 |
-| NBIS | LONG | 25 | $207.27 | $231.09 | $5,777.25 | $+595.50 | +11.5% | $186.54 |
-| CRDO | LONG | 20 | $221.64 | $236.03 | $4,720.60 | $+287.80 | +6.5% | $199.48 |
+| ARM | LONG | 7 | $144.13 | $408.85 | $2,861.95 | $+1,853.04 | +183.7% | $135.48 |
+| MRVL | LONG | 30 | $99.87 | $219.43 | $6,582.90 | $+3,586.93 | +119.7% | $87.29 |
+| NVDA | LONG | 30 | $176.96 | $224.36 | $6,730.80 | $+1,422.00 | +26.8% | $165.68 |
+| MU | LONG | 8 | $367.85 | $1035.50 | $8,284.00 | $+5,341.20 | +181.5% | $331.07 |
+| TSM | LONG | 18 | $355.65 | $435.63 | $7,841.34 | $+1,439.67 | +22.5% | $314.17 |
+| SNDK | LONG | 2 | $773.28 | $1761.43 | $3,522.86 | $+1,976.30 | +127.8% | $645.46 |
+| AMD | LONG | 9 | $220.18 | $510.13 | $4,591.17 | $+2,609.55 | +131.7% | $202.57 |
+| WDC | LONG | 2 | $304.15 | $546.20 | $1,092.40 | $+484.10 | +79.6% | $282.86 |
+| AVGO | LONG | 13 | $362.23 | $459.97 | $5,979.61 | $+1,270.67 | +27.0% | $326.09 |
+| ORCL | LONG | 10 | $163.00 | $248.15 | $2,481.50 | $+851.50 | +52.2% | $149.96 |
+| DDOG | LONG | 15 | $129.29 | $277.49 | $4,162.35 | $+2,223.00 | +114.6% | $120.24 |
+| DELL | LONG | 3 | $214.65 | $465.96 | $1,397.88 | $+753.93 | +117.1% | $201.77 |
+| AMZN | LONG | 5 | $263.04 | $261.26 | $1,306.30 | $-8.90 | -0.7% | $244.63 |
+| GOOG | LONG | 5 | $347.31 | $372.58 | $1,862.90 | $+126.35 | +7.3% | $323.00 |
+| GLW | LONG | 18 | $181.57 | $176.70 | $3,180.60 | $-87.66 | -2.7% | $168.86 |
+| CRWD | LONG | 7 | $556.19 | $782.17 | $5,475.19 | $+1,581.87 | +40.6% | $485.55 |
+| PANW | LONG | 7 | $215.60 | $300.48 | $2,103.36 | $+594.16 | +39.4% | $198.35 |
+| CSCO | LONG | 50 | $101.87 | $121.33 | $6,066.50 | $+973.00 | +19.1% | $94.74 |
+| NBIS | LONG | 25 | $207.27 | $264.51 | $6,612.75 | $+1,431.00 | +27.6% | $186.54 |
+| NOW | LONG | 25 | $135.86 | $135.86 | $3,396.50 | $+0.00 | +0.0% | $124.99 |
 
 ## PM Narrative
-Markets at record highs with DELL's blowout quarter (+66.5% 1W) being the defining catalyst, confirming AI server demand at the highest level ever. Four earnings events loom in the next 5 days (CRDO June 1, PANW June 2, AVBO/CRWD June 3). The OKTA earnings beat is the most important new development — OKTA surged +37.8% 1W on AI-driven identity demand, directly reversing the ZS-driven cybersecurity pessimism. This is a positive read-through for CRWD and PANW going into their prints. I am holding all cyber positions into earnings given OKTA's validation. Taking partial profits on 3 DELL shares after the extraordinary blowout run — booking gains on a massive winner while keeping core exposure. All other positions held: AVGO setup is maximally bullish (2.13x vol ratio), MU at +164% unrealized continues to benefit from memory shortage thesis, ARM/MRVL/DDOG/MU/SNDK are all strong winners I want to let run. Cash at ~37% is appropriate with four binary events upcoming. Watching Computex 2026 next week as a potential NVDA/AMD catalyst.
+The dominant action today is exiting CRDO immediately after its post-earnings 'plunge' per IBD — gross margin compression disappointed despite 157% revenue growth, and the binary event has resolved negatively against our pre-earnings momentum thesis. We sell all 20 shares at $226.10 to preserve the small +2% gain. Simultaneously, we initiate a 25-share position in NOW (ServiceNow) which is showing extraordinary +33% 1W momentum with a 2.06x vol ratio — the strongest momentum name outside our portfolio without an imminent earnings binary. This swap trades a spent earnings catalyst for a fresh momentum setup. For the four earnings alerts: CRDO is now exited; PANW (reports tomorrow) and AVGO/CRWD (report June 3) are all HELD — the OKTA +51.5% beat this week provides very strong positive read-through for cybersecurity, and AVGO's institutional accumulation (1.43x vol ratio) signals a clean beat is expected. The broader portfolio remains excellent: ARM hit a record high on NVDA's Computex AI PC chip announcement (+33.4% 1W), MU hit ATH (+37.9% 1W joining $1T club), DDOG is at ATH (+24.8% 1W), ORCL surged +29.2% 1W on infrastructure partnerships. Alphabet's $80B AI equity raise with Berkshire investing $10B confirms the AI capex super-cycle is accelerating — strongly validating our AI-heavy positioning. Cash at ~38% post-trades is appropriate given PANW reports tomorrow and AVGO/CRWD report June 3.
