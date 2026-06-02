@@ -1079,3 +1079,45 @@ DECISION: HOLD ALL 30 SHARES. As analyzed in positions section — fwd P/E 19.5x
 
 ---
 
+### 2026-06-02 19:04 ET — Run ID: swing-20260602-1904
+**Market**: after-hours | 19:04 ET
+**Reasoning**: **Macro:**
+• Risk regime: Risk-on firmly intact — S&P 500, Nasdaq, Dow all hitting record highs. SPY +1.2% 1W, QQQ +2.2% 1W, SMH +5.0% 1W. AI capex super-cycle in full force: Alphabet $80B raise, Anthropic IPO approaching $1T, NVDA CEO publicly blessing MRVL as next trillion-dollar company. PANW just reported earnings beat — positive read-through for CRWD tonight.
+• Fed/rates: No new FOMC data. Higher-for-longer persists but completely overwhelmed by AI narrative. Trump signs EO scaling back AI review requirements — net positive for AI deployment.
+• Macro catalyst: PANW Q3 beat confirmed (Zacks 'Beats Q3 Earnings and Revenue Estimates', Barrons 'Palo Alto Earnings Just Proved AI Skeptics Wrong About Cybersecurity') — this is the key event. MRVL surging +39.6% 1W after Jensen Huang called it 'next trillion-dollar company' — extraordinary. CSCO +5% to record highs on AI cybersecurity push. GLW surging on Huang's copper-vs-optics call ($6.5B photonics bet). US-Iran ceasefire uncertainty remains tail risk.
+
+**Sectors:**
+• SMH (semis): +5.0% 1W led by MRVL extraordinary surge (+39.6% 1W, 3.08x vol ratio — Jensen Huang endorsement). ARM +25.4% 1W, continuing parabolic. MU +18.8% 1W continuing memory supercycle. TSM +8.3% 1W. Semi breadth excellent.
+• IGV (software/cyber): PANW beat confirmed tonight — 'AI Skeptics Wrong' (Barrons). CRWD +14.5% 1W ahead of its own earnings tonight. NOW +27.8% 1W continuing extraordinary momentum. ORCL +26.7% 1W — Larry Ellison now world's 3rd richest. Software sector broadly strong.
+• XLK (broad tech): CSCO +8.2% 1W to record highs. MSFT +6.1% 1W strong. GOOG -6.9% 1W dragging — $80B equity raise dilution concern weighing.
+• XLY vs XLP: WMT -4.7% 1W consumer stress signal continues. Consumer bifurcation persists.
+• XLF: GS +7.5% 1W, MS +6.6% 1W — financials participating strongly.
+• Optics/photonics: GLW +2.3% 1W, COHR +11.9% 1W, LITE +13.0% 1W all surging on Jensen Huang's copper-vs-optics preference call. This is a new theme.
+
+**Positions (Earnings Alerts addressed):**
+• PANW (long, +37.8%): EARNINGS ALERT — JUST REPORTED Q3 BEAT. Zacks 'Beats Q3 Earnings and Revenue Estimates.' Barrons 'Palo Alto Earnings Just Proved AI Skeptics Wrong About Cybersecurity.' IBD 'Dow Jones Futures: These Sectors Lead Market, Google Tests Support; Palo Alto Earnings Strong.' Motley Fool has earnings transcript. This is an unambiguous beat. DECISION: HOLD all 7 shares. The beat validates the platformization thesis completely. Stock likely gaps up tomorrow. Stop at $198.35 remains valid — well below.
+• CRWD (long, +38.3%): EARNINGS ALERT — reports tonight June 3 (after-hours). PANW's strong beat is the most positive possible read-through for CRWD. Both are AI security platform leaders. +14.5% 1W, essentially at ATH (-2.1%). Software Rallies 40% From April Lows per 24/7 Wall St. DECISION: HOLD all 7 shares. PANW beat plus AI security demand confirmation makes this the highest-conviction hold in the portfolio. Stop at $485.55 provides protection.
+• AVGO (long, +32.9%): EARNINGS ALERT — reports tonight June 3 (after-hours). 1.62x vol ratio institutional signal strong. Susquehanna resets AVGO price target ahead of earnings (TheStreet). Broadcom backing Anthropic $36B deal (Bloomberg). AVGO's hyperscaler ASIC thesis validated by every piece of AI infrastructure spending data. DECISION: HOLD all 13 shares. This should be a clean beat. The Anthropic $36B deal credit support is fresh positive confirmation.
+• NOW (long, -6.0%): NOW -6.0% unrealized, stop at $124.99. Current price $127.65. Stock is +27.8% 1W which is extraordinary — but my avg cost is $135.86, entered at the top of a 33% weekly surge. The position is dangerously close to stop ($124.99). News is generally positive (AI workflow recovery thesis intact) but some SaaS peers (Freshworks, Braze, Sprinklr) are down today per StockStory. Zacks 'Stock Declines While Market Improves' is concerning. DECISION: The stop at $124.99 is appropriate — I will let it run but acknowledge risk. The +27.8% 1W momentum suggests the broader trend is up. However, given my -6% unrealized loss and the stock declining while market improves today, this position needs monitoring.
+• MRVL (long, +191.2%): Jensen Huang called MRVL 'the next trillion-dollar company' — 3.08x vol ratio, +39.6% 1W, extraordinary. DECISION: HOLD. This is one of the best performing positions. The Jensen Huang endorsement is a major institutional catalyst.
+• ARM (long, +179.4%): +25.4% 1W continuing parabolic. ByteDance and Oracle named as AI CPU customers. Mizuho lifts PT after memory market analysis. Arm's $15B AI chip target may arrive early (GuruFocus). Stop at $135.48 is extremely far below. DECISION: HOLD — let winner run.
+• GLW (long, +10.4%): Jensen Huang's copper-vs-optics preference call sent optical stocks surging — GLW is 'Trading Up Today' per StockStory, NVDA bets $6.5B on photonics. This directly validates the GLW thesis. +2.3% 1W, stop at $168.86. Now that GLW has recovered from near-stop levels, HOLD firmly.
+• GOOG (long, +3.2%): -6.9% 1W — weakest large position. $80B equity raise is concerning the market re: dilution. IBD 'Google Tests Support.' This is the one position where thesis is under pressure. However, the AI capex narrative is confirmed and the $80B raise is actually bullish for AI infrastructure long-term. HOLD with awareness.
+• ORCL (long, +50.0%): +26.7% 1W extraordinary. Oracle reshaping AI data centers with clean power and ARM shift. Larry Ellison now world's 3rd richest. Zacks 'Stock Sinks As Market Gains' is a mild caution for today. HOLD — extraordinary winner.
+• DDOG (long, +108.2%): +20.3% 1W — back to ATH area. FedRAMP High win catalyst confirmed. HOLD.
+• NBIS (long, +25.7%): +25.2% 1W. Targeting 540% data center revenue growth by year-end (Motley Fool bullish). Compass Point raises PT. Risks: 'Before You Buy Nebius Stock, Make Sure You Understand These 2 Big Risks' (Motley Fool). HOLD — above stop.
+
+**New Opportunities:**
+• MRVL add: Jensen Huang 'next trillion-dollar company' at 3.08x vol ratio is extraordinary. However I already have 30 shares at +191.2% — chasing a +39.6% 1W move at $290 when cost is $99.87 creates P&L concentration risk. Will not add further.
+• COHR: +11.9% 1W, -1.6% from 52W high, 1.36x vol ratio, fwd P/E 52.7x on 20% revenue growth. Optical networking stocks surging on Jensen Huang photonics call. This is a fresh catalyst with direct NVDA tailwind. But at current prices and stretched fundamentals, risk/reward is less clear.
+• AXON: +27.2% 1W extraordinary. Public safety AI platform at -44.7% from 52W high. But Tr.P/E 197.6x, fwd P/E 46.4x on 34% growth — too expensive relative to growth for a swing trade at this juncture.
+• I currently have 19 positions. With CRWD and AVGO reporting tonight, I have two major binary events to navigate. Adding new positions now would increase risk unnecessarily. HOLD cash and current positioning.
+
+**Cash:** $49,115 (~35% of portfolio) is appropriate heading into the CRWD/AVGO earnings tonight. Two major binary events (CRWD, AVGO) with +38.3% and +32.9% unrealized gains respectively — preserving optionality to add on beats or manage downside on misses. Post-earnings, will reassess whether to trim winners or add on any dips. The cash level gives maximum flexibility for tomorrow's gap-opens.
+**Benchmarks**: SPY 1D +0.1% | QQQ 1D +0.5% | SMH 1D +4.0%
+
+
+**Portfolio after run**: Cash $49,115.50 | P&L $+27,740.65 (+27.74%) | Daily +2.08%
+
+---
+
