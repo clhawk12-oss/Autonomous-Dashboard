@@ -1111,3 +1111,39 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-06-03 19:09 ET — Run ID: long_term-20260603-1909
+**Market**: after-hours | 19:09 ET
+**Reasoning**: **Macro:**
+• Risk regime: MILD RISK-OFF — S&P 500 ended its winning streak today; Dow dropped 620 points on Middle East escalation fears (US-Iran tensions re-escalating); markets digesting AVGO and CRWD post-earnings; VIX elevated intraday; geopolitical risk premium returning
+• Fed/rates: Higher-for-longer base case intact; no material Fed developments; Iran escalation pushing oil higher which is mildly inflationary; manageable for AI infrastructure thesis given secular demand
+• Growth cycle: AVBO reported — 'Broadcom Beats Second-Quarter Views as AI Revenue More Than Doubles' (MT Newswires) but 'Broadcom stock falls despite Q2 earnings, guidance beat' (Yahoo Finance) — the stock is DOWN after a beat, suggesting the market had priced in perfection; CRWD also down despite earnings beat; MRVL continues to surge (+51.8% 1W) on Jensen Huang's 'next trillion-dollar company' endorsement; chip complex broadly at ATHs with MRVL/AMD leading
+• Macro catalyst: Iran re-escalation is the key new risk introducing geopolitical volatility; AVGO beat-but-sells-off is concerning for sentiment; ORCL reports June 10 is next major event; SpaceX IPO pricing at $135/share
+
+**Sectors:**
+• SMH (semis): +7.1% 1W / +25.9% 1M — MRVL +51.8% 1W extraordinary on Jensen endorsement; AMD +9.5% 1W at ATH; MU +16.3% 1W near ATH; ARM +36.0% 1W extraordinary; AVGO +13.6% 1W but selling off after-hours on beat-miss perception on guidance; SMH continues to massively outperform all benchmarks
+• IGV (software): PANW +12.9% 1W after confirmed beat — +65.8% unrealized; CRWD +15.8% 1W but selling off after-hours despite beat; cybersecurity mixed post-earnings; OKTA +39.3% 1W massive; NET +26.8% 1W surging
+• XLK (broad tech): NVDA +1.0% 1W consolidating at $214; MSFT +3.5% 1W steady; AMZN -8.0% 1W notable weakness; broad AI infrastructure theme intact but individual stock reactions post-earnings showing 'sell the news'
+• XLY vs XLP: COST -4.2% 1W continuing post-print weakness; consumer defensive relative underperformance vs AI growth names
+• XLF: GS +4.9% 1W near ATH; KKR/BX under pressure on private-credit jitters; financials mixed
+• XLE: XOM +3.1% 1W on Iran escalation oil price support — this is a macro risk to monitor
+
+**Positions:**
+• AVGO (long, +58.6% unreal): **MANDATORY EARNINGS ALERT — REPORTED TONIGHT June 3.** 'Broadcom Beats Second-Quarter Views as AI Revenue More Than Doubles' — this IS a beat. However 'Broadcom stock falls despite Q2 earnings, guidance beat' and 'Broadcom stock sinks after hours as AI chip sales forecast disappoints' — the guidance on AI chip revenue may have disappointed relative to extremely elevated expectations. 'Dow Jones Futures: Broadcom, CrowdStrike Dive On Earnings.' The current price in my portfolio is $479.23; the after-hours reaction appears negative. At 58.6% unrealized on 37 shares this is a significant gain. The beat is confirmed but the market's reaction is punishing even beats. The AI revenue doubling is the thesis validation — the sell-off is likely 'sell the news' given AVGO had already run +13.6% 1W into earnings. HOLD ALL 37 SHARES — the custom ASIC thesis is fully intact, AI revenue doubled, and this is a thesis-confirming beat even if the initial reaction is negative. Post-earnings digestion often reverses within 1-3 weeks for quality businesses.
+• CIEN (long, +54.5% unreal): **MANDATORY EARNINGS ALERT — REPORTS TOMORROW June 4.** IBD today: 'Dow Jones Futures: Broadcom, CrowdStrike Dive On Earnings; SpaceX IPO Price Target Set' — the market is punishing beats right now due to extreme expectations. CIEN at $620.37 is +6.6% 1W and at -2.7% from 52W high — very constructive setup heading into tomorrow's print. Jensen Huang's copper-vs-optics call remains the most constructive possible pre-earnings catalyst. The 'Ciena Taps Cloud And Subsea Demand In Cirion And Biznet Wins' headline confirms revenue momentum. Position is only 2 shares (~$1,241 = <1% of portfolio). HOLD BOTH SHARES into the print — the optical networking thesis has never been stronger; the tiny position means minimal damage even if the market's 'punish beats' mood continues; Jensen's endorsement of optics is directly constructive.
+• MRVL (long, +217.9% unreal): Jensen Huang confirms 'next trillion-dollar company' — the stock is +51.8% 1W at $301.65 and the IBD headline today is 'Marvell, AMD Rally, Lead Chip Stocks To Record High.' The portfolio's biggest winner by both % and dollar amount. At 49.0x fwd P/E for 28% growth (post-Jensen re-rating this multiple will expand further) — HOLD ALL 40 SHARES. This is a structural re-rating event, not a momentum trade.
+• ARM (long, +185.7% unreal): +36.0% 1W at $411.83 — 'ARM Shares Surge 270% in 2026: Buy, Hold, or Wait for a Pullback?' (Zacks), 'ARM Stock Is Supercharging Its Path to $15 Billion in Chip Sales' (Barchart). At 134.6x fwd P/E extremely stretched but NVIDIA Computex PC entry announcement is directly constructive for ARM royalties. 'Nvidia, Arm and Marvell emerge as key Computex winners' (GuruFocus). HOLD.
+• MU (long, +131.8% unreal): +16.3% 1W near ATH at $1,079. 'These Experts Say the Memory-Stock Runup May Not Be Over Yet' (Investopedia); 'Micron Price Targets Rise as Memory Shortage Continues' (GuruFocus). At 10.2x fwd P/E for 196% growth — the most extraordinary value/growth combination in the portfolio. Stop at $395.81 remains critically wide — flagged 35+ sessions; system limitation.
+• PANW (long, +65.8% unreal): Beat confirmed — 'Palo Alto Networks Q3 Earnings and Revenues Surpass Estimates' (Zacks). +12.9% 1W at $280.43. 'Stock Market Today: Dow Drops 620 Points After Iran War Jitters; Broadcom Hits Highs' — PANW performing well even in today's sell-off. Platformization thesis fully vindicated. HOLD.
+• AMZN (long, -8.0% 1W): Notable weakness this week at $250 vs my cost of $207.50 = +20.5% unrealized still. 'Meta, Microsoft, Amazon, and Alphabet are about to spend a shocking amount of money to dominate the AI era' — AWS capex confirms the thesis. The -8.0% 1W is concerning but no fundamental thesis break. The AMZN weakness appears macro/rotation driven. HOLD.
+• GOOG (long, -7.6% 1W): $80B equity raise dilution concerns continue to weigh; 'Alphabet's $80 billion stock sale shows how expensive AI is getting.' At 24.5x fwd P/E for 22% growth with Berkshire validation — the dilution is temporary; the AI infrastructure commitment is the multi-year thesis. HOLD.
+• COST (long, -2.2% unreal): -4.2% 1W post-print. 'Is Costco Stock a Buy, Hold or Sell After Its Q3 Earnings Beat?' (Zacks). The membership moat thesis is intact. HOLD 3 shares.
+• GLW (long, +35.7% unreal): +5.3% 1W at $200.76 — 'When Nvidia's CEO Speaks, This Stock Listens' (Trefis). Jensen's optics endorsement continues to directly benefit GLW. HOLD.
+
+**Cash:** At $1,346 (~0.9% floor) — fully deployed with maximum conviction; AVGO beat-but-sold-off is the key post-earnings development to monitor; CIEN reports tomorrow June 4; ORCL reports June 10; Iran escalation introduces geopolitical volatility; cash floor prevents any new position initiation regardless of opportunity.
+**Benchmarks**: SPY 1D -0.7% | QQQ 1D -0.3% | SMH 1D +0.9%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+47,328.71 (+47.33%) | Daily -0.24%
+
+---
+
