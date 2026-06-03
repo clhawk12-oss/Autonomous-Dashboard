@@ -1121,3 +1121,45 @@ DECISION: HOLD ALL 30 SHARES. As analyzed in positions section — fwd P/E 19.5x
 
 ---
 
+### 2026-06-03 19:07 ET — Run ID: swing-20260603-1907
+**Market**: after-hours | 19:07 ET
+**STOP_LOSS** SELL 25 NOW @ $117.90 → P&L $-449.00
+**Reasoning**: **Macro:**
+• Risk regime: Risk-off signal emerging — Dow dropped 620 points on Iran war escalation fears. SPY +0.5% 1W but market lost its winning streak. Middle East tensions re-escalating sharply as a new catalyst. Iran war fears driving oil higher (XOM +3.1% 1W) which creates inflation/rate headwinds for growth names.
+• Fed/rates: Higher-for-longer persists. No new FOMC data. Rising oil prices from Iran escalation create fresh inflation concerns and could push Fed cut timeline further out.
+• Macro catalyst: Iran war escalation is the dominant new risk — Dow -620 on this alone. CRWD and AVGO both reported AFTER HOURS — CRWD beat on earnings/revenue but guided modestly and stock is SINKING 13% AH (Stocktwits). AVGO beat Q2 earnings with AI revenue doubling but stock also falling AH per Yahoo Finance. Both are major binary events that resolved with 'beat but disappoint on guidance' pattern. SpaceX IPO priced at $135/share is a positive catalyst for sentiment but not directly relevant to our holdings.
+
+**Sectors:**
+• SMH (semis): +7.1% 1W led by MRVL +51.8% 1W (Jensen Huang 'next trillion company'), AMD +9.5% 1W, ARM +36% 1W. Extraordinary semi breadth. However Iran war fears hit late session broadly.
+• IGV (software/cyber): CRWD +15.8% 1W heading into earnings, now facing 13% AH drop on guidance disappointment. PANW held firm after own beat. OKTA +39.3% 1W is extraordinary. DDOG +12.9% 1W continuing.
+• XLK (broad tech): NVDA +1.0% 1W relatively steady. CSCO +5.7% 1W at record highs. MSFT +3.5% 1W solid.
+• XLY vs XLP: Consumer stocks falling behind per Barrons. WMT -1.4% 1W continuing weakness. Risk-off consumer signal persists.
+• XLE: XOM +3.1% 1W — energy surging on Iran escalation, classic risk-off rotation.
+• XLF: Financial stocks declining late afternoon — KKR, Blackstone tumbling on private-credit jitters.
+
+**Positions (Earnings Alerts addressed):**
+• CRWD (long, +34.4%): EARNINGS ALERT — JUST REPORTED. Stocktwits: 'CrowdStrike Beats Q1 Estimates On Earnings And Revenue — But Stock Sinks 13% After-Hours On Modest Guidance.' Barrons: 'CrowdStrike Stock Falls Despite Earnings Beat.' IBD: 'Broadcom, CrowdStrike Dive On Earnings.' Zacks: 'CrowdStrike Holdings (CRWD) Tops Q1 Earnings and Revenue Estimates.' DECISION: The beat is confirmed but guidance disappointed. 13% AH drop means CRWD will open around $650 tomorrow vs current $747.61. My stop is at $485.55 — well below. However, the thesis is still intact (AI security demand confirmed). The question is whether to trim into the gap down or hold. At 7 shares × $747.61 = ~$5,233, this is ~3.8% of portfolio. The AH drop is severe but the beat on fundamentals is clear. DECISION: HOLD — the stop at $485.55 protects against a catastrophic move, and gap-down sells are typically poor decisions in a beat-with-guidance-miss scenario. The stock was up 34% — even at $650 I'm still +17% from my $556.19 cost. The cybersecurity AI demand thesis remains intact.
+• AVGO (long, +32.3%): EARNINGS ALERT — JUST REPORTED. Yahoo Finance: 'Broadcom stock falls despite Q2 earnings, guidance beat.' MT Newswires: 'Broadcom Beats Second-Quarter Views as AI Revenue More Than Doubles.' GuruFocus: 'Broadcom Adds $280 Billion Before Earnings as AI Rally Faces Test.' IBD: 'Broadcom, CrowdStrike Dive On Earnings.' The key issue: 'Broadcom stock sinks after hours as AI chip sales forecast disappoints' per Yahoo Finance Video. So AVGO also beat but AI chip forecast disappointed. At 13 shares × $479.23 = $6,230 (~4.5% of portfolio). Stop at $326.09. DECISION: HOLD — same logic as CRWD. AI revenue doubled, beat was real, but market pricing in guidance miss. The hyperscaler ASIC thesis remains intact. Stop provides downside protection.
+• ORCL (long, +41.3%): EARNINGS ALERT — reports June 10 (7 days away). GuruFocus: 'Oracle Slips Ahead of Earnings as Investors Watch AI Growth.' TheStreet: '5-star analyst resets Oracle stock price target.' Oracle +20.6% 1W extraordinary — stock at $230. The setup is good but the stock has moved significantly. DECISION: HOLD all 10 shares. Oracle's cloud/AI thesis is the strongest it's been, and a pre-earnings pullback (as noted by GuruFocus 'slips ahead of earnings') is actually healthy base-building. The stop at $149.96 is well below. Will not trim given the strong momentum and thesis.
+• MRVL (long, +202.1%): Jensen Huang 'next trillion-dollar company' endorsement still fresh. +51.8% 1W — absolutely extraordinary. 2.86x vol ratio. IBD: 'Marvell, AMD Rally, Lead Chip Stocks To Record High.' Stop at $87.29 is extremely far below at $301.65. HOLD — let winner run.
+• ARM (long, +185.7%): +36% 1W, +102.6% 1M. Zacks: 'ARM Shares Surge 270% in 2026.' Barchart: 'ARM Stock Is Supercharging Its Path to $15 Billion in Chip Sales.' IBD: 'Nvidia Shakes Up PC Market With Its Surprise Entry' — ARM benefits from Nvidia PC entry via ARM architecture. HOLD.
+• GOOG (long, +2.4%): -7.6% 1W — continuing weakness. $80B equity raise (upsized to $84.75B) creating dilution concerns. The stock has underperformed significantly while market hits highs. At 5 shares × $355.68 = $1,778 this is a tiny position. The $84.75B raise is enormous and dilution concerns are legitimate. DECISION: SELL GOOG — the stock is -7.6% 1W vs QQQ +2.0%, the equity raise dilution is a real headwind, and the position is small enough that it's barely moving the needle. Free up capital from the weakest position in the portfolio.
+• NOW (closed): Stop triggered at $117.90 per recent closed positions. NOW is in the watchlist at $117.90, +15.4% 1W. ServiceNow +41% in May per Motley Fool. The stop was triggered at exactly the wrong time — the stock has now recovered significantly. At fwd P/E 23.5x on 22% growth and -44.2% from 52W high, NOW is compelling again. Motley Fool 'Why ServiceNow Stock Skyrocketed 41% in May' is bullish.
+• AMZN (long, -4.9%): -8.0% 1W, -8.1% 1M — significant underperformance. Near stop at $244.63 with current price $250.02. AWS AI narrative confirmed but stock is weak. Meta/Microsoft/Amazon hyperscaler capex story is positive per Yahoo Finance but AMZN is lagging. The -4.9% unrealized loss is approaching the stop level. DECISION: The stop at $244.63 is appropriate — let it ride for now but this is the weakest long position besides GOOG.
+
+**New Opportunity Assessment:**
+• OKTA: +39.3% 1W, -12.4% from 52W high, 1.27x vol ratio. Extraordinary post-earnings momentum. The cybersecurity AI demand is validated. However, CRWD guidance miss tonight may pressure the entire cyber complex tomorrow. Better to wait for market open reaction.
+• NET: +26.8% 1W, -3.4% from 52W high. Cloudflare benefiting from AI infrastructure theme. But at fwd P/E 174x and -4% margins, hard to justify adding at this price.
+• SNOW: +37.7% 1W, Snowflake Summit 26 putting governed enterprise AI at center stage. However, at -24% margins and 90.8x fwd P/E, valuation is stretched.
+
+**Cash:** Cash at $52,063 (~38% of portfolio) after NOW stop-loss exit. With CRWD and AVGO both diving AH on guidance misses, and Iran war escalation driving risk-off, maintaining elevated cash is the correct call tonight. The macro environment is more hostile than it was 24 hours ago. Will sell GOOG to free capital from the weakest position, and hold cash until the post-CRWD/AVGO gap-down clarity emerges tomorrow.
+**Benchmarks**: SPY 1D -0.7% | QQQ 1D -0.3% | SMH 1D +0.9%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | GOOG | 5 | $355.68 | 1. Position is ~1.3% of portfolio (5 shares × $355.68 = $1,778). 2. Selling to free capital from the weakest performer — GOOG is -7.6% 1W vs QQQ +2.0%, the $84.75B equity raise (upsized from $80B) creates genuine dilution concerns, and the stock is the only position showing sustained underperformance vs the market. Conviction is low — only +2.4% unrealized on a position entered near ATH. 3. Removes sector overlap concern with the long-term investor's GOOGL holding. Capital returned to cash at elevated levels given Iran war escalation risk-off signal and two major AH guidance misses tonight (CRWD, AVGO). ⬛ P&L $+41.85 |
+
+**Portfolio after run**: Cash $53,841.40 | P&L $+26,968.01 (+26.97%) | Daily -0.56%
+
+---
+
