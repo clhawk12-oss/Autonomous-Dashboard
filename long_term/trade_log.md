@@ -1224,3 +1224,39 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-06-08 18:47 ET — Run ID: long_term-20260608-1847
+**Market**: after-hours | 18:47 ET
+**Reasoning**: **Macro:**
+• Risk regime: RECOVERING from risk-off — tech rebound underway; IBD 'Dow Jones Futures: Trump, Iran Comments Spark Tech Rebound; Apple, Micron, Nvidia, Sandisk, Tesla Are Big Movers'; Nasdaq snapping 3-day losing streak per MT Newswires; Iran-Israel ceasefire after Trump intervention reduces geopolitical tail risk; SpaceX IPO pricing this Friday is a major capital allocation event that could siphon flows from existing tech holdings per 24/7 Wall St.; VIX elevated but declining
+• Fed/rates: May jobs beat reinforcing higher-for-longer and rate hike speculation remains the dominant macro headwind for high-multiple AI names; no CPI/PCE data this week but ORCL earnings June 10 is next major event; rate hike fear is most dangerous for ARM (113x fwd P/E), PANW (65x), EQIX (55x)
+• Growth cycle: Intel surges on Google foundry order (Motley Fool/IBD) — reshaping AI supply chain; MRVL surges on S&P 500 inclusion confirmed — forced passive buying continuing; GLW lands multibillion-dollar Amazon deal ('Corning Lands Multibillion-Dollar Amazon Deal as Data Center Fiber Demand Surges' GuruFocus) — major positive for GLW; ALAB potentially next S&P 500 add per Barrons; PANW -11.4% 1W post Q3 earnings — Zacks 'PANW Stock Declines 9% Post Q3 Results: Should You Buy, Sell or Hold?' — thesis checking needed
+• Macro catalyst: SpaceX IPO Friday — 'Wall Street Bank Warns SpaceX IPO Could Trigger Large Sell-Off in Popular Semiconductor Stocks' (24/7 Wall St.) — monitor for forced selling; Intel foundry Google deal is constructive for US semiconductor supply chain thesis
+
+**Sectors:**
+• SMH (semis): -1.6% 1W / +10.8% 1M — recovering from last week's bloodbath; MU rebounding (+103.9% unreal, at $949 from $864 low); MRVL +31.6% 1W on S&P 500 inclusion; KLAC +8.7% 1W / +19.7% 1M strong; ASML +7.4% 1W; overall semi complex stabilizing after last week's sell-off
+• IGV (software): PANW -11.4% 1W post-earnings — the 9% post-print decline continues; DDOG -16.5% 1W notable weakness; NOW -16.0% 1W very concerning; cybersecurity CIBR 'just crushed S&P 500 by three to one' per 24/7 Wall St. (1M basis) but individual names showing sell-the-news
+• XLK (broad tech): MSFT -10.6% 1W significant; AMD -3.9% 1W; NVDA -6.9% 1W but rebounding today; tech broadly weak on rate hike fears but recovering
+• XLY vs XLP: COST +3.0% 1W recovering post-earnings; WMT +4.6% 1W; defensives and consumer staples outperforming — risk-off rotation partially intact
+• XLF: JPM +4.9% 1W; C +3.2% 1W; Citi raising S&P 500 target — financials outperforming as rate hike fears boost bank NIM expectations
+• XLV: UNH +7.0% 1W; JNJ +3.9% 1W; healthcare continuing defensive rotation
+
+**Positions:**
+• MRVL (long, +204.4% unreal): EXTRAORDINARY — S&P 500 inclusion confirmed; +31.6% 1W; 'After Skyrocketing 340% in Just 12 Months, Is Marvell Technology Stock Still a Good Buy?' (Motley Fool) — thesis at maximum strength; Yahoo Finance 'history says the early bump comes with a big catch' cautions about post-inclusion fade but the fundamental AI ASIC thesis supports sustained re-rating; HOLD all 40 shares
+• GLW (long, +26.8% unreal): MAJOR POSITIVE CATALYST — 'Corning Lands Multibillion-Dollar Amazon Deal as Data Center Fiber Demand Surges' (GuruFocus) + 'Amazon-Corning AI deal, Marvell stock surges' (Yahoo Finance Video) + 'Corning (GLW) Shares Skyrocket' (StockStory) — GLW +6.1% 1W on the Amazon fiber deal; this is the second major hyperscaler deal (after Meta) confirming the optical fiber thesis; HOLD and consider adding
+• PANW (long, +57.4% unreal): EARNINGS POST-PRINT — 'PANW Stock Declines 9% Post Q3 Results: Should You Buy, Sell or Hold?' (Zacks); -11.4% 1W; at $266.33 from high of ~$300+; '2 High-Flying Stocks on Our Buy List and 1 We Find Risky' (StockStory) — checking if PANW is the 'risky' one; 'Cybersecurity Goes Vertical: CIBR Just Crushed the S&P 500 by Three to One' (24/7 Wall St.) — sector still strong; at 64.8x fwd P/E for 31% growth the valuation is stretched; 57.4% unrealized gain remains substantial; HOLD — the platformization thesis is intact, 9% post-print decline is within normal range for a name at these multiples, and the cybersecurity sector remains in a structural bull; stop at $143.62 is very wide
+• ALAB (long, +61.9% unreal): Barrons 'Bloom Energy, Astera Labs, Alnylam, Reddit Could Be Among Next Adds to S&P 500' — potential S&P 500 inclusion would be a MRVL-like catalyst; +8.2% 1W recovering; at 82.3x fwd P/E for 93% growth (PEG <1x); HOLD — S&P 500 inclusion speculation is constructive
+• ARM (long, +140.3% unreal): -15.3% 1W — significant pullback from the highs; 'The Bull Case For Arm Holdings (ARM) Could Change Following AI Chip Selloff And Rate Jitters' (Simply Wall St.); 'After 11% Wipeout, XSD Investors Must Hate Broadcom' (24/7 Wall St.) — sector-wide selling; at 113.2x fwd P/E this is the most exposed to rate hike fears; HOLD but monitor closely; the NVDA CEO endorsing Qualcomm (competitor) is a note of caution
+• AVGO (long, +31.3% unreal): -13.8% 1W; at $396.60 vs $302.17 cost; post-earnings digest continues; 'Stocks to Watch Recap: Marvell Technology, Apple, Broadcom, Strategy' (WSJ) — still in the conversation; at 20.5x fwd P/E for 48% growth this remains the most attractively valued AI infrastructure megacap; HOLD
+• MU (long, +103.9% unreal): Rebounding strongly — 'Micron stock rebounds along with chip sector' (Yahoo Finance); 'Micron, Intel, Tesla, Apple, Lilly, and More Stocks That Explain Today's Market' (Barrons); 'AI Demand Lifts Memory and Storage Stocks' (GuruFocus); at 8.8x fwd P/E for 196% growth — still extraordinary; HOLD
+• CIEN (long, +16.2% unreal): -18.1% 1W — the largest weekly decliner in portfolio; continuing post-earnings sell-off; 'Why Applied Optoelectronics Sank 13%' — optical sector mixed signals; but at 2 shares this is a ~$933 position; HOLD — tiny position, thesis intact per Amazon GLW deal confirming optical fiber demand
+• COST (long, -0.9% unreal): +3.0% 1W recovering; 'Costco Lowers Prices Show Why Shoppers Keep Returning' (Barrons); 'Should You Buy Costco Wholesale Stock While It's Below $1,000?' (Motley Fool); membership thesis intact; HOLD
+• VRT (long, -1.8% unreal): -7.1% 1W; 'Zacks Investment Ideas feature highlights: Caterpillar, Vertiv and Eaton' — constructive mention; 'Is Vertiv Stock Outperforming the S&P 500?' (Barchart); at -20.9% from 52W high; stop at $260.25 provides buffer but approaching test zone; thesis intact for AI data center power/cooling; HOLD
+
+**Cash:** At $1,346 (~1.0% floor) — fully deployed; monitoring ORCL for June 10 earnings; GLW Amazon deal and ALAB S&P 500 speculation are the two most positive new developments; SpaceX IPO Friday could cause temporary forced selling in tech names — holding steady through volatility
+**Benchmarks**: SPY 1D +0.2% | QQQ 1D +1.6% | SMH 1D +5.0%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+36,450.03 (+36.45%) | Daily +2.16%
+
+---
+
