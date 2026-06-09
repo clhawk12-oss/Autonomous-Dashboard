@@ -1214,3 +1214,40 @@ DECISION: HOLD ALL 30 SHARES. As analyzed in positions section — fwd P/E 19.5x
 **Market**: after-hours | 18:41 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 10 column 6 (char 10221)
 
+### 2026-06-09 18:26 ET — Run ID: swing-20260609-1826
+**Market**: after-hours | 18:26 ET
+**STOP_LOSS** SELL 5 AMZN @ $244.19 → P&L $-94.25
+**Reasoning**: **Macro:**
+• Risk regime: Risk-OFF — SPY -3.0% 1W, QQQ -5.1% 1W, SMH -6.5% 1W. Nasdaq fell to 5-week low. IBD: 'AI Stocks Lead Tech Sector Slide. Summer Swoon Has Arrived.' Iran tensions re-emerged (Iran news late session per IBD), SpaceX IPO hype creating rotation OUT of AI/tech. Risk-off is clear and broad-based across semis, software, and large-cap tech.
+• Fed/rates: No new FOMC data. CPI on tap tomorrow — a key catalyst. Iran news re-emerging raises inflation fears via oil. Higher-for-longer sentiment persisting.
+• Macro catalyst: Iran tensions back (IBD: 'Dow Jones Futures Fall On Iran News After Market Whipsaws') — this is the same risk-off catalyst that hit the market in early June. SpaceX IPO proximity is pulling capital from public tech stocks toward private markets. 'Summer swoon' narrative gaining traction across multiple outlets. CPI tomorrow is a binary event — hot print = more tech pressure.
+
+**Sectors:**
+• SMH (semis): -6.5% 1W — brutal. Yahoo Finance: 'Micron, Marvell lead chip stocks lower in AI trade reversal.' WSJ: 'Chip Stocks Tumble in Roller-Coaster Market.' MU -12% 1W, MRVL -8.2% 1W, AMD -8.8% 1W, ARM -19.3% 1W. The AI trade is reversing sharply after June 4 peak.
+• IGV (software): CRWD -16.1% 1W post-guidance beat recovery reversal, PANW -12.3% 1W, DDOG -15.5% 1W, NOW -16.2% 1W. Software broadly selling off. Even post-earnings winners are giving back gains.
+• XLK (broad tech): MSFT -8.6% 1W, NVDA -6.5% 1W, ARM -19.3% 1W. Broad tech under severe pressure.
+• XLY vs XLP: Defensive rotation clear — WMT +5.1% 1W, TJX +7.3% 1W, PG +5.6% 1W vs broad tech weakness. Classic risk-off consumer staples rotation.
+• XLF: GS -3.1% 1W — even financials pulling back. JPM +3.9% 1W holding up better — classic value rotation.
+• XLV: Healthcare strong — JNJ +6.3% 1W, LLY +7.6% 1W, UNH +9.3% 1W — clear defensive/healthcare rotation in risk-off environment.
+
+**Positions:**
+• ORCL (long, +26.3%, EARNINGS ALERT tonight): Reports June 10. ORCL pulled back -15.8% 1W — partially giving back the extraordinary May run. At $205.81 vs cost $163.00. Yahoo Finance: 'Oracle to report Q4 earnings amid AI trade jitters.' IBD: 'AI Stocks Lead Tech Sector Slide.' The risk here: AVGO beat but disappointed on AI chip guidance — ORCL faces same 'expectations too high' risk after +5% 1M but -40% from 52W high still gives recovery room. Analysts are 'growing more bullish anyway' per Investopedia. GuruFocus: 'Oracle Earnings Put AI Momentum in Focus.' DECISION: HOLD 7 shares. The -40% from 52W high provides genuine recovery runway. Stop at $149.96 is well below. The thesis (OCI hyperscaler demand, AI cloud infrastructure) remains intact. However, I will not add into the binary event. The -15.8% 1W pullback actually reduces some of the 'priced-in' expectations risk that plagued AVGO.
+• MRVL (long, +167.2%): -8.2% 1W, Yahoo Finance: 'Micron, Marvell lead chip stocks lower in AI trade reversal.' Despite the pullback, still +167% unrealized. WSJ confirming rotation away from AI custom silicon. The Jensen Huang thesis remains valid long-term but short-term momentum reversed. Stop at $87.29 is astronomically far below at $266.88 — provides ample protection. HOLD — extraordinary winner. Will not chase the reversal with a stop this far.
+• ARM (long, +125.4%): -19.3% 1W — brutal correction. Simply Wall St 'ARM Valuation Check After Sector Selloff.' At $324.86 vs stop $135.48 — stop is very far below. ARM ATR is 40.18, meaning high volatility expected. The -24.1% from 52W high is concerning but the AI CPU/architecture thesis is intact. HOLD — stop provides protection on a massive winner.
+• AVGO (long, +8.3%): -18.6% 1W — continuing post-earnings guidance disappointment pressure. 'What Could Go Wrong For Broadcom Stock?' per Trefis. At $392.16 vs stop $326.09. The post-earnings -18.6% 1W is severe and the stock is giving up most of my unrealized gains. Fwd P/E 20.3x on 48% revenue growth is still compelling. Stop at $326.09 (~17% below) provides adequate protection. HOLD but AVGO is now the weakest large position.
+• CRWD (long, +16.0%): -16.1% 1W — gave back most of the guidance-hike euphoria. Motley Fool: 'Down 14%, Is It Time to Buy CrowdStrike Stock? The Answer Might Surprise You.' Zacks: Top Analyst Reports feature. The guidance raise thesis is still intact — this is sector-wide selling. Stop at $485.55 vs current $644.93 — HOLD.
+• GLW (long, -4.2%): -13.2% 1W. Approaching stop at $168.86 with current price $173.94. Zacks: 'Can Corning's Multibillion-Dollar AI Deal With Amazon Lift Its Shares?' — the Amazon deal is a genuine positive catalyst. CIENA continued drag on optical names. At -4.2% unrealized and only $5 above stop, this position is dangerously close. The GLW thesis (AI fiber, NVDA partnership, Amazon deal) is intact but the stock is under significant pressure. HOLD — let stop handle the risk. Will not add.
+• OKTA (long, -2.9%): -11.3% 1W. At $119.96 vs stop $113.60. Simply Wall St: 'How The Okta Narrative Is Shifting With AI Hopes And Valuation Concerns.' 24/7 Wall St: 'Cybersecurity Goes Vertical: CIBR Crushed S&P 500 by Three to One.' The broader cyber complex is selling off despite the bullish thesis. OKTA is -2.9% unrealized and only $6.36 above stop. HOLD — stop at $113.60 handles downside.
+• NVDA (long, +17.6%): -6.5% 1W in line with SMH. IBD mentions NVDA key support level. At $208.19 with stop $165.68. Fwd P/E 16.4x on 85% revenue growth — remains the cheapest mega-cap AI stock. HOLD.
+• MU (long, +154.4%): -12.0% 1W. TheStreet: 'Micron stock gets a shocking Wall Street price target.' Memory thesis intact but AI trade reversal hitting hard. At $935.89 vs stop $331.07 — stop is extremely far below. This is a massive winner. HOLD.
+• NBIS (long, +6.2%): -15.5% 1W. GuruFocus: 'Nebius Shares Jump After NVIDIA-Backed AI Lab Launch.' NBIS committing 1.7B Euros to UK AI infrastructure — positive catalyst. Despite the pullback, thesis strengthening. HOLD.
+• CSCO (long, +18.2%): -6.0% 1W. Kiplinger: 'All 30 Dow Jones Stocks Ranked.' CSCO holding relatively better than other tech. At $120.36 vs stop $94.74. HOLD.
+
+**Cash:** Holding $53,919 (~42% of portfolio) is appropriate given the risk-off environment, tech selloff, ORCL binary event tonight, and Iran tensions re-emerging. The 'summer swoon has arrived' narrative combined with CPI tomorrow justifies defensive positioning. Deployment would be triggered by CPI surprise to the downside, ORCL AI cloud beat confirmation, or SPY holding key support levels.
+**Benchmarks**: SPY 1D -0.3% | QQQ 1D -1.1% | SMH 1D -1.2%
+
+
+**Portfolio after run**: Cash $53,919.17 | P&L $+18,895.25 (+18.90%) | Daily -5.96%
+
+---
+
