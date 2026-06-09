@@ -1260,3 +1260,39 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-06-09 18:28 ET — Run ID: long_term-20260609-1828
+**Market**: after-hours | 18:28 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF — Nasdaq at 5-week low, 'AI Stocks Lead Tech Sector Slide. Summer Swoon Has Arrived.' (IBD); tech selloff accelerating with SpaceX IPO scheduled for this week creating forced selling dynamics in semiconductors per 24/7 Wall St. warning; Iran tensions re-escalating per Dow Jones Futures headline; VIX elevated; CPI print upcoming as next major catalyst
+• Fed/rates: CPI data due tomorrow is the pivotal macro event — if inflation surprises high, rate hike fears compound the tech selloff; higher-for-longer base case intact; no relief from Fed expected near-term
+• Growth cycle: ORCL reports June 10 — the most critical upcoming catalyst; OpenAI IPO filing at $852B valuation (GuruFocus) validates AI demand cycle but also siphons capital; SpaceX IPO putting 30% of tradeable shares in passive hands (Bloomberg) = massive capital reallocation event this week; Nasdaq composite falls to 5-week low (MT Newswires)
+• Macro catalyst: SpaceX IPO + OpenAI IPO filing this week = dual capital reallocation events that could pressure AI/semi names through forced selling; CPI tomorrow is the rate-hike fear trigger to watch
+
+**Sectors:**
+• SMH (semis): -6.5% 1W — brutal rotation; 'Micron, Marvell lead chip stocks lower in AI trade reversal' (Yahoo Finance); 'Chip Stocks Tumble in Roller-Coaster Market' (WSJ); MRVL -8.2% 1W (pulling back post-S&P inclusion), MU -12.0% 1W, ARM -19.3% 1W massive correction, AVGO -18.6% 1W largest weekly decline in portfolio — SpaceX IPO forced selling hypothesis playing out exactly as warned
+• IGV (software): PANW -12.3% 1W continuing post-earnings weakness; MSFT -8.6% 1W; NOW -16.2% 1W extraordinary weakness; software broadly selling off
+• XLK (broad tech): AMD -8.8% 1W, NVDA -6.5% 1W, AMZN -4.8% 1W — broad AI infrastructure names under synchronized selling pressure
+• XLY vs XLP: COST +1.5% 1W recovering; WMT +5.1% 1W defensive rotation clearly in play; consumer staples outperforming risk-on tech significantly
+• XLF: JPM +3.9% 1W, GS -3.1% 1W mixed; financials relatively defensive vs tech
+• XLV: UNH +9.3% 1W, JNJ +6.3% 1W — healthcare is the clear defensive rotation beneficiary this week; 'The Havens From Tuesday's Selloff' (WSJ)
+
+**Positions:**
+• MRVL (long, +181.3% unreal): -8.2% 1W post-S&P inclusion; 'Yahoo Finance history says the early bump comes with a big catch' — post-inclusion fade beginning exactly as warned; thesis intact but the structural re-rating has occurred; still +181% unrealized; HOLD — do not sell on post-inclusion normal fade; the AI ASIC thesis remains at maximum strength with Jensen endorsement
+• ARM (long, +125.4% unreal): -19.3% 1W — this is the largest weekly decline in the portfolio; at -24.1% from 52W high now; 106x fwd P/E extremely exposed to rate hike fears and SpaceX IPO capital reallocation; 'ARM Valuation Check After Sector Selloff' (Simply Wall St.); thesis intact but the valuation risk is maximal; stop at $122.51 still not at risk given $324 current price; HOLD — the royalty model on every AI chip is intact; selling now after -19% week would be panic selling
+• AVGO (long, +29.8% unreal): -18.6% 1W — most concerning weekly decline; 'What Could Go Wrong For Broadcom Stock?' (Trefis); now at $392 vs $302 cost; 20.3x fwd P/E for 48% growth remains the most attractively valued AI name; the AVGO/Apollo/Blackstone AI infrastructure push (Barrons) is directly thesis-confirmatory; HOLD — the custom ASIC thesis is structurally intact
+• PANW (long, +54.0% unreal): -12.3% 1W continuing post-earnings weakness; '$10B Revenue Run Rate Beats S&P 500 Across All Timeframes' (24/7 Wall St.) is the most constructive post-earnings framing; 'Morningstar Has A Top Pick Trading At A 40% Discount After Earnings' (Stocktwits); at 63.4x fwd P/E still stretched but the platformization thesis is intact; HOLD
+• MU (long, +101.0% unreal): -12.0% 1W, 'Micron stock gets a shocking Wall Street price target' (TheStreet) — monitoring; still +101% unrealized; HBM shortage thesis intact; HOLD
+• GLW (long, +17.6% unreal): -13.2% 1W despite Amazon fiber deal confirmation; 'This AI Fiber Play Is Backed by Amazon, Meta, and Nvidia and Has Long-Term Potential' (Barchart) — long-term thesis explicitly validated; the pullback is sector-wide not thesis-specific; HOLD
+• VRT (long, -5.4% unreal): -13.4% 1W at -23.8% from 52W high; 'Vertiv Deepens NVIDIA Ties As AI Power And Valuation Questions Grow' (Simply Wall St.); stop at $260.25 is getting closer to test given $289 current price — need to monitor closely; thesis intact but this is the most at-risk position technically; HOLD but watch stop proximity
+• CIEN (long, +9.4% unreal): -29.9% 1W extraordinary — 'Ciena Stock Down Post Q2 Earnings: Should You Buy, Hold or Sell?' (Zacks); massive post-earnings selloff; position is only 2 shares (~$878) so minimal damage; 'Is Ciena's Zero-Coupon Convertibles Quietly Redrawing Its AI Network Investment Playbook?' (Simply Wall St.) — the thesis may be evolving; at 45.7x fwd P/E for 40% growth the valuation is not extreme; HOLD tiny position — the optical networking thesis supported by Amazon GLW deal
+• EQIX (long, +10.1% unreal): -1.1% 1W relatively resilient; data center interconnection moat intact; HOLD
+• ALAB (long, +59.7% unreal): -4.0% 1W; still +59.7% unrealized; S&P 500 inclusion speculation from Barrons remains active catalyst; HOLD
+
+**Cash:** At $1,346 (~1.0% floor) — fully deployed; the 'summer swoon' is arriving with SpaceX IPO capital reallocation and CPI uncertainty; patience is warranted; holding all positions through this volatility as all fundamental theses remain intact — selling in a sector-wide technical selloff would crystallize losses on structurally sound businesses.
+**Benchmarks**: SPY 1D -0.3% | QQQ 1D -1.1% | SMH 1D -1.2%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+33,346.07 (+33.35%) | Daily -2.25%
+
+---
+
