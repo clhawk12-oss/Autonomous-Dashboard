@@ -1251,3 +1251,56 @@ DECISION: HOLD ALL 30 SHARES. As analyzed in positions section — fwd P/E 19.5x
 
 ---
 
+### 2026-06-10 18:53 ET — Run ID: swing-20260610-1853
+**Market**: after-hours | 18:53 ET
+**STOP_LOSS** SELL 18 GLW @ $168.17 → P&L $-241.20
+**Reasoning**: **Macro:**
+• Risk regime: Risk-OFF intensifying — SPY -3.8% 1W, QQQ -6.8% 1W, SMH -10.5% 1W. Nasdaq at 5-week low, Dow -953 points today on Trump's Iran attack warnings. IBD: 'Dow Jones Futures Fall As Trump Attacks Iran, Oracle Tumbles Late; SpaceX IPO On Launch Pad.' This is the second wave of the summer swoon — Iran escalation is now the dominant macro catalyst driving flight to safety.
+• Fed/rates: CPI came in and market is still selling — inflation risk from oil spike on Iran strikes creates higher-for-longer reinforcement. No Fed relief in sight.
+• Macro catalyst: Trump threatens Iran attack — Dow -953 points is an extreme single-day move driven by geopolitical fear. SpaceX IPO on launch pad is pulling capital from public tech. ORCL reported tonight — mixed: revenue beat but cloud sales missed (Yahoo Finance: 'Oracle Q4 earnings beat on revenue but miss on cloud sales'). This is the AVGO-pattern repeat: beat overall but AI cloud disappointment. ORCL tumbling late per IBD.
+
+**Sectors:**
+• SMH (semis): -10.5% 1W — catastrophic. ARM -25.4% 1W, MRVL -16.3% 1W, MU -17.4% 1W, AVGO -22.4% 1W. AMD -16.6% 1W. The AI trade is in full reversal mode, not just correction.
+• IGV (software): CRWD -13.4% 1W, DDOG -9.1% 1W, NOW -10.0% 1W. Broad software selling. ORCL -12.6% 1W plus tonight's post-earnings tumble.
+• XLK (broad tech): NVDA -6.6% 1W, MSFT -7.0% 1W. Broad tech under severe pressure.
+• XLY vs XLP: Defensive rotation continuing — PG +6.3% 1W, TJX +6.2% 1W, WMT +3.2% 1W vs tech carnage. Risk-off consumer rotation persisting.
+• XLF: JPM +2.8% 1W, AXP +4.2% 1W — financials holding. PNC +6.6% 1W. Value rotation beneficiary.
+• XLV: JNJ +6.8% 1W, UNH +8.1% 1W, LLY +5.3% 1W — healthcare flight to safety intact.
+• XLE: CVX +0.1% 1W, XOM -1.2% 1W — energy muted despite Iran, perhaps on demand concerns.
+
+**Positions:**
+• ORCL (long, +23.5%, EARNINGS ALERT): REPORTED TONIGHT. Yahoo Finance: 'Oracle Q4 earnings beat on revenue but miss on cloud sales.' IBD: 'Oracle Tumbles Late.' Motley Fool: 'Is Oracle's Q4 earnings the next big test for AI trade?' The miss on cloud sales is the critical issue — this is exactly the AVBO-pattern risk I flagged in my memory. OCI cloud revenue missed expectations. The stock was already -12.6% 1W and now tumbles further AH. My stop is at $149.96, current price $201.26. DECISION: The cloud miss is a thesis impairment — OCI was supposed to be beating expectations, not missing them. However, the stop at $149.96 is ~25% below current price. At +23.5% unrealized, I still have significant cushion. Revenue beat shows underlying demand. The cloud miss may be execution/timing rather than structural. HOLD — let the stop handle it. Will not add.
+• AVGO (long, +2.7%): -22.4% 1W — continuing deterioration from post-earnings guidance disappointment. Now at +2.7% unrealized from a prior +32%+ position. At 13 shares × $372 = $4,837 (~3.9% portfolio). Stop at $326.09 is about 12% below. The position has given back most gains. 24/7 Wall St: 'Wall Street CIO: The AI Trade is Technically Unsustainable.' AVGO fwd P/E 19.2x on 48% growth is still compelling valuation. HOLD — stop at $326.09 handles downside.
+• ARM (long, +113.3%): -25.4% 1W, -28.2% from 52W high. 24/7 Wall St: 'Up 200% YTD, This Is Where Arm Holdings Will End The Year.' Qualcomm dropped 6%, ARM -5% on mobile chip selloff. Still +113.3% unrealized. Stop at $135.48 is far below at $307.43. The AI CPU thesis remains valid long-term but momentum is severely broken. HOLD — extraordinary winner with stop protection.
+• MRVL (long, +152.9%): -16.3% 1W — back from prior -8.2%. ALAB strong AI infrastructure demand per Zacks is positive read-through. Still +152.9% unrealized. Stop at $87.29 is extremely far below. HOLD.
+• MU (long, +142.5%): -17.4% 1W — brutal. Jensen Huang AI memory comment per Motley Fool is positive. Stop at $331.07 is far below. HOLD.
+• NVDA (long, +13.3%): -6.6% 1W. Motley Fool positive, fwd P/E 15.7x. Stop at $165.68. HOLD.
+• CRWD (long, +16.5%): -13.4% 1W. Motley Fool: 'Should You Buy CrowdStrike Before Its Stock Split?' Barchart: 'Weakness May Be an Opportunity.' Stock split is a positive catalyst. Stop at $485.55 provides protection. HOLD.
+• PANW (long, +22.1%): -6.1% 1W. Prisma AIRS as fastest growth engine per Zacks. $10B revenue run rate. Stop at $198.35. HOLD.
+• CSCO (long, +16.6%): -6.1% 1W. TheStreet: 'AI buildout still intact — what to buy this week.' Relatively defensive. Stop at $94.74. HOLD.
+• DDOG (long, +76.1%): -9.1% 1W. Datadog Dash conference triggered analyst upgrades per GuruFocus — this is a positive catalyst. Wedbush upgrades noted. Stop at $120.24 well below. HOLD.
+• DELL (long, +72.3%): -12.2% 1W. 24/7 Wall St: 'From PC Maker to AI Giant' with 1,900% gains story. Thesis intact. Stop at $201.77 far below. HOLD.
+• NBIS (long, +2.1%): -15.9% 1W. Barchart: 'After UK Deal, Nebius Stock Is Still Too Expensive to Buy' — bearish signal. Fwd P/E 586x is extraordinary even for growth. At 25 shares × $211.69 = $5,292. Stop at $186.54 is only ~12% below. MONITORING CLOSELY — NBIS is the most vulnerable position given the valuation concern and selloff depth.
+• OKTA (long, -6.9%): -7.8% 1W. Stop at $113.60, current $114.92 — only $1.32 above stop. Simply Wall St: 'Valuation In Focus After Earnings Beat.' The stop will almost certainly trigger. HOLD — let stop execute.
+• TSM (long, +14.9%): -6.4% 1W. IBD: 'Taiwan Semiconductor Sales Rise 30% In May, Remain On Target.' 30% sales growth confirms AI demand. Stop at $314.17 provides protection. HOLD.
+• AMD (long, +105.5%): -16.6% 1W. Trefis: 'AMD Stock And The Five-Billion Dollar Whisper.' Stop at $202.57 well below $452. HOLD.
+• WDC (long, +61.1%): -17.5% 1W. Citi raised PT per Insider Monkey — bullish. Stop at $282.86. HOLD.
+• SNDK (long, +112.5%): -10.3% 1W. Motley Fool: millionaire story. 24/7 Wall St: 'Up 500% in 2026: Deeply Concerning Reason to Stand Pat.' Stop at $645.46 far below. HOLD.
+
+**New Opportunities — Defensive Adds:**
+With the Iran escalation driving the market lower, I'm looking at what's WORKING: defensive healthcare (UNH +8.1% 1W, JNJ +6.8% 1W, LLY +5.3% 1W), consumer staples (TJX +6.2% 1W), financials (AXP +4.2% 1W, PNC +6.6% 1W). The DKNG at +14.7% 1W with 2.22x vol ratio on prediction markets record volumes is interesting but too speculative in risk-off. OSCR +35.9% 1W with upgrade is interesting healthcare play. VECO +9.1% 1W with 2.55x vol ratio — Veeco Instruments getting attention but small cap and risky. UNH at fwd P/E 19.5x with +2% from 52W high — very defensive. I could add a defensive position here to hedge the tech-heavy portfolio. AXP at +4.2% 1W, fwd P/E 15.6x — very reasonable. JNJ at +6.8% 1W, fwd P/E 18.8x, healthcare defensive. Given current 18 positions (or 17 if OKTA stop triggers), there's room. However, given the severity of the risk-off, I prefer to ADD CASH rather than rotate defensively. The Iran war scenario could get much worse. Cash is the best position when geopolitical risk is this acute.
+
+**ORCL Earnings Decision:**
+ORCL reported tonight — beat on revenue but missed on cloud sales. IBD has the stock 'tumbling late.' My stop is $149.96, current $201.26. The cloud miss is a THESIS IMPAIRMENT for my OCI AI infrastructure thesis. However: (1) Revenue did beat overall; (2) I'm still +23.5% unrealized; (3) The stop at $149.96 is generous but provides protection. DECISION: The cloud miss combined with the general tech selloff and Iran-driven risk-off creates downside risk. I should TRIM some ORCL to lock in gains while still holding core position. The stock may gap down significantly tomorrow. Selling 3 of 7 shares locks in partial gains on a position that just had a thesis-impairment event. Keeping 4 shares for any recovery if the broader macro stabilizes.
+
+**Cash:** Cash at $56,946 (45% of portfolio) is appropriate and should be maintained or increased. OKTA will likely stop out adding ~$1,722. Trimming ORCL adds ~$604. Cash will be ~47-48% after these moves. Iran war escalation + ORCL cloud miss + peak tech selling = hold maximum defensible cash. The ONLY trigger for deployment is Iran de-escalation or SPY reclaiming its 50-day MA with volume.
+**Benchmarks**: SPY 1D -1.6% | QQQ 1D -2.0% | SMH 1D -3.4%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | ORCL | 3 | $201.26 | 1. Represents ~1.6% of portfolio (3 shares × $201.26 = ~$604). 2. Trimming after ORCL reported cloud sales miss tonight — this is a direct thesis impairment. Revenue beat but OCI cloud revenue missed expectations, which was the core AI infrastructure thesis. Stock 'tumbling late' per IBD. Still +23.5% unrealized; selling 3 of 7 to lock in partial gains before potential gap-down tomorrow. Conviction to exit fully is limited by the revenue beat, but partial trim is prudent risk management. 3. Reduces tech binary risk in a risk-off environment where Iran escalation is driving Dow -953 points. Remaining 4 shares still provide upside exposure if cloud thesis recovers. ⬛ P&L $+114.78 |
+
+**Portfolio after run**: Cash $57,550.01 | P&L $+16,353.16 (+16.35%) | Daily -1.48%
+
+---
+
