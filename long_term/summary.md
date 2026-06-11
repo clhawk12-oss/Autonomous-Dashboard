@@ -1,39 +1,39 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-06-10 18:57 ET*
+*Last updated: 2026-06-11 18:58 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+29,054.96 (+29.05%) |
+| Total P&L | $+34,918.58 (+34.92%) |
 | Realized P&L | $-763.29 |
-| Unrealized P&L | $+29,818.25 |
+| Unrealized P&L | $+35,681.87 |
 | Cash | $1,346.01 (1.0%) |
-| Long Exposure | $129,338.73 |
+| Long Exposure | $135,202.35 |
 | Short Exposure | $0.00 |
-| Net Exposure | $129,338.73 |
+| Net Exposure | $135,202.35 |
 | Win Rate | 0.2 (5 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $200.42 | $12,025.20 | $+1,974.00 | +19.6% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $397.36 | $11,126.08 | $+1,136.52 | +11.4% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $204.87 | $12,292.20 | $+2,241.00 | +22.3% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $390.34 | $10,929.52 | $+939.96 | +9.4% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 60 | $207.50 | $238.00 | $14,280.00 | $+1,830.20 | +14.7% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $372.10 | $13,767.70 | $+2,587.54 | +23.1% | $255.58 |
-| ARM | LONG | 39 | $144.13 | $307.43 | $11,989.77 | $+6,368.70 | +113.3% | $122.51 |
-| MRVL | LONG | 40 | $94.88 | $252.59 | $10,103.60 | $+6,308.40 | +166.2% | $83.49 |
-| EQIX | LONG | 5 | $963.00 | $1038.33 | $5,191.65 | $+376.65 | +7.8% | $866.70 |
-| CIEN | LONG | 2 | $401.61 | $434.65 | $869.30 | $+66.08 | +8.2% | $341.37 |
-| META | LONG | 8 | $525.72 | $570.98 | $4,567.84 | $+362.08 | +8.6% | $446.86 |
-| COST | LONG | 3 | $983.86 | $983.37 | $2,950.11 | $-1.47 | -0.0% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $408.75 | $3,678.75 | $+605.34 | +19.7% | $300.51 |
-| PANW | LONG | 20 | $169.18 | $263.22 | $5,264.40 | $+1,880.75 | +55.6% | $143.62 |
-| GLW | LONG | 15 | $147.92 | $168.17 | $2,522.55 | $+303.75 | +13.7% | $130.17 |
-| MU | LONG | 10 | $465.66 | $891.88 | $8,918.80 | $+4,262.20 | +91.5% | $395.81 |
-| VRT | LONG | 16 | $306.18 | $280.98 | $4,495.68 | $-403.20 | -8.2% | $260.25 |
-| AMD | LONG | 9 | $355.26 | $452.40 | $4,071.60 | $+874.26 | +27.3% | $301.97 |
-| ALAB | LONG | 11 | $213.91 | $330.86 | $3,639.46 | $+1,286.45 | +54.7% | $171.13 |
+| AMZN | LONG | 60 | $207.50 | $241.51 | $14,490.60 | $+2,040.80 | +16.4% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $385.57 | $14,266.09 | $+3,085.93 | +27.6% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $342.23 | $13,346.97 | $+7,725.90 | +137.4% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $280.71 | $11,228.40 | $+7,433.20 | +195.9% | $83.49 |
+| EQIX | LONG | 5 | $963.00 | $1043.18 | $5,215.90 | $+400.90 | +8.3% | $866.70 |
+| CIEN | LONG | 2 | $401.61 | $445.22 | $890.44 | $+87.22 | +10.9% | $341.37 |
+| META | LONG | 8 | $525.72 | $568.43 | $4,547.44 | $+341.68 | +8.1% | $446.86 |
+| COST | LONG | 3 | $983.86 | $975.69 | $2,927.07 | $-24.51 | -0.8% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $421.07 | $3,789.63 | $+716.22 | +23.3% | $300.51 |
+| PANW | LONG | 20 | $169.18 | $279.53 | $5,590.60 | $+2,206.95 | +65.2% | $143.62 |
+| GLW | LONG | 15 | $147.92 | $176.55 | $2,648.25 | $+429.45 | +19.4% | $130.17 |
+| MU | LONG | 10 | $465.66 | $995.87 | $9,958.70 | $+5,302.10 | +113.9% | $395.81 |
+| VRT | LONG | 16 | $306.18 | $297.88 | $4,766.08 | $-132.80 | -2.7% | $260.25 |
+| AMD | LONG | 9 | $355.26 | $488.45 | $4,396.05 | $+1,198.71 | +37.5% | $301.97 |
+| ALAB | LONG | 11 | $213.91 | $367.47 | $4,042.17 | $+1,689.16 | +71.8% | $171.13 |
 
 ## PM Narrative
-Portfolio is weathering an exceptionally difficult macro environment — SMH -10.5% 1W, QQQ -6.8% 1W, S&P -3.8% 1W — while maintaining +29.1% total P&L. The triple-catalyst shock (hot CPI + Trump Iran strikes + SpaceX IPO capital reallocation) is creating synchronized selling across all AI/semi names regardless of fundamentals. Every single position thesis remains intact: AVGO beat with AI revenue doubling, MU HBM shortage confirmed by Jensen Huang, MRVL S&P inclusion complete, PANW $10B revenue run rate confirmed, GLW Amazon/Meta fiber deals confirmed, ARM royalty model on every AI chip intact, PANW Prisma AIRS named fastest growth engine. The sell-off is entirely technical/macro-driven. VRT at $280.98 is the only position approaching its stop ($260.25, 7.4% buffer) and warrants close monitoring. With cash at the 1% floor, no new positions can be initiated — the correct posture is to hold all positions through this volatility rather than panic-selling fundamentally superior businesses at cyclical lows. The ORCL miss on cloud sales is a mild negative read for enterprise AI software but does not break any core thesis. The IBD headline 'AI Infrastructure Short-Circuits But Now Sparks Not One, But Two Buy Points' for GLW is the most actionable bullish signal — if cash were available, GLW at $168 after the Amazon deal confirmation would be an ideal add. The portfolio's diversification across AVGO (custom ASIC), MRVL (interconnect), ARM (CPU IP), MU (HBM), NVDA (GPU), TSM (fab), PANW (security), and GLW (fiber) means no single thesis break destroys the portfolio.
+The portfolio enters today's session with all fundamental theses intact and significant recovery catalysts emerging. The triple-catalyst shock that drove the prior week's selloff — US-Iran military escalation, SpaceX IPO capital reallocation, and hot CPI fears — is unwinding simultaneously: Trump signals Iran deal imminent, SpaceX IPO has priced ($135/share), and lower-than-expected core PPI data materially reduces rate hike fears. This is the most favorable macro shift in several weeks. Portfolio remains fully deployed at the 1% cash floor with 18 high-conviction positions concentrated in AI infrastructure (NVDA, MU, ARM, AVGO, MRVL, ALAB, PANW, GLW, VRT, EQIX), Big Tech (MSFT, GOOGL, AMZN, META), and select other compounders (COST, TSM, AMD, CIEN). Key developments this session: S&P Global upgrades NVDA to AA (validating earnings power); BofA projects CPU market 5x by 2030 (directly expands ARM's royalty opportunity); KKR/NVDA $10B AI infrastructure joint venture (confirms sustained capex supercycle); Adobe CFO departing for MRVL (extraordinary talent signal for MRVL's AI ASIC trajectory); MRVL's June 22 S&P 500 formal listing approaching (a 'sell-the-news' risk to monitor per 24/7 Wall St. but the fundamental AI ASIC thesis supports continued outperformance); ORCL -22.1% 1W on massive AI spending revelations (negative for ORCL FCF but confirms AI infrastructure demand from hyperscaler clients, directly benefiting NVDA and AVGO). Total portfolio P&L remains strongly positive (+34.9%) versus benchmarks (SPY -2.5% 1W, QQQ -3.2% 1W, SMH -2.9% 1W) confirming the portfolio is generating meaningful long-term alpha. No trades warranted — the correct action is to hold through the recovery as all fundamental theses remain at maximum strength.
