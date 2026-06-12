@@ -1,38 +1,41 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-06-10 18:55 ET*
+*Last updated: 2026-06-12 18:32 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+16,353.16 (+16.35%) |
+| Total P&L | $+21,236.33 (+21.24%) |
 | Realized P&L | $-3,564.92 |
-| Unrealized P&L | $+19,918.08 |
-| Cash | $57,550.01 (45.6%) |
-| Long Exposure | $68,675.92 |
+| Unrealized P&L | $+24,801.25 |
+| Cash | $46,751.44 (35.8%) |
+| Long Exposure | $83,868.66 |
 | Short Exposure | $0.00 |
-| Net Exposure | $68,675.92 |
+| Net Exposure | $83,868.66 |
 | Win Rate | 0.65 (20 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 7 | $144.13 | $307.43 | $2,152.01 | $+1,143.10 | +113.3% | $135.48 |
-| MRVL | LONG | 30 | $99.87 | $252.59 | $7,577.70 | $+4,581.73 | +152.9% | $87.29 |
-| NVDA | LONG | 30 | $176.96 | $200.42 | $6,012.60 | $+703.80 | +13.3% | $165.68 |
-| MU | LONG | 8 | $367.85 | $891.88 | $7,135.04 | $+4,192.24 | +142.5% | $331.07 |
-| TSM | LONG | 18 | $355.65 | $408.75 | $7,357.50 | $+955.83 | +14.9% | $314.17 |
-| SNDK | LONG | 2 | $773.28 | $1643.23 | $3,286.46 | $+1,739.90 | +112.5% | $645.46 |
-| AMD | LONG | 9 | $220.18 | $452.40 | $4,071.60 | $+2,089.98 | +105.5% | $202.57 |
-| WDC | LONG | 2 | $304.15 | $490.09 | $980.18 | $+371.88 | +61.1% | $282.86 |
-| AVGO | LONG | 13 | $362.23 | $372.10 | $4,837.30 | $+128.36 | +2.7% | $326.09 |
-| ORCL | LONG | 4 | $163.00 | $201.26 | $1,408.82 | $+267.82 | +23.5% | $149.96 |
-| DDOG | LONG | 15 | $129.29 | $227.63 | $3,414.45 | $+1,475.10 | +76.1% | $120.24 |
-| DELL | LONG | 3 | $214.65 | $369.83 | $1,109.49 | $+465.54 | +72.3% | $201.77 |
-| CRWD | LONG | 7 | $556.19 | $647.74 | $4,534.18 | $+640.86 | +16.5% | $485.55 |
-| PANW | LONG | 7 | $215.60 | $263.22 | $1,842.54 | $+333.34 | +22.1% | $198.35 |
-| CSCO | LONG | 50 | $101.87 | $118.80 | $5,940.00 | $+846.50 | +16.6% | $94.74 |
-| NBIS | LONG | 25 | $207.27 | $211.69 | $5,292.25 | $+110.50 | +2.1% | $186.54 |
-| OKTA | LONG | 15 | $123.48 | $114.92 | $1,723.80 | $-128.40 | -6.9% | $113.60 |
+| ARM | LONG | 7 | $144.13 | $380.81 | $2,665.67 | $+1,656.76 | +164.2% | $135.48 |
+| MRVL | LONG | 30 | $99.87 | $279.70 | $8,391.00 | $+5,395.02 | +180.1% | $87.29 |
+| NVDA | LONG | 30 | $176.96 | $205.19 | $6,155.70 | $+846.90 | +16.0% | $165.68 |
+| MU | LONG | 8 | $367.85 | $981.61 | $7,852.88 | $+4,910.08 | +166.9% | $331.07 |
+| TSM | LONG | 18 | $355.65 | $423.93 | $7,630.74 | $+1,229.07 | +19.2% | $314.17 |
+| SNDK | LONG | 2 | $773.28 | $1980.10 | $3,960.20 | $+2,413.64 | +156.1% | $645.46 |
+| AMD | LONG | 9 | $220.18 | $511.57 | $4,604.13 | $+2,622.51 | +132.3% | $202.57 |
+| WDC | LONG | 2 | $304.15 | $562.92 | $1,125.84 | $+517.54 | +85.1% | $282.86 |
+| AVGO | LONG | 13 | $362.23 | $382.07 | $4,966.91 | $+257.97 | +5.5% | $326.09 |
+| ORCL | LONG | 4 | $163.00 | $184.13 | $736.52 | $+84.52 | +13.0% | $149.96 |
+| DDOG | LONG | 15 | $129.29 | $229.90 | $3,448.50 | $+1,509.15 | +77.8% | $120.24 |
+| DELL | LONG | 3 | $214.65 | $395.57 | $1,186.71 | $+542.76 | +84.3% | $201.77 |
+| CRWD | LONG | 7 | $556.19 | $682.80 | $4,779.60 | $+886.28 | +22.8% | $485.55 |
+| PANW | LONG | 7 | $215.60 | $279.62 | $1,957.34 | $+448.14 | +29.7% | $198.35 |
+| CSCO | LONG | 50 | $101.87 | $121.10 | $6,055.00 | $+961.50 | +18.9% | $94.74 |
+| NBIS | LONG | 25 | $207.27 | $232.36 | $5,809.00 | $+627.25 | +12.1% | $186.54 |
+| OKTA | LONG | 15 | $123.48 | $116.29 | $1,744.35 | $-107.85 | -5.8% | $113.60 |
+| KLAC | LONG | 15 | $254.54 | $254.54 | $3,818.10 | $+0.00 | +0.0% | $234.18 |
+| AMAT | LONG | 7 | $567.25 | $567.25 | $3,970.75 | $+0.00 | +0.0% | $521.87 |
+| CRDO | LONG | 12 | $250.81 | $250.81 | $3,009.72 | $+0.00 | +0.0% | $230.75 |
 
 ## PM Narrative
-Deeply risk-off session with Trump threatening Iran strikes, Dow -953, and ORCL reporting a cloud sales miss tonight. The summer swoon is intensifying into a more serious correction driven by geopolitical escalation. I'm trimming 3 ORCL shares to lock in partial gains following a thesis-impairment event (OCI cloud miss), while maintaining all other positions with their stops. OKTA at $114.92 vs stop $113.60 will almost certainly stop out overnight/tomorrow, adding cash. My portfolio is now 18 positions with ~45% cash, which should drift toward ~47-48% after OKTA stop triggers. The entire AI semiconductor/software complex is under heavy selling pressure: ARM -25.4% 1W, MRVL -16.3% 1W, MU -17.4% 1W, AVGO -22.4% 1W. Despite massive unrealized gains in MRVL (+152.9%), ARM (+113.3%), AMD (+105.5%), MU (+142.5%), the stops are all well below current prices and the long-term theses remain intact. I am NOT panic-selling winners — the stops handle the downside. The defensive rotation into healthcare, staples, and financials is clear but I prefer cash over rotating into new longs during active geopolitical escalation. Key watch items: Iran situation resolution, SPY technical support, and whether ORCL cloud miss is a one-quarter blip or structural.
+The macro environment has reversed dramatically from last week's Iran escalation fear — Iran deal hopes are now driving a strong risk-on recovery with SMH +8.8% 1W leading all sectors. SpaceX IPO priced and trading, removing the capital rotation overhang. With cash at 44% post-last-week's defensive positioning, I'm deploying into three high-conviction setups: KLAC and AMAT (semi equipment cycle breakouts at near-ATH confirming AI capex cycle durability) and CRDO (AI connectivity name recovered from prior earnings miss, now strengthened by DustPhotonics photonic integration acquisition addressing the margin concern). Post-trades, cash drops from $57,550 to approximately $46,751 (36% of portfolio) — still elevated but appropriate for a recovering market where Iran risks are fading but not fully resolved. I'm keeping OKTA which is $2.69 above stop and letting the stop execute naturally. ORCL stop at $149.96 is intact 18.5% below current price despite post-earnings cloud miss — the stop handles it. The portfolio's 18 positions (heading to 20 with new adds, potentially dropping to 19 if OKTA stops out) are heavily concentrated in AI infrastructure which is exactly where the market is rewarding capital this week.
