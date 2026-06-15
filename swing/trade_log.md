@@ -1346,3 +1346,44 @@ ORCL reported tonight — beat on revenue but missed on cloud sales. IBD has the
 
 ---
 
+### 2026-06-15 19:05 ET — Run ID: swing-20260615-1905
+**Market**: after-hours | 19:05 ET
+**Reasoning**: **Macro:**
+• Risk regime: STRONG RISK-ON — US-Iran peace deal signed, reopening Hormuz Strait. IBD: 'Trump, Iran Deal Spark Stock Market Surge.' Dow surging, SMH +8.2% 1W, QQQ +3.9% 1W. This is the full-deployment trigger I flagged in my memory — Iran deal = risk-on catalyst. Oil falling sharply (CVX -4.7%, XOM -7.1% 1W), bond yields declining, conditions extremely favorable for tech/semis.
+• Fed/rates: Iran deal removes oil-driven inflation spike risk that was reinforcing higher-for-longer fears. Lower oil = lower inflation = better rate environment for growth stocks. Net positive for tech multiples.
+• Macro catalyst: Iran peace deal is THE catalyst. SpaceX IPO rotation overhang now resolved (debuted Friday). AMD acquires MEXT for data center memory. NBIS joined Nasdaq 100 — institutional demand confirmed. NVIDIA planning $20B bond sale for AI infrastructure expansion. Chip stocks broadly surging on Iran news.
+
+**Sectors:**
+• SMH (semis): +8.2% 1W — massive. MU +14.6% 1W, WDC +24.0% 1W, SNDK +28.4% 1W near ATH. AMD +11.6% 1W, ARM +19.1% 1W, KLAC +21.6% 1W, AMAT +19.0% 1W, LRCX +19.9% 1W. Semi equipment complex breaking to new highs. VECO +36% 1W with 2.16x vol ratio — extraordinary.
+• IGV (software): DDOG upgraded by Truist to Buy today — 'continued upside momentum.' CRWD +5.2% 1W solid. PANW +6.8% 1W recovering. Software broadly positive but lagging semis.
+• XLK (broad tech): MSFT -2.9% 1W — still lagging (Azure lawsuit, macro concerns). NVDA +1.8% 1W steady. ORCL -9.0% 1W digesting cloud miss — Mizuho backing today, Insider Monkey 'top 10 income stocks with highest upside potential' mention.
+• XLY vs XLP: Risk-on rotation — Iran deal removes the defensive bid. Cyclicals re-engaging.
+• XLF: C +5.9% 1W, JPM +2.7% 1W. Financials participating in risk-on move.
+• XLE: Massive negative — CVX -4.7%, XOM -7.1% 1W on oil price collapse from Iran deal. Energy is the clear LOSER today.
+
+**Positions:**
+• OKTA (long, -4.3%): Stop at $113.60 vs $118.12 — still above stop by $4.52. +1.1% 1W modest recovery. Zacks: 'OKTA Rides on Strong Subscription Revenue Growth.' Simply Wall St: 'Elevating AI Identity Security In Product Pipeline.' The recovery is encouraging but position is small (+$4.52 buffer). Iran deal risk-on could lift this. Hold — stop handles it.
+• ORCL (long, +18.2%): -9.0% 1W continuing digestion of cloud miss. Mizuho backing today. Insider Monkey 'top 10 income stocks with highest upside.' 24/7 Wall St 'Forget Micron: 1 Record-Breaking Cloud Powerhouse to Buy Hand Over Fist After the Pullback' — directly bullish. Stop at $149.96 is far below at $192.64. Hold.
+• NBIS (long, +25.5%): +19.3% 1W — Nasdaq 100 inclusion confirmed. Simply Wall St: 'Nebius Joins Nasdaq-100 As AI Infrastructure Growth Meets Index Flows.' Motley Fool: '684% Revenue Growth, More Growth Ahead, Genius Buy.' Strong institutional catalyst confirmed. Let winner run.
+• WDC (long, +114.9%): +24.0% 1W — extraordinary. Barrons: 'Western Digital, Seagate Stocks Keep Soaring. Morgan Stanley's Top Picks.' Iran deal is positive for risk-on storage plays. Near ATH at -0.8%. Let winner run.
+• SNDK (long, +172.6%): +28.4% 1W, -0.6% from 52W high. IBD: 'SpaceX, Nvidia, Micron, Sandisk Are Big Winners.' Motley Fool: 'Why Sandisk Stock Popped After the SpaceX IPO.' Near all-time high. Extraordinary winner.
+• MU (long, +195.8%): +14.6% 1W, -0.9% from 52W high. IBD: Micron big winner on Iran deal. Near ATH. Memory supercycle continues.
+• KLAC (long, +0.7%): +21.6% 1W, new position. 1.44x vol ratio. Cramer called it 'too risky' — contrarian positive. Semi equipment cycle breakout continuing. Hold.
+• AMAT (long, +3.3%): +19.0% 1W. 24/7 Wall St 'Applied Materials Surged Right Back Toward $500.' Near ATH. Hold.
+• CRDO (long, +3.4%): +16.7% 1W post-DustPhotonics acquisition. Zacks multiple bullish pieces today: 'Great Momentum Stock,' 'Rides the AI Interconnect Upgrade Cycle,' 'Stock Outlook Hinges on AI and Optical Scale.' Very constructive.
+• DDOG (long, +80.3%): Truist upgrade to Buy today with 'continued upside momentum' — fresh institutional catalyst. Hold.
+• CSCO (long, +18.0%): -3.2% 1W — slight digestion. Simply Wall St 'Valuation Check After Strong Recent Returns.' Zacks 'Beat the Market Like Zacks.' Hold — AI networking thesis intact.
+
+**Cash:** Cash at $46,751 (34% of portfolio) was appropriate for the Iran uncertainty but the Iran deal is now signed — this is the EXACT trigger I identified for deployment. Need to reduce cash from 34% to approximately 20-25% by adding 2-3 high-conviction positions. The Iran deal is a regime change, not a one-day trade. VECO (+36% 1W, 2.16x vol ratio) is screaming with institutional activity. LRCX (+19.9% 1W, 1.31x vol ratio) near ATH in semi equipment is compelling. TER (+15.4% 1W, 1.22x vol ratio) another semi equipment name at ATH. Deploying into the strongest momentum names in the semi equipment and storage complex.
+**Benchmarks**: SPY 1D +1.8% | QQQ 1D +3.1% | SMH 1D +4.4%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SKIPPED | LRCX | 10 | $388.92 | Max positions (20) reached |
+| SKIPPED | VECO | 20 | $83.04 | Max positions (20) reached |
+| SKIPPED | TER | 8 | $432.41 | Max positions (20) reached |
+
+**Portfolio after run**: Cash $46,751.44 | P&L $+25,791.88 (+25.79%) | Daily +3.49%
+
+---
+

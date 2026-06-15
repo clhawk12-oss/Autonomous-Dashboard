@@ -1,41 +1,43 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-06-12 18:32 ET*
+*Last updated: 2026-06-15 19:10 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+21,236.33 (+21.24%) |
+| Total P&L | $+25,791.88 (+25.79%) |
 | Realized P&L | $-3,564.92 |
-| Unrealized P&L | $+24,801.25 |
-| Cash | $46,751.44 (35.8%) |
-| Long Exposure | $83,868.66 |
+| Unrealized P&L | $+29,356.80 |
+| Cash | $46,751.44 (34.6%) |
+| Long Exposure | $88,424.21 |
 | Short Exposure | $0.00 |
-| Net Exposure | $83,868.66 |
+| Net Exposure | $88,424.21 |
 | Win Rate | 0.65 (20 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 7 | $144.13 | $380.81 | $2,665.67 | $+1,656.76 | +164.2% | $135.48 |
-| MRVL | LONG | 30 | $99.87 | $279.70 | $8,391.00 | $+5,395.02 | +180.1% | $87.29 |
-| NVDA | LONG | 30 | $176.96 | $205.19 | $6,155.70 | $+846.90 | +16.0% | $165.68 |
-| MU | LONG | 8 | $367.85 | $981.61 | $7,852.88 | $+4,910.08 | +166.9% | $331.07 |
-| TSM | LONG | 18 | $355.65 | $423.93 | $7,630.74 | $+1,229.07 | +19.2% | $314.17 |
-| SNDK | LONG | 2 | $773.28 | $1980.10 | $3,960.20 | $+2,413.64 | +156.1% | $645.46 |
-| AMD | LONG | 9 | $220.18 | $511.57 | $4,604.13 | $+2,622.51 | +132.3% | $202.57 |
-| WDC | LONG | 2 | $304.15 | $562.92 | $1,125.84 | $+517.54 | +85.1% | $282.86 |
-| AVGO | LONG | 13 | $362.23 | $382.07 | $4,966.91 | $+257.97 | +5.5% | $326.09 |
-| ORCL | LONG | 4 | $163.00 | $184.13 | $736.52 | $+84.52 | +13.0% | $149.96 |
-| DDOG | LONG | 15 | $129.29 | $229.90 | $3,448.50 | $+1,509.15 | +77.8% | $120.24 |
-| DELL | LONG | 3 | $214.65 | $395.57 | $1,186.71 | $+542.76 | +84.3% | $201.77 |
-| CRWD | LONG | 7 | $556.19 | $682.80 | $4,779.60 | $+886.28 | +22.8% | $485.55 |
-| PANW | LONG | 7 | $215.60 | $279.62 | $1,957.34 | $+448.14 | +29.7% | $198.35 |
-| CSCO | LONG | 50 | $101.87 | $121.10 | $6,055.00 | $+961.50 | +18.9% | $94.74 |
-| NBIS | LONG | 25 | $207.27 | $232.36 | $5,809.00 | $+627.25 | +12.1% | $186.54 |
-| OKTA | LONG | 15 | $123.48 | $116.29 | $1,744.35 | $-107.85 | -5.8% | $113.60 |
-| KLAC | LONG | 15 | $254.54 | $254.54 | $3,818.10 | $+0.00 | +0.0% | $234.18 |
-| AMAT | LONG | 7 | $567.25 | $567.25 | $3,970.75 | $+0.00 | +0.0% | $521.87 |
-| CRDO | LONG | 12 | $250.81 | $250.81 | $3,009.72 | $+0.00 | +0.0% | $230.75 |
+| ARM | LONG | 7 | $144.13 | $412.55 | $2,887.85 | $+1,878.94 | +186.2% | $135.48 |
+| MRVL | LONG | 30 | $99.87 | $308.88 | $9,266.40 | $+6,270.42 | +209.3% | $87.29 |
+| NVDA | LONG | 30 | $176.96 | $212.45 | $6,373.50 | $+1,064.70 | +20.1% | $165.68 |
+| MU | LONG | 8 | $367.85 | $1087.99 | $8,703.92 | $+5,761.12 | +195.8% | $331.07 |
+| TSM | LONG | 18 | $355.65 | $441.40 | $7,945.20 | $+1,543.53 | +24.1% | $314.17 |
+| SNDK | LONG | 2 | $773.28 | $2107.86 | $4,215.72 | $+2,669.16 | +172.6% | $645.46 |
+| AMD | LONG | 9 | $220.18 | $547.26 | $4,925.34 | $+2,943.72 | +148.6% | $202.57 |
+| WDC | LONG | 2 | $304.15 | $653.53 | $1,307.06 | $+698.76 | +114.9% | $282.86 |
+| AVGO | LONG | 13 | $362.23 | $393.94 | $5,121.22 | $+412.28 | +8.8% | $326.09 |
+| ORCL | LONG | 4 | $163.00 | $192.64 | $770.56 | $+118.56 | +18.2% | $149.96 |
+| DDOG | LONG | 15 | $129.29 | $233.09 | $3,496.35 | $+1,557.00 | +80.3% | $120.24 |
+| DELL | LONG | 3 | $214.65 | $409.07 | $1,227.21 | $+583.26 | +90.6% | $201.77 |
+| CRWD | LONG | 7 | $556.19 | $692.91 | $4,850.37 | $+957.05 | +24.6% | $485.55 |
+| PANW | LONG | 7 | $215.60 | $284.54 | $1,991.78 | $+482.58 | +32.0% | $198.35 |
+| CSCO | LONG | 50 | $101.87 | $120.17 | $6,008.50 | $+915.00 | +18.0% | $94.74 |
+| NBIS | LONG | 25 | $207.27 | $260.07 | $6,501.75 | $+1,320.00 | +25.5% | $186.54 |
+| OKTA | LONG | 15 | $123.48 | $118.12 | $1,771.80 | $-80.40 | -4.3% | $113.60 |
+| KLAC | LONG | 15 | $254.54 | $256.42 | $3,846.30 | $+28.20 | +0.7% | $234.18 |
+| AMAT | LONG | 7 | $567.25 | $585.78 | $4,100.46 | $+129.71 | +3.3% | $521.87 |
+| CRDO | LONG | 12 | $250.81 | $259.41 | $3,112.92 | $+103.20 | +3.4% | $230.75 |
 
 ## PM Narrative
-The macro environment has reversed dramatically from last week's Iran escalation fear — Iran deal hopes are now driving a strong risk-on recovery with SMH +8.8% 1W leading all sectors. SpaceX IPO priced and trading, removing the capital rotation overhang. With cash at 44% post-last-week's defensive positioning, I'm deploying into three high-conviction setups: KLAC and AMAT (semi equipment cycle breakouts at near-ATH confirming AI capex cycle durability) and CRDO (AI connectivity name recovered from prior earnings miss, now strengthened by DustPhotonics photonic integration acquisition addressing the margin concern). Post-trades, cash drops from $57,550 to approximately $46,751 (36% of portfolio) — still elevated but appropriate for a recovering market where Iran risks are fading but not fully resolved. I'm keeping OKTA which is $2.69 above stop and letting the stop execute naturally. ORCL stop at $149.96 is intact 18.5% below current price despite post-earnings cloud miss — the stop handles it. The portfolio's 18 positions (heading to 20 with new adds, potentially dropping to 19 if OKTA stops out) are heavily concentrated in AI infrastructure which is exactly where the market is rewarding capital this week.
+The US-Iran peace deal is the exact macro trigger I identified for aggressive deployment — Iran deal signed, Hormuz reopening, oil collapsing, bond yields declining, and risk assets surging. This is a regime change from risk-off to full risk-on. I deployed approximately $9,000 into three semiconductor equipment names (LRCX, VECO, TER) to complement my existing KLAC and AMAT positions, reducing cash from 34% to approximately 27%. The semi equipment complex is breaking to all-time highs across the board (KLAC +21.6%, AMAT +19.0%, LRCX +19.9%, TER +15.4%, VECO +36.0%) with institutional validation via vol ratios. My existing positions are in excellent shape: SNDK +172.6% near ATH, MU +195.8% near ATH, WDC +114.9% near ATH, ARM +186.2%, MRVL +209.3%, NBIS +25.5% with confirmed Nasdaq 100 inclusion. DDOG received a fresh Truist Buy upgrade today. OKTA remains above its stop at $113.60 with $4.52 buffer. ORCL digesting but Mizuho backing and multiple bullish articles today. I'm watching for OKTA to either recover toward $125 or stop out, and monitoring ORCL for any technical breakdown toward the $175 support level.
+
+*Note: The following proposed actions were not executed due to constraint violations: BUY LRCX: Max positions (20) reached; BUY VECO: Max positions (20) reached; BUY TER: Max positions (20) reached*
