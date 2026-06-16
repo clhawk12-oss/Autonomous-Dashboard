@@ -1387,3 +1387,42 @@ ORCL reported tonight — beat on revenue but missed on cloud sales. IBD has the
 
 ---
 
+### 2026-06-16 18:54 ET — Run ID: swing-20260616-1854
+**Market**: after-hours | 18:54 ET
+**Reasoning**: **Macro:**
+• Risk regime: Bifurcated — Dow hit record high (~52,000) driven by financials/industrials while Nasdaq/tech pulled back. SPY +1.8% 1W, QQQ +3.1% 1W, SMH +4.2% 1W. The Iran peace deal euphoria from June 15 is now being partially digested — oil fell below $80, Hormuz opening confirmed. Tech stocks skidding today per IBD ('Nvidia, Broadcom, Micron Lead Drop in Nasdaq'). The risk-on from Iran deal is intact but sector rotation is shifting toward value/cyclicals (Dow record) away from pure AI/semi names.
+• Fed/rates: Fed Governor Lisa Cook issued 'stark warning to Wall Street' per Motley Fool — hawkish signal. New Fed chair Warsh debut on tap, likely to maintain higher-for-longer posture. Lower oil is disinflationary positive but Fed rhetoric remains cautious.
+• Macro catalyst: Dow hits record while Nasdaq pulls back — classic post-catalyst rotation. ORCL Microsoft cloud deal talks collapsed per Reuters (then Oracle disputed details) — creates noise around ORCL. MU wins HBM4 supplier role for NVIDIA Vera Rubin platform — major positive for MU thesis. WDC +31.6% 1W with 2.23x vol ratio — Morgan Stanley 33% PT hike confirms AI storage supercycle. NBIS closes $643M Eigen AI deal — confirms AI infrastructure thesis.
+
+**Sectors:**
+• SMH (semis): +4.2% 1W but today leading the Nasdaq decline — profit-taking after last week's extraordinary Iran-deal surge. MU wins HBM4 for NVIDIA Vera Rubin — bullish. WDC surging with 2.23x vol ratio. Semi equipment (KLAC +10.9% 1W, AMAT +13.8% 1W, LRCX +12.9% 1W, TER +10.9% 1W) all continuing strong despite broad tech weakness today.
+• IGV (software): Barchart 'Broader Market Weakens as Energy and Software Stocks Fall' — software taking breather. CRWD +5.4% 1W holding well. OKTA -3.1% 1W digesting but Zacks 'Rises 37% YTD' still bullish. DDOG +1.7% 1W steady.
+• XLK (broad tech): MSFT -2.4% 1W continuing lag. NVDA -0.4% 1W flat. Broad tech digesting.
+• XLY vs XLP: Iran deal removing defensive bid — cyclicals/industrials (CAT +3.4%, GE +6.4%) outperforming. Dow record confirms risk-on rotation into value/cyclicals.
+• XLF: JPM +5.9% 1W, MS +5.0% 1W, GS +5.7% 1W — financials leading with Dow hitting records. Classic value rotation.
+• XLE: CVX -3.6% 1W, XOM -4.7% 1W — Iran deal oil collapse continuing. Energy is the clear sector loser.
+
+**Positions:**
+• WDC (long, +123.9%): +31.6% 1W with 2.23x vol ratio — extraordinary. Morgan Stanley 33% PT hike, 'AI Storage Boom Rolls On' per 24/7 Wall St. At -6.7% from 52W high. The 2.23x vol ratio is the highest institutional signal in the portfolio right now. Considering trimming into strength — position is only 2 shares so minimal action needed.
+• MU (long, +177.5%): +9.1% 1W. MU wins HBM4 supplier role for NVIDIA Vera Rubin platform — massive positive catalyst directly validating the memory supercycle thesis. Veteran analyst issues aggressive PT per TheStreet. Let winner run.
+• NBIS (long, +27.9%): +20.4% 1W. Closes $643M Eigen AI deal — confirms aggressive AI infrastructure investment thesis. Zacks 'Soars 124% in 3 Months: Buy, Hold, or Fold?' — bullish framing. Near 52W high (-4.9%). Let winner run.
+• KLAC (long, -6.8%): +10.9% 1W but still below cost at $237.33 vs $254.54 entry. Stop at $234.18 is very close — only $3.15 buffer. The semi equipment thesis is intact (LRCX betting on advanced packaging for 50% growth, ASML +36% 3M) but KLAC specifically entered at a worse level. I should evaluate whether to hold or exit — stop is nearly at current price so position is at risk.
+• AMAT (long, +0.2%): +13.8% 1W continuing strength. AR smart eyewear partnership with EssilorLuxottica is interesting diversification. Singapore expansion. Stop at $521.87 provides adequate protection. Hold.
+• CRDO (long, -4.6%): +2.1% 1W modest. Stop at $230.75 is only $8.43 below current $239.18. Motley Fool 'Meet the Super Semiconductor Stock Crushing Nvidia and Broadcom in 2026' is bullish. 24/7 Wall St 'Can Credo Hit $300 By Year-End?' is positive. Mizuho reiterates Outperform. Position is slightly underwater but thesis intact post-DustPhotonics acquisition. Monitor closely — stop handles risk.
+• OKTA (long, -5.8%): -3.1% 1W continuing weakness. Stop at $113.60 vs current $116.27 — only $2.67 buffer. This position is persistently weak and near stop. The stop will likely trigger soon — hold and let it execute.
+• ORCL (long, +15.5%): -8.5% 1W — Microsoft cloud deal collapse news (disputed by Oracle) is a negative catalyst. At $188.33 vs stop $149.96. Still +15.5% unrealized. The disputed nature of the Microsoft cloud deal report reduces its significance. Motley Fool still bullish on ORCL AI giant potential. Hold.
+• ARM (long, +175.0%): +22.0% 1W continuing extraordinary strength. Licensing momentum confirmed by Zacks. Focus on 5 AI behemoths in server CPU chip market. Let massive winner run.
+• AVGO (long, +4.0%): -3.9% 1W — digesting post-earnings. StockStory '2 S&P 500 Stocks for Long-Term Investors' mentions AVGO. The Iran deal should be positive for the overall AI capex environment. Stop at $326.09 provides protection.
+
+**Cash:** Holding $46,751 (~34% of portfolio) — deploying selectively into highest-conviction setups. The market bifurcation (Dow record but Nasdaq pulling back) suggests semi equipment and storage winners deserve continued exposure while being cautious about adding broad tech exposure at current levels. TLN (Talen Energy) with +13.3% 1W and 1.92x vol ratio on AI data center power theme is compelling. TER (Teradyne) breaking out per IBD with +10.9% 1W and 1.07x vol ratio in semi equipment is a high-conviction add to complement KLAC/AMAT exposure. Will add TER and TLN as they represent the strongest setups outside current holdings.
+**Benchmarks**: SPY 1D -0.6% | QQQ 1D -1.9% | SMH 1D -4.8%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SKIPPED | TER | 8 | $409.35 | Max positions (20) reached |
+| SKIPPED | TLN | 5 | $406.51 | Max positions (20) reached |
+
+**Portfolio after run**: Cash $46,751.44 | P&L $+22,269.28 (+22.27%) | Daily -2.61%
+
+---
+
