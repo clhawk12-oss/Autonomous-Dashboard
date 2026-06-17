@@ -1426,3 +1426,44 @@ ORCL reported tonight — beat on revenue but missed on cloud sales. IBD has the
 
 ---
 
+### 2026-06-17 18:46 ET — Run ID: swing-20260617-1846
+**Market**: after-hours | 18:46 ET
+**STOP_LOSS** SELL 15 OKTA @ $113.03 → P&L $-156.75
+**Reasoning**: **Macro:**
+• Risk regime: BIFURCATED/RISK-OFF tilt — Nasdaq/stocks sliding on Fed rate hike fears per multiple sources. Warsh's Fed debut stressed price stability, triggering rate hike bets with traders fully pricing in rate hike by October (Bloomberg). SPY +2.1% 1W, QQQ +4.2% 1W, SMH +9.3% 1W — semis still the relative leader but today's session saw broad tech weakness. The Iran deal euphoria from last week is now digesting into a hawkish Fed narrative.
+• Fed/rates: Warsh debut hawkish — stressed price stability, rate hike now being priced in by October. This is the most significant macro negative shift since the Iran deal. Growth stocks face multiple compression risk if rate hike materializes. The 'AI vs inflation' narrative is being tested (Yahoo Finance video).
+• Macro catalyst: Fed hawkishness is the dominant new risk. CRDO reported record FY26 results with triple-digit revenue growth — bullish for existing position. Jim Cramer 'Credo's Just So Good' confirms strong reception. NBIS earnings scheduled June 22 — catalysts approaching. MU reports June 24 — EARNINGS ALERT addressed below. WDC +45.3% 1W is extraordinary with 1.74x vol ratio — memory supercycle intensifying.
+
+**Sectors:**
+• SMH (semis): +9.3% 1W — still the clear leader. AMAT/ASML/LRCX hitting record highs per IBD. Citi lifts PTs on AMAT, LRCX, KLAC amid booming WFE demand. CPU renaissance: AMD/ARM/INTC all getting PT hikes from Bernstein. Memory: WDC +45.3% 1W, SNDK +19.2% 1W, MU +17.0% 1W all surging. KLAC +11.8% 1W recovering.
+• IGV (software): CRWD stock split July 2 announced — positive sentiment. Software broadly weaker today on Fed hawkish signal. NOW -10% 1W at $95 — sharp decline.
+• XLK (broad tech): MSFT -4.6% 1W continuing weakness, dipped below 200-day MA. NVDA +2.1% 1W steady.
+• XLY vs XLP: Risk-off consumer signal — WMT -2.0% 1W, COST -1.8% 1W. Financials holding (JPM +7.9% 1W, GS +9.8% 1W, MS +8.9% 1W) — classic bifurcation.
+• XLF: Financial stocks advancing on higher rate expectations — bullish for financials but headwind for growth/tech.
+• XLE: CVX -6.4% 1W, XOM -6.6% 1W — Iran deal oil collapse continuing.
+
+**EARNINGS ALERT — MU reports June 24:**
+MU is at +183.6% unrealized on 8 shares. The stock is +17% 1W and +53.1% 1M — an extraordinary pre-earnings run. Trefis asks 'Is Micron Stock's Record-Breaking Run A Cyclical Peak Or A New AI Reality?' — raises the expectations risk. Deutsche Bank and Smart Money 'at war' over MU (BeInCrypto) — conflicting views. Wall Street growing more bullish ahead of earnings (GuruFocus). HBM4 supplier role for NVIDIA Vera Rubin is confirmed positive. MU fwd P/E 9.1x on 196% revenue growth is the cheapest valuation in my portfolio by far. DECISION: HOLD all 8 shares into earnings. The thesis is rock solid (HBM4, memory supercycle, NVIDIA partnership), fwd P/E 9.1x means even a modest guide is priced in, and the stock at -6% from 52W high has room to recover to ATH. I will NOT trim because: (1) valuation is compelling even at current levels; (2) HBM4 NVIDIA partnership is a hard catalyst; (3) the 196% revenue growth with 41% margins is exceptional. Risk: stock has run +53% in a month so some is priced in, but fwd P/E 9.1x argues otherwise. HOLD.
+
+**Positions:**
+• KLAC (long, -6.2%): +11.8% 1W recovery — now at $238.73 vs stop $234.18. IBD reports AMAT/ASML/LRCX hitting record highs, Citi lifts PT on KLAC — this is directly positive. The stop is only $4.55 away. Position recovering but still fragile. HOLD — semi equipment thesis intact with fresh Citi PT hike.
+• WDC (long, +134.1%): +45.3% 1W with 1.74x vol ratio — extraordinary. 'How Western Digital Became An AI Landlord' (Trefis) confirms the AI storage landlord thesis. At -4.0% from 52W high. Only 2 shares so position is small. HOLD — let winner run.
+• CRDO (long, -0.6%): Record FY26 results with triple-digit revenue growth per Insider Monkey. Jim Cramer 'Credo's Just so Good.' The prior earnings miss concern (margin compression) is now resolved with strong results. Position barely underwater. HOLD — thesis confirmed.
+• ARM (long, +190.6%): +36.2% 1W, CPU renaissance — Bernstein supercharges AI chip bull case, IBM/AMD/ARM/Intel all getting PT hikes. ARM introduces Neural Dawn. Extraordinary performer. HOLD.
+• NBIS (long, +35.5%): +32.7% 1W, earnings June 22 approaching. Motley Fool: 'Nvidia-Backed Company Bringing AI Into Physical World — Stock Could Jump 3x.' Eigen AI deal closed and three UK data centers opened. Barchart 'Dear Nebius Stock Fans, Mark Your Calendars for June 22' — earnings catalyst imminent. Hold into earnings given strong momentum and confirmed deal flow.
+• SNDK (long, +153.3%): +19.2% 1W — 'Sandisk Stock Is the Most Overbought Stock in History' (Barchart) is a concern. June 22 share swap approaching per Simply Wall St. Motley Fool predicts $5,000 in 2 years. The overbought signal combined with June 22 share swap creates near-term technical risk. Only 2 shares so impact is minimal — HOLD.
+• TLN: +21.8% 1W, 1.26x vol ratio — Vistra selected as preferred power provider for $10B KKR-backed AI infrastructure venture (similar AI data center power theme). TLN itself reported no new negative catalysts. Zacks 'TLN Surges 5.3%: Is This an Indication of Further Gains?' — bullish framing. HOLD.
+• GEV: +21.0% 1W, 1.36x vol ratio — GE Vernova Supplier near breakout per IBD. Strong AI data center power theme. Not in portfolio but notable.
+• HOOD: +21.8% 1W, 2.10x vol ratio — extraordinary. SpaceX IPO access opened to retail through Robinhood platform. This is a fresh catalyst with high institutional vol signal. HOOD fwd P/E 37x on 15% revenue growth — not cheap but momentum is exceptional and the SpaceX IPO access is a significant differentiator.
+
+**Cash:** Holding $48,447 (~35% of portfolio) — appropriate given Warsh hawkish debut creating rate hike fear. Semi equipment and memory supercycle positions are working but new deployment should be selective. HOOD +21.8% 1W with 2.10x vol ratio on SpaceX IPO retail access is a compelling momentum setup that fits the AI/fintech theme. Could deploy ~3-4% into HOOD as the strongest non-held momentum setup with a clear catalyst.
+**Benchmarks**: SPY 1D -1.2% | QQQ 1D -1.0% | SMH 1D +1.3%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| BUY | HOOD | 35 | $105.20 | 1) ~2.7% portfolio weight at $105.20 × 35 = $3,682. 2) Moderate conviction — HOOD has a specific catalyst (SpaceX IPO retail access opened through Robinhood platform) driving the 2.10x vol ratio and +21.8% 1W surge. Sizing at 2.7% reflects conviction that is real but limited — fwd P/E 37x on 15% revenue growth is not cheap, and Fed hawkishness creates headwind for high-multiple fintech. The vol ratio of 2.10x is the highest in the watchlist, suggesting genuine institutional accumulation on this catalyst. 3) No overlap with existing positions — HOOD is fintech/brokerage, a new theme. Provides diversification away from heavy semi/memory concentration. ⬛ Robinhood opened SpaceX IPO access to retail investors — a unique competitive differentiator driving massive institutional interest. The 2.10x vol ratio is the highest signal in the entire watchlist, confirming genuine accumulation. ⏎ • Momentum: +21.8% 1W vs SPY +2.1%, QQQ +4.2% — dramatically outperforming all benchmarks; SpaceX IPO catalyst fresh ⏎ • Technicals: -31.6% from 52W high provides meaningful recovery runway; ATR 7.69 manageable at this position size ⏎ • Fundamentals: Fwd P/E 37x on 15% revenue growth — not cheap but fintech/brokerage has been re-rated on crypto/alternative asset access. 41% margins are exceptional for a fintech disruptor ⏎ • Catalyst: SpaceX IPO retail access via HOOD platform — SpaceX near $3T valuation means retail demand for access is enormous. This is a durable competitive moat story ⏎ • Volume: 2.10x vol ratio is the highest in the entire watchlist — strongest institutional signal available ⏎ • Sizing: 2.7% of portfolio, max loss ~15% = ~$550 if stop triggers. Not larger because fwd P/E 37x creates valuation risk in a rate-hike environment; not smaller because 2.10x vol ratio is too strong to ignore |
+
+**Portfolio after run**: Cash $44,764.89 | P&L $+23,661.09 (+23.66%) | Daily +1.14%
+
+---
+
