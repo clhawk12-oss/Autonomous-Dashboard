@@ -1471,3 +1471,43 @@ MU is at +183.6% unrealized on 8 shares. The stock is +17% 1W and +53.1% 1M — 
 **Market**: after-hours | 18:57 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 18 column 6 (char 10424)
 
+### 2026-06-19 18:08 ET — Run ID: swing-20260619-1808
+**Market**: after-hours | 18:08 ET
+**Reasoning**: **Macro:**
+• Risk regime: MIXED/CAUTIOUS — SPY +1.5% 1W, QQQ +3.3% 1W, SMH +8.3% 1W. Semis continuing to lead broadly. Fed hawkishness (Warsh) remains the dominant risk; traders pricing rate hike by October. Iran deal nuclear talks hit early snag per Bloomberg — geopolitical risk not fully resolved. Overall risk-on in tech/semis but macro uncertainty elevated.
+• Fed/rates: Warsh debut stressed price stability; rate hike by October being priced in. This creates multiple compression risk for high-multiple growth names. Counter-argument: AI capex super-cycle appears to be overwhelming rate concerns for now.
+• Macro catalyst: NBIS joining Nasdaq-100 (5 new members per Motley Fool) — institutional demand catalyst confirmed. ARM hit 52-week highs. KLAC popped 8.7% on hyperscaler demand and Dan Loeb stake. TLN +26.5% 1W on AI data center power theme. BE +32.2% 1W near ATH. MU earnings June 24 — binary event in focus.
+
+**Sectors:**
+• SMH (semis): +8.3% 1W — extraordinary continued leadership. KLAC +7.6% 1W recovering strongly (Dan Loeb new stake, hyperscaler demand). ARM +28.4% 1W hitting 52W highs. AMAT +11.7% 1W at near-ATH. LRCX hitting all-time highs per FX Empire. Semi equipment supercycle remains fully intact.
+• IGV (software): CRWD -1.0% 1W digesting post-split announcement. NOW at $95 (-7.8% 1W, -55.1% from 52W high) — significant weakness. Software broadly lagging semis.
+• XLK (broad tech): MSFT -2.8% 1W continuing weakness. NVDA +2.8% 1W steady. Broad tech mixed.
+• XLY vs XLP: WMT -2.8% 1W, TJX -2.7% 1W — risk-off consumer signal persisting. Hawkish Fed weighing on consumer discretionary.
+• XLF: GS +5.9% 1W, JPM +3.7% 1W — financials benefiting from rate hike expectations. Classic bifurcation.
+• XLE: CVX -6.6% 1W, XOM -6.0% 1W — Iran deal oil collapse continuing.
+
+**EARNINGS ALERT — MU reports June 24:**
+MU is at +208.3% unrealized on 8 shares at $1,133.99. The stock is +13.9% 1W, +62.3% 1M — extraordinary pre-earnings run. Motley Fool: 'Everything Could Change for Micron Stock on June 24.' GuruFocus: 'Micron Faces a Big Earnings Test.' Zacks: 'Micron Gets the Headlines, But Sandisk Could Offer More Upside.' At fwd P/E 9.9x on 196% revenue growth, MU remains the cheapest valuation in the portfolio by far. DECISION: HOLD all 8 shares into earnings. The HBM4 NVIDIA Vera Rubin catalyst is confirmed, the memory supercycle is intact, and fwd P/E 9.9x means expectations are NOT stretched. The -1.3% from 52W high means the stock has nearly recovered all losses and momentum is strong. The risk is priced-in from the 62% monthly run, but the valuation argument overrides trim concerns. HOLD.
+
+**Positions:**
+• KLAC (long, +2.0%): +7.6% 1W recovery — Dan Loeb takes new stake (Simply Wall St), KLA pops on hyperscaler demand (FX Empire), StockStory '3 Reasons We Love This Stock.' The Citi PT hike thesis is being confirmed by additional institutional interest. Stop at $234.18 now has more buffer with current price $259.56. Position recovering well.
+• ARM (long, +204.9%): +28.4% 1W — hitting 52W highs per Stocktwits. Motley Fool 'AMD vs ARM: Which AI CPU Stock Is Better Buy?' keeping the narrative alive. At -2.9% from 52W high, essentially at ATH. Extraordinary winner — HOLD.
+• MRVL (long, +211.0%): +10.6% 1W. CFO filing to dump $65M of stock (Motley Fool) — insider selling is a mild caution. Amazon decision driving stock per Motley Fool. Adobe CFO Dan Durn named as new CFO. Still at record territory. The $65M insider sale is notable but small relative to market cap of $272B. HOLD — stop at $87.29 is extremely far below.
+• NBIS (long, +38.3%): +29.0% 1W — Nasdaq-100 addition confirmed (Motley Fool: '5 New Members'). This is a massive institutional demand catalyst driving index fund buying. 'Up 210% This Year. Here's Why There's Still Room for More Upside' (Motley Fool). HOLD — accelerating momentum with confirmed institutional catalyst.
+• HOOD (long, +2.8%): +17.3% 1W, GuruFocus: 'Robinhood Stock Spikes as AI Trading Tops 50,000 Users in Weeks.' AI trading feature gaining real user adoption — durable new catalyst beyond SpaceX IPO access. StockStory flags as one of '2 High-Flying Stocks Worth Attention' alongside one they question. The vol ratio has cooled to 1.14x from 2.10x — some momentum normalization. Still constructive but watching.
+• WDC (long, +145.3%): +41.0% 1W — extraordinary. Zacks: 'Sandisk Could Offer More Upside' is a positive memory read-through. At -6.7% from 52W high. 24/7 Wall St: 'Up 700% YTD, How High Can SanDisk Rally?' suggests the narrative is catching broad attention. Two shares only — let winner run.
+• CRDO (long, +8.4%): +2.7% 1W. Simply Wall St: 'Stock Could Be 109.1% Overvalued After Recent Run' — a meaningful valuation caution. But MarketBeat: 'Credo Technologies Accelerates AI — Its Stock Price Will Follow.' Record FY26 confirmed. Insider Monkey: 'How CRDO Is Using DustPhotonics to Build Deeper AI Optical Connectivity Stack.' Thesis intact. HOLD with stop at $230.75.
+• TLN: Not currently held — but +26.5% 1W, 2.27x vol ratio, fwd P/E 13.9x on 97% revenue growth, -3.3% from 52W high. This is a high-conviction setup: AI data center power theme, near ATH, elevated institutional signal. This was on my watchlist from prior runs and is now the strongest non-held momentum setup with clear AI infrastructure tailwind. With 19 positions currently, adding TLN would bring to 20 (max). The setup is compelling.
+• TER: +14.8% 1W, 4.05x vol ratio — the HIGHEST institutional volume signal in the entire watchlist. Teradyne just joined Nasdaq-100 per Motley Fool. Semi equipment testing at near-ATH (-0.6%). This is extraordinary institutional signal. However at 19 positions, I need to weigh adding vs current portfolio.
+
+**Cash:** Holding $44,765 (~32% of portfolio after unrealized gains) — this is appropriate given the hawkish Fed risk and MU binary event June 24. However, TLN's 2.27x vol ratio and near-ATH positioning in the AI power theme, and TER's extraordinary 4.05x vol ratio on Nasdaq-100 addition represent the two strongest new setups. I currently have 19 positions. Adding one of these takes me to 20 (max). TER with 4.05x vol ratio and Nasdaq-100 inclusion is the stronger institutional signal for a swing trade. Will add TER as the 20th position.
+**Benchmarks**: SPY 1D +1.0% | QQQ 1D +2.5% | SMH 1D +5.8%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SKIPPED | TER | 8 | $437.92 | Max positions (20) reached |
+
+**Portfolio after run**: Cash $44,764.89 | P&L $+27,949.38 (+27.95%) | Daily +3.22%
+
+---
+

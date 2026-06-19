@@ -2,8 +2,8 @@
   "meta": {
     "agent_type": "swing",
     "starting_cash": 100000.0,
-    "last_updated": "2026-06-17T18:46:56.507709-04:00",
-    "last_run_id": "swing-20260617-1846"
+    "last_updated": "2026-06-19T18:08:28.090222-04:00",
+    "last_run_id": "swing-20260619-1808"
   },
   "cash": 44764.888361111036,
   "margin_reserved": 0.0,
