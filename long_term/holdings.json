@@ -2,8 +2,8 @@
   "meta": {
     "agent_type": "long_term",
     "starting_cash": 100000.0,
-    "last_updated": "2026-06-18T19:03:32.724992-04:00",
-    "last_run_id": "long_term-20260618-1903"
+    "last_updated": "2026-06-19T18:12:13.425929-04:00",
+    "last_run_id": "long_term-20260619-1812"
   },
   "cash": 1346.0144952380933,
   "margin_reserved": 0,
