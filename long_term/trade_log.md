@@ -1629,3 +1629,46 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-06-22 18:51 ET — Run ID: long_term-20260622-1851
+**Market**: after-hours | 18:51 ET
+**Reasoning**: **Macro:**
+• Risk regime: MIXED/RISK-OFF tilt today — S&P 500 and Nasdaq sliding as SpaceX craters post-IPO bond offering ('Stock market today: S&P 500, Nasdaq slide as Big Tech, SpaceX hammered'); however medium-term macro remains constructive with Iran deal intact, Goldman cutting US recession risk to 15%, and oil below $80 reducing CPI pressure
+• Fed/rates: Apollo's Torsten Slok notes 'Oil's Plunge Below $80 Is Already Reshaping the Fed's Rate Path' — oil deflation is disinflationary, reducing rate hike tail risk; this is net constructive for high-multiple AI names despite today's pullback
+• Growth cycle: SMH +7.9% 1W / +18.5% 1M — semis continuing to dramatically outperform all benchmarks; portfolio at +43.7% total P&L vs SPY +0.6% 1W generating substantial alpha; MU at $1,211 / +23.4% 1W near ATH ahead of MANDATORY June 24 earnings; CRDO spikes to record high on bullish reports (Evercore says Wall Street 40% too low); ALAB +19.8% 1W post-Nasdaq-100 inclusion executing; BE +32.9% 1W extraordinary
+• Macro catalyst: MU June 24 earnings is the MANDATORY near-term catalyst — MUST ADDRESS; AI capex supercycle continues with Micron/Anthropic AI infrastructure supply agreement signed today (Reuters); SpaceX post-IPO bond offering creating temporary tech weakness but not a thesis break
+
+**Sectors:**
+• SMH (semis): +7.9% 1W / +18.5% 1M — dominant outperformance vs all benchmarks; MU +23.4% 1W near ATH; MRVL +10.1% 1W at $307; ALAB +19.8% 1W post-Nasdaq-100 inclusion; AMAT +12.9% 1W; CRDO spikes to record high; WDC +30.1% 1W extraordinary on memory demand; TSM +10.3% 1W near ATH — entire semi complex in structural bull
+• IGV (software): MSFT -6.0% 1W continuing underperformance / -33.3% from 52W high; PANW +2.4% 1W holding well; NOW -8.9% 1W / -56% from 52W high; software broadly weak vs hardware/semis
+• XLK (broad tech): NVDA +1.7% 1W modest; AMZN -2.4% 1W some weakness; GOOGL -2.6% 1W — AlphaFold co-creator exit raises AI talent concern (Motley Fool); broad tech mixed
+• XLY vs XLP: Consumer mixed — COST -3.2% 1W; WMT -3.2% 1W; Amazon Prime Day upcoming as catalyst; risk-on signal muted today
+• XLF: GS +4.1% 1W / JPM +3.4% 1W — financials outperforming; Goldman cuts US recession risk to 15% after Iran deal
+• XLE: XOM -5.8% 1W — Iran deal oil deflation continuing; zero energy exposure remains correct
+
+**Positions:**
+• MU (long, +160.1% unreal): **EARNINGS ALERT — REPORTS JUNE 24 (MANDATORY).** MU at $1,211 / +23.4% 1W / -0.2% from 52W high — essentially at all-time high into earnings. Multiple bullish catalysts: (1) Micron/Anthropic AI infrastructure supply agreement signed TODAY (Reuters) — direct pre-earnings positive catalyst; (2) Motley Fool '10 Words From Apple CEO Tim Cook That Are Music to the Ears of Micron Technology Investors' — Apple CEO Tim Cook endorsing memory demand; (3) Yahoo Finance 'Why Micron (MU) Stock Is Up Today' — stock rising pre-earnings; (4) StockStory confirms upside. At 10.0x fwd P/E for 196% revenue growth this remains the most extraordinary value/growth combination in the entire tech universe. HBM4 Vera Rubin win pre-confirmed. The Anthropic deal signed TODAY is a new, powerful pre-earnings catalyst that was not in prior sessions. DECISION: HOLD all 10 shares through earnings. The thesis has never been stronger — Anthropic signing an AI infrastructure supply agreement with MU the day before earnings is about as bullish a pre-earnings signal as possible. Risk of 'punish the beat' remains real at ATH, but fundamental thesis warrants holding.
+• ALAB (long, +105.5% unreal): +19.8% 1W post-Nasdaq-100 inclusion. 'Astera Labs' (ALAB) Growth Rate Weakens Despite Earnings Growth' (Insider Monkey) is a mild concern — the growth deceleration headline is worth noting but the AI infrastructure connectivity thesis remains intact with Aries/Taurus demand robust. Simply Wall St. 70.3% overvalued warning at 99x fwd P/E is still valid. HOLD — Nasdaq-100 inclusion fully executed, passive buying complete. Monitor for signs of exhaustion but thesis at maximum strength.
+• ARM (long, +182.9% unreal): +7.1% 1W; Bernstein raised PT by ~70% (Barchart); billionaire who called 2008 bubble bought ARM (24/7 Wall St.); Motley Fool 'AMD vs. ARM: Which AI CPU Stock Is the Better Buy?' continues CPU Renaissance validation. At 132x fwd P/E expensive but royalty model intact. HOLD.
+• MRVL (long, +224.5% unreal): +10.1% 1W at $307; Motley Fool 'Marvell Technology Has Soared 247% in 2026. Here's How Much Upside It Can Deliver Over the Next 3 Years' — very constructive long-term framing; Zacks 'Beyond the Mag 7: Finding the Real Winners' features MRVL; Amazon custom silicon switching to MRVL confirmed. HOLD all 40 shares.
+• AVGO (long, +29.8% unreal): +2.6% 1W but notable — Motley Fool 'Broadcom's AI Revenue Is on Pace to Triple to $16 Billion in a Single Quarter, but the Stock Just Dipped 17%' and 24/7 Wall St. 'The Market Is Panicking on Broadcom. This Is Why I Keep Buying The Stock' — both framing this as a buying opportunity. At 20.2x fwd P/E for 48% revenue growth, AVGO remains the most attractively valued AI mega-cap. HOLD all 37 shares.
+• VRT (long, +16.9% unreal): +18.2% 1W at $357; StockStory '3 Reasons Investors Love Vertiv'; CoolIt Innovation supports long-term outlook (GLJ Research); IBD near buy points. Stop at $260 = 27.3% buffer — very comfortable. HOLD.
+• MSFT (long, +3.0% unreal): -6.0% 1W at $367 / -33.3% from 52W high — continuing technical weakness. At 19.0x fwd P/E for 18% growth this is genuinely cheap for MSFT quality. Thesis intact but technical weakness accelerating. HOLD — do not add until stabilization.
+• META (long, +7.3% unreal): -0.5% 1W; Zacks notes META 'Sees a More Significant Dip Than Broader Market' but at 15.6x fwd P/E for 33% growth this remains extraordinary value. HOLD.
+• GLW (long, +41.9% unreal): +17.1% 1W at $209 / -1.2% from 52W high — extraordinary strength; Insider Monkey 'short sellers say GLW is among most overvalued quantum computing stocks' — short sellers being squeezed is actually constructive. CEO's Take on AI Boom (Insider Monkey) very constructive. HOLD.
+• PANW (long, +69.3% unreal): +2.4% 1W at $286; 24/7 Wall St. notes PANW outperforming Palantir; Zacks 'CrowdStrike vs. Zscaler' indirectly constructive for PANW thesis. HOLD.
+• TSM (long, +36.9% unreal): +10.3% 1W at $467 / -1.8% from 52W high; Zacks 'TSMC Advances While Market Declines' — relative strength; billionaire investor highlights TSM (24/7 Wall St.); Cerebras/Wedbush constructive for TSM capacity. HOLD.
+• EQIX (long, +15.9% unreal): +5.7% 1W at $1,115 / -0.6% from 52W high — essentially at ATH; AI supply chain positioning thesis confirmed (Barchart). HOLD.
+• AMZN (long, +12.2% unreal): -2.4% 1W; Amazon Prime Day approaching ($26.3B US e-commerce expected per Retail Dive) — near-term revenue catalyst; Amazon/ArcelorMittal AI in steel plants (Simply Wall St.) — expanding AI thesis. HOLD.
+• GOOGL (long, +0.0% display): -2.6% 1W; AlphaFold co-creator exit raises AI talent concerns (Motley Fool) — worth monitoring but not a thesis break; at 24.1x fwd P/E for 22% growth still attractive. HOLD.
+• AMD (long, +55.3% unreal): +7.8% 1W at $551; Zacks 'Beyond the Mag 7: Finding the Real Winners' features AMD; Intel warning for AMD (Motley Fool) — noting Intel/AMD competitive dynamics; at 42.1x fwd P/E for 38% growth. HOLD.
+• COST (long, -3.3% unreal): -3.2% 1W at $951; Amazon Prime Day could impact Costco near-term but membership thesis structurally intact; Zacks 'Is Costco Wholesale's Membership Model Getting Even Stronger?' — constructive. HOLD tiny 3-share position.
+• CIEN (long, +14.6% unreal): +3.2% 1W; Simply Wall St. 'Sets A New Bar For Quantum Safe 800GbE Across The Atlantic' — thesis additive; Insider Monkey 'One of the Best US Stocks to Buy and Hold for the Next 5 Years' — constructive long-term framing. HOLD tiny 2-share position.
+
+**Cash:** At $1,346 (~0.9% floor) — fully deployed at maximum conviction; MU June 24 earnings is the single most critical near-term catalyst with the Anthropic AI supply agreement signed today as a powerful pre-earnings positive; ALAB Nasdaq-100 inclusion fully executed; all fundamental theses at or near maximum strength; unable to initiate new positions without selling an existing holding, and no existing position warrants liquidation given thesis quality and alpha generation.
+**Benchmarks**: SPY 1D -0.3% | QQQ 1D -0.4% | SMH 1D +1.4%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+43,680.46 (+43.68%) | Daily -0.92%
+
+---
+
