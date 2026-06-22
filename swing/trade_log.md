@@ -1511,3 +1511,42 @@ MU is at +208.3% unrealized on 8 shares at $1,133.99. The stock is +13.9% 1W, +6
 
 ---
 
+### 2026-06-22 18:49 ET — Run ID: swing-20260622-1849
+**Market**: after-hours | 18:49 ET
+**Reasoning**: **Macro:**
+• Risk regime: MIXED — SPY +0.6% 1W, QQQ +2.3% 1W, SMH +7.9% 1W. Semis continuing to dominate. Today's session saw S&P/Nasdaq slide with Big Tech and SpaceX hammered (Yahoo Finance). SpaceX post-IPO selloff is weighing on space-adjacent names and pulling capital. Iran geopolitical risk partially receding — Goldman cuts US recession risk to 15% after Iran deal, Bessent making diplomatic moves. Treasury yields surging creating headwind for growth multiples.
+• Fed/rates: Hawkish Warsh stance intact — rate hike by October still being priced. Oil below $80 is disinflationary positive but yield surge today (MT Newswires: 'Surging Treasury Yields Push US Equity Indexes in Mixed Territory') creates tech multiple compression risk. Net neutral-to-negative for high-multiple growth.
+• Macro catalyst: SpaceX post-IPO selling pressure hammering space/adjacent stocks. NBIS and CoreWeave 'sell the news' on Nasdaq-100 debut per 24/7 Wall St. ORCL cutting 21,000 jobs amid $50B AI buildout — restructuring for AI efficiency. MU hitting all-time highs ahead of June 24 earnings — Anthropic deal signed (Reuters), Tim Cook Apple comment positive for memory demand. AVGO AI revenue on pace to triple to $16B in a single quarter despite stock dipping 17% — Motley Fool/24/7 Wall St bullish framing. Memory stocks rallying into MU earnings.
+
+**Sectors:**
+• SMH (semis): +7.9% 1W — continued extraordinary leadership. MU +23.4% 1W at near-ATH (-0.2% from 52W high) into earnings June 24. WDC +30.1% 1W with 1.54x vol ratio, JPMorgan lifts PT. KLAC +5.7% 1W, Evercore launches CRDO coverage with $325 PT (40% above current), ALAB +19.8% 1W near ATH. TSEM +20.5% 1W with 1.51x vol ratio near 52W high. TER +13.3% 1W, TLN +21.5% 1W. BE +32.9% 1W near ATH. Semi supercycle accelerating.
+• IGV (software): CRWD -1.1% 1W digesting. NOW -8.9% 1W at -56% from 52W high — significant ongoing weakness. DDOG -3.7% 1W slight weakness. Software broadly lagging semis.
+• XLK (broad tech): MSFT -6.0% 1W continuing deterioration (-33.3% from 52W high). NVDA +1.7% 1W steady. AVGO +2.6% 1W recovering from post-earnings dip. Broad tech mixed.
+• XLY vs XLP: WMT -3.2% 1W, TGT -4.1% 1W — consumer discretionary/staples both weak. Risk-off consumer signal persisting with rate hike fears.
+• XLF: GS +4.1% 1W, JPM +3.4% 1W, MS +6.1% 1W — financials benefiting from rate hike expectations. Classic bifurcation continues.
+• XLE: CVX -6.5% 1W, XOM -5.8% 1W — Iran deal oil collapse continuing.
+• XLU/Power: BE +32.9% 1W, VRT +18.2% 1W, TLN +21.5% 1W — AI power theme remains the hottest non-semi sector.
+
+**Positions:**
+• MU (long, +229.3%, EARNINGS ALERT): MU reports June 24 — holding all 8 shares. Stock is at -0.2% from 52W high (essentially ATH), +23.4% 1W, +65.5% 1M. Anthropic signs AI infrastructure supply agreement with Micron (Reuters) — fresh hard catalyst confirming HBM demand. Tim Cook Apple comment music to Micron investors' ears (Motley Fool). Fwd P/E 10.0x on 196% revenue growth remains the cheapest valuation in the portfolio. Memory stocks broadly surging (WDC +30.1% 1W, SK Hynix at new highs in Korea). DECISION: HOLD all 8 shares. The Anthropic deal is a concrete new positive catalyst. Fwd P/E 10x argues expectations are NOT stretched even after the 65% monthly run. The thesis is stronger going into earnings than it was last week.
+• NBIS (long, +36.8%): 'Sell the news' on Nasdaq-100 debut — 24/7 Wall St: 'CoreWeave Sinks 5%, Nebius Dips as AI Cloud Stocks Sell the News on Their NASDAQ 100 Debut.' -5.4% from 52W high. Motley Fool: 'Already Up Around 240% This Year, Is It Too Late to Buy?' bullish framing. 24/7 Wall St: '40% Upside in 2026.' The institutional inclusion buying thesis has now played out — some selling pressure as expected. HOLD — the AI data center shortage thesis is intact and long-term upside remains.
+• CRDO (long, +20.6%): EXTRAORDINARY news — Evercore launches coverage with $325 PT (Investing.com), stock spikes to RECORD HIGH per IBD. 'Wall Street Is 40% Too Low on Credo' (GuruFocus). This is the single biggest positive catalyst for any position today. Evercore's $325 PT vs current $302.52 implies significant upside. HOLD — thesis dramatically strengthened. Consider if stop needs adjusting.
+• AVGO (long, +8.3%): AI revenue on pace to triple to $16B single quarter despite 17% dip. Motley Fool 'Market Panicking — This is Why I Keep Buying.' 24/7 Wall St bullish. The dip post-earnings appears to be a buying opportunity per multiple sources. +2.6% 1W suggests recovery underway. HOLD.
+• HOOD (long, +0.5%): TheStreet: 'Robinhood's multibillion-dollar move sends stock lower' — HOOD seeks $2B convertible bond raise (GuruFocus). This is a dilutive capital raise that's weighing on the stock. +13.4% 1W still positive but the convertible bond raise is a near-term headwind. Stock at -31.6% from 52W high. Monitor — thesis (AI trading, SpaceX IPO access) intact but dilution risk is real.
+• ORCL (long, +7.4%): Cutting 21,000 jobs amid $50B AI buildout (Reuters/Simply Wall St). This restructuring confirms the AI pivot but creates near-term uncertainty. -4.9% 1W continuing weakness. Still at +7.4% unrealized. Stop at $149.96 is far below. HOLD — restructuring for AI efficiency is ultimately positive for margins.
+• TER (long): +13.3% 1W, StockStory flags as '1 Surging Stock Worth Your Attention' — Tokyo Electron alliance redefining AI test leadership (Simply Wall St). Position working well. HOLD.
+• KLAC (long, +5.7%): Multiple bullish pieces — 'KLAC Could Be One of Quiet Winners of AI Buildout' (Insider Monkey), 'Is KLA the Biggest Process Control Winner From AI Spending?' (Zacks). Stop at $234.18 has meaningful buffer at $269.16. HOLD.
+• BE (Bloom Energy): +32.9% 1W, -1.2% from 52W high, 1.04x vol ratio. Bernstein initiates with Market Perform — somewhat neutral. Not held. AI power theme continues but Bernstein's neutral initiation is a mild cap on near-term upside.
+• VRT (not held): +18.2% 1W, 1.19x vol ratio — GLJ Research says CoolIt Innovation supports long-term outlook. '3 Reasons Investors Love Vertiv' (StockStory). AI data center cooling play near ATH. Strong setup.
+• TSEM (Tower Semiconductor, not held): +20.5% 1W, 1.51x vol ratio, -0.9% from 52W high. Near ATH with elevated institutional signal. Semi foundry benefiting from AI chip demand diversification.
+• ALAB (not held): +19.8% 1W, -0.3% from 52W high, essentially at ATH. Astera Labs at near-ATH with strong AI connectivity demand. 93% revenue growth at fwd P/E 104.5x.
+• TLN (held): +21.5% 1W, -2.9% from 52W high — AI power theme strongest setup outside semis. Currently held. Let run.
+
+**Cash:** Holding $44,765 (~32% of portfolio) — appropriate given MU binary earnings June 24, HOOD dilution risk from $2B convert, and Treasury yields surging (creating multiple compression). Would deploy into VRT or TSEM if a position closes, or reduce into MU binary event if conviction weakens.
+**Benchmarks**: SPY 1D -0.3% | QQQ 1D -0.4% | SMH 1D +1.4%
+
+
+**Portfolio after run**: Cash $44,764.89 | P&L $+28,834.21 (+28.83%) | Daily +0.64%
+
+---
+
