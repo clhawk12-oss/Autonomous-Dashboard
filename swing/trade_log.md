@@ -1550,3 +1550,38 @@ MU is at +208.3% unrealized on 8 shares at $1,133.99. The stock is +13.9% 1W, +6
 
 ---
 
+### 2026-06-23 18:17 ET — Run ID: swing-20260623-1817
+**Market**: after-hours | 18:17 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF intensifying — SPY -2.6% 1W, QQQ -4.0% 1W, SMH -3.9% 1W. Today's session saw Nasdaq fall ~580 points led by semiconductor selloff. Headlines: 'Wall Street ends lower on semiconductor selloff as AI spending concerns mount' (Reuters), 'Chip Stocks Tumble From Record Heights, Lead Tech Wreck' (IBD), 'AI bubble fears send tech stocks plunging' (Axios). The dominant narrative has shifted from 'AI euphoria' to 'AI phobia' — questioning whether AI capex spending is sustainable. South Korea market crash spilling into memory names (SNDK -11%, MU -10%, WDC -10%). This is a significant de-risking event, not a routine pullback.
+• Fed/rates: Warsh hawkish stance intact. PCE inflation data being watched closely (US stock market futures easing as traders eye PCE per Simply Wall St). October rate hike still priced in. No relief from Fed on the horizon.
+• Macro catalyst: AI spending concerns are THE catalyst today — AP: 'AI stock slump raises the question if investors are just taking profits or getting very nervous.' South Korean market crash in memory names creating contagion. FedEx sinks on trade policy whiplash (weak logistics demand signal). MU earnings tonight after close is the critical binary event.
+
+**Sectors:**
+• SMH (semis): -3.9% 1W — reversal from prior extraordinary leadership. Memory names hardest hit: SNDK -6.8% 1W, MU -3.3% 1W (but today alone -10%), WDC +2.6% 1W. Semi equipment also under pressure: AMAT flat 1W but down today, KLAC -4.7% 1W, LRCX -4.5% 1W. ARM -11.2% 1W — 24/7 Wall St: 'Is Today's 10% Drawdown a Take-Profits Signal?' Critical inflection point for the semi supercycle thesis.
+• IGV (software): CRWD -1.7% 1W holding relatively well. Cybersecurity showing defensive characteristics in the selloff — PANW +2.2% 1W outperforming. Software less damaged than semis.
+• XLK (broad tech): MSFT -6.5% 1W continuing deterioration. NVDA -5.8% 1W — below key level per IBD. Broad tech under pressure.
+• XLY vs XLP: Dow rising while Nasdaq falls — classic risk-off rotation. Barrons: 'Wall Street Buys Staples and Sells Chips, Sending Nasdaq Down 2%.' Consumer staples and value outperforming.
+• XLF: JPM +4.6% 1W, MS +3.7% 1W, GS +1.7% 1W — financials holding up as rate hike expectations support margins.
+• XLU/Power: TLN +6.7% 1W, BE +17.3% 1W — AI power theme showing resilience even as AI names sell off. Power infrastructure more defensive than pure AI plays.
+
+**Positions:**
+• MU (long, +185.9%, EARNINGS ALERT): MU reports June 24 — TONIGHT after close. Stock down hard today — IBD: 'Nasdaq Falls 580 Points; Micron, Sandisk Are Big Losers.' South Korean memory market crash creating negative sentiment backdrop. However: fwd P/E 8.7x on 196% revenue growth remains the most compelling valuation in the portfolio. Anthropic supply deal is confirmed. The selloff today is sentiment/macro, not fundamental impairment. Trefis headline 'Micron Earnings Have Never Looked Better. Start Worrying.' captures the tension. DECISION: HOLD all 8 shares. The valuation argument (fwd P/E 8.7x) is too compelling to exit before earnings. The Anthropic deal provides a genuine hard catalyst. The risk is the stock has run +185% so it could gap down on any disappointment, but fwd P/E 8.7x means expectations are NOT stretched. HOLD.
+• ARM (long, +154.2%): -11.2% 1W — 24/7 Wall St asking if today's 10% drawdown is a take-profits signal. ARM at fwd P/E 118.8x trailing 426x — extremely extended valuation with AI spending concerns now being raised. The stock is down -19.1% from 52W high. The semi selloff is hitting ARM hard. However stop at $135.48 is very far below at $366.39. The AI CPU thesis remains intact structurally. HOLD — let stop protect.
+• AVGO (long, +4.9%): -3.4% 1W, -23.1% from 52W high. Barrons: 'Nvidia Stock Falls as Tech Selloff Catches Up With Chips.' Fwd P/E 19.6x on 48% growth remains attractive. Stop at $326.09 provides protection. HOLD.
+• KLAC (long, -3.9%): -4.7% 1W, stop at $234.18 vs current $244.49 — buffer is only $10.31. StockStory notes KLAC shares falling. The stop is getting uncomfortably close again. 1.34x vol ratio indicates some institutional interest still. HOLD but stop may trigger soon.
+• CRDO (long, +8.5%): +4.9% 1W — the strongest performer in the semi space this week. Evercore $325 PT driving continued strength per IBD. Record high. Outperforming the semiconductor selloff dramatically. HOLD — thesis strengthened.
+• HOOD (long, -1.9%): Truist stays bullish, June volumes pointing to record quarter (GuruFocus). But Meta prediction markets app Arena is sinking DraftKings and HOOD stock (Quartz). WSJ reports HOOD in layoffs tracker. Stop at $92.58, current $103.25 — adequate buffer. HOLD but Meta competition is a new headwind.
+• NBIS (long, +32.8%): +5.8% 1W — holding up well in the selloff. WSJ: 'These Tech Stocks Are Falling the Most Today' does not specifically call out NBIS. Insider Monkey asks if it has more upside. Motley Fool: '3 Stocks Nvidia Owns That You Should Consider Too' — positive. HOLD.
+• ORCL (long, +1.3%): -14.3% 1W — significant continued weakness. Annual filing reveals 21,000 job cuts and AI spending jump (IBD). Stock at $165.16, stop at $149.96. The stock has given up all gains beyond a small +1.3%. Stop is $15.20 below. The job cuts + AI spending pivot creates uncertainty. Very close to breakeven on this position.
+• TLN (long, held): +6.7% 1W — one of the few bright spots. AI power theme holding up. Morgan Stanley lifts server TAM to $809B (positive for data center power demand). TLN near ATH. HOLD.
+• TER (long, held): -2.8% 1W, StockStory notes shares falling. Applied Materials unveiling new chipmaking systems is a positive industry signal. 1.55x vol ratio still elevated. HOLD.
+
+**Cash:** Holding $44,765 (~32% of portfolio) — maintaining this level given the AI spending concern narrative shift, South Korean memory crash, and MU binary event tonight. Would increase to 40%+ if MU disappoints and semis continue lower. Would deploy into rebounds if AI spending narrative stabilizes post-MU earnings.
+**Benchmarks**: SPY 1D -1.5% | QQQ 1D -3.3% | SMH 1D -7.0%
+
+
+**Portfolio after run**: Cash $44,764.89 | P&L $+23,011.52 (+23.01%) | Daily -4.21%
+
+---
+
