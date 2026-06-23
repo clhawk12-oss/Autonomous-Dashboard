@@ -1672,3 +1672,48 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-06-23 18:21 ET — Run ID: long_term-20260623-1821
+**Market**: after-hours | 18:21 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF accelerating — Nasdaq -4.0% 1W, SPY -2.6% 1W; 'Chip Stocks Tumble From Record Heights, Lead Tech Wreck' (IBD); 'Wall Street ends lower on semiconductor selloff as AI spending concerns mount' (Reuters); 'AI Spending Jitters Weigh on Tech Stocks' (WSJ); South Korea global rout adding international contagion risk; this is a genuine rotation away from AI/semi names, not just a single-session move
+• Fed/rates: No new FOMC data; SpaceX bond offering creating additional capital reallocation pressure; market narrative shifting from 'AI euphoria' to 'AI phobia' per Yahoo Finance; multiple compression risk for high-multiple names is elevated
+• Growth cycle: AI spending concern narrative intensifying — dual pressure of (1) 'are hyperscalers spending too much?' and (2) technical selling from SpaceX bond market activity; SMH -3.9% 1W reversal from recent peaks is significant; however MU earnings TONIGHT is the single most important fundamental event for the portfolio
+• Macro catalyst: MU REPORTS TONIGHT — this is the MANDATORY earnings address; Alphabet joining Dow Jones is constructive for GOOGL; Prime Day underway for AMZN; FedEx miss adding to macro growth concern read-through
+
+**Sectors:**
+• SMH (semis): -3.9% 1W — sharp reversal from recent +18.5% 1M peak; 'Nasdaq Posts Sharpest Drop in 2 Weeks as Chip Stocks Slide'; MRVL -9.7% 1W; ARM -11.2% 1W (24/7 Wall St.: 'Arm Stock Is Up 235% in 2026: Is Today's 10% Drawdown a Take-Profits Signal?'); AVGO -3.4% 1W; AMD -5.0% 1W; WDC -6.8% 1W; broad semi weakness returning after brief respite
+• IGV (software): MSFT -6.5% 1W / -32.1% from 52W high deepening; NOW -7.9% 1W continuing SaaS fade; PANW +2.2% 1W — relative outperformer and thesis intact; Raymond James sees PANW pricing power driving high-margin growth
+• XLK (broad tech): NVDA -5.8% 1W at $200 testing key psychological level; AMZN -4.8% 1W despite Prime Day tailwind; GOOGL -5.7% 1W despite Dow Jones inclusion announcement; broad AI complex under selling pressure
+• XLY vs XLP: Consumer mixed — Prime Day underway; Dow rising while Nasdaq falls = classic risk rotation to industrials/defensives away from tech
+• XLF: GS +1.7% 1W / JPM +4.6% 1W / MS +3.7% 1W — financials outperforming strongly, constructive signal for broader economy but not for high-multiple tech
+• XLE: XOM -0.8% 1W — energy slightly weak but no major move; zero exposure remains correct
+• XLV: Healthcare broadly stable/outperforming — defensive rotation signal
+
+**Positions:**
+• MU (long, +125.9% unreal): **EARNINGS ALERT — REPORTS TONIGHT JUNE 24 (MANDATORY).** MU at $1,051.77 / -3.3% 1W / -13.3% from 52W high. Multiple bullish signals: (1) Micron/Anthropic AI infrastructure supply agreement confirmed last session; (2) 'Micron to report third quarter earnings amid sky-high demand from data centers' (Yahoo Finance) — constructive framing; (3) 'Dow Jones Futures Rise After Nasdaq Breaks Support; FedEx, Cerebras Tumble Late With Micron Due' (IBD) — MU featured prominently; (4) TheStreet: 'One Micron number could reshape entire AI trade narrative' — high-stakes framing. The 8.7x fwd P/E for 196% revenue growth remains the most extraordinary value/growth combination in tech. The Anthropic AI supply agreement signed just before earnings is the most bullish possible pre-earnings signal. HBM4 Vera Rubin win pre-confirmed. DECISION: HOLD ALL 10 SHARES THROUGH EARNINGS. The fundamental thesis is at maximum strength. Stock pulled back -13.3% from ATH so some uncertainty is priced in. Risk of 'punish the beat' exists but the structural HBM4 cycle is multi-year. Selling into earnings would be capitulating on the strongest fundamental thesis in the portfolio.
+• ARM (long, +154.2% unreal): -11.2% 1W; 24/7 Wall St. asks 'Is Today's 10% Drawdown a Take-Profits Signal?' at 235% YTD — this is a legitimate question at 118.8x fwd P/E. However the royalty model on every AI chip remains structurally intact and the CPU Renaissance thesis validated by Bernstein. The swing trader holds ARM long at +154.2% — coordinated. HOLD — the drawdown is valuation compression on rate/AI spending concerns, not thesis break.
+• MRVL (long, +194.1% unreal): -9.7% 1W; Trefis 'Marvell Stock And The Custom Chip Story The Market Underestimated' — constructive framing even in the selloff; custom ASIC Amazon thesis intact. HOLD all 40 shares.
+• AVGO (long, +25.8% unreal): -3.4% 1W; Broadcom AI XPV platform tying custom XPUs to next wave of AI compute (Insider Monkey) — thesis-additive. At 19.6x fwd P/E for 48% growth remains most attractively valued AI mega-cap. HOLD.
+• VRT (long, +4.0% unreal): 'Here's Why Shares in Vertiv Crashed Today' (Motley Fool) — notable; +2.1% 1W actually holding well despite semi selloff. Stop at $260 = 18.3% buffer from current $318. '5 Stocks Solving the AI Power Crisis' (MarketBeat) includes VRT — constructive. HOLD.
+• NVDA (long, +19.4% unreal): -5.8% 1W at $200 — testing psychological $200 support; 'Nvidia Stock Falls as Tech Selloff Catches Up With Chips' (Barrons); at 15.7x fwd P/E for 85% growth this remains extraordinary value. Stop at $142 = 29% buffer — very comfortable. HOLD.
+• MSFT (long, +4.8% unreal): -6.5% 1W at $374 / -32.1% from 52W high; at 19.3x fwd P/E for 18% growth genuinely cheap for MSFT quality. Thesis intact but technical weakness accelerating further. HOLD — do not add until clear stabilization.
+• META (long, +6.9% unreal): -5.3% 1W; Meta unveils cheaper AI smart glasses ($299 starting) — product innovation thesis intact; at 15.5x fwd P/E for 33% growth. HOLD.
+• GLW (long, +31.2% unreal): +3.3% 1W — notable relative strength vs semi selloff; Zacks 'Corning Rides on Strong Operating Margin Growth: Will it Sustain?' constructive; short sellers flagging overvaluation but stock holding near ATH. HOLD.
+• PANW (long, +72.0% unreal): +2.2% 1W — strongest relative performer in the portfolio this week; Raymond James sees pricing power; 'PANW vs FTNT: Which Cybersecurity Stock Has an Edge Right Now?' (Zacks) — competitive positioning solid. Stop at $143 = 51% buffer. HOLD.
+• TSM (long, +27.8% unreal): -1.1% 1W — relatively resilient; 'Why TSMC's CoWoS Role Keeps Taiwan Semiconductor Central to the HBM-Driven AI Chip Boom' (Insider Monkey) — HBM thesis intact; Taiwanese retail 'FOMO' leveraged buying is a caution flag for volatility. HOLD.
+• EQIX (long, +15.9% unreal): +4.8% 1W — STANDOUT relative strength; at -0.7% from 52W high; thesis intact as AI supply chain hub. HOLD.
+• AMZN (long, +12.8% unreal): -4.8% 1W despite Prime Day; 'Worried About Amazon's AI Bill? What If It's Already Paid For?' (Trefis) — constructive framing. HOLD.
+• GOOGL (long, +0.0% display): -5.7% 1W but Alphabet joining Dow Jones Industrial Average (replacing Verizon) is a structural positive for passive demand. At 23.8x fwd P/E for 22% growth attractive. HOLD.
+• AMD (long, +46.3% unreal): -5.0% 1W; AI spending concerns weighing; at 39.7x fwd P/E for 38% growth. HOLD.
+• ALAB (long, +85.6% unreal): +2.0% 1W — relative strength post-Nasdaq-100 inclusion; growth deceleration concern from Insider Monkey is worth monitoring; at 93.5x fwd P/E. HOLD.
+• CIEN (long, +14.5% unreal): -0.8% 1W; 'Ciena vs. Arista Networks: Which AI Networking Stock Is the Better Buy?' (Zacks) — featured; Nvidia's network ambitions could lift telecom (GuruFocus) — additive. Tiny 2-share position. HOLD.
+• COST (long, -2.7% unreal): -2.2% 1W; retailers overstocked from tariff front-running creating inventory headwind. Tiny 3-share position. HOLD.
+
+**Cash:** At $1,346 (~0.9% floor) — fully deployed; MU earnings tonight is the single most critical event; holding all positions through the AI spending concern selloff as none of the position theses have broken — this appears to be valuation-driven multiple compression not fundamental deterioration; cannot initiate new positions without selling existing holdings and no holding warrants liquidation.
+**Benchmarks**: SPY 1D -1.5% | QQQ 1D -3.3% | SMH 1D -7.0%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+36,811.79 (+36.81%) | Daily -4.73%
+
+---
+
