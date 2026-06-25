@@ -1627,3 +1627,44 @@ MU is at +208.3% unrealized on 8 shares at $1,133.99. The stock is +13.9% 1W, +6
 
 ---
 
+### 2026-06-25 18:23 ET — Run ID: swing-20260625-1823
+**Market**: after-hours | 18:23 ET
+**Reasoning**: **Macro:**
+• Risk regime: BIFURCATED risk-on — MU's blowout earnings confirmed the AI memory supercycle and sparked a broad chip rally, but Big Tech (AAPL -7% 1W, MSFT -6.9% 1W, META -4.3% 1W) is under pressure from the 'MU gain is Apple's pain' dynamic (Apple raising device prices due to memory cost surge). SPY -0.6% 1W, QQQ -0.7% 1W — benchmarks slightly negative but SMH +2.1% 1W confirming semis outperforming. PCE came in hot (Stocktwits: 'hottest since October 2023') — this is a hawkish macro signal that weighs on rate-sensitive growth names.
+• Fed/rates: Warsh hawkish stance intact. PCE hottest since October 2023 means rate cut expectations will be pushed out further. This creates multiple compression risk for high-multiple software/growth names but is less impactful for semis trading at low fwd P/E multiples (MU at 9.4x fwd).
+• Macro catalyst: MU blowout is the key catalyst — stock +16.3% 1W, SNDK/WDC/AMAT all rallying on 'elevated valuations justified' narrative. However DELL -6% today on news it ended Arrow distribution partnership and 'memory boom splits AI hardware trade.' ORCL continuing to deteriorate at -16.9% 1W, now -6.5% unrealized and approaching stop at $149.96. PLTR setting 52W low — notable AI software names under pressure.
+
+**Sectors:**
+• SMH (semis): +2.1% 1W — solid outperformance vs SPY/QQQ. Memory names leading: MU +16.3% 1W, SNDK +19.2% 1W, AMAT +12.7% 1W, TER +15.5% 1W, KLAC +8.4% 1W. MU beat validates the entire AI memory infrastructure thesis. AMAT near ATH (-0.2% from 52W high).
+• IGV (software): CRWD -0.6% 1W, DDOG -2.5% 1W — cybersecurity digesting. PLTR at 52W low — significant AI software deterioration. NOW -6.2% 1W at -57.7% from 52W high. Software broadly underperforming semis.
+• XLK (broad tech): NVDA -4.3% 1W — competition fears per Barrons (OpenAI building own chip). MSFT -6.9% 1W continuing deterioration. ARM -17% 1W — sharp correction from prior highs, now -23.2% from 52W high.
+• XLY vs XLP: AAPL -7% 1W on device price hikes from memory cost surge — consumer electronics headwind. DAL +12% 1W strong — airlines benefiting from oil price weakness.
+• XLF: Banks passed stress tests, hiking dividends (Barrons). JPM +0.5% 1W steady. Financials constructive in higher-rate environment.
+• XLU/Power: BE +8.5% 1W, TLN +1.7% 1W — AI power infrastructure theme holding. NRG +11.3% 1W notable mover.
+
+**Positions:**
+• MU (long, +229.9%): The blowout earnings are fully confirmed — 'phenomenal Q3 earnings' per Yahoo Finance, +18% premarket per Quartz, +16.3% 1W overall. BofA says 'trading under 10x earnings and Wall Street is completely missing the story.' Fwd P/E 9.4x on 196% growth remains the most compelling valuation in the portfolio. HOLD all 8 shares — the memory supercycle is in full acceleration.
+• ARM (long, +141.2%): -17% 1W — sharp correction. Bernstein raises PT (Insider Monkey), '24/7 Wall St: Is Arm Holdings a Buy Near $347?' with case for double-digit upside. At -23.2% from 52W high. Stop at $135.48 is very far below. This is a momentum correction after an extraordinary run — thesis intact. HOLD.
+• ORCL (long, -6.5%): -16.9% 1W, now at $152.46 vs cost $163.00. Stop at $149.96 — only $2.50 buffer. The stock is at -55.5% from 52W high. The Oracle contract backlog is swelling per Zacks, and Larry Ellison's political relationship validates the AI buildout theme (Fortune). However this position is dangerously close to its stop and the stock has shown persistent weakness. The hot PCE reading creates additional headwind. I will NOT act ahead of the stop — let it execute if triggered. At current price the stop may trigger imminently.
+• DELL (long, +90.8%): -2.4% 1W. Headline: 'Dell Drops 6%, Western Digital Rises 5% as Memory Boom Splits AI Hardware Trade' — Dell is being caught in an interesting crossfire where memory cost inflation hurts margins on AI servers. The Arrow distribution partnership ending is a negative (MT Newswires). Still +90.8% unrealized. Stop at $201.77 is far below $409.45. HOLD — the broader AI server demand thesis is intact.
+• KLAC (long, +1.7%): +8.4% 1W — strong recovery. Wells Fargo raises PT (Insider Monkey). KLAC 10-for-1 split announced (Simply Wall St) — positive sentiment catalyst. Stop at $234.18 now has $24.62 buffer at $258.80. Position stabilizing well. HOLD.
+• AMAT (long, +17.8%): +12.7% 1W, near ATH (-0.2% from 52W high). Lam Research opening Boise office near Micron facility — AI memory capex spending confirms semi equipment demand. The MU beat is powerfully bullish for AMAT equipment cycles. HOLD.
+• NBIS (long, +23.8%): -8.6% 1W — neocloud stocks jumping premarket per Stocktwits. AI Cloud 3.6 'Aether' launch is a genuine product catalyst. Motley Fool calls it one of '3 Impressive AI Stocks to Buy Right Now.' The -14.4% from 52W high represents a pullback opportunity within a strong theme. HOLD.
+• TER (long): +15.5% 1W — Motley Fool: 'Here's Why Teradyne Shares Surged Higher Today (Hint: It's AI and Micron-Related).' Zacks: 'Teradyne Drives Robotics Growth With AI.' The MU beat is a direct positive catalyst. At -0.1% from 52W high. HOLD — thesis strongly confirmed.
+• TLN (long, +2.7%): +1.7% 1W stable. IBM upgrade, SpaceX initiation among top calls. AI power infrastructure theme steady. Stop at $377.48 provides protection. HOLD.
+• SNDK (long, +202%): +19.2% 1W — extraordinary. 'AI boom keeps memory chip makers in sweet spot.' Near ATH (-0.8% from 52W high). Citi raises target. Let winner run.
+• WDC (long, +122.1%): -5.2% 1W this week but +28.8% 1M. 'Western Digital Stock and Seagate Get Boost From Big Micron Earnings Beat' per IBD. Still near highs. HOLD.
+• CRDO (long, +6.9%): +7.5% 1W. '24/7 Wall St: Credo Stock Has Surged, Why Wall Street Thinks $350 Could Be Next Stop.' Strong outperformance. HOLD.
+
+**New opportunity consideration — GLW:** +30% 1W, 1.58x vol ratio, -1.1% from 52W high. Corning Gorilla Glass AI fiber story. Not previously held (was stopped out). The +30% 1W move is extraordinary but may be chasing at this point with near-ATH price. High conviction in the AI fiber theme but the entry point after a 30% weekly surge is not ideal for a swing trade.
+
+**ORCL near stop:** With ORCL stop at $149.96 and current price $152.46 (only $2.50 buffer = 1.6%), the stop is essentially about to trigger. Hot PCE data creates additional downward pressure on high-multiple software. I will not preemptively exit — the stop will handle this. If it triggers, it frees a position slot.
+
+**Cash:** Holding $44,513 (~31% of portfolio) — maintaining this level given hot PCE data (hawkish), ARM -17% 1W suggesting some momentum names overextended, and ORCL approaching stop. The MU beat validates AI memory but the broader software/consumer tech weakness (AAPL, MSFT, META all down) suggests selective positioning is correct. Cash at 31% is appropriate for current regime — not excessively defensive but protecting against the PCE-driven rate concern.
+**Benchmarks**: SPY 1D +0.1% | QQQ 1D +0.8% | SMH 1D +2.9%
+
+
+**Portfolio after run**: Cash $44,513.53 | P&L $+24,810.14 (+24.81%) | Daily +2.23%
+
+---
+
