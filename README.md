@@ -333,6 +333,8 @@ To run locally instead:
 python -m streamlit run dashboard.py
 ```
 
+> **Hosted vs. local — important.** The hosted Streamlit app reads GitHub directly, so it is always current. A **locally-run** dashboard reads the data files on your disk, which only update when you `git pull` — the cloud agents commit to GitHub and never touch your machine. So a local dashboard is only as fresh as your last pull (its agent equity curves will freeze at your last sync, while the benchmark lines stay current because they're fetched live from yfinance). Pull before running locally, or just use the hosted URL.
+
 Four tabs:
 
 **📈 Overview**

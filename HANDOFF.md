@@ -1,6 +1,30 @@
-# Session Handoff — May 9, 2026
+# Session Handoff — June 28, 2026
 
 This file captures the exact state of the autonomous portfolio project after each work session so the next session can pick up immediately without re-discovery. Update this file at the end of every session.
+
+---
+
+## Session 10 — June 28, 2026 — Diagnosed "stale dashboard", repo sync, .gitignore fix
+
+### The reported problem
+User opened the dashboard and saw both agent equity curves frozen at ~May 9, while the QQQ/SMH/SPY benchmark lines were current through June 28. GitHub Actions showed green runs every day. "Why isn't the dashboard updating?"
+
+### Root cause — nothing was broken
+- The agents + GitHub Actions were healthy the whole time. `origin/main` was current (latest commit June 26, `equity_log.jsonl` through June 25).
+- The **local clone had not been pulled since May 9** — it was sitting on commit `ad3dd17` (May 8). The cloud agents commit to GitHub and **never touch the local machine**, so local data files only refresh on `git pull`.
+- The user was running the dashboard **locally** (`streamlit run dashboard.py`), which reads local files → frozen at May 9. The benchmark lines stayed current because `fetch_benchmark_history()` pulls them live from yfinance every run. That mismatch is exactly the symptom seen.
+
+### What was done
+- **Synced the local repo:** discarded an orphaned local May 9 run (an uncommitted manual run sitting in the working tree), then `git pull --rebase origin main`. Local now current (data through June 26).
+- **Fixed `.gitignore` (real bug):** every pattern was wrapped in quotes (`".env"`, `"__pycache__/"`, `"*.pyc"`). Git treats quotes as literal characters, so the patterns matched nothing — `.env`/`__pycache__`/`*.pyc` were never ignored and three `.pyc` files had been committed. Unquoted all patterns, added `.claude/`, and untracked the three `.pyc` files via `git rm --cached`. Commit `6fe761f`.
+- **Recovered the dashboard access path:** the hosted Streamlit Community Cloud app (deployed from `clhawk12-oss/Autonomous-Dashboard`, `dashboard.py`, branch `main`) is the truly hands-off view — it reads GitHub directly and auto-refreshes ~60s. The user located its URL and bookmarked it. Going forward, use the hosted URL; if it ever sleeps, wake it from share.streamlit.io.
+- **Docs:** added a hosted-vs-local staleness note to the README Dashboard section.
+
+### Key takeaway for future sessions
+Cloud agents → GitHub only. The **local clone goes stale** unless pulled. The dashboard is only auto-updating when viewed via the **hosted Streamlit URL**; a locally-run dashboard is only as fresh as your last `git pull`.
+
+### Open / pending state
+- There is an **uncommitted local long-term agent run from June 28 15:13 ET** in the working tree (`long_term/*` modified). It was a manual local run (June 28 is a Sunday; cloud cron is Mon–Fri). It was intentionally **not** committed/pushed this session. If a future pull conflicts, discard it with `git checkout -- swing/ long_term/`.
 
 ---
 
