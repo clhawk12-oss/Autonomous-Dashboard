@@ -1673,3 +1673,52 @@ MU is at +208.3% unrealized on 8 shares at $1,133.99. The stock is +13.9% 1W, +6
 **STOP_LOSS** SELL 4 ORCL @ $148.53 → P&L $-57.88
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 13 column 6 (char 11812)
 
+### 2026-06-29 18:12 ET — Run ID: swing-20260629-1812
+**Market**: after-hours | 18:12 ET
+**Reasoning**: **Macro:**
+• Risk regime: MIXED — Dow hit record above 52,000 (tech gains on easing geopolitical tensions per Motley Fool), but QQQ -1.9% 1W and SMH -5.5% 1W show semis are now UNDERPERFORMING after last week's PCE-driven selloff. The memory chip complex is rolling over: MU -5.5% 1W, SNDK -9.8% 1W, WDC -11.0% 1W — the post-earnings MU beat euphoria is fading fast. ORCL confirmed stop triggered at $148.53 (now at $147.76, worst weekly slump since 2001 dot-com bust per TheStreet). IBD: 'Micron and Intel Lead Chip Selloff' — the semi equipment names are also seeing institutional rotation out.
+• Fed/rates: PCE hottest since October 2023 remains the dominant macro headwind. Rate cut expectations pushed further out. Hawkish Warsh stance intact. Hot inflation + chip selloff creates a challenging environment for high-multiple semis.
+• Macro catalyst: Iran tensions easing (Dow record) but tech/semis diverging negatively. ORCL worst week since 2001 — AI software broadly under pressure. Chip selloff led by MU/INTC per GuruFocus. GLW +21.9% 1W near ATH — AI fiber theme catching broad attention. AXON +24.5% 1W with 1.55x vol ratio — law enforcement AI theme surging on Trump connection. PANW +15.9% 1W cybersecurity rally. ABBV +10.6% 1W at 52W high. Dow record reflects value/defensive rotation.
+
+**Sectors:**
+• SMH (semis): -5.5% 1W — sharp reversal from prior leadership. Memory names hard hit: MU -5.5% 1W, WDC -11% 1W, SNDK -9.8% 1W. AMAT +8.5% 1W is the bright spot (record high, PT hikes from multiple brokers). KLAC +3.4% 1W holding. MRVL -9.8% 1W — rolling over. ARM -15.7% 1W continuing deterioration.
+• IGV (software): Cybersecurity surging — PANW +15.9% 1W, CRWD +10% 1W. DDOG +12.3% 1W strong. Software on rebound as OpenAI threat weakens per Stocktwits.
+• XLK (broad tech): NVDA -6.6% 1W near bear market territory (-17.5% from 52W high). MSFT +0.3% 1W stabilizing. ORCL worst week since 2001.
+• XLY vs XLP: Defensive rotation — JNJ +11.8% 1W, MRK +12% 1W, LLY +11.6% 1W, ABBV +10.6% 1W. Healthcare is THE leading sector this week.
+• XLF: JPM -0.6% 1W modest, Dow record driven by industrials more than financials this week.
+• XLV: Healthcare breakout — JNJ at 52W high, LLY at 52W high, MRK +12% 1W, ABBV +10.6% 1W near ATH. This is the strongest sector rotation signal this week.
+
+**Positions:**
+• AMAT (long, +22.5%): Record high per IBD, PT hikes from multiple analysts, joined Russell Top 50. '24/7 Wall St: Applied Materials Just Ripped 55% in a Month. Is It Time to Sell?' — this is the key question. Still +8.5% 1W outperforming. HOLD but watching for exhaustion signals.
+• ARM (long, +138.4%): -15.7% 1W continuing deterioration. Now -24.1% from 52W high. ByteDance CPU push and ARM AGI CPU expansion are positive catalysts but momentum is clearly broken. Stop at $135.48 provides ultimate protection but position is giving back significant gains.
+• MU (long, +211.3%): -5.5% 1W — IBD: 'Micron Wobbles. Are Memory-Chip Makers Illegally Price-Gouging Customers?' — this is a NEW risk. Price-gouging investigation would be a significant negative catalyst. Still +211% unrealized but watching carefully.
+• MRVL (long, +178.1%): -9.8% 1W rolling over. '24/7 Wall St: Marvell Technology Will Be Worth $1 Trillion on This Date' is bullish long-term but near-term momentum broken. Stop at $87.29 is very far below.
+• TLN (long, -1.6%): -8.8% 1W — downgraded at Jefferies, Russell index addition selling pressure, $984M shelf filing. Multiple headwinds simultaneously. Stop at $377.48 is $21.86 below current $399.34 (5.5% buffer). Thesis under pressure.
+• PANW (long, +54%): +15.9% 1W — cybersecurity rally. PANW surges 9% per 24/7 Wall St. At -0.2% from 52W high — essentially at ATH. Strong thesis confirmation.
+• CRWD (long, +33.6%): +10% 1W — unified AI security platform launch, AWS coalition expansion. Cybersecurity is THE leading sub-sector.
+• DDOG (long, +92.3%): +12.3% 1W — strong. Software rebound as OpenAI threat weakens. Scotiabank raises PT.
+• SNDK (long, +165.2%): -9.8% 1W. Citi $2,500 PT is bullish but chip selloff is pressuring. Joins Russell Growth Index — may create selling pressure from Russell Value exit.
+• WDC (long, +114.3%): -11% 1W. '24/7 Wall St: Micron Falls 5%, SanDisk Drops 7%, but Western Digital Climbs 6%' — interesting split, WDC may be decoupling slightly from pure memory names.
+• CRDO (long, -2%): -18.8% 1W — the worst performer in the portfolio this week. Stifel bullish, SpaceX neocloud demand cited, but the -18.8% weekly move is alarming. Stop at $230.75 is $14.93 below current $245.68 (6.1% buffer). Position is underwater and losing momentum fast.
+• NBIS (long, +26%): -7.9% 1W. Barchart 'Why Investors Should Avoid Nebius Stock' is a concern. CoreWeave expanding Sweden AI cloud capacity is positive read-through. Still holding above stop at $186.54.
+
+**New opportunities:**
+• AXON +24.5% 1W with 1.55x vol ratio — law enforcement AI momentum with Trump connection per Stocktwits. At -42.4% from 52W high so significant recovery runway. Fwd P/E 48.3x on 34% growth. This is a strong momentum setup.
+• ABBV +10.6% 1W at -0.6% from 52W high — healthcare breakout. Fwd P/E 15.6x on 12% growth. Dividend stock momentum. Near ATH with 1.06x vol ratio.
+• PANW already held — thesis confirmed with +15.9% 1W.
+• GLW +21.9% 1W at -1.2% from 52W high — AI fiber story. 1.31x vol ratio. Was stopped out previously. The +21.9% 1W move suggests institutional accumulation is real.
+• VKTX +22.1% 1W with 1.05x vol ratio — Viking Therapeutics obesity drug momentum. At -8.4% from 52W high.
+• CRDO is the most urgent: -18.8% 1W, now -2% unrealized, stop only 6.1% away. The momentum has broken and there's no obvious near-term catalyst to reverse.
+
+**Cash:** Holding $45,107 (~33% of portfolio). CRDO momentum has broken badly (-18.8% 1W) and I'm considering exiting proactively before stop triggers. If I sell CRDO, I free a slot for AXON which has strong momentum (1.55x vol ratio, +24.5% 1W, law enforcement AI catalyst). Cash at 33% is appropriate given semi weakness and need to rotate into stronger momentum setups. I should sell CRDO (thesis breaking) and rotate into AXON (strongest new momentum setup). Also considering whether MRVL needs a tighter stop given -9.8% 1W deterioration.
+**Benchmarks**: SPY 1D +1.7% | QQQ 1D +2.5% | SMH 1D +3.3%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | CRDO | 12 | $245.68 | 1. CRDO is ~2.2% of portfolio (12 shares × $245.68 = $2,948). 2. Exiting proactively before stop triggers: -18.8% 1W is the worst performer in the portfolio this week, position is -2% unrealized and deteriorating rapidly. Stop at $230.75 is only 6.1% away and the momentum has clearly broken — the original thesis of AI connectivity outperformance is being questioned by the market. 3. Freeing the position slot for AXON which has superior momentum (+24.5% 1W, 1.55x vol ratio) and a fresh law enforcement AI catalyst. Taking a small loss here is preferable to letting the stop trigger at a worse price while missing a stronger opportunity. ⬛ P&L $-61.56 |
+| BUY | AXON | 6 | $510.60 | 1. AXON represents ~2.3% of portfolio (6 shares × $510.60 = $3,064). 2. Moderate sizing given the stock is at -42.4% from 52W high (recovery play, not momentum breakout to ATH) and the AI law enforcement theme is newer to this portfolio. Conviction is moderate-to-high based on 1.55x vol ratio and +24.5% 1W momentum, but the fwd P/E 48.3x limits sizing. 3. Adds a new sector exposure (law enforcement/public safety AI) that is uncorrelated with the semiconductor and cybersecurity themes already dominant in the portfolio. No sector overlap with existing largest positions. ⬛ Axon Enterprise law enforcement AI momentum trade driven by Trump policy tailwind and expanding AI platform adoption. ⏎ • Momentum: +24.5% 1W vs SPY -0.5%, QQQ -1.9%, SMH -5.5% — dramatic outperformance across all benchmarks; 1.55x vol ratio confirms institutional accumulation ⏎ • Technicals: -42.4% from 52W high provides significant recovery runway; stock breaking out on elevated volume; ATR 30.1 manageable at this position size ⏎ • Fundamentals: Fwd P/E 48.3x on 34% revenue growth, 7% margins improving — not cheap but reasonable for a high-growth law enforcement technology platform ⏎ • Catalyst: Stocktwits 'AXON Stock Set For Best Month In Over A Year — What's The Trump Connection?' — law enforcement AI spending under Trump administration is a direct policy tailwind; Motley Fool 'Why Axon Enterprise Stock Popped Today' confirms fresh catalyst ⏎ • Volume: 1.55x vol ratio is one of the highest in the watchlist — institutional accumulation signal ⏎ • Sizing: ~2.3% portfolio weight; small size reflects recovery-from-deep-pullback thesis rather than near-ATH breakout; stop at 8% below entry (~$470) limits max loss to ~$245 |
+
+**Portfolio after run**: Cash $44,992.21 | P&L $+25,029.39 (+25.03%) | Daily +0.19%
+
+---
+
