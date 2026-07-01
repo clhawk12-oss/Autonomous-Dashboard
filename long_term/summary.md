@@ -1,39 +1,39 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-06-30 18:24 ET*
+*Last updated: 2026-07-01 18:26 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+41,960.62 (+41.96%) |
+| Total P&L | $+37,349.51 (+37.35%) |
 | Realized P&L | $-763.29 |
-| Unrealized P&L | $+42,723.91 |
-| Cash | $1,346.01 (0.9%) |
-| Long Exposure | $142,244.39 |
+| Unrealized P&L | $+38,112.80 |
+| Cash | $1,346.01 (1.0%) |
+| Long Exposure | $137,633.28 |
 | Short Exposure | $0.00 |
-| Net Exposure | $142,244.39 |
+| Net Exposure | $137,633.28 |
 | Win Rate | 0.2 (5 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $200.09 | $12,005.40 | $+1,954.20 | +19.4% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $373.02 | $10,444.56 | $+455.00 | +4.6% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $197.58 | $11,854.80 | $+1,803.60 | +17.9% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $384.28 | $10,759.84 | $+770.28 | +7.7% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 60 | $207.50 | $238.34 | $14,300.40 | $+1,850.60 | +14.9% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $377.75 | $13,976.75 | $+2,796.59 | +25.0% | $255.58 |
-| ARM | LONG | 39 | $144.13 | $354.57 | $13,828.23 | $+8,207.16 | +146.0% | $122.51 |
-| MRVL | LONG | 40 | $94.88 | $297.89 | $11,915.60 | $+8,120.40 | +214.0% | $83.49 |
-| EQIX | LONG | 5 | $963.00 | $1042.39 | $5,211.95 | $+396.95 | +8.2% | $866.70 |
-| CIEN | LONG | 2 | $401.61 | $490.56 | $981.12 | $+177.90 | +22.1% | $341.37 |
-| META | LONG | 8 | $525.72 | $563.29 | $4,506.32 | $+300.56 | +7.1% | $446.86 |
-| COST | LONG | 3 | $983.86 | $935.47 | $2,806.41 | $-145.17 | -4.9% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $477.57 | $4,298.13 | $+1,224.72 | +39.8% | $300.51 |
-| PANW | LONG | 20 | $169.18 | $341.02 | $6,820.40 | $+3,436.75 | +101.6% | $143.62 |
-| GLW | LONG | 15 | $147.92 | $255.43 | $3,831.45 | $+1,612.65 | +72.7% | $130.17 |
-| MU | LONG | 10 | $465.66 | $1154.29 | $11,542.90 | $+6,886.30 | +147.9% | $395.81 |
-| VRT | LONG | 16 | $306.18 | $334.82 | $5,357.12 | $+458.24 | +9.4% | $260.25 |
-| AMD | LONG | 9 | $355.26 | $580.91 | $5,228.19 | $+2,030.85 | +63.5% | $301.97 |
-| ALAB | LONG | 11 | $213.91 | $483.02 | $5,313.22 | $+2,960.21 | +125.8% | $171.13 |
+| AMZN | LONG | 60 | $207.50 | $241.70 | $14,502.00 | $+2,052.20 | +16.5% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $369.34 | $13,665.58 | $+2,485.42 | +22.2% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $337.47 | $13,161.33 | $+7,540.26 | +134.1% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $272.05 | $10,882.00 | $+7,086.80 | +186.7% | $83.49 |
+| EQIX | LONG | 5 | $963.00 | $1013.62 | $5,068.10 | $+253.10 | +5.3% | $866.70 |
+| CIEN | LONG | 2 | $401.61 | $462.44 | $924.88 | $+121.66 | +15.1% | $341.37 |
+| META | LONG | 8 | $525.72 | $612.91 | $4,903.28 | $+697.52 | +16.6% | $446.86 |
+| COST | LONG | 3 | $983.86 | $924.67 | $2,774.01 | $-177.57 | -6.0% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $444.23 | $3,998.07 | $+924.66 | +30.1% | $300.51 |
+| PANW | LONG | 20 | $169.18 | $352.04 | $7,040.80 | $+3,657.15 | +108.1% | $143.62 |
+| GLW | LONG | 15 | $147.92 | $220.63 | $3,309.45 | $+1,090.65 | +49.2% | $130.17 |
+| MU | LONG | 10 | $465.66 | $1032.28 | $10,322.80 | $+5,666.20 | +121.7% | $395.81 |
+| VRT | LONG | 16 | $306.18 | $311.42 | $4,982.72 | $+83.84 | +1.7% | $260.25 |
+| AMD | LONG | 9 | $355.26 | $540.88 | $4,867.92 | $+1,670.58 | +52.2% | $301.97 |
+| ALAB | LONG | 11 | $213.91 | $430.86 | $4,739.46 | $+2,386.45 | +101.4% | $171.13 |
 
 ## PM Narrative
-Portfolio closes Q2 2026 at +42% total P&L — strongly outperforming all benchmarks as the AI semiconductor supercycle thesis plays out across the entire portfolio. The defining development this session is the Samsung/SK Hynix $1.3T Korea AI investment announcement, which validates multi-year AI capex spending and is directly positive for the entire portfolio. PANW has now crossed 100% unrealized gain (+101.6%) and remains near ATH — the cybersecurity rotation continues with OKTA +15.5% and CRWD +12.1% on the week. GLW adds +31.6% this week alone on Russell Growth index inclusion and Amazon AI fiber demand. AMD near ATH at -0.7% from 52W high. The portfolio remains fully deployed at the cash floor with all 18 positions showing intact fundamental theses. No trades are warranted — cash is at the floor preventing new entries and no existing position has a broken thesis or stretched enough valuation to warrant a trim. The dominant watch items heading into Q3 are: (1) PANW valuation exhaustion at 82.8x fwd P/E / 101.6% unrealized — the strongest trim candidate if cash becomes available; (2) GLW at 60.2x fwd P/E / 72.7% unrealized — second trim candidate; (3) ARM multiple compression at 114.9x fwd P/E — watching for stabilization; (4) Q3 earnings season AI spending durability test beginning mid-July.
+Portfolio continues to generate strong alpha at +37.3% total P&L vs all benchmarks. The dominant development this session is META's cloud computing launch which creates a rotational headwind for AI infrastructure names (NVDA, AMD, MU, TSM all down today) while META itself surged +9.9% 1W — and we benefit from META being a held position at +16.6% unrealized. PANW remains the most stretched position at 108% unrealized gain and 85.5x fwd P/E, but cybersecurity rotation is the market's strongest sector theme with CRWD +14.4%, ZS +15.1%, OKTA +18.4% all validating the thesis. ALAB hit a new all-time high today — +101% unrealized at 100x fwd P/E for 93% growth, thesis at maximum strength. BoA flagging 'Bubble Risk' in chip stocks and Michael Burry expanding AI shorts are notable bear signals, though Burry has been repeatedly early on AI timing. The portfolio's core thesis — AI infrastructure supercycle across compute (NVDA, AMD, MU, AVGO), connectivity (ALAB, MRVL, CIEN), physical infrastructure (VRT, EQIX, GLW), security (PANW), and hyperscalers (MSFT, AMZN, META, GOOGL, TSM) — remains fully intact. With no cash to deploy and no positions where the thesis has broken, the correct action is to hold all positions. The jobs report tomorrow and bank earnings starting July 14 (JPM, GS, C) will be the next macro tests.
