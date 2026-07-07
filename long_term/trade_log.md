@@ -2027,3 +2027,40 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-07 18:19 ET — Run ID: long_term-20260707-1819
+**Market**: after-hours | 18:19 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF — Dow snaps record run amid tech sell-off; Nasdaq slides nearly 2% as higher Treasury yields and soaring oil prices pressure tech and chip stocks; Samsung disappoints investors triggering broad AI/semi selloff; SPY +0.9% 1W but QQQ -2.0% 1W and SMH -8.0% 1W — semis in a sharp drawdown; Iran news (Treasury revokes Iran oil general license) spiking oil prices adding macro headwind; Michael Burry reveals short against NVDA/MU/AMD (Motley Fool) adds sentiment pressure though Burry has been repeatedly wrong on AI timing
+• Fed/rates: Higher Treasury yields pressuring tech multiples directly; Iran geopolitical flare creating oil spike which is inflationary — reduces Fed dovish pivot probability; 'Nasdaq Slides Nearly 2% As Higher Treasury Yields, Soaring Oil Prices Pressure Tech And Chip Stocks' is the operative regime; rate hike tail risk re-emerges marginally
+• Growth cycle: Samsung Q3 disapppoints — 'Samsung Fails To Impress' (WSJ) — fans AI fears broadly; Samsung record quarter but 'not enough for investors'; memory stocks dragged into bear market per Yahoo Finance; however Micron's upbeat forecast lifts SPMO outlook (Trefis) — bifurcation continuing; bank earnings this week (JPM/GS/C July 14; JNJ/MS/ASML July 15; GE/ABT/ELV/ISRG/NFLX/PLD July 16) are the critical macro read-through; BofA: 'Major US Banks' Second-Quarter Earnings Poised for Upside'
+• Macro catalyst: Samsung earnings disappointment + Iran oil spike + rising Treasury yields = triple simultaneous headwinds for AI/semi complex this session; Nvidia's next AI system delayed to 2028 due to circuit board problem (24/7 Wall St.) is a significant new thesis risk for the semiconductor complex; ALAB chairman sells $60.5M stock; DeepSeek developing own AI chip to reduce Nvidia reliance — structural competitive concern building
+
+**Sectors:**
+• SMH (semis): -8.0% 1W — severe sustained selloff; KLAC -22.2% 1W, LRCX -20.6% 1W, TER -25.9% 1W, SNDK -21.1% 1W, MRVL -16.9% 1W, AMAT -20.2% 1W, GLW -27.5% 1W (EXTRAORDINARY deterioration), NBIS -25.3% 1W; memory stocks dragged into bear market territory; Nvidia H20 next system delayed to 2028 is fresh negative; Samsung disappointing adds to bear case; this is systematic semi de-rating not stock-specific
+• IGV (software): PANW +1.5% 1W — relative outperformance continuing; CRWD +4.8% 1W; cybersecurity remaining the only safe harbor in tech; OKTA +13.1% 1W near ATH; RBRK +13.8% 1W; NET +10.3% 1W — cybersecurity is dramatically outperforming the rest of tech
+• XLK (broad tech): MSFT +5.5% 1W recovering; GOOGL/GOOG +3.5% 1W; AMZN +2.4% 1W — hyperscalers relative strength vs semis; Amazon $25B bond sale 'drives AI push' (IBD) — constructive
+• XLY vs XLP: Risk-off consumer signal; WMT -2.7% 1W, TGT -4.8% 1W; consumer defensives under pressure; Walmart cutting food prices signals deflation pressure on margins
+• XLF: JPM +3.5% 1W, MS +4.9% 1W, GS +2.2% 1W — banks strengthening into earnings; BofA 'Major US Banks Q2 poised for upside'; constructive signal for broader economy; C -1.2% 1W slightly lagging
+• XLV: JNJ +3.4% 1W, LLY +0.5% 1W, VRTX +4.5% 1W (VRTX $10B Crinetics deal confirmed); GILD +7.9% 1W strong; healthcare/pharma continuing to outperform — defensive rotation signal sustained
+• XLI: GEV -2.3% 1W giving back gains; CAT -9.0% 1W notable weakness; VRT -0.4% 1W essentially flat; 'Why GE Vernova, Caterpillar Stocks Are Getting Crushed' (Barrons) — industrial AI infrastructure complex softening with semi weakness
+
+**Positions:**
+• GLW (long, +25.3% unreal): -27.5% 1W — EXTRAORDINARY deterioration, most alarming position update; from +31.7% last week to +25.3% now but the weekly move of -27.5% is severe; this is now -31.8% from 52W high; stop at $130.17 still far away (current $185.38 = 29.8% buffer) so stop not triggered but the thesis is being tested; at 43.4x fwd P/E for 20% growth with this kind of weekly decline, the market is questioning the AI fiber thesis aggressively; HOLD — stop at $130.17 gives room but monitoring
+• MU (long, +101.5% unreal): -18.1% 1W — continued severe deterioration; 'Samsung Wipes Out AI Stocks. Is This the Buying Opportunity You Were Waiting For?' (24/7 Wall St.); Michael Burry short against MU; 'Micron's Upbeat Forecast Lifts SPMO's Outlook' (Trefis) is bullish; 'Memory chip stocks fall into a bull market amid latest tech sell-off' (Yahoo Finance Video) — contradictory signals; at 6.3x fwd P/E for 346% growth the fundamental thesis is unbroken; Samsung disappointment is near-term noise for HBM cycle
+• ALAB (long, +79.0% unreal): -16.0% 1W — significant; chairman sells $60.5M of stock (Motley Fool) — insider selling at the chairman level is a flag; SpaceX dragging on first day in Nasdaq 100; at 88.9x fwd P/E this is increasingly hard to defend with insider selling; stop at $171.13 vs current $382.89 = 55% buffer; HOLD but insider selling warrants monitoring
+• ARM (long, +108.4% unreal): -12.6% 1W; falling in 'Which Tech Stocks Fell Most' (WSJ); at 97.5x fwd P/E this is the most multiple-exposed position; stop at $122.51 remains critically wide; UBS bullish; thesis intact but pressure building
+• MRVL (long, +143.1% unreal): -16.9% 1W; appearing in 'Which Tech Stocks Fell Most' (WSJ); 'Credo Technology vs. Marvell: Which Is Better Buy?' (Motley Fool) — competitive framing; at 37.3x fwd P/E for 28% growth still reasonable; HOLD
+• PANW (long, +99.2% unreal): +1.5% 1W — heroic relative outperformance vs -8% semis; 'PANW Teams With IBM and Red Hat As Fair Value Debate Heats Up' — IBM partnership adds enterprise credibility; at 81.8x fwd P/E this remains stretched but cybersecurity is the clear sector alpha generator; essentially at +99% unrealized — HOLD
+• EQIX (long, +6.2% unreal): -5.7% 1W — now fourth consecutive weekly decline; approaching thesis break territory at 53.2x fwd P/E for 12% growth; 'What You Need To Know Ahead of Equinix's Earnings Release' (Barchart) — earnings coming which will be the definitive thesis test; HOLD through earnings
+• VRT (long, -0.2% unreal): -0.4% 1W essentially flat; Zacks '3 Reasons Vertiv is a Solid Growth Stock' positive; stop at $260.25 vs $305.58 = 14.8% buffer; HOLD
+• COST (long, -3.7% unreal): +0.1% 1W flat; 'Posts Strong Results, Is It Fully Priced?' (Simply Wall St.) — positive but expensive; HOLD tiny position
+• CIEN (long, +4.3% unreal): -12.5% 1W — significant; Ciena Growth Index Entry (Simply Wall St.); stop at $341.37 vs $418.91 = 18.5% buffer; tiny 2-share position; HOLD
+
+**Cash:** At $1,346 (~0.9% cash floor) — fully deployed; Samsung earnings disappointment and Nvidia system delay represent new thesis risks for the semiconductor complex, but all positions remain above stops and fundamental theses are intact; ALAB chairman selling $60.5M is the most actionable new concern; cash floor prevents new initiatives but no position warrants forced selling below current stops.
+**Benchmarks**: SPY 1D -0.5% | QQQ 1D -1.8% | SMH 1D -3.8%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+31,982.32 (+31.98%) | Daily -2.57%
+
+---
+
