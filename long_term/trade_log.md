@@ -2064,3 +2064,41 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-08 18:17 ET — Run ID: long_term-20260708-1817
+**Market**: after-hours | 18:17 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF escalating — SPY -0.2% 1W, QQQ -3.4% 1W, SMH -9.6% 1W; Iran ceasefire collapse with US strikes on Kharg Island driving oil spike; Dow dropped 800 points intraday; tech selloff accelerating with geopolitical tail risk re-entering the market sharply; IBD 'Nvidia, Chip Stocks Rally Despite U.S.-Iran War Flare-Up' suggests some resilience but the broader regime is clearly risk-off
+• Fed/rates: Iran oil spike is directly inflationary — raises rate hike tail risk probability; 'AI spending is becoming more capital market sensitive' (Yahoo Finance) is a key framing that suggests high-multiple names face dual headwinds of geopolitical uncertainty AND rate sensitivity; no new FOMC data but the macro environment is deteriorating
+• Growth cycle: AVGO surging +2.9% 1W on Apple $30B+ chip deal — massive positive catalyst; ANET near 52W high at -0.1%; AI memory stocks 'trim losses as investors buy the dip' — some stabilization; NVDA valuation hit 'multiyear low even as revenue sets records' (Yahoo Finance/GuruFocus) at 16x fwd P/E for 85% growth — historically cheap; Q2 earnings season opens with JPM/GS/C July 14, critical macro read-through
+• Macro catalyst: (1) Apple-Broadcom $30B+ AI chip deal is the dominant positive — directly validates AVGO thesis; (2) Iran ceasefire collapse/US strikes on Kharg Island creates oil spike and geopolitical risk premium; (3) Nvidia Kyber rack-scale architecture reportedly delayed 12+ months — new structural negative for AI infrastructure timeline; (4) MRVL -22.6% after NVIDIA's $2B AI bet and index exit — concerning competitive framing; (5) 'Top financial expert declares Marvell no longer a marvelous buy' (TheStreet) — bearish headline on a core holding
+
+**Sectors:**
+• SMH (semis): -9.6% 1W — second consecutive severe weekly decline; KLAC -26.7% 1W, MRVL -22.2% 1W, AMAT -21.1% 1W, INTC -21.1% 1W, COHR -19.6% 1W, ARM -15.3% 1W, AMD -10.9% 1W; systematic bear market in semis continuing; Nvidia Kyber delay adds to structural concern; memory stocks 'every memory stock is now in a bear market' framing (24/7 Wall St.) is ominous
+• IGV (software): PANW -6.0% 1W — cybersecurity leadership faltering; 'Palantir Leads Software Stocks Lower' (GuruFocus); CRWD +0.2% 1W barely positive; the cybersecurity safe harbor narrative is breaking down under Iran-driven risk-off
+• XLK (broad tech): AVGO +2.9% 1W extraordinary relative strength on Apple chip deal; MSFT +2.8% 1W recovering; AMZN +2.2% 1W; GOOG +1.5% 1W — hyperscalers outperforming chip names significantly
+• XLY vs XLP: COST +1.9% 1W recovering; consumer defensives stabilizing; geopolitical risk is rotating capital toward safety
+• XLF: JPM +1.5% 1W, GS +1.8% 1W, MS +4.3% 1W — banks strong into earnings week; C -1.8% 1W lagging; BofA upside expectations intact
+• XLE: CVX +6.2% 1W on Iran oil spike — energy dramatically outperforming; the one sector we have zero exposure to is the week's strongest; LNG +9.2% 1W on same thesis
+• XLV: JNJ +3.7% 1W, LLY +1.4% 1W, VRTX +0.3% 1W — healthcare defensive rotation continuing
+• XLI: GEV -8.8% 1W; VRT -5.1% 1W; ETN -6.2% 1W — AI infrastructure complex weakening with broader semi selloff
+
+**Positions:**
+• AVGO (long, +28.6% unreal): +2.9% 1W — HERO of the portfolio this week; Apple $30B+ AI chip partnership announced (Yahoo Finance, IBD) — this is a massive thesis validator; Apple is now AVGO's fourth major hyperscaler customer alongside Google, Meta, and Microsoft; at 20x fwd P/E for 48% growth with this catalyst this is still attractively valued; HOLD and consider whether to add
+• MRVL (long, +144.2% unreal): -22.2% 1W — CRITICAL ALERT; 'Top financial expert declares Marvell no longer a marvelous buy' (TheStreet); 'Marvell Is Down 22.6% After NVIDIA's $2B AI Bet and Index Exit' (Simply Wall St.) — the NVIDIA $2B custom silicon bet is a direct competitive threat narrative; at 37.5x fwd P/E for 28% growth still reasonable but the competitive framing is worsening; this has gone from +186% unrealized to +144% in recent weeks — monitoring thesis break
+• PANW (long, +89.5% unreal): -6.0% 1W — 'Palantir Leads Software Stocks Lower' drags cybersecurity; PANW 60% next-gen security growth confirmed (FX Empire) — fundamentals intact; at 77.8x fwd P/E remains stretched; the cybersecurity safe harbor is showing cracks under Iran geopolitical pressure; HOLD
+• GLW (long, +24.4% unreal): -28.0% 1W — extraordinary continued deterioration; now at $184.03 vs stop at $130.17 (29.3% buffer); 'Is Corning Fully Valued As Index Changes Reshape Its Growth Story?' (Simply Wall St.) — concerning; at 43.1x fwd P/E for 20% growth the market is questioning the AI fiber thesis; dividend announced (constructive); this is a multi-week bear market in GLW stock; the stop at $130.17 remains far away but the trend is deeply concerning
+• MU (long, +103.8% unreal): -17.8% 1W; 'Every Memory Stock Is Now in a Bear Market' (24/7 Wall St.); 'Is Micron One of the Most Profitable Cheap Stocks to Buy Right Now?' (Insider Monkey) — bullish framing; veteran analyst drops massive Micron valuation prediction (TheStreet) — constructive; at 6.3x fwd P/E for 346% growth this remains the most extraordinary value/growth in tech; the bear market framing is sentiment-driven not fundamental; HOLD
+• ARM (long, +108.3% unreal): -15.3% 1W; 'Arm Holdings' Licensing Momentum Continues to Fuel Revenue Growth' (Zacks); UBS remains bullish; at 97.5x fwd P/E remains most multiple-exposed; but at -33.7% from 52W high the compression has been severe; HOLD
+• VRT (long, +3.8% unreal): -5.1% 1W; 'Nvidia Is Allegedly Delaying Its Kyber Rack-Scale Architecture by More Than 12 Months' (Barchart) — if Kyber is delayed, this directly impacts near-term data center build-out timing and VRT revenue visibility; 'Vertiv Stock Just Flashed an Exhaustion Signal' (Barchart) — technical warning; stop at $260.25 vs $317.81 = 18.1% buffer; monitoring stop proximity
+• EQIX (long, +5.5% unreal): -2.5% 1W — fifth consecutive weekly decline; earnings imminent; '24/7 Wall St: Old-School Dividend-Paying Data Center REITs May Be the Best and Safest Technology Idea Now' — constructive framing; at 52.9x fwd P/E for 12% growth this remains the most stretched valuation relative to growth; earnings will be the definitive thesis test
+• GOOGL (long, +0.0% unreal): +0.0% (display); GOOG +1.5% 1W positive; 'Alphabet's AI Spending Spree Is Great News for Nvidia' (Motley Fool) — AI capex conviction intact; 'AI spending is becoming more capital market sensitive' is a watch item; at 24.6x fwd P/E for 22% growth still attractive; HOLD
+• META (long, +14.7% unreal): +7.1% 1W — strong performance; Meta expanding data center to Canada ($9B western Canada facility); 'Does This News Make Meta Platforms Stock a Buy?' (Motley Fool) — constructive; at 16.4x fwd P/E for 33% growth remains extraordinary value; thesis at full strength
+
+**Cash:** Cash remains at $1,346 (~0.9% floor) — fully deployed; the Iran geopolitical escalation, semiconductor bear market continuation, and Nvidia Kyber delay create a challenging environment but all position theses remain structurally intact; Apple-AVGO deal is the most positive near-term catalyst; no positions have triggered stops; cash floor prevents new initiatives but no forced selling is warranted.
+**Benchmarks**: SPY 1D -0.3% | QQQ 1D +0.3% | SMH 1D +2.0%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+32,855.30 (+32.86%) | Daily +0.65%
+
+---
+
