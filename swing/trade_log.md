@@ -1792,3 +1792,56 @@ MU is at +208.3% unrealized on 8 shares at $1,133.99. The stock is +13.9% 1W, +6
 **Market**: after-hours | 18:09 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 13 column 6 (char 12001)
 
+### 2026-07-13 18:00 ET — Run ID: swing-20260713-1800
+**Market**: after-hours | 18:00 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF — Nasdaq snaps 3-day winning streak, Dow/Nasdaq closing lower as oil prices spike on Trump reinstating Iran blockade of Strait of Hormuz. SPY -0.3% 1W, QQQ -1.5% 1W, SMH -3.1% 1W. The dominant catalyst is Trump threatening to impose 20% toll on Hormuz cargo and reinstate Iranian shipping blockade — sending oil surging (CVX +8.4% 1W, XOM +5.9% 1W) while AI/chip stocks sell off. SK Hynix leading broader chip declines per Yahoo Finance/IBD.
+• Fed/rates: Warsh hawkish stance intact. Oil spike is inflationary — reinforces higher-for-longer thesis. Energy price surge could delay any dovish pivot, creating additional multiple compression risk for high-multiple tech.
+• Macro catalyst: Trump Hormuz blockade is the dominant new macro risk. SK Hynix rout spreading to SNDK, MU, AMD, ARM, MRVL — memory ETF in bear market per IBD. TSMC reported stronger-than-expected June sales (+36% per IBD) which is a positive read-through for AI demand, but market is selling semis on macro/oil shock. Earnings season begins this week: JPM/GS/C July 14, ASML/JNJ/MS July 15, TSM July 16 — critical data points incoming.
+
+**Sectors:**
+• SMH (semis): -3.1% 1W — memory names hardest hit. SK Hynix debut accelerating sector selloff. MU -4.9% 1W, SNDK -4.0% 1W, WDC -3.8% 1W. ARM -7.2% 1W, MRVL -12.7% 1W. TSMC June sales beat (+36%) is positive fundamental but stock -6.7% 1W on macro fear. Semi equipment: AMAT -2.9% 1W, KLAC -4.7% 1W (just stopped out). Chip selloff is broad-based.
+• IGV (software): Cybersecurity holding relatively better. PANW -7.6% 1W — pullback from ATH but still +25.5% 1M. CSCO +4.6% 1W outperforming. DDOG +1.9% 1W steady. Software showing relative resilience vs semis.
+• XLK (broad tech): NVDA +4.1% 1W — outperforming vs semi peers. MSFT +1.1% 1W recovering. Broad tech mixed.
+• XLY vs XLP: Risk-off signal — consumer defensives mixed. Oil spike hurting discretionary spending outlook.
+• XLE: CVX +8.4% 1W, XOM +5.9% 1W — energy the clear winner on Hormuz risk. PSX +11.8% 1W. Energy is the only sector showing strong 1W momentum.
+• XLF: Bank earnings this week — JPM/GS/C July 14. GS -0.9% 1W, JPM -0.9% 1W — banks digesting pre-earnings. Meta +9.4% 1W notable outperformer in tech.
+
+**Positions:**
+• TSM (long, +18.5%, EARNINGS ALERT July 16): TSMC reported stronger-than-expected June sales (+36% per IBD). This is a positive pre-earnings signal — demand thesis intact. However stock is -6.7% 1W as macro fear overwhelms fundamentals. Stop at $314.17 is well below current $421.58 (~25% buffer). DECISION: HOLD all 18 shares into July 16 earnings. June revenue data showing +36% strength is a strong leading indicator. Fwd P/E 20.8x on 35% revenue growth with 47% net margins is very reasonable. The Hormuz/oil fear is macro, not fundamental — TSM foundry business is not oil-sensitive. Thesis intact.
+• MRVL (long, +117.8%): -12.7% 1W — ARM and Marvell tumbling as chip stocks sell off per IBD. WSJ and IBD both calling it out. Stop at $87.29 is extremely far below at $217.53 — essentially no stop protection relevant at current levels. The position is still a massive winner (+117.8%) but momentum has clearly deteriorated. Consider whether to protect profits.
+• MU (long, +154.7%): -4.9% 1W — SK Hynix selloff contagion spreading. MU investing $3B in GlobalWafers for AI supply security (Simply Wall St) — positive long-term. Memory ETF in bear market per IBD. However MU at fwd P/E 6.3x on 346% revenue growth remains extraordinarily cheap. Stop at $331.07 is far below. HOLD — thesis intact, valuation compelling.
+• ARM (long, +107.4%): -7.2% 1W — IBD: 'Arm and Marvell Tumble as Chip Stocks Sell Off.' Stop at $135.48 is very far below $298.99. Still a massive winner but momentum deteriorating. HOLD with stop protection.
+• AVGO (long, +6.0%): +2.7% 1W — relative outperformer vs semis. 'Chip players poised to become cash-producing machines' per Yahoo Finance. Stop at $326.09 provides protection. HOLD.
+• PANW (long, +53.2%): -7.6% 1W — pullback from near-ATH. Lumen partnership expansion is positive. Still +25.5% 1M confirming intermediate uptrend. Stop at $198.35 is far below. HOLD — cybersecurity thesis intact, pullback within trend.
+• AXON (long, +7.1%): -12.1% 1W — significant pullback. Zacks upgraded to Strong Buy. Barchart earnings preview indicates next catalyst is upcoming earnings. Stop at $469.75 (~14% below current $547.03). The -12.1% 1W is concerning after the +30% 1W run — normal consolidation after a spike. HOLD — thesis (Trump federal expansion, ICE contracts) intact.
+• CSCO (long, +17.1%): +4.6% 1W — Zacks Bull of the Day, AI cybersecurity demand ($6B prize). Outperforming significantly. HOLD.
+• DDOG (long, +101.3%): +1.9% 1W — Motley Fool 'Way Too Risky Right Now' is a mild negative. Zacks and Wall Street still constructive. HOLD.
+• DELL (long, +99.0%): +3.7% 1W — IBD: Nvidia/AMD/Microsoft partnerships fueling stock. '1 Unpopular Stock That Deserves Love' per StockStory. Near ATH setup intact. HOLD.
+• WDC (long, +82.7%): -3.8% 1W — memory selloff on SK Hynix. Analyst doubled price target but stock falling (Barrons). Stop at $282.86 is far below. Thesis intact — HOLD.
+• SNDK (long, +116.5%): -4.0% 1W — SK Hynix/memory ETF bear market contagion. Analyst PT doubled (Barrons) but stock falling. 1.13x vol ratio still elevated. Stop at $645.46 provides protection. HOLD.
+• AMD (long, +142.7%): -3.2% 1W — chip selloff. TSMC June +36% confirms AI demand but memory/chip fear overwhelming. Stop at $202.57 far below. HOLD.
+• AMAT (long, +1.4%): -2.9% 1W — semi equipment under pressure. Stop at $521.87. Position barely profitable. HOLD.
+• ABBV (long, -1.2%): -2.6% 1W — slight underperformance. AbbVie $10.9B Apogee deal could make it a dividend dynasty (Motley Fool). Healthcare sector still showing relative strength vs tech. Q2 earnings July 25. HOLD — defensive rotation thesis intact.
+• NVDA (long, +15.0%): +4.1% 1W — outperforming the semi selloff. Retail investors cashing out (Yahoo Finance) but NVDA holding up. Stop at $165.68. HOLD.
+• TSM earnings July 16 — addressed above, HOLD.
+
+**New opportunities considered:**
+• Energy (CVX, XOM, PSX): Oil spike on Hormuz blockade driving strong 1W performance. XOM +5.9% 1W, CVX +8.4% 1W, PSX +11.8% 1W with 1.01x vol ratio. However this is a geopolitical trade — Trump could reverse the threat quickly (as with Iran deal) creating sharp reversal risk. Not adding energy positions given the binary nature of geopolitical oil trades.
+• META +9.4% 1W — strong outperformer, fwd P/E 18.1x on 33% revenue growth. Data center expansion narrative ($50B Louisiana). LT investor holds META so no conflict concern for adding. Moderate conviction — not adding given full position count and existing semi/AI exposure.
+• HUBS +12.2% 1W — Jefferies upgrade momentum. Interesting but not adding at current portfolio load.
+• NET +8.9% 1W — Cloudflare near ATH (-3.8% from 52W high). Cybersecurity theme but fwd P/E 170.7x is extremely stretched.
+
+**Portfolio review — trimming MRVL:** MRVL is -12.7% 1W and has been deteriorating for several weeks. The CFO insider selling from prior run was a warning sign. At +117.8% unrealized, I have substantial profit. ARM and Marvell are both called out as tumbling in IBD. The semi complex is under broad institutional pressure. At 30 shares × $217.53 = $6,526 (~5.3% of portfolio), this is a meaningful position. The stop at $87.29 is irrelevantly far below — it provides no practical swing trade protection at current levels. I should SELL half (15 shares) to lock in gains and reduce semi concentration risk given the SK Hynix-led selloff contagion. This brings position to ~$3,262 or 2.7% of portfolio — a more appropriate size given deteriorating momentum.
+
+**Cash:** Currently ~$53,805 (~44% of portfolio). The Hormuz oil shock + SK Hynix selloff creates a risk-off environment for semis specifically. Cash at 44% is appropriate — semis are under pressure, earnings season begins this week with significant binary events (TSM July 16). Trimming MRVL to lock in gains and reduce concentration. Not deploying into this weakness. Would add to META or defensive names if market stabilizes post-earnings.
+**Benchmarks**: SPY 1D -0.8% | QQQ 1D -1.9% | SMH 1D -4.2%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | MRVL | 15 | $217.53 | 1. Selling 15 shares reduces MRVL from ~5.3% to ~2.7% of portfolio (15 shares × $217.53 = $3,263 reduction). 2. Conviction: MODERATE-LOW on near-term direction — MRVL -12.7% 1W with IBD explicitly calling out 'Arm and Marvell Tumble as Chip Stocks Sell Off.' Prior warning signs: CFO insider selling $65M, momentum breaking for multiple weeks, stop at $87.29 provides no practical near-term protection for a swing trade. Locking in partial gains at +117.8% is prudent risk management. 3. Semi concentration: Portfolio already holds ARM, MU, NVDA, AVGO, SNDK, WDC, AMAT, AMD, TSM — the semi exposure is very high. MRVL partial exit reduces concentration without abandoning the position entirely if thesis recovers. ⬛ P&L $+1,764.96 |
+
+**Portfolio after run**: Cash $57,068.08 | P&L $+14,626.29 (+14.63%) | Daily -4.38%
+
+---
+
