@@ -2154,3 +2154,42 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-13 18:03 ET — Run ID: long_term-20260713-1803
+**Market**: after-hours | 18:03 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF reverting — SPY -0.3% 1W, QQQ -1.5% 1W, SMH -3.1% 1W; Trump moves to reinstate blockade of Strait of Hormuz causing oil to spike above $79/bbl; Nasdaq snaps 3-day winning streak; U.S. stocks fall as AI selloff and oil jump rattle markets (WSJ headline); retail investors cashing out of Apple, Tesla, and chip stocks (Yahoo Finance); geopolitical tail risk re-escalating sharply with Iran blockade threat
+• Fed/rates: Oil spike is directly inflationary — raises rate hike tail risk; higher-for-longer firmly operative; CPI data due tomorrow is the next key read alongside JPM/GS/C bank earnings today (July 14); no new FOMC data but macro backdrop deteriorating at the margin
+• Growth cycle: TSMC reported 36% sales jump (constructive for AI thesis) BUT memory stocks plunging — SK Hynix down sharply, Sandisk/SNDK diving, MU falling in sympathy; 'Memory ETF in bear market' per IBD; AI trade angst returning after brief 1-week recovery; Arm and Marvell tumbling as chip selloff broadens; bank earnings today (JPM/GS/C) are critical macro read
+• Macro catalyst: (1) Trump Strait of Hormuz blockade threat is the dominant negative — oil spike above $79 creates inflationary pressure and risk-off across high-multiple tech; (2) TSMC +36% sales beat is the critical positive — validates AI chip demand is absolutely real and accelerating; (3) SK Hynix rout leading broader chip declines creates sentiment headwind even though fundamentals are intact; (4) Bank earnings today — JPM/GS/C results will set the macro tone
+
+**Sectors:**
+• SMH (semis): -3.1% 1W — AI trade angst returning; SK Hynix down sharply leading chip selloff; Arm and Marvell tumbling (IBD); ALAB -16.3% 1W most severe; ARM -7.2% 1W, MRVL -12.7% 1W; Intel -15.6% 1W; but TSMC +36% June sales confirms AI demand is real — bifurcation between memory/chip sentiment and fundamental demand
+• IGV (software): PANW -7.6% 1W — giving back more gains; cybersecurity safe harbor narrative weakening; NET +8.9% 1W notable exception; CRWD -5.8% 1W also weak
+• XLK (broad tech): MSFT +1.1% 1W modestly positive; AMZN +1.3% 1W; META +9.4% 1W extraordinary continued strength — data center costs skyrocketing (Yahoo Finance Video) but AI conviction intact; GOOGL -3.9% 1W weak ahead of July 22 earnings
+• XLY vs XLP: Risk-off signal — oil spike and AI selloff; CVX +8.4% 1W and XOM +5.9% 1W as energy outperforms dramatically; consumer mixed
+• XLE: Trump Hormuz blockade driving oil above $79 — CVX, XOM, PSX all surging; the one sector with zero portfolio exposure is the week's best performer again
+• XLF: Bank earnings today — JPM, GS, C all reporting; MS reports tomorrow; PNC tomorrow; 'Bank stocks island of stability' per MT Newswires; constructive setup
+• XLV: JNJ earnings July 15; ISRG earnings July 16; sector broadly stable; UNH +2.7% 1W
+
+**Positions:**
+• TSM EARNINGS ALERT (reports July 16 — 2 days): HOLD full position. TSMC just reported June monthly sales +36% YoY — extraordinary beat that directly validates the AI chip demand thesis. '24/7 Wall St: TSMC Sales Jump 36% as Memory Stocks Plunge' is the key headline — TSM is the clear winner even as memory names decline. At 20.8x fwd P/E for 35% growth this remains attractively valued. The setup for Wednesday earnings is maximally constructive. HOLDING all 9 shares through earnings with stop at $300.51.
+• ALAB (long, -16.3% 1W, +69.3% unreal): Arm and Marvell tumbling drags ALAB; down to $362 from ~$430 prior levels; '5 Under the Radar AI Chip Stocks' constructive but insider sold at $458; at 84.1x fwd P/E for 93% growth still extraordinary growth but the valuation compression from ~95x to 84x continues; thesis intact but significant weekly drawdown warrants monitoring
+• ARM (long, -7.2% 1W, +107.4% unreal): 'Arm and Marvell Tumble as Chip Stocks Sell Off' (IBD) — direct hit this session; at 97.0x fwd P/E for 20% revenue growth the multiple is challenging in risk-off; down to $299 from ~$322 prior session; stop at $122.51 remains very wide; thesis intact
+• MRVL (long, -12.7% 1W, +129.3% unreal): IBD 'Arm and Marvell Tumble as Chip Stocks Sell Off' — direct hit; down to $217 from ~$249 prior week; now at 35.2x fwd P/E for 28% growth — still reasonable; stop at $83.49 far away; thesis intact but competitive framing and SK Hynix rout creating headwind; HOLD
+• META (long, +9.4% 1W, +24.9% unreal): Extraordinary continued strength; 'Meta's data center costs are skyrocketing' (Yahoo Finance) — this is actually the bull case: META is spending aggressively on AI infrastructure which validates the AI capex thesis; 'This Is Why I Keep Buying Meta Stock' (24/7 Wall St.); at 24.0x fwd P/E (using GOOG proxy) actually GOOG... META fundamentals: 33% growth at reasonable multiple; thesis at maximum strength; HOLD
+• MU (long, -4.9% 1W, +101.2% unreal): SK Hynix rout is dragging MU sympathy; 'Memory ETF in bear market' (IBD); however 'Micron invests $3B in GlobalWafers to secure AI supply' (Simply Wall St.) — long-term structural positive; at 6.3x fwd P/E for 346% growth remains the most extraordinary value in tech; thesis unbroken by sentiment; HOLD
+• PANW (long, -7.6% 1W, +95.2% unreal): Giving back more gains from the extraordinary run; Lumen Technologies expands PANW security partnership (Simply Wall St.) — thesis additive; at 80.2x fwd P/E for 31% growth still stretched; cybersecurity safe harbor weakening; HOLD — cannot trim without cash impact
+• GLW (long, -6.0% 1W, +23.8% unreal): 'These Nvidia-Backed Darlings are Great Dip-Buys' includes GLW (24/7 Wall St.) — constructive; Corning Amazon + Nvidia fiber deals intact; at 42.8x fwd P/E for 20% growth; stop at $130.17 very far away; thesis intact; HOLD
+• NVDA (long, +4.1% 1W, +21.5% unreal): TSMC +36% sales directly validates NVDA demand; 'TSMC Sales Jump 36% as Memory Stocks Plunge: What It Means for NVIDIA and AMD' — constructive framing; at 15.9x fwd P/E for 85% growth historically cheap; thesis at full strength; HOLD
+• GOOGL (long, -3.9% 1W, +0.0% unreal): Earnings July 22 — the critical portfolio test approaching; 'Apple's iPhone and Google Pixel Q2 Sales Shine Even as Global Smartphone Market Drops to 13-Year Low' (Stocktwits) — constructive; at 24.0x fwd P/E for 22% growth; HOLD into earnings
+• VRT (long, -4.0% 1W, -0.1% unreal): 'Vertiv Buys ThermoKey to Grow AI Data Center Cooling in EMEA' (Simply Wall St.) — thesis-additive acquisition; NVT vs VRT comparison constructive; stop at $260.25 = 14.9% buffer; HOLD
+• EQIX (long, +4.1% 1W, +7.9% unreal): Positive week; 'This Data Center IPO is the Next Big Test for the AI Trade' (Barrons) constructive for sector; BTIG Buy rating with 'multi-decade supercycle' thesis intact; at 54.1x fwd P/E for 12% growth still the most stretched valuation relative to growth; HOLD
+
+**Cash:** At ~$1,346 (~0.9% floor) — fully deployed at cash minimum; no new positions possible without selling; TSM earnings in 2 days and GOOGL earnings in 9 days are the two most critical near-term tests; oil spike and AI trade angst are creating headwinds but all fundamental theses remain intact
+**Benchmarks**: SPY 1D -0.8% | QQQ 1D -1.9% | SMH 1D -4.2%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+32,486.76 (+32.49%) | Daily -2.99%
+
+---
+
