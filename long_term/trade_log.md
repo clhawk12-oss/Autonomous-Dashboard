@@ -2193,3 +2193,48 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-14 18:07 ET — Run ID: long_term-20260714-1807
+**Market**: after-hours | 18:07 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON recovering — SPY +0.5% 1W, QQQ +1.5% 1W, SMH +3.2% 1W; markets rebounding from the Hormuz/SK Hynix scare; CPI cooled to 3.5% (equaling 2020 lows per Motley Fool) — a significant disinflationary surprise that directly reduces rate-hike tail risk; Goldman Sachs hits fresh record on blockbuster earnings; GS/JPM/C all beat Q2 estimates with record profits from trading and deal-making; IBM posts worst day in history (-25%) as CEO flags customer spending shift toward cybersecurity/AI pure-plays — net positive for PANW/CRWD/ZS
+• Fed/rates: CPI 3.5% is the most important data point of the week — materially reduces higher-for-longer risk premium on high-multiple tech; rate hike tail risk from Hormuz oil spike has moderated; this is a direct tailwind for ARM (91x), ALAB (84x), PANW (86x), EQIX (53x); no new FOMC data but the inflation trajectory is now cooperative
+• Growth cycle: Bank earnings (JPM/GS/C) all beat — 'close to as good as it gets' per Dimon; mega AI deals lifting big bank profits and CEOs say more are coming; TSM reports tomorrow (July 16) — June +36% sales already confirmed; GS +9.3% 1W near ATH signals financial strength; IBM's warning about customer migration to cybersecurity/AI is a massive positive for PANW, CRWD reads through; chips rebounding with NVDA/AMD/MU all positive today
+• Macro catalyst: (1) CPI 3.5% is the dominant positive — kills the rate-hike narrative that's been the primary headwind for high-multiple AI names; (2) Bank earnings all beating — macro economy is healthy; (3) TSM earnings tomorrow is the most critical portfolio-specific catalyst; (4) IBM's -25% single-day collapse confirms the secular shift FROM legacy enterprise IT TO AI/cloud/cybersecurity — directly validates PANW, CRWD, our portfolio theses
+
+**Sectors:**
+• SMH (semis): +3.2% 1W — recovering; NVDA +7.5% 1W, AMD +6.2% 1W, AMAT +7.4% 1W; MU +4.8% 1W stabilizing; TSM -2.8% 1W but this is pre-earnings noise ahead of July 16 report; TSEM +20.5% 1W extraordinary; overall semi complex recovering as CPI disinflationary signal removes rate headwind
+• IGV (software): PANW +4.7% 1W continuing strength; CRWD +8.3% 1W near ATH; IBM collapse is directly boosting cybersecurity names — 'customer spending shift' flagged by IBM CEO means those dollars go to PANW/CRWD/OKTA/ZS; NET +4.8% 1W; OKTA +4.1% 1W; cybersecurity leadership extremely durable
+• XLK (broad tech): AMD +6.2% 1W, AVGO +4.9% 1W strong; META +7.4% 1W continues its extraordinary run; MSFT -1.0% 1W slight weakness on 4,800 job cuts headline but AI investment thesis intact; GOOGL -1.7% 1W soft ahead of July 22 earnings
+• XLY vs XLP: Risk-on signal — consumer spending resilient per bank commentary; Costco opens first standalone gas station (expansion); DAL -3.3% 1W some airline weakness
+• XLF: GS +9.3% 1W near ATH — record profits from trading/AI deals; JPM +1.1% 1W constructive; MS +2.5% 1W; C -5.3% 1W slightly disappointing but beat estimates — overall banks extremely healthy
+• XLE: Oil above $80 on Hormuz/Iran but CPI still cooling — energy sector stable; CVX +4.5% 1W, XOM +2.4% 1W
+• XLV: JNJ -5.0% 1W, ISRG -11.2% 1W weak — medical devices taking a hit on some regulatory/pricing concerns; healthcare names soft this week ahead of earnings
+
+**Positions:**
+• TSM EARNINGS ALERT (reports July 16 — TOMORROW): HOLD full position. The setup is maximally constructive: June monthly sales +36% YoY already confirmed; Wedbush delivers 'urgent message' for TSM investors (GuruFocus) framed bullishly; Motley Fool: 'Buying TSMC Stock Before July 16 Just Became a No-Brainer'; CEO says TSM 'not at risk of losing competitive edge'; 24/7 Wall St: 'The Great Tech Rotation Just Triggered a Flawless Entry Point Into the World's Ultimate Hardware Play.' At 20.7x fwd P/E for 35% growth with ASML reporting constructively and CPI disinflationary, this is the strongest risk/reward heading into earnings. HOLDING all 9 shares through earnings. Stop at $300.51.
+• PANW (long, +108.6% unreal): IBM collapse is the most direct positive catalyst — IBM CEO explicitly flagged customers migrating spend to cybersecurity/AI; PANW +4.7% 1W; Jim Cramer calls it 'unbelievable'; CrowdStrike/Fortinet surging on same IBM signal. At 85.7x fwd P/E for 31% growth still stretched but cybersecurity platform consolidation thesis is now being explicitly confirmed by legacy IT's loss. HOLD.
+• MU (long, +111.1% unreal): +4.8% 1W recovering; 'Micron and Nvidia are powering a $700B chip profit boom' (Yahoo Finance Chart of Day) — thesis validation; at 6.5x fwd P/E for 346% growth still extraordinary value; CPI disinflationary removes the key macro headwind. HOLD.
+• META (long, +25.7% unreal): +7.4% 1W continuing strength; Meta expands Louisiana data center to 5GW; 'Is Meta's recent rally sustainable?' — yes, at 18.2x fwd P/E for 33% growth this is still cheap for quality. HOLD.
+• NVDA (long, +26.4% unreal): +7.5% 1W strong; at 16.6x fwd P/E for 85% growth; New York statewide moratorium on AI data center construction is a watch item (potential regulatory headwind) but NVDA's global customer base means this is noise. HOLD.
+• AMD (long, +54.3% unreal): +6.2% 1W; Goldman sees 'big earnings coming' (Insider Monkey); at 41.2x fwd P/E for 38% growth reasonable. HOLD.
+• MRVL (long, +134.4% unreal): -3.6% 1W still lagging; at 36.0x fwd P/E for 28% growth; competitive narrative from NVDA custom silicon remains a headwind; HOLD but the weakest thesis in the semiconductor book.
+• ALAB (long, +69.1% unreal): -5.5% 1W; UBS raises price target (constructive); 'staying strong in choppy market' per IBD; 'bull case unchanged?' (Simply Wall St) after insider sales — thesis intact but insider selling and valuation (84x fwd P/E for 93% growth) require monitoring. HOLD.
+• ARM (long, +95.1% unreal): -6.4% 1W; BofA says ARM faces 'near-term pain' while AMD rides server boom; CEO says US would have difficulty banning AI CPU exports to China — reduces geopolitical tail risk; at 91.3x fwd P/E still richly valued. HOLD — stop at $122.51.
+• GLW (long, +26.9% unreal): +1.2% 1W stabilizing; 'Corning Earnings Preview' (Barchart) upcoming; '3 Communication Stocks Set to Soar on Inherent Sector Strength' (Zacks) constructive. HOLD.
+• GOOGL (long, +0.0% unreal): -1.7% 1W soft; earnings July 22 is the next critical test; DeepSeek IPO prep is a competitive framing concern; at 24.5x fwd P/E for 22% growth still reasonable. HOLD into earnings.
+• MSFT (long, +7.9% unreal): -1.0% 1W; 4,800 job cuts announced — AI-driven workforce rationalization is structurally positive for margins; at 19.9x fwd P/E for 18% growth still genuinely cheap. HOLD.
+• VRT (long, -0.8% unreal): -0.7% 1W essentially flat; 'Vertiv Is Set to Benefit as AI Moves From Hype to the Real Economy' (Motley Fool) — strong thesis validation; stop at $260.25 = 14.3% buffer from $303.58. HOLD.
+• EQIX (long, +6.3% unreal): +0.1% 1W essentially flat; CPI disinflationary removes the primary rate headwind for this 53x fwd P/E name; BTIG 'multi-decade supercycle' intact. HOLD.
+• AMZN (long, +19.3% unreal): Raising $25B from bond sale for AI push — this is aggressive AI investment; at 25x fwd P/E for 17% growth still reasonable. HOLD.
+• AVGO (long, +28.8% unreal): +4.9% 1W; Evercore calls Apple-Broadcom agreement 'strategic positive'; at 20.1x fwd P/E for 48% growth remains best value/growth in AI mega-cap. HOLD.
+• CIEN (long, +11.3% unreal): +6.7% 1W strong; CEO interview constructive; tiny 2-share position. HOLD.
+• COST (long, -6.3% unreal): -2.7% 1W continuing weakness; at 40.7x fwd P/E for 22% growth still overvalued relative to growth; Jim Cramer sticking with it; tiny position. HOLD.
+
+**Cash:** Cash at $1,346 (~0.9% floor) — fully deployed at minimum; CPI 3.5% disinflationary print removes the biggest headwind for our high-multiple AI names; with TSM earnings tomorrow and GOOGL July 22, holding all positions with full conviction; the IBM collapse is a generational confirmation that enterprise IT spend is migrating to our exact holdings (PANW, NVDA, GOOGL cloud, MSFT Azure).
+**Benchmarks**: SPY 1D +0.4% | QQQ 1D +1.1% | SMH 1D +2.5%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+33,510.48 (+33.51%) | Daily +0.76%
+
+---
+
