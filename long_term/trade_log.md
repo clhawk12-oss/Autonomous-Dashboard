@@ -2238,3 +2238,47 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-15 18:11 ET — Run ID: long_term-20260715-1811
+**Market**: after-hours | 18:11 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON recovering — SPY +1.3% 1W, QQQ +0.9% 1W, SMH -0.4% 1W; megacap tech lifting US stocks per WSJ; CPI 3.5% disinflationary print continuing to support sentiment; ASML beat Q2 and raised forecast ('real vote of confidence for AI trade' per Yahoo Finance); bank earnings blowout with GS/JPM/MS all posting record results; markets in wait-and-see mode ahead of TSM earnings tonight and GOOGL/TSLA/GEV next week
+• Fed/rates: CPI 3.5% (equaling 2020 lows) is the most significant disinflationary print in months; materially reduces higher-for-longer risk premium on high-multiple names; ASML raised guidance signals semicap cycle intact; no new FOMC data but macro trajectory is cooperative for our high-multiple AI names (ARM 90x, ALAB 80x, PANW 86x, EQIX 53x)
+• Growth cycle: ASML Q2 beat with raised guidance — 'real vote of confidence for AI trade'; bank earnings blowout (GS +11.9% 1W near ATH, MS blowout quarter); memory stocks under pressure today (Dell/Sandisk/Micron sell-off per IBD) — is this why memory stocks are plunging? (IBD headline); Morgan Stanley destroys bear case against AVGO re Google TPU; AI capex crossing $1T next year (Motley Fool) — two industrial stocks benefiting include VRT
+• Macro catalyst: (1) TSM earnings TONIGHT is the single most critical portfolio catalyst — Barrons calls it 'crucial test for AI'; Wedbush expecting 'continued AI-driven growth'; ASML's raised guidance is the most constructive read-through possible; (2) ASML beat-and-raise directly validates the AI semicap cycle thesis underpinning NVDA/AMD/MU/TSM; (3) Memory stock sell-off (MU -4.7% 1W, Dell/Sandisk tumbling) is the one concerning signal — 'Is Micron indicative of a possible chip bubble to come?' (Yahoo Finance Video) creates some thesis pressure
+
+**Sectors:**
+• SMH (semis): -0.4% 1W — mixed; ASML raised guidance is extremely positive for semicap cycle; but memory complex under pressure today (MU -4.7% 1W, SNDK -6.5% 1W); AMD +2.3% 1W holding; NVDA +4.1% 1W strong; TSM -4.0% 1W but this is pre-earnings noise; the read-through from ASML beat+raise is net positive for the AI semiconductor cycle
+• IGV (software): PANW +10.4% 1W extraordinary continuation; CrowdStrike/ZS/CRWD also strong on IBM collapse read-through; AI rewrites rules of cybersecurity (Zacks); IBM's historic crash continues to validate PANW thesis; ServiceNow seen well positioned for Q2 (reports July 22)
+• XLK (broad tech): Megacap tech lifting stocks; MSFT +3.2% 1W recovering; Evercore hikes MSFT PT on AI growth; AMZN +4.7% 1W strong — Jefferies calls Amazon top hyperscaler pick; META +13.0% 1W extraordinary continued strength; price target cuts on MSFT from Citi noted but Evercore raises — net neutral
+• XLF: GS +11.9% 1W at ATH; MS blowout quarter ('AI stock frenzy drives record revenue at Morgan Stanley'); banks dominating earnings season; ELV beats but Medicaid spending worries; overall financial sector extremely strong
+• XLV: JNJ Q2 earnings slipped — but 'bodes well for Intuitive, Abbott, others' per IBD; ELV beats but falls on Medicaid concerns; ISRG down on JNJ read-through; healthcare mixed
+• XLE: Energy stocks fall late afternoon; Hormuz spike narrative moderating; oil sector giving back some gains
+
+**Positions:**
+• TSM (EARNINGS ALERT — reports TONIGHT July 16): HOLD full 9 shares. This is the moment we've been waiting for. Barrons calls it 'crucial test for AI.' Wedbush expects 'continued AI-driven growth.' ASML's beat-and-raise this morning is the single most constructive read-through possible — if semicap equipment demand is rising, TSM's advanced node utilization is at maximum. TSM -4.0% 1W is pure pre-earnings noise; at 20.7x fwd P/E for 35% growth, this is the best risk/reward in the portfolio heading into a highly anticipated print. HOLDING all 9 shares. Stop at $300.51.
+• GOOGL (EARNINGS ALERT — reports July 22): HOLD all 36 shares. At 25.4x fwd P/E for 22% growth, GOOGL is the cheapest Mag-7 name by growth-adjusted metrics. DeepSeek IPO prep creates competitive framing noise but Google's TPU infrastructure, YouTube ad dominance, and Cloud AI workload acceleration are the real thesis drivers. Morgan Stanley's bullish note on AVGO vs Google TPU actually validates Google's custom silicon investment. Holding into earnings — the setup is attractive at these multiples. Stop at $233.19 provides ample buffer.
+• PANW (long, +109.3% unreal): +10.4% 1W — extraordinary continued momentum. IBM collapse confirmation, cybersecurity AI thesis ('AI rewrites rules of cybersecurity'), inflation data lighting fire under CRWD/PANW. At 85.9x fwd P/E for 31% growth still stretched but the sector leadership is undeniable. Cybersecurity is now the strongest sector theme in the market. HOLD — cannot sell to raise cash as we're at cash floor, and thesis is at maximum strength.
+• MU (long, +94.2% unreal): -4.7% 1W — memory complex under pressure. 'Is Micron indicative of a possible chip bubble to come?' (Yahoo Finance Video) is the bearish narrative. 'Is This Why Memory Stocks Are Plunging?' (IBD) — worth monitoring. However at 6.0x fwd P/E for 346% revenue growth this is still the most extraordinary fundamental value in tech. Dell/Sandisk sell-off today is the near-term headwind. Thesis fundamentally unbroken — HOLD with stop at $395.81 providing ample protection.
+• MRVL (long, +117.4% unreal): -11.0% 1W significant continued weakness; 'Micron vs. Marvell: Which Pullback Is a Buy?' (Zacks) — still seen as a buy; 'Is NVIDIA's Next Big Bet A Massive Pivot?' (Trefis) — custom silicon competitive narrative; Morgan Stanley: 'Broadcom bears are wrong about Google TPU' — same framing applies to MRVL as AVGO competitor for custom silicon; at 33.3x fwd P/E for 28% growth still defensible but this remains the weakest thesis position. HOLD.
+• AVGO (long, +30.5% unreal): +1.4% 1W steady; Morgan Stanley destroys bear case against AVGO Google TPU thesis — exactly the right constructive signal; at 20.3x fwd P/E for 48% growth remains the best value/growth ratio in AI mega-cap. HOLD.
+• ARM (long, +92.2% unreal): -7.7% 1W; analyst downgrade (Barchart); 'Intel, ARM face near-term pain while AMD rides server boom: BofA'; at 89.9x fwd P/E still richly valued; downgrade creates near-term headwind. HOLD — thesis is structural (CPU royalty model) and the +92% unrealized gain provides ample cushion. Stop at $122.51.
+• MSFT (long, +10.9% unreal): +3.2% 1W strong recovery; Evercore raises PT on AI growth; Citi trims PT but Evercore hike is more constructive; 4,800 job cuts = margin improvement; at 20.4x fwd P/E for 18% growth genuinely cheap. HOLD.
+• META (long, +29.6% unreal): +13.0% 1W extraordinary; '24/7 Wall St: Why I Won't Stop Buying Meta Before September'; at 18.8x fwd P/E for 33% growth still cheap for quality. HOLD.
+• NVDA (long, +26.9% unreal): +4.1% 1W strong; ASML raise is the key positive read-through; at 16.6x fwd P/E for 85% growth historically cheap. HOLD.
+• AMD (long, +48.9% unreal): +2.3% 1W; 'AMD's hidden AI weapon may finally be exposed' (TheStreet) constructive; BofA says 'long semis is most crowded trade ever' is a contrarian headwind but AMD at 39.7x fwd P/E for 38% growth still reasonable. HOLD.
+• ALAB (long, +63.9% unreal): -10.8% 1W continuing pressure; UBS raises PT (constructive); 'staying strong in choppy market' per IBD; 'Arista, Seagate and Astera Lead AI Picks' (GuruFocus) positive; at 80.3x fwd P/E for 93% growth still defensible despite insider selling. HOLD.
+• VRT (long, -0.5% unreal): -4.2% 1W; 'AI Capex Crosses $1 Trillion Next Year — 2 Industrial Stocks That Will Benefit' (Motley Fool) — VRT explicitly named; 'Vertiv Is Set to Benefit as AI Moves From Hype to the Real Economy' (Motley Fool) constructive; at 34.3x fwd P/E for 30% growth reasonable; stop at $260.25 vs $304.57 = 14.5% buffer. HOLD.
+• EQIX (long, +6.2% unreal): +0.7% 1W stabilizing; 'Data Center Backlash Will Help These REITs' (Barrons) — constructive; Equinix CBO departure is a minor mgmt watch item; at 53.2x fwd P/E for 12% growth still stretched but stabilizing. HOLD.
+• AMZN (long, +22.9% unreal): +4.7% 1W strong; Jefferies calls Amazon 'top pick among hyperscalers'; at 25.8x fwd P/E for 17% growth still reasonable. HOLD.
+• GLW (long, +17.9% unreal): -5.2% 1W; 'Corning stock signal hints at upside potential amid breather' (Schaeffer's) constructive; 'Corning stock could be 7% above fair value on AI selloff' (Simply Wall St.) suggests modest overvaluation even at depressed levels; at 40.7x fwd P/E for 20% growth. HOLD.
+• CIEN (long, +4.2% unreal): -5.1% 1W; tiny 2-share position; CEO interview constructive; HOLD.
+• COST (long, -6.8% unreal): -3.8% 1W continuing weakness; at 40.5x fwd P/E for 22% growth still relatively expensive; Jim Cramer sticking with it; tiny position. HOLD.
+
+**Cash:** Cash at $1,346 (~0.9% floor) — fully deployed at system minimum; TSM earnings tonight is the moment of truth for the AI thesis; ASML's beat-and-raise this morning is the best possible pre-read; holding all positions with full conviction through what is the most important earnings night for our portfolio in months.
+**Benchmarks**: SPY 1D +0.4% | QQQ 1D -0.3% | SMH 1D -1.6%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+32,516.75 (+32.52%) | Daily -0.74%
+
+---
+
