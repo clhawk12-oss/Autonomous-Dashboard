@@ -2325,3 +2325,47 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-17 18:02 ET — Run ID: long_term-20260717-1802
+**Market**: after-hours | 18:02 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF deepening — SPY -1.5% 1W, QQQ -4.2% 1W, SMH -8.9% 1W; 'Chip Stocks Enter Bear Market' (IBD), 'Wall Street plunges in AI bloodbath' (The Telegraph); Iran expands attacks in Middle East driving crude oil surge; China unveils powerful new AI model adding to chip investor worries (WSJ); Netflix Q3 miss adds sentiment headwind
+• Fed/rates: Iran geopolitical escalation + oil surge is directly inflationary — raises rate hike tail risk again; no new FOMC data but macro backdrop deteriorating at the margin
+• Growth cycle: Semiconductor bear market deepening — SMH -8.9% 1W; chip stocks formally entering bear market territory; China new AI model creates additional competitive anxiety; however TSMC's 77% profit beat last week is the fundamental counter-argument that demand is real; bank earnings strong (JPM $21.2B, GS ATH) signals underlying economy healthy
+• Macro catalyst: (1) Iran expanding Middle East attacks = oil surge + inflationary pressure + risk-off; (2) China new AI model unveiling creates fresh competitive framing pressure on US chip stocks; (3) GOOGL reports Tuesday July 22 — THE critical portfolio earnings event; (4) GEV reports July 22 — AI power infrastructure read-through
+
+**Sectors:**
+• SMH (semis): -8.9% 1W — formally entering bear market; ALAB -26.5% 1W, ARM -17.4% 1W, MRVL -20.0% 1W, MU -13.3% 1W, AVGO -7.3% 1W, CIEN -18.7% 1W, GLW -19.0% 1W; TSMC's record fundamentals completely disconnected from this price action
+• IGV (software): PANW +10.1% 1W — extraordinary continued outperformance; Capital One upgrades PANW; Jim Cramer names PANW as one of 5 best cybersecurity stocks; cybersecurity remains the only island of strength in tech
+• XLK (broad tech): MSFT +2.3% 1W holding; AMZN +0.8% 1W; hyperscalers showing relative strength vs semis; META -3.5% 1W giving back gains; GOOGL -2.5% 1W ahead of Tuesday earnings
+• XLY vs XLP: Risk-off consumer signal — Iran attack driving oil surge and defensive positioning
+• XLE: CVX +6.2% 1W, XOM +6.1% 1W — energy dramatically outperforming on Iran Middle East attack; the one sector we have zero exposure to is again the week's top performer
+• XLV: Healthcare outperforming — UNH strong, ABT +8% 1W on earnings beat ('best day in 24 years'); defensive rotation into healthcare accelerating
+
+**Positions:**
+• GOOGL (EARNINGS ALERT — reports July 22 TUESDAY): This is the MOST CRITICAL position update. HOLD all 36 shares into earnings. At 23.6x fwd P/E for 22% growth with 38% margins, this is the cheapest Mag-7 name by any growth-adjusted metric. The AI model delay concern from last week is the key risk, but Google Cloud growth, YouTube advertising dominance, and Search AI monetization are the fundamental drivers. Reuters: 'Alphabet, Intel results in focus for AI trade as US earnings rev up' — massive market significance. The stock is at $274.34 essentially flat from our cost basis, providing no cushion but also no loss. At stop $233.19, we have 15% buffer. HOLD through earnings — the setup at current valuation is compelling even with elevated risk.
+• PANW (long, +112.0% unreal): +10.1% 1W — extraordinary continued momentum in a brutal tape; Capital One upgrades PANW; Jim Cramer names it among 5 best cybersecurity stocks; at 87.0x fwd P/E for 31% growth this is genuinely extreme valuation but the sector momentum is real; this remains our strongest performer; HOLD
+• MU (long, +82.3% unreal): -13.3% 1W; Barrons 'Here's What Can End Micron's Stock Pain'; China new AI model creates additional competitive anxiety; at 5.6x fwd P/E for 346% growth this remains the most extraordinary fundamental value in tech; the thesis is UNBROKEN — sentiment is the driver not fundamentals; HOLD
+• ARM (long, +85.4% unreal): -17.4% 1W; CEO says 'AI boom hampered by supply constraints' (Proactive) — this is actually BULLISH for ARM's licensing revenue as more chips are needed; at 86.8x fwd P/E still richly valued; stop at $122.51 vs $267 = 54% buffer; HOLD
+• MRVL (long, +98.9% unreal): -20.0% 1W severe; 'Invisible Speculative Bear Market Coming Out of Hiding' (Barrons) — the speculative de-rating continues; at 30.4x fwd P/E for 28% growth this is still defensible; stop at $83.49 vs $188 enormous cushion; HOLD
+• ALAB (long, +41.9% unreal): -26.5% 1W — most severe weekly decline in portfolio; 'Astera Labs Continues Slump' (IBD); 'Chip Stocks Enter Bear Market' directly names the context; at 69.5x fwd P/E for 93% growth still defensible but the multiple compression continues; -39.2% from 52W high; HOLD — stop at $171.13 vs $303 = 43.6% buffer
+• GLW (long, +4.5% unreal): -19.0% 1W — severe sustained decline; from +49% unrealized to +4.5% is a dramatic pullback over weeks; at 36.0x fwd P/E for 20% growth the market is questioning whether the AI fiber thesis translates to revenue; stop at $130.17 vs $154.61 = 15.8% buffer — closest to stop besides VRT; monitoring carefully
+• VRT (long, -5.4% unreal): -9.2% 1W; '2 Industrial Stocks Will Benefit From Trillion-Dollar AI Spending' (Motley Fool) names VRT explicitly; at stop $260.25 vs $289.56 = 10.2% buffer — CLOSEST STOP in portfolio; thesis intact but price action concerning; HOLD
+• CIEN (long, -6.8% unreal): -18.7% 1W severe for a tiny 2-share position; 'Ciena vs Nokia: Ciena still favored' constructive; stop at $341.37 vs $374.41 = 8.8% buffer — approaching stop territory; monitoring
+• AVGO (long, +22.7% unreal): -7.3% 1W; SK Hynix jumps 8% on bargain hunting, HSBC reaffirms; at 19.1x fwd P/E for 48% growth still exceptional value; HOLD
+• TSM (long, +16.7% unreal): -8.2% 1W after the 77% profit beat — pure AI sentiment disconnect; at 18.8x fwd P/E for 35% growth after the best quarterly result in company history; HOLD
+• NVDA (long, +21.1% unreal): -3.9% 1W; 'Dell vs NVIDIA: Which AI Stock Better Buy?' constructive framing; at 15.8x fwd P/E for 85% growth historically cheap; HOLD
+• META (long, +22.9% unreal): -3.5% 1W; Meta in talks to rent AI infrastructure to Anthropic — thesis-additive; at 17.8x fwd P/E for 33% growth cheapest Mag-7 by growth-adjusted metrics; HOLD
+• MSFT (long, +10.4% unreal): +2.3% 1W relative strength; at 20.3x fwd P/E for 18% growth genuinely cheap; HOLD
+• AMZN (long, +19.1% unreal): +0.8% 1W relative strength; at 24.9x fwd P/E for 17% growth; HOLD
+• EQIX (long, +5.9% unreal): -3.0% 1W; at 52.8x fwd P/E for 12% growth remains most stretched valuation relative to growth; HOLD
+• AMD (long, +39.5% unreal): -11.1% 1W; China AI model and chip selloff impacting; at 36.8x fwd P/E for 38% growth reasonable; HOLD
+• COST (long, -4.4% unreal): +2.7% 1W — defensive outperformer; tiny position; HOLD
+
+**Cash:** Cash at $1,346 (~0.9% floor) — fully deployed at system minimum; GOOGL earnings Tuesday July 22 is the most critical near-term event; semiconductor bear market sentiment continues to diverge from strong fundamentals validated by TSMC's record quarter; holding all positions with conviction through sentiment-driven selloff
+**Benchmarks**: SPY 1D -1.0% | QQQ 1D -1.5% | SMH 1D -2.2%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+27,151.86 (+27.15%) | Daily -0.84%
+
+---
+
