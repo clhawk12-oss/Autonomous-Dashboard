@@ -2369,3 +2369,47 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-20 18:09 ET — Run ID: long_term-20260720-1809
+**Market**: after-hours | 18:09 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF continuing — SPY -0.9% 1W, QQQ -2.2% 1W, SMH -4.6% 1W; semiconductor bear market deepening with broader chip complex under sustained pressure; Trump's Iran comments mid-session erased early gains and sent Dow/Nasdaq negative; geopolitical tail risk (Iran) remains the dominant macro headwind alongside chip sector sentiment deterioration
+• Fed/rates: No new FOMC data; Iran oil spike re-emerges as inflationary tail risk; higher-for-longer remains operative; Trump comments on Iran sent oil higher mid-session creating rate-hike concern at the margin
+• Growth cycle: AMD rising on price target bumps and Microsoft deal — positive specific catalyst; memory stocks attempting recovery (Micron +5%, SanDisk +6%, SK Hynix climbing); Morgan Stanley says memory sell-off created 'strong entry point'; but recovery fizzled as Trump Iran comments hit; GEV reports Tuesday July 22 — AI power infrastructure catalyst; GOOGL reports Tuesday July 22 — MOST CRITICAL portfolio event; earnings season accelerating with major names this week
+• Macro catalyst: (1) GOOGL earnings Tuesday July 22 — THE defining portfolio event; Cloud growth and Search AI monetization are the real drivers; at 24x fwd P/E for 22% growth and 38% margins this is the cheapest quality Mag-7 name; (2) GEV earnings Tuesday — AI power infrastructure read-through for VRT thesis; (3) AMD Microsoft deal and price target bumps — constructive for AMD specifically; (4) Memory stock recovery attempt — Morgan Stanley bullish call provides fundamental backing; (5) Trump Iran comments re-emerging as geopolitical tail risk
+
+**Sectors:**
+• SMH (semis): -4.6% 1W — bear market conditions continuing; AMD -5.8% 1W, ARM -9.8% 1W, MRVL -10.4% 1W, GLW -16.4% 1W (most alarming), ALAB -14.6% 1W, MU -7.6% 1W; memory stocks attempted recovery but faded; UBS says buy momentum stocks as selloff nears end — could be a turn signal
+• IGV (software): PANW +5.6% 1W continuing extraordinary outperformance; CRWD +5.6% 1W; ZS +5.6% 1W; '24/7 Wall St: Wall Street Just Supersized Its Price Targets on Okta and Fortinet' — cybersecurity remains the only island of strength; OKTA +6.4% 1W at -5.5% from 52W high; Zacks 'The Next Big AI Winner: Cybersecurity'
+• XLK (broad tech): MSFT +2.9% 1W strong; AMZN +1.1% 1W; AAPL +2.9% 1W approaching ATH; hyperscalers showing relative strength; AMD Microsoft deal positive
+• XLY vs XLP: Risk-off signal — Trump Iran comments drove market losses late session; consumer mixed
+• XLE: CVX +4.1% 1W, XOM +2.7% 1W — energy outperforming again on Iran; zero portfolio exposure continues to be a drag on relative performance
+• XLF: JPM +1.3% 1W, GS +0.9% 1W — financials constructive; Schwab, PNC earnings this week
+
+**Positions:**
+• GOOGL (EARNINGS ALERT — reports July 22 TOMORROW): HOLD all 36 shares into earnings. This is the most critical portfolio event. At 24.0x fwd P/E for 22% growth with 38% margins, GOOGL is the cheapest Mag-7 name. 'Can Strong Search and Cloud Growth Drive GOOGL's Q2 Earnings?' (Zacks) — constructive framing. 'AI capex to pass $1 trillion by 2027' (Yahoo Finance Video) validates Google Cloud AI thesis. The stock is essentially at cost basis ($274.34 avg vs $274.34 current — showing exactly flat). With stop at $233.19 (15% buffer), the risk/reward is highly favorable for a quality compounder at these multiples. Cloud growth acceleration and Search AI monetization are the key thesis drivers to watch. HOLD through earnings with full conviction.
+• VRT (long, -4.7% unreal): -4.6% 1W; VRT acquiring Strategic Thermal Labs for AI cooling growth (Simply Wall St., Stocktwits) — this is THESIS ADDITIVE; Jim Cramer says 'wait before buying the dip, you'll get a better price' — cautious near-term signal but long-term thesis intact; stop at $260.25 vs $291.67 = 10.8% buffer — still the most vulnerable stop; monitoring but the STL acquisition is constructive
+• GLW (long, +3.5% unreal): -16.4% 1W — MOST ALARMING position this session; now at $153.10 vs stop $130.17 = only 15.0% buffer; from +49% unrealized at peak to +3.5% now is a massive deterioration over weeks; at 35.7x fwd P/E for 20% growth the market is questioning the AI fiber thesis persistently; Barclays upgrades Lumentum but no GLW upgrade; this is approaching thesis break territory — the repeated weekly double-digit declines suggest the AI fiber thesis is being repriced aggressively by the market
+• PANW (long, +106.1% unreal): +5.6% 1W continuing extraordinary strength; at 84.5x fwd P/E for 31% growth still extremely stretched but cybersecurity sector momentum is absolute; Zacks 'The Next Big AI Winner: Cybersecurity' validates sector thesis; HOLD
+• MU (long, +85.9% unreal): -7.6% 1W; Motley Fool 'Micron and Sandisk Shares Are Crashing. Is It Time to Buy the Dip?' — constructive; Morgan Stanley 'strong entry point'; at 5.7x fwd P/E for 346% growth this remains the most extraordinary value in tech; stop at $395.81 vs $865.46 = massive cushion; HOLD
+• ARM (long, +87.1% unreal): -9.8% 1W; Jefferies raises price target to $320 on stronger AI-driven demand; at 87.6x fwd P/E still richly valued; stop at $122.51 vs $269.61 = 54.5% buffer; HOLD
+• MRVL (long, +105.5% unreal): -10.4% 1W; memory sell-off created 'strong entry point' per Morgan Stanley — applies to MRVL; at 31.3x fwd P/E for 28% growth still defensible; stop at $83.49 vs $194.94 = massive cushion; HOLD
+• ALAB (long, +44.5% unreal): -14.6% 1W; Barclays cuts Penguin but upgrades Lumentum — semi-negative read for ALAB ecosystem; at 68.2x fwd P/E for 93% growth thesis intact; HOLD
+• AMD (long, +41.7% unreal): -5.8% 1W but AMD stock rising on price target bumps and Microsoft deal (Yahoo Finance); at 37.4x fwd P/E for 38% growth reasonable; HOLD
+• AVGO (long, +25.1% unreal): -1.5% 1W; Meta data centers could supercharge AVGO in H2 (Motley Fool) — thesis-additive; at 19.5x fwd P/E for 48% growth still best value/growth in AI mega-cap; HOLD
+• TSM (long, +17.8% unreal): -4.6% 1W; post-record-earnings sentiment disconnect continuing; at 18.9x fwd P/E for 36% growth after historic quarter; HOLD
+• COST (long, -4.9% unreal): +1.0% 1W; '24/7 Wall St: Costco Is a No-Brainer Buy for Retirement Investors'; tiny position; HOLD
+• CIEN (long, -5.7% unreal): -15.0% 1W severe; at 39.3x fwd P/E for 40% growth; stop at $341.37 vs $378.77 = only 9.9% buffer — approaching stop; tiny 2-share position; monitoring closely
+• EQIX (long, +5.6% unreal): -2.1% 1W; at 52.7x fwd P/E for 12% growth remains most stretched valuation relative to growth; stabilizing somewhat; HOLD
+• META (long, +22.9% unreal): -1.7% 1W; BlackRock leads $12B financing for new Meta data centers — thesis-additive; at 17.8x fwd P/E for 33% growth cheapest quality Mag-7; HOLD
+• MSFT (long, +12.8% unreal): +2.9% 1W; Bank of America doubles down on MSFT ahead of earnings; at 20.8x fwd P/E for 18% growth genuinely cheap; HOLD
+• AMZN (long, +20.5% unreal): +1.1% 1W; '3 Reasons I'm Buying Amazon Over and Over Until Late 2026' (24/7 Wall St.); HOLD
+• NVDA (long, +21.3% unreal): -0.1% 1W essentially flat; Oppenheimer names NVDA among 'Best of the Best' momentum stocks; at 15.8x fwd P/E for 85% growth historically cheap; HOLD
+
+**Cash:** Cash at $1,346 (~1% system floor) — fully deployed; GOOGL earnings tomorrow is the most critical near-term event for the portfolio; GLW and CIEN are the two most concerning positions approaching stop territory; holding all positions with conviction through what remains a sentiment-driven selloff validated by strong fundamentals from TSMC's record quarter
+**Benchmarks**: SPY 1D -0.2% | QQQ 1D +0.1% | SMH 1D +0.4%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+28,319.23 (+28.32%) | Daily +0.91%
+
+---
+
