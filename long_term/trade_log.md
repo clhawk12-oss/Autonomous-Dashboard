@@ -2413,3 +2413,43 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-21 18:12 ET — Run ID: long_term-20260721-1812
+**Market**: after-hours | 18:12 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF continuing — SPY -0.5% 1W, QQQ -1.5% 1W, SMH -2.7% 1W; semiconductor bear market persists though today's session showed notable strength with chip stocks powering Nasdaq higher (GuruFocus); S&P 500 regaining 50-day MA is a positive technical signal; Iran geopolitical risk remains elevated driving oil higher; 'AI Spending, Inflation, and 3 More Reasons Why Tech Is Hurting' (Barrons) captures the macro headwind
+• Fed/rates: No new FOMC data; Iran oil spike remains an inflationary tail risk; higher-for-longer operative; Big Tech AI spending is 'a good thing right now' (Yahoo Finance) suggests market views capex as demand signal not cost concern
+• Growth cycle: GOOGL reports TONIGHT July 22 — the most critical portfolio event; TSLA and GEV also report tonight; earnings season accelerating with major beats already in (GM, 3M); S&P 500 regaining 50-day MA is constructive; Morgan Stanley warns Europe spending 20x less on AI than US — US AI dominance thesis intact; GM's memory chip guidance 'could help stabilize stocks like Micron and Sandisk' (Yahoo Finance) — MU recovery signal; Micron surging 12% today with SNDK/Sandisk also soaring (Motley Fool, IBD)
+• Macro catalyst: (1) GOOGL earnings tonight — the defining near-term event for this portfolio; Cloud growth and Search AI monetization are the key drivers; 'Berkshire's new leader loaded up on Alphabet with $10B' (Motley Fool) — massive institutional validation at current prices; (2) GEV earnings tonight — AI power infrastructure read-through for VRT; (3) MU/SNDK surging today on GM memory guidance — memory recovery potentially beginning; (4) Big Tech AI spending broadly 'a good thing' per Yahoo Finance — capex cycle intact
+
+**Sectors:**
+• SMH (semis): -2.7% 1W but today Nasdaq pops as S&P 500 finds key support; MU surging 12% today, SNDK soaring, KLAC/LRCX/MRVL all skyrocketing today per StockStory; semiconductor recovery signal intraday; GLW -13.5% 1W concerning ahead of July 28 earnings
+• IGV (software): PANW -3.0% 1W — giving back some gains; Morgan Stanley warns 'cybersecurity stocks' hefty valuations demand caution ahead of earnings'; PANW 'could be 123% overvalued' (Simply Wall St.) — a bear case appearing in press; Citi Wealth CIO still bullish on cybersecurity AI agent thesis
+• XLK (broad tech): MSFT +3.3% 1W strong; AMD -0.7% 1W essentially flat; AMZN +0.0% 1W flat; hyperscalers showing relative strength; Mag-7 stocks 'in a rut — can earnings get them out?' (Investopedia) — tonight's results are the test
+• XLY vs XLP: Risk-off signal mixed — GOOGL/TSLA earnings tonight are the market-moving events; AAPL +4.1% 1W near ATH approaching $1T threshold at $327
+• XLF: Capital One earnings show 'positive signs on consumer health' (Barrons); GS Q2 earnings call transcript published — financials broadly healthy
+• XLV: UNH +2.6% 1W, MRK +4.5% 1W — healthcare defensive rotation continuing
+
+**Positions:**
+• GOOGL (EARNINGS ALERT — reports TONIGHT July 22): HOLD all 36 shares through earnings with full conviction. Berkshire's new leader loaded up on Alphabet with $10B — the most powerful institutional validation possible at current prices. At 23.6x fwd P/E for 22% growth with 38% margins, GOOGL is the cheapest Mag-7 name by any growth-adjusted metric. 'Alphabet's Q2 earnings are a likely pacesetter for the market' (Yahoo Finance Video) — tonight is the moment. Google Cloud growth acceleration and Search AI monetization are the key thesis drivers. Stop at $233.19 gives 15% buffer. The Berkshire endorsement makes this the most conviction hold in the portfolio. HOLD ALL 36 SHARES INTO EARNINGS.
+• GLW (EARNINGS ALERT — reports July 28, 1 week away): At $162.41 vs stop $130.17 = 19.9% buffer — buffer has actually IMPROVED from the 15% we flagged last week. Stock is -40.2% from 52W high and -13.5% 1W this week. An analyst says 'Corning's Q2 earnings might not be a large catalyst — sees modest revenue upside' (Stocktwits) — cautious but not bearish. Zacks 'Corning Earnings Expected to Grow' is the constructive framing. With ~$140B market cap and 37.9x fwd P/E for 20% growth, the thesis (AI fiber demand via Amazon + Nvidia deals) is intact but the price action is deeply concerning. HOLDING into earnings — the stop at $130.17 gives adequate protection and the earnings event could be the catalyst to reverse the multi-week decline. The AI fiber thesis remains intact with concrete customer deals. HOLD ALL 15 SHARES into earnings.
+• MU (long, +108.5% unreal): Surging 12% today on GM memory guidance — this is exactly the recovery signal Morgan Stanley called as a 'strong entry point' multiple weeks ago. At 6.3x fwd P/E for 346% growth this remains the most extraordinary value in tech. The memory recovery appears to be beginning. HOLD with conviction.
+• PANW (long, +102.2% unreal): -3.0% 1W; Morgan Stanley warns of hefty valuations ahead of earnings and Simply Wall St. calls it '123% overvalued' — these are the first serious bear cases appearing in mainstream coverage. At 82.9x fwd P/E for 31% growth, the valuation is genuinely extreme. Citi Wealth CIO still bullish on cybersecurity AI agent thesis. Still a HOLD — the stop at $143.62 is very far away and the sector thesis remains dominant.
+• VRT (long, -0.5% unreal): 'AI Chips Need Liquid Cooling. That's Why Vertiv's Stock Rally Can Continue' (Motley Fool) — constructive; Strategic Thermal Labs acquisition confirmed as thesis-additive; stop at $260.25 vs $304.50 = 14.8% buffer. GEV earnings tonight will be an important read-through for the AI power/cooling thesis. HOLD.
+• ARM (long, +101.0% unreal): +3.0% 1W — recovering; 'Prediction: Up 144% YTD, Is Arm Holdings The Next Nvidia?' (24/7 Wall St.) constructive; Jefferies raises PT to $320 on stronger AI-driven demand; at 94.2x fwd P/E still richly valued but recovering well. HOLD.
+• MRVL (long, +119.2% unreal): -6.5% 1W but skyrocketing today per StockStory; at 33.4x fwd P/E for 28% growth still defensible. HOLD.
+• ALAB (long, +49.5% unreal): -11.6% 1W; Barclays cuts Penguin (read-through concern for ALAB ecosystem) but broader chip stocks powering higher today; at 70.6x fwd P/E for 93% growth thesis intact. HOLD.
+• AMD (long, +53.2% unreal): -0.7% 1W essentially flat; Microsoft AI deal constructive; at 40.4x fwd P/E for 38% growth reasonable. HOLD.
+• AVGO (long, +27.9% unreal): -0.7% 1W; TSMC raising prices (Barrons) — AVGO can pass through; 'VCF is becoming Broadcom's growth engine' (Zacks); at 19.9x fwd P/E for 48% growth best value/growth in AI mega-cap. HOLD.
+• TSM (long, +24.3% unreal): +1.0% 1W; chip stocks skyrocketing today; post-earnings positive momentum continuing after record quarter. HOLD.
+• CIEN (long, +1.8% unreal): -8.6% 1W significant deterioration; at $408.73 vs stop $341.37 = 16.5% buffer (actually improved from prior week's 9.9% — likely due to price recovery); tiny 2-share position. HOLD.
+• META (long, +22.5% unreal): -2.6% 1W; 'Meta Just Got a Major Boost From Zuckerberg' (Motley Fool) constructive; at 17.7x fwd P/E for 33% growth cheapest quality internet name. HOLD.
+• MSFT (long, +11.5% unreal): +3.3% 1W strong; AMD Microsoft AI deal read-through positive; reports in a few days; at 20.5x fwd P/E for 18% growth genuinely cheap. HOLD.
+
+**Cash:** Cash at $1,346 (~1% floor) — fully deployed; GOOGL earnings tonight is the most critical near-term event; GLW earnings July 28 is the next key test; holding all positions as every thesis remains structurally intact with Berkshire's Alphabet endorsement providing the strongest possible institutional validation for the GOOGL position.
+**Benchmarks**: SPY 1D +0.8% | QQQ 1D +1.8% | SMH 1D +4.5%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+31,931.64 (+31.93%) | Daily +2.78%
+
+---
+
