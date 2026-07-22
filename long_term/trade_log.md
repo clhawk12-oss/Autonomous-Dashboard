@@ -2453,3 +2453,55 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-22 18:12 ET — Run ID: long_term-20260722-1812
+**Market**: after-hours | 18:12 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF with selective rotation — SPY -1.0% 1W, QQQ -1.7% 1W, SMH -0.7% 1W; markets digesting GOOGL/TSLA/GEV earnings which were mixed-to-negative on capex concerns; 'Alphabet Stock Falls as AI Spending Continues to Mount' (Barrons) captures the key market tension — AI capex is massive and the ROI timeline is being questioned; however underlying AI demand data (Google Cloud +28%, ServiceNow beat) supports the structural thesis
+• Fed/rates: No new FOMC data; macro rate environment unchanged; AI capex cycle is so large it's now a rate-adjacent concern — Morgan Stanley estimates AI spending hits $1.4T by 2028 with 60% leaving US; higher-for-longer operative
+• Growth cycle: GOOGL reported — Google Cloud +28% is the key data point; stock fell on capex concern but underlying business is accelerating; ServiceNow beat strongly; GEV missed wind segment dragging stock -6.7% 1W; AMD signed blockbuster Anthropic deal ('AMD inks blockbuster multi-billion-dollar Anthropic AI deal' - GuruFocus); MU/SNDK rally continuing ('The Ultimate Bull Run for NVIDIA, Micron, and SanDisk May Be Closer Than Investors Think'); memory recovery thesis gaining momentum
+• Macro catalyst: (1) GOOGL Cloud +28% validates AI infrastructure ROI — the cloud data is the 'single most linear indicator of AI ROI' (Yahoo Finance); capex concerns are the SHORT-TERM headwind; (2) AMD-Anthropic deal is transformative — multi-billion dollar AI chip deal changes competitive dynamics; (3) Memory recovery accelerating — MU +6.1% 1W, SNDK rally; (4) Massive earnings week ahead: ARM, EQIX, META, MSFT, VRT all report July 29
+
+**Sectors:**
+• SMH (semis): -0.7% 1W — stabilizing; MU +6.1% 1W continuing recovery; AMD +4.4% 1W strong on Anthropic deal; ARM +2.3% 1W; ALAB -5.6% 1W lagging; memory recovery thesis gaining traction with 'The Ultimate Bull Run for NVIDIA, Micron, and SanDisk' thesis building
+• IGV (software): PANW -5.3% 1W pulling back; CRWD -8.9% 1W; cybersecurity sector under pressure despite OpenAI hack news ('For every dollar spent on AI, another should be spent on cybersecurity'); NOW beat earnings strongly — ServiceNow pops on report
+• XLK (broad tech): GOOGL -7.6% 1W post-earnings capex concern; META -8.0% 1W ahead of July 29 earnings; MSFT -1.3% 1W ahead of July 29 earnings; AMD +4.4% 1W outlier strength on Anthropic deal
+• XLV: Healthcare stable — JNJ +3.5% 1W; defensive rotation signals remain
+• XLF: GS -4.7% 1W pulling back; JPM +0.4% 1W stable
+• XLI: GEV -6.7% 1W on earnings miss (wind segment) — read-through for VRT cautious near-term
+
+**Positions — EARNINGS ALERTS:**
+
+• GOOGL (reported July 22 — HOLD all 36 shares): Google Cloud +28% is the definitive thesis validator. Stock fell on AI capex concern but this is misguided — the cloud revenue acceleration IS the AI ROI. At 23.3x fwd P/E for 22% growth with 38% margins, GOOGL remains the cheapest quality Mag-7 name. Berkshire's $10B position provides institutional validation. The stock is now -7.6% 1W post-earnings but the thesis has never been stronger — Cloud re-acceleration is exactly what we needed to see. HOLD all 36 shares; stop at $233.19 gives ample buffer.
+
+• ARM (reports July 29 — HOLD into earnings): +2.3% 1W, +96.6% unrealized. Wells Fargo cuts PT warning of 'tough setup' but Arm gaining ground in AI servers (GuruFocus). At 92.1x fwd P/E for 20% revenue growth, valuation is stretched. The CPU royalty model thesis is intact — more chips with higher complexity = more royalty revenue. HOLDING all 39 shares into earnings — the structural thesis (every AI chip uses ARM architecture) is unassailable. Stop at $122.51 gives enormous cushion.
+
+• EQIX (reports July 29 — HOLD into earnings): +0.6% 1W, +6.8% unrealized. At 53.3x fwd P/E for 12% growth this remains the most stretched valuation relative to growth in the portfolio. However data center demand is a 'multi-decade supercycle' (BTIG) and Blackstone finalizing A$4.3B AI data center loan validates sector demand. HOLDING 5 shares into earnings — tiny position, low risk. If earnings disappoint given stretched valuation, this may be a sell candidate.
+
+• META (reports July 29 — HOLD into earnings): -8.0% 1W, +19.3% unrealized. This is the PRE-EARNINGS WEAKNESS that creates the setup. At 16.9x fwd P/E for 33% growth, META is still the cheapest quality internet name by growth-adjusted metrics. 'Dead Money or Best Cheap AI Stock?' debate (Insider Monkey) — I firmly believe best cheap AI stock. AMD-Anthropic deal validates AI infrastructure ROI. Meta's AI-enhanced ad targeting, Llama model leadership, and $9B+ data center investments position it perfectly. HOLDING all 8 shares — if anything, this pre-earnings weakness is a potential ADD opportunity but cash is near floor.
+
+• MSFT (reports July 29 — HOLD into earnings): -1.3% 1W, +9.4% unrealized. AMD-Anthropic deal ($5B+) signals Anthropic's Microsoft partnership deepening. Azure AI workloads are the key metric. At 20.1x fwd P/E for 18% growth, MSFT is genuinely cheap for the quality. HOLDING all 28 shares into earnings.
+
+• VRT (reports July 29 — HOLD into earnings): -1.1% 1W, -1.6% unrealized. GEV earnings miss (wind segment) is a cautious near-term read-through but AI power demand remains the dominant driver. 'Vertiv's Multi-Year Pipeline is Locked In' (24/7 Wall St.) and Baird says Buy VRT before next wave. Stop at $260.25 vs $301.16 = 13.6% buffer. HOLDING all 16 shares — earnings will be the definitive test for whether the AI data center pipeline is converting to revenue.
+
+**Other Positions:**
+• AMD (+55.5% unreal, +4.4% 1W): AMD-Anthropic multi-billion dollar deal is transformative — this validates AMD as Nvidia alternative for AI inference at hyperscale. Cerebras deal also announced. At 41x fwd P/E for 38% growth, still reasonable. HOLD with high conviction.
+• MU (+106.0% unreal, +6.1% 1W): Memory recovery accelerating; 'The Ultimate Bull Run for NVIDIA, Micron, and SanDisk May Be Closer Than Investors Think'; at 6.2x fwd P/E for 346% growth this remains the most extraordinary value. HOLD.
+• PANW (+98.2% unreal, -5.3% 1W): OpenAI-Hugging Face hack is a major cybersecurity demand catalyst — PANW CEO calls it 'next level'; PANW acquiring Embrace to strengthen observability platform; at 81.3x fwd P/E still stretched but cybersecurity demand is being driven by AI. HOLD.
+• GLW (+4.2% unreal, -11.7% 1W): GLW -11.7% 1W is alarming; now at $154 vs stop $130.17 = 15.6% buffer; Zacks 'Is GLW Stock a Smart Investment Option Before Q2 Earnings Release?' cautious framing; Simply Wall St 'Could Corning be 17% Overvalued?' is a bear case; Jim Cramer says stop betting on volatile tech and buy boring sectors. The AI fiber thesis remains structurally intact but the stock continues to decline. GLW EARNINGS JULY 28 is the critical test. HOLD into earnings with stop at $130.17 providing buffer.
+• TSM (+23.3% unreal): 'TSMC Just Increased Its Investment in America by $100 Billion' — massive commitment validates the thesis; 'TSMC Can't Make Chips Fast Enough, and Rivals Are Pouncing' (Motley Fool) confirms the supply constraint = pricing power. At 19.8x fwd P/E for 36% growth after record quarter. HOLD.
+• ALAB (+54.7% unreal, -5.6% 1W): 'Astera Labs Surged on Accelerating AI Infrastructure Spending' — Taurus product line expansion confirms growth trajectory; 93% revenue growth at 73x fwd P/E. HOLD.
+• MRVL (+122.4% unreal, +2.3% 1W): 'Wall Street is Bullish on Marvell — Here's Our Price Target' (24/7 Wall St.); at 33.9x fwd P/E for 28% growth. HOLD.
+• AVGO (+31.3% unreal, +0.6% 1W): At 20.4x fwd P/E for 48% growth — best value/growth in AI mega-cap. HOLD.
+• NVDA (+26.6% unreal, -0.2% 1W): AMD-Anthropic deal raises question of Nvidia dominance but at 16.5x fwd P/E for 85% growth, still the cheapest AI mega-cap by growth-adjusted metrics. HOLD.
+• AMZN (+18.0% unreal, -4.0% 1W): Amazon cutting AGI jobs but core AWS AI thesis intact. HOLD.
+• CIEN (-1.1% unreal, -5.1% 1W): Now slightly negative unrealized; at $397 vs stop $341 = 14.1% buffer; 'Ciena Earnings Outlook Improves, Is It Still 28% Undervalued?' (Simply Wall St.) is constructive. Tiny 2-share position. HOLD.
+• COST (-5.7% unreal, +1.2% 1W): Stabilizing; tiny position. HOLD.
+
+**Cash:** Cash at $1,346 (~1% floor) — fully deployed; massive earnings week ahead with ARM, EQIX, META, MSFT, VRT all reporting July 29; GLW reports July 28; holding all positions with conviction through what is the most critical earnings sequence for the portfolio.
+**Benchmarks**: SPY 1D -0.1% | QQQ 1D -0.5% | SMH 1D +0.5%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+31,679.58 (+31.68%) | Daily -0.19%
+
+---
+
