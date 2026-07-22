@@ -1869,3 +1869,57 @@ MU is at +208.3% unrealized on 8 shares at $1,133.99. The stock is +13.9% 1W, +6
 **Market**: after-hours | 18:06 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 25 column 6 (char 11645)
 
+### 2026-07-22 18:07 ET — Run ID: swing-20260722-1807
+**Market**: after-hours | 18:07 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF tilt — SPY -1.0% 1W, QQQ -1.7% 1W, SMH -0.7% 1W. Benchmarks all negative on the week. Nasdaq under pressure with tech earnings mixed (GOOG down on capex concerns, Tesla weak, ServiceNow beats but stock climbs modestly). Hormuz oil shock persists — CVX +6.3% 1W, XOM +6.9% 1W, PSX +7.8% 1W. Oil surge reinforcing inflation concerns and Warsh hawkishness. Super Micro surges 27% on record orders — a positive AI demand signal. AMD inks blockbuster Anthropic deal which is meaningful for semiconductor demand thesis.
+• Fed/rates: Warsh hawkish stance intact. Oil spike is inflationary, pushing rate cut expectations further out. Higher-for-longer creates multiple compression risk for high-multiple tech names. No dovish pivot signals.
+• Macro catalyst: AMD-Anthropic blockbuster multi-billion dollar AI chip deal is a major positive catalyst for semis broadly. Super Micro record $60B backlog confirms AI server demand is robust. Memory prices still skyrocketing per multiple sources. GOOG strong cloud growth (+35% in cloud) is a positive AI ROI signal. ARM reports July 29 — EARNINGS ALERT addressed below. GEV missed earnings expectations despite AI order surge, dragging energy stocks. Nuclear stocks rallying on new US deals.
+
+**Sectors:**
+• SMH (semis): -0.7% 1W — AMD +4.4% 1W on Anthropic deal, MU +6.1% 1W on memory price surge, SNDK -1.0% 1W digesting. ARM +2.3% 1W ahead of July 29 earnings. Semi equipment (AMAT -4.4% 1W, KLAC -4.4% 1W, LRCX -4.8% 1W) continuing under pressure. Memory theme strongest sub-sector.
+• IGV (software): NOW -8.8% 1W continuing deterioration at -54.6% from 52W high. CRWD -8.9% 1W pulling back. PANW -5.3% 1W consolidating. DDOG -7.1% 1W pre-earnings. Software broadly weak.
+• XLK (broad tech): GOOG -7.6% 1W on earnings/capex concern. META -8.0% 1W pre-earnings. MSFT -1.3% 1W steady. Broad tech mixed to negative.
+• XLY vs XLP: Risk-off signal — defensive names outperforming. ABBV +3.8% 1W, JNJ +3.5% 1W, MRK +3.1% 1W.
+• XLE: CVX +6.3% 1W, XOM +6.9% 1W, PSX +7.8% 1W — energy outperforming on Hormuz blockade. EQT +9.7% 1W record operational performance.
+• XLF: JPM record $21.2B quarterly profit (+41%) — financials healthy. GS -4.7% 1W digesting. Banks broadly constructive.
+
+**Positions:**
+• ARM (long, +96.6%, EARNINGS ALERT July 29): ARM reports in 7 days. Wells Fargo cut PT warning of 'tough setup.' Jefferies raised PT on stronger AI demand. 24/7 Wall St asks if ARM is 'next NVIDIA.' Stock +2.3% 1W, -30.5% 1M, -37.4% from 52W high. Fwd P/E 92.1x on 20% revenue growth is expensive but ARM IP is foundational to AI server CPUs. Vol ratio only 0.40x — low institutional interest currently. DECISION: TRIM to reduce risk ahead of binary event. ARM at 92.1x fwd P/E means expectations are demanding. Wells Fargo cut PT citing 'tough setup.' I'll sell 3 shares (keeping 4) to reduce risk into earnings while maintaining upside participation. The -37% from 52W high and profit protection are key considerations.
+• MU (long, +160.8%): +6.1% 1W — memory prices skyrocketing, 24/7 Wall St 'Ultimate Bull Run for NVIDIA, Micron, SanDisk May Be Closer Than Investors Think.' Fwd P/E 6.2x remains the most compelling valuation. HOLD.
+• SNDK (long, +106.8%): -1.0% 1W — 'SanDisk's Bold Pivot From AI Boom Beneficiary to Bust Breaker' per Trefis. Memory bull run thesis intact. HOLD.
+• TSM (long, +18.4%): +0.4% 1W, 'TSMC Can't Make Chips Fast Enough' — foundry demand surging. $100B US investment increase. HOLD.
+• AMD (long, +150.9%): +4.4% 1W — blockbuster Anthropic deal. 'AMD Just Changed The Rules Of The AI Game' per Trefis. Cerebras deal also announced. Strong positive catalyst. HOLD.
+• NVDA (long, +19.8%): -0.2% 1W — AMD-Anthropic deal raises competition question but NVDA remains dominant. Fwd P/E 16.5x on 85% growth remains attractive. HOLD.
+• MRVL (long, +111.3%): +2.3% 1W — '24/7 Wall St: Wall Street is Bullish on Marvell. Here's Our Price Target.' -31.4% 1M still in recovery. HOLD remaining 15 shares.
+• AVGO (long, +9.5%): +0.6% 1W — 'Vanguard VIG Dividend ETF Top Stock Is Broadcom' per 24/7. Fwd P/E 20.4x on 48% growth reasonable. HOLD.
+• DDOG (long, +90.1%): -7.1% 1W — 'Is Datadog Fully Priced As Earnings Expectations Build?' per Simply Wall St. Vol ratio 0.85x, pre-earnings uncertainty. DDOG reports in ~2 weeks. HOLD — thesis intact.
+• DELL (long, +105.8%): +7.2% 1W — Super Micro +27% on record orders is a read-through for DELL AI servers. 'Is Dell Undervalued On AI Server Volatility?' Fwd P/E 20.3x on 88% growth. HOLD.
+• PANW (long, +55.5%): -5.3% 1W — OpenAI-HuggingFace hack is 'next level' per PANW CEO, reinforcing cybersecurity demand. 'PANW to Buy Embrace for observability platform.' Pullback within uptrend. HOLD.
+• CSCO (long, +10.2%): +0.4% 1W — 'What Cisco Stock Was Telling You About Its AI Orders' per Trefis. StockStory '3 Reasons to Sell CSCO' is a concern. Vol ratio 0.51x showing reduced institutional interest. The post-earnings momentum is fading. HOLD with monitoring.
+• AMAT (long, -2.3%): -4.4% 1W, -13.5% 1M, -25.1% from 52W high. Semi equipment broadly weak. Position is underwater and momentum has deteriorated. Stop at $521.87 is still $32 below current $553.92 — about 5.8% buffer. Watching closely.
+• AXON (long, -3.7%): -9.2% 1W — 'Axon Stock Could Be Fully Priced On Cash Flow Yet A Bargain On Sales.' Earnings July 29. Vol ratio 0.55x — low institutional interest. Down 9.2% on the week before earnings is concerning. Stop at $469.75 — about 4.4% below current $491.49. Getting uncomfortably close. HOLD but watch stop.
+• ABBV (long, +0.9%): +3.8% 1W — healthcare defensive rotation working. EU approval for new aesthetic toxin. '3 Reasons to Buy AbbVie Like There's No Tomorrow.' Q2 earnings July 25. HOLD.
+
+**EARNINGS ALERT — ARM reports July 29:**
+ARM at fwd P/E 92.1x on 20% revenue growth is expensive. Wells Fargo cut PT warning of 'tough setup.' The -37.4% from 52W high means the stock has pulled back significantly. However this also means the bar may be reset lower. The 0.40x vol ratio suggests institutional interest has cooled. My position is 7 shares × $283.40 = $1,984 (~1.6% of portfolio) — already a small position after prior gains. Given the 'tough setup' warning, I'll trim from 7 to 4 shares, taking some profit while maintaining exposure to any upside surprise. This reduces binary event risk while keeping the AI CPU IP thesis in play.
+
+**New opportunities:**
+• AMD-Anthropic deal is a major catalyst — already long 9 shares, no action needed but confirms thesis
+• EQT +9.7% 1W with 2.15x vol ratio — record operational performance, natural gas benefiting from Hormuz energy shock. Interesting energy/gas play with fwd P/E 13.2x. Vol ratio of 2.15x is the highest in the watchlist.
+• DOCN +19.2% 1W with 1.38x vol ratio — DigitalOcean on strong execution. Interesting but 76.8x fwd P/E expensive.
+• CEG +6.5% 1W — nuclear stocks rallying on US deal and AI program. Fwd P/E 20.2x reasonable on 64% rev growth.
+• PLD 1.60x vol ratio — data center REIT infrastructure play.
+• NOW -8.8% 1W — ServiceNow beat earnings but revenue outlook light per IBD. Stock down on week. Interesting long-term but fwd P/E 19x seems stretched at -54.6% from 52W high.
+
+**Cash:** Holding ~$57,068 (~47% of portfolio). Cash at 47% reflects: (1) risk-off macro with Hormuz oil shock + hawkish Fed; (2) heavy earnings calendar with ARM July 29, META July 29, MSFT July 29, AXON July 29 creating binary event risk across multiple holdings; (3) semi equipment (AMAT) position struggling, AXON approaching stop. Trimming ARM ahead of earnings adds a small amount of cash. Not deploying aggressively — the earnings gauntlet this week creates significant uncertainty. Would add to AMD or MU on any pullback, or initiate EQT given its energy/natgas momentum if Hormuz situation persists.
+**Benchmarks**: SPY 1D -0.1% | QQQ 1D -0.5% | SMH 1D +0.5%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | ARM | 3 | $283.40 | 1. Reducing from 7 to 4 shares = ~$1,133 freed, position drops from ~1.6% to ~0.9% of portfolio. 2. Trimming ahead of July 29 earnings: Wells Fargo cut PT warning of 'tough setup'; fwd P/E 92.1x on only 20% revenue growth makes the bar demanding; vol ratio 0.40x shows institutional disinterest. Taking partial profit on a +96.6% winner is prudent risk management into a binary event. 3. ARM is our only earnings catalyst this week among held positions (alongside AXON). Reducing concentration in the most richly-valued position while keeping 4 shares for upside participation if results surprise positively. Does not change overall semi/AI direction exposure — still long AMD, MU, NVDA, MRVL, AVGO, SNDK, TSM, AMAT. ⬛ P&L $+417.81 |
+
+**Portfolio after run**: Cash $57,918.28 | P&L $+12,395.71 (+12.40%) | Daily -2.27%
+
+---
+

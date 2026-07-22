@@ -1,37 +1,37 @@
 # Swing — Portfolio Summary
-*Last updated: 2026-07-13 18:03 ET*
+*Last updated: 2026-07-22 18:11 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+14,626.29 (+14.63%) |
+| Total P&L | $+12,395.71 (+12.40%) |
 | Realized P&L | $-6,428.40 |
-| Unrealized P&L | $+21,054.69 |
-| Cash | $57,068.08 (45.0%) |
-| Long Exposure | $69,799.81 |
+| Unrealized P&L | $+18,824.11 |
+| Cash | $57,918.28 (46.7%) |
+| Long Exposure | $66,071.24 |
 | Short Exposure | $0.00 |
-| Net Exposure | $69,799.81 |
+| Net Exposure | $66,071.24 |
 | Win Rate | 0.35 (20 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| ARM | LONG | 7 | $144.13 | $298.99 | $2,092.93 | $+1,084.02 | +107.4% | $135.48 |
-| MRVL | LONG | 15 | $99.87 | $217.53 | $6,525.90 | $+3,529.93 | +117.8% | $87.29 |
-| NVDA | LONG | 30 | $176.96 | $203.53 | $6,105.90 | $+797.10 | +15.0% | $165.68 |
-| MU | LONG | 8 | $367.85 | $937.00 | $7,496.00 | $+4,553.20 | +154.7% | $331.07 |
-| TSM | LONG | 18 | $355.65 | $421.58 | $7,588.44 | $+1,186.77 | +18.5% | $314.17 |
-| SNDK | LONG | 2 | $773.28 | $1673.97 | $3,347.94 | $+1,801.38 | +116.5% | $645.46 |
-| AMD | LONG | 9 | $220.18 | $534.39 | $4,809.51 | $+2,827.89 | +142.7% | $202.57 |
-| WDC | LONG | 2 | $304.15 | $555.55 | $1,111.10 | $+502.80 | +82.7% | $282.86 |
-| AVGO | LONG | 13 | $362.23 | $384.05 | $4,992.65 | $+283.71 | +6.0% | $326.09 |
-| DDOG | LONG | 15 | $129.29 | $260.24 | $3,903.60 | $+1,964.25 | +101.3% | $120.24 |
-| DELL | LONG | 3 | $214.65 | $427.11 | $1,281.33 | $+637.38 | +99.0% | $201.77 |
-| PANW | LONG | 7 | $215.60 | $330.30 | $2,312.10 | $+802.90 | +53.2% | $198.35 |
-| CSCO | LONG | 50 | $101.87 | $119.25 | $5,962.50 | $+869.00 | +17.1% | $94.74 |
-| AMAT | LONG | 7 | $567.25 | $575.39 | $4,027.73 | $+56.98 | +1.4% | $521.87 |
-| AXON | LONG | 6 | $510.60 | $547.03 | $3,282.18 | $+218.58 | +7.1% | $469.75 |
-| ABBV | LONG | 20 | $251.06 | $248.00 | $4,960.00 | $-61.20 | -1.2% | $230.98 |
+| ARM | LONG | 4 | $144.13 | $283.40 | $1,983.80 | $+974.89 | +96.6% | $135.48 |
+| MRVL | LONG | 15 | $99.87 | $210.99 | $3,164.85 | $+1,666.86 | +111.3% | $87.29 |
+| NVDA | LONG | 30 | $176.96 | $212.06 | $6,361.80 | $+1,053.00 | +19.8% | $165.68 |
+| MU | LONG | 8 | $367.85 | $959.48 | $7,675.84 | $+4,733.04 | +160.8% | $331.07 |
+| TSM | LONG | 18 | $355.65 | $421.21 | $7,581.78 | $+1,180.11 | +18.4% | $314.17 |
+| SNDK | LONG | 2 | $773.28 | $1599.27 | $3,198.54 | $+1,651.98 | +106.8% | $645.46 |
+| AMD | LONG | 9 | $220.18 | $552.33 | $4,970.97 | $+2,989.35 | +150.9% | $202.57 |
+| WDC | LONG | 2 | $304.15 | $556.67 | $1,113.34 | $+505.04 | +83.0% | $282.86 |
+| AVGO | LONG | 13 | $362.23 | $396.81 | $5,158.53 | $+449.59 | +9.5% | $326.09 |
+| DDOG | LONG | 15 | $129.29 | $245.77 | $3,686.55 | $+1,747.20 | +90.1% | $120.24 |
+| DELL | LONG | 3 | $214.65 | $441.80 | $1,325.40 | $+681.45 | +105.8% | $201.77 |
+| PANW | LONG | 7 | $215.60 | $335.28 | $2,346.96 | $+837.76 | +55.5% | $198.35 |
+| CSCO | LONG | 50 | $101.87 | $112.21 | $5,610.50 | $+517.00 | +10.2% | $94.74 |
+| AMAT | LONG | 7 | $567.25 | $553.92 | $3,877.44 | $-93.31 | -2.3% | $521.87 |
+| AXON | LONG | 6 | $510.60 | $491.49 | $2,948.94 | $-114.66 | -3.7% | $469.75 |
+| ABBV | LONG | 20 | $251.06 | $253.30 | $5,066.00 | $+44.80 | +0.9% | $230.98 |
 
 ## PM Narrative
-Selling half of MRVL (15 shares) to lock in gains at +117.8% as the position shows persistent momentum deterioration (-12.7% 1W) with IBD explicitly calling out MRVL as one of the chip stocks tumbling in today's SK Hynix-led selloff. The stop at $87.29 provides no practical near-term protection for a swing trade — it's too far below to be relevant. This reduces semi concentration in a portfolio already holding ARM, MU, NVDA, AVGO, SNDK, WDC, AMAT, AMD, and TSM. The dominant macro risk this session is Trump reinstating the Hormuz blockade with a threatened 20% toll on cargo — inflationary shock that reinforces hawkishness and creates a risk-off environment for high-multiple tech/semis. TSMC's +36% June revenue print is a positive fundamental signal going into TSM earnings July 16, and I'm holding all 18 TSM shares. Healthcare (ABBV) and software (CSCO, DDOG, PANW, DELL) are showing relative resilience. Cash moves to approximately 46% — appropriate given semi sector pressure, Hormuz geopolitical risk, and earnings season binary events this week (JPM/GS July 14, ASML/JNJ July 15, TSM July 16). Will look to redeploy into stronger setups post-earnings clarity.
+Trimming ARM from 7 to 4 shares ahead of the July 29 earnings event given Wells Fargo's 'tough setup' warning and demanding 92.1x fwd P/E on only 20% revenue growth. The +96.6% unrealized gain makes partial profit-taking prudent risk management before a binary catalyst. The portfolio remains heavily weighted to the AI semiconductor thesis (AMD, MU, SNDK, NVDA, MRVL, AVGO, TSM) and is broadly well-positioned for the earnings season ahead. The AMD-Anthropic blockbuster deal is a strong confirmation of AI chip demand and supports existing AMD exposure. Memory prices continue surging, validating MU and SNDK holdings. Cash at ~47% is intentionally elevated given the massive earnings gauntlet this week: ARM, AXON, META, MSFT all reporting July 29, ABBV July 25. Would deploy into pullbacks post-earnings if guidance is strong, particularly adding to AMD or initiating EQT given the 2.15x vol ratio on the Hormuz energy/natural gas theme. AXON approaching stop at $469.75 with the stock -9.2% on the week — monitoring closely before July 29 earnings.
