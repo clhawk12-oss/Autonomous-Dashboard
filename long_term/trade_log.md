@@ -2505,3 +2505,49 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-23 18:13 ET — Run ID: long_term-20260723-1813
+**Market**: after-hours | 18:13 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF with selective AI capex anxiety — SPY -1.7% 1W, QQQ -2.0% 1W, SMH +2.0% 1W (semis outperforming broader market — positive for our positioning); GOOGL -10% 1W post-earnings on $200B capex shock; oil back above $100/bbl (Barrons headline) creating fresh inflationary concern; TSLA -18.2% 1W catastrophic; 'Magnificent 7 Loses $767B as AI Skeptics Dump Tech Stocks' (Bloomberg) captures the narrative pressure
+• Fed/rates: Oil above $100/bbl for first time since May is a direct inflationary signal; raises rate hike tail risk at the margin; higher-for-longer firmly operative; AI capex debate ('is $200B GOOGL capex building a moat or sinking margins?') is now the central market anxiety
+• Growth cycle: GOOGL Q2: Cloud +28% is the definitive AI ROI proof, but $200B capex for 2026 shocked investors; Intel blowout — fastest revenue growth in 15 years (data center AI); AMD after-hours gains on Helios/AI rack; AMD CEO unveils 'best AI rack in the world'; Intel beat validates hyperscaler demand; memory stocks rising on GOOG earnings (Barrons 'Micron, SK Hynix Rise After Google Earnings') — MU +16.1% 1W extraordinary strength
+• Macro catalyst: (1) GOOGL $200B capex commitment = the largest single AI infrastructure signal in history; the market is wrong to sell this — $200B in AI spend creates massive demand for NVDA, AMD, TSM, MRVL, ALAB, MU, VRT; (2) Intel blowout = validation of datacenter AI demand across the ecosystem; (3) AMD Helios announcement = AMD taking direct aim at NVIDIA; (4) Oil above $100 = inflationary headwind; (5) MASSIVE earnings week: ARM, EQIX, GLW, META, MSFT, VRT all reporting July 28-29, plus AMZN July 30
+
+**Sectors:**
+• SMH (semis): +2.0% 1W — outperforming! MU +16.1% 1W extraordinary on Google earnings read-through; AMD +7.7% 1W strong on Helios; MRVL +11.2% 1W recovering; SNDK +14.1% 1W on memory recovery; ARM +8.0% 1W ahead of July 29 earnings; ALAB +2.3% 1W stabilizing; the GOOGL $200B capex is the most bullish possible signal for every semiconductor company we own
+• IGV (software): PANW -8.0% 1W pulling back from extended levels; CRWD -10.0% 1W; cybersecurity sector correcting but thesis intact; NOW -11.6% 1W also pulling back sharply
+• XLK (broad tech): GOOGL -10.0% 1W post-earnings capex concern — thesis intact, price action wrong; META -8.8% 1W ahead of July 29 earnings; MSFT -4.9% 1W ahead of July 29; hyperscalers selling on capex fear which is the inverse of what it should be
+• XLV: Healthcare defensive rotation — JNJ +3.7% 1W, TMO +5.4% 1W strong
+• XLI: GEV -0.5% 1W stabilizing after prior weakness; VRT +3.4% 1W recovering into earnings — constructive
+• XLE: OIL ABOVE $100/bbl — CVX +5.7% 1W, XOM +7.5% 1W; energy sector surging; zero portfolio exposure remains costly on weekly basis but long-term thesis isn't energy
+
+**Positions:**
+• AMZN (EARNINGS ALERT — reports July 30, HOLD): Google Cloud +28% and $200B capex directly validates AWS's competitive position; Amazon + Microsoft will spend 'unprecedented $1T on AI capex in 2027' per analyst (Yahoo Finance Video); at 23.6x fwd P/E for 17% growth AMZN is fair value; -6.5% 1W is sympathy selling on GOOGL capex fear; AWS AI thesis is the strongest in cloud alongside Azure; HOLD all 60 shares into earnings
+• ARM (EARNINGS ALERT — reports July 29, HOLD): +8.0% 1W recovering strongly; AMD +7.7% 1W and Intel blowout both validate AI chip demand = direct ARM royalty revenue; AMD/ARM gain after-hours on Intel blowout (Investing.com); Zacks 'Why ARM's AI Opportunity Could Extend Beyond Market Hype'; at 92x fwd P/E richly valued but the CPU royalty model is unassailable — every AI chip uses ARM architecture; HOLD all 39 shares into earnings
+• EQIX (EARNINGS ALERT — reports July 29, HOLD): +2.4% 1W — positive momentum into earnings; Zacks 'Equinix to Post Q2 Earnings: What's in Store'; at 53.5x fwd P/E for 12% growth remains the most stretched valuation; BTIG 'multi-decade supercycle' thesis intact; HOLDING 5 shares — tiny position, limited risk; if disappoints and growth guidance misses, this is a sell candidate
+• GLW (EARNINGS ALERT — reports July 28, HOLD): -1.5% 1W — relatively stable this week; Nokia Q2 beat on higher AI & cloud demand (Zacks) is a positive read-through for GLW fiber demand; NVIDIA acquiring 'dark fiber' across US (24/7 Wall St.) is a direct GLW thesis validator; at 36.4x fwd P/E for 20% growth; stop at $130.17 vs $156.06 = 16.6% buffer; AI fiber thesis is being validated by NVIDIA dark fiber acquisition; HOLD all 15 shares into earnings — this is the critical event for the thesis
+• META (EARNINGS ALERT — reports July 29, HOLD): -8.8% 1W — pre-earnings weakness creating the setup; at 16.4x fwd P/E for 33% growth META is the cheapest quality internet name; GOOGL $200B capex validates that AI ad targeting infrastructure is generating returns that justify massive spend; Smart glasses selling hot at National Vision (Yahoo Finance); AI Models Went Rogue — cybersecurity demand increasing for META's AI assets; HOLD all 8 shares; if anything the pre-earnings dip is attractive
+• MSFT (EARNINGS ALERT — reports July 29, HOLD): -4.9% 1W; 'Google, Amazon, Meta & Microsoft will spend unprecedented $1T on AI capex in 2027' validates Azure thesis; D.A. Davidson gives 2 reasons to own MSFT; IBM caught up in AI volatility — validates MSFT's integrated approach vs legacy IT; at 19.7x fwd P/E for 18% growth genuinely cheap; HOLD all 28 shares
+• VRT (EARNINGS ALERT — reports July 29, HOLD): +3.4% 1W recovering positively into earnings; Zacks '3 Reasons Why Growth Investors Shouldn't Overlook Vertiv'; GEV revenue growth and margin expansion positive read-through (Zacks); GOOGL $200B capex is the single most bullish possible signal for VRT — liquid cooling demand will be massive; at 34.4x fwd P/E for 30% growth; stop at $260.25 vs $304.04 = 14.4% buffer; HOLD all 16 shares
+
+**Other positions:**
+• NVDA (+24.6% unreal, +0.7% 1W): Amkor $1.5B deal with NVIDIA validates packaging demand; GOOGL $200B capex = massive NVDA H100/B200 demand; at 16.2x fwd P/E for 85% growth historically cheapest AI mega-cap; HOLD
+• MU (+112.6% unreal, +16.1% 1W): Micron/SK Hynix rise after Google earnings (Barrons) directly validates thesis; MU +16.1% 1W is extraordinary strength; at 6.4x fwd P/E for 346% growth remains the most extraordinary value; HOLD
+• AMD (+51.9% unreal, +7.7% 1W): AMD CEO unveils Helios 'best AI rack in world'; AMD taking direct aim at NVIDIA; at 40x fwd P/E for 38% growth; HOLD
+• GOOGL (+0.0% unreal, -10.0% 1W): Post-earnings weakness is wrong; Cloud +28%, $200B capex is AI moat building; Berkshire $10B position validates; at 21.6x fwd P/E for 24% growth (using updated fundamentals) this is mispriced; HOLD all 36 shares
+• PANW (+92.5% unreal, -8.0% 1W): 'AI Models Went Rogue, and These Stocks Are Ready for the Fight' (Barrons) — direct thesis validator; PANW buying Embrace; at 78.9x fwd P/E still stretched; OpenAI-Hugging Face hack validates cybersecurity demand; HOLD
+• TSM (+21.7% unreal, +1.4% 1W): Amkor-NVIDIA $1.5B deal validates advanced packaging demand = TSM adjacent; 'Better-Buy Chip Stock: TSMC vs NVIDIA' (Motley Fool); at 19.5x fwd P/E for 36% growth; HOLD
+• ALAB (+52.9% unreal, +2.3% 1W): '4 Networking Semiconductor Stocks to Watch in August' (Zacks); AI infrastructure spending accelerating; at 72.2x fwd P/E for 93% growth; HOLD
+• MRVL (+120.6% unreal, +11.2% 1W): 'Marvell Technology Stock And The Forecast It Kept Outgrowing' (Trefis); at 33.5x fwd P/E for 28% growth reasonable; HOLD
+• AVGO (+29.9% unreal, +4.8% 1W): Strong recovery; at 20.2x fwd P/E for 48% growth best value/growth in AI mega-cap; HOLD
+• CIEN (+1.5% unreal, +4.8% 1W): Recovering nicely; tiny 2-share position; HOLD
+• COST (-5.9% unreal, -2.1% 1W): Continuing weakness; tiny position; China membership catalyst thesis (Zacks); HOLD
+
+**Cash:** Cash at $1,346 (~1% floor) — fully deployed; the GOOGL $200B capex commitment is the most bullish signal possible for every AI infrastructure name we own; massive earnings week July 28-30 will be the defining test for the entire AI capex thesis; holding all positions with conviction
+**Benchmarks**: SPY 1D -1.2% | QQQ 1D -1.9% | SMH 1D -1.1%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+30,178.79 (+30.18%) | Daily -1.13%
+
+---
+
