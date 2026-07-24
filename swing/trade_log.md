@@ -1929,3 +1929,7 @@ ARM at fwd P/E 92.1x on 20% revenue growth is expensive. Wells Fargo cut PT warn
 {
   "reasoning": "**Macro:**\n• Risk regime: RISK-OFF intensifying — SPY -1.7% 1W, QQQ -2.0% 1W, SMH +2.0% 1W. Nasdaq at 4-week low per IBD. TSLA -18.2% 1W, GOOG -10.0% 1W dragging indices. GOOG -10% on earnings/capex concern despite strong cloud growth. Tesla earnings miss driving Mag-7 selloff ($767B+ erased per Bloomberg). Oil prices topping $100/barrel for first time since May per Barrons — Hormuz blockade intensifying. This is a significant risk-off catalyst.\n• Fed/rates: Warsh hawkish sta
 
+### 2026-07-24 18:09 ET — Run ID: swing-20260724-1809
+**Market**: after-hours | 18:09 ET
+**ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 12 column 6 (char 10917)
+
