@@ -1933,3 +1933,54 @@ ARM at fwd P/E 92.1x on 20% revenue growth is expensive. Wells Fargo cut PT warn
 **Market**: after-hours | 18:09 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 12 column 6 (char 10917)
 
+### 2026-07-27 18:11 ET — Run ID: swing-20260727-1811
+**Market**: after-hours | 18:11 ET
+**STOP_LOSS** SELL 7 AMAT @ $516.89 → P&L $-352.52
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF — SPY -0.6% 1W, QQQ -1.9% 1W, SMH -1.4% 1W. All benchmarks negative. New dominant catalyst: CXMT (Chinese memory rival) blockbuster IPO is hammering memory stocks — SNDK -11% today, MU dropping. Also oil plunging on US-Iran peace hopes — reversing the Hormuz energy trade. Nvidia down ~5% on renewed AI financing circular concerns (NVDA reportedly in talks to finance OpenAI Ohio data center). Semiconductor charts forming bearish patterns per Yahoo Finance. MEGA earnings gauntlet this week: META, MSFT, AMZN, ARM, AXON all reporting.
+• Fed/rates: Fed decision this week is a key event. Market expectations for rate cuts remain distant given prior PCE heat. No new dovish signals. Higher-for-longer continues to pressure multiples. Fed meeting could be a positive catalyst if tone shifts.
+• Macro catalyst: CXMT IPO is the most acute near-term risk for memory names — Chinese domestic memory competitor coming to market creates structural supply overhang concerns. US-Iran peace hopes sending oil prices plunging — this is reversing the energy trade (CVX/XOM now benefiting from peace dividend on broader market but oil itself collapsing). Michael Burry shorting Applied Materials (AMAT stopped out at $516.89 per closed positions). AMAT stop triggered — freeing that slot.
+
+**Sectors:**
+• SMH (semis): -1.4% 1W — memory names getting crushed today on CXMT IPO: SNDK -11%, MU -5%+, WDC weak. Semi equipment broadly weak (LRCX -6.9% 1W, KLAC -4.4% 1W, ASML -5.3% 1W). Nvidia -3.1% 1W on AI financing concerns. AMD -0.2% 1W — holding relatively better on Anthropic deal. Memory sub-sector facing new structural headwind from Chinese competition.
+• IGV (software): Mixed — chip stocks tanking while software shines per Barrons. NOW +2.2% 1W, SHOP +2.7% 1W recovering. PANW -11.5% 1W — sharp reversal from ATH, significant concern for our position.
+• XLK (broad tech): MSFT -1.2% 1W pre-earnings. META -8.1% 1W into earnings. Broad tech selling off ahead of mega-cap earnings.
+• XLY vs XLP: LMT +14% 1W, RTX +12.9% 1W — defense outperforming strongly on geopolitical spending. Defensive rotation ongoing.
+• XLE: Oil plunging on Iran peace hopes — energy trade reversing. CVX +1.4% 1W holding but oil prices collapsing intraday.
+• XLF: JPM +4.4% 1W, banks broadly constructive on higher rates.
+
+**Positions:**
+• ARM (long, +84.8%, EARNINGS ALERT July 29): ARM reports tomorrow. Simply Wall St says '40% Undervalued As Earnings Near.' Motley Fool: 'Next Earnings Report Could Send the Stock Soaring.' 24/7 Wall St: 'Fallen 28% in Past Month. Should You Buy Before July 29?' — the -25.8% 1M decline has reset the bar lower. Fwd P/E 86.6x on 20% revenue growth still elevated but the bar is lower. Holding 4 shares at $266.33 (was $283.40 last run but price moved). Only 4 shares = small position. DECISION: HOLD into earnings. At 4 shares this is a modest ~1.0% position. The bar has been reset lower by the -41% from 52W high. Motley Fool bullish framing. Risk is limited given small size.
+• ABBV (long, +2.3%, EARNINGS ALERT July 31): ABBV reports July 31 — two days away. 'The Engine Behind ABBV Stock Has Real Parts' per Trefis. Healthcare sector broadly performing well (JNJ +5.1% 1W on raised outlook). ABBV fwd P/E 15.8x on 12% revenue growth is reasonable for a pharma/healthcare defensive. EU aesthetic toxin approval was positive. S&P 500 Q2 earnings growth at 70% per Oppenheimer — supportive backdrop. DECISION: HOLD all 20 shares into earnings. Healthcare defensive thesis intact, vol ratio 0.63x suggests limited institutional selling, and the position is only +2.3% unrealized — minimal profit to protect. Risk/reward favors holding.
+• MU (long, +144.7%): CXMT IPO is crushing memory stocks today — SNDK -11%, MU dropping. IBD: 'Memory-Chip Stocks Micron, SK Hynix Drop After China Rival's IPO.' This is a significant structural negative catalyst. MU fwd P/E 5.9x on 346% revenue growth is still extraordinarily cheap but the CXMT supply overhang is real. At +144.7% unrealized on 8 shares this is a massive winner. Watching for further deterioration but NOT selling — thesis remains intact at these valuation levels despite CXMT news.
+• SNDK (long, +65.3%): -5.7% 1W and -11% today on CXMT IPO. 'Sandisk Plunges 11% on Memory Weakness' per Motley Fool. SanDisk's $42B backlog is real but valuation question now hitting. The China roadblock news (SNDK and chip stocks hit China roadblocks per Barrons) is a dual headwind. Fwd P/E 6.0x on 251% revenue growth still cheap. Watching carefully — at 2 shares the position is small enough to hold.
+• PANW (long, +47.2%): -11.5% 1W — sharp reversal from near-ATH. BofA lifted cybersecurity targets per Investing.com but the stock is pulling back significantly. Still +47% unrealized. PANW at -14% from 52W high now — momentum reversing. Stop at $198.35 is well below current $317.32. Monitoring but thesis intact (cybersecurity demand not going away).
+• CSCO (long, +12.5%): +2.4% 1W — holding up well. 'What Cisco's Big Run Actually Adds To Your Portfolio' per Trefis. Vol ratio 0.68x cooling but the AI networking thesis remains. Post-earnings momentum fading.
+• AXON (long, +2.9%): +3.0% 1W — recovering from the -9.2% 1W last run. Reports July 29. Stop at $469.75 is ~10.5% below current $525.48. StockStory '3 S&P 500 Stocks with Exciting Potential' mentions AXON. The buffer has increased. HOLD into earnings — law enforcement AI thesis intact, position small.
+• AMAT: STOP TRIGGERED per closed positions at $516.89 — position closed. Frees one slot.
+
+**New opportunities analysis:**
+• CXMT IPO creating panic selling in memory — but MU and SNDK are fundamentally cheap. Not adding but not selling into panic.
+• RTX +12.9% 1W, +18% 1M at near-52W high (-0.9%). Vol ratio 1.31x elevated. LMT +14% 1W. Defense stocks surging on geopolitical spending. RTX fwd P/E 28.0x on 14% revenue growth — reasonable for defense. But these have already moved 12-14% in a week, entry not ideal.
+• ASML -5.3% 1W with 1.57x vol ratio — interesting. J.P. Morgan says the ASML selloff is 'disproportionate' per Barrons. Fwd P/E 28.5x on 21% revenue growth with 30% margins. LRCX -6.9% 1W also getting cheap. Semi equipment broadly oversold. However AMAT just stopped out — same theme. Not adding semi equipment.
+• QBTS +16.6% 1W with 2.40x vol ratio — D-Wave expanded AT&T deal. Quantum stocks surging. QBTS -81% from 52W high at fwd P/E -49.3x (burning cash). Very speculative. Not adding to this.
+• NOW (ServiceNow) +2.2% 1W with 1.30x vol ratio and 47.5% from 52W high. Software rebounding while chips tank. Fwd P/E 21.1x on 24% growth. Interesting contrarian setup but still down significantly and earnings season risk.
+• ELF +14% 1W, +30.2% 1M with strong momentum — beauty stock. Fwd P/E 22.9x on 35% growth. Reports August 5. The momentum is genuine but this is a new theme for the portfolio and not obviously tech/AI related.
+• META -8.1% 1W heading into earnings tonight (July 29) — LT investor holds META long, no conflict in adding but it's a binary earnings event. Fwd P/E 16.0x on 33% growth is cheap for META. Not adding ahead of binary event.
+
+**Portfolio assessment:** AMAT stop triggered — now 14 positions. Cash ~$61.5k (50%+). The earnings gauntlet continues tonight and tomorrow (META, MSFT, ARM, AXON, LRCX all reporting). With >50% cash I need to think about deployment. However, the CXMT news is a genuine negative for memory names, the chip complex is weak, and we're heading into the peak of earnings season with high binary event risk. The best action is selective — I should look for a name with strong momentum that has a clean thesis not exposed to memory/semi weakness.
+
+NOW (ServiceNow) is interesting: software shining while chips tank, 1.30x vol ratio, fwd P/E 21.1x on 24% growth, -47.5% from 52W high creating a deep value recovery setup. 'Chip Stocks Tank While Software Shines' per Barrons — this is the sector rotation trade. However NOW reports unknown timing — checking watchlist... NOW is not in the earnings watchlist for next 14 days, so no imminent binary risk.
+
+Actually, I should be cautious about deploying given the earnings cascade. ARM reports tonight, creating potential read-through for AI tech. Better to maintain elevated cash and wait for post-earnings clarity. With 14 open positions and 50%+ cash, I have room to add but the timing is wrong — right into the peak of earnings season with massive binary events overnight.
+
+Decision: HOLD all positions. No new entries. The CXMT memory shock + mega-cap earnings gauntlet tonight (META, MSFT, ARM) justifies staying defensive. Will reassess post-earnings.
+
+**Cash:** Holding ~$61.5k (~51% of portfolio) — justified by: (1) CXMT IPO creating new structural headwind for memory positions; (2) peak earnings week with ARM, AXON, META, MSFT all reporting tonight/tomorrow creating binary event risk across 3 held positions; (3) semi equipment (AMAT) stopped out confirming semi weakness thesis; (4) post-earnings clarity will create better entry points. Will deploy into post-earnings momentum setups (strength into confirmed beats) or add to ABBV/defensive healthcare on any dip. Would reduce cash to 30-35% if META/MSFT beats create sector rotation opportunities.
+**Benchmarks**: SPY 1D +0.1% | QQQ 1D -1.4% | SMH 1D -5.5%
+
+
+**Portfolio after run**: Cash $61,536.51 | P&L $+10,298.64 (+10.30%) | Daily -3.21%
+
+---
+
