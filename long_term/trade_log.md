@@ -2587,3 +2587,40 @@ Note: The system requires actual BUY/SELL actions for stop updates — I cannot 
 
 ---
 
+### 2026-07-27 18:15 ET — Run ID: long_term-20260727-1815
+**Market**: after-hours | 18:15 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF continuing — SPY -0.6% 1W, QQQ -1.9% 1W, SMH -1.4% 1W; memory chips leading chip selloff today (SNDK -11%, MU -5%+, IBD 'Dow Jones Futures: U.S.-Iran Peace Hopes Send Oil Prices Plunging; Nvidia, Micron, Sandisk, SpaceX, Tesla Sell Off'); Iran peace talks are actually sending oil down which is disinflationary but paradoxically triggering risk-off in memory names as the 'geopolitical premium' unwinds; CXMT IPO in China creating competitive framing pressure on memory stocks per IBD and Barrons
+• Fed/rates: US-Iran peace talks = oil plunging = disinflationary signal = net positive for high-multiple tech names; Fed meeting this week is the other major event; no hike expected but guidance on rate path is key; 'Busiest week of the quarter' framing with Fed + Mega earnings
+• Growth cycle: MSFT plans $190B capital spending this year per Motley Fool — the most bullish possible pre-earnings signal for Azure AI thesis; META capex shock concern ('why another shocking Meta capex number may keep the stock underwater' per Yahoo Finance) creates pre-earnings anxiety; ARM 'could be 40% undervalued as earnings near' per Simply Wall St; Molty Fool 'Arm Holdings' Next Earnings Report on July 29 Could Send the Stock Soaring'; GLW 'Rose on Growing AI Fiber and Optical Demand' per Insider Monkey today — positive pre-earnings signal; APLD Q4 revenue quadrupled on $20B backlog — AI infrastructure demand confirmation
+• Macro catalyst: (1) THE WEEK OF TRUTH: AMZN/AAPL July 30, ARM/EQIX/META/MSFT/VRT July 29, GLW July 28 — every major portfolio holding reports this week; (2) Fed decision this week — no hike expected; (3) Oil plunging on Iran peace hopes = disinflationary = positive for high-multiple AI names but created today's peculiar memory selloff; (4) MSFT $190B capex confirmation is the single most bullish pre-earnings signal — Azure AI is the centerpiece
+
+**Sectors:**
+• SMH (semis): -1.4% 1W — memory complex under severe pressure today (SNDK -11%, MU falling on CXMT China IPO creating competitive framing); NVDA -3.1% 1W leading chip stocks lower today; AMD -0.2% 1W essentially flat; ASML -5.3% 1W with JP Morgan saying selloff 'disproportionate'; semiconductor capital equipment under pressure (KLAC -4.4% 1W, LRCX -6.9% 1W); 'Semiconductor stock charts just formed this bearish shape' per Yahoo Finance is a cautionary signal
+• IGV (software): 'Chip Stocks Tank While Software Shines' per Barrons — cybersecurity and software outperforming today; NOW +2.2% 1W recovering; PANW -11.5% 1W significant pullback this week; BofA lifts cybersecurity stock targets; SHOP +2.7% 1W strong; software vs semis rotation is the defining theme
+• XLK (broad tech): MSFT $190B capex = Azure AI thesis at maximum strength ahead of earnings; META pre-earnings anxiety (-8.1% 1W) on capex shock fears; 'Why Microsoft, Meta, and Amazon earnings could crush the S&P 500' per Yahoo Finance; GOOGL -5.7% 1W continuing softness
+• XLY vs XLP: TSLA -18.8% 1W catastrophic; consumer electronics mixed; risk-off persists
+• XLE: Iran peace = oil plunging; CVX +1.4% 1W, XOM +5.0% 1W — oil stocks holding despite peace talks as war premium was already baked in; energy sector rotating based on geopolitics
+• XLF: Banks broadly healthy — JPM +4.4% 1W, most banks beat estimates per Raymond James; financial sector constructive
+
+**Positions:**
+• GLW (EARNINGS ALERT — reports July 28 TODAY): Insider Monkey 'Corning Incorporated (GLW) Rose on Growing AI Fiber and Optical Demand' is the most bullish possible pre-earnings headline; StockStory 'Earnings To Watch: Corning (GLW) Reports Q2 Results Tomorrow' constructive framing; current price $143.36 vs stop $130.17 = 9.2% buffer — buffer has NARROWED significantly from prior week's 11.1%; now at -3.1% unrealized vs +26.9% just weeks ago. The AI fiber demand story is confirmed by today's Insider Monkey coverage. HOLD all 15 shares into tonight's earnings — the stop provides 9.2% downside protection and the AI fiber thesis is structurally intact. If EPS guidance disappoints, will sell on the thesis break.
+• ARM (EARNINGS ALERT — reports July 29): ARM 'Could Be 40% Undervalued As Earnings Near' per Simply Wall St; Motley Fool 'Arm Holdings' Next Earnings Report on July 29 Could Send the Stock Soaring'; ARM fell 28% in past month per 24/7 Wall St — creates attractive setup; at 86.6x fwd P/E richly valued but the x86 displacement thesis and CPU royalty model are unassailable; HOLD all 39 shares
+• META (EARNINGS ALERT — reports July 29): -8.1% 1W ahead of earnings; 'Why another shocking Meta capex number may keep the stock underwater' per Yahoo Finance is the bear case; but at 16.0x fwd P/E for 33% growth META is the cheapest quality internet name by any metric; 'Why all eyes are on Meta & Amazon earnings this week' validates significance; HOLD all 8 shares — pre-earnings weakness at 16x for 33% growth is the right setup
+• MSFT (EARNINGS ALERT — reports July 29): 'Microsoft Plans $190 Billion of Capital Spending This Year. Wednesday Shows Whether Azure Is Keeping Up.' — this is the defining framing; at 20.1x fwd P/E for 18% growth genuinely cheap; options signal 7% move; HOLD all 28 shares — Azure AI workload acceleration is the thesis
+• VRT (EARNINGS ALERT — reports July 29): 'Can Vertiv's Americas Business Boost Second-Quarter Results?' per Zacks; 'Did Vertiv's Expanded AI Cooling Builds And Higher EPS Guidance Just Shift Vertiv Holdings Co's Investment Narrative?' per Simply Wall St — EPS guidance was RAISED prior to this earnings which is extremely constructive; stop at $260.25 vs $287.60 = 9.4% buffer — still close to stop; HOLD all 16 shares into earnings, the pre-raise of EPS guidance is the most bullish possible signal
+• EQIX (EARNINGS ALERT — reports July 29): 'Equinix Stock Has A Message For Management' per Trefis — cautionary framing; at 54.2x fwd P/E for 12% growth remains most stretched; HOLD 5 shares — tiny position; if guidance disappoints this will be a sell candidate
+• AMZN (EARNINGS ALERT — reports July 30): Motley Fool 'Amazon.com's Next Earnings Report on July 30 Could Sink the Stock' is a cautionary note; Amazon launching 5,100 satellites = diversification thesis; at 23.3x fwd P/E for 17% growth fair value; HOLD all 60 shares — AWS AI infrastructure thesis remains intact
+• PANW (-11.5% 1W, +87.6% unreal): Sharp pullback this week; BofA lifts cybersecurity targets; PANW joins Open Source AI Cybersecurity Alliance; Nvidia AI Security Alliance validates cybersecurity demand; stop at $143.62 is FAR away at $317 current — ample cushion; HOLD
+• MU (+93.3% unreal, memory selling today): CXMT China IPO is the specific catalyst for today's memory selloff per IBD 'Memory-Chip Stocks Micron, SK Hynix Drop After China Rival's IPO'; Motley Fool 'Micron Stock Will Be Worth This Much by Late 2027 (Hint: The Time to Buy Is Now)' remains bullish; at 5.9x fwd P/E for 346% growth the fundamental case is extraordinary; stop at $395.81 vs $900 = massive cushion; HOLD with conviction
+• NVDA (-3.1% 1W, +17.3% unreal): Nvidia reportedly in talks to finance OpenAI's Ohio data center — this is THESIS VALIDATING (demand is so strong NVDA is directly financing customers); 'Missed NVIDIA? This AI Infrastructure Stock Has More Room to Run' per Zacks; at 15.3x fwd P/E for 85% growth historically cheap; HOLD
+• GOOGL (-5.7% 1W, +0.0% unreal): Post-earnings holding; Cloud +28% validated AI thesis; stock underperforming on capex concern; HOLD
+
+**Cash:** Cash at $1,346 (~1% floor) — fully deployed; the most consequential earnings week of the year begins today with GLW reporting tonight; ARM/EQIX/META/MSFT/VRT report tomorrow; AMZN reports Thursday; holding all positions through what will be the defining test of the entire AI capex cycle thesis
+**Benchmarks**: SPY 1D +0.1% | QQQ 1D -1.4% | SMH 1D -5.5%
+
+
+**Portfolio after run**: Cash $1,346.01 | P&L $+25,142.75 (+25.14%) | Daily -1.05%
+
+---
+

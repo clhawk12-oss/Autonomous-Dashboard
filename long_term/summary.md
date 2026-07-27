@@ -1,39 +1,39 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-07-24 18:16 ET*
+*Last updated: 2026-07-27 18:16 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+26,493.86 (+26.49%) |
+| Total P&L | $+25,142.75 (+25.14%) |
 | Realized P&L | $-763.29 |
-| Unrealized P&L | $+27,257.15 |
+| Unrealized P&L | $+25,906.04 |
 | Cash | $1,346.01 (1.1%) |
-| Long Exposure | $126,777.63 |
+| Long Exposure | $125,426.52 |
 | Short Exposure | $0.00 |
-| Net Exposure | $126,777.63 |
+| Net Exposure | $125,426.52 |
 | Win Rate | 0.2 (5 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $206.84 | $12,410.40 | $+2,359.20 | +23.5% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $381.70 | $10,687.60 | $+698.04 | +7.0% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $196.51 | $11,790.60 | $+1,739.40 | +17.3% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $389.10 | $10,894.80 | $+905.24 | +9.1% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 60 | $207.50 | $232.11 | $13,926.60 | $+1,476.80 | +11.9% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $381.92 | $14,131.04 | $+2,950.88 | +26.4% | $255.58 |
-| ARM | LONG | 39 | $144.13 | $260.01 | $10,140.39 | $+4,519.32 | +80.4% | $122.51 |
-| MRVL | LONG | 40 | $94.88 | $194.23 | $7,769.20 | $+3,974.00 | +104.7% | $83.49 |
-| EQIX | LONG | 5 | $963.00 | $1084.24 | $5,421.20 | $+606.20 | +12.6% | $866.70 |
-| CIEN | LONG | 2 | $401.61 | $390.96 | $781.92 | $-21.30 | -2.7% | $341.37 |
-| META | LONG | 8 | $525.72 | $595.19 | $4,761.52 | $+555.76 | +13.2% | $446.86 |
-| COST | LONG | 3 | $983.86 | $935.03 | $2,805.09 | $-146.49 | -5.0% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $403.41 | $3,630.69 | $+557.28 | +18.1% | $300.51 |
-| PANW | LONG | 20 | $169.18 | $323.79 | $6,475.80 | $+3,092.15 | +91.4% | $143.62 |
-| GLW | LONG | 15 | $147.92 | $146.65 | $2,199.75 | $-19.05 | -0.9% | $130.17 |
-| MU | LONG | 10 | $465.66 | $920.95 | $9,209.50 | $+4,552.90 | +97.8% | $395.81 |
-| VRT | LONG | 16 | $306.18 | $290.36 | $4,645.76 | $-253.12 | -5.2% | $260.25 |
-| AMD | LONG | 9 | $355.26 | $521.95 | $4,697.55 | $+1,500.21 | +46.9% | $301.97 |
-| ALAB | LONG | 11 | $213.91 | $291.58 | $3,207.38 | $+854.37 | +36.3% | $171.13 |
+| AMZN | LONG | 60 | $207.50 | $231.39 | $13,883.40 | $+1,433.60 | +11.5% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $383.22 | $14,179.14 | $+2,998.98 | +26.8% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $266.33 | $10,386.87 | $+4,765.80 | +84.8% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $189.17 | $7,566.80 | $+3,771.60 | +99.4% | $83.49 |
+| EQIX | LONG | 5 | $963.00 | $1046.79 | $5,233.95 | $+418.95 | +8.7% | $866.70 |
+| CIEN | LONG | 2 | $401.61 | $377.27 | $754.54 | $-48.68 | -6.1% | $341.37 |
+| META | LONG | 8 | $525.72 | $593.87 | $4,750.96 | $+545.20 | +13.0% | $446.86 |
+| COST | LONG | 3 | $983.86 | $951.58 | $2,854.74 | $-96.84 | -3.3% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $399.09 | $3,591.81 | $+518.40 | +16.9% | $300.51 |
+| PANW | LONG | 20 | $169.18 | $317.32 | $6,346.40 | $+2,962.75 | +87.6% | $143.62 |
+| GLW | LONG | 15 | $147.92 | $143.36 | $2,150.40 | $-68.40 | -3.1% | $130.17 |
+| MU | LONG | 10 | $465.66 | $900.20 | $9,002.00 | $+4,345.40 | +93.3% | $395.81 |
+| VRT | LONG | 16 | $306.18 | $287.60 | $4,601.60 | $-297.28 | -6.1% | $260.25 |
+| AMD | LONG | 9 | $355.26 | $494.95 | $4,454.55 | $+1,257.21 | +39.3% | $301.97 |
+| ALAB | LONG | 11 | $213.91 | $282.52 | $3,107.72 | $+754.71 | +32.1% | $171.13 |
 
 ## PM Narrative
-No trades this session. We are holding all 17 positions into the most consequential earnings week of the year — GLW reports tomorrow July 28, followed by ARM/EQIX/META/MSFT/VRT on July 29 and AMZN on July 30. The macro context is mixed: AI capex fears are triggering the biggest tech selloff since Liberation Day per Yahoo Finance, yet the underlying demand signals have never been stronger — Intel beat Q2 by $1.7B validating AI data center demand, AMD CEO confirmed 'we're seeing the returns', and OpenAI president stated 'we will remain in this compute shortage no matter what.' This is the textbook setup where sentiment is negative but fundamentals are at peak strength. Portfolio P&L is +26.5% ($26,494) which meaningfully outperforms SPY (+0.8% 1M), QQQ (-3.7% 1M), and SMH (-9.3% 1M) — we are generating substantial alpha. Key risks going into earnings: VRT has only 10.3% buffer to stop, GLW has narrowed to 11.1% buffer, and the EQIX stretched valuation (56x fwd P/E for 12% growth) makes it vulnerable to any guidance miss. Memory chip selloff today is sentiment-driven not fundamental — MU at 6.0x fwd P/E for 346% growth remains extraordinary value. The thesis architecture is intact: AI infrastructure (NVDA, AMD, TSM, MRVL, ALAB, AVGO), AI hyperscalers (GOOGL, MSFT, AMZN, META), AI cooling/power (VRT), AI fiber (GLW), AI security (PANW), and AI memory (MU) all represent durable positions in the secular AI infrastructure buildout cycle that no quarter-to-quarter sentiment swing can break.
+Portfolio at +25.1% total P&L vs SPY +0.8% 1M, QQQ -4.0% 1M, SMH -11.4% 1M — continuing to generate substantial alpha across all benchmarks. This is the most critical earnings week of the year with GLW reporting tonight, ARM/EQIX/META/MSFT/VRT all reporting tomorrow July 29, and AMZN reporting July 30. The key developments today are: (1) GLW rose on 'Growing AI Fiber and Optical Demand' per Insider Monkey — the most bullish pre-earnings signal possible; (2) MSFT confirmed $190B capital spending this year — Azure AI thesis is fully intact; (3) Memory selloff today driven by CXMT China IPO creating competitive framing, not fundamental deterioration — MU stop at $395.81 vs $900 provides massive cushion; (4) ARM 'could be 40% undervalued' per Simply Wall St with Motley Fool saying earnings could send stock soaring; (5) VRT previously raised EPS guidance which is the single most constructive pre-earnings signal for the AI cooling thesis. All fundamental theses remain intact. The PANW -11.5% 1W pullback is noise against a +87.6% unrealized gain and a stop at $143 vs $317 current. No trades are warranted — the portfolio is correctly positioned through this earnings sequence with stops providing appropriate protection on the more vulnerable positions (GLW 9.2% buffer, VRT 9.4% buffer, EQIX 17.2% buffer, AMZN 26.8% buffer). Cash remains at the 1% floor and cannot be meaningfully deployed without selling positions that have intact theses.
