@@ -2036,3 +2036,7 @@ Decision: HOLD all positions. No new entries. The CXMT memory shock + mega-cap e
 **Market**: after-hours | 17:51 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 26 column 6 (char 12331)
 
+### 2026-08-14 17:28 ET — Run ID: swing-20260814-1728
+**Market**: after-hours | 17:28 ET
+**ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 30 column 6 (char 11775)
+
