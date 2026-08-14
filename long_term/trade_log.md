@@ -3032,3 +3032,44 @@ I will initiate a small starter position in ANET ahead of earnings.
 
 ---
 
+### 2026-08-14 17:33 ET — Run ID: long_term-20260814-1733
+**Market**: after-hours | 17:33 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON broadly — S&P eked out weekly gain despite soft retail sales; SPY +0.4% 1W, QQQ +1.1% 1W, SMH +0.9% 1W; benchmarks positive; market digesting record highs with mild pullback from peak; VIX calm per Barrons 'fear gauge keeps its cool'
+• Fed/rates: Soft inflation prints (PPI/CPI) driving Fed pause extension probability higher per MT Newswires; rate hike fears materially reduced; September hike odds declining — most important macro positive for high-multiple AI names; disinflationary backdrop intact
+• Growth cycle: AMAT beat Q3 estimates per Zacks but stock down 5.9% 1W — 'investors seek faster growth after stellar run' per Reuters; SNDK +35.4% 1W on bullish flash memory outlook; retail sales slumping creating mild consumer concern; Databricks $5B raise at $190B validates AI data infra demand
+• Macro catalyst: (1) AVGO -8.1% 1W — BofA flags $370B AI debt financing risk; 'Broadcom Falls 6% as AI Trade Cools' per GuruFocus — key position concern; (2) SNDK extraordinary move +35.4% 1W; (3) AMAT -5.9% post-earnings on tepid guidance — no entry; (4) COHR -14.1% 1W — thesis concern given -8.4% unrealized already; (5) Berkshire expanding GOOGL stake — major validation; (6) MU +10.7% 1W strong; (7) Jim Cramer trimming PANW/CRWD from charitable trust — mild cautionary signal
+
+**Sectors:**
+• SMH (semis): +0.9% 1W — modest gains; MU +10.7% 1W leading on tightening memory pricing; SNDK +35.4% 1W extraordinary flash memory rally; AMAT -5.9% 1W post-earnings disappointment; AVGO -8.1% 1W notable weakness on BofA debt concern; COHR -14.1% 1W — thesis concern on our position
+• IGV (software): PANW +5.6% 1W approaching prior ATH; CRWD +1.2% 1W; NET +5.2% 1W at near ATH (189x fwd P/E — still too expensive); RBC 'major software providers poised for quarterly beats amid bullish reseller feedback' constructive
+• XLK (broad tech): MSFT -0.9% 1W consolidating post-historic run; AMZN -4.3% 1W digesting post-AWS beat; GOOGL -2.8% 1W continuing mild weakness; Berkshire expanding GOOGL stake is the key development
+• XLY vs XLP: Mild risk-off signal — retail sales slumping per IBD 'Nasdaq slips on retail sales gloom'; consumer broadly cautious
+• XLF: BX +5.0% 1W; KKR +11.1% 1W — alternative asset managers strong on AI financing ecosystem
+• XLI: VRT +7.9% 1W at $293 — recovering strongly; ETN +0.6% 1W near ATH; AI infrastructure buildout continuing
+
+**Positions:**
+• AVGO (long, +30.1% unreal): -8.1% 1W — BofA flags $370B AI financing risk and 'Broadcom Falls 6% as AI Trade Cools'; at 20.1x fwd P/E for 48% growth still attractive; the BofA 'debt risk' framing is about AVGO's customers taking on debt to buy AI — not AVGO's own balance sheet; thesis intact; HOLD — this is a buy-the-dip opportunity not a thesis break
+• COHR (long, -8.4% unreal): -14.1% 1W — concerning; at $325.83 vs $355.64 cost; stop at $302.29 = 7.2% below current; 'Why Is Coherent Stock Rocketing Higher Today' per StockStory is a positive day signal amid the weekly weakness; AI optical thesis intact per Lumentum blowout context; HOLD but stop provides protection
+• PANW (long, +127.1% unreal): +5.6% 1W near ATH at $384; at 93.3x fwd P/E; Jim Cramer trimming PANW from charitable trust per Insider Monkey — mild negative signal; 'What Could PANW Gain From New Policy Control Integration' constructive; at 15 shares post-trim, HOLD
+• MU (long, +108.7% unreal): +10.7% 1W extraordinary; 'Micron Stock Jumps 2.1% as Memory Pricing Tightens Again' per GuruFocus; Soros loading up on MU per Stocktwits; thesis at 6.3x fwd P/E for 346% growth remains exceptional; HOLD with high conviction
+• GOOGL (long, +0.0% shown): -2.8% 1W; Berkshire EXPANDING GOOGL stake — Greg Abel making it top-3 Berkshire holding per Yahoo Finance; Waymo scaling toward 1M weekly rides; at 23.3x fwd P/E for 24% growth with 55% margins remains deeply undervalued; HOLD
+• ANET (long, +5.7% unreal): +5.4% 1W and raised Q3 revenue guidance per Simply Wall St — direct thesis validation; Cisco gross margin concerns are ANET positive (ANET has superior margins at 38%); HOLD
+• AMD (long, +44.8% unreal): +6.4% 1W strong; '$4.75B debt deal' and 'Baird $1,250 target call' both positive; 'AMD Gets Bigger AI Opportunity as CPU Market Expands'; thesis intact at 33.3x fwd P/E for 50% growth; HOLD
+• ALAB (long, +50.3% unreal): -3.8% 1W; 'Potential to rally 30.45% per Wall Street analysts' constructive; stop at $171 well below current $321; HOLD
+• ARM (long, +93.9% unreal): -1.1% 1W consolidating; 'Great Company, Full Price' debate continuing; at 91.4x fwd P/E for 22% growth is rich; thesis intact; HOLD
+• TSM (long, +24.8% unreal): +1.5% 1W; Soros loading up on TSM per Stocktwits; 'Remains at center of AI boom' per Insider Monkey; SoftBank selling 71.5% of TSM stake per Reuters — this is a notable headwind worth monitoring but Soros buying is offsetting; HOLD
+• MSFT (long, +38.9% unreal): -0.9% 1W consolidating after historic run; thesis fully validated; HOLD
+• AMZN (long, +26.6% unreal): -4.3% 1W digesting; Seth Klarman buying AMZN per Stocktwits; Rocket Lab/Amazon win Space Force contracts; AWS thesis intact; HOLD
+• META (long, +12.2% unreal): -0.4% 1W; Australia enforcement risk; addiction lawsuits mounting; '$27B AI risk hides off balance sheet' per GuruFocus; at 16.9x fwd P/E for 28% growth still the cheapest quality internet; HOLD
+• NVDA (long, +34.4% unreal): +0.5% 1W; 'eyes robotics wave' per IBD; UBS 'poised for strong quarterly results'; at 17.6x fwd P/E for 85% growth still historically cheap; HOLD
+• COST (long, -2.3% unreal): +1.4% 1W; 'Outpaces stock market gains' per Zacks; 'worth buying now' debate at 42.4x fwd P/E; tiny position; HOLD
+
+**Cash:** Cash at $3,377 (~2.4% of portfolio after PANW trim) — strategic buffer; watching FN earnings Aug 17 as optical networking read; AMAT post-earnings disappointing guidance means no entry; VRT approaching but still at $293 vs preferred $255-260 entry; holding cash for better entries rather than forcing trades.
+**Benchmarks**: SPY 1D -0.2% | QQQ 1D -0.1% | SMH 1D -0.2%
+
+
+**Portfolio after run**: Cash $3,377.52 | P&L $+34,589.94 (+34.59%) | Daily -2.19%
+
+---
+
