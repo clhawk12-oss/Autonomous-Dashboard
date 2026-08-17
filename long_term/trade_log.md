@@ -3073,3 +3073,41 @@ I will initiate a small starter position in ANET ahead of earnings.
 
 ---
 
+### 2026-08-17 17:34 ET — Run ID: long_term-20260817-1734
+**Market**: after-hours | 17:34 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF signal emerging — SPY -0.1% 1W, QQQ +1.2% 1W, SMH +4.3% 1W; Trump threatening to bomb Oman driving crude oil spike and 30-year Treasury yield touching 19-year high; US-Iran ceasefire expiring is the acute risk; equity indexes declining late session despite semis leading; VIX creeping higher on geopolitical tail risk
+• Fed/rates: 30-year Treasury yield hitting 19-year high is a critical development — this directly pressures high-multiple tech valuations via discount rate expansion; oil spike is inflationary reinforcing higher-for-longer concern; this is the most important macro headwind of the week and bears watching carefully
+• Growth cycle: NBIS +46% 1W extraordinary on AI cloud momentum; FN +13.6% 1W strong into earnings Aug 17 — validates optical networking thesis for COHR/ANET ecosystem; MU crossing $1,000 is a milestone; Druckenmiller dumping MU/Intel and buying AMZN is notable institutional rotation; AI capex cycle delivering but macro rate headwinds creating multiple compression risk
+• Macro catalyst: (1) Trump Oman bomb threat driving oil spike and Treasury yield surge — acute risk-off; (2) Druckenmiller selling MU — notable given his track record; (3) BofA sees 50% upside in MU — confirms our bull thesis; (4) FN strong ahead of earnings tonight — direct COHR/ANET ecosystem read; (5) COHR starting 300mm SiC substrate sampling — technology advancement positive; (6) META social media addiction trial beginning — legal overhang; (7) Anthropic projects $200B revenue by 2028 — AI demand confirmation
+**Sectors:**
+• SMH (semis): +4.3% 1W leading — MU +17.5% 1W extraordinary, crossing $1,000; WDC/SNDK +22-44% 1W memory supercycle confirmed; MRVL +12.4% 1W strong; COHR +8% 1W recovering nicely; AVGO -7.1% 1W notable weakness continuing on AI debt framing; AMAT +2.5% 1W recovering post-tepid guidance
+• IGV (software): NOW -7.6% 1W, CRWD -5% 1W pullbacks; PANW -2.4% 1W softening; software broadly digesting after strong runs; OKTA -3.4% 1W; cybersecurity names pulling back from ATHs
+• XLK (broad tech): MSFT -5.1% 1W notable pullback after historic run; AMZN -6% 1W digesting; GOOGL -4% 1W continuing weakness; broad tech under rate yield pressure
+• XLY vs XLP: Risk-off signal — Trump threats driving defensives; consumer names selling off with broad market
+• XLE: Energy spiking on Oman/Iran threat — CVX +4% 1W, XOM positive; oil inflation tail risk materializing
+• XLF: Financial stocks declining late afternoon per MT Newswires; 30-year yield surge is complex — helps net interest margins but pressures valuations
+**Positions:**
+• MU (long, +117.3% unreal): +17.5% 1W extraordinary — crossing $1,000 milestone; BofA sees 50% upside; Trump admin urging Apple NOT to buy Chinese memory chips (directly protecting MU from CXMT competition!); Druckenmiller selling is a slight concern but BofA 50% upside thesis is very constructive; thesis at 6.5x fwd P/E for 346% growth remains extraordinary; HOLD with maximum conviction
+• COHR (long, -1.2% unreal): +8% 1W recovering well — now only -1.2% unrealized vs -8.4% prior; COHR starting 300mm SiC substrate sampling for AI infrastructure is positive technology development; IBD 'S&P 500's Best Stock in 2026' mentions COHR; stop at $302.29 with stock at $351 provides 14% buffer; thesis recovering; FN earnings tonight are the key read-through; HOLD
+• AVGO (long, +29.9% unreal): -7.1% 1W — continuing weakness; Motley Fool clarifies BofA '$370B AI financing' framing noting 'it's not as bad as it sounds' — thesis intact; Druckenmiller now owns AVGO per 24/7 Wall St; at 20.1x fwd P/E for 48% growth still exceptional value; HOLD
+• ANET (long, +7.3% unreal): +5.4% 1W strong; Zacks 'Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth' — direct thesis validation; FN reports tonight as ecosystem validator; HOLD
+• ALAB (long, +49.7% unreal): +0.9% 1W; Zacks 'might be well poised for a surge'; AI networking stocks rally per 24/7 Wall St with MRVL +8%, Credo +8%; thesis intact; HOLD
+• MRVL (long, +147% unreal): +12.4% 1W strong; AI networking rally leader; Marvell +6.1% on AI memory rally; StockStory '1 semiconductor worth investigating' — positive; HOLD
+• MSFT (long, +34.6% unreal): -5.1% 1W — notable pullback; 'Why Microsoft Stock Dropped Today' per Motley Fool; yield pressure on high-multiple tech; at 20.4x fwd P/E for 18% growth still cheap but the 30-year yield spike is a headwind; HOLD
+• META (long, +8.2% unreal): -4.4% 1W; social media addiction trial beginning — legal overhang materializing; '$1.4T Meta Trial' per Insider Monkey; at 16.3x fwd P/E for 28% growth still cheap but legal headwinds mounting; HOLD
+• PANW (long, +122.1% unreal): -2.4% 1W; at 91.3x fwd P/E; Citi downgrades SentinelOne/Netskope on valuation — could read across to PANW; at 15 shares post-trim; HOLD
+• TSM (long, +26.2% unreal): +3% 1W; 'Four Reasons to Put This NVDA, AMD Partner on Watchlist' per IBD; Barchart '$450 in September' case; at 19.8x fwd P/E for 36% growth; HOLD
+• ARM (long, +88.3% unreal): +1.3% 1W; Druckenmiller owns ARM; CFO says 'delivering silicon is more complicated' — risk to chip-making ambitions; at 88.8x fwd P/E still rich; HOLD
+• AMZN (long, +25.9% unreal): -6% 1W digesting; Amazon Alexa+ getting traction; Anthropic stake growing in value; at 25.1x fwd P/E for 20% growth; HOLD
+• NVDA (long, +34.3% unreal): +3.4% 1W; near buy zone per IBD; NVDA financing $105B for OpenAI data center; at 17.6x fwd P/E for 85% growth still cheap; HOLD
+• GOOGL (long, 0% unreal): -4% 1W; Berkshire expanded stake is validation; Alphabet eyes first AUD bond sale — global expansion; at 23.2x fwd P/E for 24% growth; HOLD
+• COST (long, -3.1% unreal): +0.1% 1W; essentially flat; tiny position; HOLD
+**Cash:** Cash at $3,377 (~2.4% of portfolio) — maintaining strategic buffer; FN earnings tonight are key optical ecosystem read for COHR/ANET thesis; 30-year yield at 19-year high is the key macro risk to monitor before any further deployment; Trump/Oman oil spike creates acute uncertainty making new positions inadvisable today
+**Benchmarks**: SPY 1D -0.5% | QQQ 1D -0.2% | SMH 1D +1.1%
+
+
+**Portfolio after run**: Cash $3,377.52 | P&L $+34,609.29 (+34.61%) | Daily +0.01%
+
+---
+
