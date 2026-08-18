@@ -1,37 +1,37 @@
 # Long Term — Portfolio Summary
-*Last updated: 2026-08-17 17:36 ET*
+*Last updated: 2026-08-18 17:35 ET*
 
 ## Performance
 | Metric | Value |
 |--------|-------|
-| Total P&L | $+34,609.29 (+34.61%) |
+| Total P&L | $+30,122.10 (+30.12%) |
 | Realized P&L | $-2,142.01 |
-| Unrealized P&L | $+36,751.30 |
+| Unrealized P&L | $+32,264.11 |
 | Cash | $3,377.52 (2.5%) |
-| Long Exposure | $133,995.64 |
+| Long Exposure | $129,508.45 |
 | Short Exposure | $0.00 |
-| Net Exposure | $133,995.64 |
+| Net Exposure | $129,508.45 |
 | Win Rate | 0.222 (9 closed) |
 
 ## Current Positions
 | Ticker | Dir | Shares | Avg Cost | Current | Value | P&L | P&L% | Stop |
 |--------|-----|--------|----------|---------|-------|-----|------|------|
-| NVDA | LONG | 60 | $167.52 | $225.01 | $13,500.60 | $+3,449.40 | +34.3% | $142.39 |
-| MSFT | LONG | 28 | $356.77 | $480.35 | $13,449.80 | $+3,460.24 | +34.6% | $303.25 |
+| NVDA | LONG | 60 | $167.52 | $219.74 | $13,184.40 | $+3,133.20 | +31.2% | $142.39 |
+| MSFT | LONG | 28 | $356.77 | $481.63 | $13,485.64 | $+3,496.08 | +35.0% | $303.25 |
 | GOOGL | LONG | 36 | $274.34 | $274.34 | $9,876.24 | $+0.00 | +0.0% | $233.19 |
-| AMZN | LONG | 60 | $207.50 | $261.31 | $15,678.60 | $+3,228.80 | +25.9% | $169.44 |
-| AVGO | LONG | 37 | $302.17 | $392.43 | $14,519.91 | $+3,339.75 | +29.9% | $255.58 |
-| ARM | LONG | 39 | $144.13 | $271.43 | $10,585.77 | $+4,964.70 | +88.3% | $122.51 |
-| MRVL | LONG | 40 | $94.88 | $234.33 | $9,373.20 | $+5,578.00 | +147.0% | $83.49 |
-| META | LONG | 8 | $525.72 | $568.97 | $4,551.76 | $+346.00 | +8.2% | $446.86 |
-| COST | LONG | 3 | $983.86 | $953.50 | $2,860.50 | $-91.08 | -3.1% | $865.80 |
-| TSM | LONG | 9 | $341.49 | $430.97 | $3,878.73 | $+805.32 | +26.2% | $300.51 |
-| PANW | LONG | 15 | $169.18 | $375.76 | $5,636.40 | $+3,098.66 | +122.1% | $143.62 |
-| MU | LONG | 10 | $465.66 | $1011.75 | $10,117.50 | $+5,460.90 | +117.3% | $395.81 |
-| AMD | LONG | 9 | $355.26 | $506.00 | $4,554.00 | $+1,356.66 | +42.4% | $301.97 |
-| ALAB | LONG | 11 | $213.91 | $320.17 | $3,521.87 | $+1,168.86 | +49.7% | $171.13 |
-| ANET | LONG | 45 | $188.01 | $201.80 | $9,081.00 | $+620.45 | +7.3% | $157.16 |
-| COHR | LONG | 8 | $355.64 | $351.22 | $2,809.76 | $-35.36 | -1.2% | $302.29 |
+| AMZN | LONG | 60 | $207.50 | $259.45 | $15,567.00 | $+3,117.20 | +25.0% | $169.44 |
+| AVGO | LONG | 37 | $302.17 | $380.00 | $14,060.00 | $+2,879.84 | +25.8% | $255.58 |
+| ARM | LONG | 39 | $144.13 | $253.32 | $9,879.48 | $+4,258.41 | +75.8% | $122.51 |
+| MRVL | LONG | 40 | $94.88 | $216.00 | $8,640.00 | $+4,844.80 | +127.7% | $83.49 |
+| META | LONG | 8 | $525.72 | $543.67 | $4,349.36 | $+143.60 | +3.4% | $446.86 |
+| COST | LONG | 3 | $983.86 | $961.35 | $2,884.05 | $-67.53 | -2.3% | $865.80 |
+| TSM | LONG | 9 | $341.49 | $413.41 | $3,720.69 | $+647.28 | +21.1% | $300.51 |
+| PANW | LONG | 15 | $169.18 | $374.14 | $5,612.10 | $+3,074.36 | +121.1% | $143.62 |
+| MU | LONG | 10 | $465.66 | $940.76 | $9,407.60 | $+4,751.00 | +102.0% | $395.81 |
+| AMD | LONG | 9 | $355.26 | $484.39 | $4,359.51 | $+1,162.17 | +36.3% | $301.97 |
+| ALAB | LONG | 11 | $213.91 | $303.44 | $3,337.84 | $+984.83 | +41.9% | $171.13 |
+| ANET | LONG | 45 | $188.01 | $193.18 | $8,693.10 | $+232.55 | +2.7% | $157.16 |
+| COHR | LONG | 8 | $355.64 | $306.43 | $2,451.44 | $-393.68 | -13.8% | $302.29 |
 
 ## PM Narrative
-Portfolio up 34.6% total P&L — strong alpha vs benchmarks (SPY flat 1W, QQQ +1.2%, SMH +4.3%). The dominant macro risk today is the 30-year Treasury yield hitting a 19-year high on Trump's Oman bombing threat — this is a direct multiple compression headwind for our high-valuation AI names. However, our portfolio's fundamental thesis remains intact across every major position. MU crossing $1,000 with Trump protecting it from Chinese CXMT competition (urging Apple not to buy Chinese chips) is extraordinary — our 346% revenue growth at 6.5x fwd P/E thesis is validated. COHR recovering to -1.2% unrealized (from -8.4%) with FN reporting tonight as an optical ecosystem validator. AVGO weakness (-7.1% 1W) on AI debt framing is noise — Motley Fool clarifies it's not as bad as sounds, and Druckenmiller is now a buyer. The portfolio remains concentrated in the right AI infrastructure themes: compute (NVDA, AMD), networking (ANET, ALAB, MRVL), memory (MU), optical (COHR, AVGO), hyperscalers (MSFT, AMZN, GOOGL), and security (PANW). With cash at 2.4% and the 30-year yield at 19-year highs creating genuine macro uncertainty, no new trades are warranted today. FN earnings tonight will be the next key data point for the optical networking thesis.
+No trades executed. The portfolio is navigating a challenging macro environment with the 30-year Treasury yield at 19-year highs, global bond selloff, and Iran/oil spike creating acute risk-off conditions for high-multiple AI names. The most pressing concern is COHR, which at $306.43 is only 1.4% above its stop at $302.29 — the Fabrinet post-earnings drop dragging optical stocks, combined with broader tech weakness, makes a stop trigger likely soon. However, I will not preemptively sell before the stop is hit as the AI optical thesis remains valid long-term. All other positions maintain wide buffers from stops. Portfolio P&L at +30.1% total represents strong alpha generation vs benchmarks. The core thesis remains intact: AI infrastructure cycle (NVDA, AVGO, MRVL, ALAB, ANET), hyperscaler cloud (MSFT, AMZN, GOOGL), AI silicon (AMD, ARM, MU, TSM), and cybersecurity (PANW) all have fundamental support even as rates pressure multiples. The rotation into defensives/healthcare and out of semis is noted but not sufficient to trigger position changes in high-conviction names with intact theses. Cash is critically low at $3,377 — awaiting COHR stop trigger to free capital for redeployment into higher-conviction names at better valuations.

@@ -3111,3 +3111,44 @@ I will initiate a small starter position in ANET ahead of earnings.
 
 ---
 
+### 2026-08-18 17:33 ET — Run ID: long_term-20260818-1733
+**Market**: after-hours | 17:33 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF intensifying — SPY -0.4% 1W, QQQ -0.1% 1W, SMH -0.5% 1W; equity indexes declining for third consecutive session; global bond selloff pressuring stocks with 30-year Treasury yield touching 19-year highs; Iran/Middle East tensions driving crude oil spike; VIX elevated on geopolitical tail risk; semiconductor and data center plays 'getting clobbered' per WSJ
+• Fed/rates: 30-year yield at 19-year high is the dominant macro risk — directly pressures high-multiple AI names via discount rate expansion; global bond selloff (not just US) suggests structural repricing not temporary; oil spike is inflationary reinforcing higher-for-longer; this is the most critical headwind for our concentrated AI/tech portfolio
+• Growth cycle: KEYS beat fiscal Q3 and raised outlook on data center demand — positive AI infrastructure read; Alphabet Cloud revenue exploding 82% per GuruFocus; AMD server revenue guided +80% — extraordinary; but BofA issues stark warning on AI spending sustainability; Fabrinet dropped post-earnings dragging peers MRVL/APH — negative optical read-through
+• Macro catalyst: (1) 30-year yield at 19-year high — acute multiple compression risk; (2) Global bond selloff accelerating on AI spending/debt fears; (3) Fabrinet post-earnings drop dragging optical networking stocks — direct COHR/MRVL read-through concern; (4) Meta social media addiction trial — '$1.4T' liability headline; (5) Microsoft faces fresh China blow over Windows; (6) SNDK +27.9% 1W extraordinary memory supercycle confirmation; (7) NBIS +28.6% 1W AI cloud momentum; (8) KEYS beat validates AI test/measurement cycle
+
+**Sectors:**
+• SMH (semis): -0.5% 1W — chip bears back in control per Yahoo Finance; Sandisk/Micron/Credo leading 'AI rug pull' per IBD; AVGO -8.7% 1W notable continued weakness; COHR -6.7% 1W sliding again hitting stop proximity; ARM -5.8% 1W on bond yield pressure; MRVL +1.7% 1W holding better; MU +8.3% 1W strong despite sector selloff — thesis intact; Fabrinet drop is a concern for optical ecosystem
+• IGV (software): Rotation INTO software — Netflix/Salesforce/Adobe rallying as investors rotate OUT of semis per 24/7 Wall St; NOW -6.3% 1W pullback notable; CRWD -4.0% 1W ahead of Aug 26 earnings; PANW -2.5% 1W modest; BofA bullish cybersecurity per IBD
+• XLK (broad tech): MSFT -4.4% 1W — 'defying tech selloff as Azure holds the line' but still down; China blow over Windows is a new headwind; AMZN -4.7% 1W; GOOGL flat but Berkshire boosted stake 83% — major validation
+• XLY vs XLP: Risk-off consumer signal — multiple retail earnings (TGT, WMT, HD, TJX) this week will be key reads; La-Z-Boy miss signals 'uneven consumer'
+• XLE: Energy higher late afternoon — CVX +4.6% 1W, XOM +4.3% 1W; Iran tension driving oil spike; inflationary pressure
+• XLV: Healthcare rotation — JNJ +4.3% 1W, LLY +1.0% 1W; defensive rotation as bonds sell off and tech gets hit
+• XLF: Mixed — SCHW +4.0% 1W; PANW flat; financial stocks mixed per MT Newswires
+
+**Positions:**
+• COHR (long, -13.8% unreal): -6.7% 1W — now at $306.43 vs stop $302.29; CRITICALLY close to stop; Coherent is one of S&P 500's '3 Biggest Decliners on Tuesday'; Fabrinet drop post-earnings dragging optical peers is direct read-through; optics stocks dropping on Anthropic news/WSJ report; AXTI down 12% in same optical selloff; stop at $302.29 is only 1.4% below current — stop is very likely to trigger; thesis is intact long-term but technical situation is dire
+• AVGO (long, +25.8% unreal): -8.7% 1W — 'Broadcom Stock Tumbles as $10.8B AI Boom Meets Reality' per GuruFocus; continuing to weaken; at $380 vs stop $255.58; Druckenmiller bought AVGO confirming institutional support; at 19.5x fwd P/E for 48% growth thesis still intact; stop is far away so no action needed
+• META (long, +3.4% unreal): -9.3% 1W — social media addiction trial first day; '$1.4T' liability headline; 'Big Investors Send Conflicting Signal' per GuruFocus; at $543 only $97 above cost $525; weakest long position by unrealized; legal risk is real but at 15.6x fwd P/E for 28% growth with 30% margins still fundamentally compelling; HOLD
+• ARM (long, +75.8% unreal): -5.8% 1W; '$2B AI Signal Investors Shouldn't Ignore' per 24/7 Wall St; bond yield pressure hitting highest-multiple names hardest; at 82.8x fwd P/E this is vulnerable to rate-driven multiple compression; HOLD — stop at $122.51 far away
+• MU (long, +102.0% unreal): +8.3% 1W extraordinary outperformance vs sector; 'chip-stock bears back in control' but MU holding; stop at $395.81 is far below current $940.76; thesis at 6.1x fwd P/E for 346% growth remains extraordinary; HOLD
+• MRVL (long, +127.7% unreal): +1.7% 1W — relatively resilient; CEO made $1.8M stock purchase per GuruFocus — bullish insider signal; Fabrinet drop dragging MRVL per 24/7 Wall St is a concern; HOLD
+• MSFT (long, +35.0% unreal): -4.4% 1W; China Windows blow is a new headwind; Azure growth 'holding the line'; at 20.4x fwd P/E for 18% growth still cheap; HOLD
+• GOOGL (long, +0.0% shown): Berkshire boosted stake 83% — Greg Abel making GOOGL a top-3 Berkshire holding; Cloud revenue 'exploding 82%'; this is major validation; HOLD
+• PANW (long, +121.1% unreal): -2.5% 1W; BofA bullish cybersecurity; politician on House Intelligence Committee's Cyber Panel buying 3 cybersecurity stocks including PANW; FireMon integration positive; at 15 shares/90.9x fwd P/E; HOLD
+• AMD (long, +36.3% unreal): +2.1% 1W — outperforming semis; 'Lisa Su Says AMD's Server Revenue Will Grow More Than 80% This Half' — extraordinary; Google move (Wedbush positive message); $1.3B portfolio in AI investments; thesis very intact; HOLD
+• TSM (long, +21.1% unreal): -2.1% 1W; BofA bullish on TSM; 'TSMC slides over 4% despite 45% revenue surge' — multiple compression from rates not fundamentals; at 19.0x fwd P/E for 36% growth with 50% margins still very attractive; HOLD
+• ANET (long, +2.7% unreal): -2.4% 1W; Cisco analysis not directly concerning for ANET's data center thesis; 'top-ranked ALAB & ANET set to thrive on AI-Cloud networking growth' per Zacks; HOLD
+• ALAB (long, +41.9% unreal): -2.7% 1W; 'ALAB vs AVGO which is better buy' constructive; AI networking thesis intact; HOLD
+• COST (long, -2.3% unreal): +1.8% 1W; Medicare Advantage news with SCAN Group is interesting new revenue vector; 'stock sets up amid Medicare Advantage news' per IBD; tiny position; HOLD
+
+**Cash:** Cash at $3,377 (~2.5% of portfolio) — extremely low; COHR stop at $302.29 is critically close to current price of $306.43 (only 1.4% away); if stop triggers it would free ~$2,451 (8 shares × ~$306); watching for stop trigger and subsequent redeployment opportunity; no new positions possible without COHR stop triggering first given cash constraints.
+**Benchmarks**: SPY 1D -0.7% | QQQ 1D -1.7% | SMH 1D -4.1%
+
+
+**Portfolio after run**: Cash $3,377.52 | P&L $+30,122.10 (+30.12%) | Daily -3.27%
+
+---
+
