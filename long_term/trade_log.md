@@ -3152,3 +3152,45 @@ I will initiate a small starter position in ANET ahead of earnings.
 
 ---
 
+### 2026-08-19 17:34 ET — Run ID: long_term-20260819-1734
+**Market**: after-hours | 17:34 ET
+**STOP_LOSS** SELL 8 COHR @ $287.47 → P&L $-545.36
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF intensifying — SPY -0.4% 1W, QQQ -1.1% 1W, SMH -4.1% 1W; tech sell-off resuming as bond yield relief proves temporary; 30-year Treasury yields remain at decade highs despite brief dip on Bessent buyback plan; VIX elevated; broader equity selloff led by semis/chip equipment names
+• Fed/rates: Treasury announces expanded long-bond buybacks (Bessent) — brief yield relief but structural higher-for-longer intact; Fed minutes from July FOMC released — tone cautious; oil/energy still elevated on Iran/Middle East tensions reinforcing inflation concerns; multiple compression for high-multiple AI names continues to be the dominant headwind
+• Growth cycle: MRVL +13% on $12.2B Google warrant deal — extraordinary AI interconnect validation; AVGO -3% on same news (market sees competitive risk); ADI Q3 record revenue — data center AI cycle intact; Target raised full-year outlook on tariff refunds — consumer sector resilient; Cisco -10% post-Q4 earnings on gross margin concerns — negative read for some networking names but ANET differentiated
+• Macro catalyst: (1) MRVL Google warrant deal is the week's biggest single-stock catalyst — validates AI custom silicon thesis at scale; (2) Treasury long-bond buybacks create brief yield relief but do not change structural trajectory; (3) Chip equipment stocks (AMAT -4%, LRCX -5%, TER -5%) selling off on AI spending fears per 24/7 Wall St — concerning read for the broader AI capex cycle; (4) NVDA reports Aug 26 — CRITICAL earnings alert; this is the single most important catalyst for the entire portfolio; (5) Moderna-Merck cancer vaccine phase 3 success driving healthcare biotech rotation
+
+**Sectors:**
+• SMH (semis): -4.1% 1W — leading declines; chip equipment (AMAT -9.5%, KLAC -10%, LRCX -5.8%) being hit hardest on AI spending fear narrative; MRVL +9.3% 1W extraordinary outperformance on Google deal; AVGO -12.9% 1W notable continued weakness; AMD -3.4% 1W; MU +2.8% 1W holding well; ALAB -9.3% 1W retreating sharply; ARM -8.3% 1W
+• IGV (software): Mixed — PANW -7.0% 1W with CRWD -9.1% 1W; both sinking despite Truist price target raise for CRWD; BofA sees software stocks bouncing back; RBC says software Q2 beat rate accelerating — positive thesis
+• XLK (broad tech): MSFT -1.7% 1W consolidating; AMZN -0.5% 1W holding; GOOGL -0.2% 1W essentially flat; Cisco -10% post-earnings is the notable sector negative
+• XLY vs XLP: Target raised guidance — consumer more resilient than feared; WMT reports Aug 20 as key read; risk-on consumer signal but selective
+• XLV: VRTX +5%, LLY +5.1%, REGN +5.5% — healthcare/biotech rotation accelerating on Moderna-Merck cancer vaccine success; TEM +12.2% on the catalyst
+• XLF: Financial stocks softer; Treasury buyback news mixed signal; Goldman -1.5% 1W
+
+**Positions:**
+• NVDA (EARNINGS ALERT — reports Aug 26): HOLDING into earnings with high conviction. At 16.9x fwd P/E for 85% revenue growth, NVDA is still the cheapest mega-cap AI name relative to growth. 'Is Nvidia stock too cheap right now?' per Yahoo Finance validates thesis. Foxconn/Super Micro data confirms AI boom ongoing. The only risk is if guidance disappoints, but H100/H200 supply remains constrained and Blackwell demand is unprecedented. HOLD all 60 shares — this is the single most important catalyst for entire portfolio. Not trimming because the long-term thesis is exceptional and any pullback on in-line earnings would be a buying opportunity, not a thesis break.
+• MRVL (long, +150.1% unreal): +9.3% 1W — extraordinary outperformance on $12.2B Google warrant deal; 'Marvell Technology Expands Google AI Partnership' — this is a transformative deal validating the custom silicon thesis at the hyperscaler scale; CEO insider purchase noted earlier; at 38.0x fwd P/E for 28% growth with this validation, HOLD with maximum conviction
+• AVGO (long, +20.0% unreal): -12.9% 1W — MRVL Google deal is a direct competitive read; market sees AVGO losing Google business to MRVL; at 18.6x fwd P/E for 48% growth still extremely attractive; AVGO is diversified across multiple hyperscalers (Apple, Meta) not just Google; this is a buy-the-dip on mis-pricing not a thesis break; stop at $255.58 far away; HOLD
+• ALAB (long, +35.1% unreal): -9.3% 1W retreating; still at -42.1% from 52W high; at 45.2x fwd P/E for 104% growth thesis intact; Zacks constructive; HOLD
+• ARM (long, +73.0% unreal): -8.3% 1W; bond yield pressure hitting highest-multiple names; at 81.5x fwd P/E vulnerable to rate compression; Druckenmiller holds ARM — institutional validation; HOLD stop at $122.51 far below current $249
+• MU (long, +101.2% unreal): +2.8% 1W — outperforming again vs -4.1% SMH; Barrons 'Micron Gained Memory Market Share. The Stock Is Dropping Anyway' — stock holding despite negative framing; at 6.1x fwd P/E for 346% growth thesis remains extraordinary; HOLD with maximum conviction
+• ANET (long, -0.8% unreal): -11.4% 1W — notable weakness; Cisco -10% post-earnings on gross margin is a read-through concern; however Cisco's issues are in enterprise, not hyperscaler AI networking; '3 AI Networking Stocks Quietly Dominating Their Niche in August' includes ANET; 'Arista Benefits From AI Networking Surge' — thesis intact; at 36.1x fwd P/E for 38% growth with 38% margins still attractive; stop at $157.16 far below; HOLD but watching carefully given -11.4% 1W
+• PANW (long, +112.6% unreal): -7.0% 1W; CRWD -9.1% 1W and sinking despite Truist price target raise; 'CrowdStrike Sinks 7% Despite Truist Price Target Raise' — market clearly in risk-off mode for cybersecurity; UBS 'Mixed Momentum' note is concerning; at 87.4x fwd P/E this is the most valuation-stretched position with no near-term earnings catalyst; BofA constructive for software sector; HOLD at 15 shares — not adding
+• META (long, +3.9% unreal): -5.7% 1W continuing social media addiction trial; 'cannot be trusted to protect kids' per Telegraph; at 15.7x fwd P/E for 28% growth with 30% margins this remains deeply undervalued; legal risk is real but manageable; HOLD
+• MSFT (long, +35.7% unreal): -1.7% 1W consolidating; 'Alphabet Stock Surged When Its AI Spending Found Customers' — Azure parallels; at 20.5x fwd P/E for 18% growth; HOLD
+• GOOGL (long, 0.0% unreal): -0.2% 1W essentially flat; Berkshire expanded stake; MRVL Google deal is actually GOOGL positive (validating custom AI chip strategy); at 23.2x fwd P/E for 24% growth with 55% margins; HOLD
+• AMZN (long, +28.1% unreal): -0.5% 1W holding well; Prime Air drone expansion; AWS AI thesis intact; at 25.6x fwd P/E for 20% growth; HOLD
+• TSM (long, +20.7% unreal): -4.0% 1W; Samsung -7.8% in Seoul despite AI chip price surge; AI chip prices up 15% per Benzinga — directly bullish for TSM economics; at 18.9x fwd P/E for 36% growth with 50% margins; HOLD
+• COST (long, -2.7% unreal): +0.8% 1W holding; 'Costco Getting Into Medicare' — new revenue vector; tiny position; HOLD
+• AMD (long, +31.3% unreal): -3.4% 1W; Cathie Wood cutting AMD again is a noise signal; at 30.2x fwd P/E for 50% growth with Lisa Su delivering; HOLD
+
+**Cash:** Cash at $5,677 (~4.2% of portfolio) — moderate buffer; COHR stop triggered freeing ~$2,300 additional cash versus prior sessions; holding cash strategically ahead of NVDA Aug 26 earnings — the single most important catalyst; no new buys appropriate given risk-off macro, 30-year yields elevated, and NVDA earnings pending.
+**Benchmarks**: SPY 1D +0.2% | QQQ 1D -0.2% | SMH 1D -1.6%
+
+
+**Portfolio after run**: Cash $5,677.28 | P&L $+29,463.82 (+29.46%) | Daily -0.50%
+
+---
+
