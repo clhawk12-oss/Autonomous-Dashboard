@@ -2052,3 +2052,49 @@ Decision: HOLD all positions. No new entries. The CXMT memory shock + mega-cap e
 **Market**: after-hours | 17:28 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 15 column 6 (char 11596)
 
+### 2026-08-20 17:31 ET — Run ID: swing-20260820-1731
+**Market**: after-hours | 17:31 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF intensifying — SPY -2.0% 1W, QQQ -2.9% 1W, SMH -4.5% 1W. All benchmarks negative, semis leading declines. IBD: 'Market Triggers Bearish Signal as Walmart, SpaceX, CrowdStrike Tumble.' Bond yields rising on inflation concerns per MT Newswires. Walmart missed comparable sales estimates badly — consumer demand weakening signal.
+• Fed/rates: Renewed inflation concerns per MT Newswires. Treasury yields elevated, creating additional multiple compression on high-growth tech names. No Fed relief signals. Bessent bond buyback plan creating some short-term relief for gold/bonds but equity pressure persists.
+• Macro catalyst: Walmart -10.3% 1W is the dominant macro signal — consumer spending cracking under high fuel costs and 'trade-offs.' Waymo building its own AI chip (reducing Nvidia/AMD dependence) is a new competitive threat to chip suppliers. Google $120B custom chip expansion (Marvell shock per GuruFocus) is a critical negative for MRVL specifically. Anthropic IPO plans coming into focus, reportedly matching SpaceX's record size. Broadcom seeking $60B+ for AI chip deal — massive AI investment thesis confirmation.
+
+**Sectors:**
+• SMH (semis): -4.5% 1W — broad semi weakness. AVGO -12.9% 1W on Google $120B custom chip news. KLAC -11.1% 1W, LRCX -7.9% 1W, AMAT -7.2% 1W — semi equipment broadly weak. ARM -10.0% 1W, AMD -2.8% 1W. Memory showing resilience: SNDK +4.8% 1W, MU +2.6% 1W — SK Hynix record buyback and memory defying the tech selloff per 24/7 Wall St.
+• IGV (software): CRWD -15.6% 1W — tumbling into earnings. PANW -11.7% 1W sharp reversal. DDOG -7.8% 1W. Software broadly under selling pressure. CSCO -3.4% 1W post-earnings cooling.
+• XLK (broad tech): MSFT -3.2% 1W, NET -15.7% 1W. Broad tech risk-off.
+• XLY vs XLP: Walmart -10.3% 1W is a massive consumer risk-off signal. Consumer spending 'trade-offs' per WMT CFO. Defensive healthcare outperforming: MRK +9.9% 1W (cancer breakthrough with Moderna), VRTX +4.6% 1W, ABBV +4.4% 1W.
+• XLE: CVX +5.0% 1W, XOM +5.4% 1W, Brent Crude approaching $94 per GuruFocus — energy trade reversing from Iran peace assumption. Oil spiking on geopolitical factors again.
+• XLF: JPM -3.2% 1W, financials softening. Banks under pressure from yield concerns.
+
+**EARNINGS ALERTS — addressing required:**
+• MRVL (reports 2026-08-27): CRITICAL — Google $120B custom chip expansion is a 'Marvell shock' per GuruFocus. 'Broadcom Stabilizes After Google's $120B Marvell Shock.' AMD falls as Google expands custom chip push. This is a direct thesis threat: MRVL's primary bull case was hyperscaler custom ASIC demand — Google now doing more in-house. MRVL +13.0% 1W (interesting that it held up) but the news is structurally negative. Fwd P/E 40.2x on 28% revenue growth is not cheap given the competitive threat. At +151.3% unrealized on 15 shares, I have massive profit to protect. The Google custom chip news fundamentally alters the hyperscaler dependency thesis. DECISION: SELL half (7 shares) to lock in gains before the binary earnings event, where the Google news could create a negative guidance revision. Keep 8 shares to maintain upside if MRVL beats. The earnings report on Aug 27 is a high-risk binary event given this new headwind.
+• NVDA (reports 2026-08-26): Anthropic IPO plans 'matching SpaceX's record IPO size' is a massive AI demand validation. Waymo building own chip is a small negative at the margin. NVDA fwd P/E 16.7x on 85% growth is still very attractive. Earnings are a potential major catalyst — Anthropic growth, AI capex cycle confirmation. NVDA -3.8% 1W into earnings but the setup is attractive given valuation. DECISION: HOLD all 30 shares into earnings. The bar for NVDA beat is reasonable given fwd P/E 16.7x and the Anthropic IPO confirming AI spending is real. Maintain stop at $165.68.
+
+**Positions:**
+• MRVL (long, +151.3%, EARNINGS ALERT Aug 27): Google $120B custom chip news is a 'Marvell shock' — direct competitive threat to MRVL's hyperscaler ASIC thesis. Trimming 7 of 15 shares to protect gains ahead of binary event.
+• AVGO (long, +0.5%): -12.9% 1W on same Google custom chip news. 'Broadcom seeking $60B+ for AI chip deal' is a counter-positive but the stock is breaking down. At +0.5% unrealized with 13 shares, the position is essentially flat and deteriorating rapidly. The Google headwind is real. Stop at $326.09 is ~10.4% below current $364.03. Close to triggering. Watching carefully — thesis is weakening.
+• MU (long, +164.9%): +2.6% 1W — memory defying the tech selloff! SK Hynix record buyback is a positive signal. '24/7 Wall St: Memory Defies the Tech Selloff.' MU fwd P/E 6.3x on 346% growth remains extraordinary. HOLD — memory is showing relative strength.
+• SNDK (long, +107.0%): +4.8% 1W — also defying the selloff. Motley Fool: David Tepper 'Dumped Appaloosa's Stake in Sandisk' — that's a notable negative (billionaire exit). But memory thesis intact with SK Hynix buyback. At 2 shares, small position. HOLD.
+• PANW (long, +62.1%): -11.7% 1W — sharp reversal. Morgan Stanley positive on agentic identity security (PANW beneficiary). Still +62% unrealized. Stop at $198.35 is well below at $349.56. Cybersecurity demand not going away but near-term momentum broken.
+• CSCO (long, +7.6%): -3.4% 1W — post-earnings cool-off. Transcript published, what they actually said. StockStory '1 S&P 500 Stock to Research Further' is mixed on CSCO. Fwd P/E 19.8x on 18% growth is fair. HOLD.
+• DDOG (long, +79.9%): -7.8% 1W. Dynatrace buying Arize for $915M (AI observability competitor acquisition). 'Rapid7, Tenable, CrowdStrike, Datadog Shares Plummet' per StockStory. Software broadly under pressure. At +79.9% unrealized, position has significant gains. Stop at $120.24 is far below. Monitoring thesis.
+• AXON (long, +20.3%): -0.2% 1W — near flat, dramatically outperforming benchmarks. IBD: 'AXON Rides Drone Momentum to Buy Point.' StockStory '3 High-Flying Stocks for Long-Term Investors' includes AXON. Stop at $469.75 has ample buffer at $614.26. Thesis strongly intact — law enforcement AI + drone momentum.
+• ABBV (long, +4.3%): +4.4% 1W — holding up well in the selloff. Healthcare defensive rotation working. Fwd P/E 16.1x is reasonable. HOLD.
+• TSM (long, +17.0%): -3.4% 1W. TSMC 2027 capex forecast reaches $85B per GuruFocus — massive investment confirming AI chip demand. Fwd P/E 19.1x on 36% growth with 50% margins. HOLD.
+• ARM (long, +74.0%): -10.0% 1W. '24/7 Wall St: The $2 Billion AI Signal Investors Shouldn't Ignore.' Druckenmiller took new ARM stake. Fwd P/E 81.9x is still elevated but the bar was reset lower and Druckenmiller buying is a strong institutional signal. HOLD — small position (4 shares).
+• DELL (long, +102.6%): -12.1% 1W. AI server thesis intact ('4 Stocks to Buy That Power AI Data Center Expansion' per Zacks includes DELL). But -15.4% from 52W high and deteriorating momentum. Stop at $201.77 is far below. HOLD.
+• WDC (long, +54.2%): -3.7% 1W. Jim Cramer names WDC 'indispensable' memory stock. Memory defying selloff. HOLD.
+• AMD (long, +113.2%): -2.8% 1W. Waymo building own chip reduces AMD dependence marginally. Cathie Wood 'fresh warning on AMD' per GuruFocus is a mild negative. Still +113% unrealized. Google custom chip push is the bigger concern (reducing demand for merchant silicon). Fwd P/E 30.4x on 50% growth is fair. HOLD — stop at $202.57 provides protection.
+
+**Cash:** Holding ~$61.5K (~50% of portfolio) — justified by: (1) broad market weakness with SPY/QQQ/SMH all negative 1W; (2) NVDA and MRVL earnings risk in next 7 days creating binary event uncertainty; (3) Google custom chip news changing hyperscaler ASIC thesis for MRVL/AVGO; (4) Walmart miss signaling consumer crack. Will deploy aggressively post-NVDA earnings if beat confirmed, or into defensive names if market continues to deteriorate. Trimming MRVL to protect gains and reduce earnings binary risk.
+**Benchmarks**: SPY 1D -0.8% | QQQ 1D -0.7% | SMH 1D +0.3%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | MRVL | 7 | $251.01 | Reducing from 15 to 8 shares — remaining position will be ~$2,008 (~1.6% of portfolio). Trimming 7 shares (~$1,757) locks in a portion of the +151.3% unrealized gain. Conviction reduced by: (1) Google's $120B custom chip expansion is a direct 'Marvell shock' — hyperscaler custom ASIC in-house is MRVL's core bull thesis; (2) earnings Aug 27 is a binary event where guidance could disappoint if Google shifts demand in-house; (3) broad semi weakness with SMH -4.5% 1W adds momentum headwind. Keeping 8 shares maintains upside participation if MRVL beats despite the Google news. Cannot exit entirely given the position's long history and potential AI ASIC diversification beyond Google. ⬛ P&L $+1,058.01 |
+
+**Portfolio after run**: Cash $63,293.58 | P&L $+13,121.21 (+13.12%) | Daily +3.82%
+
+---
+
