@@ -3194,3 +3194,45 @@ I will initiate a small starter position in ANET ahead of earnings.
 
 ---
 
+### 2026-08-20 17:35 ET — Run ID: long_term-20260820-1735
+**Market**: after-hours | 17:35 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF intensifying — SPY -2.0% 1W, QQQ -2.9% 1W, SMH -4.5% 1W; bond yields rising again (30-year at decade highs, Brent crude approaching $94), Walmart earnings miss dragging retail and triggering broader market selloff; 'market triggers bearish signal' per IBD; risk-off across the board
+• Fed/rates: Bond yields spiking again as Brent crude breaks $93-$94 — inflationary impulse from energy prices re-emerging; 30-year Treasury structural repricing continues; this remains the #1 macro headwind for high-multiple AI names; no Fed relief in sight
+• Growth cycle: WMT -10% on disappointing comparable sales growth — 'weakest US sales growth in 6 years'; consumer making 'trade-offs amid high fuel costs'; Deere beat and raised outlook on data center demand (construction equipment pivot); Ross Stores beat; consumer bifurcating between off-price (winners) and mass market (struggling)
+• Macro catalyst: (1) NVDA reports Aug 26 — CRITICAL; still the #1 portfolio catalyst of the year; at 16.7x fwd P/E for 85% growth, holding into earnings with high conviction; (2) MRVL reports Aug 27 — second most important catalyst; +164.6% unrealized; the $12.2B Google warrant deal and custom silicon thesis are fully validated; (3) AVGO seeking $60B+ for AI chip deal per Bloomberg/Reuters — this is an extraordinary signal of AI capex scale and validates AVGO as THE AI infrastructure consolidator; (4) Waymo building its own AI chip (reducing NVDA dependence) — a minor read but validates the custom silicon proliferation thesis broadly; (5) CRWD -15.6% 1W and reports Aug 26 — significant pre-earnings weakness on risk-off and valuation concern; (6) SNPS reports Aug 26 at 23.0x fwd P/E for 42% growth — attractive setup
+
+**Sectors:**
+• SMH (semis): -4.5% 1W — leading declines again; AVGO -12.9% 1W on MRVL-Google competitive read but AVGO seeking $60B for AI chip deal changes the narrative positively; ALAB -10% 1W, ARM -10% 1W both under bond yield pressure; MRVL +13% 1W extraordinary; MU +2.6% 1W outperforming again; ANET -9.8% 1W on continued Cisco read-through concern; chip equipment (AMAT -7.2%, KLAC -11.1%, LRCX -7.9%) continuing to sell off
+• IGV (software): CRWD -15.6% 1W ahead of Aug 26 earnings — market pricing in disappointment or valuation compression; PANW -11.7% 1W also weak; agentic identity security benefiting PANW per Morgan Stanley but stock under pressure; cybersecurity risk-off despite intact thesis
+• XLK (broad tech): MSFT -3.2% 1W; AMZN -1.9% 1W; GOOGL -1.7% 1W; broad tech under bond yield pressure but hyperscalers holding better than semis
+• XLY vs XLP: RISK-OFF consumer signal — WMT -10.3% 1W worst week since 2022; Walmart CFO noting consumer 'trade-offs' on fuel; Costco -2.3% sympathy; Ross Stores +7% as off-price wins; clear trade-down signal
+• XLE: Energy advancing sharply — CVX +5%, XOM +5.4%, Chevron crosses $93 Brent; oil is the macro headwind inflaming inflation concerns
+• XLV: Healthcare rotation continuing — MRK +9.9% 1W on cancer vaccine breakthrough; TMO +5.3%, REGN +2.7%, LLY +3.1%; defensive rotation intact
+• XLF: Financial stocks softer broadly; bond yield surge complex for banks; GS -3.9% 1W
+
+**Positions:**
+• NVDA (EARNINGS ALERT — reports Aug 26): HOLDING all 60 shares into earnings with maximum conviction. At 16.7x fwd P/E for 85% revenue growth with 63% margins, NVDA is the cheapest mega-cap relative to growth in the entire market. Blackwell demand unprecedented, hyperscaler capex arms race confirmed by AVGO's $60B+ AI chip deal news. Stock at -8.2% from 52W high — well off peak. The only risk is if Blackwell guidance disappoints, but every data point (TSMC +45% revenue, AVGO $60B AI deal, CoreWeave/Supermicro beats) confirms demand is exceptional. HOLD all 60 shares — this is the most important catalyst of the year and the valuation leaves ample room for upside.
+• MRVL (EARNINGS ALERT — reports Aug 27): HOLDING all 40 shares into earnings with maximum conviction. At +164.6% unrealized, the position is extraordinary. The $12.2B Google warrant deal announced last week is a direct earnings catalyst — this may already be partially baked but the Q2 earnings report will provide forward guidance on custom silicon pipeline. At 40.2x fwd P/E for 28% revenue growth with hyperscaler AI wins confirmed, the multiple is justified. MRVL +13% 1W demonstrates institutional support. Not trimming — the earnings should confirm the thesis and drive further upside. Stop at $83.49 provides huge cushion.
+• AVGO (long, +20.5% unreal): AVGO seeking $60B+ for AI chip deal per Bloomberg/Reuters — this is an extraordinary development that completely changes the MRVL-Google competitive narrative. AVGO is not losing to MRVL; it is pursuing a $60B+ acquisition to consolidate AI chip leadership. At 18.6x fwd P/E for 48% growth with 39% margins, this remains mis-priced relative to growth. HOLD — the acquisition signal is very bullish for the long-term thesis.
+• ALAB (long, +35.8% unreal): -10% 1W under continued bond yield and AI spending concern pressure; at 45.4x fwd P/E for 104% revenue growth thesis intact; stock at -41.8% from 52W high; HOLD
+• ARM (long, +74.0% unreal): -10% 1W bond yield pressure hitting highest-multiple names; at 81.9x fwd P/E still richly valued; stop at $122.51 provides cushion; thesis intact via CPU royalty model and AI silicon proliferation; HOLD
+• MU (long, +109.2% unreal): +2.6% 1W — outperforming SMH by 700bps again; SK Hynix +4% on record buyback shows memory sector strength; SNDK +4.8% 1W memory supercycle intact; at 6.3x fwd P/E for 346% growth this is extraordinary; HOLD with maximum conviction
+• ANET (long, -2.3% unreal): -9.8% 1W — approaching stop concern; Tom Lee recommends ANET; 'AI demand broadens as supply limits upside to 40% growth guide' — this is the earnings headline that matters; supply-constrained not demand-constrained; stop at $157.16 still 14.5% below $183.75; HOLD but watching
+• PANW (long, +106.6% unreal): -11.7% 1W — significant weakness; at 84.9x fwd P/E this is the most stretched position; Morgan Stanley positive on agentic identity security; 'Can Strong Enterprise AI Adoption Help PANW Challenge CRWD & ZS?' constructive; HOLD at 15 shares; China probe monitoring
+• META (long, +3.8% unreal): -8.3% 1W — youth safety trial intensifying to '$200B' liability framing; at 15.7x fwd P/E for 28% growth with 30% margins this remains fundamentally compelling but legal headwinds are real; weakest unrealized position; HOLD
+• MSFT (long, +34.9% unreal): -3.2% 1W; DeepSeek 'strong signal to NVDA investors' — worth monitoring but Azure AI thesis intact; at 20.4x fwd P/E for 18% growth; HOLD
+• GOOGL (long, 0.0% unreal): -1.7% 1W; Waymo building custom chip — GOOGL investing deeply in AI autonomy; Berkshire massive AI bet per Insider Monkey validation; at 22.8x fwd P/E for 24% growth with 55% margins; HOLD
+• AMZN (long, +25.4% unreal): -1.9% 1W; 'billionaire investor makes Amazon biggest stock bet' validation; at 25.1x fwd P/E for 20% growth; HOLD
+• TSM (long, +21.8% unreal): -3.4% 1W; TSMC 2027 capex forecast $85B per GuruFocus — extraordinary AI chip investment signal; at 19.1x fwd P/E for 36% growth with 50% margins; HOLD
+• COST (long, -5.1% unreal): -2.9% 1W; Walmart earnings miss dragging retail including Costco; 'Costco drops 2.3% as Walmart sounds consumer alarm'; tiny position at 3 shares; HOLD — Costco's membership model is defensively positioned vs Walmart's exposure
+• AMD (long, +32.1% unreal): -2.8% 1W; Cathie Wood sends fresh warning on AMD; Waymo building custom chip reduces AMD data center opportunity slightly; at 30.4x fwd P/E for 50% growth still attractive; HOLD
+
+**Cash:** Cash at $5,677 (~4.2% of portfolio) — strategic buffer ahead of the two most important earnings events of the year (NVDA Aug 26, MRVL Aug 27); no new positions appropriate given risk-off macro, bond yield spike, WMT consumer alarm, and dual earnings overhang; holding cash to potentially add on post-earnings pullbacks if results are strong.
+**Benchmarks**: SPY 1D -0.8% | QQQ 1D -0.7% | SMH 1D +0.3%
+
+
+**Portfolio after run**: Cash $5,677.28 | P&L $+29,754.43 (+29.75%) | Daily +0.22%
+
+---
+
