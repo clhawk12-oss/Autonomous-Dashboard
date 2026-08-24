@@ -2102,3 +2102,46 @@ Decision: HOLD all positions. No new entries. The CXMT memory shock + mega-cap e
 **Market**: after-hours | 17:28 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 12 column 6 (char 10605)
 
+### 2026-08-24 17:33 ET — Run ID: swing-20260824-1733
+**Market**: after-hours | 17:33 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF intensifying — SPY -1.2% 1W, QQQ -3.2% 1W, SMH -8.0% 1W. Semis leading the decline by a wide margin. IBD: 'Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings.' New Iran sanctions plan adding geopolitical pressure. The dominant narrative ahead of NVDA earnings tomorrow (Aug 26) is uncertainty — 'Nvidia's valuation looks surprisingly cheap heading into earnings' per Yahoo Finance suggesting the bar is low, but stocks are selling off pre-event.
+• Fed/rates: No new FOMC signals. Warsh hawkish stance persists. Jackson Hole speech expected this week — Warsh tone could be material. Bond yields elevated, creating multiple compression on growth names. PCE data also due this week per MT Newswires.
+• Macro catalyst: (1) NVDA earnings Aug 26 — the single most important market event this week; (2) New US sanctions on Iran's trading partners creating geopolitical risk premium; (3) Trump/Bessent comments sparking tech losses per IBD; (4) WMT -6.6% 1W confirming consumer spending deterioration thesis; (5) Wall Street rotating out of 2026's biggest winners per Yahoo Finance Chart of the Day — this is hitting memory names hard: WDC -18.8% 1W, SNDK -16.4% 1W, MU -10.0% 1W.
+
+**Sectors:**
+• SMH (semis): -8.0% 1W — brutal broad-based selloff. Memory names hardest hit: WDC -18.8% 1W, SNDK -16.4% 1W, MU -10.0% 1W, COHR -21.6% 1W, FN -29.6% 1W. Semi equipment: AMAT -9.4% 1W, KLAC -11.8% 1W, LRCX -9.8% 1W. MRVL -2.1% 1W (resilient ahead of earnings). AMD -9.7% 1W. AVGO -8.6% 1W. 'Wall Street rotating out of 2026's biggest winners' is the dominant driver.
+• IGV (software): CRWD -10.9% 1W into earnings Aug 26. DDOG -8.7% 1W. PANW -6.6% 1W. Software broadly weak but PANW holding relative strength.
+• XLK (broad tech): MSFT +1.6% 1W — notably outperforming with $678B backlog. NVDA -7.3% 1W into earnings. ARM -12.0% 1W.
+• XLY vs XLP: WMT -6.6% 1W — consumer deterioration confirmed. Healthcare outperforming: ABBV +5.7% 1W, VRTX +6.2% 1W, LLY +5.4% 1W, MRK +10.8% 1W. Defensive rotation strongly in place.
+• XLF: JPM -1.3% 1W modest weakness. Financials holding up better than tech.
+• XLE: CVX +1.1% 1W, XOM +1.6% 1W — energy modestly positive on Iran sanctions.
+
+**Positions:**
+• NVDA (long, +17.8%, EARNINGS ALERT Aug 26): Reports tomorrow. Stock -7.3% 1W into earnings — bar appears set low. Fwd P/E 16.0x on 85% growth is the cheapest it has been. Yahoo Finance: 'Nvidia's valuation looks surprisingly cheap heading into earnings.' Multiple AI demand validators: Anthropic, Waymo, data center capex. Guidance is the key — Jensen's confidence will matter. DECISION: HOLD all 30 shares. Risk/reward at fwd P/E 16x is compelling. Stop at $165.68 provides downside protection. The selloff into earnings on a name this cheap argues for holding.
+• MRVL (long, +129.6%, EARNINGS ALERT Aug 27): Reports tomorrow night (Aug 27). Trefis headline today: 'Marvell Technology Stock More Than Tripled On A Roadmap It Had Been Publishing All Along' — this is actually constructive framing. Stock -2.1% 1W showing remarkable resilience vs peers. Google custom chip headwind remains but Trefis framing suggests the market already knows. Still at 8 shares after prior trim. DECISION: HOLD 8 shares. Already trimmed from 15 to 8 ahead of last week's report. Further trimming would leave too small a position given the +129.6% unrealized gain thesis. The Trefis piece is constructive. Hold with stop at $87.29 (effectively irrelevant given distance).
+• MU (long, +147.5%): -10.0% 1W — 'Wall Street rotating out of 2026's biggest winners' is exactly what's happening. Fwd P/E 5.9x on 346% growth remains the most compelling fundamental in the portfolio. No thesis change — this is profit-taking rotation. HOLD with stop at $331.07.
+• WDC (long, +43.1%): -18.8% 1W — brutal weekly loss. StockStory: 'Micron, Seagate, Western Digital, Semtech, and Penguin Solutions Shares Are Falling.' 'Nasdaq's Biggest Losers Today' includes WDC. This is significant deterioration. At only 2 shares the position is small. Stop at $282.86 is far below $435.38. Monitoring but not selling into this capitulation.
+• SNDK (long, +93.1%): -16.4% 1W — also hit hard. Memory rotation trade unwinding. At 2 shares, very small position. Stop at $645.46 provides ultimate protection. HOLD.
+• AVGO (long, -1.0%): -8.6% 1W. Now -1.0% unrealized — essentially at breakeven. Broadcom credit risk rising on AI debt financing per Bloomberg. Stop at $326.09 is ~9.1% below current $358.76. The position is approaching the point of thesis failure — if NVDA earnings disappoint, AVGO could break down through stop. DECISION: TRIM AVGO — sell 6 of 13 shares to reduce exposure ahead of binary NVDA event and given flat/deteriorating P&L. This reduces position size and frees capital for better opportunities post-earnings.
+• DDOG (long, +74.6%): -8.7% 1W. CEO sold $11.1M in shares (Motley Fool). Dynatrace competitor buying Arize. At +74.6% unrealized this is still a winner but momentum broken. HOLD — stop at $120.24 well below.
+• DELL (long, +101.8%): -9.7% 1W. Morgan Stanley says Dell has 'toughest near-term earnings setup.' -15.7% from 52W high. AI server thesis intact but near-term pressure mounting. Stop at $201.77 far below. HOLD.
+• CSCO (long, +8.2%): -2.4% 1W. Insider Monkey: 'Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?' — the post-earnings selloff is disappointing. 24/7 Wall St: 'Forget Nvidia. Cisco Could Be a Hidden Winner From the AI Boom.' Trefis: 'Cisco Grows Into Its Multiple, And The Market Has To Do The Rest.' At fwd P/E 19.9x on 18% growth this is fairly valued. HOLD — stop at $94.74 far below.
+• PANW (long, +62.8%): -6.6% 1W. Barchart: analysts hike revenue forecasts, $433 PT. CrowdStrike earnings Aug 26 could be read-through. At +62.8% unrealized and strong thesis, HOLD. Stop at $198.35 provides protection.
+• TSM (long, +15.3%): -4.8% 1W. GuruFocus: 'TSMC Slides 2.3% as AI-Chip Confidence Suddenly Cracks.' GF Securities names MRVL and Intel as AI chip winners — TSM foundry thesis intact. Stop at $314.17 far below. HOLD.
+• AXON (long, +17.0%): -1.1% 1W — dramatically outperforming the market. '3 Market-Beating Stocks on Our Watchlist' per StockStory. 'Can Axon Enterprise Sustain Margin Performance Amid Rising Costs?' is the key question. At +17.0% unrealized with stop at $469.75 well below $597.59. HOLD — thesis intact.
+• ABBV (long, +5.4%): +5.7% 1W — outperforming! 'Billionaire Ken Griffin Just Loaded Up on AbbVie and Abbott' per Motley Fool — strong institutional signal. Healthcare defensive rotation working. Near ATH. HOLD — this is working exactly as intended.
+• ARM (long, +65.7%): -12.0% 1W. 'Arm Holdings Shifts Strategy to Sell Own Data Center Chips' — this is actually potentially positive long-term. Stop at $135.48 far below $238.78. HOLD — small position (4 shares).
+• AMD (long, +107.4%): -9.7% 1W. 'AMD Sinks 2.9% Before Nvidia's Critical Earnings Test.' NVDA earnings tomorrow are the read-through. Stop at $202.57 far below $456.74. HOLD.
+
+**Cash:** Holding ~$63.3K (~52% of portfolio) — justified by NVDA/MRVL earnings binary events tomorrow, broad semi selloff creating uncertainty, and rotation out of 2026 winners accelerating. Trimming AVGO (flat P&L, deteriorating) to reduce exposure. Will look to deploy post-NVDA earnings if beat is strong — either adding to NVDA, MU, SNDK, or entering a new defensive name. Cash level appropriate for current binary event risk.
+**Benchmarks**: SPY 1D -0.3% | QQQ 1D -1.0% | SMH 1D -2.4%
+
+| Action | Ticker | Shares | Price | Note |
+|--------|--------|--------|-------|------|
+| SELL | AVGO | 6 | $358.76 | AVGO represents ~4.1% of portfolio at 13 shares × $358.76. Selling 6 shares reduces to ~3.1% (7 shares × $358.76 = $2,511). Conviction: LOW — position is -1.0% unrealized, trending toward breakeven/loss, -8.6% 1W with Broadcom credit risk rising on AI debt per Bloomberg, and the Google custom chip headwind from prior week remains unresolved. Earnings read-through from NVDA tomorrow could push AVGO lower if AI capex narrative disappoints. Not selling all 13 because AVGO fwd P/E 18.4x on 48% growth still cheap if NVDA beats — want to maintain partial upside exposure. Fit: Reduces semi/AI chip concentration ahead of the most critical binary event of the cycle. ⬛ P&L $-20.80 |
+
+**Portfolio after run**: Cash $65,446.14 | P&L $+10,396.99 (+10.40%) | Daily -1.02%
+
+---
+
