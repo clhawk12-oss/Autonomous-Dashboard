@@ -3278,3 +3278,45 @@ I will initiate a small starter position in ANET ahead of earnings.
 
 ---
 
+### 2026-08-24 17:37 ET — Run ID: long_term-20260824-1737
+**Market**: after-hours | 17:37 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-OFF accelerating — SPY -1.2% 1W, QQQ -3.2% 1W, SMH -8.0% 1W; semis leading the decline sharply ahead of NVDA earnings; new Iran sanctions from Bessent creating geopolitical tail risk; tech stocks broadly under pressure with 'semiconductor stocks drag S&P 500, Nasdaq lower'; market tension before the most critical earnings event of the year
+• Fed/rates: Treasury buybacks unlikely to cut long rates per Goldman/Wells — structural higher-for-longer intact; Iran sanctions adding energy/oil inflation risk; dual pressure on high-multiple names continuing; no imminent Fed relief
+• Growth cycle: Amazon hiking hardware prices 60% due to memory shortage — directly bullish for MU thesis and validates memory scarcity; MSFT $678B backlog 'defies tech selloff'; GOOGL gaining while semis collapse per GuruFocus; META rising as 'advertising growth beats AI anxiety'; Broadcom credit risk rising on AI financing deals — worth monitoring
+• Macro catalyst: (1) NVDA reports Aug 26 — CRITICAL; market pricing in significant uncertainty with stock -7.3% 1W; at 16.0x fwd P/E for 85% growth this is extraordinary value; 'valuation looks surprisingly cheap heading into earnings' per Yahoo Finance; (2) MRVL reports Aug 27 — second critical catalyst; stock is biggest loser today per WSJ suggesting pre-earnings jitters; thesis remains ironclad with Google warrant validation; (3) CRWD, SNPS, OKTA all report Aug 26 — cluster of tech earnings creating sector-wide volatility; (4) Iran sanctions escalation — Bessent plan to choke Iran economy could spike oil and extend inflationary pressure
+
+**Sectors:**
+• SMH (semis): -8.0% 1W — dramatic underperformance; Intel -15.7% 1W, ALAB -13.3% 1W, ARM -12.0% 1W, MU -10.0% 1W, AVGO -8.6% 1W all in heavy drawdown; NVDA -7.3% 1W ahead of earnings; 'semiconductor stocks collapse' while GOOGL gains is the defining theme; FN -29.6% 1W extraordinary damage on Nvidia-related read-through; COHR -21.6% 1W continuing its decline post-stop-loss trigger
+• IGV (software): CRWD -10.9% 1W ahead of tomorrow's earnings; PANW -6.6% 1W despite Barchart $433 target and 21% upside call; software broadly under pressure in sympathy with hardware; SNPS -4.5% 1W ahead of tonight's earnings
+• XLK (broad tech): MSFT +1.6% 1W — relative outperformer; 'Microsoft rises as $678B backlog defies tech selloff' validates durable enterprise demand; AMZN essentially flat +0.3% 1W holding well; GOOGL +0.9% 1W actually positive — hyperscalers more defensive
+• XLY vs XLP: TGT +12.5% 1W — significant recovery after prior selloff suggesting some retail resilience; MA +6.7% 1W near ATH on stablecoin spending tripling; V +6.6% 1W also at ATH — payments infrastructure winning
+• XLF: JPM -1.3% 1W; GS -1.4% 1W; financial stocks mixed; Broadcom credit risk rising is a systemic note worth watching
+• XLV: LLY +5.4% 1W; VRTX +6.2% 1W; MRK +10.8% 1W extraordinary — defensive healthcare rotation continuing and accelerating as tech under pressure
+• XLE: Energy broadly mixed; CVX +1.1%, XOM +1.6% 1W; Iran sanctions could accelerate oil spike
+
+**Positions:**
+• NVDA (EARNINGS ALERT — reports Aug 26): HOLDING all 60 shares with maximum conviction. At 16.0x fwd P/E for 85% revenue growth with 63% margins, NVDA remains the single most compelling risk/reward in the entire market heading into earnings. The stock is -7.3% 1W and -11.8% from 52W high — market is pricing in significant uncertainty. But every data point (Amazon hiking hardware prices 60% on memory shortage, TSMC +45% revenue, AVGO AI chip deal, MSFT $678B backlog) confirms AI infrastructure demand is extraordinary. 'Nvidia's valuation looks surprisingly cheap heading into earnings' per Yahoo Finance. Anthropic, OpenAI, hyperscalers all competing for compute. The risk is macro-driven multiple compression NOT fundamental weakness. HOLD all 60 shares — this is the most important earnings event for the portfolio and the setup is exceptional. Not adding given cash constraints and existing 60-share position already meaningful.
+• MRVL (EARNINGS ALERT — reports Aug 27): HOLDING all 40 shares with high conviction. Stock is a 'biggest loser today' per WSJ — classic pre-earnings jitters after a massive run (+149.8% unrealized). The Trefis piece 'Marvell Technology Stock More Than Tripled On A Roadmap It Had Been Publishing All Along' is actually constructive — it validates that the move was fundamental not speculative. At 36.7x fwd P/E for 28% revenue growth with Google warrant deal confirmed, the thesis is iron-clad. Tomorrow's earnings should provide forward guidance on custom silicon pipeline — the most important forward-looking data point. HOLD all 40 shares. Stop at $83.49 provides enormous cushion.
+• AVGO (long, +18.7% unreal): -8.6% 1W; credit risk measures rising per Bloomberg/Investing.com on AI financing deals — this is worth monitoring but AVGO's underlying AI chip business is extraordinarily strong; 'Steve Cohen makes dramatic switch between 2 top AI giants' — worth noting; at 18.4x fwd P/E for 48% growth still undervalued; HOLD with stop at $255.58 far below
+• ALAB (long, +29.7% unreal): -13.3% 1W; 'Nasdaq's Biggest Losers Today' per WSJ; Credo vs ALAB comparison showing competitive dynamics; at 43.4x fwd P/E for 104% growth thesis remains intact; stock at -44.4% from 52W high and stop at $171.13 provides good cushion; HOLD
+• ARM (long, +65.7% unreal): -12.0% 1W; 'ARM shifts strategy to sell own data center chips' per Insider Monkey — this is actually a major positive thesis development (ARM moving from pure royalties to chip sales = higher revenue capture); 'Arm Holdings delivers strong growth but has valuation run too far?' at 78.0x fwd P/E legitimate question; bond yield pressure dominant; HOLD with stop at $122.51 far below $238.78
+• MU (long, +95.5% unreal): -10.0% 1W but Amazon hiking hardware prices 60% due to memory shortage is the single most bullish possible headline for MU; at 5.9x fwd P/E for 346% growth this is extraordinary; 'Micron, Seagate, Western Digital falling' per StockStory is sector sympathy not thesis break; HOLD maximum conviction
+• ANET (long, +0.1% unreal): -6.8% 1W; 'Arista Networks Is Buying Further Ahead Than It Can See' per Trefis constructive; 'Cisco grows into its multiple' — Cisco beat estimates suggesting network infrastructure demand intact; 'Forget Nvidia, Cisco could be hidden winner from AI boom' doesn't diminish ANET thesis; stop at $157.16 is 16.5% below current $188.15; thesis intact; HOLD
+• PANW (long, +107.4% unreal): -6.6% 1W; Barchart sees 21% upside to $433; 'CrowdStrike may have big surprise in store' could be positive read-through for cybersecurity sector tomorrow; Jim Cramer 'new world for PANW and CRWD'; at 85.2x fwd P/E still rich but thesis intact; HOLD
+• META (long, +6.3% unreal): -1.8% 1W; 'Meta rises as advertising growth beats AI anxiety' per GuruFocus — this is a strong thesis confirmation; 'advertising growth' headline directly validates the monetization thesis; youth safety trial continuing but stock recovering; at 16.1x fwd P/E for 28% growth with 30% margins this is the cheapest quality name in portfolio; HOLD
+• MSFT (long, +36.6% unreal): +1.6% 1W — outperforming; '$678B backlog defies tech selloff' is extraordinary; at 20.7x fwd P/E for 18% growth with 40% margins; HOLD with conviction
+• GOOGL (long, +0.0% unreal): +0.9% 1W holding well; 'Alphabet gains while semiconductor stocks collapse' per GuruFocus — GOOGL is now a relative safe haven in tech; at 23.3x fwd P/E for 24% growth with 55% margins still deeply undervalued; Waymo momentum; HOLD
+• AMZN (long, +26.3% unreal): +0.3% 1W essentially flat; 'Amazon hikes hardware prices 60%, blaming memory shortage' — directly validates AWS monetization power AND the MU thesis simultaneously; at 25.2x fwd P/E for 20% growth; HOLD
+• TSM (long, +20.1% unreal): -4.8% 1W; 'TSMC slides 2.3% as AI-chip confidence suddenly cracks' per GuruFocus — macro sentiment not fundamental; at 18.8x fwd P/E for 36% growth with 50% margins still exceptional; GF Securities picks TSM as AI chip winner; HOLD
+• COST (long, -1.3% unreal): +1.9% 1W; Costco defending tariff suit; AI search growth potential; tiny 3-share position; thesis intact; HOLD
+• AMD (long, +28.6% unreal): -9.7% 1W; 'AMD sinks 2.9% before Nvidia's critical earnings test' — sector sympathy; at 29.5x fwd P/E for 50% growth still attractive; HOLD
+
+**Cash:** Cash at $5,677 (~4.3% of portfolio) — appropriate strategic buffer ahead of the two most critical earnings events of the year (NVDA Aug 26, MRVL Aug 27); holding cash to potentially add on post-earnings dislocations if results are strong or on any macro-driven panic selling that creates exceptional entry points in our core names.
+**Benchmarks**: SPY 1D -0.3% | QQQ 1D -1.0% | SMH 1D -2.4%
+
+
+**Portfolio after run**: Cash $5,677.28 | P&L $+27,810.95 (+27.81%) | Daily -1.10%
+
+---
+
