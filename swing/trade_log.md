@@ -2145,3 +2145,54 @@ Decision: HOLD all positions. No new entries. The CXMT memory shock + mega-cap e
 
 ---
 
+### 2026-08-25 17:32 ET — Run ID: swing-20260825-1732
+**Market**: after-hours | 17:32 ET
+**Reasoning**: **Macro:**
+• Risk regime: MODEST RISK-ON recovery — SPY -0.2% 1W, QQQ -0.9% 1W, SMH -2.5% 1W. Benchmarks stabilizing after last week's brutal selloff. 'Investors rotate into tech stocks as inflation concerns ease' per Yahoo Finance AlphaCheck. NVDA earnings tonight (Aug 26) are the dominant market catalyst. IBD: 'Nasdaq Leads As Key Inflation Report Looms; Nvidia, Micron Gain.' AMD +1W strong on upgrade to Strong Buy. MRVL +11.3% 1W showing remarkable strength ahead of earnings tomorrow.
+• Fed/rates: Oil prices dropping on Iran sanctions easing signal — MT Newswires: 'Bond yields drop after US Treasury threatens economic sanctions on Iran.' This is dovish at the margin for equities. PCE data looming — still the key inflation read that could pressure multiples.
+• Macro catalyst: (1) NVDA earnings Aug 26 — THE event. Fwd P/E 16.3x on 85% growth, bar looks low. (2) AMD upgraded to Strong Buy by IBD — 'Why Nvidia rival AMD may see a 40% rip.' (3) MRVL +11.3% 1W — institutional rotation back into semis ahead of MRVL earnings Aug 27. (4) Iran sanctions tightening — oil falling, bond yields dropping — net positive for tech multiples. (5) FCX +20.5% 1W at 52W high — copper demand signal. (6) 'Software is crushing chips by a record margin' per Yahoo Finance Chart of the Day — important rotation signal.
+
+**Sectors:**
+• SMH (semis): -2.5% 1W but with major dispersion. MRVL +11.3% 1W, AMD -1.1% 1W stabilizing. Memory names still weak: WDC -9.2% 1W, SNDK -8.9% 1W, MU -0.8% 1W. Semi equipment: AMAT -6.6% 1W, KLAC -5.9% 1W — still under pressure. But MRVL and AMD showing green shoots.
+• IGV (software): 'Software is crushing chips by a record margin' — SNPS +1.1% 1W with 1.95x vol ratio (highest in universe). CRWD -12.9% 1W into earnings. PANW -9.2% 1W into earnings Sept 1. CSCO -0.4% 1W stable.
+• XLK (broad tech): MSFT +2.3% 1W, recovering. NVDA -3.0% 1W into earnings but Nasdaq leading today per IBD.
+• XLY vs XLP: WMT -8.3% 1W — consumer deterioration confirmed. TGT +7.2% 1W diverging. Risk-off consumer signal persists.
+• XLF: GS +1.8% 1W, JPM -1.8% 1W. Financials mixed. GS on Kiplinger hedge fund top picks list.
+• XLV: ABBV +2.6% 1W, VRTX +4.7% 1W, MRK +15.7% 1W at 52W high (-0.3%). Healthcare defensive rotation remains the strongest sector theme.
+• XLE: CVX -2.0% 1W, XOM -3.0% 1W — oil pulling back on Iran sanctions. Energy fading.
+
+**Earnings Alert Positions — REQUIRED:**
+• NVDA (reports tonight Aug 26): Stock -3.0% 1W, fwd P/E 16.3x on 85% growth. 'Valuation looks surprisingly cheap heading into earnings' per Yahoo Finance. 'Networking segment growing faster than compute' per Yahoo Finance Video. SpaceX orbital data center 2027 catalyst. IBD: 'NVDA Tests Key Support Level.' Bar appears set low. DECISION: HOLD all 30 shares. The thesis at fwd P/E 16.3x with 85% revenue growth is compelling. Jensen's guidance tone will be critical. Stop at $165.68 is ~22% below current $213.05 — adequate protection. Not trimming because: (1) valuation is genuinely cheap; (2) stock already down into earnings on SMH weakness; (3) a beat/guide-up would be powerful.
+• MRVL (reports Aug 27): +11.3% 1W — remarkable strength, stock at $240.38. '5-Star Analyst Tweaks Marvell Stock Price Target Ahead of Earnings.' 'MRVL Thrives on Data Center Growth Amid Networking Dominance.' AMD, MRVL, Semtech stocks trading up per StockStory. 'Why Marvell Earnings Matter More for an AI Revival Than Nvidia's' per Barrons — this is a KEY headline suggesting MRVL is the true sentiment test for the AI networking thesis. Google custom chip headwind is known. At 8 shares and +140.7% unrealized, I'm well-sized. DECISION: HOLD 8 shares. The Barrons framing that MRVL matters MORE than NVDA for AI revival is compelling. Stock +11.3% 1W showing institutional front-running of a beat. Networking dominance thesis intact. Stop at $87.29 is irrelevant — the real risk is an earnings miss.
+• DELL (reports Sept 1): -3.7% 1W. 'Dell Stock Massive Guidance Raise Has A Catch' per Trefis — this is the key nuance. 'Dell Technologies Says Agentic AI Will Redefine Work' per MarketBeat. 'DELL Stock Could Be Undervalued On Cash Flow' per Simply Wall St. At +110.3% unrealized on 3 shares (~$1,354 position), this is a small position with massive gains. DECISION: HOLD. At only 3 shares this is a minimal position, no need to trim. Agentic AI thesis is positive. Stop at $201.77 far below.
+• PANW (reports Sept 1): -9.2% 1W into earnings. 'Cybersecurity Stocks Priced For Big AI Growth. Earnings Could Bring Fireworks.' Analysts hike revenue forecasts, $433 PT. 'SaaSmageddon Survivors: 5 Top Software Stocks to Buy' includes PANW. At +57.7% unrealized on 7 shares, this is a moderate position. DECISION: HOLD. The -9.2% 1W pullback has reset the bar. Cybersecurity demand is structurally strong. IBD noting cybersecurity as next phase of tech trade. Stop at $198.35 far below at $339.90.
+
+**Positions:** 
+• MRVL (long, +140.7%, EARNINGS ALERT Aug 27): +11.3% 1W — institutional front-running of MRVL beat visible. Barrons: 'Why Marvell Earnings Matter More for an AI Revival Than Nvidia.' HOLD.
+• AMD (long, +117.6%): AMD upgraded to Strong Buy by IBD. 'Why Nvidia rival AMD may see a 40% rip.' 'AMD Just Got a Major AI Vote of Confidence.' -1.1% 1W but clearly gaining institutional momentum. HOLD.
+• MU (long, +153.6%): -0.8% 1W — stabilizing. 'Micron Rebounds 1.4% as $25 Billion Cash Engine Defies Memory Panic.' Fwd P/E 6.0x on 346% growth. HOLD.
+• SNDK (long, +91.5%): -8.9% 1W — memory still weak. 'SanDisk Stock Is On Sale, But Is The Company's New Strategy The Real Story?' Trefis constructive. HOLD at 2 shares.
+• WDC (long, +48.2%): -9.2% 1W. Jane Street turns bullish per TheStreet. Memory weakness persisting but stop at $282.86 far below. HOLD.
+• AVGO (long, -1.5%): -6.1% 1W, now -1.5% unrealized. 'Broadcom Stabilizes as Google Turns Custom Chips Into a Contest.' Stop at $326.09 is ~8.6% below $356.74. Position remains near breakeven/small loss. Will hold but watching closely — if NVDA earnings disappoint and AVGO breaks lower toward stop, will exit.
+• DDOG (long, +72.5%): -9.3% 1W. CEO sold $11.1M. 'DDOG vs. NOW: Which Cloud Software Stock Has an Edge Right Now?' At +72.5% unrealized, significant gains but momentum breaking. Stop at $120.24 far below. HOLD.
+• SNPS: +1.1% 1W with 1.95x vol ratio — highest institutional activity in the universe. Reports Aug 26 (tonight). Interesting but not held and earnings tonight is a binary event — will not chase.
+• ABBV (long, +5.9%): +2.6% 1W, near ATH. Healthcare defensive rotation. 'LLY vs ABBV: Which has stronger growth?' Holding up well. HOLD.
+
+**New opportunities:**
+• MRK: +15.7% 1W at 52W high (-0.3%). 1.25x vol ratio. 'Merck Just Gained 19% in a Month. What Would It Take to Get MRK Stock Up to $200?' Fwd P/E 16.4x on 5% growth — the cancer breakthrough earlier was the catalyst. This has run hard already. I flagged MRK as a potential second healthcare position last run but now it's at 52W high after a 15% week — not an ideal entry.
+• FCX: +20.5% 1W, AT 52W high. 1.11x vol ratio. Copper at all-time highs, China stimulus read-through. Fwd P/E 19.4x on -7% revenue growth (mining is lumpy). The momentum is extraordinary but entering after a 20% weekly surge is not my style.
+• TWST: +30.4% 1W, +75% 1M. 1.13x vol ratio. -2.3% from 52W high. Bioscience/DNA synthesis. Fwd P/E -239x (not profitable). Too speculative for current setup.
+• TEM: +39.2% 1W, +60.2% 1M. 1.21x vol ratio. Healthcare AI. But Tempus has n/a P/E and massive losses. Too speculative.
+• SNPS: +1.1% 1W with 1.95x vol ratio. Reports tonight — binary event, no entry.
+• CRWD: -12.9% 1W, reports tonight. 1.08x vol ratio. Previous stop triggered at -65%. Fwd P/E 118.3x is very expensive. Not re-entering ahead of binary event.
+
+**Post-NVDA positioning:** Tonight is the key inflection. If NVDA beats strongly: (1) will look to add AMD or MU on gap-up confirmation; (2) consider adding to NVDA if gap-up creates momentum. If NVDA misses: (1) AVGO stop at $326.09 becomes relevant; (2) will consider adding defensive positions. For now — holding the current portfolio, cash at 53% is appropriate for this binary event.
+
+**Cash:** Holding $65,446 (~53.6% of portfolio) — NVDA earnings tonight create maximum binary event risk. Cash level is appropriate. Post-NVDA will deploy aggressively into beat scenarios (AMD, MU, potential NVDA add) or defensively into healthcare/consumer staples on miss. Will not deploy cash ahead of the binary event.
+**Benchmarks**: SPY 1D +0.3% | QQQ 1D +0.6% | SMH 1D +1.7%
+
+
+**Portfolio after run**: Cash $65,446.14 | P&L $+11,259.77 (+11.26%) | Daily -1.06%
+
+---
+
