@@ -2200,3 +2200,10 @@ Decision: HOLD all positions. No new entries. The CXMT memory shock + mega-cap e
 **Market**: after-hours | 20:34 ET
 **ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Expecting ',' delimiter: line 22 column 6 (char 12760)
 
+### 2026-08-28 01:09 ET — Run ID: swing-20260828-0109
+**Market**: pre-market | 01:09 ET
+**ERROR**: Claude call failed: Claude call failed after 3 attempts. Last error: Could not extract JSON from response:
+```json
+{
+  "reasoning": "**Macro:**\n• Risk regime: RISK-ON recovery — NVDA blowout earnings reignited the AI trade. SPY +1.1% 1W, QQQ +1.4% 1W, SMH +1.8% 1W. IBD: 'Dow Jones Futures Rise With Fed Chief Warsh Due; Nvidia, These 7 Stocks Are In Buy Zones.' NVDA silenced the bears with record revenue and surprising guidance. Software stocks surging broadly: OKTA +28.9% 1W at 52W high (4.7x vol ratio!), CRWD +19.8% 1W at 52W high (2.68x vol ratio), RBRK +9.7% 1W (2.43x vol ratio), PANW +9.5% 1W. J
+
