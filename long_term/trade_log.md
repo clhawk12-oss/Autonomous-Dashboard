@@ -3450,3 +3450,47 @@ I will initiate a small starter position in ANET ahead of earnings.
 
 ---
 
+### 2026-08-28 23:12 ET — Run ID: long_term-20260828-2312
+**Market**: after-hours | 23:12 ET
+**Reasoning**: **Macro:**
+• Risk regime: RISK-ON with selective caution — SPY +0.5% 1W, QQQ +0.4% 1W, SMH -1.3% 1W; semis slightly lagging as post-NVDA earnings glow normalizes; broader market constructive with software leading (NOW +12.6% 1W, SNPS +11.2% 1W, OKTA +23% 1W); benchmarks at SPY +3.7% 1M and QQQ +4.8% 1M means portfolio must sustain its lead
+• Fed/rates: Warsh at Jackson Hole vowed to fight inflation — rate-hike odds ticked up modestly; this is a headwind for high-multiple AI names but the structural AI capex cycle magnitude continues to override rate concern; PCE pending
+• Growth cycle: MRVL Q2 beat on revenue but issued softer gross margin guidance and delayed Google deal revenue recognition — stock -8.6% 1W; CRWD +13.8% 1W at near-52W highs post best-ever quarter validates AI security demand; OKTA +23% 1W extraordinary — AI agent identity security demand is real; SNPS +11.2% 1W post-earnings beat confirms EDA software AI cycle; NOW +12.6% 1W strong — software broadly winning on AI demand
+• Macro catalyst: AVGO reports Sept 2 (tonight/tomorrow) — the critical earnings event; PANW reports Sept 1 — tomorrow; CRDO, DELL, SNOW, ZS, CIEN all report in next 7 days; ORCL Sept 10; Broadcom reportedly nearing $70B debt financing deal per Insider Monkey (for custom silicon acquisition) — validates the extraordinary scale of AI capex
+
+**Sectors:**
+• SMH (semis): -1.3% 1W — modest lagging vs benchmarks; MRVL -8.6% 1W on gross margin guide disappointment despite revenue beat; NVDA +1.3% 1W holding well post-beat; TSM -0.3% 1W flat; AVGO +0.1% 1W ahead of earnings tonight; optics stocks (COHR -3.6% 1W, AAOI -14.9% 1W) falling on MRVL Google deal timing concerns
+• IGV (software): Extraordinary strength — CRWD +13.8% 1W near 52W high; OKTA +23% 1W; SNPS +11.2% 1W; NOW +12.6% 1W; PANW +3.8% 1W ahead of earnings; software AI demand confirmation is unambiguous across the board
+• XLK (broad tech): MSFT +6.3% 1W outperforming strongly; AMZN +3% 1W; AAPL +3.4% 1W; broad tech risk-on
+• XLY vs XLP: META +5.1% 1W recovering strongly — advertising thesis intact; consumer names mixed
+• XLF: Financial stocks broadly stable; no major moves
+
+**Positions — EARNINGS ALERTS:**
+• AVGO (EARNINGS ALERT — reports Sept 2): HOLDING all 37 shares with HIGH conviction. +22% unrealized. AVGO +0.1% 1W essentially flat heading into the most important print of the AI custom silicon thesis. 'Broadcom nears $70B debt financing deal' per Insider Monkey — this is an extraordinary pre-earnings signal validating the scale of AVGO's AI ambitions. At 18.9x fwd P/E for 48% revenue growth with 39% margins, this remains deeply undervalued for its growth rate. The custom silicon pipeline with Google, Meta, Apple, and now OpenAI is the key forward indicator. CRWD/OKTA beating emphatically on AI security demand is the broader AI capex confirmation that directly benefits AVGO's XPU business. HOLD all 37 shares — the setup into tonight's print is exceptional. Not trimming — the fundamental case has never been stronger.
+• PANW (EARNINGS ALERT — reports Sept 1): HOLDING all 15 shares with HIGH conviction. +119.6% unrealized. PANW +3.8% 1W and +14.1% 1M — market has been pricing in a strong print. CRWD +13.8% 1W at near-52W highs post best-ever quarter, and OKTA +23% 1W — these are the most bullish possible read-throughs for PANW's platform and AI security thesis. 'CrowdStrike Just Had Its Best Quarter Ever' validates the cybersecurity AI demand cycle is fully intact. At 90.4x fwd P/E the valuation is stretched but the thesis is being confirmed by peers. Stop at $143.62 is very far below current $371.59. HOLD all 15 shares into tomorrow's earnings.
+
+**Positions — Material Updates:**
+• MRVL (long, +128.3% unreal): Stock -8.6% 1W — Motley Fool: 'Marvell's AI Bookings Are Stellar. But Its Gross Margin Guide Is What Moved the Stock.' The revenue and bookings beats were exceptional; the disappointment is specifically on gross margin guide compression due to greater custom silicon mix (a higher-volume, lower-margin business). This is NOT a thesis break — it is actually thesis confirmation that the custom silicon business is scaling rapidly. Google deal revenue recognition is delayed but not lost. The 'sell the news' reaction on a fundamentally strong quarter is a buying opportunity not a thesis break. HOLD all 40 shares with maximum conviction.
+• COHR (long, -5.2% unreal): Stock -3.6% 1W. 'Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?' per Insider Monkey — COHR is being dragged down by the MRVL Google deal timing concern (investors feared Google switching optics suppliers). This is an indirect, second-order reaction. COHR's PhotonLink platform and datacenter optics thesis is intact. Stop at $264.93 is 5.1% below current $279.20 — getting close. Watching carefully but thesis intact.
+• NVDA (long, +29.9% unreal): +1.3% 1W holding well post-earnings. 'Nvidia could hit a $13 trillion market cap, analyst says' per Yahoo Finance. Nancy Pelosi's husband bought 'millions of this AI power stock.' At 14.2x fwd P/E for 106% revenue growth this remains the most compelling fundamental setup in the market. HOLD 60 shares.
+• MSFT (long, +43.9% unreal): +6.3% 1W — strongest 1W performance in portfolio; 'Has Microsoft Stock Run Ahead Of Its AI Payoff?' per Trefis is the bear case question but at 21.8x fwd P/E for 18% growth with 40% margins it remains well-supported. HOLD.
+• MU (long, +100.3% unreal): -3.5% 1W — modest pullback; 'Prediction: This Is What a $1,000 Investment in Micron Stock Will Be Worth by 2030' per Motley Fool. At 6.0x fwd P/E for 346% revenue growth thesis remains extraordinary. HOLD.
+• ANET (long, +3.9% unreal): +3.6% 1W — recovering nicely; 'Is It Worth Investing in Arista Networks (ANET) Based on Wall Street's Bullish Views?' per Zacks is constructive; 'Arista's Price Assumes The Parts Arrive On Time' per Trefis flags the supply chain as the key risk. HOLD.
+• ARM (long, +65.9% unreal): -1.8% 1W slight pullback; 'ARM's Expanding AI Growth Opportunity Goes Beyond Market Hype' per Zacks confirms the CPU tollbooth thesis; IBM new mainframe processor combining IBM and ARM architecture validates the ecosystem expansion. HOLD.
+• ALAB (long, +35.3% unreal): +1.6% 1W recovering; 'This Under-the-Radar AI Stock Could Be the Next Big Semiconductor Winner' per 24/7 Wall St. At 45.3x fwd P/E for 104% growth thesis intact. HOLD.
+• META (long, +9.9% unreal): +5.1% 1W recovering strongly — 'Meta Glasses Are Transforming Warehouse Jobs' per Benzinga; Jio 9.9% stake now has public scoreboard per GuruFocus; Chamber of Commerce backing META in monopoly battle. At 16.6x fwd P/E for 28% growth with 30% margins, this is the cheapest quality internet name. HOLD.
+• GOOGL (long, 0.0% unreal): +0.3% 1W essentially flat; Druckenmiller bought TSM per Motley Fool; GOOGL's custom chip strategy is being validated. At 23.1x fwd P/E for 24% growth with 55% margins. HOLD.
+• AMZN (long, +28.4% unreal): +3% 1W strong; at 25.6x fwd P/E for 20% growth. HOLD.
+• AMD (long, +31.1% unreal): -1.6% 1W slight pullback; 'Broadcom vs. AMD: Which AI Chip Stock Has the Better Risk-Reward?' constructive comparison. At 30.1x fwd P/E for 50% growth. HOLD.
+• TSM (long, +22.3% unreal): -0.3% 1W flat; 'Billionaire Stanley Druckenmiller Just Bought Taiwan Semiconductor Stock. Is the Foundry Giant Still a Screaming Buy?' per Motley Fool — Druckenmiller buying TSM is major institutional validation. At 19.2x fwd P/E for 36% growth with 50% margins. HOLD.
+• COST (long, -3.9% unreal): -0.2% 1W essentially flat; 'A Costco Special Dividend Could Be Coming' per Motley Fool is a positive catalyst. Tiny 3-share position. HOLD.
+• PANW (long, +119.6% unreal): +3.8% 1W ahead of tomorrow earnings. As addressed in EARNINGS ALERT above. HOLD.
+
+**Cash:** Cash at $4,205 (~3.2% of portfolio) — holding strategic buffer into the two most important near-term catalysts (AVGO tonight, PANW tomorrow); once these prints are in, will reassess whether to deploy remaining cash into CRDO, DELL, or ZS which all report this week with compelling setups.
+**Benchmarks**: SPY 1D -0.2% | QQQ 1D -0.7% | SMH 1D -3.5%
+
+
+**Portfolio after run**: Cash $4,205.43 | P&L $+30,051.61 (+30.05%) | Daily -1.70%
+
+---
+
